@@ -72,7 +72,7 @@ Rendered programmatically with Python 3 + GeoPandas + Matplotlib using Natural E
 
 ## Credits
 
-Data work by **Varna** (MMSF Cohort 1) · Sangam Nirmaan Parichay
+Data work by **Varna**
 
 Part of [ImpactMojo](https://impactmojo.in) — Free development education for South Asia
 

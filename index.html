@@ -274,33 +274,47 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     padding: 0 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
 }
-.section-nav::-webkit-scrollbar { height: 0; }
+.section-nav::-webkit-scrollbar { height: 0; display: none; }
 .section-nav ul {
     display: flex;
     list-style: none;
     max-width: 1280px;
     margin: 0 auto;
-    gap: 0;
+    gap: 4px;
+    padding: 8px 0;
 }
 .section-nav a {
     display: block;
-    padding: 12px 14px;
+    padding: 6px 12px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     text-decoration: none;
     color: var(--text-muted);
     white-space: nowrap;
-    border-bottom: 3px solid transparent;
+    border-radius: 20px;
+    border: 1px solid transparent;
     transition: all 0.2s;
 }
-.section-nav a:hover,
-.section-nav a.active {
+.section-nav a:hover {
     color: var(--accent-color);
-    border-bottom-color: var(--accent-color);
+    background: rgba(14, 165, 233, 0.08);
+    border-color: rgba(14, 165, 233, 0.2);
+}
+.section-nav a.active {
+    color: white;
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    .section-nav { padding: 0 8px; }
+    .section-nav ul { gap: 4px; padding: 6px 0; }
+    .section-nav a { font-size: 0.65rem; padding: 5px 10px; }
 }
 
 /* ── FILTER BAR ── */
@@ -506,12 +520,44 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
     .hero { padding: 80px 16px 32px; }
-    .hero h1 { font-size: 1.8rem; }
-    .hero-stats { gap: 1.5rem; }
-    .map-grid { grid-template-columns: 1fr; }
-    .section { padding: 32px 16px 24px; }
+    .hero h1 { font-size: 1.6rem; }
+    .hero .subtitle { font-size: 0.92rem; }
+    .hero-stats { gap: 1rem; }
+    .hero-stat .number { font-size: 1.5rem; }
+    .hero-stat .label { font-size: 0.68rem; }
+    .hero .method-link { padding: 8px 18px; font-size: 0.82rem; }
+    .map-grid { grid-template-columns: 1fr; gap: 14px; }
+    .map-card .card-body { padding: 12px 14px; }
+    .map-card h3 { font-size: 0.88rem; }
+    .map-card .takeaway { font-size: 0.8rem; }
+    .section { padding: 28px 12px 20px; }
+    .section-header { padding-left: 14px; margin-bottom: 20px; }
+    .section-header h2 { font-size: 1.2rem; }
+    .section-header p { font-size: 0.82rem; }
     .nav-right a.hide-mobile { display: none; }
     .paper-plane { display: none; }
+    .filter-bar { padding: 14px 12px 0; gap: 8px; }
+    .filter-bar input { min-width: 0; flex: 1 1 100%; font-size: 0.82rem; padding: 8px 12px; }
+    .filter-bar select { flex: 1 1 calc(50% - 4px); font-size: 0.78rem; padding: 8px 10px; }
+    .filter-bar .result-count { flex: 1 1 100%; text-align: center; font-size: 0.78rem; }
+    .lightbox { padding: 12px; }
+    .lightbox img { max-width: 100%; border-radius: 4px; }
+    .site-footer { padding: 32px 16px; }
+    .site-footer p { font-size: 0.75rem; }
+}
+
+@media (max-width: 480px) {
+    .nav-container { padding: 0 12px; height: 52px; }
+    .logo-container img { width: 28px; height: 28px; }
+    .logo-main { font-size: 0.95rem; }
+    .logo-tagline { font-size: 0.58rem; }
+    .hero { padding: 68px 12px 24px; }
+    .hero h1 { font-size: 1.35rem; }
+    .hero .subtitle { font-size: 0.82rem; margin-bottom: 18px; }
+    .hero-stats { gap: 0.6rem; }
+    .hero-stat .number { font-size: 1.3rem; }
+    .section-nav { top: 52px; }
+    .map-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -615,8 +661,8 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 
 <!-- Footer -->
 <footer class="site-footer">
-    <p>Data work courtesy <strong>Varna</strong> (MMSF Cohort 1) &middot; Sangam Nirmaan Parichay</p>
-    <p>Maps rendered with Python 3 + GeoPandas + Matplotlib &middot; <a href="methodology.html">Full methodology</a></p>
+    <p>Data work by <strong>Varna</strong> &middot; Maps rendered with Python 3 + GeoPandas + Matplotlib</p>
+    <p><a href="methodology.html">Full methodology</a></p>
     <p>Part of <a href="https://www.impactmojo.in">ImpactMojo</a> — Free development education for South Asia</p>
     <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools, not standalone data references.</p>
 </footer>
