@@ -6,7 +6,7 @@ A visual atlas for understanding why India's states are different — and why it
 
 > Kerala's life expectancy (77 years) exceeds Chhattisgarh's (64) by 13 years. Bihar's female labour force participation is 10x lower than Himachal Pradesh's. Rajasthan is 60% vegetarian; Bengal is under 5%. India is not one country when it comes to development outcomes.
 
-**Live site:** [india.impactmojo.in](https://india.impactmojo.in)
+**Live site:** [howindialives.impactmojo.in](https://howindialives.impactmojo.in)
 
 ---
 
@@ -54,7 +54,7 @@ This project arms educators, journalists, students, and policymakers with the vi
 | Government Dashboards | MGNREGA, JJM, PMFBY, UDISE+, DPIIT | ~20 |
 | Other | IMD, CGWB, FSI, ECI, ADR, TRAI, RBI, NASA VIIRS, Pew | ~35 |
 
-Full methodology: [methodology.html](https://india.impactmojo.in/methodology.html)
+Full methodology: [methodology.html](https://howindialives.impactmojo.in/methodology.html)
 
 ## Project Structure
 

@@ -30,7 +30,7 @@ The project exists because one-size-fits-all policy doesn't work for a country w
 
 ## How to use
 
-1. Visit [india.impactmojo.in](https://india.impactmojo.in)
+1. Visit [howindialives.impactmojo.in](https://howindialives.impactmojo.in)
 2. Browse themes or search for a specific indicator
 3. Click any card to see the full map, key takeaway, and policy implication
 4. Download maps for presentations (CC BY-NC-SA 4.0)
