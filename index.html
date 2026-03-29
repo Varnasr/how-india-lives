@@ -466,6 +466,138 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 .tag.quality-new { background: rgba(245,158,11,0.1); color: #D97706; }
 .tag.quality-uncertain { background: rgba(239,68,68,0.1); color: #DC2626; }
 
+/* ── ABOUT OVERLAY (Ctrl+K) ── */
+.about-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+    z-index: 3000;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 20px;
+    overflow-y: auto;
+}
+.about-overlay.active { display: flex; }
+.about-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    max-width: 640px;
+    width: 100%;
+    box-shadow: var(--shadow-xl);
+    animation: aboutSlideIn 0.2s ease-out;
+}
+@keyframes aboutSlideIn {
+    from { opacity: 0; transform: translateY(-12px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.about-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px 0;
+}
+.about-panel-header h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.about-panel-close {
+    background: var(--hover-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    transition: all 0.15s;
+}
+.about-panel-close:hover { background: var(--border-color); color: var(--text-primary); }
+.about-panel-body {
+    padding: 16px 24px 24px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+.about-panel-body p { margin-bottom: 12px; }
+.about-panel-body strong { color: var(--text-primary); }
+.about-panel-body .about-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 16px 0;
+    text-align: center;
+}
+.about-panel-body .about-stat-item {
+    background: var(--secondary-bg);
+    border-radius: 10px;
+    padding: 12px 8px;
+}
+.about-panel-body .about-stat-num {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    display: block;
+}
+.about-panel-body .about-stat-label {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.about-panel-body .about-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+.about-panel-body .about-sources span {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    background: var(--hover-bg);
+    color: var(--text-muted);
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+.about-kbd {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    background: var(--hover-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: var(--text-muted);
+}
+.about-trigger-btn {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.6);
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.15s;
+}
+html[data-theme="dark"] .about-trigger-btn { border-color: rgba(0,0,0,0.2); color: rgba(0,0,0,0.5); }
+.about-trigger-btn:hover { background: rgba(255,255,255,0.1); color: white; }
+html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); color: #0F172A; }
+
+@media (max-width: 768px) {
+    .about-overlay { padding: 24px 12px; }
+    .about-panel-body .about-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ── LIGHTBOX ── */
 .lightbox {
     display: none;
@@ -579,6 +711,9 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
         <div class="nav-right">
             <a href="methodology.html" class="hide-mobile">Methodology</a>
             <a href="https://www.impactmojo.in" class="hide-mobile">ImpactMojo</a>
+            <button class="about-trigger-btn" onclick="toggleAbout()" title="About this project (Ctrl+K)">
+                About <span class="about-kbd">Ctrl K</span>
+            </button>
             <div class="theme-selector">
                 <button class="theme-btn" data-theme="system" title="System theme" aria-label="System theme">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
@@ -652,6 +787,32 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 
 <!-- Main content — populated by JS -->
 <main id="main"></main>
+
+<!-- About Overlay (Ctrl+K) -->
+<div class="about-overlay" id="about-overlay">
+    <div class="about-panel">
+        <div class="about-panel-header">
+            <h2>About How India Lives</h2>
+            <button class="about-panel-close" onclick="toggleAbout()" aria-label="Close">&times;</button>
+        </div>
+        <div class="about-panel-body">
+            <p><strong>India is not one country when it comes to development outcomes.</strong> Kerala's life expectancy (77 years) exceeds Chhattisgarh's (64) by 13 years. Bihar's female labour force participation is 10x lower than Himachal Pradesh's. Rajasthan is 60% vegetarian; Bengal is under 5%.</p>
+            <p>This project makes that diversity visible — <strong>205 choropleth maps</strong>, one indicator at a time, across all 28 states and 8 union territories. It exists because one-size-fits-all policy doesn't work for a country this different.</p>
+            <div class="about-stats">
+                <div class="about-stat-item"><span class="about-stat-num">205</span><span class="about-stat-label">Maps</span></div>
+                <div class="about-stat-item"><span class="about-stat-num">36</span><span class="about-stat-label">States & UTs</span></div>
+                <div class="about-stat-item"><span class="about-stat-num">12</span><span class="about-stat-label">Themes</span></div>
+                <div class="about-stat-item"><span class="about-stat-num">7+</span><span class="about-stat-label">Sources</span></div>
+            </div>
+            <p><strong>Why does this matter?</strong> Policy debates in India often assume national averages. But an average of Kerala and Bihar is a fiction that helps no one. These maps arm educators, journalists, students, and policymakers with the visual proof that context-specific policy design is not a luxury — it's a necessity.</p>
+            <p><strong>Data sources:</strong></p>
+            <div class="about-sources">
+                <span>NFHS-5</span><span>Census 2011</span><span>PLFS</span><span>NCRB</span><span>NHA</span><span>SRS</span><span>RBI</span><span>UDISE+</span><span>IMD</span><span>ECI</span><span>NACO</span>
+            </div>
+            <p style="margin-top:16px;font-size:0.82rem;">Part of <a href="https://www.impactmojo.in" style="color:var(--accent-color);">ImpactMojo</a> — free development education for South Asia. Maps are pedagogical tools designed for facilitated discussion. For policy or academic citation, consult the underlying source publications directly.</p>
+        </div>
+    </div>
+</div>
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
@@ -780,7 +941,19 @@ function closeLightbox() {
     document.body.style.overflow = '';
 }
 document.getElementById('lightbox').addEventListener('click', e => { if (e.target === e.currentTarget) closeLightbox(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeLightbox(); closeAbout(); }
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); toggleAbout(); }
+});
+
+// ── About Overlay ──
+function toggleAbout() {
+    document.getElementById('about-overlay').classList.toggle('active');
+}
+function closeAbout() {
+    document.getElementById('about-overlay').classList.remove('active');
+}
+document.getElementById('about-overlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeAbout(); });
 
 // ── Filter ──
 const searchEl = document.getElementById('search');
