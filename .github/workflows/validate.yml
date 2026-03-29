@@ -1,0 +1,54 @@
+name: Validate Maps Data
+
+on:
+  pull_request:
+    paths:
+      - 'data/maps.json'
+      - 'maps/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        run: python3 -c "import json; json.load(open('data/maps.json'))"
+
+      - name: Check all map files exist
+        run: |
+          python3 -c "
+          import json, os, sys
+          maps = json.load(open('data/maps.json'))
+          missing = []
+          for m in maps:
+              if m.get('file'):
+                  path = f\"maps/{m['section']}/{m['file']}\"
+                  if not os.path.exists(path):
+                      missing.append(path)
+          if missing:
+              print(f'Missing {len(missing)} map files:')
+              for p in missing[:20]:
+                  print(f'  - {p}')
+              sys.exit(1)
+          print(f'All {len(maps)} map entries validated.')
+          "
+
+      - name: Check required fields
+        run: |
+          python3 -c "
+          import json, sys
+          maps = json.load(open('data/maps.json'))
+          errors = []
+          required = ['id', 'title', 'section', 'source']
+          for m in maps:
+              for f in required:
+                  if not m.get(f):
+                      errors.append(f\"{m.get('id','?')}: missing {f}\")
+          if errors:
+              print(f'{len(errors)} validation errors:')
+              for e in errors[:20]:
+                  print(f'  - {e}')
+              sys.exit(1)
+          print(f'All {len(maps)} entries have required fields.')
+          "
