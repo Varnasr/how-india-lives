@@ -1037,6 +1037,56 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     flex: 1;
 }
 
+/* Related maps */
+.related-maps {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+}
+.related-maps-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+.related-maps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.related-map-item {
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    transition: all 0.2s;
+}
+.related-map-item:hover {
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow-md);
+}
+.related-map-item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+.related-map-item span {
+    display: block;
+    padding: 6px 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* Fullscreen zoom from detail */
 .fullscreen-img {
     display: none;
@@ -1346,6 +1396,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
                 </button>
                 <span class="detail-license">Data from official government publications. Maps are pedagogical tools for facilitated discussion, not standalone data references. CC BY-NC-SA 4.0.</span>
             </div>
+            <div class="related-maps" id="related-maps"></div>
         </div>
     </div>
 </div>
@@ -1616,9 +1667,38 @@ function openDetail(mapId) {
     if (m.tags) m.tags.forEach(t => { metaHtml += `<span class="tag">${t}</span>`; });
     document.getElementById('detail-meta').innerHTML = metaHtml;
 
+    // Related maps: same section or shared tags, excluding current
+    const related = findRelated(m, 3);
+    const relEl = document.getElementById('related-maps');
+    if (related.length) {
+        relEl.innerHTML = `<div class="related-maps-title">If this surprised you, also see</div>
+            <div class="related-maps-grid">${related.map(r => {
+                const rSrc = r.file ? `maps/${r.section}/${r.file}` : '';
+                return `<div class="related-map-item" onclick="event.stopPropagation(); openDetail('${r.id}')">
+                    ${rSrc ? `<img src="${rSrc}" alt="${r.title}" loading="lazy">` : ''}
+                    <span>${r.title}</span>
+                </div>`;
+            }).join('')}</div>`;
+    } else {
+        relEl.innerHTML = '';
+    }
+
     document.getElementById('detail-overlay').classList.add('active');
     document.body.style.overflow = 'hidden';
     history.replaceState(null, '', `#map/${mapId}`);
+}
+
+function findRelated(m, count) {
+    const myTags = new Set((m.tags || []).map(t => t.toLowerCase()));
+    const candidates = ALL_MAPS.filter(c => c.id !== m.id && c.file);
+    // Score: same section +2, shared tag +1 each
+    const scored = candidates.map(c => {
+        let score = c.section === m.section ? 2 : 0;
+        (c.tags || []).forEach(t => { if (myTags.has(t.toLowerCase())) score += 1; });
+        return { map: c, score };
+    }).filter(s => s.score > 0);
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, count).map(s => s.map);
 }
 
 function navMap(dir) {
