@@ -198,91 +198,170 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 .hero {
     background: var(--secondary-bg);
     border-bottom: 1px solid var(--border-color);
-    padding: 100px 24px 48px;
-    text-align: center;
+    padding: 84px 24px 40px;
     position: relative;
     overflow: hidden;
 }
-.hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(14, 165, 233, 0.08) 0%, transparent 70%);
-    pointer-events: none;
+.hero-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
 }
-.hero h1 {
+.hero-text { position: relative; }
+.hero-text h1 {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
     font-weight: 800;
     margin-bottom: 12px;
-    position: relative;
+    line-height: 1.15;
 }
-.hero h1 span {
+.hero-text h1 span {
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.hero .subtitle {
+.hero-text .subtitle {
     color: var(--text-secondary);
-    font-size: 1.05rem;
-    max-width: 680px;
-    margin: 0 auto 28px;
-    position: relative;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 .hero-stats {
     display: flex;
-    justify-content: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .hero-stat { text-align: center; }
 .hero-stat .number {
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent-color);
+    display: block;
 }
 .hero-stat .label {
-    font-size: 0.78rem;
+    font-size: 0.68rem;
     color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
-.hero .method-link {
-    display: inline-block;
-    padding: 10px 24px;
-    background: var(--text-primary);
-    color: var(--primary-bg);
-    text-decoration: none;
+.hero-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.hero .method-link,
+.hero .surprise-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
     border-radius: 8px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     transition: all 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+.hero .method-link {
+    background: var(--text-primary);
+    color: var(--primary-bg);
 }
 .hero .method-link:hover { background: var(--accent-color); color: white; }
-
-/* Paper plane */
-.paper-plane {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 25%;
-    right: 8%;
-    animation: float 6s ease-in-out infinite;
-    opacity: 0.12;
-    pointer-events: none;
+.hero .surprise-btn {
+    background: transparent;
+    color: var(--accent-color);
+    border: 1.5px solid var(--accent-color);
 }
-@keyframes float {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-15px) rotate(5deg); }
+.hero .surprise-btn:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Featured map spotlight */
+.hero-spotlight {
+    position: relative;
+    cursor: pointer;
+}
+.hero-spotlight-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.hero-spotlight-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+}
+.hero-spotlight-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: var(--secondary-bg);
+    overflow: hidden;
+}
+.hero-spotlight-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.hero-spotlight-img img.loaded { opacity: 1; }
+.hero-spotlight-body {
+    padding: 14px 18px;
+}
+.hero-spotlight-body h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.3;
+    color: var(--text-primary);
+}
+.hero-spotlight-body p {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+.hero-spotlight-section {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--accent-color);
+    margin-bottom: 6px;
+}
+.hero-spotlight-progress {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 12px;
+}
+.hero-spotlight-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border-color);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.hero-spotlight-dot.active {
+    background: var(--accent-color);
+    width: 20px;
+    border-radius: 3px;
 }
 
 /* ── SECTION NAV ── */
@@ -808,13 +887,20 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-    .hero { padding: 80px 16px 32px; }
-    .hero h1 { font-size: 1.6rem; }
-    .hero .subtitle { font-size: 0.92rem; }
-    .hero-stats { gap: 1rem; }
-    .hero-stat .number { font-size: 1.5rem; }
-    .hero-stat .label { font-size: 0.68rem; }
-    .hero .method-link { padding: 8px 18px; font-size: 0.82rem; }
+    .hero { padding: 72px 16px 28px; }
+    .hero-inner { grid-template-columns: 1fr; gap: 24px; }
+    .hero-text { text-align: center; }
+    .hero-text h1 { font-size: 1.6rem; }
+    .hero-text .subtitle { font-size: 0.88rem; }
+    .hero-stats { justify-content: center; gap: 1rem; }
+    .hero-stat .number { font-size: 1.3rem; }
+    .hero-stat .label { font-size: 0.65rem; }
+    .hero-actions { justify-content: center; }
+    .hero .method-link, .hero .surprise-btn { padding: 8px 16px; font-size: 0.82rem; }
+    .hero-spotlight-card { border-radius: 10px; }
+    .hero-spotlight-body { padding: 10px 14px; }
+    .hero-spotlight-body h3 { font-size: 0.82rem; }
+    .hero-spotlight-body p { font-size: 0.78rem; }
     .map-grid { grid-template-columns: 1fr; gap: 14px; }
     .map-card .card-body { padding: 12px 14px; }
     .map-card h3 { font-size: 0.88rem; }
@@ -838,11 +924,11 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     .logo-container img { width: 28px; height: 28px; }
     .logo-main { font-size: 0.95rem; }
     .logo-tagline { font-size: 0.58rem; }
-    .hero { padding: 68px 12px 24px; }
-    .hero h1 { font-size: 1.35rem; }
-    .hero .subtitle { font-size: 0.82rem; margin-bottom: 18px; }
+    .hero { padding: 60px 12px 20px; }
+    .hero-text h1 { font-size: 1.35rem; }
+    .hero-text .subtitle { font-size: 0.8rem; }
     .hero-stats { gap: 0.6rem; }
-    .hero-stat .number { font-size: 1.3rem; }
+    .hero-stat .number { font-size: 1.1rem; }
     .section-nav { top: 52px; }
     .map-grid { grid-template-columns: 1fr; }
 }
@@ -886,18 +972,37 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 <!-- Hero -->
 <section class="hero">
-    <svg class="paper-plane" viewBox="0 0 200 200"><path d="M50,150 L150,50 L50,100 L80,130 Z" fill="none" stroke="#0EA5E9" stroke-width="3"/><path d="M80,130 L150,50" stroke="#10B981" stroke-width="2" stroke-dasharray="4,4"/><circle cx="150" cy="50" r="4" fill="#0EA5E9"/></svg>
-    <h1>How <span>India</span> Lives</h1>
-    <p class="subtitle">
-        205 state-level maps revealing how different India's states truly are — on health, wealth, gender, food, faith, work, and everything in between. A visual atlas for understanding why one-size-fits-all policy doesn't work.
-    </p>
-    <div class="hero-stats">
-        <div class="hero-stat"><span class="number">205</span><span class="label">Maps</span></div>
-        <div class="hero-stat"><span class="number">36</span><span class="label">States & UTs</span></div>
-        <div class="hero-stat"><span class="number">12</span><span class="label">Themes</span></div>
-        <div class="hero-stat"><span class="number">7+</span><span class="label">Data Sources</span></div>
+    <div class="hero-inner">
+        <div class="hero-text">
+            <h1>How <span>India</span> Lives</h1>
+            <p class="subtitle">
+                205 state-level maps revealing how different India's states truly are — on health, wealth, gender, food, faith, work, and everything in between.
+            </p>
+            <div class="hero-stats">
+                <div class="hero-stat"><span class="number">205</span><span class="label">Maps</span></div>
+                <div class="hero-stat"><span class="number">36</span><span class="label">States & UTs</span></div>
+                <div class="hero-stat"><span class="number">12</span><span class="label">Themes</span></div>
+                <div class="hero-stat"><span class="number">7+</span><span class="label">Sources</span></div>
+            </div>
+            <div class="hero-actions">
+                <a href="methodology.html" class="method-link">Methodology</a>
+                <button class="surprise-btn" onclick="surpriseMe()">Surprise Me</button>
+            </div>
+        </div>
+        <div class="hero-spotlight" id="hero-spotlight">
+            <div class="hero-spotlight-card" onclick="openSpotlightDetail()">
+                <div class="hero-spotlight-img">
+                    <img id="spotlight-img" src="" alt="" loading="eager">
+                </div>
+                <div class="hero-spotlight-body">
+                    <span class="hero-spotlight-section" id="spotlight-section"></span>
+                    <h3 id="spotlight-title"></h3>
+                    <p id="spotlight-takeaway"></p>
+                </div>
+            </div>
+            <div class="hero-spotlight-progress" id="spotlight-progress"></div>
+        </div>
     </div>
-    <a href="methodology.html" class="method-link">Read the Methodology</a>
 </section>
 
 <!-- Section Nav -->
@@ -1058,12 +1163,92 @@ const SECTION_META = {
     'reproductive-choices': { title: 'Reproductive Choices', desc: 'Contraception, sterilisation, family planning — where reproductive autonomy varies most sharply.' }
 };
 
+// ── Featured Spotlight ──
+const SPOTLIGHT_PICKS = [
+    'S00a', 'S12a', 'S06a', 'S02a', 'S04a', 'S08a', 'S10a', 'S01a'
+];
+let spotlightIndex = 0;
+let spotlightInterval = null;
+let spotlightMaps = [];
+
+function initSpotlight() {
+    // Pick curated maps, fallback to first of each section
+    spotlightMaps = SPOTLIGHT_PICKS.map(id => ALL_MAPS.find(m => m.id === id)).filter(Boolean);
+    if (spotlightMaps.length < 3) {
+        const seen = new Set();
+        ALL_MAPS.forEach(m => {
+            if (!seen.has(m.section) && m.file && m.takeaway) {
+                seen.add(m.section);
+                spotlightMaps.push(m);
+            }
+        });
+        spotlightMaps = spotlightMaps.slice(0, 8);
+    }
+    if (!spotlightMaps.length) return;
+
+    // Build progress dots
+    const prog = document.getElementById('spotlight-progress');
+    prog.innerHTML = spotlightMaps.map((_, i) =>
+        `<button class="hero-spotlight-dot${i === 0 ? ' active' : ''}" onclick="goSpotlight(${i})" aria-label="Map ${i+1}"></button>`
+    ).join('');
+
+    showSpotlight(0);
+    spotlightInterval = setInterval(() => {
+        spotlightIndex = (spotlightIndex + 1) % spotlightMaps.length;
+        showSpotlight(spotlightIndex);
+    }, 8000);
+}
+
+function showSpotlight(idx) {
+    spotlightIndex = idx;
+    const m = spotlightMaps[idx];
+    if (!m) return;
+    const src = m.file ? `maps/${m.section}/${m.file}` : '';
+    const sectionMeta = SECTION_META[m.section];
+
+    const img = document.getElementById('spotlight-img');
+    img.classList.remove('loaded');
+    img.src = src;
+    img.alt = m.title;
+    img.onload = () => img.classList.add('loaded');
+
+    document.getElementById('spotlight-section').textContent = sectionMeta ? sectionMeta.title : m.section;
+    document.getElementById('spotlight-title').textContent = m.title;
+    document.getElementById('spotlight-takeaway').textContent = m.takeaway || '';
+
+    document.querySelectorAll('.hero-spotlight-dot').forEach((d, i) => {
+        d.classList.toggle('active', i === idx);
+    });
+}
+
+function goSpotlight(idx) {
+    clearInterval(spotlightInterval);
+    showSpotlight(idx);
+    spotlightInterval = setInterval(() => {
+        spotlightIndex = (spotlightIndex + 1) % spotlightMaps.length;
+        showSpotlight(spotlightIndex);
+    }, 8000);
+}
+
+function openSpotlightDetail() {
+    const m = spotlightMaps[spotlightIndex];
+    if (m) openDetail(m.id);
+}
+
+function surpriseMe() {
+    const pool = ALL_MAPS.filter(m => m.file && m.takeaway);
+    if (!pool.length) return;
+    const m = pool[Math.floor(Math.random() * pool.length)];
+    openDetail(m.id);
+}
+
 async function loadMaps() {
     try {
         const res = await fetch('data/maps.json');
         ALL_MAPS = await res.json();
     } catch(e) { ALL_MAPS = []; }
     renderAll();
+    initSpotlight();
     updateCount();
 }
 
