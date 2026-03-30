@@ -656,7 +656,39 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 }
 .tag.source { background: rgba(16,185,129,0.1); color: #059669; }
 
-/* ── ABOUT OVERLAY (Ctrl+K) ── */
+/* ── EXPAND BUTTON ── */
+.map-grid .map-card.hidden-card { display: none; }
+.map-grid.expanded .map-card.hidden-card { display: block; }
+.expand-btn-wrap {
+    text-align: center;
+    margin-top: 16px;
+}
+.expand-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.expand-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    background: rgba(14, 165, 233, 0.04);
+}
+.expand-btn svg {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s;
+}
+.expand-btn.expanded svg { transform: rotate(180deg); }
 .about-overlay {
     display: none;
     position: fixed;
@@ -1368,6 +1400,11 @@ function renderAll() {
         const lead = leadIdx >= 0 ? maps[leadIdx] : maps[0];
         const rest = maps.filter((_, i) => i !== leadIdx);
 
+        const VISIBLE_COUNT = 3;
+        const visible = rest.slice(0, VISIBLE_COUNT);
+        const hidden = rest.slice(VISIBLE_COUNT);
+        const gridId = `grid-${sid}`;
+
         html += `<section class="section" id="${sid}">
             <div class="section-header">
                 <h2>${meta.title} <span class="map-count">${maps.length} maps</span></h2>
@@ -1375,7 +1412,16 @@ function renderAll() {
             </div>
             <div class="section-layout">
                 ${leadCardHTML(lead)}
-                ${rest.length ? `<div class="map-grid">${rest.map(cardHTML).join('')}</div>` : ''}
+                ${rest.length ? `<div class="map-grid" id="${gridId}">
+                    ${visible.map(cardHTML).join('')}
+                    ${hidden.map(m => cardHTML(m, true)).join('')}
+                </div>` : ''}
+                ${hidden.length ? `<div class="expand-btn-wrap">
+                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)" aria-label="Show all maps">
+                        Show all ${rest.length} maps
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                </div>` : ''}
             </div>
         </section>`;
     });
@@ -1399,10 +1445,11 @@ function leadCardHTML(m) {
     </div>`;
 }
 
-function cardHTML(m) {
+function cardHTML(m, hidden) {
     const src = m.file ? `maps/${m.section}/${m.file}` : '';
     const mapId = m.id;
-    return `<div class="map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()}" onclick="openDetail('${mapId}')">
+    const hiddenClass = hidden ? ' hidden-card' : '';
+    return `<div class="map-card${hiddenClass}" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? `<img src="${src}" alt="${m.title}" loading="lazy">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
@@ -1477,6 +1524,18 @@ function openFullscreen() {
 }
 function closeFullscreen() {
     document.getElementById('fullscreen-img').classList.remove('active');
+}
+
+// ── Expand/Collapse Sections ──
+function toggleSection(gridId, btn) {
+    const grid = document.getElementById(gridId);
+    if (!grid) return;
+    const isExpanded = grid.classList.toggle('expanded');
+    btn.classList.toggle('expanded', isExpanded);
+    const totalCards = grid.querySelectorAll('.map-card').length;
+    btn.innerHTML = isExpanded
+        ? `Show fewer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`
+        : `Show all ${totalCards} maps <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`;
 }
 
 document.addEventListener('keydown', e => {
