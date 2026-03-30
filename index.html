@@ -431,9 +431,13 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     gap: 12px;
     align-items: center;
 }
-.filter-bar input {
+.search-wrap {
+    position: relative;
     flex: 1;
     min-width: 220px;
+}
+.filter-bar input {
+    width: 100%;
     padding: 10px 16px;
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -443,6 +447,46 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     color: var(--text-primary);
 }
 .filter-bar input:focus { outline: none; border-color: var(--accent-color); }
+.autocomplete-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 200;
+    box-shadow: var(--shadow-lg);
+    display: none;
+}
+.autocomplete-list.active { display: block; }
+.autocomplete-item {
+    padding: 10px 16px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.autocomplete-item:last-child { border-bottom: none; }
+.autocomplete-item:hover,
+.autocomplete-item.highlighted {
+    background: var(--hover-bg);
+}
+.autocomplete-item .ac-section {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
 .filter-bar .result-count {
     font-family: 'Inter', sans-serif;
     font-size: 0.82rem;
@@ -1050,7 +1094,8 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
     .filter-bar { padding: 14px 12px 0; gap: 8px; }
     .filter-bar-top { flex-wrap: wrap; }
-    .filter-bar input { min-width: 0; flex: 1 1 100%; font-size: 0.85rem; padding: 10px 14px; }
+    .search-wrap { min-width: 0; flex: 1 1 100%; }
+    .filter-bar input { font-size: 0.85rem; padding: 10px 14px; }
     .filter-bar .result-count { text-align: center; font-size: 0.78rem; }
     .question-pills { gap: 6px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 4px; -webkit-mask-image: linear-gradient(to right, black calc(100% - 24px), transparent); mask-image: linear-gradient(to right, black calc(100% - 24px), transparent); }
     .question-pills::-webkit-scrollbar { display: none; }
@@ -1224,7 +1269,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 <!-- Filter -->
 <div class="filter-bar">
     <div class="filter-bar-top">
-        <input type="text" id="search" placeholder="Search maps by title, keyword, or source...">
+        <div class="search-wrap">
+            <input type="text" id="search" placeholder="Search maps by title, keyword, or source..." autocomplete="off">
+            <div class="autocomplete-list" id="autocomplete-list"></div>
+        </div>
         <span class="result-count" id="result-count"></span>
     </div>
     <div class="question-pills" id="question-pills">
@@ -1680,7 +1728,66 @@ function updateCount(n) {
     document.getElementById('result-count').textContent = c === total ? `${total} maps` : `${c} of ${total} maps`;
 }
 
-searchEl.addEventListener('input', applyFilters);
+searchEl.addEventListener('input', () => {
+    applyFilters();
+    updateAutocomplete();
+});
+
+// ── Autocomplete ──
+const acList = document.getElementById('autocomplete-list');
+let acHighlight = -1;
+
+function updateAutocomplete() {
+    const q = searchEl.value.toLowerCase().trim();
+    if (q.length < 2) { acList.classList.remove('active'); return; }
+    const matches = ALL_MAPS.filter(m =>
+        m.title.toLowerCase().includes(q) ||
+        (m.tags || []).some(t => t.toLowerCase().includes(q)) ||
+        m.source.toLowerCase().includes(q)
+    ).slice(0, 8);
+    if (!matches.length) { acList.classList.remove('active'); return; }
+    acHighlight = -1;
+    acList.innerHTML = matches.map((m, i) => {
+        const sectionMeta = SECTION_META[m.section];
+        return `<div class="autocomplete-item" data-idx="${i}" data-id="${m.id}">
+            <span>${m.title}</span>
+            <span class="ac-section">${sectionMeta ? sectionMeta.title : m.section}</span>
+        </div>`;
+    }).join('');
+    acList.classList.add('active');
+    acList.querySelectorAll('.autocomplete-item').forEach(item => {
+        item.addEventListener('click', () => {
+            openDetail(item.dataset.id);
+            acList.classList.remove('active');
+            searchEl.value = '';
+            applyFilters();
+        });
+    });
+}
+
+searchEl.addEventListener('keydown', e => {
+    if (!acList.classList.contains('active')) return;
+    const items = acList.querySelectorAll('.autocomplete-item');
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        acHighlight = Math.min(acHighlight + 1, items.length - 1);
+        items.forEach((it, i) => it.classList.toggle('highlighted', i === acHighlight));
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        acHighlight = Math.max(acHighlight - 1, 0);
+        items.forEach((it, i) => it.classList.toggle('highlighted', i === acHighlight));
+    } else if (e.key === 'Enter' && acHighlight >= 0) {
+        e.preventDefault();
+        items[acHighlight].click();
+    }
+});
+
+searchEl.addEventListener('blur', () => {
+    setTimeout(() => acList.classList.remove('active'), 150);
+});
+searchEl.addEventListener('focus', () => {
+    if (searchEl.value.trim().length >= 2) updateAutocomplete();
+});
 
 // Question pills
 document.querySelectorAll('.question-pill').forEach(pill => {
