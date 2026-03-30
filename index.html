@@ -1545,6 +1545,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                     Download Map
                 </button>
+                <button class="detail-download-btn" onclick="shareStoryCard()" style="background:var(--accent-color);color:white;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                    Share Story Card
+                </button>
                 <span class="detail-license">Data from official government publications. Maps are pedagogical tools for facilitated discussion, not standalone data references. CC BY-NC-SA 4.0.</span>
             </div>
             <div class="related-maps" id="related-maps"></div>
@@ -1880,6 +1884,88 @@ function downloadMap() {
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
+}
+
+function shareStoryCard() {
+    if (!currentMapData || !currentMapData.file) return;
+    const m = currentMapData;
+    const mapSrc = `maps/${m.section}/${m.file}`;
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => {
+        const W = 1200, H = 630;
+        const canvas = document.createElement('canvas');
+        canvas.width = W; canvas.height = H;
+        const ctx = canvas.getContext('2d');
+
+        // Background
+        ctx.fillStyle = '#F8F6F1';
+        ctx.fillRect(0, 0, W, H);
+
+        // Map image (left side)
+        const mapW = 580, mapH = 326, mapX = 30, mapY = 30;
+        ctx.drawImage(img, mapX, mapY, mapW, mapH);
+
+        // Title
+        ctx.fillStyle = '#0F172A';
+        ctx.font = 'bold 26px Inter, sans-serif';
+        wrapText(ctx, m.title, 640, 50, 530, 32);
+
+        // Takeaway
+        if (m.takeaway) {
+            ctx.fillStyle = '#475569';
+            ctx.font = '18px Inter, sans-serif';
+            wrapText(ctx, m.takeaway, 640, 130, 530, 24);
+        }
+
+        // Source + year
+        ctx.fillStyle = '#94A3B8';
+        ctx.font = '14px Inter, sans-serif';
+        ctx.fillText(`Source: ${m.source}${m.year ? ' (' + m.year + ')' : ''}`, 640, 340);
+
+        // Branding bar
+        ctx.fillStyle = '#0EA5E9';
+        ctx.fillRect(0, H - 60, W, 60);
+        ctx.fillStyle = '#FFFFFF';
+        ctx.font = 'bold 18px Inter, sans-serif';
+        ctx.fillText('How India Lives', 30, H - 22);
+        ctx.font = '14px Inter, sans-serif';
+        ctx.fillText('howindialives.impactmojo.in', 250, H - 22);
+        ctx.fillText('An ImpactMojo Project', W - 220, H - 22);
+
+        // Bottom border on map
+        ctx.fillStyle = '#0EA5E9';
+        ctx.fillRect(mapX, mapY + mapH, mapW, 3);
+
+        canvas.toBlob(blob => {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `HIL_${m.id}_story.png`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 'image/png');
+    };
+    img.src = mapSrc;
+}
+
+function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+    const words = text.split(' ');
+    let line = '';
+    let lineY = y;
+    for (const word of words) {
+        const test = line + word + ' ';
+        if (ctx.measureText(test).width > maxWidth && line) {
+            ctx.fillText(line.trim(), x, lineY);
+            line = word + ' ';
+            lineY += lineHeight;
+        } else {
+            line = test;
+        }
+    }
+    ctx.fillText(line.trim(), x, lineY);
 }
 
 function openFullscreen() {
