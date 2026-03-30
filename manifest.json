@@ -1,0 +1,21 @@
+{
+  "name": "How India Lives",
+  "short_name": "HIL",
+  "description": "205 state-level maps of India's diversity",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D97706",
+  "icons": [
+    {
+      "src": "https://www.impactmojo.in/assets/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
