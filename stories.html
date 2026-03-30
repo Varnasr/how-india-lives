@@ -264,7 +264,47 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     margin-top: 12px;
 }
 
+/* WhatsApp share */
+.wa-share {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    margin-left: 10px;
+}
+.wa-share:hover { background: #1DA851; }
+.wa-share svg { width: 18px; height: 18px; fill: white; }
+
+/* Story visibility: show only selected or all if none selected */
+.story-container { display: none; }
+.story-container.active { display: block; }
+.story-separator { display: none; }
+.story-separator.active { display: block; }
+body.show-all .story-container { display: block; }
+body.show-all .story-separator { display: block; }
+
+/* Back to stories link */
+.back-to-stories {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.back-to-stories:hover { text-decoration: underline; }
+
 @media (max-width: 768px) {
+    .wa-share { padding: 8px 16px; font-size: 0.78rem; margin-left: 0; margin-top: 10px; }
     .story-index { padding: 70px 16px 16px; }
     .story-index-grid { grid-template-columns: 1fr; }
     .story-container { padding: 28px 16px 60px; }
@@ -1172,6 +1212,36 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     else if (window.matchMedia('(prefers-color-scheme:dark)').matches) document.documentElement.setAttribute('data-theme','dark');
 })();
 
+// Story routing: show only the selected story
+function showStory() {
+    const hash = location.hash.slice(1);
+    const stories = document.querySelectorAll('.story-container');
+    const separators = document.querySelectorAll('.story-separator');
+    const index = document.querySelector('.story-index');
+
+    if (hash && document.getElementById(hash)) {
+        document.body.classList.remove('show-all');
+        stories.forEach(s => s.classList.toggle('active', s.id === hash));
+        separators.forEach(s => s.classList.remove('active'));
+        if (index) index.style.display = 'none';
+        window.scrollTo(0, 0);
+    } else {
+        // No hash or invalid: show index only
+        document.body.classList.remove('show-all');
+        stories.forEach(s => s.classList.remove('active'));
+        separators.forEach(s => s.classList.remove('active'));
+        if (index) index.style.display = '';
+    }
+
+    // Re-observe maps for fade-in
+    document.querySelectorAll('[data-story-map]').forEach(el => {
+        el.classList.remove('visible');
+        mapObserver.observe(el);
+    });
+}
+
+window.addEventListener('hashchange', showStory);
+
 // Scroll progress
 window.addEventListener('scroll', () => {
     const h = document.documentElement.scrollHeight - window.innerHeight;
@@ -1188,7 +1258,59 @@ const mapObserver = new IntersectionObserver(entries => {
     });
 }, { threshold: 0.15 });
 
-document.querySelectorAll('[data-story-map]').forEach(el => mapObserver.observe(el));
+// Add "Back to stories" and WhatsApp share to each story
+const WA_SVG = '<svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>';
+const BASE_URL = 'https://howindialives.impactmojo.in/stories.html';
+
+document.querySelectorAll('.story-container').forEach(story => {
+    const id = story.id;
+    const titleEl = story.querySelector('.story-title-block h1');
+    const title = titleEl ? titleEl.textContent : 'A How India Lives Story';
+
+    // Add "Back to all stories" before the title block
+    const backLink = document.createElement('a');
+    backLink.href = 'stories.html';
+    backLink.className = 'back-to-stories';
+    backLink.innerHTML = '&larr; All Stories';
+    backLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        history.pushState(null, '', 'stories.html');
+        showStory();
+    });
+    const titleBlock = story.querySelector('.story-title-block');
+    if (titleBlock) story.insertBefore(backLink, titleBlock);
+
+    // Add WhatsApp share to CTA
+    const cta = story.querySelector('.story-cta');
+    if (cta) {
+        const waText = encodeURIComponent(`${title}\n\nA visual story from How India Lives\n${BASE_URL}#${id}`);
+        const waLink = document.createElement('a');
+        waLink.href = `https://wa.me/?text=${waText}`;
+        waLink.target = '_blank';
+        waLink.rel = 'noopener';
+        waLink.className = 'wa-share';
+        waLink.innerHTML = `${WA_SVG} Share on WhatsApp`;
+        cta.insertBefore(waLink, cta.querySelector('p'));
+    }
+});
+
+// Overall WhatsApp share in index
+const indexSection = document.querySelector('.story-index');
+if (indexSection) {
+    const overallText = encodeURIComponent(`How India Lives: Stories\n\n10 visual stories built from 205 maps of India's development data.\n\n${BASE_URL}`);
+    const waOverall = document.createElement('a');
+    waOverall.href = `https://wa.me/?text=${overallText}`;
+    waOverall.target = '_blank';
+    waOverall.rel = 'noopener';
+    waOverall.className = 'wa-share';
+    waOverall.style.marginTop = '16px';
+    waOverall.style.marginLeft = '0';
+    waOverall.innerHTML = `${WA_SVG} Share all stories on WhatsApp`;
+    indexSection.appendChild(waOverall);
+}
+
+// Initial route
+showStory();
 </script>
 </body>
 </html>
