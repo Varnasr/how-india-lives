@@ -1405,24 +1405,22 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-    /* Hero: simplified, less padding */
-    .hero { padding: 68px 16px 24px; }
-    .hero-inner { grid-template-columns: 1fr; gap: 16px; }
+    /* Hero: compact on mobile — get to maps fast */
+    .hero { padding: 64px 16px 16px; }
+    .hero-inner { grid-template-columns: 1fr; gap: 12px; }
     .hero-text { text-align: center; }
-    .hero-text h1 { font-size: 1.5rem; }
-    .hero-text .subtitle { font-size: 0.85rem; margin-bottom: 12px; }
-    .hero-stats { justify-content: center; gap: 0.8rem; margin-bottom: 14px; }
-    .hero-stat .number { font-size: 1.2rem; }
-    .hero-stat .label { font-size: 0.6rem; }
-    .hero-actions { justify-content: center; gap: 8px; }
-    .hero .method-link, .hero .surprise-btn { padding: 8px 16px; font-size: 0.78rem; }
-    .hero-spotlight { max-width: 340px; margin: 0 auto; }
-    .hero-spotlight-card { border-radius: 10px; }
-    .hero-spotlight-body { padding: 8px 12px; }
-    .hero-spotlight-body h3 { font-size: 0.78rem; }
-    .hero-spotlight-body p { font-size: 0.72rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .hero-spotlight-progress { margin-top: 6px; }
+    .hero-text h1 { font-size: 1.4rem; margin-bottom: 6px; }
+    .hero-text .subtitle { display: none; }
+    .hero-stats { justify-content: center; gap: 0.6rem; margin-bottom: 10px; }
+    .hero-stat .number { font-size: 1.1rem; }
+    .hero-stat .label { font-size: 0.55rem; }
+    .hero-actions { justify-content: center; gap: 6px; }
+    .hero .method-link, .hero .surprise-btn { padding: 7px 14px; font-size: 0.72rem; }
+    .hero-spotlight { display: none; }
     .hero::before, .hero::after { display: none; }
+
+    /* Hide MOTW on mobile — redundant with spotlight/hero */
+    .motw-banner { display: none !important; }
 
     /* Section nav: compact, scrollable */
     .section-nav { padding: 0 8px; -webkit-mask-image: linear-gradient(to right, transparent, black 8px, black calc(100% - 8px), transparent); mask-image: linear-gradient(to right, transparent, black 8px, black calc(100% - 8px), transparent); }
@@ -1516,15 +1514,18 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     .theme-selector { gap: 1px; padding: 2px; }
     .theme-btn { width: 24px; height: 24px; padding: 3px; }
 
-    .hero { padding: 56px 10px 16px; }
-    .hero-inner { gap: 12px; }
-    .hero-text h1 { font-size: 1.25rem; }
-    .hero-text .subtitle { font-size: 0.75rem; margin-bottom: 10px; }
-    .hero-stats { gap: 0.4rem; margin-bottom: 10px; }
-    .hero-stat .number { font-size: 1rem; }
-    .hero-stat .label { font-size: 0.55rem; }
-    .hero .method-link, .hero .surprise-btn { padding: 7px 12px; font-size: 0.72rem; }
-    .hero-spotlight { max-width: 280px; }
+    .hero { padding: 52px 10px 12px; }
+    .hero-inner { gap: 8px; }
+    .hero-text h1 { font-size: 1.15rem; }
+    .hero-stats { gap: 0.3rem; margin-bottom: 8px; }
+    .hero-stat .number { font-size: 0.95rem; }
+    .hero-stat .label { font-size: 0.5rem; }
+    .hero .method-link, .hero .surprise-btn { padding: 6px 10px; font-size: 0.68rem; }
+
+    /* Collections: even more compact */
+    .collections-section { padding: 8px 8px 2px; }
+    .collections-header h2 { font-size: 0.85rem; }
+    .collections-header p { display: none; }
 
     .section-nav { top: 48px; }
     .section-nav a { font-size: 0.58rem; padding: 3px 7px; }
