@@ -13,6 +13,7 @@
       --sidebar-name-color: #D97706;
       --sidebar-nav-link-color--active: #D97706;
       --sidebar-nav-link-border-color--active: #D97706;
+      --sidebar-width: 280px;
       --link-color: #D97706;
       --link-color--hover: #B45309;
       --blockquote-border-color: #D97706;
@@ -23,11 +24,31 @@
     .sidebar .app-name {
       font-weight: 700;
     }
+    .sidebar-nav li {
+      line-height: 1.4;
+      margin: 4px 0;
+    }
+    .sidebar-nav li a {
+      font-size: 14px;
+      white-space: normal;
+      word-break: break-word;
+    }
+    .sidebar-nav li ul {
+      padding-left: 16px;
+    }
+    .sidebar-nav li ul li a {
+      font-size: 13px;
+    }
     .markdown-section {
       max-width: 800px;
     }
     .cover-main {
       background: linear-gradient(135deg, rgba(217, 119, 6, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%) !important;
+    }
+    @media (max-width: 768px) {
+      :root {
+        --sidebar-width: 260px;
+      }
     }
   </style>
 </head>
