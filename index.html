@@ -423,8 +423,12 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     margin: 0 auto;
     padding: 20px 24px 0;
     display: flex;
+    flex-direction: column;
     gap: 12px;
-    flex-wrap: wrap;
+}
+.filter-bar-top {
+    display: flex;
+    gap: 12px;
     align-items: center;
 }
 .filter-bar input {
@@ -439,20 +443,41 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     color: var(--text-primary);
 }
 .filter-bar input:focus { outline: none; border-color: var(--accent-color); }
-.filter-bar select {
-    padding: 10px 14px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    font-size: 0.82rem;
-    font-family: 'Inter', sans-serif;
-    background: var(--card-bg);
-    color: var(--text-primary);
-    cursor: pointer;
-}
 .filter-bar .result-count {
     font-family: 'Inter', sans-serif;
     font-size: 0.82rem;
     color: var(--text-muted);
+    white-space: nowrap;
+}
+
+/* Research question pills */
+.question-pills {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.question-pill {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.question-pill:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    background: rgba(14, 165, 233, 0.06);
+}
+.question-pill.active {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
 }
 
 /* ── SECTIONS ── */
@@ -562,9 +587,6 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     letter-spacing: 0.3px;
 }
 .tag.source { background: rgba(16,185,129,0.1); color: #059669; }
-.tag.quality-built { background: rgba(14,165,233,0.1); color: #0284C7; }
-.tag.quality-new { background: rgba(245,158,11,0.1); color: #D97706; }
-.tag.quality-uncertain { background: rgba(239,68,68,0.1); color: #DC2626; }
 
 /* ── ABOUT OVERLAY (Ctrl+K) ── */
 .about-overlay {
@@ -912,9 +934,12 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     .nav-right a.hide-mobile { display: none; }
     .paper-plane { display: none; }
     .filter-bar { padding: 14px 12px 0; gap: 8px; }
+    .filter-bar-top { flex-wrap: wrap; }
     .filter-bar input { min-width: 0; flex: 1 1 100%; font-size: 0.82rem; padding: 8px 12px; }
-    .filter-bar select { flex: 1 1 calc(50% - 4px); font-size: 0.78rem; padding: 8px 10px; }
-    .filter-bar .result-count { flex: 1 1 100%; text-align: center; font-size: 0.78rem; }
+    .filter-bar .result-count { text-align: center; font-size: 0.78rem; }
+    .question-pills { gap: 6px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 4px; }
+    .question-pills::-webkit-scrollbar { display: none; }
+    .question-pill { font-size: 0.72rem; padding: 5px 12px; }
     .site-footer { padding: 32px 16px; }
     .site-footer p { font-size: 0.75rem; }
 }
@@ -1025,24 +1050,25 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 <!-- Filter -->
 <div class="filter-bar">
-    <input type="text" id="search" placeholder="Search maps by title, keyword, or source...">
-    <select id="source-filter">
-        <option value="">All Sources</option>
-        <option value="NFHS">NFHS-5</option>
-        <option value="Census">Census 2011</option>
-        <option value="PLFS">PLFS</option>
-        <option value="NCRB">NCRB</option>
-        <option value="NHA">NHA</option>
-        <option value="SRS">SRS</option>
-        <option value="RBI">RBI</option>
-    </select>
-    <select id="quality-filter">
-        <option value="">All Quality Flags</option>
-        <option value="BUILT">BUILT</option>
-        <option value="NEW">NEW</option>
-        <option value="UNCERTAIN">UNCERTAIN</option>
-    </select>
-    <span class="result-count" id="result-count"></span>
+    <div class="filter-bar-top">
+        <input type="text" id="search" placeholder="Search maps by title, keyword, or source...">
+        <span class="result-count" id="result-count"></span>
+    </div>
+    <div class="question-pills" id="question-pills">
+        <button class="question-pill active" data-section="">All Maps</button>
+        <button class="question-pill" data-section="demography">Why are states so different?</button>
+        <button class="question-pill" data-section="gender">Where do women have least autonomy?</button>
+        <button class="question-pill" data-section="health">Does birth decide lifespan?</button>
+        <button class="question-pill" data-section="economy">Which states are being left behind?</button>
+        <button class="question-pill" data-section="food-and-culture">Who eats what — and why?</button>
+        <button class="question-pill" data-section="caste">Does caste still shape outcomes?</button>
+        <button class="question-pill" data-section="education">Does school lead to opportunity?</button>
+        <button class="question-pill" data-section="environment">How green is your state?</button>
+        <button class="question-pill" data-section="democracy">Is democracy equally healthy everywhere?</button>
+        <button class="question-pill" data-section="reproductive-choices">Who controls reproductive choices?</button>
+        <button class="question-pill" data-section="social-protection">Who gets the safety net?</button>
+        <button class="question-pill" data-section="religion">How does faith map onto geography?</button>
+    </div>
 </div>
 
 <!-- Main content — populated by JS -->
@@ -1278,9 +1304,8 @@ function renderAll() {
 
 function cardHTML(m) {
     const src = m.file ? `maps/${m.section}/${m.file}` : '';
-    const qc = m.quality ? `quality-${m.quality.toLowerCase()}` : '';
     const mapId = m.id;
-    return `<div class="map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-quality="${m.quality||''}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()}" onclick="openDetail('${mapId}')">
+    return `<div class="map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? `<img src="${src}" alt="${m.title}" loading="lazy">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
@@ -1288,7 +1313,6 @@ function cardHTML(m) {
             <div class="meta">
                 <span class="tag source">${m.source}</span>
                 ${m.year ? `<span class="tag">${m.year}</span>` : ''}
-                ${m.quality ? `<span class="tag ${qc}">${m.quality}</span>` : ''}
             </div>
         </div>
     </div>`;
@@ -1374,20 +1398,25 @@ document.getElementById('about-overlay').addEventListener('click', e => { if (e.
 
 // ── Filter ──
 const searchEl = document.getElementById('search');
-const srcFilter = document.getElementById('source-filter');
-const qualFilter = document.getElementById('quality-filter');
+let activeQuestion = '';
 
 function applyFilters() {
     const q = searchEl.value.toLowerCase().trim();
-    const src = srcFilter.value;
-    const qual = qualFilter.value;
     let vis = 0;
     document.querySelectorAll('.map-card').forEach(c => {
-        const ok = (!q || c.dataset.search.includes(q))
-            && (!src || c.dataset.source.includes(src))
-            && (!qual || c.dataset.quality === qual);
+        const matchSearch = !q || c.dataset.search.includes(q);
+        const matchSection = !activeQuestion || c.dataset.section === activeQuestion;
+        const ok = matchSearch && matchSection;
         c.style.display = ok ? '' : 'none';
         if (ok) vis++;
+    });
+    // Show/hide section headers based on active question
+    document.querySelectorAll('.section').forEach(s => {
+        if (activeQuestion) {
+            s.style.display = s.id === activeQuestion ? '' : 'none';
+        } else {
+            s.style.display = '';
+        }
     });
     updateCount(vis);
 }
@@ -1398,8 +1427,27 @@ function updateCount(n) {
 }
 
 searchEl.addEventListener('input', applyFilters);
-srcFilter.addEventListener('change', applyFilters);
-qualFilter.addEventListener('change', applyFilters);
+
+// Question pills
+document.querySelectorAll('.question-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+        document.querySelectorAll('.question-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        activeQuestion = pill.dataset.section;
+        applyFilters();
+        // Scroll to that section if filtering to one
+        if (activeQuestion) {
+            const target = document.getElementById(activeQuestion);
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // Sync the section nav
+        document.querySelectorAll('.section-nav a').forEach(a => a.classList.remove('active'));
+        if (activeQuestion) {
+            const navLink = document.querySelector(`.section-nav a[href="#${activeQuestion}"]`);
+            if (navLink) navLink.classList.add('active');
+        }
+    });
+});
 
 // ── Active nav ──
 const navObs = new IntersectionObserver(entries => {
