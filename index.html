@@ -1472,7 +1472,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
             <h2 id="state-profile-name"></h2>
             <p id="state-profile-desc"></p>
         </div>
-        <button class="state-profile-close" onclick="clearStateProfile()">Clear filter</button>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="state-profile-close" id="compare-btn" onclick="openCompareSelector()" style="border-color:var(--accent-color);color:var(--accent-color);">Compare with...</button>
+            <button class="state-profile-close" onclick="clearStateProfile()">Clear filter</button>
+        </div>
     </div>
 </div>
 
@@ -1928,8 +1931,11 @@ const STATES = [
     'Delhi','Jammu & Kashmir','Ladakh','Lakshadweep','Puducherry'
 ];
 let activeState = '';
+let compareState = '';
+let selectingCompare = false;
 
 function openStateSelector() {
+    selectingCompare = false;
     const grid = document.getElementById('state-grid');
     grid.innerHTML = STATES.map(s =>
         `<button class="state-btn" onclick="selectState('${s.replace(/'/g, "\\'")}')">${s}</button>`
@@ -1949,24 +1955,54 @@ function filterStates() {
     });
 }
 
+function openCompareSelector() {
+    selectingCompare = true;
+    const grid = document.getElementById('state-grid');
+    grid.innerHTML = STATES.filter(s => s !== activeState).map(s =>
+        `<button class="state-btn" onclick="selectState('${s.replace(/'/g, "\\'")}')">${s}</button>`
+    ).join('');
+    document.getElementById('state-search').value = '';
+    document.getElementById('state-overlay').classList.add('active');
+}
+
 function selectState(stateName) {
+    if (selectingCompare && activeState) {
+        compareState = stateName;
+        selectingCompare = false;
+        closeStateSelector();
+        updateProfileBanner();
+        renderAllWithStateHighlight(activeState, compareState);
+        window.scrollTo({ top: document.getElementById('main').offsetTop - 120, behavior: 'smooth' });
+        return;
+    }
+
     activeState = stateName;
+    compareState = '';
     closeStateSelector();
-
-    // Show profile banner
-    document.getElementById('state-profile-name').textContent = `${stateName}'s Story`;
-    const matchCount = ALL_MAPS.filter(m => mapMentionsState(m, stateName)).length;
-    document.getElementById('state-profile-desc').textContent =
-        `${matchCount} maps mention ${stateName} in their findings. All 205 maps include data for every state.`;
-    document.getElementById('state-profile-banner').classList.add('active');
-
-    // Sort maps: ones mentioning this state first
+    updateProfileBanner();
     renderAllWithStateHighlight(stateName);
     window.scrollTo({ top: document.getElementById('main').offsetTop - 120, behavior: 'smooth' });
 }
 
+function updateProfileBanner() {
+    const name = compareState
+        ? `${activeState} vs ${compareState}`
+        : `${activeState}'s Story`;
+    const states = [activeState, compareState].filter(Boolean);
+    const matchCount = ALL_MAPS.filter(m => states.some(s => mapMentionsState(m, s))).length;
+    const desc = compareState
+        ? `${matchCount} maps mention either state. Maps referencing both are shown first.`
+        : `${matchCount} maps mention ${activeState} in their findings. All 205 maps include data for every state.`;
+
+    document.getElementById('state-profile-name').textContent = name;
+    document.getElementById('state-profile-desc').textContent = desc;
+    document.getElementById('state-profile-banner').classList.add('active');
+    document.getElementById('compare-btn').textContent = compareState ? `Change comparison` : `Compare with...`;
+}
+
 function clearStateProfile() {
     activeState = '';
+    compareState = '';
     document.getElementById('state-profile-banner').classList.remove('active');
     renderAll();
 }
@@ -1979,7 +2015,8 @@ function mapMentionsState(m, stateName) {
            m.title.toLowerCase().includes(sLower);
 }
 
-function renderAllWithStateHighlight(stateName) {
+function renderAllWithStateHighlight(stateName, stateName2) {
+    const states = [stateName, stateName2].filter(Boolean);
     const main = document.getElementById('main');
     const sections = {};
     ALL_MAPS.forEach(m => {
@@ -1992,11 +2029,11 @@ function renderAllWithStateHighlight(stateName) {
         const maps = sections[sid] || [];
         const meta = SECTION_META[sid];
         if (!meta || !maps.length) return;
-        // Sort: maps mentioning the state come first
+        // Sort: maps mentioning either/both states come first
         const sorted = [...maps].sort((a, b) => {
-            const aMatch = mapMentionsState(a, stateName) ? 1 : 0;
-            const bMatch = mapMentionsState(b, stateName) ? 1 : 0;
-            return bMatch - aMatch;
+            const aScore = states.reduce((s, st) => s + (mapMentionsState(a, st) ? 1 : 0), 0);
+            const bScore = states.reduce((s, st) => s + (mapMentionsState(b, st) ? 1 : 0), 0);
+            return bScore - aScore;
         });
         const lead = sorted[0];
         const rest = sorted.slice(1);
