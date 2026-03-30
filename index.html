@@ -725,6 +725,80 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
 }
 .tag.source { background: rgba(16,185,129,0.1); color: #059669; }
 
+/* ── CURATED COLLECTIONS ── */
+.collections-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 24px 12px;
+}
+.collections-header {
+    margin-bottom: 16px;
+}
+.collections-header h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.collections-header p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+.collections-scroll {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+}
+.collections-scroll::-webkit-scrollbar { display: none; }
+.collection-card {
+    min-width: 260px;
+    max-width: 280px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+.collection-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+.collection-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--text-primary);
+}
+.collection-card p {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.collection-card .collection-count {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.collection-card .collection-icon {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    display: block;
+}
+@media (max-width: 768px) {
+    .collections-section { padding: 20px 12px 8px; }
+    .collection-card { min-width: 220px; padding: 14px 16px; }
+}
+
 /* ── EXPAND BUTTON ── */
 .map-grid .map-card.hidden-card { display: none; }
 .map-grid.expanded .map-card.hidden-card { display: block; }
@@ -1479,6 +1553,15 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     </div>
 </div>
 
+<!-- Curated Collections -->
+<div class="collections-section" id="collections-section">
+    <div class="collections-header">
+        <h2>Story Threads</h2>
+        <p>Curated map sequences that tell a story</p>
+    </div>
+    <div class="collections-scroll" id="collections-scroll"></div>
+</div>
+
 <!-- Main content — populated by JS -->
 <main id="main"></main>
 
@@ -1706,7 +1789,81 @@ async function loadMaps() {
     } catch(e) { ALL_MAPS = []; }
     renderAll();
     initSpotlight();
+    initCollections();
     updateCount();
+}
+
+// ── Curated Collections ──
+const COLLECTIONS = [
+    {
+        title: "The Gender Gap in 7 Maps",
+        desc: "From child marriage to domestic violence — why being a woman means different things in different states.",
+        maps: ['S04a','X170','X179','X180','X181','X183','X184'],
+    },
+    {
+        title: "Why Bihar Keeps Falling Behind",
+        desc: "Health, income, education, infrastructure — the maps that explain India's most persistent development gap.",
+        maps: ['X167','X177','X188','X191','S04a','S02a','S08a'],
+    },
+    {
+        title: "India's North-South Divide",
+        desc: "Two countries in one — how southern states diverged on health, education, and governance.",
+        maps: ['S00a','S02a','S04a','S06a','S08a','S10a','S12a'],
+    },
+    {
+        title: "What India Eats",
+        desc: "Vegetarianism, alcohol, tobacco, dietary diversity — food as cultural geography.",
+        maps: ['S01a','S01b','S01c','S01d','S01e','S01f','S01g'],
+    },
+    {
+        title: "The Digital Divide",
+        desc: "Smartphones, internet, television — who has access and who is left out.",
+        maps: ['X167','X168','X166','S08a','S08b','S08c'],
+    },
+    {
+        title: "Caste and Inequality",
+        desc: "SC/ST demographics, inter-caste marriage, violence — how caste still shapes outcomes.",
+        maps: ['S05a','S05b','S05c','S05d','S05e','S05f','S05g'],
+    }
+];
+
+function initCollections() {
+    const scroll = document.getElementById('collections-scroll');
+    scroll.innerHTML = COLLECTIONS.map((c, i) =>
+        `<div class="collection-card" onclick="openCollection(${i})">
+            <h3>${c.title}</h3>
+            <p>${c.desc}</p>
+            <span class="collection-count">${c.maps.length} maps</span>
+        </div>`
+    ).join('');
+}
+
+function openCollection(idx) {
+    const col = COLLECTIONS[idx];
+    if (!col) return;
+    const mapSet = new Set(col.maps);
+    const maps = col.maps.map(id => ALL_MAPS.find(m => m.id === id)).filter(Boolean);
+    if (!maps.length) return;
+
+    // Show as a filtered view
+    const main = document.getElementById('main');
+    const lead = maps[0];
+    const rest = maps.slice(1);
+
+    main.innerHTML = `<section class="section">
+        <div class="section-header" style="border-left-color:var(--secondary-accent);">
+            <h2>${col.title} <span class="map-count">${maps.length} maps</span></h2>
+            <p>${col.desc}</p>
+            <button class="state-profile-close" onclick="renderAll();document.getElementById('collections-section').style.display='';" style="margin-top:12px;">Back to all maps</button>
+        </div>
+        <div class="section-layout">
+            ${leadCardHTML(lead)}
+            ${rest.length ? `<div class="map-grid">${rest.map(m => cardHTML(m)).join('')}</div>` : ''}
+        </div>
+    </section>`;
+
+    document.getElementById('collections-section').style.display = 'none';
+    window.scrollTo({ top: main.offsetTop - 120, behavior: 'smooth' });
 }
 
 function renderAll() {
