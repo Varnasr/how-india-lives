@@ -220,11 +220,24 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 }
 
 .story-divider {
-    text-align: center;
-    padding: 24px 0;
-    color: var(--text-muted);
-    font-size: 1.2rem;
-    letter-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 32px 0;
+}
+.story-divider::before,
+.story-divider::after {
+    content: '';
+    height: 1px;
+    width: 60px;
+    background: var(--border-color);
+}
+.story-divider svg {
+    width: 20px;
+    height: 20px;
+    color: var(--accent-color);
+    flex-shrink: 0;
 }
 
 .story-cta {
@@ -279,22 +292,22 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         <a class="story-index-card" href="#north-south">
             <h3>India's North-South Divide, in 7 Maps</h3>
             <p>The same country, two development trajectories. Health, income, literacy, gender — every indicator follows the same fault line.</p>
-            <span class="story-card-meta">7 maps -- 3 min read</span>
+            <span class="story-card-meta">7 maps &middot; 3 min read</span>
         </a>
         <a class="story-index-card" href="#gender-gap">
             <h3>The Gender Gap: What It Means to Be a Woman Across India</h3>
             <p>From child marriage to domestic violence to economic participation — the maps that show why gender policy can't be national.</p>
-            <span class="story-card-meta">7 maps -- 3 min read</span>
+            <span class="story-card-meta">7 maps &middot; 3 min read</span>
         </a>
         <a class="story-index-card" href="#bihar">
             <h3>Where Bihar Falls Behind — and Why</h3>
             <p>India's most consistent outlier across every development indicator. A state-level deep dive.</p>
-            <span class="story-card-meta">6 maps -- 3 min read</span>
+            <span class="story-card-meta">6 maps &middot; 3 min read</span>
         </a>
         <a class="story-index-card" href="#food">
             <h3>What India Eats: Food as Cultural Geography</h3>
             <p>Vegetarianism, beef, fish, rice vs wheat — how food maps reveal India's deepest cultural boundaries.</p>
-            <span class="story-card-meta">6 maps -- 3 min read</span>
+            <span class="story-card-meta">6 maps &middot; 3 min read</span>
         </a>
     </div>
 </div>
@@ -306,7 +319,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     <div class="story-title-block">
         <h1>India's North-South Divide, in 7 Maps</h1>
         <p class="story-subtitle">The same country, two different development trajectories. Here's what the data shows — and why it matters for policy.</p>
-        <p class="story-meta">A How India Lives Story -- 3 min read</p>
+        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
     </div>
 
     <p class="story-text">
@@ -317,7 +330,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         This story walks you through 7 maps that make this divide visible. Each one tells a piece of the same story: <em>where you are born in India still determines how you live.</em>
     </p>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
         <img src="maps/demography/S00a_Median_Age_by_State.png" alt="Median Age by State" loading="lazy">
@@ -355,7 +368,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         <strong>Birth is destiny in India.</strong> A child born in Kerala today will live, on average, 13 years longer than one born in Chhattisgarh. That's not a statistic — it's a moral indictment of "national average" policymaking.
     </p>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
         <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy">
@@ -401,7 +414,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         </div>
     </div>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <p class="story-text">
         <strong>Seven maps. One conclusion.</strong> India's development story cannot be told in national averages. An average of Kerala and Bihar is a fiction that serves no one. The maps make this visible — and visibility is the first step toward better policy.
@@ -413,7 +426,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 
     <div class="story-cta">
         <a href="index.html">Explore all 205 Maps</a>
-        <p>Part of How India Lives -- An ImpactMojo Project</p>
+        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
     </div>
 </div>
 
@@ -424,7 +437,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     <div class="story-title-block">
         <h1>The Gender Gap: What It Means to Be a Woman Across India</h1>
         <p class="story-subtitle">Child marriage, domestic violence, economic exclusion, missing women. Seven maps that show why being a woman means fundamentally different things in different states.</p>
-        <p class="story-meta">A How India Lives Story -- 3 min read</p>
+        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
     </div>
 
     <p class="story-text">
@@ -467,7 +480,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         This map is the hardest to look at. When women themselves believe violence is justified, <em>the problem has moved beyond policy and into culture.</em> It takes generations of education, economic empowerment, and legal enforcement to shift.
     </p>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
         <img src="maps/gender/S04h_Domestic_Violence_Women_Reporting_Physical_Vi.png" alt="Domestic Violence" loading="lazy">
@@ -511,7 +524,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 
     <div class="story-cta">
         <a href="index.html#gender">Explore all gender maps</a>
-        <p>Part of How India Lives -- An ImpactMojo Project</p>
+        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
     </div>
 </div>
 
@@ -522,7 +535,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     <div class="story-title-block">
         <h1>Where Bihar Falls Behind — and Why</h1>
         <p class="story-subtitle">India's most consistent development outlier. Six maps that show the depth of the gap — and what it means for 130 million people.</p>
-        <p class="story-meta">A How India Lives Story -- 3 min read</p>
+        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
     </div>
 
     <p class="story-text">
@@ -561,7 +574,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         </div>
     </div>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
         <img src="maps/economy/X177_Landless_Agricultural_Labourers.png" alt="Landless Agricultural Labourers" loading="lazy">
@@ -597,7 +610,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 
     <div class="story-cta">
         <a href="index.html">Explore all 205 Maps</a>
-        <p>Part of How India Lives -- An ImpactMojo Project</p>
+        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
     </div>
 </div>
 
@@ -608,7 +621,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     <div class="story-title-block">
         <h1>What India Eats: Food as Cultural Geography</h1>
         <p class="story-subtitle">Vegetarianism, beef, fish, rice vs wheat, dietary diversity. Six maps that reveal India's deepest cultural fault lines through food.</p>
-        <p class="story-meta">A How India Lives Story -- 3 min read</p>
+        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
     </div>
 
     <p class="story-text">
@@ -639,7 +652,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
         <strong>Beef is the most politically charged food item in India.</strong> The map shows it's also the most geographically divided. What's everyday protein in Kerala is a lynching offence in UP. Policy that treats India as one food culture is policy that erases half the country.
     </p>
 
-    <div class="story-divider">---</div>
+    <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
         <img src="maps/food-and-culture/S01k_Fish-Consuming_Households.png" alt="Fish Consumption" loading="lazy">
@@ -683,7 +696,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 
     <div class="story-cta">
         <a href="index.html#food-and-culture">Explore all food and culture maps</a>
-        <p>Part of How India Lives -- An ImpactMojo Project</p>
+        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
     </div>
 </div>
 
