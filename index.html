@@ -43,9 +43,10 @@
 }
 </script>
 
-<!-- Favicons -->
+<!-- Favicons & PWA -->
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
 <link href="https://www.impactmojo.in/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="manifest" href="manifest.json">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -1626,11 +1627,11 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
                 205 state-level maps revealing how different India's states truly are — on health, wealth, gender, food, faith, work, and everything in between.
             </p>
             <div class="hero-stats">
-                <div class="hero-stat"><span class="number">205</span><span class="label">Maps</span></div>
-                <div class="hero-stat"><span class="number">36</span><span class="label">States & UTs</span></div>
-                <div class="hero-stat"><span class="number">12</span><span class="label">Themes</span></div>
-                <div class="hero-stat"><span class="number">10</span><span class="label">Stories</span></div>
-                <div class="hero-stat"><span class="number">7+</span><span class="label">Sources</span></div>
+                <div class="hero-stat" title="Every map covers all 36 states and union territories"><span class="number">205</span><span class="label">Maps</span></div>
+                <div class="hero-stat" title="More administrative units than the EU has member states"><span class="number">36</span><span class="label">States & UTs</span></div>
+                <div class="hero-stat" title="From demography to democracy, food to faith"><span class="number">12</span><span class="label">Themes</span></div>
+                <div class="hero-stat" title="Curated narratives that thread maps into bigger stories"><span class="number">10</span><span class="label">Stories</span></div>
+                <div class="hero-stat" title="NFHS, Census, PLFS, NCRB, SRS, RBI, and government dashboards"><span class="number">7+</span><span class="label">Sources</span></div>
             </div>
             <div class="hero-actions">
                 <a href="methodology.html" class="method-link">Methodology</a>
@@ -1681,7 +1682,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 <div class="filter-bar">
     <div class="filter-bar-top">
         <div class="search-wrap">
-            <input type="text" id="search" placeholder="Search maps by title, keyword, or source..." autocomplete="off">
+            <input type="text" id="search" placeholder="Search maps, stats, states... e.g. 'Bihar literacy' or 'child marriage'" autocomplete="off">
             <div class="autocomplete-list" id="autocomplete-list"></div>
         </div>
         <span class="result-count" id="result-count"></span>
@@ -1808,6 +1809,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                     Embed
                 </button>
+                <button class="detail-download-btn" onclick="annotateMap()" style="background:var(--hover-bg);color:var(--text-secondary);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    Annotate
+                </button>
                 <span class="detail-license">Data from official government publications. Maps are pedagogical tools for facilitated discussion, not standalone data references. CC BY-NC-SA 4.0.</span>
             </div>
             <div class="related-maps" id="related-maps"></div>
@@ -1822,8 +1827,17 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 <!-- Footer -->
 <footer class="site-footer">
+    <p id="source-spotlight" style="font-size:0.78rem;color:var(--accent-color);margin-bottom:12px;"></p>
     <p>Data work by <strong>Varna</strong> &middot; Maps rendered with Python 3 + GeoPandas + Matplotlib</p>
-    <p><a href="methodology.html">Full methodology</a></p>
+    <p><a href="methodology.html">Full methodology</a> &middot; <a href="stories.html">Stories</a></p>
+    <div id="newsletter-signup" style="margin:20px auto;max-width:400px;">
+        <p style="font-size:0.82rem;font-weight:600;margin-bottom:8px;">Get the Map of the Week in your inbox</p>
+        <form onsubmit="subscribeNewsletter(event)" style="display:flex;gap:8px;">
+            <input type="email" id="newsletter-email" placeholder="your@email.com" required style="flex:1;padding:8px 12px;border:1px solid var(--border-color);border-radius:6px;font-size:0.82rem;background:var(--card-bg);color:var(--text-primary);font-family:inherit;">
+            <button type="submit" style="padding:8px 16px;background:var(--accent-color);color:white;border:none;border-radius:6px;font-family:'Inter',sans-serif;font-size:0.78rem;font-weight:600;cursor:pointer;">Subscribe</button>
+        </form>
+        <p id="newsletter-msg" style="font-size:0.72rem;color:var(--text-muted);margin-top:6px;"></p>
+    </div>
     <p>Part of <a href="https://www.impactmojo.in">ImpactMojo</a> — Free development education for South Asia</p>
     <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools, not standalone data references.</p>
 </footer>
@@ -2117,7 +2131,7 @@ function renderAll() {
 function leadCardHTML(m) {
     const src = m.file ? `maps/${m.section}/${m.file}` : '';
     const mapId = m.id;
-    return `<div class="map-card-lead map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()}" onclick="openDetail('${mapId}')">
+    return `<div class="map-card-lead map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? `<img src="${src}" alt="${m.title}" loading="lazy">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
@@ -2135,7 +2149,7 @@ function cardHTML(m, hidden) {
     const src = m.file ? `maps/${m.section}/${m.file}` : '';
     const mapId = m.id;
     const hiddenClass = hidden ? ' hidden-card' : '';
-    return `<div class="map-card${hiddenClass}" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()}" onclick="openDetail('${mapId}')">
+    return `<div class="map-card${hiddenClass}" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? `<img src="${src}" alt="${m.title}" loading="lazy">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
@@ -2575,7 +2589,8 @@ function updateAutocomplete() {
     const matches = ALL_MAPS.filter(m =>
         m.title.toLowerCase().includes(q) ||
         (m.tags || []).some(t => t.toLowerCase().includes(q)) ||
-        m.source.toLowerCase().includes(q)
+        m.source.toLowerCase().includes(q) ||
+        (m.takeaway && m.takeaway.toLowerCase().includes(q))
     ).slice(0, 8);
     if (!matches.length) { acList.classList.remove('active'); return; }
     acHighlight = -1;
@@ -2716,6 +2731,59 @@ function citeMap() {
     }).catch(() => {
         prompt('Copy this citation:', citation);
     });
+}
+
+// ── Source Spotlight (rotating footer credit) ──
+const SOURCE_SPOTLIGHTS = [
+    { source: 'NFHS-5', desc: 'National Family Health Survey (2019-21) — India\'s most comprehensive health and demographic survey, covering 600,000+ households.' },
+    { source: 'Census 2011', desc: 'Census of India — the largest demographic exercise on Earth, covering 1.2 billion people across 640 districts.' },
+    { source: 'PLFS', desc: 'Periodic Labour Force Survey — India\'s primary source for employment and unemployment data, run quarterly by NSSO.' },
+    { source: 'NCRB', desc: 'National Crime Records Bureau — compiles crime statistics from every police station in India. Reports ≠ incidence.' },
+    { source: 'SRS', desc: 'Sample Registration System — tracks births and deaths across India, the basis for life expectancy estimates.' },
+    { source: 'RBI', desc: 'Reserve Bank of India — state-level economic data including GSDP, banking, and financial inclusion.' },
+];
+(function initSourceSpotlight() {
+    const el = document.getElementById('source-spotlight');
+    if (!el) return;
+    const s = SOURCE_SPOTLIGHTS[Math.floor(Math.random() * SOURCE_SPOTLIGHTS.length)];
+    el.textContent = `Featured source: ${s.source} — ${s.desc}`;
+})();
+
+// ── Newsletter Signup ──
+function subscribeNewsletter(e) {
+    e.preventDefault();
+    const email = document.getElementById('newsletter-email').value;
+    const msg = document.getElementById('newsletter-msg');
+    // Store locally (no backend) — in production, connect to Mailchimp/Buttondown
+    const subs = JSON.parse(localStorage.getItem('hil-subscribers') || '[]');
+    if (subs.includes(email)) {
+        msg.textContent = 'You\'re already subscribed!';
+    } else {
+        subs.push(email);
+        localStorage.setItem('hil-subscribers', JSON.stringify(subs));
+        msg.textContent = 'Subscribed! (Note: newsletter delivery coming soon — your interest is noted.)';
+        document.getElementById('newsletter-email').value = '';
+    }
+}
+
+// ── Map Annotations ──
+function annotateMap() {
+    if (!currentMapData) return;
+    const note = prompt('Add a note to this map (will be included in the shared link):');
+    if (!note) return;
+    const m = currentMapData;
+    const url = `https://howindialives.impactmojo.in/#map/${m.id}`;
+    const text = `${m.title}\n\nNote: "${note}"\n\n${m.takeaway || ''}\n\n${url}`;
+    navigator.clipboard.writeText(text).then(() => {
+        alert('Annotated map link copied to clipboard!');
+    }).catch(() => {
+        prompt('Copy this annotated link:', text);
+    });
+}
+
+// ── PWA ──
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
 </body>
