@@ -595,6 +595,8 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 .map-card:hover {
     border-color: var(--accent-color);
@@ -615,33 +617,56 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     height: 100%;
     object-fit: cover;
 }
-.map-card .card-body { padding: 16px 20px; }
+.map-card .card-body {
+    padding: 18px 22px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .map-card h3 {
     font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.35;
 }
 .map-card .takeaway {
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     color: var(--text-secondary);
-    margin-bottom: 10px;
-    line-height: 1.5;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    flex: 1;
 }
-.map-card .policy-note {
-    font-size: 0.8rem;
-    color: var(--accent-color);
+.map-card .policy-preview {
+    font-size: 0.78rem;
+    color: var(--secondary-accent);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    padding-top: 10px;
-    border-top: 1px solid var(--border-color);
+    padding: 10px 12px;
+    background: rgba(99, 102, 241, 0.05);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 12px;
+    margin-bottom: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+}
+.map-card:hover .policy-preview {
+    max-height: 120px;
+    opacity: 1;
+    padding: 10px 12px;
+    margin-bottom: 12px;
 }
 .map-card .meta {
     display: flex;
     gap: 6px;
-    margin-top: 10px;
+    margin-top: auto;
     flex-wrap: wrap;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
 }
 .tag {
     font-family: 'Inter', sans-serif;
@@ -1028,9 +1053,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     .map-card-lead h3 { font-size: 1rem; }
     .map-card-lead .takeaway { font-size: 0.85rem; }
     .map-grid { grid-template-columns: 1fr; gap: 14px; }
-    .map-card .card-body { padding: 12px 14px; }
+    .map-card .card-body { padding: 14px 16px 16px; }
     .map-card h3 { font-size: 0.88rem; }
-    .map-card .takeaway { font-size: 0.8rem; }
+    .map-card .takeaway { font-size: 0.82rem; }
+    .map-card .policy-preview { display: none; }
     .section { padding: 28px 12px 20px; }
     .section-header { padding-left: 14px; margin-bottom: 20px; }
     .section-header h2 { font-size: 1.2rem; }
@@ -1454,6 +1480,7 @@ function cardHTML(m, hidden) {
         <div class="card-body">
             <h3>${m.title}</h3>
             ${m.takeaway ? `<p class="takeaway">${m.takeaway}</p>` : ''}
+            ${m.policy ? `<p class="policy-preview">${m.policy}</p>` : ''}
             <div class="meta">
                 <span class="tag source">${m.source}</span>
                 ${m.year ? `<span class="tag">${m.year}</span>` : ''}
