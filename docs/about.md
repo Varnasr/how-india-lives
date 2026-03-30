@@ -4,7 +4,7 @@
 
 Policy debates in India often rely on national averages. But national averages mask enormous state-level variation. An "average" of Kerala and Bihar is a fiction that describes neither state and helps no one.
 
-**How India Lives** makes this variation visible through 205 choropleth maps — one indicator at a time — so that anyone discussing Indian policy can see the actual landscape of difference.
+**How India Lives** makes this variation visible through 205 choropleth maps and 10 curated visual stories — so that anyone discussing Indian policy can see the actual landscape of difference.
 
 ## The Core Argument
 
@@ -19,19 +19,25 @@ Examples:
 
 ## Design Principles
 
-1. **One map, one story** — Each map focuses on a single indicator with a clear takeaway
-2. **Shock value** — The "shock statistic" (red box) grabs attention with the most striking data point
-3. **Policy connection** — Every map links the data to a policy implication
-4. **Source transparency** — Every map cites its data source and year
-5. **Quality honesty** — Maps are flagged as BUILT, NEW, or UNCERTAIN
+1. **Storytelling first, data second** — Research question pills and curated stories guide exploration, not database-style filters
+2. **One map, one story** — Each map focuses on a single indicator with a clear takeaway
+3. **Shock value** — The "shock statistic" (red box) grabs attention with the most striking data point
+4. **Policy connection** — Every map links the data to a policy implication
+5. **Source transparency** — Every map cites its data source and year
+6. **Mobile first** — Designed for phones, enhanced for desktop
+
+## Key Features
+
+- **10 visual stories** — Scroll-driven narratives like "India's North-South Divide" and "The Gender Gap"
+- **State explorer** — Pick any state, see all maps that mention it
+- **Compare states** — Kerala vs Bihar side-by-side
+- **WhatsApp sharing** — Per map and per story with prefilled context
+- **Cite and embed** — Formatted citations and iframe embed codes
+- **Offline support** — PWA with service worker caching
 
 ## Technical Approach
 
-Maps are rendered programmatically with Python 3 + GeoPandas + Matplotlib using Natural Earth 10m shapefiles. This means:
-- Consistent styling across all 205 maps
-- Reproducible pipeline (any map can be regenerated)
-- Easy to add new indicators
-- Northeast India inset panel for readability
+Maps are rendered programmatically with Python 3 + GeoPandas + Matplotlib using Natural Earth 10m shapefiles. The website is a pure vanilla HTML/CSS/JS static site — no frameworks, no build process, no dependencies. Data lives in a single `maps.json` catalog.
 
 ## Part of ImpactMojo
 

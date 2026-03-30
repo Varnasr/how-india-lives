@@ -1,13 +1,41 @@
 # Project Roadmap
 
-## Current State (v2 — March 2026)
-- 205 state-level choropleth maps across 12 themes
-- Static site hosted on GitHub Pages
-- Dark/light mode, search, filters
-- Detail modal with takeaway, policy note, download
-- Mobile-responsive design
+## Completed (v3 — March 2026)
 
-## Near-term (v3)
+### Redesign (Parts 1-6)
+- [x] Featured rotating map spotlight in hero
+- [x] Research question pills replacing database-style filters
+- [x] Editorial section layout with lead card + supporting grid
+- [x] Show fewer cards with expand/collapse per section
+- [x] Storytelling card redesign with hover policy preview
+- [x] Mobile-first responsive polish
+
+### Features (10 new)
+- [x] Deep links — share any map via `#map/ID`
+- [x] Keyboard and button navigation in detail modal
+- [x] Search autocomplete with stat/takeaway matching
+- [x] Related maps ("If this surprised you, also see...")
+- [x] State profile view — browse all maps for one state
+- [x] Compare two states side by side
+- [x] Shareable story cards (Canvas API, 1200x630 PNG)
+- [x] Curated collections / story threads
+- [x] Map of the Week banner
+- [x] Scroll-driven storytelling page (10 stories)
+
+### Additional Features (10 more)
+- [x] Swipe gestures on mobile detail modal
+- [x] Cite this map (formatted citation to clipboard)
+- [x] Print-optimized stylesheet
+- [x] PWA / offline support (service worker + manifest)
+- [x] Search by statistic (takeaway text matching)
+- [x] Hero stat tooltips with contextual facts
+- [x] Source spotlight in footer
+- [x] Map annotations (add notes, share annotated links)
+- [x] Newsletter signup (localStorage, ready for backend)
+- [x] Embed widget (iframe code to clipboard)
+- [x] WhatsApp share per map and per story
+
+## Near-term (v4)
 
 ### Translations
 - Hindi translations for all takeaways and policy notes
@@ -16,15 +44,14 @@
 
 ### Interactive Maps
 - Hover tooltips showing state-level values
-- Click a state to see all its indicators
-- Compare two states side-by-side
+- Animated or slider-based temporal comparison
 
 ### Data Downloads
 - CSV/JSON export for each indicator
 - Bulk download option
 - API endpoint for programmatic access
 
-## Medium-term (v4)
+## Medium-term (v5)
 
 ### District-Level Maps
 - Move beyond state-level for indicators where district data exists
@@ -34,39 +61,28 @@
 ### Time Series
 - Show how indicators have changed over time
 - NFHS-4 vs NFHS-5, Census 2001 vs 2011
-- Animated or slider-based temporal comparison
-
-### Embed Widget
-- Embed any single map on external websites
-- iframe or web component approach
-- Auto-attribution and license notice
-
-## Long-term (v5+)
-
-### State Profiles
-- Dedicated page for each state showing all its indicators
-- State-level dashboard with rankings and comparisons
 
 ### Community Pipeline
 - Open contribution pipeline for new indicators
 - Automated validation of submitted data
 - Review and approval workflow
 
+## Long-term (v6+)
+
 ### Accessibility
 - WCAG 2.1 AA compliance audit
 - Screen reader optimisation
 - High contrast mode
-
-### PWA / Offline
-- Service worker for offline access
-- Useful for fieldworkers in low-connectivity areas
-- Installable as a mobile app
 
 ### Classroom Mode
 - Guided walkthroughs for educators
 - Quiz/discussion prompts for each map
 - Lesson plan templates
 
+### Newsletter Backend
+- Connect to Mailchimp/Buttondown
+- Automated Map of the Week email
+
 ## How to Contribute
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for how to help with any of these items. Open a [Discussion](https://github.com/Varnasr/how-india-lives/discussions) to propose new roadmap items.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for how to help with any of these items.

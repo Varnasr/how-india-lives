@@ -15,6 +15,12 @@ Thank you for your interest in contributing! This project aims to make India's s
 - Suggest better data sources for existing maps
 - Help verify quality flags (`BUILT`, `NEW`, `UNCERTAIN`)
 
+### Write New Stories
+- Propose a new visual story for `stories.html`
+- Each story threads 5-7 maps into a scroll-driven narrative
+- Write the editorial text connecting the maps
+- See existing stories for format and tone
+
 ### Fix Bugs & Improve UX
 - Mobile responsiveness issues
 - Accessibility improvements
