@@ -13,34 +13,39 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
     --primary-bg: #FFFFFF;
-    --secondary-bg: #F8FAFC;
-    --text-primary: #0F172A;
-    --text-secondary: #475569;
-    --text-muted: #94A3B8;
-    --accent-color: #0EA5E9;
-    --border-color: #E2E8F0;
+    --secondary-bg: #FAFAF9;
+    --text-primary: #1C1917;
+    --text-secondary: #57534E;
+    --text-muted: #A8A29E;
+    --accent-color: #D97706;
+    --secondary-accent: #7C3AED;
+    --border-color: #E7E5E4;
     --card-bg: #FFFFFF;
 }
 html[data-theme="dark"] {
-    --primary-bg: #0F172A;
-    --secondary-bg: #1E293B;
-    --text-primary: #F1F5F9;
-    --text-secondary: #CBD5E1;
-    --text-muted: #64748B;
-    --card-bg: #1E293B;
-    --border-color: #334155;
+    --primary-bg: #1C1917;
+    --secondary-bg: #292524;
+    --text-primary: #FAFAF9;
+    --text-secondary: #D6D3D1;
+    --text-muted: #78716C;
+    --accent-color: #F59E0B;
+    --secondary-accent: #A78BFA;
+    --card-bg: #292524;
+    --border-color: #44403C;
 }
 body {
     font-family: 'Inter', sans-serif;
     background: var(--primary-bg);
     color: var(--text-primary);
     line-height: 1.7;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(90deg, #D97706, #7C3AED, #D97706) 1;
 }
 
 /* Header */
 .story-header {
     position: fixed;
-    top: 0;
+    top: 3px;
     left: 0;
     right: 0;
     background: rgba(255,255,255,0.95);
@@ -49,7 +54,7 @@ body {
     z-index: 100;
     padding: 0 24px;
 }
-html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
+html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 .story-header-inner {
     max-width: 720px;
     margin: 0 auto;
@@ -67,7 +72,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
 .story-header a:hover { text-decoration: underline; }
 .story-progress {
     position: fixed;
-    top: 52px;
+    top: 55px;
     left: 0;
     height: 3px;
     background: var(--accent-color);
@@ -76,15 +81,80 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
     transition: width 0.1s;
 }
 
+/* Story index */
+.story-index {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 20px;
+}
+.story-index h1 {
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.story-index > p {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    margin-bottom: 28px;
+}
+.story-index-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.story-index-card {
+    display: block;
+    text-decoration: none;
+    color: var(--text-primary);
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s;
+}
+.story-index-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+.story-index-card h3 {
+    font-size: 0.92rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+.story-index-card p {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.story-index-card .story-card-meta {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.story-index-card .story-card-meta .coming-soon {
+    color: var(--secondary-accent);
+    font-weight: 600;
+}
+.story-separator {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+
 /* Story content */
 .story-container {
     max-width: 720px;
     margin: 0 auto;
-    padding: 80px 24px 80px;
+    padding: 40px 24px 80px;
 }
 .story-title-block {
     text-align: center;
-    padding: 60px 0 40px;
+    padding: 40px 0 40px;
 }
 .story-title-block h1 {
     font-size: clamp(1.8rem, 4vw, 2.4rem);
@@ -137,7 +207,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
     line-height: 1.6;
     border-left: 3px solid var(--accent-color);
     margin: 12px 24px 0;
-    background: rgba(14, 165, 233, 0.04);
+    background: rgba(217, 119, 6, 0.04);
     border-radius: 0 8px 8px 0;
 }
 .story-map-title {
@@ -174,7 +244,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
     font-size: 0.88rem;
     transition: all 0.2s;
 }
-.story-cta a:hover { background: #0284C7; }
+.story-cta a:hover { background: #B45309; }
 .story-cta p {
     font-size: 0.82rem;
     color: var(--text-muted);
@@ -182,8 +252,10 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
 }
 
 @media (max-width: 768px) {
-    .story-container { padding: 70px 16px 60px; }
-    .story-title-block { padding: 40px 0 28px; }
+    .story-index { padding: 70px 16px 16px; }
+    .story-index-grid { grid-template-columns: 1fr; }
+    .story-container { padding: 28px 16px 60px; }
+    .story-title-block { padding: 28px 0 28px; }
     .story-map { margin: 28px -16px; }
     .story-map-caption { margin: 10px 16px 0; padding: 10px 16px; }
 }
@@ -193,17 +265,48 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
 
 <header class="story-header">
     <div class="story-header-inner">
-        <a href="index.html">&larr; Back to Maps</a>
+        <a href="index.html">Back to Maps</a>
         <span style="font-size:0.78rem;color:var(--text-muted);">How India Lives</span>
     </div>
 </header>
 <div class="story-progress" id="story-progress"></div>
 
-<div class="story-container">
+<!-- Story Index -->
+<div class="story-index">
+    <h1>Stories</h1>
+    <p>Curated narratives built from India's development data. Each story threads together maps that tell a bigger picture.</p>
+    <div class="story-index-grid">
+        <a class="story-index-card" href="#north-south">
+            <h3>India's North-South Divide, in 7 Maps</h3>
+            <p>The same country, two development trajectories. Health, income, literacy, gender — every indicator follows the same fault line.</p>
+            <span class="story-card-meta">7 maps -- 3 min read</span>
+        </a>
+        <div class="story-index-card" style="opacity:0.6;cursor:default;">
+            <h3>The Gender Gap: What It Means to Be a Woman Across India</h3>
+            <p>From child marriage to domestic violence to economic participation — the maps that show why gender policy can't be national.</p>
+            <span class="story-card-meta"><span class="coming-soon">Coming soon</span></span>
+        </div>
+        <div class="story-index-card" style="opacity:0.6;cursor:default;">
+            <h3>Where Bihar Falls Behind — and Why</h3>
+            <p>India's most consistent outlier across every development indicator. A state-level deep dive.</p>
+            <span class="story-card-meta"><span class="coming-soon">Coming soon</span></span>
+        </div>
+        <div class="story-index-card" style="opacity:0.6;cursor:default;">
+            <h3>What India Eats: Food as Cultural Geography</h3>
+            <p>Vegetarianism, alcohol, tobacco — how food maps reveal India's deepest cultural boundaries.</p>
+            <span class="story-card-meta"><span class="coming-soon">Coming soon</span></span>
+        </div>
+    </div>
+</div>
+
+<div class="story-separator"></div>
+
+<!-- Story 1: North-South Divide -->
+<div class="story-container" id="north-south">
     <div class="story-title-block">
         <h1>India's North-South Divide, in 7 Maps</h1>
         <p class="story-subtitle">The same country, two different development trajectories. Here's what the data shows — and why it matters for policy.</p>
-        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
+        <p class="story-meta">A How India Lives Story -- 3 min read</p>
     </div>
 
     <p class="story-text">
@@ -214,7 +317,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
         This story walks you through 7 maps that make this divide visible. Each one tells a piece of the same story: <em>where you are born in India still determines how you live.</em>
     </p>
 
-    <div class="story-divider">···</div>
+    <div class="story-divider">---</div>
 
     <div class="story-map" data-story-map>
         <img src="maps/demography/S00a_Median_Age_by_State.png" alt="Median Age by State" loading="lazy">
@@ -252,7 +355,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
         <strong>Birth is destiny in India.</strong> A child born in Kerala today will live, on average, 13 years longer than one born in Chhattisgarh. That's not a statistic — it's a moral indictment of "national average" policymaking.
     </p>
 
-    <div class="story-divider">···</div>
+    <div class="story-divider">---</div>
 
     <div class="story-map" data-story-map>
         <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy">
@@ -298,7 +401,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
         </div>
     </div>
 
-    <div class="story-divider">···</div>
+    <div class="story-divider">---</div>
 
     <p class="story-text">
         <strong>Seven maps. One conclusion.</strong> India's development story cannot be told in national averages. An average of Kerala and Bihar is a fiction that serves no one. The maps make this visible — and visibility is the first step toward better policy.
@@ -310,7 +413,7 @@ html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
 
     <div class="story-cta">
         <a href="index.html">Explore all 205 Maps</a>
-        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
+        <p>Part of How India Lives -- An ImpactMojo Project</p>
     </div>
 </div>
 
