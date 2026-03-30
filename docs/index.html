@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How India Lives — Docs</title>
+  <meta name="description" content="Documentation for How India Lives — 205 maps of India's diversity">
+  <link rel="icon" href="https://www.impactmojo.in/assets/images/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <style>
+    :root {
+      --theme-color: #D97706;
+      --sidebar-name-color: #D97706;
+      --sidebar-nav-link-color--active: #D97706;
+      --sidebar-nav-link-border-color--active: #D97706;
+      --link-color: #D97706;
+      --link-color--hover: #B45309;
+      --blockquote-border-color: #D97706;
+      --cover-heading-color: #1C1917;
+      --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .sidebar .app-name {
+      font-weight: 700;
+    }
+    .markdown-section {
+      max-width: 800px;
+    }
+    .cover-main {
+      background: linear-gradient(135deg, rgba(217, 119, 6, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%) !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'How India Lives',
+      nameLink: 'https://howindialives.impactmojo.in',
+      repo: 'https://github.com/Varnasr/how-india-lives',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        placeholder: 'Search docs...',
+        noData: 'No results',
+        paths: 'auto'
+      },
+      coverpage: false,
+      themeColor: '#D97706',
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+</body>
+</html>
