@@ -883,6 +883,12 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     line-height: 1.3;
     flex: 1;
 }
+.detail-nav-btns {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.detail-nav-btn,
 .detail-close-btn {
     background: var(--hover-bg);
     border: 1px solid var(--border-color);
@@ -898,6 +904,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     font-size: 1.1rem;
     transition: all 0.15s;
 }
+.detail-nav-btn:hover,
 .detail-close-btn:hover { background: var(--border-color); color: var(--text-primary); }
 .detail-map-container {
     background: var(--secondary-bg);
@@ -1271,7 +1278,11 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     <div class="detail-panel" id="detail-panel">
         <div class="detail-panel-header">
             <h2 id="detail-title"></h2>
-            <button class="detail-close-btn" onclick="closeDetail()" aria-label="Close">&times;</button>
+            <div class="detail-nav-btns">
+                <button class="detail-nav-btn" onclick="navMap(-1)" aria-label="Previous map" title="Previous (←)">&#8592;</button>
+                <button class="detail-nav-btn" onclick="navMap(1)" aria-label="Next map" title="Next (→)">&#8594;</button>
+                <button class="detail-close-btn" onclick="closeDetail()" aria-label="Close">&times;</button>
+            </div>
         </div>
         <div class="detail-map-container" onclick="openFullscreen()">
             <img id="detail-img" src="" alt="">
@@ -1562,6 +1573,17 @@ function openDetail(mapId) {
     history.replaceState(null, '', `#map/${mapId}`);
 }
 
+function navMap(dir) {
+    if (!currentMapData) return;
+    const sectionMaps = ALL_MAPS.filter(m => m.section === currentMapData.section);
+    const idx = sectionMaps.findIndex(m => m.id === currentMapData.id);
+    if (idx < 0) return;
+    const next = dir > 0
+        ? sectionMaps[(idx + 1) % sectionMaps.length]
+        : sectionMaps[(idx - 1 + sectionMaps.length) % sectionMaps.length];
+    openDetail(next.id);
+}
+
 function closeDetail() {
     document.getElementById('detail-overlay').classList.remove('active');
     document.body.style.overflow = '';
@@ -1606,6 +1628,17 @@ function toggleSection(gridId, btn) {
 document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { closeFullscreen(); closeDetail(); closeAbout(); }
     if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); toggleAbout(); }
+    // Arrow keys navigate maps in detail modal
+    if (currentMapData && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+        e.preventDefault();
+        const sectionMaps = ALL_MAPS.filter(m => m.section === currentMapData.section);
+        const idx = sectionMaps.findIndex(m => m.id === currentMapData.id);
+        if (idx < 0) return;
+        const next = e.key === 'ArrowRight'
+            ? sectionMaps[(idx + 1) % sectionMaps.length]
+            : sectionMaps[(idx - 1 + sectionMaps.length) % sectionMaps.length];
+        openDetail(next.id);
+    }
 });
 
 // ── About Overlay ──
