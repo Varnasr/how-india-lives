@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stories — How India Lives</title>
+<meta name="description" content="Scroll-driven visual stories built from India's development data. Maps that tell a story.">
+<link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+    --primary-bg: #FFFFFF;
+    --secondary-bg: #F8FAFC;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #94A3B8;
+    --accent-color: #0EA5E9;
+    --border-color: #E2E8F0;
+    --card-bg: #FFFFFF;
+}
+html[data-theme="dark"] {
+    --primary-bg: #0F172A;
+    --secondary-bg: #1E293B;
+    --text-primary: #F1F5F9;
+    --text-secondary: #CBD5E1;
+    --text-muted: #64748B;
+    --card-bg: #1E293B;
+    --border-color: #334155;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--primary-bg);
+    color: var(--text-primary);
+    line-height: 1.7;
+}
+
+/* Header */
+.story-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    z-index: 100;
+    padding: 0 24px;
+}
+html[data-theme="dark"] .story-header { background: rgba(15,23,42,0.95); }
+.story-header-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.story-header a {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.story-header a:hover { text-decoration: underline; }
+.story-progress {
+    position: fixed;
+    top: 52px;
+    left: 0;
+    height: 3px;
+    background: var(--accent-color);
+    z-index: 101;
+    width: 0%;
+    transition: width 0.1s;
+}
+
+/* Story content */
+.story-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 80px;
+}
+.story-title-block {
+    text-align: center;
+    padding: 60px 0 40px;
+}
+.story-title-block h1 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-weight: 800;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+.story-title-block .story-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto 20px;
+}
+.story-title-block .story-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Story blocks */
+.story-text {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    line-height: 1.8;
+}
+.story-text strong { color: var(--text-primary); }
+.story-text em { color: var(--accent-color); font-style: normal; font-weight: 600; }
+
+.story-map {
+    margin: 40px -24px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.story-map.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.story-map img {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+.story-map-caption {
+    padding: 14px 24px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    border-left: 3px solid var(--accent-color);
+    margin: 12px 24px 0;
+    background: rgba(14, 165, 233, 0.04);
+    border-radius: 0 8px 8px 0;
+}
+.story-map-title {
+    font-weight: 700;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.story-divider {
+    text-align: center;
+    padding: 24px 0;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    letter-spacing: 8px;
+}
+
+.story-cta {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid var(--border-color);
+    margin-top: 40px;
+}
+.story-cta a {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.88rem;
+    transition: all 0.2s;
+}
+.story-cta a:hover { background: #0284C7; }
+.story-cta p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+    .story-container { padding: 70px 16px 60px; }
+    .story-title-block { padding: 40px 0 28px; }
+    .story-map { margin: 28px -16px; }
+    .story-map-caption { margin: 10px 16px 0; padding: 10px 16px; }
+}
+</style>
+</head>
+<body>
+
+<header class="story-header">
+    <div class="story-header-inner">
+        <a href="index.html">&larr; Back to Maps</a>
+        <span style="font-size:0.78rem;color:var(--text-muted);">How India Lives</span>
+    </div>
+</header>
+<div class="story-progress" id="story-progress"></div>
+
+<div class="story-container">
+    <div class="story-title-block">
+        <h1>India's North-South Divide, in 7 Maps</h1>
+        <p class="story-subtitle">The same country, two different development trajectories. Here's what the data shows — and why it matters for policy.</p>
+        <p class="story-meta">A How India Lives Story &middot; 3 min read</p>
+    </div>
+
+    <p class="story-text">
+        <strong>India is not one country when it comes to development outcomes.</strong> Kerala's life expectancy exceeds Chhattisgarh's by 13 years. Bihar's female literacy is half of Tamil Nadu's. The gap isn't closing — it's widening.
+    </p>
+
+    <p class="story-text">
+        This story walks you through 7 maps that make this divide visible. Each one tells a piece of the same story: <em>where you are born in India still determines how you live.</em>
+    </p>
+
+    <div class="story-divider">···</div>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/demography/S00a_Median_Age_by_State.png" alt="Median Age by State" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Demography</div>
+            Southern states are ageing. Northern states are young. This isn't just demographics — it's the foundation of every policy difference that follows.
+        </div>
+    </div>
+
+    <p class="story-text">
+        A state's median age tells you everything about its development trajectory. <strong>Kerala at 33 has an ageing welfare challenge. Bihar at 20 has an employment crisis.</strong> They need completely different policies, but get the same central schemes.
+    </p>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/economy/S02a_Per_Capita_NSDP_at_Current_Prices.png" alt="Per Capita NSDP" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Economy</div>
+            Goa's per capita income is 8x Bihar's. The economic distance between Indian states is larger than between many European countries.
+        </div>
+    </div>
+
+    <p class="story-text">
+        The income map is the starkest. <em>The richest Indian states are richer than the poorest countries in Europe. The poorest Indian states are poorer than sub-Saharan Africa.</em> This is one country.
+    </p>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/health/S06a_Life_Expectancy_at_Birth.png" alt="Life Expectancy" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Health</div>
+            Life expectancy ranges from 64 in Chhattisgarh to 77 in Kerala — a 13-year gap within the same nation.
+        </div>
+    </div>
+
+    <p class="story-text">
+        <strong>Birth is destiny in India.</strong> A child born in Kerala today will live, on average, 13 years longer than one born in Chhattisgarh. That's not a statistic — it's a moral indictment of "national average" policymaking.
+    </p>
+
+    <div class="story-divider">···</div>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Gender</div>
+            Child marriage rates vary from under 5% in Kerala to over 40% in Bihar and West Bengal.
+        </div>
+    </div>
+
+    <p class="story-text">
+        The gender map is where the divide becomes personal. In southern states, most girls finish school before marriage. In parts of the north, <em>marriage IS the alternative to school.</em> These are not problems that respond to the same solution.
+    </p>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/education/S08a_Literacy_Rate.png" alt="Literacy Rate" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Education</div>
+            Kerala's literacy exceeds 96%. Bihar's remains below 65%. The gap is generational.
+        </div>
+    </div>
+
+    <p class="story-text">
+        Literacy is the most upstream indicator — <strong>it determines everything downstream.</strong> Health-seeking behaviour, contraceptive use, voter participation, economic mobility. A 30-percentage-point literacy gap cascades into every other indicator on this page.
+    </p>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/environment/S10a_Forest_Cover_as_Percentage_of_Geographic_Area.png" alt="Forest Cover" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Environment</div>
+            Northeast India is over 70% forested. The Gangetic plain has nearly zero tree cover left.
+        </div>
+    </div>
+
+    <p class="story-text">
+        The environmental map tells a parallel story. States with high forest cover tend to have low economic development. <em>Development and environment are still treated as a zero-sum trade-off</em> — but they don't have to be.
+    </p>
+
+    <div class="story-map" data-story-map>
+        <img src="maps/reproductive-choices/S12a_Female_Sterilisation_as_Primary_Contraceptive_Method.png" alt="Female Sterilisation" loading="lazy">
+        <div class="story-map-caption">
+            <div class="story-map-title">Reproductive Choices</div>
+            In many northern states, female sterilisation remains the dominant form of contraception — a legacy of coercive family planning.
+        </div>
+    </div>
+
+    <div class="story-divider">···</div>
+
+    <p class="story-text">
+        <strong>Seven maps. One conclusion.</strong> India's development story cannot be told in national averages. An average of Kerala and Bihar is a fiction that serves no one. The maps make this visible — and visibility is the first step toward better policy.
+    </p>
+
+    <p class="story-text">
+        Every indicator on this page follows the same geographic fault line. It's not a coincidence. It's a pattern — and patterns demand systemic responses, not one-size-fits-all schemes.
+    </p>
+
+    <div class="story-cta">
+        <a href="index.html">Explore all 205 Maps</a>
+        <p>Part of How India Lives &middot; An ImpactMojo Project</p>
+    </div>
+</div>
+
+<script>
+// Theme
+(function(){
+    const saved = localStorage.getItem('im-theme');
+    if (saved === 'dark') document.documentElement.setAttribute('data-theme','dark');
+    else if (window.matchMedia('(prefers-color-scheme:dark)').matches) document.documentElement.setAttribute('data-theme','dark');
+})();
+
+// Scroll progress
+window.addEventListener('scroll', () => {
+    const h = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = h > 0 ? (window.scrollY / h) * 100 : 0;
+    document.getElementById('story-progress').style.width = pct + '%';
+});
+
+// Fade in maps on scroll
+const mapObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('[data-story-map]').forEach(el => mapObserver.observe(el));
+</script>
+</body>
+</html>
