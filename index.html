@@ -758,6 +758,128 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     transition: transform 0.2s;
 }
 .expand-btn.expanded svg { transform: rotate(180deg); }
+
+/* ── STATE SELECTOR OVERLAY ── */
+.state-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+    z-index: 2500;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 20px;
+    overflow-y: auto;
+}
+.state-overlay.active { display: flex; }
+.state-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    max-width: 640px;
+    width: 100%;
+    box-shadow: var(--shadow-xl);
+    animation: aboutSlideIn 0.2s ease-out;
+}
+.state-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px 12px;
+}
+.state-panel-header h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.state-panel-body {
+    padding: 0 24px 24px;
+}
+.state-search {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.88rem;
+    font-family: inherit;
+    background: var(--secondary-bg);
+    color: var(--text-primary);
+    margin-bottom: 16px;
+}
+.state-search:focus { outline: none; border-color: var(--accent-color); }
+.state-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.state-btn {
+    padding: 10px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: center;
+}
+.state-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    background: rgba(14, 165, 233, 0.06);
+}
+
+/* State profile banner */
+.state-profile-banner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    display: none;
+}
+.state-profile-banner.active { display: block; }
+.state-profile-inner {
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(99, 102, 241, 0.08) 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.state-profile-inner h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.state-profile-inner p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+.state-profile-close {
+    padding: 6px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.state-profile-close:hover { border-color: var(--accent-color); color: var(--accent-color); }
+
+@media (max-width: 768px) {
+    .state-overlay { padding: 24px 12px; }
+    .state-grid { grid-template-columns: repeat(2, 1fr); }
+    .state-profile-inner { flex-direction: column; text-align: center; }
+}
+
 .about-overlay {
     display: none;
     position: fixed;
@@ -1280,6 +1402,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
             <div class="hero-actions">
                 <a href="methodology.html" class="method-link">Methodology</a>
                 <button class="surprise-btn" onclick="surpriseMe()">Surprise Me</button>
+                <button class="surprise-btn" onclick="openStateSelector()">Explore a State</button>
             </div>
         </div>
         <div class="hero-spotlight" id="hero-spotlight">
@@ -1342,8 +1465,33 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     </div>
 </div>
 
+<!-- State profile banner — shown when a state is selected -->
+<div class="state-profile-banner" id="state-profile-banner">
+    <div class="state-profile-inner">
+        <div>
+            <h2 id="state-profile-name"></h2>
+            <p id="state-profile-desc"></p>
+        </div>
+        <button class="state-profile-close" onclick="clearStateProfile()">Clear filter</button>
+    </div>
+</div>
+
 <!-- Main content — populated by JS -->
 <main id="main"></main>
+
+<!-- State Selector Overlay -->
+<div class="state-overlay" id="state-overlay" onclick="if(event.target===event.currentTarget)closeStateSelector()">
+    <div class="state-panel">
+        <div class="state-panel-header">
+            <h2>Explore a State</h2>
+            <button class="detail-close-btn" onclick="closeStateSelector()" aria-label="Close">&times;</button>
+        </div>
+        <div class="state-panel-body">
+            <input class="state-search" type="text" id="state-search" placeholder="Search states..." oninput="filterStates()">
+            <div class="state-grid" id="state-grid"></div>
+        </div>
+    </div>
+</div>
 
 <!-- About Overlay (Ctrl+K) -->
 <div class="about-overlay" id="about-overlay">
@@ -1768,6 +1916,117 @@ document.addEventListener('keydown', e => {
         openDetail(next.id);
     }
 });
+
+// ── State Profile ──
+const STATES = [
+    'Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa',
+    'Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala',
+    'Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland',
+    'Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura',
+    'Uttar Pradesh','Uttarakhand','West Bengal',
+    'Andaman & Nicobar','Chandigarh','Dadra & Nagar Haveli','Daman & Diu',
+    'Delhi','Jammu & Kashmir','Ladakh','Lakshadweep','Puducherry'
+];
+let activeState = '';
+
+function openStateSelector() {
+    const grid = document.getElementById('state-grid');
+    grid.innerHTML = STATES.map(s =>
+        `<button class="state-btn" onclick="selectState('${s.replace(/'/g, "\\'")}')">${s}</button>`
+    ).join('');
+    document.getElementById('state-search').value = '';
+    document.getElementById('state-overlay').classList.add('active');
+}
+
+function closeStateSelector() {
+    document.getElementById('state-overlay').classList.remove('active');
+}
+
+function filterStates() {
+    const q = document.getElementById('state-search').value.toLowerCase();
+    document.querySelectorAll('.state-btn').forEach(btn => {
+        btn.style.display = btn.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+}
+
+function selectState(stateName) {
+    activeState = stateName;
+    closeStateSelector();
+
+    // Show profile banner
+    document.getElementById('state-profile-name').textContent = `${stateName}'s Story`;
+    const matchCount = ALL_MAPS.filter(m => mapMentionsState(m, stateName)).length;
+    document.getElementById('state-profile-desc').textContent =
+        `${matchCount} maps mention ${stateName} in their findings. All 205 maps include data for every state.`;
+    document.getElementById('state-profile-banner').classList.add('active');
+
+    // Sort maps: ones mentioning this state first
+    renderAllWithStateHighlight(stateName);
+    window.scrollTo({ top: document.getElementById('main').offsetTop - 120, behavior: 'smooth' });
+}
+
+function clearStateProfile() {
+    activeState = '';
+    document.getElementById('state-profile-banner').classList.remove('active');
+    renderAll();
+}
+
+function mapMentionsState(m, stateName) {
+    const sLower = stateName.toLowerCase();
+    return (m.takeaway && m.takeaway.toLowerCase().includes(sLower)) ||
+           (m.policy && m.policy.toLowerCase().includes(sLower)) ||
+           (m.tags || []).some(t => t.toLowerCase().includes(sLower)) ||
+           m.title.toLowerCase().includes(sLower);
+}
+
+function renderAllWithStateHighlight(stateName) {
+    const main = document.getElementById('main');
+    const sections = {};
+    ALL_MAPS.forEach(m => {
+        if (!sections[m.section]) sections[m.section] = [];
+        sections[m.section].push(m);
+    });
+
+    let html = '';
+    SECTION_ORDER.forEach(sid => {
+        const maps = sections[sid] || [];
+        const meta = SECTION_META[sid];
+        if (!meta || !maps.length) return;
+        // Sort: maps mentioning the state come first
+        const sorted = [...maps].sort((a, b) => {
+            const aMatch = mapMentionsState(a, stateName) ? 1 : 0;
+            const bMatch = mapMentionsState(b, stateName) ? 1 : 0;
+            return bMatch - aMatch;
+        });
+        const lead = sorted[0];
+        const rest = sorted.slice(1);
+        const VISIBLE_COUNT = 3;
+        const visible = rest.slice(0, VISIBLE_COUNT);
+        const hidden = rest.slice(VISIBLE_COUNT);
+        const gridId = `grid-${sid}`;
+
+        html += `<section class="section" id="${sid}">
+            <div class="section-header">
+                <h2>${meta.title} <span class="map-count">${maps.length} maps</span></h2>
+                <p>${meta.desc}</p>
+            </div>
+            <div class="section-layout">
+                ${leadCardHTML(lead)}
+                ${rest.length ? `<div class="map-grid" id="${gridId}">
+                    ${visible.map(m => cardHTML(m)).join('')}
+                    ${hidden.map(m => cardHTML(m, true)).join('')}
+                </div>` : ''}
+                ${hidden.length ? `<div class="expand-btn-wrap">
+                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)" aria-label="Show all maps">
+                        Show all ${rest.length} maps
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                </div>` : ''}
+            </div>
+        </section>`;
+    });
+    main.innerHTML = html;
+}
 
 // ── About Overlay ──
 function toggleAbout() {
