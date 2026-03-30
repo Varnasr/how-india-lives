@@ -1559,12 +1559,14 @@ function openDetail(mapId) {
 
     document.getElementById('detail-overlay').classList.add('active');
     document.body.style.overflow = 'hidden';
+    history.replaceState(null, '', `#map/${mapId}`);
 }
 
 function closeDetail() {
     document.getElementById('detail-overlay').classList.remove('active');
     document.body.style.overflow = '';
     currentMapData = null;
+    if (location.hash.startsWith('#map/')) history.replaceState(null, '', location.pathname);
 }
 document.getElementById('detail-overlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeDetail(); });
 
@@ -1681,6 +1683,17 @@ const navObs = new IntersectionObserver(entries => {
 
 loadMaps().then(() => {
     document.querySelectorAll('.section').forEach(s => navObs.observe(s));
+    // Deep link: open map from URL hash
+    if (location.hash.startsWith('#map/')) {
+        const mapId = location.hash.slice(5);
+        if (ALL_MAPS.find(m => m.id === mapId)) openDetail(mapId);
+    }
+});
+window.addEventListener('hashchange', () => {
+    if (location.hash.startsWith('#map/')) {
+        const mapId = location.hash.slice(5);
+        if (ALL_MAPS.find(m => m.id === mapId)) openDetail(mapId);
+    }
 });
 </script>
 </body>
