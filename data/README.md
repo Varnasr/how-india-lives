@@ -60,11 +60,10 @@ also sets `<html lang>` and fires an `im:langchange` event).
 Currently translated:
 - The navigation and the interactive tool's chrome (tabs, labels, headings).
 - **All 14 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
-- **The Demography theme** — all 13 maps have `title_hi` + `takeaway_hi`; every
-  section title has a Hindi form.
+- **All 205 maps** — every map has `title_hi` + `takeaway_hi`, and every section
+  title has a Hindi form. Numbers, ratios and state names are preserved.
 
-Remaining map themes' titles/takeaways are still English (they degrade
-gracefully). To translate more content:
+To translate additional content (e.g. per-map static pages, policy notes):
 
 1. Add parallel `_hi` fields to the data, e.g. `"name_hi"`, `"desc_hi"` in
    `interactive-data.json`, or `"title_hi"` / `"takeaway_hi"` in `maps.json`.
