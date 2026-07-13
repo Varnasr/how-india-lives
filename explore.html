@@ -23,6 +23,21 @@
   (function(){var s=localStorage.getItem('im-theme');
     if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))
       document.documentElement.setAttribute('data-theme','dark');})();
+  // Page-specific Hindi strings for the shared i18n system (assets/common-header.js).
+  window.IM_I18N = {
+    'ex.title': { en: "Map, rank and correlate India's states", hi: 'भारत के राज्यों को मानचित्रित, क्रमबद्ध और सहसंबंधित करें' },
+    'ex.lead': { en: 'A growing set of indicators across health, education, gender and the economy — for every state and union territory. Map one, rank them all, or compare two to see how they move together.', hi: 'स्वास्थ्य, शिक्षा, लैंगिक और अर्थव्यवस्था के बढ़ते संकेतक — हर राज्य और केंद्रशासित प्रदेश के लिए। एक को मानचित्रित करें, सबको क्रमबद्ध करें, या दो की तुलना करें।' },
+    'ex.tab.map': { en: 'Map', hi: 'मानचित्र' },
+    'ex.tab.ranking': { en: 'Ranking', hi: 'क्रम' },
+    'ex.tab.compare': { en: 'Compare', hi: 'तुलना' },
+    'ex.tab.state': { en: 'States', hi: 'राज्य' },
+    'ex.lbl.indicator': { en: 'Indicator', hi: 'संकेतक' },
+    'ex.lbl.x': { en: 'Horizontal (X)', hi: 'क्षैतिज (X)' },
+    'ex.lbl.y': { en: 'Vertical (Y)', hi: 'ऊर्ध्वाधर (Y)' },
+    'ex.lbl.state': { en: 'State / union territory', hi: 'राज्य / केंद्रशासित प्रदेश' },
+    'ex.correlation': { en: 'Correlation', hi: 'सहसंबंध' },
+    'ex.highlow': { en: 'Highest & lowest', hi: 'उच्चतम और निम्नतम' }
+  };
 </script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -219,22 +234,22 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 <div class="wrap">
     <div class="page-head">
         <span class="eyebrow">Interactive Atlas</span>
-        <h1>Map, rank and correlate India's states</h1>
-        <p class="lead">A growing set of indicators across health, education, gender and the economy — for every state and
+        <h1 data-i18n="ex.title">Map, rank and correlate India's states</h1>
+        <p class="lead" data-i18n="ex.lead">A growing set of indicators across health, education, gender and the economy — for every state and
             union territory. Map one, rank them all, or compare two to see how they move together.</p>
     </div>
 
     <div class="view-tabs" role="tablist" aria-label="View">
-        <button class="view-tab active" data-view="map" role="tab">Map</button>
-        <button class="view-tab" data-view="ranking" role="tab">Ranking</button>
-        <button class="view-tab" data-view="compare" role="tab">Compare</button>
-        <button class="view-tab" data-view="state" role="tab">States</button>
+        <button class="view-tab active" data-view="map" role="tab" data-i18n="ex.tab.map">Map</button>
+        <button class="view-tab" data-view="ranking" role="tab" data-i18n="ex.tab.ranking">Ranking</button>
+        <button class="view-tab" data-view="compare" role="tab" data-i18n="ex.tab.compare">Compare</button>
+        <button class="view-tab" data-view="state" role="tab" data-i18n="ex.tab.state">States</button>
     </div>
 
     <!-- Single-indicator controls (Map + Ranking) -->
     <div class="controls" id="single-controls">
         <div class="select-wrap">
-            <label class="sw-label" for="ind-select">Indicator</label>
+            <label class="sw-label" for="ind-select" data-i18n="ex.lbl.indicator">Indicator</label>
             <select id="ind-select" class="im-select" aria-label="Choose an indicator"></select>
         </div>
         <div class="dl-btns" style="align-self:flex-end;">
@@ -246,7 +261,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     <!-- State controls -->
     <div class="controls hidden" id="state-controls">
         <div class="select-wrap">
-            <label class="sw-label" for="state-select">State / union territory</label>
+            <label class="sw-label" for="state-select" data-i18n="ex.lbl.state">State / union territory</label>
             <select id="state-select" class="im-select"></select>
         </div>
     </div>
@@ -254,11 +269,11 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     <!-- Compare controls -->
     <div class="controls compare-selects hidden" id="compare-controls">
         <div class="select-wrap">
-            <label class="sw-label" for="x-select">Horizontal (X)</label>
+            <label class="sw-label" for="x-select" data-i18n="ex.lbl.x">Horizontal (X)</label>
             <select id="x-select" class="im-select"></select>
         </div>
         <div class="select-wrap">
-            <label class="sw-label" for="y-select">Vertical (Y)</label>
+            <label class="sw-label" for="y-select" data-i18n="ex.lbl.y">Vertical (Y)</label>
             <select id="y-select" class="im-select"></select>
         </div>
     </div>
@@ -283,7 +298,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
                 <div class="legend-dir" id="legend-dir"></div>
             </div>
             <div class="panel">
-                <h3>Highest &amp; lowest</h3>
+                <h3 data-i18n="ex.highlow">Highest &amp; lowest</h3>
                 <div id="ranks"></div>
             </div>
         </div>
@@ -299,7 +314,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         </div>
         <div class="side">
             <div class="panel corr-card">
-                <h3>Correlation</h3>
+                <h3 data-i18n="ex.correlation">Correlation</h3>
                 <div class="big-r" id="corr-r">—</div>
                 <div class="r-strength" id="corr-strength"></div>
                 <div class="r-expl" id="corr-expl"></div>

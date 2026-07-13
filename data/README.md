@@ -48,3 +48,25 @@ extend as more indicators get real state-level values.
 4. Bump the cache version in `sw.js` so returning visitors pick up the change.
 
 No build step, no framework — just edit the JSON.
+
+## Localization (Hindi and beyond)
+
+The site ships an English/Hindi toggle in the common header. It uses a light
+`data-i18n` system (`assets/common-header.js`): any element with a
+`data-i18n="some.key"` attribute is translated from a dictionary, and
+`window.IM.setLang('hi'|'en')` flips the language (persisted in `im-lang`,
+also sets `<html lang>` and fires an `im:langchange` event).
+
+Currently translated: the navigation and the interactive tool's chrome
+(tabs, labels, headings). **Data content** — indicator names, map titles and
+takeaways — is still English. To translate content:
+
+1. Add parallel `_hi` fields to the data, e.g. `"name_hi"`, `"desc_hi"` in
+   `interactive-data.json`, or `"title_hi"` / `"takeaway_hi"` in `maps.json`.
+2. In the rendering code, pick the field by `window.IM.lang` (fall back to the
+   English field when the `_hi` value is missing).
+3. For static page copy, add `data-i18n` attributes and register strings via
+   `window.IM_I18N` before `common-header.js` loads (see `explore.html`).
+
+This keeps translation incremental — partial coverage degrades gracefully to
+English rather than breaking.

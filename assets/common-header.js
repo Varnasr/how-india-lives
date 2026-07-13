@@ -13,19 +13,54 @@
     // Local (this-site) pages + the parent-ecosystem back-links.
     // Root-absolute hrefs so the header works from any directory (e.g. /m/<id>.html).
     var LOCAL_LINKS = [
-        { label: 'Atlas', href: '/index.html', match: ['', 'index.html'] },
-        { label: 'Interactive', href: '/explore.html', match: ['explore.html'] },
-        { label: 'Stories', href: '/stories.html', match: ['stories.html'] },
-        { label: 'Methodology', href: '/methodology.html', match: ['methodology.html'] }
+        { key: 'nav.atlas', label: 'Atlas', href: '/index.html', match: ['', 'index.html'] },
+        { key: 'nav.interactive', label: 'Interactive', href: '/explore.html', match: ['explore.html'] },
+        { key: 'nav.stories', label: 'Stories', href: '/stories.html', match: ['stories.html'] },
+        { key: 'nav.methodology', label: 'Methodology', href: '/methodology.html', match: ['methodology.html'] }
     ];
 
     var PARENT_LINKS = [
-        { label: 'Home', href: 'https://www.impactmojo.in/' },
-        { label: 'Catalogue', href: 'https://www.impactmojo.in/catalog' },
-        { label: 'Courses', href: 'https://www.impactmojo.in/courses/' },
-        { label: 'Specials', href: 'https://www.impactmojo.in/#specials' },
-        { label: 'About', href: 'https://www.impactmojo.in/about' }
+        { key: 'nav.home', label: 'Home', href: 'https://www.impactmojo.in/' },
+        { key: 'nav.catalogue', label: 'Catalogue', href: 'https://www.impactmojo.in/catalog' },
+        { key: 'nav.courses', label: 'Courses', href: 'https://www.impactmojo.in/courses/' },
+        { key: 'nav.specials', label: 'Specials', href: 'https://www.impactmojo.in/#specials' },
+        { key: 'nav.about', label: 'About', href: 'https://www.impactmojo.in/about' }
     ];
+
+    /* ── i18n framework (matches the parent site's data-i18n pattern) ── */
+    var I18N = {
+        'nav.atlas': { en: 'Atlas', hi: 'एटलस' },
+        'nav.interactive': { en: 'Interactive', hi: 'इंटरैक्टिव' },
+        'nav.stories': { en: 'Stories', hi: 'कहानियाँ' },
+        'nav.methodology': { en: 'Methodology', hi: 'पद्धति' },
+        'nav.impactmojo': { en: 'ImpactMojo', hi: 'इम्पैक्टमोजो' },
+        'nav.explore': { en: 'Explore the platform', hi: 'मंच देखें' },
+        'nav.home': { en: 'Home', hi: 'होम' },
+        'nav.catalogue': { en: 'Catalogue', hi: 'सूची' },
+        'nav.courses': { en: 'Courses', hi: 'पाठ्यक्रम' },
+        'nav.specials': { en: 'Specials', hi: 'विशेष' },
+        'nav.about': { en: 'About', hi: 'परिचय' },
+        'logo.tagline': { en: 'An ImpactMojo Atlas', hi: 'एक इम्पैक्टमोजो एटलस' },
+        'lang.toggle': { en: 'हिन्दी', hi: 'EN' }
+    };
+    var IM = window.IM = window.IM || {};
+    IM.lang = localStorage.getItem('im-lang') || 'en';
+    function dict() { return Object.assign({}, I18N, window.IM_I18N || {}); }
+    IM.t = function (key) { var e = dict()[key] || {}; return e[IM.lang] || e.en || key; };
+    IM.applyI18n = function (root) {
+        var scope = root || document;
+        scope.querySelectorAll('[data-i18n]').forEach(function (el) {
+            var v = IM.t(el.getAttribute('data-i18n'));
+            if (v) el.textContent = v;
+        });
+        document.documentElement.lang = IM.lang;
+    };
+    IM.setLang = function (l) {
+        IM.lang = l;
+        localStorage.setItem('im-lang', l);
+        IM.applyI18n();
+        window.dispatchEvent(new CustomEvent('im:langchange', { detail: l }));
+    };
 
     var THEMES = [
         { key: 'system', title: 'System theme', path: '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/>' },
@@ -50,12 +85,12 @@
 
     function build() {
         var localItems = LOCAL_LINKS.map(function (l) {
-            return '<li><a href="' + l.href + '"' + (isActive(l) ? ' class="im-active" aria-current="page"' : '') +
-                '>' + l.label + '</a></li>';
+            return '<li><a href="' + l.href + '" data-i18n="' + l.key + '"' + (isActive(l) ? ' class="im-active" aria-current="page"' : '') +
+                '>' + IM.t(l.key) + '</a></li>';
         }).join('');
 
         var parentItems = PARENT_LINKS.map(function (l) {
-            return '<li><a class="im-ext" href="' + l.href + '">' + l.label + '</a></li>';
+            return '<li><a class="im-ext" href="' + l.href + '" data-i18n="' + l.key + '">' + IM.t(l.key) + '</a></li>';
         }).join('');
 
         var themeBtns = THEMES.map(function (t) {
@@ -69,22 +104,23 @@
                 '<img src="' + LOGO + '" alt="ImpactMojo" width="40" height="40" fetchpriority="high">' +
                 '<span class="im-logo-text">' +
                     '<span class="im-logo-main">How India Lives</span>' +
-                    '<span class="im-logo-tagline">An ImpactMojo Atlas</span>' +
+                    '<span class="im-logo-tagline" data-i18n="logo.tagline">' + IM.t('logo.tagline') + '</span>' +
                 '</span>' +
             '</a>' +
             '<ul class="im-links" id="im-links">' +
                 localItems +
                 '<li class="im-has-dropdown">' +
                     '<button class="im-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">' +
-                        'ImpactMojo' + svg('<path d="M6 9l6 6 6-6"/>').replace('<svg', '<svg class="im-dropdown-arrow"') +
+                        '<span data-i18n="nav.impactmojo">' + IM.t('nav.impactmojo') + '</span>' + svg('<path d="M6 9l6 6 6-6"/>').replace('<svg', '<svg class="im-dropdown-arrow"') +
                     '</button>' +
                     '<ul class="im-dropdown">' +
-                        '<li class="im-dropdown-label">Explore the platform</li>' +
+                        '<li class="im-dropdown-label" data-i18n="nav.explore">' + IM.t('nav.explore') + '</li>' +
                         parentItems +
                     '</ul>' +
                 '</li>' +
             '</ul>' +
             '<div class="im-actions">' +
+                '<button class="im-lang" id="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
                 '<button class="im-burger" id="im-burger" type="button" aria-label="Toggle menu" aria-expanded="false">' +
                     '<span></span><span></span><span></span>' +
@@ -162,6 +198,12 @@
             var open = header.classList.toggle('im-menu-open');
             burger.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
+
+        // Language toggle
+        var lang = header.querySelector('#im-lang');
+        if (lang) lang.addEventListener('click', function () {
+            IM.setLang(IM.lang === 'en' ? 'hi' : 'en');
+        });
     }
 
     function init() {
@@ -172,6 +214,8 @@
         // Ensure the header element itself carries the styling class + role.
         mount.setAttribute('role', 'banner');
         wire(mount);
+        // Translate the header + any page [data-i18n] elements to the saved language.
+        IM.applyI18n();
     }
 
     if (document.readyState === 'loading') {

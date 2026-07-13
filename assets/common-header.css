@@ -207,6 +207,22 @@ html[data-theme="dark"] {
 .im-theme-btn.im-active { background: var(--im-accent); color: #fff; }
 .im-theme-btn svg { width: 16px; height: 16px; }
 
+/* ── Language toggle ── */
+.im-lang {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--im-header-muted);
+    background: var(--im-header-hover-bg);
+    border: 1px solid var(--im-header-border);
+    border-radius: 9px;
+    padding: 7px 11px;
+    cursor: pointer;
+    transition: color .18s, border-color .18s;
+    min-width: 42px;
+}
+.im-lang:hover { color: var(--im-accent); border-color: var(--im-accent); }
+
 /* ── Hamburger ── */
 .im-burger {
     display: none;
