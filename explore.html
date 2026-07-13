@@ -153,6 +153,27 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
 .corr-card .r-expl { font-size: 0.82rem; color: var(--text-secondary); }
 .corr-pos { color: #10B981; } .corr-neg { color: #EF4444; } .corr-none { color: var(--text-muted); }
 
+/* ── State dashboard ── */
+.state-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.state-head h2 { font-family: 'Amaranth', sans-serif; font-size: 1.5rem; font-weight: 700; }
+.state-head .st-tag { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); background: var(--secondary-bg); border: 1px solid var(--border-color); border-radius: 999px; padding: 2px 10px; }
+.state-dash { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-top: 16px; }
+.dash-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 14px; padding: 14px 16px; text-decoration: none; color: inherit; display: block; transition: border-color .15s, transform .15s; }
+a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1px); }
+.dash-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.dash-name { font-weight: 600; font-size: 0.9rem; }
+.dash-name small { display: block; color: var(--text-muted); font-weight: 500; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.dash-val { font-family: 'Amaranth', sans-serif; font-size: 1.5rem; font-weight: 700; line-height: 1; white-space: nowrap; }
+.dash-val small { font-size: 0.66rem; color: var(--text-muted); font-family: 'Inter'; }
+.dash-track { position: relative; height: 8px; background: var(--secondary-bg); border-radius: 4px; margin: 14px 0 8px; }
+.dash-track .fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
+.dash-track .st-dot { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--card-bg); transform: translate(-50%,-50%); box-shadow: 0 0 0 1px var(--accent-color); }
+.dash-track .nat { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--text-secondary); transform: translateX(-50%); }
+.dash-foot { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); }
+.dash-foot .rank { font-weight: 700; color: var(--text-secondary); }
+.dash-foot .rank.top { color: #10B981; } .dash-foot .rank.bottom { color: #EF4444; }
+.dash-foot .vs-pos { color: #10B981; } .dash-foot .vs-neg { color: #EF4444; }
+
 .tooltip { position: fixed; pointer-events: none; z-index: 50; background: var(--text-primary); color: var(--primary-bg); padding: 8px 12px; border-radius: 10px; font-size: 0.8rem; box-shadow: 0 8px 24px rgba(0,0,0,0.25); opacity: 0; transform: translateY(4px); transition: opacity .12s, transform .12s; max-width: min(240px, 80vw); }
 .tooltip.show { opacity: 1; transform: translateY(0); }
 .tooltip .t-name { font-weight: 700; display: block; }
@@ -200,6 +221,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         <button class="view-tab active" data-view="map" role="tab">Map</button>
         <button class="view-tab" data-view="ranking" role="tab">Ranking</button>
         <button class="view-tab" data-view="compare" role="tab">Compare</button>
+        <button class="view-tab" data-view="state" role="tab">States</button>
     </div>
 
     <!-- Single-indicator controls (Map + Ranking) -->
@@ -211,6 +233,14 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         <div class="dl-btns" style="align-self:flex-end;">
             <button class="dl-btn" id="dl-csv" title="Download this indicator as CSV">CSV</button>
             <button class="dl-btn" id="dl-json" title="Download this indicator as JSON">JSON</button>
+        </div>
+    </div>
+
+    <!-- State controls -->
+    <div class="controls hidden" id="state-controls">
+        <div class="select-wrap">
+            <label class="sw-label" for="state-select">State / union territory</label>
+            <select id="state-select" class="im-select"></select>
         </div>
     </div>
 
@@ -268,6 +298,12 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         </div>
     </div>
 
+    <!-- STATE VIEW -->
+    <div class="hidden" id="view-state">
+        <div class="state-head" id="state-head"></div>
+        <div class="state-dash" id="state-dash"></div>
+    </div>
+
     <div class="note" id="data-note"></div>
     <p class="credit">Boundaries: Natural Earth (public domain), simplified for the web. This view complements the
         atlas of <a href="index.html">205 detailed maps</a> — see the <a href="methodology.html">methodology</a> for
@@ -283,8 +319,8 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
     var svg = document.getElementById('map-svg');
     var scatter = document.getElementById('scatter-svg');
     var tooltip = document.getElementById('tooltip');
-    var geo = null, dataset = null, byId = {}, paths = {};
-    var state = { view: 'map', ind: null, x: null, y: null };
+    var geo = null, dataset = null, byId = {}, byName = {}, paths = {};
+    var state = { view: 'map', ind: null, x: null, y: null, st: null };
 
     function $(id){ return document.getElementById(id); }
     function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
@@ -316,6 +352,8 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         svg.innerHTML=frag;
         Array.prototype.forEach.call(svg.querySelectorAll('path'),function(p){ paths[p.getAttribute('data-name')]=p; });
     }
+    // Click a state on the map → open its dashboard
+    svg.addEventListener('click',function(e){ if(e.target&&e.target.tagName==='path'){ state.st=e.target.getAttribute('data-name'); showView('state'); } });
 
     // ── Shared meta row ──
     function metaFor(ind) {
@@ -422,6 +460,35 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
             ' Correlation is not causation.';
     }
 
+    // ── STATE dashboard ──
+    function goodClass(delta, hib){ if(hib==null||delta===0)return ''; var better=(hib===true)?delta>0:delta<0; return better?'vs-pos':'vs-neg'; }
+    function rankClass(rank, total, hib){ if(hib==null)return ''; var topGood=(hib===true); if(rank<=3)return topGood?'top':'bottom'; if(rank>total-3)return topGood?'bottom':'top'; return ''; }
+    function renderState(name) {
+        var feat=geo.features.filter(function(f){return f.properties.name===name;})[0];
+        var meta=feat?feat.properties:{name:name,type:'',region:''};
+        $('state-head').innerHTML='<h2>'+name+'</h2>'+
+            (meta.type?'<span class="st-tag">'+meta.type+'</span>':'')+
+            (meta.region?'<span class="st-tag">'+meta.region+' India</span>':'');
+        var html=dataset.indicators.map(function(ind){
+            var v=ind.values[name]; if(v==null)return '';
+            var e=extent(ind), min=e[0], max=e[1];
+            var sorted=Object.keys(ind.values).sort(function(a,b){return ind.values[b]-ind.values[a];});
+            var rank=sorted.indexOf(name)+1, total=sorted.length;
+            var sf=(v-min)/(max-min||1), nf=ind.national!=null?Math.max(0,Math.min(1,(ind.national-min)/(max-min||1))):null;
+            var delta=ind.national!=null?(v-ind.national):null;
+            var vs=delta!=null?'<span class="'+goodClass(delta,ind.higherIsBetter)+'">'+(delta>=0?'+':'−')+fmt(Math.abs(Math.round(delta*100)/100))+' vs India</span>':'';
+            return '<a class="dash-card" href="#'+ind.id+'">'+
+                '<div class="dash-top"><span class="dash-name">'+ind.name+'<small>'+ind.theme+'</small></span>'+
+                '<span class="dash-val">'+fmt(v)+' <small>'+ind.unit+'</small></span></div>'+
+                '<div class="dash-track"><span class="fill" style="width:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span>'+
+                (nf!=null?'<span class="nat" style="left:'+(nf*100).toFixed(1)+'%" title="India average"></span>':'')+
+                '<span class="st-dot" style="left:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span></div>'+
+                '<div class="dash-foot"><span class="rank '+rankClass(rank,total,ind.higherIsBetter)+'">Rank '+rank+' of '+total+'</span>'+vs+'</div>'+
+                '</a>';
+        }).join('');
+        $('state-dash').innerHTML=html;
+    }
+
     // ── Tooltip ──
     var lastHl=null;
     function place(cx,cy){ var tw=tooltip.offsetWidth,th=tooltip.offsetHeight; var x=cx+14,y=cy+14;
@@ -459,6 +526,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
     }
     function applyMap(id){ var ind=byId[id]; if(!ind)return false; state.ind=ind; $('ind-select').value=id; setSingleMeta(ind); if(state.view==='map')renderMap(ind); if(state.view==='ranking')renderRanking(ind); return true; }
     function applyCompare(){ var ix=byId[state.x], iy=byId[state.y]; if(ix&&iy){ $('x-select').value=state.x; $('y-select').value=state.y; $('meta-row').innerHTML=''; $('ind-desc').textContent=''; $('map-link').removeAttribute('href'); renderCompare(ix,iy); } }
+    function applyState(name){ if(!name)return false; state.st=name; $('state-select').value=name; $('meta-row').innerHTML=''; $('ind-desc').textContent=''; $('map-link').removeAttribute('href'); renderState(name); return true; }
 
     function showView(v){
         state.view=v;
@@ -466,16 +534,20 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         $('view-map').classList.toggle('hidden',v!=='map');
         $('view-ranking').classList.toggle('hidden',v!=='ranking');
         $('view-compare').classList.toggle('hidden',v!=='compare');
-        $('single-controls').classList.toggle('hidden',v==='compare');
+        $('view-state').classList.toggle('hidden',v!=='state');
+        $('single-controls').classList.toggle('hidden',v==='compare'||v==='state');
         $('compare-controls').classList.toggle('hidden',v!=='compare');
-        $('map-link').style.display = v==='compare' ? 'none' : '';
+        $('state-controls').classList.toggle('hidden',v!=='state');
+        $('map-link').style.display = (v==='compare'||v==='state') ? 'none' : '';
         if(v==='map'){ renderMap(state.ind); setSingleMeta(state.ind); }
         else if(v==='ranking'){ renderRanking(state.ind); setSingleMeta(state.ind); }
+        else if(v==='state'){ applyState(state.st); }
         else applyCompare();
         writeHash();
     }
     function writeHash(){
         var h = state.view==='compare' ? 'compare/'+state.x+'~'+state.y
+              : state.view==='state' ? 'state/'+encodeURIComponent(state.st)
               : state.view==='ranking' ? 'ranking/'+state.ind.id
               : state.ind.id;
         history.replaceState(null,'','#'+h);
@@ -483,6 +555,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
     function readHash(){
         var h=location.hash.replace(/^#/,'');
         if(h.indexOf('compare/')===0){ var p=h.slice(8).split('~'); if(byId[p[0]]&&byId[p[1]]){ state.x=p[0]; state.y=p[1]; showView('compare'); return true; } }
+        if(h.indexOf('state/')===0){ var nm=decodeURIComponent(h.slice(6)); if(byName[nm]){ state.st=nm; showView('state'); return true; } }
         if(h.indexOf('ranking/')===0){ var id=h.slice(8); if(applyMap(id)){ showView('ranking'); return true; } }
         if(h && applyMap(h)){ showView('map'); return true; }
         return false;
@@ -495,7 +568,13 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
     ]).then(function(res){
         geo=res[0]; dataset=res[1];
         dataset.indicators.forEach(function(i){ byId[i.id]=i; });
+        geo.features.forEach(function(f){ byName[f.properties.name]=f.properties; });
         buildPaths();
+
+        // state selector (alphabetical)
+        var stateNames=geo.features.map(function(f){return f.properties.name;}).sort();
+        $('state-select').innerHTML=stateNames.map(function(n){return '<option value="'+n+'">'+n+'</option>';}).join('');
+        $('state-select').addEventListener('change',function(){ applyState(this.value); writeHash(); });
 
         // grouped selects
         var themes=[]; dataset.indicators.forEach(function(i){ if(themes.indexOf(i.theme)===-1)themes.push(i.theme); });
@@ -521,6 +600,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
         state.ind=dataset.indicators[0];
         state.x=byId.femlit?'femlit':dataset.indicators[0].id;
         state.y=byId.tfr?'tfr':dataset.indicators[1].id;
+        state.st=byName['Kerala']?'Kerala':stateNames[0];
         if(!readHash()){ applyMap(state.ind.id); showView('map'); }
     }).catch(function(){
         $('view-map').innerHTML='<p style="padding:40px;text-align:center;color:var(--text-muted)">Could not load map data.</p>';
