@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hil-v3';
+const CACHE_NAME = 'hil-v4';
 const PRECACHE = [
     '/',
     '/index.html',
@@ -7,7 +7,7 @@ const PRECACHE = [
     '/explore.html',
     '/data/maps.json',
     '/data/india-states.geojson',
-    '/data/interactive-sample.json',
+    '/data/interactive-data.json',
     '/assets/common-header.css',
     '/assets/common-header.js',
     'https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap'
