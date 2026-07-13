@@ -109,6 +109,9 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
 #map-svg { width: 100%; height: auto; display: block; touch-action: manipulation; }
 #map-svg path { stroke: var(--map-stroke); stroke-width: 0.6; stroke-linejoin: round; transition: fill .25s, opacity .15s; cursor: pointer; }
 #map-svg path:hover, #map-svg path.hl { stroke: var(--text-primary); stroke-width: 1.4; opacity: 0.92; }
+#map-svg path:focus { outline: none; }
+#map-svg path:focus-visible { stroke: var(--accent-color); stroke-width: 2.4; outline: none; }
+:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 2px; }
 
 .side { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
 .panel { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 14px; padding: 16px; min-width: 0; }
@@ -189,6 +192,10 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 
 .hidden { display: none !important; }
 
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; scroll-behavior: auto !important; }
+}
+
 @media (max-width: 820px) {
     .map-grid, .compare-grid { grid-template-columns: minmax(0, 1fr); }
     .side { flex-direction: row; flex-wrap: wrap; }
@@ -260,10 +267,12 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     <p class="ind-desc" id="ind-desc"></p>
     <a class="map-link" id="map-link">View the detailed map <span aria-hidden="true">→</span></a>
 
+    <p class="visually-hidden" id="map-status" role="status" aria-live="polite"></p>
+
     <!-- MAP VIEW -->
     <div class="map-grid" id="view-map">
         <div class="map-card">
-            <svg id="map-svg" role="img" aria-label="Interactive choropleth map of India by state"></svg>
+            <svg id="map-svg" role="group" aria-label="Interactive choropleth map of India by state. Use Tab to move between states, Enter to open a state's dashboard."></svg>
         </div>
         <div class="side">
             <div class="panel">
@@ -347,13 +356,16 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         geo.features.forEach(function(f){
             var d='';
             f.geometry.coordinates.forEach(function(poly){ poly.forEach(function(ring){ ring.forEach(function(p,j){ var q=proj(p); d+=(j===0?'M':'L')+sx(q[0]).toFixed(1)+' '+sy(q[1]).toFixed(1); }); d+='Z'; }); });
-            frag+='<path data-name="'+f.properties.name.replace(/"/g,'&quot;')+'" d="'+d+'"></path>';
+            frag+='<path data-name="'+f.properties.name.replace(/"/g,'&quot;')+'" tabindex="0" role="button" d="'+d+'"></path>';
         });
         svg.innerHTML=frag;
         Array.prototype.forEach.call(svg.querySelectorAll('path'),function(p){ paths[p.getAttribute('data-name')]=p; });
     }
-    // Click a state on the map → open its dashboard
-    svg.addEventListener('click',function(e){ if(e.target&&e.target.tagName==='path'){ state.st=e.target.getAttribute('data-name'); showView('state'); } });
+    // Click / keyboard a state on the map → open its dashboard
+    function openState(name){ state.st=name; showView('state'); $('state-select').focus(); }
+    svg.addEventListener('click',function(e){ if(e.target&&e.target.tagName==='path'){ openState(e.target.getAttribute('data-name')); } });
+    svg.addEventListener('keydown',function(e){ if((e.key==='Enter'||e.key===' ')&&e.target.tagName==='path'){ e.preventDefault(); openState(e.target.getAttribute('data-name')); } });
+    svg.addEventListener('focusin',function(e){ if(e.target.tagName==='path'){ var n=e.target.getAttribute('data-name'); $('map-status').textContent=e.target.getAttribute('aria-label')||n; } });
 
     // ── Shared meta row ──
     function metaFor(ind) {
@@ -369,8 +381,10 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         var e=extent(ind), min=e[0], max=e[1];
         geo.features.forEach(function(f){
             var name=f.properties.name, path=paths[name]; if(!path)return;
-            if(ind.values[name]==null){ path.style.fill=css('--map-empty'); return; }
-            path.style.fill=colorFor((ind.values[name]-min)/(max-min||1));
+            var v=ind.values[name];
+            path.setAttribute('aria-label', name+': '+(v==null?'no data':fmt(v)+' '+ind.unit)+'. '+ind.name+'. Enter to open dashboard.');
+            if(v==null){ path.style.fill=css('--map-empty'); return; }
+            path.style.fill=colorFor((v-min)/(max-min||1));
         });
         $('legend-title').textContent=ind.name;
         $('legend-bar').style.background='linear-gradient(90deg,'+colorFor(0)+','+colorFor(1)+')';

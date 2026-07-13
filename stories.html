@@ -317,6 +317,11 @@ body.show-all .story-separator { display: block; }
     .story-map { margin: 28px -16px; }
     .story-map-caption { margin: 10px 16px 0; padding: 10px 16px; }
 }
+
+:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 2px; border-radius: 3px; }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; scroll-behavior: auto !important; }
+}
 </style>
 </head>
 <body>
@@ -404,7 +409,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/demography/S00a_Median_Age_by_State.png" alt="Median Age by State" loading="lazy">
+        <img src="maps/demography/S00a_Median_Age_by_State.png" alt="Median Age by State" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Demography</div>
             Southern states are ageing. Northern states are young. This isn't just demographics — it's the foundation of every policy difference that follows.
@@ -416,7 +421,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/S02g_GSDP_Per_Capita_Rs_Lakh.png" alt="Per Capita NSDP" loading="lazy">
+        <img src="maps/economy/S02g_GSDP_Per_Capita_Rs_Lakh.png" alt="Per Capita NSDP" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Economy</div>
             Goa's per capita income is 8x Bihar's. The economic distance between Indian states is larger than between many European countries.
@@ -428,7 +433,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/health/S03s_Life_Expectancy_at_Birth.png" alt="Life Expectancy" loading="lazy">
+        <img src="maps/health/S03s_Life_Expectancy_at_Birth.png" alt="Life Expectancy" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Health</div>
             Life expectancy ranges from 64 in Chhattisgarh to 77 in Kerala — a 13-year gap within the same nation.
@@ -442,7 +447,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy">
+        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Gender</div>
             Child marriage rates vary from under 5% in Kerala to over 40% in Bihar and West Bengal.
@@ -454,7 +459,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/education/S07d_Female_Literacy_Rate.png" alt="Literacy Rate" loading="lazy">
+        <img src="maps/education/S07d_Female_Literacy_Rate.png" alt="Literacy Rate" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Education</div>
             Kerala's literacy exceeds 96%. Bihar's remains below 65%. The gap is generational.
@@ -466,7 +471,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08g_Forest_Cover_Change_2001-2023.png" alt="Forest Cover" loading="lazy">
+        <img src="maps/environment/S08g_Forest_Cover_Change_2001-2023.png" alt="Forest Cover" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Environment</div>
             Northeast India is over 70% forested. The Gangetic plain has nearly zero tree cover left.
@@ -478,7 +483,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/reproductive-choices/S12a_Female_Sterilisation_as_pct_of_Modern_Contrac.png" alt="Female Sterilisation" loading="lazy">
+        <img src="maps/reproductive-choices/S12a_Female_Sterilisation_as_pct_of_Modern_Contrac.png" alt="Female Sterilisation" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Reproductive Choices</div>
             In many northern states, female sterilisation remains the dominant form of contraception — a legacy of coercive family planning.
@@ -516,7 +521,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Girls Married Before 18" loading="lazy">
+        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Girls Married Before 18" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Child Marriage</div>
             40% of women in Bihar were married before 18; in Goa and Kerala it's under 5%. Child marriage is the gateway to a cascade of deprivation.
@@ -528,7 +533,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04c_Female_Labour_Force_Participation_Rate.png" alt="Female Labour Force Participation" loading="lazy">
+        <img src="maps/gender/S04c_Female_Labour_Force_Participation_Rate.png" alt="Female Labour Force Participation" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Economic Participation</div>
             Female labour force participation in Himachal is 58%; in Bihar it's under 5% — a 12x gap within the same country.
@@ -540,7 +545,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04e_Women_Who_Justify_Wife-Beating_in_At_Least_On.png" alt="Women Who Justify Wife-Beating" loading="lazy">
+        <img src="maps/gender/S04e_Women_Who_Justify_Wife-Beating_in_At_Least_On.png" alt="Women Who Justify Wife-Beating" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Normalised Violence</div>
             In Bihar, 40%+ women believe a husband is justified in beating his wife. This is internalised patriarchy made visible.
@@ -554,7 +559,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04h_Domestic_Violence_Women_Reporting_Physical_Vi.png" alt="Domestic Violence" loading="lazy">
+        <img src="maps/gender/S04h_Domestic_Violence_Women_Reporting_Physical_Vi.png" alt="Domestic Violence" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Domestic Violence</div>
             33% of Indian women have experienced physical violence from a spouse — but rates vary sharply by state.
@@ -562,7 +567,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/X183_Missing_Women_Sen_Methodology.png" alt="Missing Women" loading="lazy">
+        <img src="maps/gender/X183_Missing_Women_Sen_Methodology.png" alt="Missing Women" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Missing Women</div>
             India has 63 million "missing women" — the cumulative toll of sex-selective abortion, neglect, and violence.
@@ -574,7 +579,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04d_Women_Who_Make_Financial_Decisions_Alone_or_J.png" alt="Women's Financial Decisions" loading="lazy">
+        <img src="maps/gender/S04d_Women_Who_Make_Financial_Decisions_Alone_or_J.png" alt="Women's Financial Decisions" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Financial Autonomy</div>
             In southern states, 80%+ women participate in household financial decisions; in parts of the north, the majority have no say.
@@ -582,7 +587,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04l_Women_with_10+_Years_of_Schooling.png" alt="Women's Education" loading="lazy">
+        <img src="maps/gender/S04l_Women_with_10+_Years_of_Schooling.png" alt="Women's Education" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Education</div>
             Women with 10+ years of schooling: the single most transformative indicator for gender equality.
@@ -614,7 +619,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/S02g_GSDP_Per_Capita_Rs_Lakh.png" alt="Per Capita Income" loading="lazy">
+        <img src="maps/economy/S02g_GSDP_Per_Capita_Rs_Lakh.png" alt="Per Capita Income" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Income</div>
             Bihar's per capita income is among the lowest in India — 8x lower than Goa's. 130 million people live in this gap.
@@ -626,7 +631,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/education/S07d_Female_Literacy_Rate.png" alt="Literacy Rate" loading="lazy">
+        <img src="maps/education/S07d_Female_Literacy_Rate.png" alt="Literacy Rate" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Literacy</div>
             Bihar's literacy rate remains below 65% — 30 points behind Kerala. The gap is generational and self-reinforcing.
@@ -638,7 +643,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/health/X188_Underweight_Children_Under_5.png" alt="Underweight Children" loading="lazy">
+        <img src="maps/health/X188_Underweight_Children_Under_5.png" alt="Underweight Children" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Child Nutrition</div>
             Over 40% of under-5 children in Bihar are underweight. This is malnutrition at a scale that shapes the state's future workforce.
@@ -648,7 +653,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/X177_Landless_Agricultural_Labourers.png" alt="Landless Agricultural Labourers" loading="lazy">
+        <img src="maps/economy/X177_Landless_Agricultural_Labourers.png" alt="Landless Agricultural Labourers" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Land & Labour</div>
             In Bihar, 40%+ of agricultural workers are landless labourers — working others' land with no asset base of their own.
@@ -660,7 +665,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/health/X191_Open_Defecation_Still_Practised.png" alt="Open Defecation" loading="lazy">
+        <img src="maps/health/X191_Open_Defecation_Still_Practised.png" alt="Open Defecation" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Sanitation</div>
             Open defecation has dropped dramatically under SBM but persists at high rates in Bihar — infrastructure alone doesn't change behaviour.
@@ -668,7 +673,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy">
+        <img src="maps/gender/S04a_Girls_Married_Before_18.png" alt="Child Marriage" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Gender</div>
             40% of women in Bihar married before 18. Child marriage is both a symptom and a cause of the development trap.
@@ -700,7 +705,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01c_Vegetarian_Population_Share.png" alt="Vegetarian Population" loading="lazy">
+        <img src="maps/food-and-culture/S01c_Vegetarian_Population_Share.png" alt="Vegetarian Population" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Vegetarianism</div>
             Rajasthan and Gujarat are 60%+ vegetarian; Bengal and Kerala are under 5%. India's vegetarian identity is a north-west phenomenon, not a national one.
@@ -712,7 +717,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01h_Beef_and_Buffalo_Meat_Consuming_Househol.png" alt="Beef Consumption" loading="lazy">
+        <img src="maps/food-and-culture/S01h_Beef_and_Buffalo_Meat_Consuming_Househol.png" alt="Beef Consumption" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Beef and Buffalo Meat</div>
             Over 70% of households in Kerala and NE states consume beef or buffalo meat. In the Hindi heartland, it's near zero. Food is politics.
@@ -726,7 +731,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01k_Fish-Consuming_Households.png" alt="Fish Consumption" loading="lazy">
+        <img src="maps/food-and-culture/S01k_Fish-Consuming_Households.png" alt="Fish Consumption" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Fish</div>
             80%+ households consume fish in Bengal, Odisha, and NE states. Under 5% in Rajasthan. The coast and rivers shape the plate.
@@ -734,7 +739,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01j_Rice_as_Primary_Cereal_pct_of_total_cere.png" alt="Rice vs Wheat" loading="lazy">
+        <img src="maps/food-and-culture/S01j_Rice_as_Primary_Cereal_pct_of_total_cere.png" alt="Rice vs Wheat" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Rice vs Wheat</div>
             Rice dominates 90%+ of cereal consumption in the South and East; wheat dominates the North and West. India's oldest cultural divide, visible on every plate.
@@ -746,7 +751,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01i_Egg-Consuming_Households.png" alt="Egg Consumption" loading="lazy">
+        <img src="maps/food-and-culture/S01i_Egg-Consuming_Households.png" alt="Egg Consumption" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Eggs</div>
             Andhra Pradesh and Tamil Nadu are 90%+ egg-consuming; Rajasthan is under 20%. The egg is a nutrition policy battleground.
@@ -754,7 +759,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01m_Women_Consuming_5+_Food_Groups_Dietary_D.png" alt="Dietary Diversity" loading="lazy">
+        <img src="maps/food-and-culture/S01m_Women_Consuming_5+_Food_Groups_Dietary_D.png" alt="Dietary Diversity" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Dietary Diversity</div>
             Only 25% of Indian women consume 5+ food groups daily. Dietary diversity is a luxury most Indian women cannot afford.
@@ -786,7 +791,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05a_SC_+_ST_Population_Share.png" alt="SC+ST Population" loading="lazy">
+        <img src="maps/caste/S05a_SC_+_ST_Population_Share.png" alt="SC+ST Population" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Demographics</div>
             SC+ST populations exceed 50% in Mizoram and Meghalaya; in Goa and Delhi they're under 10%. Caste composition shapes every state's politics and policy.
@@ -794,7 +799,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05b_SC_Households_Owning_Agricultural_Land.png" alt="SC Land Ownership" loading="lazy">
+        <img src="maps/caste/S05b_SC_Households_Owning_Agricultural_Land.png" alt="SC Land Ownership" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Land</div>
             In Punjab, over 30% of SC households own agricultural land; in Bihar, it's near zero. Land is still the primary determinant of caste mobility.
@@ -806,7 +811,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05e_Crimes_Against_SCs_per_Lakh_SC_Population.png" alt="Crimes Against SCs" loading="lazy">
+        <img src="maps/caste/S05e_Crimes_Against_SCs_per_Lakh_SC_Population.png" alt="Crimes Against SCs" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Violence</div>
             Rajasthan and UP report the highest crimes against SCs — but high reporting may reflect better policing, not worse violence.
@@ -814,7 +819,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05d_Inter-Caste_Marriages.png" alt="Inter-Caste Marriage" loading="lazy">
+        <img src="maps/caste/S05d_Inter-Caste_Marriages.png" alt="Inter-Caste Marriage" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Social Integration</div>
             Inter-caste marriage rates remain below 10% nationally. Kerala leads; the Hindi heartland lags. Marriage is where caste endogamy is most stubbornly persistent.
@@ -824,7 +829,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05f_Manual_Scavenging_States_Where_It_Persists.png" alt="Manual Scavenging" loading="lazy">
+        <img src="maps/caste/S05f_Manual_Scavenging_States_Where_It_Persists.png" alt="Manual Scavenging" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Manual Scavenging</div>
             Manual scavenging persists in UP, MP, Rajasthan, and Maharashtra despite being illegal since 1993. Some indignities the law alone cannot abolish.
@@ -832,7 +837,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/caste/S05g_SC_Representation_in_IAS_vs_Population_Share.png" alt="SC in IAS" loading="lazy">
+        <img src="maps/caste/S05g_SC_Representation_in_IAS_vs_Population_Share.png" alt="SC in IAS" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Representation</div>
             SC representation in IAS is 15% against a 16.6% population share — close on paper, but concentrated at lower ranks.
@@ -864,7 +869,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08d_Extreme_Heat_Days_Above_40C_per_Year.png" alt="Extreme Heat Days" loading="lazy">
+        <img src="maps/environment/S08d_Extreme_Heat_Days_Above_40C_per_Year.png" alt="Extreme Heat Days" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Heat</div>
             Parts of Rajasthan and Andhra Pradesh experience 40+ days above 40 degrees C annually. Heat kills more Indians than floods — silently.
@@ -872,7 +877,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08j_Groundwater_Over-Exploited_Blocks.png" alt="Groundwater" loading="lazy">
+        <img src="maps/environment/S08j_Groundwater_Over-Exploited_Blocks.png" alt="Groundwater" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Groundwater</div>
             Punjab and Haryana have the most over-exploited groundwater blocks. The Green Revolution's success was built on a resource that is now running out.
@@ -884,7 +889,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08i_Flood-Prone_Districts.png" alt="Flood Prone Districts" loading="lazy">
+        <img src="maps/environment/S08i_Flood-Prone_Districts.png" alt="Flood Prone Districts" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Floods</div>
             Assam, Bihar, and UP have the most flood-prone districts. The Brahmaputra and Ganga basins flood annually — displacing millions.
@@ -894,7 +899,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08g_Forest_Cover_Change_2001-2023.png" alt="Forest Cover Change" loading="lazy">
+        <img src="maps/environment/S08g_Forest_Cover_Change_2001-2023.png" alt="Forest Cover Change" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Forests</div>
             Northeast states gained forest cover; central Indian states lost it. Development and deforestation still move together.
@@ -902,7 +907,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08e_Critically_Polluted_River_Stretches.png" alt="Polluted Rivers" loading="lazy">
+        <img src="maps/environment/S08e_Critically_Polluted_River_Stretches.png" alt="Polluted Rivers" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Water Pollution</div>
             UP and Maharashtra have the most critically polluted river stretches. Clean river campaigns have yet to bend the curve.
@@ -910,7 +915,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08l_Renewable_Energy_Capacity_per_Capita.png" alt="Renewable Energy" loading="lazy">
+        <img src="maps/environment/S08l_Renewable_Energy_Capacity_per_Capita.png" alt="Renewable Energy" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Renewable Energy</div>
             Rajasthan and Gujarat lead in renewable energy capacity per capita. The energy transition is happening — but unevenly.
@@ -942,7 +947,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09a_Voter_Turnout_2024_Lok_Sabha.png" alt="Voter Turnout" loading="lazy">
+        <img src="maps/democracy/S09a_Voter_Turnout_2024_Lok_Sabha.png" alt="Voter Turnout" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Turnout</div>
             Lakshadweep hit 84% turnout in 2024; Bihar was at 57%. A 27-point gap in the most basic democratic act.
@@ -950,7 +955,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09c_Elected_MPs_with_Criminal_Cases.png" alt="Criminal MPs" loading="lazy">
+        <img src="maps/democracy/S09c_Elected_MPs_with_Criminal_Cases.png" alt="Criminal MPs" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Criminal Representation</div>
             In UP and Bihar, 40%+ of elected MPs have criminal cases. When crime pays electorally, the incentive structure of democracy breaks.
@@ -962,7 +967,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09e_Internet_Shutdowns_Cumulative_2012-2024.png" alt="Internet Shutdowns" loading="lazy">
+        <img src="maps/democracy/S09e_Internet_Shutdowns_Cumulative_2012-2024.png" alt="Internet Shutdowns" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Digital Freedom</div>
             J&K alone accounts for 60%+ of cumulative internet shutdowns since 2012. When the state controls information, democracy operates in the dark.
@@ -970,7 +975,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09d_Police_per_Lakh_Population.png" alt="Police Density" loading="lazy">
+        <img src="maps/democracy/S09d_Police_per_Lakh_Population.png" alt="Police Density" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">State Capacity</div>
             Delhi has 250+ police per lakh; Bihar has under 80. India's police are concentrated where power is, not where crime is.
@@ -980,7 +985,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09f_RTI_Applications_per_Lakh_Population.png" alt="RTI Applications" loading="lazy">
+        <img src="maps/democracy/S09f_RTI_Applications_per_Lakh_Population.png" alt="RTI Applications" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Accountability</div>
             Kerala and Maharashtra file the most RTI applications per capita. Active citizenship maps onto literacy, awareness, and trust in institutions.
@@ -988,7 +993,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/democracy/S09k_Newspaper_Readership_per_1000_Population.png" alt="Newspaper Readership" loading="lazy">
+        <img src="maps/democracy/S09k_Newspaper_Readership_per_1000_Population.png" alt="Newspaper Readership" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Information Access</div>
             Newspaper readership per 1,000 exceeds 300 in Kerala. In several NE states, it's below 50. Democracy requires an informed public.
@@ -1020,7 +1025,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/X168_Smartphone_+_Internet_Access_Digital_Access_P.png" alt="Smartphone Access" loading="lazy">
+        <img src="maps/economy/X168_Smartphone_+_Internet_Access_Digital_Access_P.png" alt="Smartphone Access" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Smartphones</div>
             Smartphone + internet access exceeds 70% in metros but under 25% in rural NE states. Digital India has a geography problem.
@@ -1028,7 +1033,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/X167_Households_with_Television.png" alt="TV Access" loading="lazy">
+        <img src="maps/economy/X167_Households_with_Television.png" alt="TV Access" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Television</div>
             90%+ of urban households have TV; in rural Bihar, under 50%. TV is still the primary information channel for rural India.
@@ -1036,7 +1041,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/food-and-culture/S01d_Mobile_Internet_Penetration.png" alt="Mobile Internet" loading="lazy">
+        <img src="maps/food-and-culture/S01d_Mobile_Internet_Penetration.png" alt="Mobile Internet" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Mobile Internet</div>
             Delhi has 75%+ mobile internet penetration; Assam and Bihar are below 30%. The digital highway has toll gates.
@@ -1044,7 +1049,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/X195_Telecom_Tower_Density_per_1000_sq_km.png" alt="Telecom Towers" loading="lazy">
+        <img src="maps/economy/X195_Telecom_Tower_Density_per_1000_sq_km.png" alt="Telecom Towers" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Infrastructure</div>
             Telecom tower density follows population density but lags in hilly and tribal areas. No towers, no signal, no digital India.
@@ -1052,7 +1057,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/economy/X193_Road_Density_km_per_100_sq_km.png" alt="Road Density" loading="lazy">
+        <img src="maps/economy/X193_Road_Density_km_per_100_sq_km.png" alt="Road Density" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Physical Infrastructure</div>
             Kerala has 500+ km road per 100 sq km; Arunachal Pradesh has under 30. Digital access requires physical connectivity first.
@@ -1084,7 +1089,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/social-protection/S11a_PM-JAY_Hospital_Admissions_per_Lakh_Beneficia.png" alt="PM-JAY" loading="lazy">
+        <img src="maps/social-protection/S11a_PM-JAY_Hospital_Admissions_per_Lakh_Beneficia.png" alt="PM-JAY" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Health Insurance</div>
             PM-JAY utilisation per lakh beneficiaries varies 10x. Having insurance on paper and using it in practice are different things entirely.
@@ -1092,7 +1097,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/social-protection/S11b_MGNREGA_Women_as_pct_of_Total_Person-Days.png" alt="MGNREGA Women" loading="lazy">
+        <img src="maps/social-protection/S11b_MGNREGA_Women_as_pct_of_Total_Person-Days.png" alt="MGNREGA Women" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">MGNREGA</div>
             Women constitute 60%+ of MGNREGA person-days in Tamil Nadu and Kerala but under 30% in UP. The same scheme, vastly different gender outcomes.
@@ -1100,7 +1105,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/social-protection/S11c_PDS_Ration_Card_Coverage_vs_Actual_Offtake.png" alt="PDS Coverage" loading="lazy">
+        <img src="maps/social-protection/S11c_PDS_Ration_Card_Coverage_vs_Actual_Offtake.png" alt="PDS Coverage" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Food Security</div>
             PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states. The food reaches the warehouse — not always the household.
@@ -1110,7 +1115,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/social-protection/S11d_Anganwadi_Centres_per_1000_Children_0-6.png" alt="Anganwadi" loading="lazy">
+        <img src="maps/social-protection/S11d_Anganwadi_Centres_per_1000_Children_0-6.png" alt="Anganwadi" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Child Services</div>
             Anganwadi centre density per 1,000 children varies 3x between states. Early childhood nutrition depends on which state you're born in.
@@ -1118,7 +1123,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/environment/S08m_Clean_Cooking_Fuel_as_Primary_Fuel.png" alt="Clean Cooking Fuel" loading="lazy">
+        <img src="maps/environment/S08m_Clean_Cooking_Fuel_as_Primary_Fuel.png" alt="Clean Cooking Fuel" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Clean Fuel</div>
             95%+ of Kerala households use clean cooking fuel; in Bihar, over 50% still burn biomass. Ujjwala gave cylinders — not always refills.
@@ -1150,7 +1155,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/religion/S06a_Non-Hindu_Population_Share.png" alt="Non-Hindu Population" loading="lazy">
+        <img src="maps/religion/S06a_Non-Hindu_Population_Share.png" alt="Non-Hindu Population" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Religious Diversity</div>
             In Mizoram, Meghalaya, and Nagaland, over 85% of the population is non-Hindu. India's religious map is far more complex than "Hindu majority."
@@ -1158,7 +1163,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/religion/S06c_Muslim_Multidimensional_Poverty_Rate.png" alt="Muslim Poverty" loading="lazy">
+        <img src="maps/religion/S06c_Muslim_Multidimensional_Poverty_Rate.png" alt="Muslim Poverty" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Poverty by Religion</div>
             Muslim multidimensional poverty rates exceed 50% in UP and Bihar vs under 15% in Kerala. Same religion, vastly different outcomes by state.
@@ -1170,7 +1175,7 @@ body.show-all .story-separator { display: block; }
     </p>
 
     <div class="story-map" data-story-map>
-        <img src="maps/religion/S06e_Communal_Riots_by_State_2019-2024.png" alt="Communal Riots" loading="lazy">
+        <img src="maps/religion/S06e_Communal_Riots_by_State_2019-2024.png" alt="Communal Riots" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Communal Violence</div>
             Communal riots are concentrated in UP, Rajasthan, Gujarat, and MP. The geography of violence follows political fault lines more than demographic ones.
@@ -1180,7 +1185,7 @@ body.show-all .story-separator { display: block; }
     <div class="story-divider"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9H22L16.5 13.5L18.5 21L12 17L5.5 21L7.5 13.5L2 9H9L12 2Z"/></svg></div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/religion/S06b_Christian_Population_Share.png" alt="Christian Population" loading="lazy">
+        <img src="maps/religion/S06b_Christian_Population_Share.png" alt="Christian Population" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Christianity</div>
             Christians form 87% of Nagaland's population but only 2.3% nationally. Christianity in India is almost entirely a northeastern and coastal phenomenon.
@@ -1188,7 +1193,7 @@ body.show-all .story-separator { display: block; }
     </div>
 
     <div class="story-map" data-story-map>
-        <img src="maps/religion/S06i_People_Who_Say_Religion_Is_Very_Important_in_.png" alt="Religion Importance" loading="lazy">
+        <img src="maps/religion/S06i_People_Who_Say_Religion_Is_Very_Important_in_.png" alt="Religion Importance" loading="lazy" decoding="async">
         <div class="story-map-caption">
             <div class="story-map-title">Religiosity</div>
             90%+ of Indians say religion is "very important" in their lives. India is deeply religious across all faiths — the debate is about coexistence, not secularism vs faith.
