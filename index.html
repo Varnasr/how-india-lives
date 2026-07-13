@@ -1849,6 +1849,17 @@ function altFor(m) {
     return ('Choropleth map of India by state: ' + ((m && m.title) || '') + '.' + t).replace(/"/g, "'");
 }
 
+// WebP is generated into the deploy artifact (see .github/workflows/pages.yml),
+// so it only exists on the production host. A <picture> <source> that 404s does
+// NOT fall back to <img>, so gate the WebP source to the prod domain; everywhere
+// else (local dev, previews) serve the PNG directly.
+const USE_WEBP = /(^|\.)impactmojo\.in$/i.test(location.hostname);
+function pic(src, alt, extra) {
+    const img = `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"${extra ? ' ' + extra : ''}>`;
+    if (!USE_WEBP) return img;
+    return `<picture><source type="image/webp" srcset="${src.replace(/\.png$/i, '.webp')}">${img}</picture>`;
+}
+
 const SECTION_ORDER = [
     'demography','food-and-culture','economy','health',
     'gender','caste','religion','education',
@@ -2058,7 +2069,7 @@ function initMapOfTheWeek() {
     const banner = document.getElementById('motw-banner');
     const inner = document.getElementById('motw-inner');
     inner.innerHTML = `
-        <div class="motw-img"><img src="${src}" alt="${altFor(m)}" loading="lazy" decoding="async"></div>
+        <div class="motw-img">${pic(src, altFor(m))}</div>
         <div>
             <div class="motw-label">Map of the Week</div>
             <div class="motw-title">${m.title}</div>
@@ -2118,7 +2129,7 @@ function leadCardHTML(m) {
     const src = m.file ? `maps/${m.section}/${m.file}` : '';
     const mapId = m.id;
     return `<div class="map-card-lead map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
-        <div class="map-image">${m.file ? `<img src="${src}" alt="${altFor(m)}" loading="lazy" decoding="async">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
+        <div class="map-image">${m.file ? pic(src, altFor(m)) : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
             ${m.takeaway ? `<p class="takeaway">${m.takeaway}</p>` : ''}
@@ -2136,7 +2147,7 @@ function cardHTML(m, hidden) {
     const mapId = m.id;
     const hiddenClass = hidden ? ' hidden-card' : '';
     return `<div class="map-card${hiddenClass}" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
-        <div class="map-image">${m.file ? `<img src="${src}" alt="${altFor(m)}" loading="lazy" decoding="async">` : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
+        <div class="map-image">${m.file ? pic(src, altFor(m)) : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
             <h3>${m.title}</h3>
             ${m.takeaway ? `<p class="takeaway">${m.takeaway}</p>` : ''}
@@ -2200,7 +2211,7 @@ function openDetail(mapId) {
             <div class="related-maps-grid">${related.map(r => {
                 const rSrc = r.file ? `maps/${r.section}/${r.file}` : '';
                 return `<div class="related-map-item" onclick="event.stopPropagation(); openDetail('${r.id}')">
-                    ${rSrc ? `<img src="${rSrc}" alt="${altFor(r)}" loading="lazy" decoding="async">` : ''}
+                    ${rSrc ? pic(rSrc, altFor(r)) : ''}
                     <span>${r.title}</span>
                 </div>`;
             }).join('')}</div>`;

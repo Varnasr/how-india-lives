@@ -123,7 +123,8 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 """.format(
         title=esc(title), desc=esc(desc), canonical=canonical, og_img=og_img,
         schema=json.dumps(schema), section=esc(m['section']), sect=esc(sect),
-        img=img_url(m), takeaway=('<div class="takeaway">%s</div>' % esc(m['takeaway'])) if m.get('takeaway') else '',
+        img=img_url(m),
+        takeaway=('<div class="takeaway">%s</div>' % esc(m['takeaway'])) if m.get('takeaway') else '',
         policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
         id=esc(m['id']), interactive_btn=interactive_btn,

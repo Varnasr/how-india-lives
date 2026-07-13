@@ -23,6 +23,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v4
+
+      # Serve modern WebP alongside the PNGs. Generated into the deploy
+      # artifact only (not committed), so the repo stays lean and the <picture>
+      # tags fall back to PNG anywhere WebP is missing or unsupported.
+      - name: Cache generated WebP
+        uses: actions/cache@v4
+        with:
+          path: .webp-cache
+          key: webp-${{ hashFiles('maps/**/*.png') }}
+      - name: Generate WebP for map images
+        run: |
+          sudo apt-get update && sudo apt-get install -y webp
+          mkdir -p .webp-cache
+          find maps -name '*.png' | while read -r png; do
+            rel="${png%.png}.webp"
+            cache=".webp-cache/${rel//\//__}"
+            if [ -f "$cache" ]; then
+              cp "$cache" "$rel"
+            else
+              cwebp -quiet -q 82 "$png" -o "$rel" && cp "$rel" "$cache"
+            fi
+          done
+          echo "WebP files: $(find maps -name '*.webp' | wc -l) / PNG: $(find maps -name '*.png' | wc -l)"
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
