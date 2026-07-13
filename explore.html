@@ -77,6 +77,12 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
 .ind-source { font-size: 0.8rem; color: var(--text-muted); }
 .ind-source strong { color: var(--text-secondary); font-weight: 600; }
 .ind-desc { color: var(--text-secondary); font-size: 0.9rem; margin: 14px 0 0; }
+.map-link {
+    display: none; align-items: center; gap: 6px; margin-top: 8px;
+    font-size: 0.84rem; font-weight: 600; color: var(--accent-color); text-decoration: none;
+}
+.map-link[href] { display: inline-flex; }
+.map-link:hover { text-decoration: underline; }
 
 /* ── Map + panels ── */
 .map-grid {
@@ -166,8 +172,8 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
     <div class="page-head">
         <span class="eyebrow">Interactive Atlas</span>
         <h1>Hover any state to read its value</h1>
-        <p class="lead">Ten indicators across health, education, gender, and the economy — mapped for every state and
-            union territory. Pick an indicator, then hover (or tap) a state. Pure SVG, no map library, works offline.</p>
+        <p class="lead">A growing set of indicators across health, education, gender, and the economy — mapped for every
+            state and union territory. Pick an indicator, then hover (or tap) a state. Pure SVG, no map library, works offline.</p>
     </div>
 
     <div class="controls">
@@ -178,6 +184,7 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
         <span class="ind-source" id="ind-source"></span>
     </div>
     <p class="ind-desc" id="ind-desc"></p>
+    <a class="map-link" id="map-link">View the detailed map <span aria-hidden="true">→</span></a>
 
     <div class="map-grid">
         <div class="map-card">
@@ -292,6 +299,10 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
             ' · ' + Object.keys(ind.values).length + ' states';
         document.getElementById('ind-desc').textContent = ind.desc;
 
+        var mapLink = document.getElementById('map-link');
+        if (ind.mapId) { mapLink.setAttribute('href', 'index.html#map/' + ind.mapId); }
+        else { mapLink.removeAttribute('href'); }
+
         // legend
         document.getElementById('legend-title').textContent = ind.name;
         document.getElementById('legend-bar').style.background =
@@ -389,13 +400,24 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
                 .map(function (i){ return '<option value="' + i.id + '">' + i.name + '</option>'; }).join('');
             return '<optgroup label="' + th + '">' + opts + '</optgroup>';
         }).join('');
+        function selectById(id) {
+            var ind = dataset.indicators.filter(function (i){ return i.id === id; })[0];
+            if (ind) { paintIndicator(ind); return true; }
+            return false;
+        }
         sel.addEventListener('change', function () {
-            var ind = dataset.indicators.filter(function (i){ return i.id === sel.value; })[0];
-            if (ind) paintIndicator(ind);
+            if (selectById(sel.value)) {
+                history.replaceState(null, '', '#' + sel.value);
+            }
+        });
+        window.addEventListener('hashchange', function () {
+            var id = location.hash.replace(/^#/, '');
+            if (id) selectById(id);
         });
 
         document.getElementById('data-note').innerHTML = '<strong>About this data.</strong> ' + dataset.note;
-        paintIndicator(dataset.indicators[0]);
+        var initial = location.hash.replace(/^#/, '');
+        if (!initial || !selectById(initial)) paintIndicator(dataset.indicators[0]);
     }).catch(function () {
         document.querySelector('.map-card').innerHTML =
             '<p style="padding:40px;text-align:center;color:var(--text-muted)">Could not load map data.</p>';

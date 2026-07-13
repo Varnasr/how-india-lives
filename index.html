@@ -1768,6 +1768,10 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
             <div class="detail-policy" id="detail-policy"></div>
             <div class="detail-meta" id="detail-meta"></div>
             <div class="detail-actions">
+                <a class="detail-download-btn" id="detail-interactive-btn" style="display:none;background:var(--accent-color);color:white;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+                    Explore interactively
+                </a>
                 <button class="detail-download-btn" onclick="downloadMap()">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                     Download Map
@@ -1829,6 +1833,8 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 // ── Map Data ──
 let ALL_MAPS = [];
+// mapId -> interactive indicator {id, name}, populated from data/interactive-data.json
+let INTERACTIVE_BY_MAPID = {};
 
 const SECTION_ORDER = [
     'demography','food-and-culture','economy','health',
@@ -1935,6 +1941,12 @@ async function loadMaps() {
         const res = await fetch('data/maps.json');
         ALL_MAPS = await res.json();
     } catch(e) { ALL_MAPS = []; }
+    // Which catalog maps have a live interactive version? (non-blocking)
+    fetch('data/interactive-data.json').then(r => r.json()).then(d => {
+        (d.indicators || []).forEach(ind => {
+            if (ind.mapId) INTERACTIVE_BY_MAPID[ind.mapId] = { id: ind.id, name: ind.name };
+        });
+    }).catch(() => {});
     renderAll();
     initSpotlight();
     initCollections();
@@ -2152,6 +2164,17 @@ function openDetail(mapId) {
     if (sectionMeta) metaHtml += `<span class="tag">${sectionMeta.title}</span>`;
     if (m.tags) m.tags.forEach(t => { metaHtml += `<span class="tag">${t}</span>`; });
     document.getElementById('detail-meta').innerHTML = metaHtml;
+
+    // Interactive version, if this indicator is available on the interactive atlas
+    const interactiveBtn = document.getElementById('detail-interactive-btn');
+    const interactive = INTERACTIVE_BY_MAPID[m.id];
+    if (interactive) {
+        interactiveBtn.href = `explore.html#${interactive.id}`;
+        interactiveBtn.style.display = '';
+    } else {
+        interactiveBtn.style.display = 'none';
+        interactiveBtn.removeAttribute('href');
+    }
 
     // Related maps: same section or shared tags, excluding current
     const related = findRelated(m, 3);
