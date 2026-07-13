@@ -1,0 +1,275 @@
+/* ==========================================================================
+   ImpactMojo — Common Header
+   Shared, single-source navigation used across every How India Lives page.
+   Matches the parent site (impactmojo.in): light bar, Inter + Amaranth,
+   sky/teal accent, dark-mode aware, mobile hamburger.
+   Namespaced .im-* so it never collides with page-level styles.
+   ========================================================================== */
+
+:root {
+    --im-accent: #0EA5E9;
+    --im-accent-hover: #0284C7;
+    --im-header-bg: rgba(255, 255, 255, 0.9);
+    --im-header-border: #E2E8F0;
+    --im-header-text: #0F172A;
+    --im-header-muted: #475569;
+    --im-header-menu-bg: #FFFFFF;
+    --im-header-hover-bg: #F1F5F9;
+}
+html[data-theme="dark"] {
+    --im-header-bg: rgba(15, 23, 42, 0.9);
+    --im-header-border: #334155;
+    --im-header-text: #F1F5F9;
+    --im-header-muted: #94A3B8;
+    --im-header-menu-bg: #1E293B;
+    --im-header-hover-bg: #334155;
+}
+
+.im-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1200;
+    height: 60px;
+    background: var(--im-header-bg);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--im-header-border);
+}
+/* thin brand accent line along the very top */
+.im-header::before {
+    content: "";
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, #0EA5E9, #6366F1, #0EA5E9);
+}
+.im-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* ── Logo ── */
+.im-logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+.im-logo img {
+    width: 40px; height: 40px;
+    border-radius: 9px;
+    object-fit: contain;
+    display: block;
+}
+.im-logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+.im-logo-main {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1.02rem;
+    font-weight: 800;
+    color: var(--im-header-text);
+    letter-spacing: -0.01em;
+}
+.im-logo-tagline {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.62rem;
+    font-weight: 500;
+    color: var(--im-header-muted);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+/* ── Links ── */
+.im-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+    margin: 0; padding: 0;
+    flex-wrap: nowrap;
+}
+.im-links > li { position: relative; }
+.im-links a,
+.im-dropdown-toggle {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.86rem;
+    font-weight: 500;
+    color: var(--im-header-muted);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: color .18s, background .18s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.im-links a:hover,
+.im-dropdown-toggle:hover,
+.im-links a:focus-visible {
+    color: var(--im-accent);
+    background: var(--im-header-hover-bg);
+}
+.im-links a.im-active {
+    color: var(--im-accent);
+    font-weight: 700;
+}
+.im-links a.im-active::after {
+    content: "";
+    position: absolute;
+    left: 12px; right: 12px; bottom: 2px;
+    height: 2px;
+    background: var(--im-accent);
+    border-radius: 2px;
+}
+.im-dropdown-arrow { width: 13px; height: 13px; transition: transform .18s; }
+.im-has-dropdown.im-open .im-dropdown-arrow { transform: rotate(180deg); }
+
+/* ── Dropdown menu ── */
+.im-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 210px;
+    background: var(--im-header-menu-bg);
+    border: 1px solid var(--im-header-border);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+    padding: 6px;
+    list-style: none;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity .18s, transform .18s, visibility .18s;
+}
+.im-has-dropdown.im-open .im-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.im-dropdown li a {
+    display: block;
+    width: 100%;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--im-header-text);
+}
+.im-dropdown li a:hover { color: var(--im-accent); }
+.im-dropdown-label {
+    display: block;
+    padding: 6px 12px 4px;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--im-header-muted);
+}
+.im-dropdown .im-ext::after {
+    content: " ↗";
+    font-size: 0.72em;
+    opacity: 0.6;
+}
+
+/* ── Right-side actions ── */
+.im-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+
+.im-theme {
+    display: flex;
+    gap: 2px;
+    background: var(--im-header-hover-bg);
+    border: 1px solid var(--im-header-border);
+    border-radius: 9px;
+    padding: 3px;
+}
+.im-theme-btn {
+    background: transparent;
+    border: none;
+    color: var(--im-header-muted);
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .18s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; height: 30px;
+}
+.im-theme-btn:hover { color: var(--im-accent); background: var(--im-header-menu-bg); }
+.im-theme-btn.im-active { background: var(--im-accent); color: #fff; }
+.im-theme-btn svg { width: 16px; height: 16px; }
+
+/* ── Hamburger ── */
+.im-burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px; height: 40px;
+    background: none;
+    border: 1px solid var(--im-header-border);
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 0 9px;
+}
+.im-burger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--im-header-text);
+    border-radius: 2px;
+    transition: transform .22s, opacity .22s;
+}
+.im-header.im-menu-open .im-burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.im-header.im-menu-open .im-burger span:nth-child(2) { opacity: 0; }
+.im-header.im-menu-open .im-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ── Mobile ── */
+@media (max-width: 860px) {
+    .im-burger { display: flex; }
+    .im-links {
+        position: fixed;
+        top: 60px; left: 0; right: 0;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        background: var(--im-header-menu-bg);
+        border-bottom: 1px solid var(--im-header-border);
+        box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+        padding: 10px 14px 16px;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+        transform: translateY(-12px);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .2s, transform .2s, visibility .2s;
+    }
+    .im-header.im-menu-open .im-links {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .im-links a, .im-dropdown-toggle { width: 100%; font-size: 0.95rem; padding: 11px 12px; }
+    .im-links a.im-active::after { display: none; }
+    .im-dropdown {
+        position: static;
+        opacity: 1; visibility: visible; transform: none;
+        box-shadow: none; border: none;
+        min-width: 0; padding: 0 0 4px 10px;
+        display: none;
+    }
+    .im-has-dropdown.im-open .im-dropdown { display: block; }
+    .im-logo-tagline { display: none; }
+}
+@media (max-width: 380px) {
+    .im-logo-main { font-size: 0.92rem; }
+    .im-logo img { width: 34px; height: 34px; }
+}

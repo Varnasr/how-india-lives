@@ -9,37 +9,42 @@
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
 <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#0EA5E9">
+<link href="assets/common-header.css" rel="stylesheet">
+<script>
+  (function(){var s=localStorage.getItem('im-theme');
+    if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))
+      document.documentElement.setAttribute('data-theme','dark');})();
+</script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
     --primary-bg: #FFFFFF;
-    --secondary-bg: #FAFAF9;
-    --text-primary: #1C1917;
-    --text-secondary: #57534E;
-    --text-muted: #A8A29E;
-    --accent-color: #D97706;
-    --secondary-accent: #7C3AED;
-    --border-color: #E7E5E4;
+    --secondary-bg: #F8FAFC;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #94A3B8;
+    --accent-color: #0EA5E9;
+    --secondary-accent: #6366F1;
+    --border-color: #E2E8F0;
     --card-bg: #FFFFFF;
 }
 html[data-theme="dark"] {
-    --primary-bg: #1C1917;
-    --secondary-bg: #292524;
-    --text-primary: #FAFAF9;
-    --text-secondary: #D6D3D1;
-    --text-muted: #78716C;
-    --accent-color: #F59E0B;
-    --secondary-accent: #A78BFA;
-    --card-bg: #292524;
-    --border-color: #44403C;
+    --primary-bg: #0F172A;
+    --secondary-bg: #1E293B;
+    --text-primary: #F1F5F9;
+    --text-secondary: #CBD5E1;
+    --text-muted: #64748B;
+    --accent-color: #38BDF8;
+    --secondary-accent: #818CF8;
+    --card-bg: #1E293B;
+    --border-color: #334155;
 }
 body {
     font-family: 'Inter', sans-serif;
     background: var(--primary-bg);
     color: var(--text-primary);
     line-height: 1.7;
-    border-top: 3px solid transparent;
-    border-image: linear-gradient(90deg, #D97706, #7C3AED, #D97706) 1;
 }
 
 /* Header */
@@ -72,11 +77,11 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
 .story-header a:hover { text-decoration: underline; }
 .story-progress {
     position: fixed;
-    top: 55px;
+    top: 60px;
     left: 0;
     height: 3px;
     background: var(--accent-color);
-    z-index: 101;
+    z-index: 1150;
     width: 0%;
     transition: width 0.1s;
 }
@@ -316,12 +321,8 @@ body.show-all .story-separator { display: block; }
 </head>
 <body>
 
-<header class="story-header">
-    <div class="story-header-inner">
-        <a href="index.html">Back to Maps</a>
-        <span style="font-size:0.78rem;color:var(--text-muted);">How India Lives</span>
-    </div>
-</header>
+<!-- Common ImpactMojo header (injected by assets/common-header.js) -->
+<div id="im-common-header"></div>
 <div class="story-progress" id="story-progress"></div>
 
 <!-- Story Index -->
@@ -1312,5 +1313,6 @@ if (indexSection) {
 // Initial route
 showStory();
 </script>
+<script src="assets/common-header.js" defer></script>
 </body>
 </html>

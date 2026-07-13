@@ -23,6 +23,12 @@
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
 <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="assets/common-header.css" rel="stylesheet">
+<script>
+  (function(){var s=localStorage.getItem('im-theme');
+    if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))
+      document.documentElement.setAttribute('data-theme','dark');})();
+</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 :root{--primary-bg:#FFFFFF;--secondary-bg:#F8FAFC;--accent-color:#0EA5E9;--accent-hover:#0284C7;--text-primary:#0F172A;--text-secondary:#475569;--text-muted:#94A3B8;--card-bg:#FFFFFF;--border-color:#E2E8F0;--gradient-primary:linear-gradient(135deg,#0EA5E9 0%,#6366F1 100%);}
@@ -100,25 +106,8 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 
 <a href="#main" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" tabindex="0">Skip to content</a>
 
-<header class="header">
-    <nav class="nav-container">
-        <a href="index.html" class="logo-container">
-            <img src="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png" alt="ImpactMojo" width="36" height="36">
-            <div class="logo-text">
-                <span class="logo-main">How India Lives</span>
-                <span class="logo-tagline">An ImpactMojo Project</span>
-            </div>
-        </a>
-        <div class="nav-right">
-            <a href="index.html">Maps</a>
-            <div class="theme-selector">
-                <button class="theme-btn" data-theme="system" title="System theme" aria-label="System theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></button>
-                <button class="theme-btn" data-theme="light" title="Light theme" aria-label="Light theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></button>
-                <button class="theme-btn" data-theme="dark" title="Dark theme" aria-label="Dark theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/></svg></button>
-            </div>
-        </div>
-    </nav>
-</header>
+<!-- Common ImpactMojo header (injected by assets/common-header.js) -->
+<div id="im-common-header"></div>
 
 <main class="content" id="main">
 
@@ -216,24 +205,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools, not standalone data references.</p>
 </footer>
 
-<script>
-(function(){
-    const saved = localStorage.getItem('im-theme');
-    if (saved === 'dark') document.documentElement.setAttribute('data-theme','dark');
-    else if (saved === 'light') document.documentElement.removeAttribute('data-theme');
-    else if (window.matchMedia('(prefers-color-scheme:dark)').matches) document.documentElement.setAttribute('data-theme','dark');
-})();
-document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const t = btn.dataset.theme;
-        document.querySelectorAll('.theme-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        if (t==='dark'){document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('im-theme','dark');}
-        else if(t==='light'){document.documentElement.removeAttribute('data-theme');localStorage.setItem('im-theme','light');}
-        else{localStorage.removeItem('im-theme');if(window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');else document.documentElement.removeAttribute('data-theme');}
-    });
-});
-(function(){const s=localStorage.getItem('im-theme')||'system';const btn=document.querySelector(`.theme-btn[data-theme="${s}"]`);if(btn)btn.classList.add('active');else document.querySelector('.theme-btn[data-theme="system"]').classList.add('active');})();
-</script>
+<!-- Theme + navigation handled by the shared common header -->
+<script src="assets/common-header.js" defer></script>
 </body>
 </html>
