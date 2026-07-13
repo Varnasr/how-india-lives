@@ -118,9 +118,14 @@
                         parentItems +
                     '</ul>' +
                 '</li>' +
+                // Theme + language live inside the menu on mobile (keeps the top bar to logo + burger)
+                '<li class="im-menu-extra">' +
+                    '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
+                    '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
+                '</li>' +
             '</ul>' +
             '<div class="im-actions">' +
-                '<button class="im-lang" id="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
+                '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
                 '<button class="im-burger" id="im-burger" type="button" aria-label="Toggle menu" aria-expanded="false">' +
                     '<span></span><span></span><span></span>' +
@@ -199,10 +204,11 @@
             burger.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
 
-        // Language toggle
-        var lang = header.querySelector('#im-lang');
-        if (lang) lang.addEventListener('click', function () {
-            IM.setLang(IM.lang === 'en' ? 'hi' : 'en');
+        // Language toggle (one in the top bar for desktop, one in the menu for mobile)
+        header.querySelectorAll('.im-lang').forEach(function (lang) {
+            lang.addEventListener('click', function () {
+                IM.setLang(IM.lang === 'en' ? 'hi' : 'en');
+            });
         });
     }
 

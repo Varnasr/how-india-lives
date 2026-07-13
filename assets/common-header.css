@@ -181,6 +181,7 @@ html[data-theme="dark"] {
 
 /* ── Right-side actions ── */
 .im-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.im-menu-extra { display: none; }
 
 .im-theme {
     display: flex;
@@ -284,8 +285,16 @@ html[data-theme="dark"] {
     }
     .im-has-dropdown.im-open .im-dropdown { display: block; }
     .im-logo-tagline { display: none; }
+
+    /* Declutter the top bar: theme + language move into the menu, leaving logo + burger */
+    .im-actions .im-theme, .im-actions .im-lang { display: none; }
+    .im-menu-extra {
+        display: flex; align-items: center; gap: 14px;
+        margin-top: 8px; padding: 12px; border-top: 1px solid var(--im-header-border);
+    }
+    .im-menu-extra .im-lang { min-width: 52px; }
 }
 @media (max-width: 380px) {
-    .im-logo-main { font-size: 0.92rem; }
+    .im-logo-main { font-size: 0.95rem; }
     .im-logo img { width: 34px; height: 34px; }
 }

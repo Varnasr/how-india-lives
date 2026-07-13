@@ -1413,18 +1413,18 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-    /* Hero: compact on mobile — get to maps fast */
-    .hero { padding: 64px 16px 16px; }
-    .hero-inner { grid-template-columns: 1fr; gap: 12px; }
-    .hero-text { text-align: center; }
-    .hero-text h1 { font-size: 1.4rem; margin-bottom: 6px; }
-    .hero-text .subtitle { display: none; }
-    .hero-stats { justify-content: center; gap: 0.6rem; margin-bottom: 10px; }
-    .hero-stat .number { font-size: 1.1rem; }
-    .hero-stat .label { font-size: 0.55rem; }
-    .hero-actions { justify-content: center; gap: 6px; }
-    .hero .method-link, .hero .surprise-btn { padding: 7px 14px; font-size: 0.72rem; }
-    .hero-spotlight { display: none; }
+    /* Hero: a real mobile hero — big headline, visible subtitle + featured map */
+    .hero { padding: 78px 18px 28px; }
+    .hero-inner { grid-template-columns: 1fr; gap: 22px; }
+    .hero-text { text-align: left; }
+    .hero-text h1 { font-size: 2.05rem; margin-bottom: 10px; }
+    .hero-text .subtitle { display: block; font-size: 0.92rem; margin-bottom: 18px; }
+    .hero-stats { justify-content: flex-start; gap: 1rem 1.3rem; margin-bottom: 18px; }
+    .hero-stat .number { font-size: 1.35rem; }
+    .hero-stat .label { font-size: 0.6rem; }
+    .hero-actions { justify-content: flex-start; gap: 8px; }
+    .hero .method-link, .hero .surprise-btn { padding: 9px 16px; font-size: 0.8rem; }
+    .hero-spotlight { display: block; max-width: 480px; }
     .hero::before, .hero::after { display: none; }
 
     /* Hide MOTW on mobile — redundant with spotlight/hero */
@@ -1522,13 +1522,14 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     .theme-selector { gap: 1px; padding: 2px; }
     .theme-btn { width: 24px; height: 24px; padding: 3px; }
 
-    .hero { padding: 52px 10px 12px; }
-    .hero-inner { gap: 8px; }
-    .hero-text h1 { font-size: 1.15rem; }
-    .hero-stats { gap: 0.3rem; margin-bottom: 8px; }
-    .hero-stat .number { font-size: 0.95rem; }
-    .hero-stat .label { font-size: 0.5rem; }
-    .hero .method-link, .hero .surprise-btn { padding: 6px 10px; font-size: 0.68rem; }
+    .hero { padding: 74px 14px 22px; }
+    .hero-inner { gap: 18px; }
+    .hero-text h1 { font-size: 1.75rem; }
+    .hero-text .subtitle { font-size: 0.88rem; margin-bottom: 15px; }
+    .hero-stats { gap: 0.7rem 1rem; margin-bottom: 15px; }
+    .hero-stat .number { font-size: 1.15rem; }
+    .hero-stat .label { font-size: 0.56rem; }
+    .hero .method-link, .hero .surprise-btn { padding: 9px 14px; font-size: 0.76rem; }
 
     /* Collections: even more compact */
     .collections-section { padding: 8px 8px 2px; }
