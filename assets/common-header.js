@@ -13,6 +13,7 @@
     // Local (this-site) pages + the parent-ecosystem back-links.
     var LOCAL_LINKS = [
         { label: 'Atlas', href: 'index.html', match: ['', 'index.html'] },
+        { label: 'Interactive', href: 'explore.html', match: ['explore.html'] },
         { label: 'Stories', href: 'stories.html', match: ['stories.html'] },
         { label: 'Methodology', href: 'methodology.html', match: ['methodology.html'] }
     ];
