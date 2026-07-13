@@ -57,9 +57,14 @@ The site ships an English/Hindi toggle in the common header. It uses a light
 `window.IM.setLang('hi'|'en')` flips the language (persisted in `im-lang`,
 also sets `<html lang>` and fires an `im:langchange` event).
 
-Currently translated: the navigation and the interactive tool's chrome
-(tabs, labels, headings). **Data content** — indicator names, map titles and
-takeaways — is still English. To translate content:
+Currently translated:
+- The navigation and the interactive tool's chrome (tabs, labels, headings).
+- **All 14 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
+- **The Demography theme** — all 13 maps have `title_hi` + `takeaway_hi`; every
+  section title has a Hindi form.
+
+Remaining map themes' titles/takeaways are still English (they degrade
+gracefully). To translate more content:
 
 1. Add parallel `_hi` fields to the data, e.g. `"name_hi"`, `"desc_hi"` in
    `interactive-data.json`, or `"title_hi"` / `"takeaway_hi"` in `maps.json`.

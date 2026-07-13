@@ -353,6 +353,9 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     function colorFor(t){ var c0=hexToRgb(css('--map-c0')),c1=hexToRgb(css('--map-c1')); return 'rgb('+lerp(c0[0],c1[0],t)+','+lerp(c0[1],c1[1],t)+','+lerp(c0[2],c1[2],t)+')'; }
     function fmt(v){ if(v==null)return '—'; if(Math.abs(v)>=1000)return Math.round(v).toLocaleString('en-IN'); return (v%1===0)?v.toString():(Math.round(v*100)/100).toString(); }
     function extent(ind){ var vs=Object.keys(ind.values).map(function(k){return ind.values[k];}); return [Math.min.apply(null,vs), Math.max.apply(null,vs)]; }
+    // Localised field: use the _hi variant when Hindi is active and present.
+    function L(o, f){ return (window.IM && IM.lang === 'hi' && o[f + '_hi']) ? o[f + '_hi'] : o[f]; }
+    function nm(o){ return L(o, 'name'); } function un(o){ return L(o, 'unit'); } function dsc(o){ return L(o, 'desc'); }
 
     // ── Map geometry ──
     function buildPaths() {
@@ -388,7 +391,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
             ? '<a class="source-link" href="'+ind.sourceUrl+'" target="_blank" rel="noopener">'+ind.source+' ↗</a>'
             : '<strong>'+ind.source+'</strong>';
         return '<span class="badge">'+ind.year+'</span>' + src +
-            '<span>'+ind.unit+'</span><span>'+Object.keys(ind.values).length+' states</span>';
+            '<span>' + un(ind) + '</span><span>'+Object.keys(ind.values).length+' states</span>';
     }
 
     // ── MAP ──
@@ -397,11 +400,11 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         geo.features.forEach(function(f){
             var name=f.properties.name, path=paths[name]; if(!path)return;
             var v=ind.values[name];
-            path.setAttribute('aria-label', name+': '+(v==null?'no data':fmt(v)+' '+ind.unit)+'. '+ind.name+'. Enter to open dashboard.');
+            path.setAttribute('aria-label', name+': '+(v==null?'no data':fmt(v)+' '+un(ind))+'. '+nm(ind)+'. Enter to open dashboard.');
             if(v==null){ path.style.fill=css('--map-empty'); return; }
             path.style.fill=colorFor((v-min)/(max-min||1));
         });
-        $('legend-title').textContent=ind.name;
+        $('legend-title').textContent=nm(ind);
         $('legend-bar').style.background='linear-gradient(90deg,'+colorFor(0)+','+colorFor(1)+')';
         $('legend-min').textContent=fmt(min); $('legend-max').textContent=fmt(max);
         var avg=$('legend-avg');
@@ -429,7 +432,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
                 '<span class="rb-track"><span class="rb-fill" style="width:'+w.toFixed(1)+'%;background:'+colorFor(t)+'"></span></span>'+
                 '<span class="rb-val">'+fmt(v)+'</span></div>';
         }).join('');
-        if(ind.national!=null) html+='<div class="rank-avg-note">India average: <strong>'+fmt(ind.national)+' '+ind.unit+'</strong></div>';
+        if(ind.national!=null) html+='<div class="rank-avg-note">India average: <strong>'+fmt(ind.national)+' '+un(ind)+'</strong></div>';
         $('view-ranking').innerHTML=html;
     }
 
@@ -469,8 +472,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         names.forEach(function(n,i){
             s+='<circle class="dot" data-n="'+n+'" data-x="'+pxs[i]+'" data-y="'+pys[i]+'" cx="'+X(pxs[i]).toFixed(1)+'" cy="'+Y(pys[i]).toFixed(1)+'" r="5"></circle>';
         });
-        s+='<text class="axis-title" x="'+((ml+W-mr)/2)+'" y="'+(H-6)+'" text-anchor="middle">'+ix.name+' ('+ix.unit+')</text>';
-        s+='<text class="axis-title" transform="translate(14,'+((mt+H-mb)/2)+') rotate(-90)" text-anchor="middle">'+iy.name+'</text>';
+        s+='<text class="axis-title" x="'+((ml+W-mr)/2)+'" y="'+(H-6)+'" text-anchor="middle">'+nm(ix)+' ('+un(ix)+')</text>';
+        s+='<text class="axis-title" transform="translate(14,'+((mt+H-mb)/2)+') rotate(-90)" text-anchor="middle">'+nm(iy)+'</text>';
         scatter.setAttribute('viewBox','0 0 '+W+' '+H);
         scatter.innerHTML=s;
 
@@ -484,8 +487,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         rEl.className='big-r '+(ar<0.2?'corr-none':r>0?'corr-pos':'corr-neg');
         stEl.textContent=strength+(ar<0.2?' correlation':' '+dir+' correlation');
         stEl.className='r-strength '+(ar<0.2?'corr-none':r>0?'corr-pos':'corr-neg');
-        exEl.innerHTML='Across '+names.length+' states, higher <strong>'+ix.name+'</strong> tends to go with '+
-            (r>0?'higher':'lower')+' <strong>'+iy.name+'</strong>'+(ar<0.2?', but the link is weak.':'.')+
+        exEl.innerHTML='Across '+names.length+' states, higher <strong>'+nm(ix)+'</strong> tends to go with '+
+            (r>0?'higher':'lower')+' <strong>'+nm(iy)+'</strong>'+(ar<0.2?', but the link is weak.':'.')+
             ' Correlation is not causation.';
     }
 
@@ -507,8 +510,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
             var delta=ind.national!=null?(v-ind.national):null;
             var vs=delta!=null?'<span class="'+goodClass(delta,ind.higherIsBetter)+'">'+(delta>=0?'+':'−')+fmt(Math.abs(Math.round(delta*100)/100))+' vs India</span>':'';
             return '<a class="dash-card" href="#'+ind.id+'">'+
-                '<div class="dash-top"><span class="dash-name">'+ind.name+'<small>'+ind.theme+'</small></span>'+
-                '<span class="dash-val">'+fmt(v)+' <small>'+ind.unit+'</small></span></div>'+
+                '<div class="dash-top"><span class="dash-name">'+nm(ind)+'<small>'+ind.theme+'</small></span>'+
+                '<span class="dash-val">'+fmt(v)+' <small>'+un(ind)+'</small></span></div>'+
                 '<div class="dash-track"><span class="fill" style="width:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span>'+
                 (nf!=null?'<span class="nat" style="left:'+(nf*100).toFixed(1)+'%" title="India average"></span>':'')+
                 '<span class="st-dot" style="left:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span></div>'+
@@ -525,15 +528,15 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         tooltip.style.left=x+'px'; tooltip.style.top=y+'px'; tooltip.classList.add('show'); }
     function mapTip(name,cx,cy){ var ind=state.ind, v=ind.values[name], delta='';
         if(v!=null&&ind.national!=null){ var d=v-ind.national; delta='<span class="t-delta">'+(d>=0?'+':'−')+fmt(Math.abs(Math.round(d*100)/100))+' vs India ('+fmt(ind.national)+')</span>'; }
-        tooltip.innerHTML='<span class="t-name">'+name+'</span>'+(v==null?'<span class="t-unit">no data</span>':'<span class="t-val">'+fmt(v)+' <span class="t-unit">'+ind.unit+'</span></span><br>'+delta); place(cx,cy); }
+        tooltip.innerHTML='<span class="t-name">'+name+'</span>'+(v==null?'<span class="t-unit">no data</span>':'<span class="t-val">'+fmt(v)+' <span class="t-unit">'+un(ind)+'</span></span><br>'+delta); place(cx,cy); }
     function hideTip(){ tooltip.classList.remove('show'); if(lastHl){ lastHl.classList.remove('hl'); lastHl=null; } }
     svg.addEventListener('mousemove',function(e){ var t=e.target; if(t&&t.tagName==='path'){ if(lastHl&&lastHl!==t)lastHl.classList.remove('hl'); t.classList.add('hl'); lastHl=t; mapTip(t.getAttribute('data-name'),e.clientX,e.clientY); } else hideTip(); });
     svg.addEventListener('mouseleave',hideTip);
     svg.addEventListener('touchstart',function(e){ var tc=e.touches[0], el=document.elementFromPoint(tc.clientX,tc.clientY); if(el&&el.tagName==='path'){ if(lastHl)lastHl.classList.remove('hl'); el.classList.add('hl'); lastHl=el; mapTip(el.getAttribute('data-name'),tc.clientX,tc.clientY); } },{passive:true});
     // scatter tooltip
     function scatterTip(el,cx,cy){ tooltip.innerHTML='<span class="t-name">'+el.getAttribute('data-n')+'</span>'+
-        '<span class="t-line">'+state.x.name+': <strong>'+fmt(+el.getAttribute('data-x'))+'</strong></span><br>'+
-        '<span class="t-line">'+state.y.name+': <strong>'+fmt(+el.getAttribute('data-y'))+'</strong></span>'; place(cx,cy); }
+        '<span class="t-line">'+nm(state.x)+': <strong>'+fmt(+el.getAttribute('data-x'))+'</strong></span><br>'+
+        '<span class="t-line">'+nm(state.y)+': <strong>'+fmt(+el.getAttribute('data-y'))+'</strong></span>'; place(cx,cy); }
     scatter.addEventListener('mousemove',function(e){ var t=e.target; if(t&&t.classList.contains('dot')){ t.setAttribute('r','7'); scatterTip(t,e.clientX,e.clientY); } else { tooltip.classList.remove('show'); Array.prototype.forEach.call(scatter.querySelectorAll('.dot'),function(d){d.setAttribute('r','5');}); } });
     scatter.addEventListener('mouseleave',function(){ tooltip.classList.remove('show'); Array.prototype.forEach.call(scatter.querySelectorAll('.dot'),function(d){d.setAttribute('r','5');}); });
 
@@ -550,7 +553,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     // ── View + routing ──
     function setSingleMeta(ind){
         $('meta-row').innerHTML=metaFor(ind);
-        $('ind-desc').textContent=ind.desc;
+        $('ind-desc').textContent=dsc(ind);
         var ml=$('map-link'); if(ind.mapId)ml.setAttribute('href','index.html#map/'+ind.mapId); else ml.removeAttribute('href');
     }
     function applyMap(id){ var ind=byId[id]; if(!ind)return false; state.ind=ind; $('ind-select').value=id; setSingleMeta(ind); if(state.view==='map')renderMap(ind); if(state.view==='ranking')renderRanking(ind); return true; }
@@ -608,7 +611,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         // grouped selects
         var themes=[]; dataset.indicators.forEach(function(i){ if(themes.indexOf(i.theme)===-1)themes.push(i.theme); });
         function optionsHtml(){ return themes.map(function(th){
-            return '<optgroup label="'+th+'">'+dataset.indicators.filter(function(i){return i.theme===th;}).map(function(i){return '<option value="'+i.id+'">'+i.name+'</option>';}).join('')+'</optgroup>';
+            return '<optgroup label="'+th+'">'+dataset.indicators.filter(function(i){return i.theme===th;}).map(function(i){return '<option value="'+i.id+'">'+nm(i)+'</option>';}).join('')+'</optgroup>';
         }).join(''); }
         $('ind-select').innerHTML=optionsHtml();
         $('x-select').innerHTML=optionsHtml();
@@ -619,6 +622,13 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         $('y-select').addEventListener('change',function(){ state.y=this.value; applyCompare(); writeHash(); });
         Array.prototype.forEach.call(document.querySelectorAll('.view-tab'),function(b){ b.addEventListener('click',function(){ showView(b.dataset.view); }); });
         window.addEventListener('hashchange',function(){ readHash(); });
+
+        // Re-translate dynamic content (indicator names/units/desc) when the language flips
+        window.addEventListener('im:langchange',function(){
+            $('ind-select').innerHTML=optionsHtml(); $('x-select').innerHTML=optionsHtml(); $('y-select').innerHTML=optionsHtml();
+            if(state.ind)$('ind-select').value=state.ind.id; $('x-select').value=state.x; $('y-select').value=state.y;
+            showView(state.view);
+        });
 
         new MutationObserver(function(){ if(state.view==='map'&&state.ind)renderMap(state.ind); else if(state.view==='ranking'&&state.ind)renderRanking(state.ind); else if(state.view==='compare')applyCompare(); })
             .observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});

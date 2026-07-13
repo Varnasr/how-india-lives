@@ -1843,6 +1843,22 @@ let INTERACTIVE_BY_MAPID = {};
 
 const REDUCE_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+// Localised map fields: use the _hi variant when Hindi is active and present.
+function mTitle(m) { return (window.IM && IM.lang === 'hi' && m && m.title_hi) ? m.title_hi : (m && m.title); }
+function mTakeaway(m) { return (window.IM && IM.lang === 'hi' && m && m.takeaway_hi) ? m.takeaway_hi : (m && m.takeaway) || ''; }
+function secTitle(sec) { var s = SECTION_META[sec]; if (!s) return sec; return (window.IM && IM.lang === 'hi' && s.title_hi) ? s.title_hi : s.title; }
+
+// Re-render translatable content when the language flips.
+window.addEventListener('im:langchange', function () {
+    try { renderAll(); } catch (e) {}
+    try { initMapOfTheWeek(); } catch (e) {}
+    try { if (spotlightMaps && spotlightMaps.length) showSpotlight(spotlightIndex); } catch (e) {}
+    document.querySelectorAll('#section-nav a').forEach(function (a) {
+        var sec = (a.getAttribute('href') || '').slice(1);
+        if (SECTION_META[sec]) a.textContent = secTitle(sec);
+    });
+});
+
 // Descriptive alt text for a map image (title + the takeaway describing the pattern).
 function altFor(m) {
     const t = m && m.takeaway ? ' — ' + m.takeaway : '';
@@ -1880,6 +1896,13 @@ const SECTION_META = {
     'social-protection': { title: 'Social Protection', desc: 'Government schemes, safety nets, and how effectively the state reaches its most vulnerable citizens.' },
     'reproductive-choices': { title: 'Reproductive Choices', desc: 'Contraception, sterilisation, family planning — where reproductive autonomy varies most sharply.' }
 };
+// Hindi section titles (used by secTitle() when the language is set to Hindi).
+(function(){
+    const HI = { 'demography':'जनसांख्यिकी', 'food-and-culture':'भोजन और संस्कृति', 'economy':'अर्थव्यवस्था',
+        'health':'स्वास्थ्य', 'gender':'लैंगिक', 'caste':'जाति', 'religion':'धर्म', 'education':'शिक्षा',
+        'environment':'पर्यावरण', 'democracy':'लोकतंत्र', 'social-protection':'सामाजिक सुरक्षा', 'reproductive-choices':'प्रजनन विकल्प' };
+    Object.keys(HI).forEach(k => { if (SECTION_META[k]) SECTION_META[k].title_hi = HI[k]; });
+})();
 
 // ── Featured Spotlight ──
 const SPOTLIGHT_PICKS = [
@@ -1932,9 +1955,9 @@ function showSpotlight(idx) {
     img.alt = altFor(m);
     img.onload = () => img.classList.add('loaded');
 
-    document.getElementById('spotlight-section').textContent = sectionMeta ? sectionMeta.title : m.section;
-    document.getElementById('spotlight-title').textContent = m.title;
-    document.getElementById('spotlight-takeaway').textContent = m.takeaway || '';
+    document.getElementById('spotlight-section').textContent = sectionMeta ? secTitle(m.section) : m.section;
+    document.getElementById('spotlight-title').textContent = mTitle(m);
+    document.getElementById('spotlight-takeaway').textContent = mTakeaway(m);
 
     document.querySelectorAll('.hero-spotlight-dot').forEach((d, i) => {
         d.classList.toggle('active', i === idx);
@@ -2072,8 +2095,8 @@ function initMapOfTheWeek() {
         <div class="motw-img">${pic(src, altFor(m))}</div>
         <div>
             <div class="motw-label">Map of the Week</div>
-            <div class="motw-title">${m.title}</div>
-            <div class="motw-takeaway">${m.takeaway}</div>
+            <div class="motw-title">${mTitle(m)}</div>
+            <div class="motw-takeaway">${mTakeaway(m)}</div>
         </div>`;
     inner.onclick = () => openDetail(m.id);
     banner.style.display = '';
@@ -2104,7 +2127,7 @@ function renderAll() {
 
         html += `<section class="section" id="${sid}">
             <div class="section-header">
-                <h2>${meta.title} <span class="map-count">${maps.length} maps</span></h2>
+                <h2>${secTitle(sid)} <span class="map-count">${maps.length} maps</span></h2>
                 <p>${meta.desc}</p>
             </div>
             <div class="section-layout">
@@ -2131,8 +2154,8 @@ function leadCardHTML(m) {
     return `<div class="map-card-lead map-card" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? pic(src, altFor(m)) : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
-            <h3>${m.title}</h3>
-            ${m.takeaway ? `<p class="takeaway">${m.takeaway}</p>` : ''}
+            <h3>${mTitle(m)}</h3>
+            ${mTakeaway(m) ? `<p class="takeaway">${mTakeaway(m)}</p>` : ''}
             ${m.policy ? `<p class="policy-note">${m.policy}</p>` : ''}
             <div class="meta">
                 <span class="tag source">${m.source}</span>
@@ -2149,8 +2172,8 @@ function cardHTML(m, hidden) {
     return `<div class="map-card${hiddenClass}" data-id="${mapId}" data-section="${m.section}" data-source="${m.source}" data-search="${m.title.toLowerCase()} ${(m.tags||[]).join(' ').toLowerCase()} ${m.source.toLowerCase()} ${(m.takeaway||'').toLowerCase()}" onclick="openDetail('${mapId}')">
         <div class="map-image">${m.file ? pic(src, altFor(m)) : `<div style="color:var(--text-muted);font-size:0.8rem;padding:20px;text-align:center">Image pending</div>`}</div>
         <div class="card-body">
-            <h3>${m.title}</h3>
-            ${m.takeaway ? `<p class="takeaway">${m.takeaway}</p>` : ''}
+            <h3>${mTitle(m)}</h3>
+            ${mTakeaway(m) ? `<p class="takeaway">${mTakeaway(m)}</p>` : ''}
             ${m.policy ? `<p class="policy-preview">${m.policy}</p>` : ''}
             <div class="meta">
                 <span class="tag source">${m.source}</span>
@@ -2171,11 +2194,11 @@ function openDetail(mapId) {
     const qc = m.quality ? `quality-${m.quality.toLowerCase()}` : '';
     const sectionMeta = SECTION_META[m.section];
 
-    document.getElementById('detail-title').textContent = m.title;
+    document.getElementById('detail-title').textContent = mTitle(m);
     document.getElementById('detail-img').src = src;
     document.getElementById('detail-img').alt = altFor(m);
-    document.getElementById('detail-takeaway').textContent = m.takeaway || '';
-    document.getElementById('detail-takeaway').style.display = m.takeaway ? '' : 'none';
+    document.getElementById('detail-takeaway').textContent = mTakeaway(m);
+    document.getElementById('detail-takeaway').style.display = mTakeaway(m) ? '' : 'none';
 
     const policyEl = document.getElementById('detail-policy');
     if (m.policy) {
@@ -2188,7 +2211,7 @@ function openDetail(mapId) {
     let metaHtml = `<span class="tag source">${m.source}</span>`;
     if (m.year) metaHtml += `<span class="tag">${m.year}</span>`;
     if (m.quality) metaHtml += `<span class="tag ${qc}">${m.quality}</span>`;
-    if (sectionMeta) metaHtml += `<span class="tag">${sectionMeta.title}</span>`;
+    if (sectionMeta) metaHtml += `<span class="tag">${secTitle(m.section)}</span>`;
     if (m.tags) m.tags.forEach(t => { metaHtml += `<span class="tag">${t}</span>`; });
     document.getElementById('detail-meta').innerHTML = metaHtml;
 
@@ -2212,7 +2235,7 @@ function openDetail(mapId) {
                 const rSrc = r.file ? `maps/${r.section}/${r.file}` : '';
                 return `<div class="related-map-item" onclick="event.stopPropagation(); openDetail('${r.id}')">
                     ${rSrc ? pic(rSrc, altFor(r)) : ''}
-                    <span>${r.title}</span>
+                    <span>${mTitle(r)}</span>
                 </div>`;
             }).join('')}</div>`;
     } else {
@@ -2522,7 +2545,7 @@ function renderAllWithStateHighlight(stateName, stateName2) {
 
         html += `<section class="section" id="${sid}">
             <div class="section-header">
-                <h2>${meta.title} <span class="map-count">${maps.length} maps</span></h2>
+                <h2>${secTitle(sid)} <span class="map-count">${maps.length} maps</span></h2>
                 <p>${meta.desc}</p>
             </div>
             <div class="section-layout">
