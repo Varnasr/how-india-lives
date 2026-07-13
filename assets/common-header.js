@@ -11,11 +11,12 @@
     var LOGO = 'https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png';
 
     // Local (this-site) pages + the parent-ecosystem back-links.
+    // Root-absolute hrefs so the header works from any directory (e.g. /m/<id>.html).
     var LOCAL_LINKS = [
-        { label: 'Atlas', href: 'index.html', match: ['', 'index.html'] },
-        { label: 'Interactive', href: 'explore.html', match: ['explore.html'] },
-        { label: 'Stories', href: 'stories.html', match: ['stories.html'] },
-        { label: 'Methodology', href: 'methodology.html', match: ['methodology.html'] }
+        { label: 'Atlas', href: '/index.html', match: ['', 'index.html'] },
+        { label: 'Interactive', href: '/explore.html', match: ['explore.html'] },
+        { label: 'Stories', href: '/stories.html', match: ['stories.html'] },
+        { label: 'Methodology', href: '/methodology.html', match: ['methodology.html'] }
     ];
 
     var PARENT_LINKS = [

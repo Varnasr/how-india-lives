@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://howindialives.impactmojo.in/sitemap.xml
