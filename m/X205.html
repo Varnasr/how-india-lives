@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Indebted Agricultural Households</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Indebted Agricultural Households">Indebted Agricultural Households</h1>
   <img class="mapimg" src="/maps/economy/X205_Indebted_Agricultural_Households.png" alt="Choropleth map of India by state: Indebted Agricultural Households. Over 50% of agricultural households in Andhra Pradesh and Telangana are indebted." width="1200" height="900">
-  <div class="takeaway">Over 50% of agricultural households in Andhra Pradesh and Telangana are indebted.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Over 50% of agricultural households in Andhra Pradesh and Telangana are indebted.">Over 50% of agricultural households in Andhra Pradesh and Telangana are indebted.</div>
   <div class="policy"><strong>Policy implication</strong><br>Farm debt drives suicide risk; without income support or crop insurance, credit becomes a death trap.</div>
   <div class="meta"><span class="tag">NABARD NAFIS 2022</span><span class="tag">Economy</span><span class="tag">farm debt</span><span class="tag">agricultural</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "ऋणग्रस्त कृषि परिवार", "takeaway": "आंध्र प्रदेश और तेलंगाना में 50% से अधिक कृषि परिवार ऋणग्रस्त हैं।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#gender">Gender</a></nav>
-  <h1>Dowry Deaths Rate per Lakh Women</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Gender" href="/index.html#gender">Gender</a></nav>
+  <h1 id="pm-title" data-en="Dowry Deaths Rate per Lakh Women">Dowry Deaths Rate per Lakh Women</h1>
   <img class="mapimg" src="/maps/gender/S04i_Dowry_Deaths_Rate_per_Lakh_Women.png" alt="Choropleth map of India by state: Dowry Deaths Rate per Lakh Women. Uttar Pradesh reports the highest absolute number of dowry deaths — over 2,000 annually." width="1200" height="900">
-  <div class="takeaway">Uttar Pradesh reports the highest absolute number of dowry deaths — over 2,000 annually.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Uttar Pradesh reports the highest absolute number of dowry deaths — over 2,000 annually.">Uttar Pradesh reports the highest absolute number of dowry deaths — over 2,000 annually.</div>
   <div class="policy"><strong>Policy implication</strong><br>Dowry deaths are just the visible tip; dowry harassment and extortion are vastly underreported across all states.</div>
   <div class="meta"><span class="tag">NCRB 2022</span><span class="tag">Gender</span><span class="tag">dowry deaths</span><span class="tag">violence</span><span class="tag">gender</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति लाख महिलाओं पर दहेज मृत्यु दर", "takeaway": "उत्तर प्रदेश दहेज मृत्यु की सबसे अधिक निरपेक्ष संख्या दर्ज करता है — सालाना 2,000 से अधिक।", "section": "लैंगिक"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

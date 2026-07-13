@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Income Tax Filers as % of Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Income Tax Filers as % of Population">Income Tax Filers as % of Population</h1>
   <img class="mapimg" src="/maps/economy/S02d_Income_Tax_Filers_as_pct_of_Population.png" alt="Choropleth map of India by state: Income Tax Filers as % of Population. Only 2-3% of Bihar&#x27;s population files income tax vs 15%+ in Delhi and Goa." width="1200" height="900">
-  <div class="takeaway">Only 2-3% of Bihar&#x27;s population files income tax vs 15%+ in Delhi and Goa.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Only 2-3% of Bihar&#x27;s population files income tax vs 15%+ in Delhi and Goa.">Only 2-3% of Bihar&#x27;s population files income tax vs 15%+ in Delhi and Goa.</div>
   <div class="policy"><strong>Policy implication</strong><br>The tax base is concentrated in a handful of states; fiscal federalism must account for this structural asymmetry.</div>
   <div class="meta"><span class="tag">RBI/MoSPI 2022-23</span><span class="tag">Economy</span><span class="tag">tax</span><span class="tag">income tax</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "जनसंख्या में आयकर दाताओं का %", "takeaway": "बिहार की केवल 2-3% जनसंख्या आयकर भरती है, जबकि दिल्ली और गोवा में 15%+।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

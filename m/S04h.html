@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#gender">Gender</a></nav>
-  <h1>Domestic Violence Women Reporting Physical Vi</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Gender" href="/index.html#gender">Gender</a></nav>
+  <h1 id="pm-title" data-en="Domestic Violence Women Reporting Physical Vi">Domestic Violence Women Reporting Physical Vi</h1>
   <img class="mapimg" src="/maps/gender/S04h_Domestic_Violence_Women_Reporting_Physical_Vi.png" alt="Choropleth map of India by state: Domestic Violence Women Reporting Physical Vi. 33% of Indian women have experienced physical violence from a spouse — but rates vary from 10% to 45% by state." width="1200" height="900">
-  <div class="takeaway">33% of Indian women have experienced physical violence from a spouse — but rates vary from 10% to 45% by state.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="33% of Indian women have experienced physical violence from a spouse — but rates vary from 10% to 45% by state.">33% of Indian women have experienced physical violence from a spouse — but rates vary from 10% to 45% by state.</div>
   <div class="policy"><strong>Policy implication</strong><br>Domestic violence is not uniformly distributed; state-level variation reveals where enforcement and shelters are most needed.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Gender</span><span class="tag">domestic violence</span><span class="tag">IPV</span><span class="tag">gender</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "घरेलू हिंसा, शारीरिक हिंसा बताने वाली महिलाएँ", "takeaway": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।", "section": "लैंगिक"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

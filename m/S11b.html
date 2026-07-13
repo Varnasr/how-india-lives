@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#social-protection">Social Protection</a></nav>
-  <h1>MGNREGA Women as % of Total Person-Days</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Social Protection" href="/index.html#social-protection">Social Protection</a></nav>
+  <h1 id="pm-title" data-en="MGNREGA Women as % of Total Person-Days">MGNREGA Women as % of Total Person-Days</h1>
   <img class="mapimg" src="/maps/social-protection/S11b_MGNREGA_Women_as_pct_of_Total_Person-Days.png" alt="Choropleth map of India by state: MGNREGA Women as % of Total Person-Days. Women constitute 60%+ of MGNREGA person-days in Tamil Nadu and Kerala but under 20% in UP." width="1200" height="900">
-  <div class="takeaway">Women constitute 60%+ of MGNREGA person-days in Tamil Nadu and Kerala but under 20% in UP.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Women constitute 60%+ of MGNREGA person-days in Tamil Nadu and Kerala but under 20% in UP.">Women constitute 60%+ of MGNREGA person-days in Tamil Nadu and Kerala but under 20% in UP.</div>
   <div class="policy"><strong>Policy implication</strong><br>MGNREGA is India&#x27;s largest women&#x27;s employment programme where women participate; enabling women&#x27;s access elsewhere is a policy win.</div>
   <div class="meta"><span class="tag">MoRD 2023-24</span><span class="tag">Social Protection</span><span class="tag">MGNREGA</span><span class="tag">women</span><span class="tag">employment</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "कुल व्यक्ति-दिवस में महिलाओं का % (मनरेगा)", "takeaway": "तमिलनाडु और केरल में महिलाएं मनरेगा के 60%+ व्यक्ति-दिवस बनाती हैं, पर उत्तर प्रदेश में 20% से कम।", "section": "सामाजिक सुरक्षा"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>Anaemia in Women 15-49</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="Anaemia in Women 15-49">Anaemia in Women 15-49</h1>
   <img class="mapimg" src="/maps/health/S03b_Anaemia_in_Women_15-49.png" alt="Choropleth map of India by state: Anaemia in Women 15-49. Over 65% of women in Jharkhand and Bihar are anaemic vs 33% in Manipur." width="1200" height="900">
-  <div class="takeaway">Over 65% of women in Jharkhand and Bihar are anaemic vs 33% in Manipur.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Over 65% of women in Jharkhand and Bihar are anaemic vs 33% in Manipur.">Over 65% of women in Jharkhand and Bihar are anaemic vs 33% in Manipur.</div>
   <div class="policy"><strong>Policy implication</strong><br>Anaemia saps productivity, worsens maternal mortality, and passes disadvantage to the next generation.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Health</span><span class="tag">anaemia</span><span class="tag">women</span><span class="tag">nutrition</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "महिलाओं में एनीमिया, 15-49", "takeaway": "झारखंड और बिहार में 65% से अधिक महिलाएँ एनीमिया से पीड़ित हैं, जबकि मणिपुर में 33%।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

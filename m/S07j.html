@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#education">Education</a></nav>
-  <h1>Mid-Day Meal Coverage vs Enrolment</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Education" href="/index.html#education">Education</a></nav>
+  <h1 id="pm-title" data-en="Mid-Day Meal Coverage vs Enrolment">Mid-Day Meal Coverage vs Enrolment</h1>
   <img class="mapimg" src="/maps/education/S07j_Mid-Day_Meal_Coverage_vs_Enrolment.png" alt="Choropleth map of India by state: Mid-Day Meal Coverage vs Enrolment. Mid-day meal coverage vs enrolment shows leakage in several states — meals allocated but not reaching children." width="1200" height="900">
-  <div class="takeaway">Mid-day meal coverage vs enrolment shows leakage in several states — meals allocated but not reaching children.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Mid-day meal coverage vs enrolment shows leakage in several states — meals allocated but not reaching children.">Mid-day meal coverage vs enrolment shows leakage in several states — meals allocated but not reaching children.</div>
   <div class="policy"><strong>Policy implication</strong><br>The mid-day meal scheme is India&#x27;s largest nutrition programme; leakage means both wasted funds and hungry children.</div>
   <div class="meta"><span class="tag">ASER/UDISE+ 2022-23</span><span class="tag">Education</span><span class="tag">mid-day meal</span><span class="tag">nutrition</span><span class="tag">education</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "मध्याह्न भोजन कवरेज बनाम नामांकन", "takeaway": "मध्याह्न भोजन कवरेज बनाम नामांकन कई राज्यों में रिसाव दिखाता है — भोजन आवंटित पर बच्चों तक नहीं पहुँचता।", "section": "शिक्षा"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

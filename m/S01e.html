@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Hindu Temple Density per 100 sq. km</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Hindu Temple Density per 100 sq. km">Hindu Temple Density per 100 sq. km</h1>
   <img class="mapimg" src="/maps/food-and-culture/S01e_Hindu_Temple_Density_per_100_sq_km.png" alt="Choropleth map of India by state: Hindu Temple Density per 100 sq. km. Southern India has 3-5x the temple density of the Hindi heartland — challenging assumptions about where religiosity lives." width="1200" height="900">
-  <div class="takeaway">Southern India has 3-5x the temple density of the Hindi heartland — challenging assumptions about where religiosity lives.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Southern India has 3-5x the temple density of the Hindi heartland — challenging assumptions about where religiosity lives.">Southern India has 3-5x the temple density of the Hindi heartland — challenging assumptions about where religiosity lives.</div>
   <div class="policy"><strong>Policy implication</strong><br>Temple density maps cultural infrastructure, not just faith — they indicate tourism potential and land-use patterns.</div>
   <div class="meta"><span class="tag">Dharmaviki/IIT-B 2023</span><span class="tag">Food &amp; Culture</span><span class="tag">temples</span><span class="tag">religion</span><span class="tag">culture</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति 100 वर्ग किमी हिंदू मंदिर घनत्व", "takeaway": "दक्षिण भारत में मंदिरों का घनत्व हिंदी हृदयभूमि से 3-5 गुना है — धार्मिकता कहाँ बसती है, इस धारणा को यह चुनौती देता है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

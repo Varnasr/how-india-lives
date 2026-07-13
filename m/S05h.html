@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#caste">Caste</a></nav>
-  <h1>Death Registration Completeness</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Caste" href="/index.html#caste">Caste</a></nav>
+  <h1 id="pm-title" data-en="Death Registration Completeness">Death Registration Completeness</h1>
   <img class="mapimg" src="/maps/caste/S05h_Death_Registration_Completeness.png" alt="Choropleth map of India by state: Death Registration Completeness. Death registration completeness exceeds 95% in Kerala but is under 50% in Bihar and Jharkhand." width="1200" height="900">
-  <div class="takeaway">Death registration completeness exceeds 95% in Kerala but is under 50% in Bihar and Jharkhand.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Death registration completeness exceeds 95% in Kerala but is under 50% in Bihar and Jharkhand.">Death registration completeness exceeds 95% in Kerala but is under 50% in Bihar and Jharkhand.</div>
   <div class="policy"><strong>Policy implication</strong><br>Incomplete death registration means India doesn&#x27;t know how many people die or from what — the basis of health planning.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Caste</span><span class="tag">death registration</span><span class="tag">vital statistics</span><span class="tag">governance</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "मृत्यु पंजीकरण पूर्णता", "takeaway": "केरल में मृत्यु पंजीकरण की पूर्णता 95% से अधिक है, पर बिहार और झारखंड में 50% से कम।", "section": "जाति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Remittance-Dependent States</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Remittance-Dependent States">Remittance-Dependent States</h1>
   <img class="mapimg" src="/maps/economy/S10h_Remittance-Dependent_States.png" alt="Choropleth map of India by state: Remittance-Dependent States. Bihar and UP are the most remittance-dependent states — migrant earnings prop up rural consumption." width="1200" height="900">
-  <div class="takeaway">Bihar and UP are the most remittance-dependent states — migrant earnings prop up rural consumption.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Bihar and UP are the most remittance-dependent states — migrant earnings prop up rural consumption.">Bihar and UP are the most remittance-dependent states — migrant earnings prop up rural consumption.</div>
   <div class="policy"><strong>Policy implication</strong><br>Remittance dependence signals local job failure; when destination cities slow down, origin states face consumption crashes.</div>
   <div class="meta"><span class="tag">RBI/Census 2017</span><span class="tag">Economy</span><span class="tag">remittances</span><span class="tag">migration</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "रेमिटेंस पर निर्भर राज्य", "takeaway": "बिहार और उत्तर प्रदेश रेमिटेंस पर सबसे अधिक निर्भर राज्य हैं — प्रवासी आय ग्रामीण उपभोग को सहारा देती है।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

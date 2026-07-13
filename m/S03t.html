@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>TB Incidence per Lakh Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="TB Incidence per Lakh Population">TB Incidence per Lakh Population</h1>
   <img class="mapimg" src="/maps/health/S03t_TB_Incidence_per_Lakh_Population.png" alt="Choropleth map of India by state: TB Incidence per Lakh Population. TB incidence in UP and Bihar exceeds 300 per lakh; in Kerala it&#x27;s under 60." width="1200" height="900">
-  <div class="takeaway">TB incidence in UP and Bihar exceeds 300 per lakh; in Kerala it&#x27;s under 60.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="TB incidence in UP and Bihar exceeds 300 per lakh; in Kerala it&#x27;s under 60.">TB incidence in UP and Bihar exceeds 300 per lakh; in Kerala it&#x27;s under 60.</div>
   <div class="policy"><strong>Policy implication</strong><br>India has the world&#x27;s largest TB burden; notification gaps mean many cases are treated in private sector without reporting.</div>
   <div class="meta"><span class="tag">NTEP 2023</span><span class="tag">Health</span><span class="tag">TB</span><span class="tag">tuberculosis</span><span class="tag">disease</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति लाख आबादी पर टीबी घटना", "takeaway": "उत्तर प्रदेश और बिहार में टीबी की घटना प्रति लाख 300 से अधिक है; केरल में यह 60 से कम है।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

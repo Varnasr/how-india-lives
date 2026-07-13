@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#caste">Caste</a></nav>
-  <h1>SC Households Owning Agricultural Land</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Caste" href="/index.html#caste">Caste</a></nav>
+  <h1 id="pm-title" data-en="SC Households Owning Agricultural Land">SC Households Owning Agricultural Land</h1>
   <img class="mapimg" src="/maps/caste/S05b_SC_Households_Owning_Agricultural_Land.png" alt="Choropleth map of India by state: SC Households Owning Agricultural Land. In Punjab, over 30% of SC households own agricultural land; in Bihar, under 5%." width="1200" height="900">
-  <div class="takeaway">In Punjab, over 30% of SC households own agricultural land; in Bihar, under 5%.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="In Punjab, over 30% of SC households own agricultural land; in Bihar, under 5%.">In Punjab, over 30% of SC households own agricultural land; in Bihar, under 5%.</div>
   <div class="policy"><strong>Policy implication</strong><br>Land ownership is the strongest predictor of Dalit economic mobility — landless SC families stay trapped.</div>
   <div class="meta"><span class="tag">Multiple Sources Various</span><span class="tag">Caste</span><span class="tag">SC land</span><span class="tag">agriculture</span><span class="tag">caste</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "कृषि भूमि वाले अनुसूचित जाति परिवार", "takeaway": "पंजाब में 30% से अधिक अनुसूचित जाति परिवारों के पास कृषि भूमि है; बिहार में 5% से कम।", "section": "जाति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

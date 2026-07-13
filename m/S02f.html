@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Night-time Light Radiance Economic Activity P</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Night-time Light Radiance Economic Activity P">Night-time Light Radiance Economic Activity P</h1>
   <img class="mapimg" src="/maps/economy/S02f_Night-time_Light_Radiance_Economic_Activity_P.png" alt="Choropleth map of India by state: Night-time Light Radiance Economic Activity P. Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap." width="1200" height="900">
-  <div class="takeaway">Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap.">Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap.</div>
   <div class="policy"><strong>Policy implication</strong><br>Night-light data is a bias-free proxy for economic activity, useful where GDP estimates are contested.</div>
   <div class="meta"><span class="tag">NASA VIIRS 2023</span><span class="tag">Economy</span><span class="tag">night light</span><span class="tag">satellite</span><span class="tag">economic activity</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "रात्रिकालीन प्रकाश तीव्रता — आर्थिक गतिविधि", "takeaway": "मुंबई में रात्रिकालीन प्रकाश तीव्रता ग्रामीण बिहार की तुलना में 100 गुना है — उपग्रह आँकड़े विकास के अंतर की पुष्टि करते हैं।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

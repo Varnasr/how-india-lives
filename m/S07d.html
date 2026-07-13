@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#education">Education</a></nav>
-  <h1>Female Literacy Rate</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Education" href="/index.html#education">Education</a></nav>
+  <h1 id="pm-title" data-en="Female Literacy Rate">Female Literacy Rate</h1>
   <img class="mapimg" src="/maps/education/S07d_Female_Literacy_Rate.png" alt="Choropleth map of India by state: Female Literacy Rate. Female literacy in Kerala is 96%; in Rajasthan it&#x27;s 57% — a 39-point gap." width="1200" height="900">
-  <div class="takeaway">Female literacy in Kerala is 96%; in Rajasthan it&#x27;s 57% — a 39-point gap.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Female literacy in Kerala is 96%; in Rajasthan it&#x27;s 57% — a 39-point gap.">Female literacy in Kerala is 96%; in Rajasthan it&#x27;s 57% — a 39-point gap.</div>
   <div class="policy"><strong>Policy implication</strong><br>Female literacy is the master variable — it predicts fertility, child survival, nutrition, and women&#x27;s agency better than income.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Education</span><span class="tag">female literacy</span><span class="tag">women</span><span class="tag">education</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "महिला साक्षरता दर", "takeaway": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।", "section": "शिक्षा"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

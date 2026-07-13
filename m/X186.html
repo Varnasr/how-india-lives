@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>Children with Diarrhoea Receiving Zinc</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="Children with Diarrhoea Receiving Zinc">Children with Diarrhoea Receiving Zinc</h1>
   <img class="mapimg" src="/maps/health/X186_Children_with_Diarrhoea_Receiving_Zinc.png" alt="Choropleth map of India by state: Children with Diarrhoea Receiving Zinc. Only 30% of children with diarrhoea receive zinc treatment nationally — a cheap lifesaver underused." width="1200" height="900">
-  <div class="takeaway">Only 30% of children with diarrhoea receive zinc treatment nationally — a cheap lifesaver underused.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Only 30% of children with diarrhoea receive zinc treatment nationally — a cheap lifesaver underused.">Only 30% of children with diarrhoea receive zinc treatment nationally — a cheap lifesaver underused.</div>
   <div class="policy"><strong>Policy implication</strong><br>Zinc with ORS reduces diarrhoea duration by 25%; the gap is awareness and supply chain, not cost.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Health</span><span class="tag">zinc</span><span class="tag">diarrhoea</span><span class="tag">children</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "दस्त से पीड़ित बच्चों को ज़िंक", "takeaway": "देशभर में दस्त से पीड़ित केवल 30% बच्चों को ही ज़िंक उपचार मिलता है — एक सस्ता जीवनरक्षक जिसका कम उपयोग होता है।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

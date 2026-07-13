@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>Doctors per Lakh Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="Doctors per Lakh Population">Doctors per Lakh Population</h1>
   <img class="mapimg" src="/maps/health/S03o_Doctors_per_Lakh_Population.png" alt="Choropleth map of India by state: Doctors per Lakh Population. Delhi has 14+ doctors per lakh population; Bihar has under 3 — India&#x27;s health workforce follows the money." width="1200" height="900">
-  <div class="takeaway">Delhi has 14+ doctors per lakh population; Bihar has under 3 — India&#x27;s health workforce follows the money.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Delhi has 14+ doctors per lakh population; Bihar has under 3 — India&#x27;s health workforce follows the money.">Delhi has 14+ doctors per lakh population; Bihar has under 3 — India&#x27;s health workforce follows the money.</div>
   <div class="policy"><strong>Policy implication</strong><br>Doctors concentrate in urban areas and rich states; mandatory rural posting or telemedicine are the only solutions.</div>
   <div class="meta"><span class="tag">NHP/CBHI 2022</span><span class="tag">Health</span><span class="tag">doctors</span><span class="tag">health workforce</span><span class="tag">health</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति लाख आबादी पर डॉक्टर", "takeaway": "दिल्ली में प्रति लाख आबादी पर 14+ डॉक्टर हैं; बिहार में 3 से कम — भारत का स्वास्थ्य कार्यबल पैसे के पीछे चलता है।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

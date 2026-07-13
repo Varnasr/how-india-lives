@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Average Age of Women at First Marriage</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Average Age of Women at First Marriage">Average Age of Women at First Marriage</h1>
   <img class="mapimg" src="/maps/food-and-culture/S01f_Average_Age_of_Women_at_First_Marriage.png" alt="Choropleth map of India by state: Average Age of Women at First Marriage. Women in Kerala marry at 23 on average; in Bihar, it&#x27;s under 19 — a 4-year gap that changes life trajectories." width="1200" height="900">
-  <div class="takeaway">Women in Kerala marry at 23 on average; in Bihar, it&#x27;s under 19 — a 4-year gap that changes life trajectories.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Women in Kerala marry at 23 on average; in Bihar, it&#x27;s under 19 — a 4-year gap that changes life trajectories.">Women in Kerala marry at 23 on average; in Bihar, it&#x27;s under 19 — a 4-year gap that changes life trajectories.</div>
   <div class="policy"><strong>Policy implication</strong><br>Later marriage strongly correlates with women&#x27;s education, workforce participation, and lower maternal mortality.</div>
   <div class="meta"><span class="tag">Multiple Sources Various</span><span class="tag">Food &amp; Culture</span><span class="tag">marriage age</span><span class="tag">women</span><span class="tag">culture</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "पहली शादी के समय महिलाओं की औसत आयु", "takeaway": "केरल में महिलाएँ औसतन 23 की उम्र में शादी करती हैं; बिहार में यह 19 से कम है — 4 साल का यह अंतर जीवन की दिशा बदल देता है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

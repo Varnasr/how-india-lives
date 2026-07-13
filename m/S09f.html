@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#democracy">Democracy</a></nav>
-  <h1>RTI Applications per Lakh Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Democracy" href="/index.html#democracy">Democracy</a></nav>
+  <h1 id="pm-title" data-en="RTI Applications per Lakh Population">RTI Applications per Lakh Population</h1>
   <img class="mapimg" src="/maps/democracy/S09f_RTI_Applications_per_Lakh_Population.png" alt="Choropleth map of India by state: RTI Applications per Lakh Population. Kerala and Maharashtra file the most RTI applications per capita; UP and Bihar file the fewest." width="1200" height="900">
-  <div class="takeaway">Kerala and Maharashtra file the most RTI applications per capita; UP and Bihar file the fewest.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Kerala and Maharashtra file the most RTI applications per capita; UP and Bihar file the fewest.">Kerala and Maharashtra file the most RTI applications per capita; UP and Bihar file the fewest.</div>
   <div class="policy"><strong>Policy implication</strong><br>RTI usage maps civic awareness; states where citizens demand transparency tend to have better governance outcomes.</div>
   <div class="meta"><span class="tag">CIC 2023</span><span class="tag">Democracy</span><span class="tag">RTI</span><span class="tag">transparency</span><span class="tag">democracy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति लाख आबादी सूचना का अधिकार आवेदन", "takeaway": "केरल और महाराष्ट्र प्रति व्यक्ति सबसे अधिक सूचना का अधिकार आवेदन दायर करते हैं; उत्तर प्रदेश और बिहार सबसे कम।", "section": "लोकतंत्र"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

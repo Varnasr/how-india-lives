@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#demography">Demography</a></nav>
-  <h1>Share of Population Under 15 Years</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Demography" href="/index.html#demography">Demography</a></nav>
+  <h1 id="pm-title" data-en="Share of Population Under 15 Years">Share of Population Under 15 Years</h1>
   <img class="mapimg" src="/maps/demography/S00h_Share_of_Population_Under_15_Years.png" alt="Choropleth map of India by state: Share of Population Under 15 Years. In Bihar, 40% of the population is under 15; in Kerala, it&#x27;s 22% — two completely different Indias." width="1200" height="900">
-  <div class="takeaway">In Bihar, 40% of the population is under 15; in Kerala, it&#x27;s 22% — two completely different Indias.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="In Bihar, 40% of the population is under 15; in Kerala, it&#x27;s 22% — two completely different Indias.">In Bihar, 40% of the population is under 15; in Kerala, it&#x27;s 22% — two completely different Indias.</div>
   <div class="policy"><strong>Policy implication</strong><br>Youth-heavy states need school infrastructure now; ageing states need geriatric care — the same budget formula fails both.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Demography</span><span class="tag">youth population</span><span class="tag">demography</span><span class="tag">age</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "15 वर्ष से कम जनसंख्या का हिस्सा", "takeaway": "बिहार में 40% जनसंख्या 15 वर्ष से कम है; केरल में 22% — दो बिल्कुल अलग भारत।", "section": "जनसांख्यिकी"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>MSME Density per Lakh Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="MSME Density per Lakh Population">MSME Density per Lakh Population</h1>
   <img class="mapimg" src="/maps/economy/S10a_MSME_Density_per_Lakh_Population.png" alt="Choropleth map of India by state: MSME Density per Lakh Population. Tamil Nadu and Gujarat have 3x the MSME density of Bihar — small enterprise is geographically concentrated." width="1200" height="900">
-  <div class="takeaway">Tamil Nadu and Gujarat have 3x the MSME density of Bihar — small enterprise is geographically concentrated.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Tamil Nadu and Gujarat have 3x the MSME density of Bihar — small enterprise is geographically concentrated.">Tamil Nadu and Gujarat have 3x the MSME density of Bihar — small enterprise is geographically concentrated.</div>
   <div class="policy"><strong>Policy implication</strong><br>MSME clusters create local employment multipliers; fostering them in lagging states requires infrastructure + credit, not just policy.</div>
   <div class="meta"><span class="tag">MSME Ministry 2024</span><span class="tag">Economy</span><span class="tag">MSME</span><span class="tag">small business</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति लाख जनसंख्या MSME घनत्व", "takeaway": "तमिलनाडु और गुजरात में बिहार से 3 गुना MSME घनत्व है — लघु उद्यम भौगोलिक रूप से केंद्रित हैं।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

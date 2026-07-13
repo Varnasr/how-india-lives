@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#demography">Demography</a></nav>
-  <h1>Net Migration Rate per 1,000 population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Demography" href="/index.html#demography">Demography</a></nav>
+  <h1 id="pm-title" data-en="Net Migration Rate per 1,000 population">Net Migration Rate per 1,000 population</h1>
   <img class="mapimg" src="/maps/demography/S00l_Net_Migration_Rate_per_1%2C000_population.png" alt="Choropleth map of India by state: Net Migration Rate per 1,000 population. Bihar and UP are net exporters of people; Maharashtra and Delhi are importers — migration maps economic opportunity." width="1200" height="900">
-  <div class="takeaway">Bihar and UP are net exporters of people; Maharashtra and Delhi are importers — migration maps economic opportunity.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Bihar and UP are net exporters of people; Maharashtra and Delhi are importers — migration maps economic opportunity.">Bihar and UP are net exporters of people; Maharashtra and Delhi are importers — migration maps economic opportunity.</div>
   <div class="policy"><strong>Policy implication</strong><br>Internal migration subsidises destination states&#x27; economies while origin states lose their most productive workers.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Demography</span><span class="tag">migration</span><span class="tag">demography</span><span class="tag">labour</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति 1,000 जनसंख्या पर शुद्ध प्रवासन दर", "takeaway": "बिहार और उत्तर प्रदेश लोगों के शुद्ध निर्यातक हैं; महाराष्ट्र और दिल्ली आयातक — प्रवासन आर्थिक अवसर का मानचित्र है।", "section": "जनसांख्यिकी"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

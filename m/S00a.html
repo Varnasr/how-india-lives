@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#demography">Demography</a></nav>
-  <h1>Median Age by State</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Demography" href="/index.html#demography">Demography</a></nav>
+  <h1 id="pm-title" data-en="Median Age by State">Median Age by State</h1>
   <img class="mapimg" src="/maps/demography/S00a_Median_Age_by_State.png" alt="Choropleth map of India by state: Median Age by State. Kerala&#x27;s median age is 33; Bihar&#x27;s is 20 — a 13-year gap that shapes everything from school demand to pension load." width="1200" height="900">
-  <div class="takeaway">Kerala&#x27;s median age is 33; Bihar&#x27;s is 20 — a 13-year gap that shapes everything from school demand to pension load.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Kerala&#x27;s median age is 33; Bihar&#x27;s is 20 — a 13-year gap that shapes everything from school demand to pension load.">Kerala&#x27;s median age is 33; Bihar&#x27;s is 20 — a 13-year gap that shapes everything from school demand to pension load.</div>
   <div class="policy"><strong>Policy implication</strong><br>States at different demographic stages need fundamentally different fiscal priorities — one size fits none.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Demography</span><span class="tag">demography</span><span class="tag">median age</span><span class="tag">age structure</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "राज्यवार औसत आयु", "takeaway": "केरल की औसत आयु 33 वर्ष है; बिहार की 20 — 13 वर्ष का अंतर जो स्कूलों की माँग से लेकर पेंशन के बोझ तक सब कुछ तय करता है।", "section": "जनसांख्यिकी"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

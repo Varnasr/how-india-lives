@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>C-Section Delivery Rate</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="C-Section Delivery Rate">C-Section Delivery Rate</h1>
   <img class="mapimg" src="/maps/health/S03k_C-Section_Delivery_Rate.png" alt="Choropleth map of India by state: C-Section Delivery Rate. Telangana&#x27;s C-section rate is 57%; Nagaland&#x27;s is 6% — both are problematic, but for opposite reasons." width="1200" height="900">
-  <div class="takeaway">Telangana&#x27;s C-section rate is 57%; Nagaland&#x27;s is 6% — both are problematic, but for opposite reasons.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Telangana&#x27;s C-section rate is 57%; Nagaland&#x27;s is 6% — both are problematic, but for opposite reasons.">Telangana&#x27;s C-section rate is 57%; Nagaland&#x27;s is 6% — both are problematic, but for opposite reasons.</div>
   <div class="policy"><strong>Policy implication</strong><br>High C-section rates signal over-medicalisation in private hospitals; low rates signal surgical access failures.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Health</span><span class="tag">C-section</span><span class="tag">delivery</span><span class="tag">health</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "सिज़ेरियन प्रसव दर", "takeaway": "तेलंगाना की सिज़ेरियन दर 57% है; नागालैंड की 6% है — दोनों ही समस्याग्रस्त हैं, पर विपरीत कारणों से।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

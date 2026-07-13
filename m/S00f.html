@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#demography">Demography</a></nav>
-  <h1>Average Household Size</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Demography" href="/index.html#demography">Demography</a></nav>
+  <h1 id="pm-title" data-en="Average Household Size">Average Household Size</h1>
   <img class="mapimg" src="/maps/demography/S00f_Average_Household_Size.png" alt="Choropleth map of India by state: Average Household Size. Uttar Pradesh averages 6.1 persons per household; Goa averages 3.7 — reflecting joint vs nuclear family patterns." width="1200" height="900">
-  <div class="takeaway">Uttar Pradesh averages 6.1 persons per household; Goa averages 3.7 — reflecting joint vs nuclear family patterns.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Uttar Pradesh averages 6.1 persons per household; Goa averages 3.7 — reflecting joint vs nuclear family patterns.">Uttar Pradesh averages 6.1 persons per household; Goa averages 3.7 — reflecting joint vs nuclear family patterns.</div>
   <div class="policy"><strong>Policy implication</strong><br>Household size determines housing demand, LPG cylinder allocation, and per-capita benefit calculations.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Demography</span><span class="tag">household size</span><span class="tag">demography</span><span class="tag">family</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "औसत घरेलू आकार", "takeaway": "उत्तर प्रदेश में प्रति घर औसतन 6.1 व्यक्ति; गोवा में 3.7 — संयुक्त बनाम एकल परिवार की झलक।", "section": "जनसांख्यिकी"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#democracy">Democracy</a></nav>
-  <h1>Voter Turnout 2024 Lok Sabha</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Democracy" href="/index.html#democracy">Democracy</a></nav>
+  <h1 id="pm-title" data-en="Voter Turnout 2024 Lok Sabha">Voter Turnout 2024 Lok Sabha</h1>
   <img class="mapimg" src="/maps/democracy/S09a_Voter_Turnout_2024_Lok_Sabha.png" alt="Choropleth map of India by state: Voter Turnout 2024 Lok Sabha. Lakshadweep hit 84% turnout in 2024; Bihar was at 57% — a 27-point gap in democratic participation." width="1200" height="900">
-  <div class="takeaway">Lakshadweep hit 84% turnout in 2024; Bihar was at 57% — a 27-point gap in democratic participation.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Lakshadweep hit 84% turnout in 2024; Bihar was at 57% — a 27-point gap in democratic participation.">Lakshadweep hit 84% turnout in 2024; Bihar was at 57% — a 27-point gap in democratic participation.</div>
   <div class="policy"><strong>Policy implication</strong><br>Low turnout concentrates power among motivated voters; improving turnout in lagging states requires better booth access.</div>
   <div class="meta"><span class="tag">ECI/ADR 2024</span><span class="tag">Democracy</span><span class="tag">voter turnout</span><span class="tag">elections</span><span class="tag">democracy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "मतदान प्रतिशत 2024 लोकसभा", "takeaway": "2024 में लक्षद्वीप में 84% मतदान हुआ; बिहार में यह 57% रहा — लोकतांत्रिक भागीदारी में 27 अंकों का अंतर।", "section": "लोकतंत्र"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

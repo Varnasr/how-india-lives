@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>Handwashing with Soap Households with Facilit</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="Handwashing with Soap Households with Facilit">Handwashing with Soap Households with Facilit</h1>
   <img class="mapimg" src="/maps/health/X190_Handwashing_with_Soap_Households_with_Facilit.png" alt="Choropleth map of India by state: Handwashing with Soap Households with Facilit. Handwashing with soap facility exists in 80%+ of Kerala homes but under 30% in Odisha." width="1200" height="900">
-  <div class="takeaway">Handwashing with soap facility exists in 80%+ of Kerala homes but under 30% in Odisha.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Handwashing with soap facility exists in 80%+ of Kerala homes but under 30% in Odisha.">Handwashing with soap facility exists in 80%+ of Kerala homes but under 30% in Odisha.</div>
   <div class="policy"><strong>Policy implication</strong><br>COVID highlighted handwashing, but the infrastructure gap predates the pandemic — it&#x27;s a structural WASH failure.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Health</span><span class="tag">handwashing</span><span class="tag">hygiene</span><span class="tag">health</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "साबुन से हाथ धोने की सुविधा वाले परिवार", "takeaway": "साबुन से हाथ धोने की सुविधा केरल के 80%+ घरों में मौजूद है, लेकिन ओडिशा में 30% से कम में।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

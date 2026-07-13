@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#social-protection">Social Protection</a></nav>
-  <h1>PDS Ration Card Coverage vs Actual Offtake</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Social Protection" href="/index.html#social-protection">Social Protection</a></nav>
+  <h1 id="pm-title" data-en="PDS Ration Card Coverage vs Actual Offtake">PDS Ration Card Coverage vs Actual Offtake</h1>
   <img class="mapimg" src="/maps/social-protection/S11c_PDS_Ration_Card_Coverage_vs_Actual_Offtake.png" alt="Choropleth map of India by state: PDS Ration Card Coverage vs Actual Offtake. PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states." width="1200" height="900">
-  <div class="takeaway">PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states.">PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states.</div>
   <div class="policy"><strong>Policy implication</strong><br>The gap between ration cards issued and grain actually distributed reveals both diversion and exclusion errors.</div>
   <div class="meta"><span class="tag">DFPD 2023</span><span class="tag">Social Protection</span><span class="tag">PDS</span><span class="tag">ration</span><span class="tag">food security</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "PDS राशन कार्ड कवरेज बनाम वास्तविक उठाव", "takeaway": "PDS कवरेज बनाम वास्तविक अनाज उठाव कुछ राज्यों में 40% से अधिक की चोरी दर्शाता है।", "section": "सामाजिक सुरक्षा"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Multidimensional Poverty Index MPI</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Multidimensional Poverty Index MPI">Multidimensional Poverty Index MPI</h1>
   <img class="mapimg" src="/maps/economy/S02b_Multidimensional_Poverty_Index_MPI.png" alt="Choropleth map of India by state: Multidimensional Poverty Index MPI. Bihar&#x27;s MPI is 0.35; Kerala&#x27;s is 0.01 — a 35x gap in multidimensional poverty within one country." width="1200" height="900">
-  <div class="takeaway">Bihar&#x27;s MPI is 0.35; Kerala&#x27;s is 0.01 — a 35x gap in multidimensional poverty within one country.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Bihar&#x27;s MPI is 0.35; Kerala&#x27;s is 0.01 — a 35x gap in multidimensional poverty within one country.">Bihar&#x27;s MPI is 0.35; Kerala&#x27;s is 0.01 — a 35x gap in multidimensional poverty within one country.</div>
   <div class="policy"><strong>Policy implication</strong><br>The MPI reveals that poverty is not just about income — it compounds across health, education, and living standards simultaneously.</div>
   <div class="meta"><span class="tag">RBI/MoSPI 2022-23</span><span class="tag">Economy</span><span class="tag">poverty</span><span class="tag">MPI</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "बहुआयामी गरीबी सूचकांक (MPI)", "takeaway": "बिहार का MPI 0.35 है; केरल का 0.01 — एक ही देश के भीतर बहुआयामी गरीबी में 35 गुना का अंतर।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

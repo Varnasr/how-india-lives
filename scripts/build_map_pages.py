@@ -24,6 +24,12 @@ SECTION_TITLES = {
     'education': 'Education', 'environment': 'Environment', 'democracy': 'Democracy',
     'social-protection': 'Social Protection', 'reproductive-choices': 'Reproductive Choices',
 }
+SECTION_TITLES_HI = {
+    'demography': 'जनसांख्यिकी', 'food-and-culture': 'भोजन और संस्कृति', 'economy': 'अर्थव्यवस्था',
+    'health': 'स्वास्थ्य', 'gender': 'लैंगिक', 'caste': 'जाति', 'religion': 'धर्म',
+    'education': 'शिक्षा', 'environment': 'पर्यावरण', 'democracy': 'लोकतंत्र',
+    'social-protection': 'सामाजिक सुरक्षा', 'reproductive-choices': 'प्रजनन विकल्प',
+}
 
 def esc(s):
     return html.escape(str(s or ''), quote=True)
@@ -55,6 +61,25 @@ def page(m, interactive_id):
         "isPartOf": {"@type": "WebSite", "name": "How India Lives", "url": BASE},
         "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     }
+    # Bilingual: swap the visible title/takeaway/section to Hindi when IM.lang === 'hi'
+    swap_script = ''
+    if m.get('title_hi') or m.get('takeaway_hi'):
+        hi = json.dumps({
+            'title': m.get('title_hi', ''),
+            'takeaway': m.get('takeaway_hi', ''),
+            'section': SECTION_TITLES_HI.get(m['section'], ''),
+        }, ensure_ascii=False).replace('</', '<\\/')
+        swap_script = (
+            '<script>(function(){var HI=' + hi + ';'
+            'function a(){var h=window.IM&&IM.lang==="hi";'
+            '["title","takeaway","section"].forEach(function(k){'
+            'var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;'
+            'e.textContent=h?HI[k]:e.getAttribute("data-en");});'
+            'document.documentElement.lang=h?"hi":"en";}'
+            'window.addEventListener("im:langchange",a);'
+            'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();'
+            '})();</script>'
+        )
     return """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,8 +128,8 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#{section}">{sect}</a></nav>
-  <h1>{title}</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="{sect}" href="/index.html#{section}">{sect}</a></nav>
+  <h1 id="pm-title" data-en="{title}">{title}</h1>
   <img class="mapimg" src="{img}" alt="Choropleth map of India by state: {title}. {desc}" width="1200" height="900">
   {takeaway}
   {policy}
@@ -118,15 +143,17 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+{swap_script}
 </body>
 </html>
 """.format(
         title=esc(title), desc=esc(desc), canonical=canonical, og_img=og_img,
         schema=json.dumps(schema), section=esc(m['section']), sect=esc(sect),
         img=img_url(m),
-        takeaway=('<div class="takeaway">%s</div>' % esc(m['takeaway'])) if m.get('takeaway') else '',
+        takeaway=('<div class="takeaway" id="pm-takeaway" data-en="%s">%s</div>' % (esc(m['takeaway']), esc(m['takeaway']))) if m.get('takeaway') else '',
         policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
+        swap_script=swap_script,
         id=esc(m['id']), interactive_btn=interactive_btn,
     )
 

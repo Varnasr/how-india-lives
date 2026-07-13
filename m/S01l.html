@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Households Using Adequately Iodised Salt</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Households Using Adequately Iodised Salt">Households Using Adequately Iodised Salt</h1>
   <img class="mapimg" src="/maps/food-and-culture/S01l_Households_Using_Adequately_Iodised_Salt.png" alt="Choropleth map of India by state: Households Using Adequately Iodised Salt. Only 60% of Indian households use adequately iodised salt — a preventable cause of cognitive impairment." width="1200" height="900">
-  <div class="takeaway">Only 60% of Indian households use adequately iodised salt — a preventable cause of cognitive impairment.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Only 60% of Indian households use adequately iodised salt — a preventable cause of cognitive impairment.">Only 60% of Indian households use adequately iodised salt — a preventable cause of cognitive impairment.</div>
   <div class="policy"><strong>Policy implication</strong><br>Iodine deficiency disorders remain endemic in Himalayan and tribal belt states where iodised salt supply chains fail.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Food &amp; Culture</span><span class="tag">iodised salt</span><span class="tag">nutrition</span><span class="tag">food</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "पर्याप्त आयोडीनयुक्त नमक इस्तेमाल करने वाले परिवार", "takeaway": "भारत में केवल 60% परिवार पर्याप्त आयोडीनयुक्त नमक इस्तेमाल करते हैं — जो संज्ञानात्मक क्षति का एक रोकथाम योग्य कारण है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

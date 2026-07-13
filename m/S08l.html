@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#environment">Environment</a></nav>
-  <h1>Renewable Energy Capacity per Capita</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Environment" href="/index.html#environment">Environment</a></nav>
+  <h1 id="pm-title" data-en="Renewable Energy Capacity per Capita">Renewable Energy Capacity per Capita</h1>
   <img class="mapimg" src="/maps/environment/S08l_Renewable_Energy_Capacity_per_Capita.png" alt="Choropleth map of India by state: Renewable Energy Capacity per Capita. Rajasthan and Gujarat lead in renewable energy capacity per capita; NE states trail significantly." width="1200" height="900">
-  <div class="takeaway">Rajasthan and Gujarat lead in renewable energy capacity per capita; NE states trail significantly.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Rajasthan and Gujarat lead in renewable energy capacity per capita; NE states trail significantly.">Rajasthan and Gujarat lead in renewable energy capacity per capita; NE states trail significantly.</div>
   <div class="policy"><strong>Policy implication</strong><br>Renewable energy potential maps onto geography (solar in Rajasthan, wind in Gujarat) but policy drives deployment.</div>
   <div class="meta"><span class="tag">MNRE 2024</span><span class="tag">Environment</span><span class="tag">renewable energy</span><span class="tag">solar</span><span class="tag">wind</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता", "takeaway": "राजस्थान और गुजरात प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता में आगे हैं; पूर्वोत्तर राज्य काफ़ी पीछे हैं।", "section": "पर्यावरण"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

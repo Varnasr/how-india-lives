@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#environment">Environment</a></nav>
-  <h1>Fertiliser Consumption per Hectare</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Environment" href="/index.html#environment">Environment</a></nav>
+  <h1 id="pm-title" data-en="Fertiliser Consumption per Hectare">Fertiliser Consumption per Hectare</h1>
   <img class="mapimg" src="/maps/environment/X175_Fertiliser_Consumption_per_Hectare.png" alt="Choropleth map of India by state: Fertiliser Consumption per Hectare. Punjab and Haryana apply 200+ kg fertiliser per hectare; NE states apply under 30." width="1200" height="900">
-  <div class="takeaway">Punjab and Haryana apply 200+ kg fertiliser per hectare; NE states apply under 30.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Punjab and Haryana apply 200+ kg fertiliser per hectare; NE states apply under 30.">Punjab and Haryana apply 200+ kg fertiliser per hectare; NE states apply under 30.</div>
   <div class="policy"><strong>Policy implication</strong><br>Excess fertiliser use depletes soil health and pollutes water; under-use leaves yield potential on the table.</div>
   <div class="meta"><span class="tag">CIC 2023</span><span class="tag">Environment</span><span class="tag">fertiliser</span><span class="tag">agriculture</span><span class="tag">environment</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति हेक्टेयर उर्वरक खपत", "takeaway": "पंजाब और हरियाणा प्रति हेक्टेयर 200+ किग्रा उर्वरक डालते हैं; पूर्वोत्तर राज्य 30 से कम।", "section": "पर्यावरण"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

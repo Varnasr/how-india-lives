@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#democracy">Democracy</a></nav>
-  <h1>Lok Sabha Seats Held by Same Party Since 1984</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Democracy" href="/index.html#democracy">Democracy</a></nav>
+  <h1 id="pm-title" data-en="Lok Sabha Seats Held by Same Party Since 1984">Lok Sabha Seats Held by Same Party Since 1984</h1>
   <img class="mapimg" src="/maps/democracy/S09b_Lok_Sabha_Seats_Held_by_Same_Party_Since_1984.png" alt="Choropleth map of India by state: Lok Sabha Seats Held by Same Party Since 1984. Some Lok Sabha seats have been held by the same party for 40 years — political competition is not uniform." width="1200" height="900">
-  <div class="takeaway">Some Lok Sabha seats have been held by the same party for 40 years — political competition is not uniform.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Some Lok Sabha seats have been held by the same party for 40 years — political competition is not uniform.">Some Lok Sabha seats have been held by the same party for 40 years — political competition is not uniform.</div>
   <div class="policy"><strong>Policy implication</strong><br>Dominant-party constituencies receive less opposition scrutiny and often underperform on development indicators.</div>
   <div class="meta"><span class="tag">ECI/ADR 2024</span><span class="tag">Democracy</span><span class="tag">party dominance</span><span class="tag">political competition</span><span class="tag">democracy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "1984 से एक ही पार्टी के पास रहीं लोकसभा सीटें", "takeaway": "कुछ लोकसभा सीटें 40 साल से एक ही पार्टी के पास हैं — राजनीतिक प्रतिस्पर्धा हर जगह एक जैसी नहीं है।", "section": "लोकतंत्र"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

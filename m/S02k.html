@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>LPG as Primary Cooking Fuel</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="LPG as Primary Cooking Fuel">LPG as Primary Cooking Fuel</h1>
   <img class="mapimg" src="/maps/economy/S02k_LPG_as_Primary_Cooking_Fuel.png" alt="Choropleth map of India by state: LPG as Primary Cooking Fuel. 98% of Delhi households use LPG; in Bihar, it&#x27;s under 40% despite Ujjwala — affordability kills adoption." width="1200" height="900">
-  <div class="takeaway">98% of Delhi households use LPG; in Bihar, it&#x27;s under 40% despite Ujjwala — affordability kills adoption.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="98% of Delhi households use LPG; in Bihar, it&#x27;s under 40% despite Ujjwala — affordability kills adoption.">98% of Delhi households use LPG; in Bihar, it&#x27;s under 40% despite Ujjwala — affordability kills adoption.</div>
   <div class="policy"><strong>Policy implication</strong><br>LPG connections ≠ LPG use; refill costs push poor households back to biomass within months of getting a connection.</div>
   <div class="meta"><span class="tag">PPAC/NFHS-5 2021</span><span class="tag">Economy</span><span class="tag">LPG</span><span class="tag">cooking fuel</span><span class="tag">energy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्राथमिक रसोई ईंधन के रूप में LPG", "takeaway": "दिल्ली के 98% परिवार LPG इस्तेमाल करते हैं; बिहार में उज्ज्वला के बावजूद यह 40% से कम है — किफायत न होना अपनाने में बाधक है।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

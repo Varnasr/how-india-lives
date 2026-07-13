@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Women in Non-Agricultural Employment</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Women in Non-Agricultural Employment">Women in Non-Agricultural Employment</h1>
   <img class="mapimg" src="/maps/economy/S10g_Women_in_Non-Agricultural_Employment.png" alt="Choropleth map of India by state: Women in Non-Agricultural Employment. Women in non-agricultural employment are concentrated in southern and western states." width="1200" height="900">
-  <div class="takeaway">Women in non-agricultural employment are concentrated in southern and western states.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Women in non-agricultural employment are concentrated in southern and western states.">Women in non-agricultural employment are concentrated in southern and western states.</div>
   <div class="policy"><strong>Policy implication</strong><br>Non-agricultural jobs for women signal economic transformation; states where women are stuck in agriculture are falling behind.</div>
   <div class="meta"><span class="tag">PLFS 2022-23</span><span class="tag">Economy</span><span class="tag">women employment</span><span class="tag">non-agricultural</span><span class="tag">gender</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "गैर-कृषि रोज़गार में महिलाएँ", "takeaway": "गैर-कृषि रोज़गार में महिलाएँ दक्षिणी और पश्चिमी राज्यों में केंद्रित हैं।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

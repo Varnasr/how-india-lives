@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Vegetarian Population Share</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Vegetarian Population Share">Vegetarian Population Share</h1>
   <img class="mapimg" src="/maps/food-and-culture/S01c_Vegetarian_Population_Share.png" alt="Choropleth map of India by state: Vegetarian Population Share. Rajasthan and Gujarat are 60%+ vegetarian; Bengal and Kerala are under 5% — India&#x27;s food map defies the stereotype." width="1200" height="900">
-  <div class="takeaway">Rajasthan and Gujarat are 60%+ vegetarian; Bengal and Kerala are under 5% — India&#x27;s food map defies the stereotype.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Rajasthan and Gujarat are 60%+ vegetarian; Bengal and Kerala are under 5% — India&#x27;s food map defies the stereotype.">Rajasthan and Gujarat are 60%+ vegetarian; Bengal and Kerala are under 5% — India&#x27;s food map defies the stereotype.</div>
   <div class="policy"><strong>Policy implication</strong><br>Nutrition policy built on a vegetarian default fails in states where animal protein is the primary protein source.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Food &amp; Culture</span><span class="tag">vegetarian</span><span class="tag">diet</span><span class="tag">food</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "शाकाहारी आबादी का हिस्सा", "takeaway": "राजस्थान और गुजरात 60%+ शाकाहारी हैं; बंगाल और केरल में 5% से भी कम — भारत का खान-पान का नक्शा रूढ़िवादी धारणाओं को झुठलाता है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

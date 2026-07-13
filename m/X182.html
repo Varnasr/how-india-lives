@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#gender">Gender</a></nav>
-  <h1>Acid Attack Cases per Crore Population</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Gender" href="/index.html#gender">Gender</a></nav>
+  <h1 id="pm-title" data-en="Acid Attack Cases per Crore Population">Acid Attack Cases per Crore Population</h1>
   <img class="mapimg" src="/maps/gender/X182_Acid_Attack_Cases_per_Crore_Population.png" alt="Choropleth map of India by state: Acid Attack Cases per Crore Population. Acid attack cases are concentrated in UP, West Bengal, and Delhi — but many go unreported." width="1200" height="900">
-  <div class="takeaway">Acid attack cases are concentrated in UP, West Bengal, and Delhi — but many go unreported.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Acid attack cases are concentrated in UP, West Bengal, and Delhi — but many go unreported.">Acid attack cases are concentrated in UP, West Bengal, and Delhi — but many go unreported.</div>
   <div class="policy"><strong>Policy implication</strong><br>Acid attacks have declined since the Supreme Court restricted acid sales, but enforcement varies by state.</div>
   <div class="meta"><span class="tag">NCRB 2022</span><span class="tag">Gender</span><span class="tag">acid attacks</span><span class="tag">violence</span><span class="tag">gender</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "प्रति करोड़ आबादी पर तेज़ाब हमले के मामले", "takeaway": "तेज़ाब हमले के मामले उत्तर प्रदेश, पश्चिम बंगाल और दिल्ली में केंद्रित हैं — पर कई मामले दर्ज नहीं होते।", "section": "लैंगिक"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

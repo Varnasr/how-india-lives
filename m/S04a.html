@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#gender">Gender</a></nav>
-  <h1>Girls Married Before 18</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Gender" href="/index.html#gender">Gender</a></nav>
+  <h1 id="pm-title" data-en="Girls Married Before 18">Girls Married Before 18</h1>
   <img class="mapimg" src="/maps/gender/S04a_Girls_Married_Before_18.png" alt="Choropleth map of India by state: Girls Married Before 18. 40% of women in Bihar were married before 18; in Goa and Kerala it&#x27;s under 5%." width="1200" height="900">
-  <div class="takeaway">40% of women in Bihar were married before 18; in Goa and Kerala it&#x27;s under 5%.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="40% of women in Bihar were married before 18; in Goa and Kerala it&#x27;s under 5%.">40% of women in Bihar were married before 18; in Goa and Kerala it&#x27;s under 5%.</div>
   <div class="policy"><strong>Policy implication</strong><br>Child marriage is the single strongest predictor of girls dropping out, early pregnancy, and domestic violence.</div>
   <div class="meta"><span class="tag">NFHS-5/NCRB 2019-22</span><span class="tag">Gender</span><span class="tag">child marriage</span><span class="tag">women</span><span class="tag">gender</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "18 से पहले विवाहित लड़कियाँ", "takeaway": "बिहार में 40% महिलाओं का विवाह 18 वर्ष से पहले हुआ; गोवा और केरल में यह 5% से कम है।", "section": "लैंगिक"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

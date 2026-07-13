@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#environment">Environment</a></nav>
-  <h1>Water-Intensive Crops vs Millet Area Ratio</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Environment" href="/index.html#environment">Environment</a></nav>
+  <h1 id="pm-title" data-en="Water-Intensive Crops vs Millet Area Ratio">Water-Intensive Crops vs Millet Area Ratio</h1>
   <img class="mapimg" src="/maps/environment/S08f_Water-Intensive_Crops_vs_Millet_Area_Ratio.png" alt="Choropleth map of India by state: Water-Intensive Crops vs Millet Area Ratio. Punjab and Haryana grow 10x more water-intensive crops (rice, sugarcane) per unit of millet area." width="1200" height="900">
-  <div class="takeaway">Punjab and Haryana grow 10x more water-intensive crops (rice, sugarcane) per unit of millet area.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Punjab and Haryana grow 10x more water-intensive crops (rice, sugarcane) per unit of millet area.">Punjab and Haryana grow 10x more water-intensive crops (rice, sugarcane) per unit of millet area.</div>
   <div class="policy"><strong>Policy implication</strong><br>Growing rice in Punjab depletes groundwater at unsustainable rates; millet revival is a water security strategy.</div>
   <div class="meta"><span class="tag">DoAFW 2022-23</span><span class="tag">Environment</span><span class="tag">water-intensive crops</span><span class="tag">millets</span><span class="tag">environment</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "जल-गहन फसलें बनाम बाजरा क्षेत्र अनुपात", "takeaway": "पंजाब और हरियाणा प्रति इकाई बाजरा क्षेत्र की तुलना में 10 गुना अधिक जल-गहन फसलें (चावल, गन्ना) उगाते हैं।", "section": "पर्यावरण"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

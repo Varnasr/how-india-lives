@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Income Threshold Top 10% by State</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Income Threshold Top 10% by State">Income Threshold Top 10% by State</h1>
   <img class="mapimg" src="/maps/economy/X198_Income_Threshold_Top_10pct_by_State.png" alt="Choropleth map of India by state: Income Threshold Top 10% by State. To be in the top 10% by income in Bihar, you need Rs 25,000/month; in Delhi, Rs 1.5 lakh." width="1200" height="900">
-  <div class="takeaway">To be in the top 10% by income in Bihar, you need Rs 25,000/month; in Delhi, Rs 1.5 lakh.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="To be in the top 10% by income in Bihar, you need Rs 25,000/month; in Delhi, Rs 1.5 lakh.">To be in the top 10% by income in Bihar, you need Rs 25,000/month; in Delhi, Rs 1.5 lakh.</div>
   <div class="policy"><strong>Policy implication</strong><br>What counts as &#x27;rich&#x27; varies 6x between states — national income brackets mask state-level reality.</div>
   <div class="meta"><span class="tag">PLFS/HCES 2022-23</span><span class="tag">Economy</span><span class="tag">income threshold</span><span class="tag">inequality</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "राज्यवार शीर्ष 10% आय सीमा", "takeaway": "बिहार में आय के हिसाब से शीर्ष 10% में आने के लिए आपको Rs 25,000/माह चाहिए; दिल्ली में Rs 1.5 लाख।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

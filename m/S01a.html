@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Hindi as Mother Tongue</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Hindi as Mother Tongue">Hindi as Mother Tongue</h1>
   <img class="mapimg" src="/maps/food-and-culture/S01a_Hindi_as_Mother_Tongue.png" alt="Choropleth map of India by state: Hindi as Mother Tongue. Hindi is the mother tongue for 80%+ in UP/MP but under 1% in Tamil Nadu and Kerala — India&#x27;s linguistic divide." width="1200" height="900">
-  <div class="takeaway">Hindi is the mother tongue for 80%+ in UP/MP but under 1% in Tamil Nadu and Kerala — India&#x27;s linguistic divide.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Hindi is the mother tongue for 80%+ in UP/MP but under 1% in Tamil Nadu and Kerala — India&#x27;s linguistic divide.">Hindi is the mother tongue for 80%+ in UP/MP but under 1% in Tamil Nadu and Kerala — India&#x27;s linguistic divide.</div>
   <div class="policy"><strong>Policy implication</strong><br>Imposing Hindi-medium education or governance in non-Hindi states has measurably different cognitive costs for children.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Food &amp; Culture</span><span class="tag">hindi</span><span class="tag">language</span><span class="tag">culture</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "मातृभाषा के रूप में हिंदी", "takeaway": "उत्तर प्रदेश/मध्य प्रदेश में 80%+ लोगों की मातृभाषा हिंदी है, पर तमिलनाडु और केरल में 1% से भी कम — यही भारत का भाषाई विभाजन है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

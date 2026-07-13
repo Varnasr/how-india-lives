@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#social-protection">Social Protection</a></nav>
-  <h1>Diabetes Prevalence Adults</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Social Protection" href="/index.html#social-protection">Social Protection</a></nav>
+  <h1 id="pm-title" data-en="Diabetes Prevalence Adults">Diabetes Prevalence Adults</h1>
   <img class="mapimg" src="/maps/social-protection/S11j_Diabetes_Prevalence_Adults.png" alt="Choropleth map of India by state: Diabetes Prevalence Adults. Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh." width="1200" height="900">
-  <div class="takeaway">Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh.">Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh.</div>
   <div class="policy"><strong>Policy implication</strong><br>India&#x27;s diabetes epidemic is concentrated in states undergoing nutrition transition — urban diets + sedentary lifestyles.</div>
   <div class="meta"><span class="tag">NFHS-5 2019-21</span><span class="tag">Social Protection</span><span class="tag">diabetes</span><span class="tag">NCD</span><span class="tag">health</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "वयस्कों में मधुमेह प्रसार", "takeaway": "मधुमेह का प्रसार केरल/गोवा में 15%+ से लेकर छत्तीसगढ़ में 5% से कम तक है।", "section": "सामाजिक सुरक्षा"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

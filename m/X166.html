@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
-  <h1>Hindi vs English Newspaper Readership Ratio</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Food &amp; Culture" href="/index.html#food-and-culture">Food &amp; Culture</a></nav>
+  <h1 id="pm-title" data-en="Hindi vs English Newspaper Readership Ratio">Hindi vs English Newspaper Readership Ratio</h1>
   <img class="mapimg" src="/maps/food-and-culture/X166_Hindi_vs_English_Newspaper_Readership_Ratio.png" alt="Choropleth map of India by state: Hindi vs English Newspaper Readership Ratio. Hindi newspapers outsell English ones 10:1 in UP; in Kerala, English dominates — media ecosystems are different countries." width="1200" height="900">
-  <div class="takeaway">Hindi newspapers outsell English ones 10:1 in UP; in Kerala, English dominates — media ecosystems are different countries.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Hindi newspapers outsell English ones 10:1 in UP; in Kerala, English dominates — media ecosystems are different countries.">Hindi newspapers outsell English ones 10:1 in UP; in Kerala, English dominates — media ecosystems are different countries.</div>
   <div class="policy"><strong>Policy implication</strong><br>Language-specific misinformation travels through language-specific media; fact-checking must be multilingual.</div>
   <div class="meta"><span class="tag">IRS/ABC 2023</span><span class="tag">Food &amp; Culture</span><span class="tag">Hindi</span><span class="tag">English</span><span class="tag">media</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "हिंदी बनाम अंग्रेज़ी अख़बार पाठक अनुपात", "takeaway": "उत्तर प्रदेश में हिंदी अख़बार अंग्रेज़ी अख़बारों से 10:1 के अनुपात में ज़्यादा बिकते हैं; केरल में अंग्रेज़ी का दबदबा है — मीडिया की दुनिया अलग-अलग देशों जैसी है।", "section": "भोजन और संस्कृति"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#economy">Economy</a></nav>
-  <h1>Pucca Housing Permanent Structure</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Economy" href="/index.html#economy">Economy</a></nav>
+  <h1 id="pm-title" data-en="Pucca Housing Permanent Structure">Pucca Housing Permanent Structure</h1>
   <img class="mapimg" src="/maps/economy/X171_Pucca_Housing_Permanent_Structure.png" alt="Choropleth map of India by state: Pucca Housing Permanent Structure. Over 90% of households in Kerala live in pucca structures; in Assam, under 40%." width="1200" height="900">
-  <div class="takeaway">Over 90% of households in Kerala live in pucca structures; in Assam, under 40%.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Over 90% of households in Kerala live in pucca structures; in Assam, under 40%.">Over 90% of households in Kerala live in pucca structures; in Assam, under 40%.</div>
   <div class="policy"><strong>Policy implication</strong><br>Housing quality predicts flood resilience, disease burden, and asset accumulation — it&#x27;s a development indicator, not just shelter.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Economy</span><span class="tag">pucca housing</span><span class="tag">shelter</span><span class="tag">economy</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "पक्के मकान", "takeaway": "केरल में 90% से अधिक परिवार पक्के मकानों में रहते हैं; असम में 40% से कम।", "section": "अर्थव्यवस्था"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

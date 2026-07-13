@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#health">Health</a></nav>
-  <h1>Neonatal Mortality Rate First 28 Days</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
+  <h1 id="pm-title" data-en="Neonatal Mortality Rate First 28 Days">Neonatal Mortality Rate First 28 Days</h1>
   <img class="mapimg" src="/maps/health/S03j_Neonatal_Mortality_Rate_First_28_Days.png" alt="Choropleth map of India by state: Neonatal Mortality Rate First 28 Days. Neonatal mortality (first 28 days) accounts for 60%+ of infant deaths — most in the first 48 hours." width="1200" height="900">
-  <div class="takeaway">Neonatal mortality (first 28 days) accounts for 60%+ of infant deaths — most in the first 48 hours.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Neonatal mortality (first 28 days) accounts for 60%+ of infant deaths — most in the first 48 hours.">Neonatal mortality (first 28 days) accounts for 60%+ of infant deaths — most in the first 48 hours.</div>
   <div class="policy"><strong>Policy implication</strong><br>Neonatal deaths cluster around birth; facility-based newborn care units in district hospitals save the most lives per rupee.</div>
   <div class="meta"><span class="tag">SRS/NFHS-5 2020</span><span class="tag">Health</span><span class="tag">neonatal mortality</span><span class="tag">newborn</span><span class="tag">health</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "नवजात मृत्यु दर, पहले 28 दिन", "takeaway": "नवजात मृत्यु (पहले 28 दिन) शिशु मृत्यु का 60%+ हिस्सा है — अधिकांश पहले 48 घंटों में।", "section": "स्वास्थ्य"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>

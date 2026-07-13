@@ -46,10 +46,10 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a href="/index.html#religion">Religion</a></nav>
-  <h1>Christian Population Share</h1>
+  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Religion" href="/index.html#religion">Religion</a></nav>
+  <h1 id="pm-title" data-en="Christian Population Share">Christian Population Share</h1>
   <img class="mapimg" src="/maps/religion/S06b_Christian_Population_Share.png" alt="Choropleth map of India by state: Christian Population Share. Christians form 87% of Nagaland&#x27;s population but only 2.3% nationally — extreme geographic concentration." width="1200" height="900">
-  <div class="takeaway">Christians form 87% of Nagaland&#x27;s population but only 2.3% nationally — extreme geographic concentration.</div>
+  <div class="takeaway" id="pm-takeaway" data-en="Christians form 87% of Nagaland&#x27;s population but only 2.3% nationally — extreme geographic concentration.">Christians form 87% of Nagaland&#x27;s population but only 2.3% nationally — extreme geographic concentration.</div>
   <div class="policy"><strong>Policy implication</strong><br>Christian minority institutions (schools, hospitals) are the primary service providers in NE states — not a marginal presence.</div>
   <div class="meta"><span class="tag">Census 2011 2011</span><span class="tag">Religion</span><span class="tag">Christian</span><span class="tag">NE India</span><span class="tag">religion</span></div>
   <div class="btns">
@@ -61,5 +61,6 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script>(function(){var HI={"title": "ईसाई आबादी हिस्सा", "takeaway": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।", "section": "धर्म"};function a(){var h=window.IM&&IM.lang==="hi";["title","takeaway","section"].forEach(function(k){var e=document.getElementById("pm-"+k);if(!e||!HI[k])return;e.textContent=h?HI[k]:e.getAttribute("data-en");});document.documentElement.lang=h?"hi":"en";}window.addEventListener("im:langchange",a);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();})();</script>
 </body>
 </html>
