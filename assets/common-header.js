@@ -124,7 +124,7 @@
                     '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '</li>' +
             '</ul>' +
-            '<div class="im-actions">' +
+            '<div class="im-actions" data-dyslexia-slot>' +
                 '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
                 '<button class="im-burger" id="im-burger" type="button" aria-label="Toggle menu" aria-expanded="false">' +
