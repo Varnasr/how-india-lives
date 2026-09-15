@@ -143,6 +143,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
 {swap_script}
 </body>
 </html>
@@ -203,6 +204,7 @@ li a:hover{{color:var(--acc)}}
   {blocks}
 </div>
 <script src="/assets/common-header.js" defer></script>
+<script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
 </body></html>
 """.format(base=BASE, blocks='\n'.join(blocks))
 
