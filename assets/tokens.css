@@ -41,6 +41,12 @@
 
   /* Accents. Each is used as ink AND as a fill under white text. */
   --accent-color:      #0369A1;   /* was #0EA5E9, 2.53:1 */
+  /* Ink for text painted ON the accent. The accent is dark on a light page and
+     light on a dark one, so it cannot carry one ink: white on the dark-theme
+     #38BDF8 measures 2.14:1, which is every "Open in the interactive atlas"
+     button on all 205 map pages, and the filter pills and map counts on the
+     home page. A token check reads ink-on-surface and cannot see this. */
+  --on-accent:         #FFFFFF;
   --accent-hover:      #075985;   /* was #0284C7, 3.74:1 */
   --secondary-accent:  #4F46E5;   /* was #6366F1, 4.08:1 */
 
@@ -71,6 +77,7 @@
   --tx2:  var(--text-secondary);
   --mut:  var(--text-muted);
   --acc:  var(--accent-color);
+  --on-acc: var(--on-accent);
   --bd:   var(--border-color);
 
   /* Header aliases, consumed by assets/common-header.css. */
@@ -96,6 +103,7 @@ html[data-theme="dark"] {
   --text-muted:        #A6B2C4;   /* was #64748B, 2.18:1 on the card */
 
   --accent-color:      #38BDF8;
+  --on-accent:         #0F172A;   /* 8.43:1 on the bright dark-theme accent */
   --accent-hover:      #7DD3FC;   /* was #0EA5E9, 3.74:1 */
   --secondary-accent:  #A5B4FC;   /* was #818CF8, 3.47:1 */
 

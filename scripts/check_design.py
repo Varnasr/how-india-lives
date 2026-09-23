@@ -47,9 +47,20 @@ INK = ["--text-primary", "--text-secondary", "--text-muted",
        "--success-color", "--warning-color", "--danger-color"]
 SURFACE = ["--primary-bg", "--secondary-bg", "--card-bg", "--hover-bg"]
 
+# The other direction. An accent is ink on a light page AND a fill under a
+# light ink on a dark one, and those pull opposite ways: a check that only
+# walks ink-on-surface approves an accent that is unreadable as a button.
+# Measured on 2026-09-23, white on the dark-theme --accent-color #38BDF8 came
+# to 2.14:1 — every "Open in the interactive atlas" button on all 205 map
+# pages, every filter pill and every map count on the home page, and this
+# check said OK throughout. --on-accent is the ink that flips with it.
+FILLS = [("--on-accent", "--accent-color"),
+         ("--on-accent", "--accent-hover"),
+         ("--on-accent", "--secondary-accent")]
+
 # Tokens assets/tokens.css owns. A page redeclaring one of these is the drift
 # this check exists to stop.
-OWNED = set(INK + SURFACE + ["--border-color", "--gradient-primary",
+OWNED = set(INK + SURFACE + ["--on-accent", "--border-color", "--gradient-primary",
                              "--bg", "--sec", "--card", "--tx", "--tx2",
                              "--mut", "--acc", "--bd"])
 
@@ -153,6 +164,20 @@ def main():
                 r = ratio(fg, bg)
                 row = f"{theme_name:5s} {ink} ({fg}) on {surface} ({bg})  {r:.2f}:1"
                 (failures if r < AA else passes).append(row)
+
+        for ink, fill in FILLS:
+            fg = resolve(merged, merged.get(ink, ""))
+            bg = resolve(merged, merged.get(fill, ""))
+            if not fg or not fg.startswith("#"):
+                failures.append(f"{theme_name}: {ink} is missing or unresolvable")
+                continue
+            if not bg or not bg.startswith("#"):
+                failures.append(f"{theme_name}: {fill} is missing or unresolvable")
+                continue
+            checks += 1
+            r = ratio(fg, bg)
+            row = f"{theme_name:5s} {ink} ({fg}) ON FILL {fill} ({bg})  {r:.2f}:1"
+            (failures if r < AA else passes).append(row)
 
     # Every page links the palette, and no page redeclares it.
     owned_re = re.compile(r"(" + "|".join(re.escape(t) for t in sorted(OWNED)) + r")\s*:")

@@ -83,6 +83,30 @@ fixed a page.
 2.77:1 measurement, so darkening the token to clear AA fixed the label and the
 chip in one move.
 
+### The accent is a fill too, and that direction was never measured
+
+`--accent-color` is ink on a light page and a **fill** under a light ink on a
+dark one, and those pull opposite ways. The check walked ink-on-surface only,
+so it reported OK while **white on the dark-theme `#38BDF8` measured 2.14:1** —
+every "Open in the interactive atlas" button on all 205 map pages, every filter
+pill and every map count on the home page, the cite and share buttons in the
+detail panel, and the subscribe button. Ten rules and two inline styles wrote
+`color: white` against `var(--accent-color)`.
+
+`--on-accent` is the ink that flips with it: white in the light theme,
+`#0F172A` in the dark one, 8.43:1 on the bright accent. `FILLS` in
+`scripts/check_design.py` measures that direction now, for all three accents,
+and was fault-injected against the real failure.
+
+The generated map pages are the reason this mattered 205 times over: the
+template in `scripts/build_map_pages.py` carried `background:var(--acc);
+color:#fff`, so one string produced the defect on every page. Changing the
+generator and re-running it is the whole fix; the regeneration gate in CI then
+holds it.
+
+`docs/index.html` is docsify's own theme and outside the palette entirely. Its
+`#d97706` measured 2.97:1 as the site name and 3.18:1 as the link.
+
 ### What the token check cannot see
 
 A colour written as a literal in a rule, and a colour composited with opacity,

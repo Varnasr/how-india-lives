@@ -194,7 +194,7 @@ html[data-theme="dark"] {
     width: 30px; height: 30px;
 }
 .im-theme-btn:hover { color: var(--im-accent); background: var(--im-header-menu-bg); }
-.im-theme-btn.im-active { background: var(--im-accent); color: #fff; }
+.im-theme-btn.im-active { background: var(--im-accent); color: var(--on-accent); }
 .im-theme-btn svg { width: 16px; height: 16px; }
 
 /* ── Language toggle ── */

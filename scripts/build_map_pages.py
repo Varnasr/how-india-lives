@@ -117,7 +117,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 .meta{{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}}
 .tag{{font-size:.74rem;font-weight:600;color:var(--tx2);background:var(--sec);border:1px solid var(--bd);border-radius:999px;padding:3px 11px}}
 .btns{{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 10px}}
-.btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:#fff}}
+.btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:var(--on-acc)}}
 .btn.ghost{{background:var(--card);color:var(--tx2);border:1px solid var(--bd)}}
 .src{{font-size:.82rem;color:var(--mut);margin-top:10px}}
 .credit{{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}}
