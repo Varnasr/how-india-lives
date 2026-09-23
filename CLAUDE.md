@@ -163,6 +163,6 @@ the silent failure above, so map the names and let the check confirm it.
 
 ## Testing
 
-`.github/workflows/validate.yml` runs `check_data.py` and the regeneration gate
-on every push and pull request, with no `paths:` filter. `pages.yml` deploys and
-validates nothing.
+`.github/workflows/validate.yml` runs `check_data.py`, `check_design.py` and
+the regeneration gate on every push and pull request, with no `paths:` filter.
+`pages.yml` deploys and validates nothing.
