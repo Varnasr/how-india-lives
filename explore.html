@@ -64,6 +64,43 @@ body {
 .wrap { max-width: 1100px; margin: 0 auto; padding: 84px 20px 60px; }
 .visually-hidden { position: absolute; left: -9999px; }
 
+/* The head used to be a single stack: eyebrow, headline, lead, tabs, controls,
+   indicator meta, description, then the map. On a 1280x900 laptop that put the
+   choropleth — the thing the page is for — 490px down, below the fold, with the
+   right half of the viewport empty beside the headline.
+
+   Same elements in the same source order, placed into two columns from 960px
+   up. Source order is untouched on purpose: a phone gets the original stack,
+   and a screen reader gets the headline, the lead, the tabs and the controls in
+   the order they were written.
+
+   Not wrapper divs, which was tried and is worse in two measurable ways. The
+   description in a 330px column moved the map by up to 75px every time you
+   changed indicator, because the description's length set the column's height;
+   and the mobile stack became headline, tabs, controls, lead, which reads
+   backwards and cost another 72px. */
+.head { display: grid; gap: 0 32px; }
+@media (min-width: 960px) {
+    .head {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 340px);
+        grid-template-areas:
+            "title lead"
+            "tabs  meta"
+            "ctrl  desc"
+            "ctrl  link";
+        align-items: start;
+    }
+    .head > .page-head { grid-area: title; }
+    .head > .lead      { grid-area: lead; margin-top: 8px; }
+    .head > .view-tabs { grid-area: tabs; justify-self: start; }
+    /* Three control blocks share one cell. Two always carry .hidden, which is
+       display:none, and a hidden grid item is out of the layout entirely, so
+       they cannot collide. */
+    .head > .controls  { grid-area: ctrl; align-self: start; }
+    .head > .meta-row  { grid-area: meta; }
+    .head > .ind-desc  { grid-area: desc; }
+    .head > .map-link  { grid-area: link; }
+}
 .page-head { margin-bottom: 4px; }
 .eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-color); }
 h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); font-weight: 700; margin: 8px 0 6px; }
@@ -84,7 +121,7 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
 
 /* ── Controls ── */
 .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0 0; }
-.select-wrap { position: relative; flex: 0 1 300px; min-width: 0; }
+.select-wrap { position: relative; flex: 0 1 340px; min-width: 0; }
 .select-wrap::after {
     content: ""; position: absolute; right: 14px; top: 50%; width: 9px; height: 9px;
     border-right: 2px solid var(--text-muted); border-bottom: 2px solid var(--text-muted);
@@ -232,12 +269,13 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 <div id="im-common-header"></div>
 
 <div class="wrap">
+    <div class="head">
     <div class="page-head">
         <span class="eyebrow">Interactive Atlas</span>
         <h1 data-i18n="ex.title">Map, rank and correlate India's states</h1>
-        <p class="lead" data-i18n="ex.lead">A growing set of indicators across health, education, gender and the economy — for every state and
-            union territory. Map one, rank them all, or compare two to see how they move together.</p>
     </div>
+    <p class="lead" data-i18n="ex.lead">A growing set of indicators across health, education, gender and the economy — for every state and
+        union territory. Map one, rank them all, or compare two to see how they move together.</p>
 
     <div class="view-tabs" role="tablist" aria-label="View">
         <button class="view-tab active" data-view="map" role="tab" data-i18n="ex.tab.map">Map</button>
@@ -281,6 +319,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     <div class="meta-row" id="meta-row"></div>
     <p class="ind-desc" id="ind-desc"></p>
     <a class="map-link" id="map-link">View the detailed map <span aria-hidden="true">→</span></a>
+    </div><!-- /.head -->
 
     <p class="visually-hidden" id="map-status" role="status" aria-live="polite"></p>
 

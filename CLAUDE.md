@@ -1,7 +1,7 @@
 # how-india-lives
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 16 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 20 indicators. Static HTML, no
 build step for the part that runs, deployed to GitHub Pages at
 howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,7 +22,7 @@ produces no diff, which is what lets CI use it as a staleness gate.
   per-state numbers at all, only metadata and prose. The PNGs were produced
   outside this repository and **there is no renderer here**, so a new static map
   cannot be generated from the repository as it stands.
-- **`data/interactive-data.json`** is the numeric layer, 16 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 20 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -74,12 +74,31 @@ Four of these were fault-injected against real failures to confirm they bite.
   published anyway. That is a live decision, not a bug, but check the flag before
   quoting a figure from one.
 - **The static maps run on old vintages**: 37 on NFHS-5 (2019-21) and 37 on
-  Census 2011. The interactive layer is where the recent data is.
+  Census 2011. The interactive layer is where the recent data is, and it was
+  only half true: eleven of the first sixteen indicators were Census 2011 too.
+  The four HCES 2023-24 series added on 2026-09-23 are the most recent figures
+  in the repository.
+- **The head of `explore.html` is a two-column grid above 960px** and a plain
+  stack below it, with the source order untouched. Wrapping the two columns in
+  divs was tried and is worse: the indicator description in a 340px column moves
+  the map by up to 75px every time you change indicator, and the mobile stack
+  becomes headline, tabs, controls, lead, which reads backwards.
 
 ## The MoSPI API, if you refresh the figures
 
 `flfpr` (PLFS 2025) and `litgap` (NSS 75th round, 2017-18) came from
-`api.mospi.gov.in`, `GENDER` dataset, on 2026-09-22.
+`api.mospi.gov.in`, `GENDER` dataset, on 2026-09-22. `mpce_r`, `mpce_u`,
+`gini_r` and `gini_u` came from the `HCES` dataset, indicators 1 and 9, year
+2023-24, `imputation_type_code=1`, on 2026-09-23.
+
+Three things about HCES that are easy to get wrong. **There is no combined
+rural-and-urban series**: `sector_code=3` returns nothing, which is why these
+are four indicators and not two, and why no combined figure is quoted anywhere.
+**The "All India" row is a row like any other** and has to be pulled out rather
+than mapped onto a state. And the survey publishes **with and without
+imputation** of the value of items received free through welfare programmes;
+these use *without*, which is the series MoSPI leads with, and the national
+figures agree with the published factsheet (rural 4,122, urban 6,996).
 
 The host negotiates TLS in a way OpenSSL 3 rejects by default. A plain `curl`
 dies with *unsafe legacy renegotiation disabled*; a Python client needs
