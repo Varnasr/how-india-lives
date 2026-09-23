@@ -5,7 +5,7 @@ Run from the repository root:
 
     python3 scripts/check_data.py
 
-Covers both data files. `maps.json` drives the static gallery and the 205 map
+Covers both data files. `maps.json` drives the static gallery and the 211 map
 pages; `interactive-data.json` drives the choropleth on `explore.html`. Until
 2026-09-22 the second one was checked by nothing at all, and the workflow that
 checked the first only ran when `data/maps.json` or `maps/**` changed, so an
@@ -196,6 +196,33 @@ def main():
                     if int(n) != n_ind})
     check('data/README.md states the indicator count as %d' % n_ind, not stale,
           'says %s' % stale)
+
+    # ------------------------------------------------- the generated sheets
+    #
+    # Six of the sheets in maps/ are rendered by scripts/render/ from the
+    # numbers in interactive-data.json rather than committed from elsewhere.
+    # That is what makes them checkable at all: a generated sheet whose
+    # indicator has been renamed, or whose catalogue entry has been removed,
+    # is a PNG nobody can reproduce and nobody can find.
+    sheets = load('scripts/render/sheets.json')
+    map_by_id = {m['id']: m for m in maps}
+    for sh in sheets:
+        check('sheet %s names a live indicator' % sh['id'],
+              sh['indicator'] in {i['id'] for i in inds},
+              'no indicator %r' % sh['indicator'])
+        check('sheet %s is in the catalogue' % sh['id'], sh['id'] in map_by_id,
+              'missing from maps.json')
+        entry = map_by_id.get(sh['id'], {})
+        check('sheet %s and its catalogue entry name the same file' % sh['id'],
+              entry.get('file') == sh['file'],
+              'catalogue says %r, sheet says %r' % (entry.get('file'), sh['file']))
+        check('sheet %s has been rendered' % sh['id'],
+              os.path.exists(os.path.join(ROOT, 'maps', sh['section'], sh['file'])),
+              'run scripts/render/render.py')
+        ind = next((i for i in inds if i['id'] == sh['indicator']), {})
+        check('indicator %s links back to sheet %s' % (sh['indicator'], sh['id']),
+              ind.get('mapId') == sh['id'],
+              'mapId is %r' % ind.get('mapId'))
 
     # ---------------------------------------------------------------- report
     if errors:

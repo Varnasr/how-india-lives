@@ -1,6 +1,6 @@
 # How India Lives
 
-**205 state-level choropleth maps and 10 visual stories showcasing India's diversity across demography, health, gender, economy, education, environment, and more.**
+**211 state-level choropleth maps and 10 visual stories showcasing India's diversity across demography, health, gender, economy, education, environment, and more.**
 
 A storytelling-first visual atlas for understanding why India's states are different — and why it matters for policy. Part of [ImpactMojo](https://impactmojo.in).
 
@@ -12,7 +12,7 @@ A storytelling-first visual atlas for understanding why India's states are diffe
 
 ## What This Is
 
-These 205 maps make India's development diversity visible — one indicator at a time, across all 28 states and 8 union territories. Policy debates in India often assume national averages. But an average of Kerala and Bihar is a fiction that helps no one.
+These 211 maps make India's development diversity visible — one indicator at a time, across all 28 states and 8 union territories. Policy debates in India often assume national averages. But an average of Kerala and Bihar is a fiction that helps no one.
 
 This project arms educators, journalists, students, and policymakers with the visual proof that context-specific policy design is not a luxury — it's a necessity.
 
@@ -111,7 +111,7 @@ how-india-lives/
 │   ├── common-header.css # Shared ImpactMojo header styles
 │   └── common-header.js  # Shared header markup + theme toggle (single source)
 ├── data/
-│   └── maps.json         # Catalog of all 205 maps with metadata
+│   └── maps.json         # Catalog of all 211 maps with metadata
 ├── maps/
 │   ├── demography/       # 13 maps
 │   ├── food-and-culture/ # 15 maps

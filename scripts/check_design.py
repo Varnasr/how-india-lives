@@ -121,7 +121,7 @@ def resolve(tokens, value, seen=None):
 
 def pages():
     found = [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, "*.html"))]
-    # One generated map page is enough to prove the template; all 205 come from
+    # One generated map page is enough to prove the template; all 211 come from
     # the same two strings in build_map_pages.py.
     for p in ("m/index.html", "m/S00a.html"):
         if os.path.exists(os.path.join(ROOT, p)):
