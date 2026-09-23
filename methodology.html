@@ -29,10 +29,11 @@
     if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))
       document.documentElement.setAttribute('data-theme','dark');})();
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-:root{--primary-bg:#FFFFFF;--secondary-bg:#F8FAFC;--accent-color:#0EA5E9;--accent-hover:#0284C7;--text-primary:#0F172A;--text-secondary:#475569;--text-muted:#94A3B8;--card-bg:#FFFFFF;--border-color:#E2E8F0;--gradient-primary:linear-gradient(135deg,#0EA5E9 0%,#6366F1 100%);}
-html[data-theme="dark"]{--primary-bg:#0F172A;--secondary-bg:#1E293B;--text-primary:#F1F5F9;--text-secondary:#CBD5E1;--text-muted:#64748B;--card-bg:#1E293B;--border-color:#334155;}
+:root{}
+html[data-theme="dark"]{}
 body{font-family:'Amaranth',Arial,sans-serif;background:var(--primary-bg);color:var(--text-primary);line-height:1.7;}
 
 /* Header */
@@ -56,7 +57,7 @@ html[data-theme="dark"] .theme-selector{background:rgba(0,0,0,0.1);border-color:
 html[data-theme="dark"] .theme-btn{color:rgba(0,0,0,0.4);}
 .theme-btn:hover{background:rgba(255,255,255,0.1);color:white;}
 html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172A;}
-.theme-btn.active{background:var(--accent-color);color:white;}
+.theme-btn.active{background:var(--accent-color);color: var(--on-accent);}
 .theme-btn svg{width:16px;height:16px;}
 
 /* Content */
@@ -80,9 +81,9 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 
 /* Quality badges */
 .badge{display:inline-block;font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:600;padding:3px 10px;border-radius:6px;margin-right:4px;}
-.badge-built{background:rgba(14,165,233,0.1);color:#0284C7;}
-.badge-new{background:rgba(245,158,11,0.1);color:#D97706;}
-.badge-uncertain{background:rgba(239,68,68,0.1);color:#DC2626;}
+.badge-built{background:color-mix(in srgb, var(--accent-color) 12%, transparent);color:var(--accent-hover);}
+.badge-new{background:color-mix(in srgb, var(--warning-color) 12%, transparent);color:var(--warning-color);}
+.badge-uncertain{background:color-mix(in srgb, var(--danger-color) 12%, transparent);color:var(--danger-color);}
 
 /* Limitation cards */
 .limitation{background:var(--secondary-bg);border:1px solid var(--border-color);border-radius:12px;padding:16px 20px;margin-bottom:12px;}

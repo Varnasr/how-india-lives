@@ -97,16 +97,15 @@ def page(m, interactive_id):
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{og_img}">
-<meta name="theme-color" content="#0EA5E9">
+<meta name="theme-color" content="#0369A1">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
 <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="/assets/tokens.css" rel="stylesheet">
 <link href="/assets/common-header.css" rel="stylesheet">
 <script>(function(){{var s=localStorage.getItem('im-theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <script type="application/ld+json">{schema}</script>
 <style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-:root{{--bg:#fff;--sec:#F8FAFC;--tx:#0F172A;--tx2:#475569;--mut:#94A3B8;--acc:#0EA5E9;--bd:#E2E8F0;--card:#fff}}
-html[data-theme="dark"]{{--bg:#0F172A;--sec:#1E293B;--tx:#F1F5F9;--tx2:#CBD5E1;--mut:#64748B;--acc:#38BDF8;--bd:#334155;--card:#1E293B}}
 body{{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}}
 .wrap{{max-width:820px;margin:0 auto;padding:84px 20px 60px}}
 .crumb{{font-size:.78rem;color:var(--mut);margin-bottom:6px}}
@@ -118,7 +117,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 .meta{{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}}
 .tag{{font-size:.74rem;font-weight:600;color:var(--tx2);background:var(--sec);border:1px solid var(--bd);border-radius:999px;padding:3px 11px}}
 .btns{{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 10px}}
-.btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:#fff}}
+.btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:var(--on-acc)}}
 .btn.ghost{{background:var(--card);color:var(--tx2);border:1px solid var(--bd)}}
 .src{{font-size:.82rem;color:var(--mut);margin-top:10px}}
 .credit{{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}}
@@ -174,15 +173,14 @@ def index_page(maps):
 <title>All 205 maps &mdash; How India Lives | ImpactMojo</title>
 <meta name="description" content="A complete, browsable index of all 205 state-level maps of India across demography, health, gender, economy, education, environment and more.">
 <link rel="canonical" href="{base}/m/index.html">
-<meta name="theme-color" content="#0EA5E9">
+<meta name="theme-color" content="#0369A1">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
 <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="/assets/tokens.css" rel="stylesheet">
 <link href="/assets/common-header.css" rel="stylesheet">
 <script>(function(){{var s=localStorage.getItem('im-theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-:root{{--bg:#fff;--tx:#0F172A;--tx2:#475569;--mut:#94A3B8;--acc:#0EA5E9;--bd:#E2E8F0}}
-html[data-theme="dark"]{{--bg:#0F172A;--tx:#F1F5F9;--tx2:#CBD5E1;--mut:#64748B;--acc:#38BDF8;--bd:#334155}}
 body{{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}}
 .wrap{{max-width:900px;margin:0 auto;padding:84px 20px 60px}}
 h1{{font-family:'Amaranth',sans-serif;font-size:2rem;margin-bottom:6px}}

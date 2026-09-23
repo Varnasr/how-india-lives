@@ -1,0 +1,136 @@
+/* ==========================================================================
+   tokens.css - the one palette.
+
+   Before 2026-09-23 this palette was written out eight times: inline in
+   index.html, explore.html, methodology.html and stories.html, twice inside
+   scripts/build_map_pages.py (the map template and the index template), and
+   again in assets/common-header.css. Four different naming schemes across
+   them (--accent-color, --acc, --im-accent), and they had drifted: only
+   index.html defined the status colours, only index and explore defined a
+   second accent, and the two generated templates had no dark theme at all.
+
+   The values were also failing. Measured against the surfaces they are
+   actually painted on, in the light theme: --accent-color #0EA5E9 at 2.53:1,
+   --text-muted #94A3B8 at 2.34:1, --success #10B981 at 2.32:1, --warning
+   #F59E0B at 1.96:1, --danger #EF4444 at 3.44:1, --secondary-accent #6366F1
+   at 4.08:1. That was 106 failing nodes on the home page alone and more on
+   every other page, because the same numbers were copied into each one.
+
+   Contrast ratio is symmetric, which is what makes the accent fixable at all:
+   #0EA5E9 as ink on white and white as ink on a #0EA5E9 chip are the same
+   2.77:1 measurement, so darkening the token to clear AA fixes the label and
+   the chip in one move.
+
+   WCAG 2.1 AA for body text is 4.5:1. Every value below clears it against
+   every surface in its own theme. If you change one, measure it against
+   --primary-bg, --secondary-bg, --card-bg and --hover-bg, not just white.
+   ========================================================================== */
+
+:root {
+  /* Surfaces */
+  --primary-bg:        #FFFFFF;
+  --secondary-bg:      #F8FAFC;
+  --card-bg:           #FFFFFF;
+  --hover-bg:          #F1F5F9;
+  --border-color:      #E2E8F0;
+
+  /* Ink */
+  --text-primary:      #0F172A;
+  --text-secondary:    #475569;
+  --text-muted:        #5F6B7C;   /* was #94A3B8, 2.34:1 */
+
+  /* Accents. Each is used as ink AND as a fill under white text. */
+  --accent-color:      #0369A1;   /* was #0EA5E9, 2.53:1 */
+  /* Ink for text painted ON the accent. The accent is dark on a light page and
+     light on a dark one, so it cannot carry one ink: white on the dark-theme
+     #38BDF8 measures 2.14:1, which is every "Open in the interactive atlas"
+     button on all 205 map pages, and the filter pills and map counts on the
+     home page. A token check reads ink-on-surface and cannot see this. */
+  --on-accent:         #FFFFFF;
+  --accent-hover:      #075985;   /* was #0284C7, 3.74:1 */
+  --secondary-accent:  #4F46E5;   /* was #6366F1, 4.08:1 */
+
+  /* Status */
+  --success-color:     #047857;   /* was #10B981, 2.32:1 */
+  --warning-color:     #8F4A06;   /* was #F59E0B, 1.96:1. Dark enough to clear
+                                     AA on its own 12% tint, which #A85607
+                                     missed at 4.46:1. */
+  --danger-color:      #C22525;   /* was #EF4444, 3.44:1 */
+
+  /* Not decoration: .hero-text h1 span paints this into text with
+     background-clip, so the stops are ink. The old #0EA5E9 stop measured
+     2.77:1, under even the 3:1 large-text threshold, and no automated check
+     can see a gradient used as a text colour. */
+  --gradient-primary:  linear-gradient(135deg, #0369A1 0%, #4F46E5 100%);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+
+  /* Short aliases. The generated map pages under m/ use these names; they are
+     aliases rather than a second palette so the two cannot drift. */
+  --bg:   var(--primary-bg);
+  --sec:  var(--secondary-bg);
+  --card: var(--card-bg);
+  --tx:   var(--text-primary);
+  --tx2:  var(--text-secondary);
+  --mut:  var(--text-muted);
+  --acc:  var(--accent-color);
+  --on-acc: var(--on-accent);
+  --bd:   var(--border-color);
+
+  /* Header aliases, consumed by assets/common-header.css. */
+  --im-accent:          var(--accent-color);
+  --im-accent-hover:    var(--accent-hover);
+  --im-header-bg:       rgba(255, 255, 255, 0.9);
+  --im-header-border:   var(--border-color);
+  --im-header-text:     var(--text-primary);
+  --im-header-muted:    var(--text-secondary);
+  --im-header-menu-bg:  var(--card-bg);
+  --im-header-hover-bg: var(--hover-bg);
+}
+
+html[data-theme="dark"] {
+  --primary-bg:        #0F172A;
+  --secondary-bg:      #1E293B;
+  --card-bg:           #1E293B;
+  --hover-bg:          #334155;
+  --border-color:      #334155;
+
+  --text-primary:      #F1F5F9;
+  --text-secondary:    #CBD5E1;
+  --text-muted:        #A6B2C4;   /* was #64748B, 2.18:1 on the card */
+
+  --accent-color:      #38BDF8;
+  --on-accent:         #0F172A;   /* 8.43:1 on the bright dark-theme accent */
+  --accent-hover:      #7DD3FC;   /* was #0EA5E9, 3.74:1 */
+  --secondary-accent:  #A5B4FC;   /* was #818CF8, 3.47:1 */
+
+  /* The dark block never redefined these, so it inherited the light values and
+     painted them on a near-black card at 1.89, 1.97 and 1.77 to one. */
+  --success-color:     #34D399;
+  --warning-color:     #FBBF24;
+  --danger-color:      #FCA5A5;
+
+  --gradient-primary:  linear-gradient(135deg, #38BDF8 0%, #A5B4FC 100%);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.3);
+  --shadow-xl: 0 20px 25px rgba(0,0,0,0.35);
+
+  --im-header-bg: rgba(15, 23, 42, 0.9);
+}
+
+/* A link sitting inside running text and distinguished from it by colour
+   alone fails WCAG 1.4.1. Measured here at 1.09:1 against the surrounding
+   text, which is to say not distinguished at all without colour. */
+footer p a,
+.site-footer p a,
+.hero-text p a,
+.lead a,
+.src a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}

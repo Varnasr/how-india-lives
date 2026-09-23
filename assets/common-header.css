@@ -1,3 +1,6 @@
+/* Palette lives in assets/tokens.css, which every page links before this
+   file. It used to be redeclared here under --im-* names, an eighth copy
+   of the same numbers. */
 /* ==========================================================================
    ImpactMojo — Common Header
    Shared, single-source navigation used across every How India Lives page.
@@ -7,22 +10,8 @@
    ========================================================================== */
 
 :root {
-    --im-accent: #0EA5E9;
-    --im-accent-hover: #0284C7;
-    --im-header-bg: rgba(255, 255, 255, 0.9);
-    --im-header-border: #E2E8F0;
-    --im-header-text: #0F172A;
-    --im-header-muted: #475569;
-    --im-header-menu-bg: #FFFFFF;
-    --im-header-hover-bg: #F1F5F9;
 }
 html[data-theme="dark"] {
-    --im-header-bg: rgba(15, 23, 42, 0.9);
-    --im-header-border: #334155;
-    --im-header-text: #F1F5F9;
-    --im-header-muted: #94A3B8;
-    --im-header-menu-bg: #1E293B;
-    --im-header-hover-bg: #334155;
 }
 
 .im-header {
@@ -39,7 +28,7 @@ html[data-theme="dark"] {
 .im-header::before {
     content: "";
     position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, #0EA5E9, #6366F1, #0EA5E9);
+    background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent), var(--accent-color));
 }
 .im-nav {
     max-width: 1280px;
@@ -205,7 +194,7 @@ html[data-theme="dark"] {
     width: 30px; height: 30px;
 }
 .im-theme-btn:hover { color: var(--im-accent); background: var(--im-header-menu-bg); }
-.im-theme-btn.im-active { background: var(--im-accent); color: #fff; }
+.im-theme-btn.im-active { background: var(--im-accent); color: var(--on-accent); }
 .im-theme-btn svg { width: 16px; height: 16px; }
 
 /* ── Language toggle ── */

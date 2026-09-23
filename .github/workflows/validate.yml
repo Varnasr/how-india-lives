@@ -17,6 +17,13 @@ jobs:
       - name: Data integrity
         run: python3 scripts/check_data.py
 
+      # One palette, in assets/tokens.css, and every ink in it readable on the
+      # surfaces it is painted on. It used to be written out eight times under
+      # four naming schemes, so fixing a page fixed a page. No browser and no
+      # network, so it belongs in front of a pull request.
+      - name: Design tokens
+        run: python3 scripts/check_design.py
+
       - name: Generated map pages are current
         run: |
           python3 scripts/build_map_pages.py

@@ -9,6 +9,7 @@ howindialives.impactmojo.in. English and Hindi throughout.
 
 ```bash
 python3 scripts/check_data.py       # both data files, run by CI
+python3 scripts/check_design.py     # one palette, both themes, run by CI
 python3 scripts/build_map_pages.py  # regenerates m/*.html, m/index.html, sitemap.xml, robots.txt
 python3 -m http.server 8000         # then open http://localhost:8000
 ```
@@ -56,6 +57,77 @@ repository throws:
   worker install outright and leaves the site with no offline layer, silently.
 
 Four of these were fault-injected against real failures to confirm they bite.
+
+## The palette was written eight times and every copy was failing
+
+`assets/tokens.css` owns it now, and `scripts/check_design.py` holds it there.
+
+It used to live inline in `index.html`, `explore.html`, `methodology.html` and
+`stories.html`, twice inside `scripts/build_map_pages.py`, and again in
+`assets/common-header.css`, under four naming schemes: `--accent-color`,
+`--acc`, `--im-accent`. They had drifted. Only `index.html` defined the status
+colours. Only index and explore defined a second accent. The generated
+templates carried a shorter dark block holding the failing values, so all 205
+map pages shipped `--mut: #64748B` at 2.18:1 on the card it sits on.
+
+The numbers were failing in the light theme too, measured against the surfaces
+they are painted on: `--accent-color` #0EA5E9 at **2.53:1**, `--text-muted`
+#94A3B8 at 2.34:1, `--success` #10B981 at 2.32:1, `--warning` #F59E0B at
+**1.96:1**, `--danger` #EF4444 at 3.44:1, `--secondary-accent` #6366F1 at
+4.08:1. That was 106 failing nodes on the home page and more on every other
+page, because the same numbers had been copied into each one. Fixing a page
+fixed a page.
+
+**Contrast ratio is symmetric**, which is what made the accent fixable at all.
+`#0EA5E9` as ink on white and white as ink on a `#0EA5E9` chip are the same
+2.77:1 measurement, so darkening the token to clear AA fixed the label and the
+chip in one move.
+
+### The accent is a fill too, and that direction was never measured
+
+`--accent-color` is ink on a light page and a **fill** under a light ink on a
+dark one, and those pull opposite ways. The check walked ink-on-surface only,
+so it reported OK while **white on the dark-theme `#38BDF8` measured 2.14:1** —
+every "Open in the interactive atlas" button on all 205 map pages, every filter
+pill and every map count on the home page, the cite and share buttons in the
+detail panel, and the subscribe button. Ten rules and two inline styles wrote
+`color: white` against `var(--accent-color)`.
+
+`--on-accent` is the ink that flips with it: white in the light theme,
+`#0F172A` in the dark one, 8.43:1 on the bright accent. `FILLS` in
+`scripts/check_design.py` measures that direction now, for all three accents,
+and was fault-injected against the real failure.
+
+The generated map pages are the reason this mattered 205 times over: the
+template in `scripts/build_map_pages.py` carried `background:var(--acc);
+color:#fff`, so one string produced the defect on every page. Changing the
+generator and re-running it is the whole fix; the regeneration gate in CI then
+holds it.
+
+`docs/index.html` is docsify's own theme and outside the palette entirely. Its
+`#d97706` measured 2.97:1 as the site name and 3.18:1 as the link.
+
+### What the token check cannot see
+
+A colour written as a literal in a rule, and a colour composited with opacity,
+are invisible to it. Consolidating the tokens left five such cases behind, and
+axe over the pages is what found them:
+
+- **The headline gradient is ink, not decoration.** `.hero-text h1 span` paints
+  `--gradient-primary` into text with `background-clip: text`. Its sky stop was
+  2.77:1, under even the 3:1 large-text threshold, and no automated check reads
+  a gradient used as a text colour.
+- `explore.html` wrote `#EF4444` and `#10B981` as literals in three rules, and
+  those are the ink of the ranking figures a reader came for.
+- `methodology.html`'s three data-quality badges were literal ink on literal
+  tints. BUILT / NEW / UNCERTAIN is the flag telling a reader whether to trust
+  a map.
+- `stories.html` put white on WhatsApp's `#25D366` at **1.98:1**. The brand's
+  own dark teal `#075E54` is 7.67:1 and still reads as WhatsApp.
+- `#collections-scroll` scrolled horizontally and no keyboard could reach it.
+
+Run both when you touch colour. A token check and a browser audit are not
+substitutes for each other, and this repository is the argument for that.
 
 ## Watch out for
 
@@ -115,6 +187,6 @@ the silent failure above, so map the names and let the check confirm it.
 
 ## Testing
 
-`.github/workflows/validate.yml` runs `check_data.py` and the regeneration gate
-on every push and pull request, with no `paths:` filter. `pages.yml` deploys and
-validates nothing.
+`.github/workflows/validate.yml` runs `check_data.py`, `check_design.py` and
+the regeneration gate on every push and pull request, with no `paths:` filter.
+`pages.yml` deploys and validates nothing.
