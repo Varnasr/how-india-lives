@@ -3689,5 +3689,113 @@
     ],
     "title_hi": "वयस्कों 15-49 में एचआईवी प्रसार",
     "takeaway_hi": "वयस्कों में एचआईवी प्रसार पूर्वोत्तर राज्यों (इंजेक्शन-जनित) और दक्षिणी राज्यों (यौन-संचारित) में केंद्रित है।"
+  },
+  {
+    "id": "X206",
+    "title": "Rural consumption per person",
+    "file": "X206_Rural_Consumption_per_Person.png",
+    "section": "economy",
+    "source": "HCES 2023-24 (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Rural spending per person runs from ₹2,739 in Chhattisgarh to ₹9,377 in Sikkim, a gap of 3.4 times inside one country.",
+    "policy": "A single national poverty line converted at one price level treats these as the same economy. State-specific price deflators are not a refinement here, they are the difference between a real estimate and an arithmetic one.",
+    "tags": [
+      "HCES",
+      "consumption",
+      "rural"
+    ],
+    "title_hi": "ग्रामीण प्रति व्यक्ति उपभोग व्यय",
+    "takeaway_hi": "ग्रामीण भारत में प्रति व्यक्ति मासिक खर्च छत्तीसगढ़ में ₹2,739 से लेकर सिक्किम में ₹9,377 तक है — एक ही देश के भीतर साढ़े तीन गुना का अंतर।"
+  },
+  {
+    "id": "X207",
+    "title": "Urban consumption per person",
+    "file": "X207_Urban_Consumption_per_Person.png",
+    "section": "economy",
+    "source": "HCES 2023-24 (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Urban spending per person is higher than rural spending in all 36 states and territories. The national gap is ₹6,996 against ₹4,122, about 70 per cent.",
+    "policy": "Urban-rural is the axis most Indian transfer programmes are least able to see: entitlements are settled at the village or ward, while the gap that drives migration sits between them.",
+    "tags": [
+      "HCES",
+      "consumption",
+      "urban"
+    ],
+    "title_hi": "शहरी प्रति व्यक्ति उपभोग व्यय",
+    "takeaway_hi": "सभी 36 राज्यों और केंद्रशासित प्रदेशों में शहरी प्रति व्यक्ति खर्च ग्रामीण खर्च से अधिक है। राष्ट्रीय अंतर लगभग 70 प्रतिशत है।"
+  },
+  {
+    "id": "X208",
+    "title": "Rural consumption inequality",
+    "file": "X208_Rural_Consumption_Inequality.png",
+    "section": "economy",
+    "source": "HCES 2023-24 (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Kerala has the seventh highest rural spending per person of 36 states and territories and the second most unequal rural distribution, at a Gini of 0.255 against 0.237 nationally. A high average is not a flat one.",
+    "policy": "Ranking states by mean consumption and ranking them by its dispersion produce different lists. Any transfer designed off the mean alone is targeting a state that does not exist.",
+    "tags": [
+      "HCES",
+      "inequality",
+      "rural"
+    ],
+    "title_hi": "ग्रामीण उपभोग असमानता",
+    "takeaway_hi": "केरल में ग्रामीण खर्च का स्तर भी ऊंचा है और उसका फैलाव भी — गिनी 0.255, राष्ट्रीय 0.237 के मुकाबले।"
+  },
+  {
+    "id": "X209",
+    "title": "Urban consumption inequality",
+    "file": "X209_Urban_Consumption_Inequality.png",
+    "section": "economy",
+    "source": "HCES 2023-24 (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Urban consumption is more unequal than rural consumption in 31 of 36 states and territories. The five exceptions are small island and hill units. Jharkhand has among the lowest urban spending per person and the widest spread.",
+    "policy": "Cities are where the dispersion is, and where the instruments are weakest: urban India has no counterpart to the rural employment guarantee.",
+    "tags": [
+      "HCES",
+      "inequality",
+      "urban"
+    ],
+    "title_hi": "शहरी उपभोग असमानता",
+    "takeaway_hi": "लगभग हर राज्य में शहरी उपभोग ग्रामीण उपभोग से अधिक असमान है। झारखंड में शहरी खर्च कम है और फैलाव सबसे अधिक।"
+  },
+  {
+    "id": "X210",
+    "title": "Female labour force participation",
+    "file": "X210_Female_Labour_Force_Participation.png",
+    "section": "gender",
+    "source": "PLFS (MoSPI)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "Delhi records the lowest female labour force participation in the country at 13.1 per cent, five times below Sikkim's 66.7. Income and participation do not move together across states.",
+    "policy": "Participation measured on usual status counts unpaid family labour on a farm and does not count housework. Much of the state-to-state range is a measurement boundary, and reading it as a preference is how the number gets misused.",
+    "tags": [
+      "PLFS",
+      "work",
+      "gender"
+    ],
+    "title_hi": "महिला श्रम बल भागीदारी",
+    "takeaway_hi": "दिल्ली में महिला श्रम बल भागीदारी देश में सबसे कम है, 13.1 प्रतिशत — सिक्किम के 66.7 से पाँच गुना कम।"
+  },
+  {
+    "id": "X211",
+    "title": "Gender gap in literacy",
+    "file": "X211_Gender_Gap_in_Literacy.png",
+    "section": "gender",
+    "source": "NSS 75th round (MoSPI)",
+    "year": "2017-18",
+    "quality": "NEW",
+    "takeaway": "Rajasthan's literacy gap is 23.2 percentage points, ten times Kerala's 2.2. The 14 states left grey are not included in the published round.",
+    "policy": "A literacy gap among people aged 7 and above is an accumulated record, not a current one: it holds decades of school enrolment inside a single number, and closing it has a floor set by how long people live.",
+    "tags": [
+      "NSS",
+      "literacy",
+      "gender"
+    ],
+    "title_hi": "साक्षरता में लैंगिक अंतर",
+    "takeaway_hi": "राजस्थान में साक्षरता का लैंगिक अंतर 23.2 प्रतिशत बिंदु है, केरल के 2.2 से दस गुना अधिक।"
   }
 ]

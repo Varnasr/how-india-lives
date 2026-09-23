@@ -19,18 +19,25 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 205 pre-rendered PNGs. It carries no
-  per-state numbers at all, only metadata and prose. The PNGs were produced
-  outside this repository and **there is no renderer here**, so a new static map
-  cannot be generated from the repository as it stands.
+- **`data/maps.json`** is a catalogue of 211 PNGs. It carries no per-state
+  numbers at all, only metadata and prose. **205 of them were produced outside
+  this repository**, from sources this repository does not hold, and cannot be
+  regenerated here.
 - **`data/interactive-data.json`** is the numeric layer, 20 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-That asymmetry decides where new work goes. **Adding an indicator to the
-interactive layer is the cheap path and the better artefact**: a live, comparable,
-accessible, deep-linkable map with no image to render and nothing to keep in
-step. Adding a static map means producing a PNG somewhere else and committing it.
+**The other six are generated, and that is the path a new sheet should take.**
+`scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
+so the static map and the interactive map of the same indicator are drawing the
+same numbers and cannot disagree. X206 to X211 were made this way on
+2026-09-23. Before that there was no renderer here at all, and this file said
+in as many words that a static map could not be made from the repository.
+
+An interactive indicator is still the cheaper artefact, and a new figure should
+land there first. What changed is that turning it into a sheet afterwards is
+now one line in `scripts/render/sheets.json` rather than a rendering job in
+another tool.
 
 `mapId` is the whole of the cross-link between the two views, in both directions.
 
@@ -136,8 +143,10 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 205 maps" in the page footer), `data/README.md` and `README.md`. All
-  three are pinned against the actual lengths.
+  ("All 211 maps" in the page footer), `data/README.md` and `README.md`. All
+  three are pinned against the actual lengths. `index.html`, `stories.html`,
+  `methodology.html` and `explore.html` carry the number too, in titles, Open
+  Graph tags and the JSON-LD block, and nothing pins those.
 - **Coverage differs by source and grey is honest.** The SRS and NSS series cover
   22 larger states; PLFS and the Census cover all 36. A state left grey has no
   published figure, not a low one, and the note under the map says so. Do not
@@ -146,15 +155,58 @@ substitutes for each other, and this repository is the argument for that.
   published anyway. That is a live decision, not a bug, but check the flag before
   quoting a figure from one.
 - **The static maps run on old vintages**: 37 on NFHS-5 (2019-21) and 37 on
-  Census 2011. The interactive layer is where the recent data is, and it was
-  only half true: eleven of the first sixteen indicators were Census 2011 too.
-  The four HCES 2023-24 series added on 2026-09-23 are the most recent figures
-  in the repository.
+  Census 2011. The six generated sheets are the exception, and they inherit
+  their vintage from the indicator rather than carrying one of their own.
+  "The interactive layer is where the recent data is" used to be the whole
+  answer and was only half true: eleven of the first sixteen indicators were
+  Census 2011 too. The four HCES 2023-24 series are the most recent figures in
+  the repository, and X206 to X209 are now the first static sheets carrying
+  them.
 - **The head of `explore.html` is a two-column grid above 960px** and a plain
   stack below it, with the source order untouched. Wrapping the two columns in
   divs was tried and is worse: the indicator description in a 340px column moves
   the map by up to 75px every time you change indicator, and the mobile stack
   becomes headline, tabs, controls, lead, which reads backwards.
+
+## The renderer
+
+```bash
+python3 scripts/render/render.py            # every generated sheet
+python3 scripts/render/render.py mpce_r     # one of them
+python3 scripts/render/render.py --svg-only # no browser needed
+```
+
+`scripts/render/choropleth.py` writes the SVG and needs nothing but the
+standard library; `render.py` rasterises it through headless Chromium at
+3052x1725, the size of the existing sheets. **Inter is vendored** as
+`scripts/render/Inter-latin.woff2` (OFL, licence beside it) and embedded in the
+page as a data URI, because a render that quietly falls back to a system face
+produces a sheet that looks nearly right and does not match the other 205.
+
+`scripts/render/sheets.json` holds the curatorial half: which indicator, which
+section, the takeaway, the policy note, the tags and the Hindi. **No number is
+written there.** The palette, the ramp and the layout are sampled from
+`maps/education/S07a_*.png` rather than invented, so a generated sheet sits in
+the same visual family.
+
+Three things in it are load-bearing:
+
+- **The callout colour follows `higherIsBetter`.** The top of a consumption map
+  is good news and the top of a Gini map is not, and a sheet that paints both
+  in the same red is asserting something false about one of them.
+- **Label ink is chosen by comparing both contrast ratios**, not against a
+  fixed luminance cutoff. The cutoff is how white-on-amber at 3.19:1 shipped
+  twice in the ImpactMojo diagrams.
+- **The min and max annotations are placed by score, not by a fixed offset.**
+  A constant offset put the Jharkhand callout on top of the Uttar Pradesh
+  label, and the offset that works on one indicator is wrong on the next
+  because the extreme state moves.
+
+`scripts/check_data.py` holds the two ends together: every sheet must name a
+live indicator, carry a catalogue entry with the same filename, exist on disk,
+and be linked back to by that indicator's `mapId`. Both halves were
+fault-injected. What it cannot check is whether the rendered sheet *looks*
+right, so open the PNG after rendering.
 
 ## The MoSPI API, if you refresh the figures
 

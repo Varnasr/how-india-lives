@@ -136,7 +136,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
   <div class="btns">
     <a class="btn" href="/index.html#map/{id}">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
     {interactive_btn}
-    <a class="btn ghost" href="/m/index.html">All 205 maps</a>
+    <a class="btn ghost" href="/m/index.html">All 211 maps</a>
   </div>
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
@@ -170,8 +170,8 @@ def index_page(maps):
         blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
     return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All 205 maps &mdash; How India Lives | ImpactMojo</title>
-<meta name="description" content="A complete, browsable index of all 205 state-level maps of India across demography, health, gender, economy, education, environment and more.">
+<title>All 211 maps &mdash; How India Lives | ImpactMojo</title>
+<meta name="description" content="A complete, browsable index of all 211 state-level maps of India across demography, health, gender, economy, education, environment and more.">
 <link rel="canonical" href="{base}/m/index.html">
 <meta name="theme-color" content="#0369A1">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
@@ -197,7 +197,7 @@ li a:hover{{color:var(--acc)}}
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <h1>All 205 maps</h1>
+  <h1>All 211 maps</h1>
   <p class="lead">Every state-level map in the atlas, by theme. Open the <a href="/index.html" style="color:var(--acc)">interactive gallery</a> to search and filter.</p>
   {blocks}
 </div>

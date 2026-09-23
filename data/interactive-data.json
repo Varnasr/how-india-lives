@@ -766,7 +766,8 @@
         "Uttar Pradesh": 32.4,
         "Uttarakhand": 37.8,
         "West Bengal": 37.5
-      }
+      },
+      "mapId": "X210"
     },
     {
       "id": "litgap",
@@ -806,7 +807,8 @@
         "Uttar Pradesh": 18.4,
         "Uttarakhand": 13.6,
         "West Bengal": 8.7
-      }
+      },
+      "mapId": "X211"
     },
     {
       "id": "mpce_r",
@@ -860,7 +862,8 @@
         "Uttar Pradesh": 3481,
         "Uttarakhand": 5003,
         "West Bengal": 3620
-      }
+      },
+      "mapId": "X206"
     },
     {
       "id": "mpce_u",
@@ -914,7 +917,8 @@
         "Uttar Pradesh": 5395,
         "Uttarakhand": 7486,
         "West Bengal": 5775
-      }
+      },
+      "mapId": "X207"
     },
     {
       "id": "gini_r",
@@ -968,7 +972,8 @@
         "Uttar Pradesh": 0.191,
         "Uttarakhand": 0.218,
         "West Bengal": 0.196
-      }
+      },
+      "mapId": "X208"
     },
     {
       "id": "gini_u",
@@ -1022,7 +1027,8 @@
         "Uttar Pradesh": 0.269,
         "Uttarakhand": 0.27,
         "West Bengal": 0.285
-      }
+      },
+      "mapId": "X209"
     }
   ]
 }

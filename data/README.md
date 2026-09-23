@@ -1,7 +1,7 @@
 # Data files
 
 ## `maps.json`
-The catalog of all 205 static choropleth maps (metadata + takeaway text). Rendered by the
+The catalog of all 211 static choropleth maps (metadata + takeaway text). Rendered by the
 gallery on `index.html`. No per-state numeric values.
 
 ## `india-states.geojson`
@@ -71,7 +71,7 @@ Every failure it guards against is quiet, which is the reason it exists:
 - **A stale `mapId`** renders a cross-link button leading to a 404.
 - **A precached path that 404s** rejects `cache.addAll`, which fails the whole
   service worker install and silently leaves the site with no offline layer.
-- **Counts written in prose** (205 maps, 20 indicators) go stale the first time
+- **Counts written in prose** (211 maps, 20 indicators) go stale the first time
   one is added, in three files.
 
 Four of those were fault-injected against a real failure on 2026-09-22 to confirm
@@ -106,7 +106,7 @@ also sets `<html lang>` and fires an `im:langchange` event).
 Currently translated:
 - The navigation and the interactive tool's chrome (tabs, labels, headings).
 - **All 20 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
-- **All 205 maps** — every map has `title_hi` + `takeaway_hi`, and every section
+- **All 211 maps** — every map has `title_hi` + `takeaway_hi`, and every section
   title has a Hindi form. Numbers, ratios and state names are preserved.
 
 To translate additional content (e.g. per-map static pages, policy notes):
