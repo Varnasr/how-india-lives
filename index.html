@@ -62,47 +62,15 @@
       document.documentElement.setAttribute('data-theme','dark');})();
 </script>
 
+<link rel="stylesheet" href="/assets/tokens.css">
 <style>
 /* ── RESET & VARIABLES ── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-    --primary-bg: #FFFFFF;
-    --secondary-bg: #F8FAFC;
-    --accent-color: #0EA5E9;
-    --accent-hover: #0284C7;
-    --secondary-accent: #6366F1;
-    --success-color: #10B981;
-    --warning-color: #F59E0B;
-    --danger-color: #EF4444;
-    --text-primary: #0F172A;
-    --text-secondary: #475569;
-    --text-muted: #94A3B8;
-    --card-bg: #FFFFFF;
-    --hover-bg: #F1F5F9;
-    --border-color: #E2E8F0;
-    --gradient-primary: linear-gradient(135deg, #0EA5E9 0%, #6366F1 100%);
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
 }
 
 html[data-theme="dark"] {
-    --primary-bg: #0F172A;
-    --secondary-bg: #1E293B;
-    --accent-color: #38BDF8;
-    --accent-hover: #0EA5E9;
-    --secondary-accent: #818CF8;
-    --text-primary: #F1F5F9;
-    --text-secondary: #CBD5E1;
-    --text-muted: #64748B;
-    --card-bg: #1E293B;
-    --hover-bg: #334155;
-    --border-color: #334155;
-    --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
-    --shadow-lg: 0 10px 15px rgba(0,0,0,0.3);
-    --shadow-xl: 0 20px 40px rgba(0,0,0,0.4);
 }
 
 body {
@@ -758,7 +726,20 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     text-transform: uppercase;
     letter-spacing: 0.3px;
 }
-.tag.source { background: rgba(16,185,129,0.1); color: #059669; }
+footer p a,
+.site-footer p a,
+.hero-text p a {
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
+
+.tag.source {
+    background: color-mix(in srgb, var(--success-color) 12%, transparent);
+    color: var(--success-color);
+}
+[data-theme="dark"] .tag.source {
+    background: color-mix(in srgb, var(--success-color) 18%, transparent);
+}
 
 /* ── CURATED COLLECTIONS ── */
 .collections-section {
@@ -1709,7 +1690,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
         <h2>Story Threads</h2>
         <p>Curated map sequences that tell a story</p>
     </div>
-    <div class="collections-scroll" id="collections-scroll"></div>
+    <div class="collections-scroll" id="collections-scroll" tabindex="0" role="group" aria-label="Curated collections, scroll horizontally"></div>
 </div>
 
 <!-- Main content — populated by JS -->
@@ -1750,7 +1731,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
             <div class="about-sources">
                 <span>NFHS-5</span><span>Census 2011</span><span>PLFS</span><span>NCRB</span><span>NHA</span><span>SRS</span><span>RBI</span><span>UDISE+</span><span>IMD</span><span>ECI</span><span>NACO</span>
             </div>
-            <p style="margin-top:16px;font-size:0.82rem;">Part of <a href="https://www.impactmojo.in" style="color:var(--accent-color);">ImpactMojo</a> — free development education for South Asia. Maps are pedagogical tools designed for facilitated discussion. For policy or academic citation, consult the underlying source publications directly.</p>
+            <p style="margin-top:16px;font-size:0.82rem;">Part of <a href="https://www.impactmojo.in" style="color:var(--accent-color);text-decoration:underline;text-underline-offset:0.18em;">ImpactMojo</a> — free development education for South Asia. Maps are pedagogical tools designed for facilitated discussion. For policy or academic citation, consult the underlying source publications directly.</p>
         </div>
     </div>
 </div>
@@ -1822,7 +1803,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     <div id="newsletter-signup" style="margin:20px auto;max-width:400px;">
         <p style="font-size:0.82rem;font-weight:600;margin-bottom:8px;">Get the Map of the Week in your inbox</p>
         <form onsubmit="subscribeNewsletter(event)" style="display:flex;gap:8px;">
-            <input type="email" id="newsletter-email" placeholder="your@email.com" required style="flex:1;padding:8px 12px;border:1px solid var(--border-color);border-radius:6px;font-size:0.82rem;background:var(--card-bg);color:var(--text-primary);font-family:inherit;">
+            <input type="email" id="newsletter-email" aria-label="Your email address" placeholder="your@email.com" required style="flex:1;padding:8px 12px;border:1px solid var(--border-color);border-radius:6px;font-size:0.82rem;background:var(--card-bg);color:var(--text-primary);font-family:inherit;">
             <button type="submit" style="padding:8px 16px;background:var(--accent-color);color:white;border:none;border-radius:6px;font-family:'Inter',sans-serif;font-size:0.78rem;font-weight:600;cursor:pointer;">Subscribe</button>
         </form>
         <p id="newsletter-msg" style="font-size:0.72rem;color:var(--text-muted);margin-top:6px;"></p>

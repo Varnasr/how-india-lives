@@ -16,29 +16,12 @@
     if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))
       document.documentElement.setAttribute('data-theme','dark');})();
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-    --primary-bg: #FFFFFF;
-    --secondary-bg: #F8FAFC;
-    --text-primary: #0F172A;
-    --text-secondary: #475569;
-    --text-muted: #94A3B8;
-    --accent-color: #0EA5E9;
-    --secondary-accent: #6366F1;
-    --border-color: #E2E8F0;
-    --card-bg: #FFFFFF;
 }
 html[data-theme="dark"] {
-    --primary-bg: #0F172A;
-    --secondary-bg: #1E293B;
-    --text-primary: #F1F5F9;
-    --text-secondary: #CBD5E1;
-    --text-muted: #64748B;
-    --accent-color: #38BDF8;
-    --secondary-accent: #818CF8;
-    --card-bg: #1E293B;
-    --border-color: #334155;
 }
 body {
     font-family: 'Inter', sans-serif;
@@ -275,7 +258,7 @@ html[data-theme="dark"] .story-header { background: rgba(28,25,23,0.95); }
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background: #25D366;
+    background: #075E54;
     color: white;
     text-decoration: none;
     border-radius: 8px;

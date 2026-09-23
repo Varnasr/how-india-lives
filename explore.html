@@ -39,20 +39,13 @@
     'ex.highlow': { en: 'Highest & lowest', hi: 'उच्चतम और निम्नतम' }
   };
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-    --primary-bg: #FFFFFF; --secondary-bg: #F8FAFC;
-    --text-primary: #0F172A; --text-secondary: #475569; --text-muted: #94A3B8;
-    --accent-color: #0EA5E9; --accent-hover: #0284C7; --secondary-accent: #6366F1;
-    --card-bg: #FFFFFF; --border-color: #E2E8F0;
     --map-empty: #E2E8F0; --map-stroke: #FFFFFF; --map-c0: #E0F2FE; --map-c1: #075985;
 }
 html[data-theme="dark"] {
-    --primary-bg: #0F172A; --secondary-bg: #1E293B;
-    --text-primary: #F1F5F9; --text-secondary: #CBD5E1; --text-muted: #64748B;
-    --accent-color: #38BDF8; --accent-hover: #0EA5E9; --secondary-accent: #818CF8;
-    --card-bg: #1E293B; --border-color: #334155;
     --map-empty: #334155; --map-stroke: #0F172A; --map-c0: #0C4A6E; --map-c1: #7DD3FC;
 }
 html, body { max-width: 100%; overflow-x: hidden; }
@@ -180,7 +173,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
 .rank-row .r-name { flex: 1 1 auto; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .rank-row .r-val { font-weight: 700; font-variant-numeric: tabular-nums; flex: none; }
 .rank-row.hi .r-val { color: var(--accent-color); }
-.rank-row.lo .r-val { color: #EF4444; }
+.rank-row.lo .r-val { color: var(--danger-color); }
 .rank-gap { text-align: center; color: var(--text-muted); padding: 2px 0; opacity: 0.5; }
 
 /* ── Ranking view ── */
@@ -206,7 +199,7 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
 .corr-card .big-r { font-family: 'Amaranth', sans-serif; font-size: 2.2rem; font-weight: 700; line-height: 1; }
 .corr-card .r-strength { font-weight: 600; margin: 6px 0 10px; }
 .corr-card .r-expl { font-size: 0.82rem; color: var(--text-secondary); }
-.corr-pos { color: #10B981; } .corr-neg { color: #EF4444; } .corr-none { color: var(--text-muted); }
+.corr-pos { color: var(--success-color); } .corr-neg { color: var(--danger-color); } .corr-none { color: var(--text-muted); }
 
 /* ── State dashboard ── */
 .state-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
@@ -226,8 +219,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 .dash-track .nat { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--text-secondary); transform: translateX(-50%); }
 .dash-foot { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); }
 .dash-foot .rank { font-weight: 700; color: var(--text-secondary); }
-.dash-foot .rank.top { color: #10B981; } .dash-foot .rank.bottom { color: #EF4444; }
-.dash-foot .vs-pos { color: #10B981; } .dash-foot .vs-neg { color: #EF4444; }
+.dash-foot .rank.top { color: var(--success-color); } .dash-foot .rank.bottom { color: var(--danger-color); }
+.dash-foot .vs-pos { color: var(--success-color); } .dash-foot .vs-neg { color: var(--danger-color); }
 
 .tooltip { position: fixed; pointer-events: none; z-index: 50; background: var(--text-primary); color: var(--primary-bg); padding: 8px 12px; border-radius: 10px; font-size: 0.8rem; box-shadow: 0 8px 24px rgba(0,0,0,0.25); opacity: 0; transform: translateY(4px); transition: opacity .12s, transform .12s; max-width: min(240px, 80vw); }
 .tooltip.show { opacity: 1; transform: translateY(0); }
