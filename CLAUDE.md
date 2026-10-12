@@ -11,6 +11,7 @@ built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 python3 scripts/check_data.py       # both data files, run by CI
 python3 scripts/check_design.py     # one palette, both themes, run by CI
 python3 scripts/build_map_pages.py  # regenerates m/*.html, m/index.html, sitemap.xml, robots.txt
+python3 scripts/stage_site.py       # what Netlify publishes; with a directory, copies it there
 python3 -m http.server 8000         # then open http://localhost:8000
 ```
 
@@ -241,4 +242,7 @@ the silent failure above, so map the names and let the check confirm it.
 
 `.github/workflows/validate.yml` runs `check_data.py`, `check_design.py` and
 the regeneration gate on every push and pull request, with no `paths:` filter.
-Netlify deploys from `main`; GitHub Pages served the site until 2026-10-12.
+Netlify deploys from `main` and publishes only what `scripts/stage_site.py`
+names as published (`netlify.toml`), so `CLAUDE.md`, `scripts/` and the
+contributor notes are not served. A new top-level file fails CI until it is
+named published or kept back. GitHub Pages served the site until 2026-10-12.

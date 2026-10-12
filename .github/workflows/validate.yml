@@ -24,6 +24,11 @@ jobs:
       - name: Design tokens
         run: python3 scripts/check_design.py
 
+      # Netlify publishes only what scripts/stage_site.py names as published.
+      # A new top-level entry fails here until it is named one way or the other.
+      - name: Published files
+        run: python3 scripts/stage_site.py
+
       - name: Generated map pages are current
         run: |
           python3 scripts/build_map_pages.py
