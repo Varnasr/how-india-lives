@@ -1,0 +1,7 @@
+# The build copies only the published files into _site, so CLAUDE.md, the
+# build scripts and the contributor notes are never served.
+# scripts/stage_site.py names every top-level entry as published or kept
+# back, and fails the build on one that is neither.
+[build]
+  command = "python3 scripts/stage_site.py _site"
+  publish = "_site"
