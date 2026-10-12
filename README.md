@@ -127,8 +127,7 @@ how-india-lives/
 │   └── reproductive-choices/ # 11 maps
 ├── docs/                 # GitBook-style documentation
 ├── LICENSE               # CC BY-NC-SA 4.0
-├── CONTRIBUTING.md       # Contributor guidelines
-└── CNAME                 # Custom domain config
+└── CONTRIBUTING.md       # Contributor guidelines
 ```
 
 ## How Maps Were Made

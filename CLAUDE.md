@@ -2,8 +2,8 @@
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
 notes, plus a live interactive choropleth over 20 indicators. Static HTML, no
-build step for the part that runs, deployed to GitHub Pages at
-howindialives.impactmojo.in. English and Hindi throughout.
+build step for the part that runs, served by Netlify (site `howindialives`,
+built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
 ## Commands
 
@@ -241,4 +241,4 @@ the silent failure above, so map the names and let the check confirm it.
 
 `.github/workflows/validate.yml` runs `check_data.py`, `check_design.py` and
 the regeneration gate on every push and pull request, with no `paths:` filter.
-`pages.yml` deploys and validates nothing.
+Netlify deploys from `main`; GitHub Pages served the site until 2026-10-12.
