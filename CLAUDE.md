@@ -22,7 +22,7 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 255 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 256 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
@@ -30,7 +30,7 @@ produces no diff, which is what lets CI use it as a staleness gate.
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-**The other 50 are generated (X206 to X255), and that is the path a new sheet should take.**
+**The other 51 are generated (X206 to X256), and that is the path a new sheet should take.**
 `scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
 so the static map and the interactive map of the same indicator are drawing the
 same numbers and cannot disagree. X206 to X211 were made this way on
@@ -65,7 +65,7 @@ PLFS 2025 unemployment indicators from `data/mospi/plfs-2025.json`. Both are
 idempotent and have `--check`. `maps.json` carries `newer` on the 18 NFHS-5
 maps whose measure NFHS-6 repeats; the map page and the gallery card link to it.
 
-**NFHS-6 is not a drop-in for NFHS-5.** It reports 64 indicators against 131;
+**NFHS-6 is not a drop-in for NFHS-5.** It reports 101 indicators against 131;
 anaemia and the mortality rates are not among them, so those static maps keep
 their NFHS-5 figures and say so. Some changes are large (Karnataka's spousal
 violence 44.4 to 14.1, Ladakh's 17.7 to 1.9) and are what the sheets print;
@@ -237,7 +237,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 255 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 256 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

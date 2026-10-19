@@ -137,7 +137,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
   <div class="btns">
     <a class="btn" href="/index.html#map/{id}">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
     {interactive_btn}
-    <a class="btn ghost" href="/m/index.html">All 255 maps</a>
+    <a class="btn ghost" href="/m/index.html">All 256 maps</a>
   </div>
   <p class="vint"><strong>Data vintage.</strong> {vintage}{newer}</p>
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
@@ -190,8 +190,8 @@ def index_page(maps):
         blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
     return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All 255 maps &mdash; How India Lives | ImpactMojo</title>
-<meta name="description" content="A complete, browsable index of all 255 state-level maps of India across demography, health, gender, economy, education, environment and more.">
+<title>All 256 maps &mdash; How India Lives | ImpactMojo</title>
+<meta name="description" content="A complete, browsable index of all 256 state-level maps of India across demography, health, gender, economy, education, environment and more.">
 <link rel="canonical" href="{base}/m/index.html">
 <meta name="theme-color" content="#0369A1">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
@@ -218,7 +218,7 @@ li a:hover{{color:var(--acc)}}
 <body>
 <div id="im-common-header"></div>
 <div class="wrap">
-  <h1>All 255 maps</h1>
+  <h1>All 256 maps</h1>
   <p class="lead">Every state-level map in the atlas, by theme. Open the <a href="/index.html" style="color:var(--acc)">interactive gallery</a> to search and filter.</p>
   {blocks}
 </div>

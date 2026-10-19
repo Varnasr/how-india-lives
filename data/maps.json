@@ -1755,7 +1755,8 @@
       "children"
     ],
     "title_hi": "ARI लक्षण वाले बच्चे स्वास्थ्य केंद्र ले जाए गए",
-    "takeaway_hi": "बिहार में, ARI लक्षण वाले 60% से कम बच्चों को स्वास्थ्य केंद्र ले जाया जाता है।"
+    "takeaway_hi": "बिहार में, ARI लक्षण वाले 60% से कम बच्चों को स्वास्थ्य केंद्र ले जाया जाता है।",
+    "newer": "n6_ari_care"
   },
   {
     "id": "S03o",
@@ -1954,7 +1955,8 @@
       "gender"
     ],
     "title_hi": "अकेले या संयुक्त रूप से वित्तीय निर्णय लेने वाली महिलाएँ",
-    "takeaway_hi": "दक्षिणी राज्यों में 80%+ महिलाएँ घरेलू वित्तीय निर्णयों में भाग लेती हैं; बिहार में 40% से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में 80%+ महिलाएँ घरेलू वित्तीय निर्णयों में भाग लेती हैं; बिहार में 40% से कम।",
+    "newer": "n6_decisions_w"
   },
   {
     "id": "S04e",
@@ -2102,7 +2104,8 @@
       "gender"
     ],
     "title_hi": "10+ वर्ष की स्कूली शिक्षा वाली महिलाएँ",
-    "takeaway_hi": "केरल और गोवा में 70%+ महिलाओं के पास 10+ वर्ष की स्कूली शिक्षा है; बिहार में 25% से कम।"
+    "takeaway_hi": "केरल और गोवा में 70%+ महिलाओं के पास 10+ वर्ष की स्कूली शिक्षा है; बिहार में 25% से कम।",
+    "newer": "n6_women_school"
   },
   {
     "id": "S04m",
@@ -4623,5 +4626,24 @@
     ],
     "title_hi": "राज्य उत्पादन में सेवाओं का हिस्सा, MoSPI 2024-25",
     "takeaway_hi": "सेवाएँ चंडीगढ़ के उत्पादन का 89.4%, दिल्ली का 86.1% और कर्नाटक का 69.2% हैं। मध्य प्रदेश में 35.5%, छत्तीसगढ़ में 32.3% और सिक्किम में 29.9%। बीच के राज्य में 49.2%।"
+  },
+  {
+    "id": "X256",
+    "title": "Children with fever or ARI symptoms taken to a health facility, NFHS-6",
+    "file": "X256_Children_with_ARI_taken_to_a_health_facility_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Nagaland takes 34.0 per cent of children with fever or breathing symptoms for care, Mizoram 42.2 and Assam 44.4, against 86.9 in Punjab and 80.3 in Karnataka. The India figure is 68.8 per cent, almost unchanged from 69.0 in NFHS-5. Punjab rose 29.6 points and Dadra and Nagar Haveli and Daman and Diu fell 14.5.",
+    "policy": "The figure counts children taken to any health provider, public or private, and says nothing about the quality of care. A figure for a small territory rests on few children, and Chandigarh's 92.1 is based on 25 to 49 cases, so it is flagged and the takeaway compares Punjab, the highest figure without that flag.",
+    "tags": [
+      "NFHS-6",
+      "children",
+      "health",
+      "ARI"
+    ],
+    "title_hi": "बुखार या ARI लक्षण वाले बच्चे जिन्हें स्वास्थ्य केंद्र ले जाया गया, NFHS-6",
+    "takeaway_hi": "नागालैंड में बुखार या साँस के लक्षण वाले 34.0 प्रतिशत बच्चों को इलाज के लिए ले जाया गया, मिज़ोरम में 42.2 और असम में 44.4, जबकि पंजाब में 86.9 और कर्नाटक में 80.3। भारत का आँकड़ा 68.8 प्रतिशत है, NFHS-5 के 69.0 से लगभग वही।"
   }
 ]

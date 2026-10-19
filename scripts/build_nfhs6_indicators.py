@@ -91,6 +91,10 @@ SPEC = [
      'Share of ever-married women aged 18-49 who have ever experienced spousal violence.',
      False, 'पति द्वारा हिंसा झेलने वाली विवाहित महिलाएँ',
      '18-49 वर्ष की कभी विवाहित उन महिलाओं का हिस्सा जिन्होंने कभी पति की हिंसा का सामना किया है।'),
+    (60, 'ari_care', 'Health', 'Children with fever or ARI symptoms taken to a health facility',
+     'Share of children under 5 with fever or symptoms of acute respiratory infection in the two weeks before the survey who were taken to a health facility or provider.',
+     True, 'बुखार या ARI लक्षण वाले बच्चे जिन्हें स्वास्थ्य केंद्र ले जाया गया',
+     'सर्वेक्षण से पहले दो सप्ताह में बुखार या तीव्र श्वसन संक्रमण (ARI) के लक्षण वाले 5 वर्ष से कम बच्चों का हिस्सा जिन्हें स्वास्थ्य केंद्र या प्रदाता के पास ले जाया गया।'),
     (16, 'child_marriage', 'Gender', 'Women married before 18',
      'Share of women aged 20-24 who were married before age 18.',
      False, '18 से पहले विवाहित महिलाएँ', '20-24 वर्ष की उन महिलाओं का हिस्सा जिनका विवाह 18 वर्ष से पहले हुआ।'),
@@ -152,9 +156,14 @@ def main():
     data = json.load(open(path))
     keep = [i for i in data['indicators'] if not i['id'].startswith('n6_')]
     new = build(n)
+    maps = {i['id']: i.get('mapId') for i in data['indicators'] if i['id'].startswith('n6_')}
+    for i in new:
+        if maps.get(i['id']):
+            i['mapId'] = maps[i['id']]
     merged = keep + new
     if '--check' in sys.argv:
-        ok = [i for i in data['indicators'] if i['id'].startswith('n6_')] == new
+        strip = lambda L: [{k: v for k, v in i.items() if k != 'mapId'} for i in L]
+        ok = strip([i for i in data['indicators'] if i['id'].startswith('n6_')]) == strip(new)
         print('OK' if ok else 'STALE: run scripts/build_nfhs6_indicators.py')
         sys.exit(0 if ok else 1)
     data['indicators'] = merged

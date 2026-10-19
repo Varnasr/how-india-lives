@@ -1048,5 +1048,27 @@
       "economy",
       "MoSPI"
     ]
+  },
+  {
+    "id": "X256",
+    "indicator": "n6_ari_care",
+    "section": "health",
+    "file": "X256_Children_with_ARI_taken_to_a_health_facility_NFHS6.png",
+    "title": "Children with fever or ARI symptoms taken to a health facility, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: CARE FOR SICK CHILDREN",
+    "subtitle": "Children under 5 with fever or symptoms of acute respiratory infection in the previous two weeks\nwho were taken to a health facility or provider, NFHS-6 (2023-24). India 68.8, from 69.0.",
+    "callout_note": "of sick children were taken for care in {state}, on only 25 to 49 cases. Punjab is next at 86.9",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Nagaland takes 34.0 per cent of children with fever or breathing symptoms for care, Mizoram 42.2 and Assam 44.4, against 86.9 in Punjab and 80.3 in Karnataka. The India figure is 68.8 per cent, almost unchanged from 69.0 in NFHS-5. Punjab rose 29.6 points and Dadra and Nagar Haveli and Daman and Diu fell 14.5.",
+    "policy": "The figure counts children taken to any health provider, public or private, and says nothing about the quality of care. A figure for a small territory rests on few children, and Chandigarh's 92.1 is based on 25 to 49 cases, so it is flagged and the takeaway compares Punjab, the highest figure without that flag.",
+    "takeaway_hi": "नागालैंड में बुखार या साँस के लक्षण वाले 34.0 प्रतिशत बच्चों को इलाज के लिए ले जाया गया, मिज़ोरम में 42.2 और असम में 44.4, जबकि पंजाब में 86.9 और कर्नाटक में 80.3। भारत का आँकड़ा 68.8 प्रतिशत है, NFHS-5 के 69.0 से लगभग वही।",
+    "title_hi": "बुखार या ARI लक्षण वाले बच्चे जिन्हें स्वास्थ्य केंद्र ले जाया गया, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "children",
+      "health",
+      "ARI"
+    ]
   }
 ]
