@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 53 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 55 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,15 +22,15 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 244 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 246 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 53 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 55 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-**The other 39 are generated (X206 to X244), and that is the path a new sheet should take.**
+**The other 41 are generated (X206 to X246), and that is the path a new sheet should take.**
 `scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
 so the static map and the interactive map of the same indicator are drawing the
 same numbers and cannot disagree. X206 to X211 were made this way on
@@ -193,7 +193,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 244 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 246 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

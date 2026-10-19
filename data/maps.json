@@ -4412,5 +4412,41 @@
     ],
     "title_hi": "दर्ज एसिड हमले के मामले, NCRB 2024",
     "takeaway_hi": "दर्ज एसिड हमले पश्चिम बंगाल और मणिपुर, दोनों में 6.13 प्रति करोड़ महिलाओं तक हैं, जबकि भारत का आँकड़ा 1.73 है (2023 में 1.67)। 15 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X245",
+    "title": "Change in forest cover, 2021 to 2023",
+    "file": "X245_Change_in_forest_cover_2021_to_2023.png",
+    "section": "environment",
+    "source": "Forest Survey of India (ISFR 2023, via MoSPI)",
+    "year": "2021-23",
+    "quality": "NEW",
+    "takeaway": "Forest cover rose by 156 sq km across India between 2021 and 2023, but states split. Mizoram gained 242 sq km and Gujarat 180, while Madhya Pradesh lost 372, Andhra Pradesh 139 and Telangana 100.",
+    "policy": "Forest cover is satellite-measured tree canopy over one hectare, so plantations and orchards count, and a gain does not mean more natural forest. Puducherry and the merged Dadra and Nagar Haveli and Daman and Diu have no usable figure in the source, so they are grey.",
+    "tags": [
+      "ISFR",
+      "forest",
+      "environment"
+    ],
+    "title_hi": "वन आच्छादन में बदलाव, 2021 से 2023",
+    "takeaway_hi": "ISFR 2021 और 2023 के बीच भारत में वन आच्छादन 156 वर्ग किमी बढ़ा, पर राज्यों में बँटवारा है। मिज़ोरम में 242 और गुजरात में 180 वर्ग किमी की बढ़त हुई, जबकि मध्य प्रदेश में 372, आंध्र प्रदेश में 139 और तेलंगाना में 100 वर्ग किमी की कमी आई।"
+  },
+  {
+    "id": "X246",
+    "title": "Heat-wave days, 2022-24 average",
+    "file": "X246_Heat_wave_days_2022_24_average.png",
+    "section": "environment",
+    "source": "IMD (via MoSPI EnviStats)",
+    "year": "2022-24",
+    "quality": "NEW",
+    "takeaway": "Heat-wave days run from 0.3 a summer in Assam to 17.0 in Punjab, with Haryana at 16.7 and Jharkhand at 15.7. Only 19 states report all three years.",
+    "policy": "Single years swing widely (Uttarakhand reported 15, 0 and 22 days in 2022, 2023 and 2024), so this three-year average is still a rough guide. Himachal Pradesh, Chandigarh, Kerala, Mizoram and Puducherry have missing years, and 12 other states and territories are not in the source at all.",
+    "tags": [
+      "IMD",
+      "heat",
+      "environment"
+    ],
+    "title_hi": "लू वाले दिन, 2022-24 औसत",
+    "takeaway_hi": "लू वाले दिन असम में 0.3 प्रति गर्मी से पंजाब में 17.0 तक हैं, हरियाणा में 16.7 और झारखंड में 15.7 के साथ। केवल 19 राज्य तीनों वर्षों के आँकड़े देते हैं।"
   }
 ]
