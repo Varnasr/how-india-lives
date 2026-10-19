@@ -1,5 +1,5 @@
 {
-  "note": "Values are compiled from official published sources: the Census of India (2011), the Sample Registration System, NFHS-5, and, for the two indicators added in September 2026, the MoSPI open data API (Periodic Labour Force Survey and NSS 75th round). Coverage differs by source. Sample-registration and NSS series cover the larger states only, so a state left grey has no published figure rather than a low one. Some newer units (Ladakh; the merged UT of Dadra and Nagar Haveli and Daman and Diu) are missing or approximate in the older sources. NFHS-6 (2023-24) indicators, added in October 2026, are the state and UT totals printed in the IIPS fact sheets of May 2026, each with the NFHS-5 total printed beside it. Manipur has no NFHS-6 sheet and a state whose figure was left blank for a small sample is shown grey.",
+  "note": "Values are compiled from official published sources: the Census of India (2011), the Sample Registration System, NFHS-5, and, for the two indicators added in September 2026, the MoSPI open data API (Periodic Labour Force Survey and NSS 75th round). Coverage differs by source. Sample-registration and NSS series cover the larger states only, so a state left grey has no published figure rather than a low one. Some newer units (Ladakh; the merged UT of Dadra and Nagar Haveli and Daman and Diu) are missing or approximate in the older sources. NFHS-6 (2023-24) indicators, added in October 2026, are the state and UT totals printed in the IIPS fact sheets of May 2026, each with the NFHS-5 total printed beside it. Manipur has no NFHS-6 sheet and a state whose figure was left blank for a small sample is shown grey. The PLFS 2025 unemployment rates and the UDISE+ 2024-25 secondary dropout rate come from the MoSPI open data API (October 2026). The API reports Bihar's secondary dropout as exactly 0, which is not a credible measurement, so Bihar is left grey.",
   "indicators": [
     {
       "id": "literacy",
@@ -3377,6 +3377,59 @@
       "name_hi": "युवा बेरोज़गारी दर",
       "desc_hi": "15-29 वर्ष के श्रम बल का वह हिस्सा जो काम से बाहर है और काम खोज रहा है (सामान्य स्थिति: मुख्य और सहायक)।",
       "unit_hi": "% श्रम बल (15-29 वर्ष)"
+    },
+    {
+      "id": "udise_dropout_sec",
+      "theme": "Education",
+      "name": "Secondary School Dropout Rate",
+      "unit": "% of students in classes 9-10",
+      "source": "UDISE+ (MoSPI)",
+      "year": "2024-25",
+      "desc": "Share of students in secondary school (classes 9-10) who dropped out, all school management types, boys and girls together.",
+      "higherIsBetter": false,
+      "national": null,
+      "values": {
+        "Andaman and Nicobar": 5.4,
+        "Andhra Pradesh": 15.5,
+        "Arunachal Pradesh": 18.3,
+        "Assam": 17.5,
+        "Chandigarh": 2.0,
+        "Chhattisgarh": 15.3,
+        "Dadra and Nagar Haveli and Daman and Diu": 12.5,
+        "Delhi": 7.5,
+        "Goa": 9.3,
+        "Gujarat": 16.9,
+        "Haryana": 6.6,
+        "Himachal Pradesh": 6.2,
+        "Jammu and Kashmir": 12.9,
+        "Jharkhand": 3.5,
+        "Karnataka": 18.3,
+        "Kerala": 4.8,
+        "Ladakh": 16.2,
+        "Lakshadweep": 4.1,
+        "Madhya Pradesh": 16.8,
+        "Maharashtra": 11.5,
+        "Manipur": 9.1,
+        "Meghalaya": 17.4,
+        "Mizoram": 17.4,
+        "Nagaland": 12.1,
+        "Odisha": 15.0,
+        "Puducherry": 5.9,
+        "Punjab": 6.2,
+        "Rajasthan": 7.7,
+        "Sikkim": 11.4,
+        "Tamil Nadu": 8.5,
+        "Telangana": 13.2,
+        "Tripura": 11.3,
+        "Uttar Pradesh": 7.0,
+        "Uttarakhand": 4.6,
+        "West Bengal": 20.0
+      },
+      "sourceUrl": "https://udiseplus.gov.in/",
+      "retrieved": "2026-10-19",
+      "name_hi": "माध्यमिक स्तर पर स्कूल छोड़ने की दर",
+      "unit_hi": "% छात्र (कक्षा 9-10)",
+      "desc_hi": "माध्यमिक विद्यालय (कक्षा 9-10) के उन छात्रों का हिस्सा जिन्होंने पढ़ाई छोड़ दी, सभी प्रबंधन प्रकारों के लड़के और लड़कियाँ मिलाकर।"
     }
   ]
 }
