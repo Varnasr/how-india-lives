@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hil-v21';
+const CACHE_NAME = 'hil-v22';
 const PRECACHE = [
     '/',
     '/index.html',
