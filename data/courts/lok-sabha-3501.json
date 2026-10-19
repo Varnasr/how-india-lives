@@ -1,0 +1,383 @@
+{
+ "source": "Lok Sabha Unstarred Question 3501, answered 13 March 2026 (Ministry of Law and Justice), Annexures II and IV",
+ "document_url": "https://www.doj.gov.in/static/uploads/2026/04/c393f1e761f310476a68fe8f1f87c16a.pdf",
+ "pending_cases_district_subordinate_courts": {
+  "as_on": "2026-03-09",
+  "source": "National Judicial Data Grid",
+  "by_state": {
+   "Andaman and Nicobar": {
+    "civil": 4031,
+    "criminal": 4501,
+    "total": 8532
+   },
+   "Andhra Pradesh": {
+    "civil": 436522,
+    "criminal": 511287,
+    "total": 947809
+   },
+   "Arunachal Pradesh": {
+    "civil": 3621,
+    "criminal": 12145,
+    "total": 15766
+   },
+   "Assam": {
+    "civil": 113792,
+    "criminal": 463784,
+    "total": 577576
+   },
+   "Bihar": {
+    "civil": 538592,
+    "criminal": 3177552,
+    "total": 3716144
+   },
+   "Chandigarh": {
+    "civil": 22839,
+    "criminal": 78400,
+    "total": 101239
+   },
+   "Chhattisgarh": {
+    "civil": 87413,
+    "criminal": 403750,
+    "total": 491163
+   },
+   "Delhi": {
+    "civil": 217341,
+    "criminal": 1383042,
+    "total": 1600383
+   },
+   "Goa": {
+    "civil": 28169,
+    "criminal": 33820,
+    "total": 61989
+   },
+   "Gujarat": {
+    "civil": 325786,
+    "criminal": 1641937,
+    "total": 1967723
+   },
+   "Haryana": {
+    "civil": 427948,
+    "criminal": 1112559,
+    "total": 1540507
+   },
+   "Himachal Pradesh": {
+    "civil": 178567,
+    "criminal": 443609,
+    "total": 622176
+   },
+   "Jammu and Kashmir": {
+    "civil": 119520,
+    "criminal": 232165,
+    "total": 351685
+   },
+   "Jharkhand": {
+    "civil": 96274,
+    "criminal": 474955,
+    "total": 571229
+   },
+   "Karnataka": {
+    "civil": 1056085,
+    "criminal": 1334144,
+    "total": 2390229
+   },
+   "Kerala": {
+    "civil": 541843,
+    "criminal": 1259672,
+    "total": 1801515
+   },
+   "Ladakh": {
+    "civil": 789,
+    "criminal": 842,
+    "total": 1631
+   },
+   "Lakshadweep": {
+    "civil": 151,
+    "criminal": 406,
+    "total": 557
+   },
+   "Madhya Pradesh": {
+    "civil": 426046,
+    "criminal": 1691148,
+    "total": 2117194
+   },
+   "Maharashtra": {
+    "civil": 1766653,
+    "criminal": 4310083,
+    "total": 6076736
+   },
+   "Manipur": {
+    "civil": 9157,
+    "criminal": 4938,
+    "total": 14095
+   },
+   "Meghalaya": {
+    "civil": 4917,
+    "criminal": 4917,
+    "total": 16671,
+    "unreliable": "The printed row is internally inconsistent (4,917 + 4,917 is not 16,671). The national civil, criminal and total columns each add up only with the printed figures, so the error is in the source. Meghalaya is left off the pendency map."
+   },
+   "Mizoram": {
+    "civil": 4028,
+    "criminal": 3319,
+    "total": 7347
+   },
+   "Nagaland": {
+    "civil": 1043,
+    "criminal": 2876,
+    "total": 3919
+   },
+   "Odisha": {
+    "civil": 269938,
+    "criminal": 1547258,
+    "total": 1817196
+   },
+   "Puducherry": {
+    "civil": 11757,
+    "criminal": 24657,
+    "total": 36414
+   },
+   "Punjab": {
+    "civil": 363976,
+    "criminal": 608245,
+    "total": 972221
+   },
+   "Rajasthan": {
+    "civil": 514668,
+    "criminal": 2162933,
+    "total": 2677601
+   },
+   "Sikkim": {
+    "civil": 933,
+    "criminal": 1339,
+    "total": 2272
+   },
+   "Tamil Nadu": {
+    "civil": 704363,
+    "criminal": 1064754,
+    "total": 1769117
+   },
+   "Telangana": {
+    "civil": 339582,
+    "criminal": 651905,
+    "total": 991487
+   },
+   "Dadra and Nagar Haveli and Daman and Diu": {
+    "civil": 3681,
+    "criminal": 4702,
+    "total": 8383
+   },
+   "Tripura": {
+    "civil": 13524,
+    "criminal": 52082,
+    "total": 65606
+   },
+   "Uttar Pradesh": {
+    "civil": 1843158,
+    "criminal": 10161311,
+    "total": 12004469
+   },
+   "Uttarakhand": {
+    "civil": 48932,
+    "criminal": 262101,
+    "total": 311033
+   },
+   "West Bengal": {
+    "civil": 642234,
+    "criminal": 3260381,
+    "total": 3902615
+   }
+  }
+ },
+ "judicial_officers_subordinate_judiciary": {
+  "as_on": "not stated in the answer",
+  "source": "Nyaya Vikas 2.0 portal",
+  "by_state": {
+   "Andhra Pradesh": {
+    "sanctioned": 643,
+    "working": 572,
+    "vacant": 71
+   },
+   "Arunachal Pradesh": {
+    "sanctioned": 53,
+    "working": 39,
+    "vacant": 14
+   },
+   "Assam": {
+    "sanctioned": 485,
+    "working": 461,
+    "vacant": 24
+   },
+   "Bihar": {
+    "sanctioned": 2025,
+    "working": 1665,
+    "vacant": 360
+   },
+   "Chandigarh": {
+    "sanctioned": 30,
+    "working": 28,
+    "vacant": 2
+   },
+   "Chhattisgarh": {
+    "sanctioned": 663,
+    "working": 465,
+    "vacant": 198
+   },
+   "Dadra and Nagar Haveli (judges)": {
+    "sanctioned": 3,
+    "working": 2,
+    "vacant": 1
+   },
+   "Daman and Diu (judges)": {
+    "sanctioned": 4,
+    "working": 4,
+    "vacant": 0
+   },
+   "Delhi": {
+    "sanctioned": 897,
+    "working": 838,
+    "vacant": 59
+   },
+   "Goa": {
+    "sanctioned": 50,
+    "working": 40,
+    "vacant": 10
+   },
+   "Gujarat": {
+    "sanctioned": 1720,
+    "working": 1185,
+    "vacant": 535
+   },
+   "Haryana": {
+    "sanctioned": 781,
+    "working": 643,
+    "vacant": 138
+   },
+   "Himachal Pradesh": {
+    "sanctioned": 188,
+    "working": 173,
+    "vacant": 15
+   },
+   "Jammu and Kashmir": {
+    "sanctioned": 322,
+    "working": 270,
+    "vacant": 52
+   },
+   "Jharkhand": {
+    "sanctioned": 707,
+    "working": 496,
+    "vacant": 211
+   },
+   "Karnataka": {
+    "sanctioned": 1395,
+    "working": 1129,
+    "vacant": 266
+   },
+   "Kerala": {
+    "sanctioned": 611,
+    "working": 577,
+    "vacant": 34
+   },
+   "Ladakh": {
+    "sanctioned": 17,
+    "working": 9,
+    "vacant": 8
+   },
+   "Lakshadweep": {
+    "sanctioned": 4,
+    "working": 4,
+    "vacant": 0
+   },
+   "Madhya Pradesh": {
+    "sanctioned": 2028,
+    "working": 1638,
+    "vacant": 390
+   },
+   "Maharashtra": {
+    "sanctioned": 2190,
+    "working": 1940,
+    "vacant": 250
+   },
+   "Manipur": {
+    "sanctioned": 62,
+    "working": 49,
+    "vacant": 13
+   },
+   "Meghalaya": {
+    "sanctioned": 99,
+    "working": 57,
+    "vacant": 42
+   },
+   "Mizoram": {
+    "sanctioned": 74,
+    "working": 45,
+    "vacant": 29
+   },
+   "Nagaland": {
+    "sanctioned": 34,
+    "working": 24,
+    "vacant": 10
+   },
+   "Odisha": {
+    "sanctioned": 1044,
+    "working": 861,
+    "vacant": 183
+   },
+   "Puducherry": {
+    "sanctioned": 38,
+    "working": 26,
+    "vacant": 12
+   },
+   "Punjab": {
+    "sanctioned": 812,
+    "working": 699,
+    "vacant": 113
+   },
+   "Rajasthan": {
+    "sanctioned": 1698,
+    "working": 1489,
+    "vacant": 209
+   },
+   "Sikkim": {
+    "sanctioned": 35,
+    "working": 23,
+    "vacant": 12
+   },
+   "Tamil Nadu": {
+    "sanctioned": 1386,
+    "working": 1235,
+    "vacant": 151
+   },
+   "Telangana": {
+    "sanctioned": 560,
+    "working": 445,
+    "vacant": 115
+   },
+   "Tripura": {
+    "sanctioned": 133,
+    "working": 119,
+    "vacant": 14
+   },
+   "Uttar Pradesh": {
+    "sanctioned": 3700,
+    "working": 2631,
+    "vacant": 1069
+   },
+   "Uttarakhand": {
+    "sanctioned": 298,
+    "working": 270,
+    "vacant": 28
+   },
+   "West Bengal and Andaman and Nicobar (combined)": {
+    "sanctioned": 1105,
+    "working": 863,
+    "vacant": 242
+   }
+  }
+ },
+ "notes": [
+  "The answer is a scan; every pending-cases row was checked (civil + criminal = total) and the 36 totals sum to the printed national total.",
+  "West Bengal and Andaman and Nicobar are one row in the judges table. Dadra and Nagar Haveli and Daman and Diu are two rows there and one in the pendency table.",
+  "The two tables come from different sources and the judges table carries no date, so the ratio is a rough guide.",
+  "The printed national working-strength total (21,026) and vacancy total (4,868) are 12 above and below what the 36 state rows add to (21,014 and 4,880); sanctioned (25,894) matches. Every state row satisfies sanctioned minus working equals vacant, so the rows are used and the printed totals are not."
+ ]
+}

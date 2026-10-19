@@ -1353,7 +1353,8 @@
       "justice"
     ],
     "title_hi": "प्रति न्यायाधीश लंबित मुकदमे",
-    "takeaway_hi": "उत्तर प्रदेश में एक न्यायाधीश पर 3,000+ लंबित मामले हैं; सिक्किम में 500 से कम — बोझ तले न्याय व्यवस्था चरमरा जाती है।"
+    "takeaway_hi": "उत्तर प्रदेश में एक न्यायाधीश पर 3,000+ लंबित मामले हैं; सिक्किम में 500 से कम — बोझ तले न्याय व्यवस्था चरमरा जाती है।",
+    "newer": "court_pending_per_judge"
   },
   {
     "id": "S02i",
@@ -4448,5 +4449,41 @@
     ],
     "title_hi": "लू वाले दिन, 2022-24 औसत",
     "takeaway_hi": "लू वाले दिन असम में 0.3 प्रति गर्मी से पंजाब में 17.0 तक हैं, हरियाणा में 16.7 और झारखंड में 15.7 के साथ। केवल 19 राज्य तीनों वर्षों के आँकड़े देते हैं।"
+  },
+  {
+    "id": "X247",
+    "title": "Pending cases per working judge, March 2026",
+    "file": "X247_Pending_cases_per_working_judge_March_2026.png",
+    "section": "economy",
+    "source": "NJDG and Nyaya Vikas (Lok Sabha, March 2026)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "A working judicial officer in Uttar Pradesh faces 4,563 pending cases, against 99 in Sikkim. The India figure is 2,359.",
+    "policy": "The cases and the judges come from different sources and the judges table carries no date, so this is a rough guide. West Bengal and Andaman and Nicobar share one figure because the source merges their judges. Meghalaya is grey because its pendency row contradicts itself in the source. Pending cases mix old and new filings of every kind, so the ratio does not measure how fast a judge works.",
+    "tags": [
+      "NJDG",
+      "courts",
+      "pendency"
+    ],
+    "title_hi": "प्रति कार्यरत न्यायाधीश लंबित मामले, मार्च 2026",
+    "takeaway_hi": "उत्तर प्रदेश में एक कार्यरत न्यायिक अधिकारी के सामने 4,563 लंबित मामले हैं, जबकि सिक्किम में 99। भारत का आँकड़ा 2,359 है।"
+  },
+  {
+    "id": "X248",
+    "title": "Vacant judicial posts, subordinate courts, 2026",
+    "file": "X248_Vacant_judicial_posts_subordinate_courts_2026.png",
+    "section": "economy",
+    "source": "Nyaya Vikas (Lok Sabha, March 2026)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Nearly one in five sanctioned posts in the subordinate judiciary is vacant (18.8 per cent), from none in Lakshadweep to 47.1 per cent in Ladakh and 42.4 in Meghalaya.",
+    "policy": "Small territories swing on a few posts: Ladakh's 47.1 per cent is 8 of 17 posts. The source's own national vacancy total (4,868) does not match its state rows (4,880), so the India figure here is computed from the rows.",
+    "tags": [
+      "courts",
+      "vacancy",
+      "judges"
+    ],
+    "title_hi": "रिक्त न्यायिक पद, अधीनस्थ न्यायालय, 2026",
+    "takeaway_hi": "अधीनस्थ न्यायपालिका में लगभग हर पाँच में से एक स्वीकृत पद रिक्त है (18.8 प्रतिशत), लक्षद्वीप में शून्य से लद्दाख में 47.1 और मेघालय में 42.4 प्रतिशत तक।"
   }
 ]
