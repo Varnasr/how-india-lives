@@ -139,7 +139,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
     {interactive_btn}
     <a class="btn ghost" href="/m/index.html">All 211 maps</a>
   </div>
-  <p class="vint"><strong>Data vintage.</strong> {vintage}</p>
+  <p class="vint"><strong>Data vintage.</strong> {vintage}{newer}</p>
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
@@ -156,8 +156,19 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
         policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
         swap_script=swap_script, vintage=esc(vintage(m)[1]),
+        newer=(' <a href="/explore.html#%s" style="color:var(--acc)">See the NFHS-6 (2023-24) version of this measure in the interactive atlas.</a>' % NEWER[m['id']]) if m['id'] in NEWER else '',
         id=esc(m['id']), interactive_btn=interactive_btn,
     )
+
+# Static NFHS-5 maps whose measure NFHS-6 (2023-24) repeats, and the explorer indicator that holds it.
+NEWER = {
+    'S03a': 'n6_stunting', 'X188': 'n6_underweight', 'X185': 'n6_ebf', 'S03d': 'n6_inst_births',
+    'S03e': 'n6_full_vacc', 'S03k': 'n6_csection', 'X204': 'n6_women_thin', 'S12h': 'n6_women_overweight',
+    'S11h': 'n6_women_bp', 'S11i': 'n6_men_bp', 'S04g': 'n6_bank_w', 'S04a': 'n6_child_marriage',
+    'S11e': 'n6_tobacco_m', 'S11f': 'n6_tobacco_w', 'S11g': 'n6_alcohol_m', 'S12e': 'n6_unmet_need',
+    'S01l': 'n6_iodised_salt', 'S04n': 'n6_teen_mothers',
+}
+
 
 def vintage(m):
     """(short label, sentence) saying how current the data behind a map is."""
@@ -185,7 +196,7 @@ def index_page(maps):
         items = by_sec.get(sec, [])
         if not items:
             continue
-        lis = ''.join('<li><a href="/m/%s.html">%s</a> <span class="vt">%s</span></li>' % (esc(m['id']), esc(m['title']), esc(vintage(m)[0])) for m in items)
+        lis = ''.join('<li><a href="/m/%s.html">%s</a> <span class="vt">%s%s</span></li>' % (esc(m['id']), esc(m['title']), esc(vintage(m)[0]), ', NFHS-6 in atlas' if m['id'] in NEWER else '') for m in items)
         blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
     return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
