@@ -66,4 +66,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/cpcb_polluted_rivers.csv'] = rows_to_csv(
         ['state', 'priority_I_bod_above_30 (mapped)', 'priority_II_20_to_30', 'priority_III_10_to_20', 'priority_IV_6_to_10', 'priority_V_3_to_6', 'total'],
         [[s, r['priority_I'], r['priority_II'], r['priority_III'], r['priority_IV'], r['priority_V'], r['total']] for s, r in sorted(cp.items())])
+    ar = load('data/aser/reading-2024.json')['std5']
+    check_equal('aser_std5_read', {s: x['2024'] for s, x in ar.items()}, by['aser_std5_read']['values'])
+    files['calculations/aser_std5_reading.csv'] = rows_to_csv(
+        ['state', 'can_read_std2_2018_pct', 'can_read_std2_2022_pct', 'can_read_std2_2024_pct (mapped)', 'cannot_read_2024_pct (100 minus mapped)', 'change_2022_to_2024_points'],
+        [[s, x['2018'], x['2022'], x['2024'], fmt(100 - x['2024']), fmt(x['2024'] - x['2022'])] for s, x in sorted(ar.items())])
     return files

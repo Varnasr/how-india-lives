@@ -2601,7 +2601,8 @@
       "education"
     ],
     "title_hi": "कक्षा 2 न पढ़ पाने वाले कक्षा 5 के बच्चे (ASER)",
-    "takeaway_hi": "बिहार में कक्षा 5 के 60%+ छात्र कक्षा 2 का पाठ नहीं पढ़ सकते — वे स्कूल में हैं पर सीख नहीं रहे।"
+    "takeaway_hi": "बिहार में कक्षा 5 के 60%+ छात्र कक्षा 2 का पाठ नहीं पढ़ सकते — वे स्कूल में हैं पर सीख नहीं रहे।",
+    "newer": "X272"
   },
   {
     "id": "S07b",
@@ -5002,5 +5003,24 @@
     ],
     "title_hi": "अत्यधिक प्रदूषित नदी खंड, CPCB 2025",
     "takeaway_hi": "CPCB ने 14 राज्यों और क्षेत्रों में अपने सबसे प्रदूषित वर्ग (जैव-रासायनिक ऑक्सीजन माँग 30 mg/L से अधिक) में 36 नदी खंड सूचीबद्ध किए हैं: उत्तराखंड और तमिलनाडु में 5-5, उत्तर प्रदेश और गुजरात में 4 और कर्नाटक में 3। तालिका के शेष 18 राज्यों में इस वर्ग में कोई नहीं। महाराष्ट्र में कुल 54 प्रदूषित खंड हैं पर केवल 2 अत्यधिक प्रदूषित।"
+  },
+  {
+    "id": "X272",
+    "title": "Std V children who can read a Std II text, ASER 2024",
+    "file": "X272_Std5_children_who_can_read_Std2_text_ASER_2024.png",
+    "section": "education",
+    "source": "ASER Centre, ASER (Rural) 2024",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "In rural government schools 44.8 per cent of Std V children can read a Std II text, which means 55.2 per cent cannot. Himachal Pradesh is highest at 70.1 per cent and Jammu and Kashmir lowest at 21.8, with Nagaland 27.1, Arunachal Pradesh 27.5 and Telangana 29.3 close behind. Compared with 2022, 20 of the 27 published states improved, Sikkim by 26.4 points and Mizoram by 19.5; Tripura fell 8.0 points and Kerala 3.7.",
+    "policy": "ASER tests children at home in rural districts, and these state tables cover government schools only, so they say nothing about private schools or cities. Samples are small in the smaller states, which is why Sikkim's jump should be read as a sign rather than a measurement. Reading a Std II text is a Std II skill, which is what a Std V child is expected to have.",
+    "tags": [
+      "ASER",
+      "learning outcomes",
+      "education",
+      "reading"
+    ],
+    "title_hi": "कक्षा 5 के बच्चे जो कक्षा 2 का पाठ पढ़ सकते हैं, ASER 2024",
+    "takeaway_hi": "ग्रामीण सरकारी स्कूलों में कक्षा 5 के 44.8 प्रतिशत बच्चे कक्षा 2 का पाठ पढ़ सकते हैं, यानी 55.2 प्रतिशत नहीं पढ़ सकते। हिमाचल प्रदेश में सबसे अधिक 70.1 प्रतिशत और जम्मू-कश्मीर में सबसे कम 21.8 प्रतिशत है। 2022 की तुलना में 27 में से 20 राज्यों में सुधार हुआ।"
   }
 ]

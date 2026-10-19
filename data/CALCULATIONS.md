@@ -97,3 +97,7 @@ PM2.5, rainfall and flood-prone districts have no state-level source in hand eit
 ## What the CSVs cannot show
 
 The older static sheets (the 205 made outside this repository) have no per-state numbers here. Those are labelled with their vintage on each page and are not in these CSVs.
+
+## Std V reading, ASER 2024 (`aser_std5_read`)
+
+ASER Centre's Annual Status of Education Report (Rural) 2024, provisional, 28 January 2025: the share of Std V children in rural government schools who can read a Std II level text, 27 states, for 2018, 2022 and 2024. The mapped value is the 2024 figure; the file also gives its complement (children who cannot) and the change since 2022. The all-India rural government-school figure (44.8; 38.5 in 2022) must lie within the state range. ASER tests children at home in rural districts only and its state tables are government schools only. Samples are small in the smaller states.
