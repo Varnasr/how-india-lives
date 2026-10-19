@@ -282,6 +282,12 @@ def main():
         else:
             os.makedirs(os.path.dirname(path), exist_ok=True)
             open(path, 'w', encoding='utf-8').write(text)
+    if not check:
+        for dp, _dn, fn in os.walk(OUT):
+            for f in fn:
+                rel = os.path.relpath(os.path.join(dp, f), OUT)
+                if rel not in files:
+                    os.remove(os.path.join(dp, f))   # an indicator that no longer exists must not leave a stale CSV
     if check:
         extra = []
         for dp, _dn, fn in os.walk(OUT):
