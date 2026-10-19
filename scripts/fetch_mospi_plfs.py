@@ -15,6 +15,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'mospi', 'plfs-contract.json')
+OUT_AGRI = os.path.join(ROOT, 'data', 'mospi', 'plfs-female-agriculture-2025.json')
 URL = 'https://api.mospi.gov.in/api/plfs/getData'
 
 
@@ -48,6 +49,14 @@ def main():
     json.dump(out, open(OUT, 'w'), indent=1, ensure_ascii=False)
     open(OUT, 'a').write('\n')
     print('wrote', OUT, len(rows), 'rows')
+    # indicator 4, calendar year 2025: percentage distribution of female workers by industry section A (agriculture, forestry and fishing)
+    ag = call(dict(indicator_code=4, frequency_code=1, year='2025', year_type_code=2, gender_code=2, sector_code=3, weekly_status_code=1, industry_section_code=2))
+    ag = [r for r in ag if r['industry_section'].startswith('A_')]
+    out2 = {'source': 'MoSPI open data API, dataset PLFS (annual, calendar year 2025), indicator 4, female workers, rural + urban, usual status (PS+SS), industry section A (agriculture, forestry and fishing)',
+            'retrieved': time.strftime('%Y-%m-%d'), 'rows': [{k: r[k] for k in ('year', 'state', 'value', 'industry_section', 'gender', 'sector', 'weekly_status')} for r in ag]}
+    json.dump(out2, open(OUT_AGRI, 'w'), indent=1, ensure_ascii=False)
+    open(OUT_AGRI, 'a').write('\n')
+    print('wrote', OUT_AGRI, len(ag), 'rows')
 
 
 if __name__ == '__main__':

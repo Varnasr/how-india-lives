@@ -1,0 +1,339 @@
+{
+ "source": "MoSPI open data API, dataset PLFS (annual, calendar year 2025), indicator 4, female workers, rural + urban, usual status (PS+SS), industry section A (agriculture, forestry and fishing)",
+ "retrieved": "2026-10-19",
+ "rows": [
+  {
+   "year": "2025",
+   "state": "All India",
+   "value": "59.81",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Andaman & Nicobar Islands",
+   "value": "21.98",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Andhra Pradesh",
+   "value": "53.48",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Arunachal Pradesh",
+   "value": "70.22",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Assam",
+   "value": "67.34",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Bihar",
+   "value": "74.58",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Chandigarh",
+   "value": "0.48",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Chhattisgarh",
+   "value": "71.25",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Dadra & Nagar Haveli & Daman & Diu",
+   "value": "33.85",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Delhi",
+   "value": "0.73",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Goa",
+   "value": "7.26",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Gujarat",
+   "value": "58.02",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Haryana",
+   "value": "45.57",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Himachal Pradesh",
+   "value": "77.34",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Jammu & Kashmir",
+   "value": "74.73",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Jharkhand",
+   "value": "75.57",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Karnataka",
+   "value": "51.55",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Kerala",
+   "value": "32.41",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Ladakh",
+   "value": "72.52",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Lakshadweep",
+   "value": "5.4",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Madhya Pradesh",
+   "value": "72.62",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Maharashtra",
+   "value": "58.5",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Manipur",
+   "value": "25.67",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Meghalaya",
+   "value": "55.33",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Mizoram",
+   "value": "50.07",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Nagaland",
+   "value": "71.68",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Odisha",
+   "value": "69.1",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Puducherry",
+   "value": "14.03",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Punjab",
+   "value": "29.9",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Rajasthan",
+   "value": "78.12",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Sikkim",
+   "value": "48.06",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Tamil Nadu",
+   "value": "35.45",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Telangana",
+   "value": "52.26",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Tripura",
+   "value": "55.35",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Uttarakhand",
+   "value": "59.08",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "Uttar Pradesh",
+   "value": "69.03",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  },
+  {
+   "year": "2025",
+   "state": "West Bengal",
+   "value": "49.73",
+   "industry_section": "A_Agriculture, forestry and fishing",
+   "gender": "female",
+   "sector": "rural + urban",
+   "weekly_status": "PS+SS"
+  }
+ ]
+}

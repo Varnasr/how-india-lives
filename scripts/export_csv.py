@@ -144,6 +144,16 @@ def ncrb_other_calcs(by):
     files['calculations/ncrb_sc_crimes.csv'] = rows_to_csv(
         ['state', 'cases_2024', 'sc_population_lakh_2011', 'ncrb_printed_rate_2024 (mapped value)', 'recomputed_rate_2024 (cases / population)',
          'cases_2023', 'rate_2023 (cases_2023 / population)', 'note'], rows)
+    rows, got = [], {}
+    for s, r in sorted(S.items()):
+        v = round(r['trafficking_2024'] / r['population_lakh'] * 10, 2)
+        got[s] = v
+        rows.append([s, r['trafficking_2022'], r['trafficking_2023'], r['trafficking_2024'], r['population_lakh'], r['trafficking_rate_per_lakh_2024'], v,
+                     round(r['trafficking_2023'] / r['population_lakh'] * 10, 2)])
+    check_equal('ncrb_trafficking', got, by['ncrb_trafficking']['values'])
+    files['calculations/ncrb_trafficking.csv'] = rows_to_csv(
+        ['state', 'cases_2022', 'cases_2023', 'cases_2024', 'population_lakh_2024 (NCRB Table 14.1)', 'ncrb_printed_rate_per_lakh_2024',
+         'cases_per_10_lakh_2024 (cases / population_lakh x 10, 2 dp)', 'cases_per_10_lakh_2023 (same population)'], rows)
     for key, iid in (('murder_honour_2024', 'ncrb_honour'), ('murder_witchcraft_2024', 'ncrb_witchcraft')):
         rows, got = [], {}
         for s, r in sorted(S.items()):
@@ -207,6 +217,13 @@ def raw_series_calcs(by):
     files['calculations/plfs_no_contract.csv'] = rows_to_csv(
         ['state_or_india', 'pct_regular_employees_no_written_contract_2023_24 (as published by MoSPI)', 'pct_2022_23', 'change_points'],
         [[s, a[s], b.get(s, ''), fmt(round(float(a[s]) - float(b[s]), 1)) if s in b else ''] for s in sorted(a)])
+    ag = {r['state']: float(r['value']) for r in load('data/mospi/plfs-female-agriculture-2025.json')['rows']}
+    import build_plfs_nonagri_indicator as na
+    got = {na.GEO.get(s, s): round(100 - v, 1) for s, v in ag.items() if s != 'All India'}
+    check_equal('plfs_women_nonagri', got, by['plfs_women_nonagri']['values'])
+    files['calculations/plfs_women_nonagri.csv'] = rows_to_csv(
+        ['state_or_india', 'pct_of_women_workers_in_agriculture_2025 (as published by MoSPI)', 'pct_outside_agriculture (100 - agriculture share, 1 dp)'],
+        [[s, v, round(100 - v, 1)] for s, v in sorted(ag.items())])
     cap = load('data/mospi/mnre-total-2026-07.json')
     pop = load('data/ncrb/crime-in-india-2024-other.json')
     rows, got = [], {}

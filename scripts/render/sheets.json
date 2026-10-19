@@ -1156,5 +1156,48 @@
       "MNRE",
       "environment"
     ]
+  },
+  {
+    "id": "X261",
+    "indicator": "plfs_women_nonagri",
+    "section": "economy",
+    "file": "X261_Women_workers_outside_agriculture_PLFS_2025.png",
+    "title": "Women workers outside agriculture, PLFS 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: WHERE WOMEN WORK",
+    "subtitle": "Share of women workers whose work is outside agriculture, forestry and fishing,\nPLFS calendar year 2025. India 40.2%.",
+    "callout_note": "of women workers in {state} work outside agriculture, forestry and fishing",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "In Chandigarh 99.5% of women workers are outside agriculture and in Delhi 99.3%, against 21.9% in Rajasthan, 22.7% in Himachal Pradesh and 24.4% in Jharkhand. For India the figure is 40.2%: 59.8% of women workers are in agriculture, forestry or fishing.",
+    "policy": "Counting a woman as a worker includes unpaid work on the family farm, so a low share outside agriculture often means work that carries no wage rather than no work. PLFS was redesigned for 2025, so these figures are not a strict continuation of earlier rounds.",
+    "takeaway_hi": "चंडीगढ़ में 99.5% और दिल्ली में 99.3% महिला श्रमिक कृषि से बाहर हैं, जबकि राजस्थान में 21.9%, हिमाचल प्रदेश में 22.7% और झारखंड में 24.4%। भारत में यह 40.2% है: 59.8% महिला श्रमिक कृषि, वानिकी या मत्स्य पालन में हैं।",
+    "title_hi": "कृषि के बाहर काम करने वाली महिला श्रमिक, PLFS 2025",
+    "tags": [
+      "PLFS",
+      "women",
+      "employment",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "X262",
+    "indicator": "ncrb_trafficking",
+    "section": "economy",
+    "file": "X262_Human_trafficking_cases_recorded_NCRB_2024.png",
+    "title": "Human trafficking cases recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: HUMAN TRAFFICKING AS REGISTERED",
+    "subtitle": "Human trafficking cases registered by the police, per 10 lakh population, NCRB 2024.\nIndia 1.52 (2,135 cases), from 1.55 in 2023.",
+    "callout_note": "cases per 10 lakh people were registered in {state}, the highest figure (62 cases, up from 18 in 2023)",
+    "decimals": 2,
+    "suffix": "",
+    "takeaway": "Tripura registered 14.80 human trafficking cases per 10 lakh people (62 cases, up from 18 in 2023) and Telangana 11.04 (423 cases, the most of any state), against 1.52 for India. Arunachal Pradesh is at 5.06 from 8 cases. Seven states and territories registered none, and Assam, West Bengal and Jharkhand, named on the older map, are below 3.",
+    "policy": "These are registrations by police anti-trafficking units, so a high figure can mean more units actively filing cases rather than more trafficking, and a zero is not proof of none. Fifteen states and territories have fewer than 10 cases, where one case moves the rate a long way. The older map covered 2022, and its ranking has changed.",
+    "takeaway_hi": "त्रिपुरा में प्रति 10 लाख आबादी पर 14.80 मानव तस्करी के मामले दर्ज हुए (62 मामले, 2023 में 18) और तेलंगाना में 11.04 (423 मामले, किसी भी राज्य में सबसे अधिक), जबकि भारत का आँकड़ा 1.52 है। अरुणाचल प्रदेश 8 मामलों से 5.06 पर है। सात राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।",
+    "title_hi": "दर्ज मानव तस्करी के मामले, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "trafficking"
+    ]
   }
 ]

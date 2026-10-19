@@ -5,6 +5,11 @@
    "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
    "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
   },
+  "vol3": {
+   "title": "Crime in India 2024, Volume III (NCRB, Ministry of Home Affairs)",
+   "url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2024-VolumeIII.pdf",
+   "sha256": "44d813b8935b186645fdba1d299f865a00057706ad225f5d857b1e09e0a7a898"
+  },
   "vol2": {
    "title": "Crime in India 2024, Volume II (NCRB, Ministry of Home Affairs), via OpenCity",
    "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/27025829-5e66-49be-9c80-e2a4d1a1b1b8/download/2crimeinindia2024-volumeii.pdf",
@@ -25,7 +30,11 @@
    "sc_crimes_2023": 2027,
    "sc_crimes_2024": 1823,
    "sc_population_lakh_2011": 84.5,
-   "sc_rate_2024": 21.6
+   "sc_rate_2024": 21.6,
+   "trafficking_2022": 163,
+   "trafficking_2023": 120,
+   "trafficking_2024": 159,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Arunachal Pradesh": {
    "murder_2022": 56,
@@ -39,7 +48,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 1,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": null
+   "sc_rate_2024": null,
+   "trafficking_2022": 4,
+   "trafficking_2023": 6,
+   "trafficking_2024": 8,
+   "trafficking_rate_per_lakh_2024": 0.5
   },
   "Assam": {
    "murder_2022": 1072,
@@ -53,7 +66,11 @@
    "sc_crimes_2023": 5,
    "sc_crimes_2024": 7,
    "sc_population_lakh_2011": 22.3,
-   "sc_rate_2024": 0.3
+   "sc_rate_2024": 0.3,
+   "trafficking_2022": 140,
+   "trafficking_2023": 118,
+   "trafficking_2024": 108,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Bihar": {
    "murder_2022": 2930,
@@ -67,7 +84,11 @@
    "sc_crimes_2023": 7064,
    "sc_crimes_2024": 7549,
    "sc_population_lakh_2011": 165.7,
-   "sc_rate_2024": 45.6
+   "sc_rate_2024": 45.6,
+   "trafficking_2022": 260,
+   "trafficking_2023": 132,
+   "trafficking_2024": 138,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Chhattisgarh": {
    "murder_2022": 1013,
@@ -81,7 +102,11 @@
    "sc_crimes_2023": 250,
    "sc_crimes_2024": 268,
    "sc_population_lakh_2011": 32.7,
-   "sc_rate_2024": 8.2
+   "sc_rate_2024": 8.2,
+   "trafficking_2022": 26,
+   "trafficking_2023": 22,
+   "trafficking_2024": 16,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Goa": {
    "murder_2022": 44,
@@ -95,7 +120,11 @@
    "sc_crimes_2023": 4,
    "sc_crimes_2024": 1,
    "sc_population_lakh_2011": 0.3,
-   "sc_rate_2024": 3.9
+   "sc_rate_2024": 3.9,
+   "trafficking_2022": 1,
+   "trafficking_2023": 8,
+   "trafficking_2024": 5,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Gujarat": {
    "murder_2022": 959,
@@ -109,7 +138,11 @@
    "sc_crimes_2023": 1373,
    "sc_crimes_2024": 1304,
    "sc_population_lakh_2011": 40.7,
-   "sc_rate_2024": 32.0
+   "sc_rate_2024": 32.0,
+   "trafficking_2022": 9,
+   "trafficking_2023": 13,
+   "trafficking_2024": 14,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Haryana": {
    "murder_2022": 1020,
@@ -123,7 +156,11 @@
    "sc_crimes_2023": 1539,
    "sc_crimes_2024": 1076,
    "sc_population_lakh_2011": 51.1,
-   "sc_rate_2024": 21.0
+   "sc_rate_2024": 21.0,
+   "trafficking_2022": 13,
+   "trafficking_2023": 80,
+   "trafficking_2024": 37,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Himachal Pradesh": {
    "murder_2022": 85,
@@ -137,7 +174,11 @@
    "sc_crimes_2023": 229,
    "sc_crimes_2024": 247,
    "sc_population_lakh_2011": 17.3,
-   "sc_rate_2024": 14.3
+   "sc_rate_2024": 14.3,
+   "trafficking_2022": 5,
+   "trafficking_2023": 15,
+   "trafficking_2024": 9,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Jharkhand": {
    "murder_2022": 1550,
@@ -151,7 +192,11 @@
    "sc_crimes_2023": 604,
    "sc_crimes_2024": 566,
    "sc_population_lakh_2011": 39.9,
-   "sc_rate_2024": 14.2
+   "sc_rate_2024": 14.2,
+   "trafficking_2022": 100,
+   "trafficking_2023": 78,
+   "trafficking_2024": 97,
+   "trafficking_rate_per_lakh_2024": 0.2
   },
   "Karnataka": {
    "murder_2022": 1404,
@@ -165,7 +210,11 @@
    "sc_crimes_2023": 1923,
    "sc_crimes_2024": 2016,
    "sc_population_lakh_2011": 104.7,
-   "sc_rate_2024": 19.2
+   "sc_rate_2024": 19.2,
+   "trafficking_2022": 18,
+   "trafficking_2023": 14,
+   "trafficking_2024": 15,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Kerala": {
    "murder_2022": 334,
@@ -179,7 +228,11 @@
    "sc_crimes_2023": 1128,
    "sc_crimes_2024": 1064,
    "sc_population_lakh_2011": 30.4,
-   "sc_rate_2024": 35.0
+   "sc_rate_2024": 35.0,
+   "trafficking_2022": 135,
+   "trafficking_2023": 105,
+   "trafficking_2024": 102,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Madhya Pradesh": {
    "murder_2022": 1978,
@@ -193,7 +246,11 @@
    "sc_crimes_2023": 8232,
    "sc_crimes_2024": 7765,
    "sc_population_lakh_2011": 113.4,
-   "sc_rate_2024": 68.5
+   "sc_rate_2024": 68.5,
+   "trafficking_2022": 81,
+   "trafficking_2023": 59,
+   "trafficking_2024": 66,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Maharashtra": {
    "murder_2022": 2295,
@@ -207,7 +264,11 @@
    "sc_crimes_2023": 3024,
    "sc_crimes_2024": 3219,
    "sc_population_lakh_2011": 132.8,
-   "sc_rate_2024": 24.2
+   "sc_rate_2024": 24.2,
+   "trafficking_2022": 295,
+   "trafficking_2023": 388,
+   "trafficking_2024": 337,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Manipur": {
    "murder_2022": 47,
@@ -221,7 +282,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 1,
    "sc_population_lakh_2011": 1.0,
-   "sc_rate_2024": 1.0
+   "sc_rate_2024": 1.0,
+   "trafficking_2022": 0,
+   "trafficking_2023": 2,
+   "trafficking_2024": 2,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Meghalaya": {
    "murder_2022": 72,
@@ -235,7 +300,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 0.2,
-   "sc_rate_2024": 0.0
+   "sc_rate_2024": 0.0,
+   "trafficking_2022": 2,
+   "trafficking_2023": 0,
+   "trafficking_2024": 1,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Mizoram": {
    "murder_2022": 31,
@@ -249,7 +318,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 2,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": 164.2
+   "sc_rate_2024": 164.2,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Nagaland": {
    "murder_2022": 21,
@@ -263,7 +336,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": null
+   "sc_rate_2024": null,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Odisha": {
    "murder_2022": 1379,
@@ -277,7 +354,11 @@
    "sc_crimes_2023": 2696,
    "sc_crimes_2024": 2704,
    "sc_population_lakh_2011": 71.9,
-   "sc_rate_2024": 37.6
+   "sc_rate_2024": 37.6,
+   "trafficking_2022": 121,
+   "trafficking_2023": 162,
+   "trafficking_2024": 141,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Punjab": {
    "murder_2022": 670,
@@ -291,7 +372,11 @@
    "sc_crimes_2023": 116,
    "sc_crimes_2024": 166,
    "sc_population_lakh_2011": 88.6,
-   "sc_rate_2024": 1.9
+   "sc_rate_2024": 1.9,
+   "trafficking_2022": 21,
+   "trafficking_2023": 48,
+   "trafficking_2024": 19,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Rajasthan": {
    "murder_2022": 1834,
@@ -305,7 +390,11 @@
    "sc_crimes_2023": 8449,
    "sc_crimes_2024": 7008,
    "sc_population_lakh_2011": 122.2,
-   "sc_rate_2024": 57.3
+   "sc_rate_2024": 57.3,
+   "trafficking_2022": 117,
+   "trafficking_2023": 81,
+   "trafficking_2024": 75,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Sikkim": {
    "murder_2022": 9,
@@ -319,7 +408,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 1,
    "sc_population_lakh_2011": 0.3,
-   "sc_rate_2024": 3.5
+   "sc_rate_2024": 3.5,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Tamil Nadu": {
    "murder_2022": 1690,
@@ -333,7 +426,11 @@
    "sc_crimes_2023": 1921,
    "sc_crimes_2024": 1777,
    "sc_population_lakh_2011": 144.4,
-   "sc_rate_2024": 12.3
+   "sc_rate_2024": 12.3,
+   "trafficking_2022": 1,
+   "trafficking_2023": 0,
+   "trafficking_2024": 5,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Telangana": {
    "murder_2022": 937,
@@ -347,7 +444,11 @@
    "sc_crimes_2023": 1709,
    "sc_crimes_2024": 2059,
    "sc_population_lakh_2011": 54.3,
-   "sc_rate_2024": 37.9
+   "sc_rate_2024": 37.9,
+   "trafficking_2022": 391,
+   "trafficking_2023": 336,
+   "trafficking_2024": 423,
+   "trafficking_rate_per_lakh_2024": 1.1
   },
   "Tripura": {
    "murder_2022": 109,
@@ -361,7 +462,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 6.5,
-   "sc_rate_2024": 0.0
+   "sc_rate_2024": 0.0,
+   "trafficking_2022": 0,
+   "trafficking_2023": 18,
+   "trafficking_2024": 62,
+   "trafficking_rate_per_lakh_2024": 1.5
   },
   "Uttar Pradesh": {
    "murder_2022": 3491,
@@ -375,7 +480,11 @@
    "sc_crimes_2023": 15130,
    "sc_crimes_2024": 14642,
    "sc_population_lakh_2011": 413.6,
-   "sc_rate_2024": 35.4
+   "sc_rate_2024": 35.4,
+   "trafficking_2022": 126,
+   "trafficking_2023": 155,
+   "trafficking_2024": 138,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Uttarakhand": {
    "murder_2022": 187,
@@ -389,7 +498,11 @@
    "sc_crimes_2023": 102,
    "sc_crimes_2024": 153,
    "sc_population_lakh_2011": 18.9,
-   "sc_rate_2024": 8.1
+   "sc_rate_2024": 8.1,
+   "trafficking_2022": 16,
+   "trafficking_2023": 21,
+   "trafficking_2024": 10,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "West Bengal": {
    "murder_2022": 1696,
@@ -403,7 +516,11 @@
    "sc_crimes_2023": 102,
    "sc_crimes_2024": 116,
    "sc_population_lakh_2011": 214.6,
-   "sc_rate_2024": 0.5
+   "sc_rate_2024": 0.5,
+   "trafficking_2022": 67,
+   "trafficking_2023": 56,
+   "trafficking_2024": 56,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Andaman and Nicobar": {
    "murder_2022": 7,
@@ -417,7 +534,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": null
+   "sc_rate_2024": null,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Chandigarh": {
    "murder_2022": 18,
@@ -431,7 +552,11 @@
    "sc_crimes_2023": 3,
    "sc_crimes_2024": 5,
    "sc_population_lakh_2011": 2.0,
-   "sc_rate_2024": 2.5
+   "sc_rate_2024": 2.5,
+   "trafficking_2022": 1,
+   "trafficking_2023": 4,
+   "trafficking_2024": 3,
+   "trafficking_rate_per_lakh_2024": 0.2
   },
   "Dadra and Nagar Haveli and Daman and Diu": {
    "murder_2022": 16,
@@ -445,7 +570,11 @@
    "sc_crimes_2023": 1,
    "sc_crimes_2024": 2,
    "sc_population_lakh_2011": 0.1,
-   "sc_rate_2024": 16.2
+   "sc_rate_2024": 16.2,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Delhi": {
    "murder_2022": 509,
@@ -459,7 +588,11 @@
    "sc_crimes_2023": 128,
    "sc_crimes_2024": 133,
    "sc_population_lakh_2011": 28.1,
-   "sc_rate_2024": 4.7
+   "sc_rate_2024": 4.7,
+   "trafficking_2022": 106,
+   "trafficking_2023": 117,
+   "trafficking_2024": 65,
+   "trafficking_rate_per_lakh_2024": 0.3
   },
   "Jammu and Kashmir": {
    "murder_2022": 99,
@@ -473,7 +606,11 @@
    "sc_crimes_2023": 26,
    "sc_crimes_2024": 19,
    "sc_population_lakh_2011": 9.2,
-   "sc_rate_2024": 2.1
+   "sc_rate_2024": 2.1,
+   "trafficking_2022": 8,
+   "trafficking_2023": 10,
+   "trafficking_2024": 17,
+   "trafficking_rate_per_lakh_2024": 0.1
   },
   "Ladakh": {
    "murder_2022": 5,
@@ -487,7 +624,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": 0.0
+   "sc_rate_2024": 0.0,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Lakshadweep": {
    "murder_2022": 0,
@@ -501,7 +642,11 @@
    "sc_crimes_2023": 0,
    "sc_crimes_2024": 0,
    "sc_population_lakh_2011": 0.0,
-   "sc_rate_2024": null
+   "sc_rate_2024": null,
+   "trafficking_2022": 0,
+   "trafficking_2023": 0,
+   "trafficking_2024": 0,
+   "trafficking_rate_per_lakh_2024": 0.0
   },
   "Puducherry": {
    "murder_2022": 30,
@@ -515,7 +660,11 @@
    "sc_crimes_2023": 4,
    "sc_crimes_2024": 4,
    "sc_population_lakh_2011": 2.0,
-   "sc_rate_2024": 2.0
+   "sc_rate_2024": 2.0,
+   "trafficking_2022": 23,
+   "trafficking_2023": 15,
+   "trafficking_2024": 7,
+   "trafficking_rate_per_lakh_2024": 0.4
   }
  },
  "india": {
@@ -527,6 +676,9 @@
   "sc_crimes_2023": 57789,
   "sc_crimes_2024": 55698,
   "sc_population_lakh_2011": 2013.8,
-  "sc_rate_2024": 27.7
+  "sc_rate_2024": 27.7,
+  "trafficking_2022": 2250,
+  "trafficking_2023": 2183,
+  "trafficking_2024": 2135
  }
 }

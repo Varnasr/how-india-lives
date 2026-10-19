@@ -1421,7 +1421,8 @@
       "economy"
     ],
     "title_hi": "प्रति 10 लाख जनसंख्या मानव तस्करी के मामले",
-    "takeaway_hi": "तस्करी के मामले असम, पश्चिम बंगाल और झारखंड में केंद्रित हैं — यह गलियारा गरीबी और प्रवास के मार्गों का अनुसरण करता है।"
+    "takeaway_hi": "तस्करी के मामले असम, पश्चिम बंगाल और झारखंड में केंद्रित हैं — यह गलियारा गरीबी और प्रवास के मार्गों का अनुसरण करता है।",
+    "newer": "ncrb_trafficking"
   },
   {
     "id": "S02k",
@@ -3360,7 +3361,8 @@
       "gender"
     ],
     "title_hi": "गैर-कृषि रोज़गार में महिलाएँ",
-    "takeaway_hi": "गैर-कृषि रोज़गार में महिलाएँ दक्षिणी और पश्चिमी राज्यों में केंद्रित हैं।"
+    "takeaway_hi": "गैर-कृषि रोज़गार में महिलाएँ दक्षिणी और पश्चिमी राज्यों में केंद्रित हैं।",
+    "newer": "plfs_women_nonagri"
   },
   {
     "id": "S10h",
@@ -4787,5 +4789,42 @@
     ],
     "title_hi": "प्रति व्यक्ति स्थापित नवीकरणीय क्षमता, जुलाई 2026",
     "takeaway_hi": "सिक्किम में प्रति व्यक्ति 3,350 वाट स्थापित नवीकरणीय क्षमता है, हिमाचल प्रदेश में 1,726 और अरुणाचल प्रदेश में 1,438, जबकि भारत का आँकड़ा 208 और बिहार का 5 है। गुजरात में 724 और राजस्थान में 612 है। झारखंड और त्रिपुरा में 14-14।"
+  },
+  {
+    "id": "X261",
+    "title": "Women workers outside agriculture, PLFS 2025",
+    "file": "X261_Women_workers_outside_agriculture_PLFS_2025.png",
+    "section": "economy",
+    "source": "PLFS 2025 (MoSPI)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "In Chandigarh 99.5% of women workers are outside agriculture and in Delhi 99.3%, against 21.9% in Rajasthan, 22.7% in Himachal Pradesh and 24.4% in Jharkhand. For India the figure is 40.2%: 59.8% of women workers are in agriculture, forestry or fishing.",
+    "policy": "Counting a woman as a worker includes unpaid work on the family farm, so a low share outside agriculture often means work that carries no wage rather than no work. PLFS was redesigned for 2025, so these figures are not a strict continuation of earlier rounds.",
+    "tags": [
+      "PLFS",
+      "women",
+      "employment",
+      "agriculture"
+    ],
+    "title_hi": "कृषि के बाहर काम करने वाली महिला श्रमिक, PLFS 2025",
+    "takeaway_hi": "चंडीगढ़ में 99.5% और दिल्ली में 99.3% महिला श्रमिक कृषि से बाहर हैं, जबकि राजस्थान में 21.9%, हिमाचल प्रदेश में 22.7% और झारखंड में 24.4%। भारत में यह 40.2% है: 59.8% महिला श्रमिक कृषि, वानिकी या मत्स्य पालन में हैं।"
+  },
+  {
+    "id": "X262",
+    "title": "Human trafficking cases recorded, NCRB 2024",
+    "file": "X262_Human_trafficking_cases_recorded_NCRB_2024.png",
+    "section": "economy",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Tripura registered 14.80 human trafficking cases per 10 lakh people (62 cases, up from 18 in 2023) and Telangana 11.04 (423 cases, the most of any state), against 1.52 for India. Arunachal Pradesh is at 5.06 from 8 cases. Seven states and territories registered none, and Assam, West Bengal and Jharkhand, named on the older map, are below 3.",
+    "policy": "These are registrations by police anti-trafficking units, so a high figure can mean more units actively filing cases rather than more trafficking, and a zero is not proof of none. Fifteen states and territories have fewer than 10 cases, where one case moves the rate a long way. The older map covered 2022, and its ranking has changed.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "trafficking"
+    ],
+    "title_hi": "दर्ज मानव तस्करी के मामले, NCRB 2024",
+    "takeaway_hi": "त्रिपुरा में प्रति 10 लाख आबादी पर 14.80 मानव तस्करी के मामले दर्ज हुए (62 मामले, 2023 में 18) और तेलंगाना में 11.04 (423 मामले, किसी भी राज्य में सबसे अधिक), जबकि भारत का आँकड़ा 1.52 है। अरुणाचल प्रदेश 8 मामलों से 5.06 पर है। सात राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
   }
 ]

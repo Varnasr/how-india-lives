@@ -1,0 +1,37 @@
+state,cases_2022,cases_2023,cases_2024,population_lakh_2024 (NCRB Table 14.1),ncrb_printed_rate_per_lakh_2024,"cases_per_10_lakh_2024 (cases / population_lakh x 10, 2 dp)",cases_per_10_lakh_2023 (same population)
+Andaman and Nicobar,0,0,0,4.0,0.0,0.0,0.0
+Andhra Pradesh,163,120,159,534.0,0.3,2.98,2.25
+Arunachal Pradesh,4,6,8,15.8,0.5,5.06,3.8
+Assam,140,118,108,361.6,0.3,2.99,3.26
+Bihar,260,132,138,1292.1,0.1,1.07,1.02
+Chandigarh,1,4,3,12.5,0.2,2.4,3.2
+Chhattisgarh,26,22,16,306.4,0.1,0.52,0.72
+Dadra and Nagar Haveli and Daman and Diu,0,0,0,13.9,0.0,0.0,0.0
+Delhi,106,117,65,218.8,0.3,2.97,5.35
+Goa,1,8,5,15.9,0.3,3.14,5.03
+Gujarat,9,13,14,726.5,0.0,0.19,0.18
+Haryana,13,80,37,306.9,0.1,1.21,2.61
+Himachal Pradesh,5,15,9,75.2,0.1,1.2,1.99
+Jammu and Kashmir,8,10,17,137.3,0.1,1.24,0.73
+Jharkhand,100,78,97,401.3,0.2,2.42,1.94
+Karnataka,18,14,15,682.6,0.0,0.22,0.21
+Kerala,135,105,102,359.7,0.3,2.84,2.92
+Ladakh,0,0,0,3.0,0.0,0.0,0.0
+Lakshadweep,0,0,0,0.7,0.0,0.0,0.0
+Madhya Pradesh,81,59,66,879.5,0.1,0.75,0.67
+Maharashtra,295,388,337,1276.8,0.3,2.64,3.04
+Manipur,0,2,2,32.6,0.1,0.61,0.61
+Meghalaya,2,0,1,33.9,0.0,0.29,0.0
+Mizoram,0,0,0,12.5,0.0,0.0,0.0
+Nagaland,0,0,0,22.6,0.0,0.0,0.0
+Odisha,121,162,141,466.6,0.3,3.02,3.47
+Puducherry,23,15,7,17.0,0.4,4.12,8.82
+Punjab,21,48,19,309.9,0.1,0.61,1.55
+Rajasthan,117,81,75,821.9,0.1,0.91,0.99
+Sikkim,0,0,0,7.0,0.0,0.0,0.0
+Tamil Nadu,1,0,5,771.7,0.0,0.06,0.0
+Telangana,391,336,423,383.2,1.1,11.04,8.77
+Tripura,0,18,62,41.9,1.5,14.8,4.3
+Uttar Pradesh,126,155,138,2388.8,0.1,0.58,0.65
+Uttarakhand,16,21,10,118.0,0.1,0.85,1.78
+West Bengal,67,56,56,997.2,0.1,0.56,0.56

@@ -12,6 +12,7 @@ ncrb_sc_crimes     cases of crime against Scheduled Castes / lakh SC population 
                    population is under 1 lakh is left grey: one case would swing its rate by more than 100.
 ncrb_honour        murders recorded with 'honour killing' as the motive, per crore population (cases / population_lakh x 100)
 ncrb_witchcraft    murders recorded with 'witchcraft' as the motive, per crore population
+Trafficking is cases / population_lakh x 10 per 10 lakh (population as NCRB prints it with Table 14.1), with fewCases below 10 cases.
 Honour and witchcraft counts are tiny (36 and 54 in India), so a single case moves a small state a long way; the text on the maps says so rather than flagging 30 states.
 """
 import json
@@ -68,6 +69,24 @@ def build(raw):
             'national': round(I[key] / I['population_lakh'] * 100, 2), 'values': dict(sorted(vals.items())), 
             'sourceUrl': pv1, 'retrieved': '2026-10-19', 'name_hi': nhi, 'unit_hi': 'मामले प्रति करोड़ आबादी', 'desc_hi': dhi,
         })
+    tp, tprev, tfew = {}, {}, []
+    for s, r in S.items():
+        if r['trafficking_2024'] is None or not r['population_lakh']:
+            continue
+        tp[s] = round(r['trafficking_2024'] / r['population_lakh'] * 10, 2)
+        tprev[s] = round(r['trafficking_2023'] / r['population_lakh'] * 10, 2)
+        if r['trafficking_2024'] < 10:
+            tfew.append(s)
+    out.append({
+        'id': 'ncrb_trafficking', 'theme': 'Economy', 'name': 'Human Trafficking Cases Recorded', 'unit': 'cases per 10 lakh population',
+        'source': 'NCRB (Crime in India 2024, Volume III)', 'year': '2024',
+        'desc': 'Human trafficking cases registered by the police (from their Anti Human Trafficking Units), per 10 lakh population, 2024, with 2023 beside it. It counts registrations, not incidence, and a state with few cases moves a long way on one case.',
+        'higherIsBetter': None, 'national': round(I['trafficking_2024'] / I['population_lakh'] * 10, 2), 'values': dict(sorted(tp.items())),
+        'previous': dict(sorted(tprev.items())), 'previousYear': '2023', 'nationalPrevious': round(I['trafficking_2023'] / I['population_lakh'] * 10, 2),
+        'fewCases': sorted(tfew), 'sourceUrl': raw['source']['vol3']['url'], 'retrieved': '2026-10-19',
+        'name_hi': 'दर्ज मानव तस्करी के मामले', 'unit_hi': 'मामले प्रति 10 लाख आबादी',
+        'desc_hi': 'पुलिस (उनकी मानव तस्करी निरोधक इकाइयों) में दर्ज मानव तस्करी के मामले, प्रति 10 लाख आबादी, 2024, 2023 के साथ। यह दर्ज मामलों की गिनती है, घटनाओं की नहीं, और कम मामलों वाले राज्य में एक मामला आँकड़े को बहुत बदल देता है।',
+    })
     return out
 
 

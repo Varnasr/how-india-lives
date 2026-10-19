@@ -34,6 +34,7 @@ Source: NCRB Crime in India 2024, Volume 1 (Tables 2A.1 and 2A.2) and Volume II 
 
 - Honour killings and witchcraft are counts of murders by recorded motive (Table 2A.2). The map divides by the population NCRB prints beside the murder counts (Table 2A.1, lakh) and multiplies by 100, giving cases per crore. India has 36 and 54 such murders, so one case moves a small state a long way (Manipur's top rate is one case; so is Nagaland's for witchcraft). A zero means none recorded under that motive.
 - Crimes against Scheduled Castes uses NCRB's printed 2024 rate per lakh SC population (2011 Census). It is recomputed from cases and the population NCRB prints to 0.1 lakh and must agree within that rounding. 2023 is 2023 cases over the same population. Ten states and territories with under 1 lakh SC people are left grey.
+- Human trafficking (`ncrb_trafficking`, Crime in India 2024 Volume III, Table 14.1): cases divided by the population NCRB prints with the table (lakh) times 10, giving cases per 10 lakh; 2023 uses the same population. The extractor requires IPC plus BNS to equal each state's total and the states and UTs to add to NCRB's printed totals (2,135 cases in India). States with under 10 cases are flagged as small samples.
 - These count registrations, not incidence, so the maps claim no direction.
 
 ## State output (`gsdp_pc`, `gsva_agri`, `gsva_mfg`, `gsva_services`)
@@ -54,6 +55,10 @@ Source: MoSPI National Accounts Statistics, state series, base year 2011-12, cur
 
 Installed renewable capacity is MoSPI's MNRE series `Total Power` (solar, wind, hydro including large hydro, bio) in MW for July 2026; the 36 states and UTs plus 'Others' add to the All India row within 1 MW. Population is the 2024 state figure (lakh) NCRB prints beside its murder table, taken from the National Commission on Population's 2020 projections. Watts per person = MW x 1,000,000 / (lakh x 100,000) = MW x 10 / lakh. The capacity year (2026) and the population year (2024) differ. The national figure is All India capacity over the total population.
 
+## Women workers outside agriculture (`plfs_women_nonagri`)
+
+MoSPI's PLFS calendar-year 2025 distribution of female workers by industry (usual status, rural and urban). The map plots 100 minus the share in agriculture, forestry and fishing, one decimal; the All India row is MoSPI's. PLFS was redesigned for 2025, so earlier rounds are not strictly comparable.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.
@@ -73,7 +78,7 @@ Source: MoSPI ENVSTATS, from the India State of Forest Report and IMD.
 
 ## What is not on the maps
 
-Human trafficking, the old S02j sheet, has no 2024 state table here: it sits in Crime in India 2024 Volume III, which I could not reach from a primary source. PM2.5, rainfall and flood-prone districts have no state-level source in hand either. Their sheets keep their old vintage and say so.
+PM2.5, rainfall and flood-prone districts have no state-level source in hand either. Their sheets keep their old vintage and say so.
 
 ## What the CSVs cannot show
 

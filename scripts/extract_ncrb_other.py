@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Read three more NCRB tables, 2024, into data/ncrb/crime-in-india-2024-other.json.
+"""Read four more NCRB tables, 2024, into data/ncrb/crime-in-india-2024-other.json.
 
-    python3 scripts/extract_ncrb_other.py VOL1.pdf VOL2.pdf          # writes the JSON
-    python3 scripts/extract_ncrb_other.py VOL1.pdf VOL2.pdf --check  # compares only
+    python3 scripts/extract_ncrb_other.py VOL1.pdf VOL2.pdf VOL3.pdf          # writes the JSON
+    python3 scripts/extract_ncrb_other.py VOL1.pdf VOL2.pdf VOL3.pdf --check  # compares only
 
 Crime in India 2024 Volume 1 (Table 2A.1 murder with population, Table 2A.2 motives of murder) and
-Volume 2 (Table 7A.1 crimes against Scheduled Castes). The PDFs are not committed; their SHA-256 is
+Volume 2 (Table 7A.1 crimes against Scheduled Castes) and Volume III (Table 14.1 human trafficking; OpenCity's 'Vol 3' is a copy of Volume II, so the file comes from ncrb.gov.in). The PDFs are not committed; their SHA-256 is
 recorded and must match, so a different edition is refused. Each row is read by serial number, and
 the state rows must add to NCRB's own printed 'TOTAL STATE(S)', 'TOTAL UT(S)' and 'TOTAL ALL INDIA'
 or the extract stops. The 36 serial numbers are the same in every table.
@@ -22,6 +22,8 @@ OUT = os.path.join(ROOT, 'data', 'ncrb', 'crime-in-india-2024-other.json')
 SRC = {
     'vol1': ('https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf',
              '75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c', 'Crime in India 2024, Volume 1 (NCRB, Ministry of Home Affairs), via OpenCity'),
+    'vol3': ('https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2024-VolumeIII.pdf',
+             '44d813b8935b186645fdba1d299f865a00057706ad225f5d857b1e09e0a7a898', 'Crime in India 2024, Volume III (NCRB, Ministry of Home Affairs)'),
     'vol2': ('https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/27025829-5e66-49be-9c80-e2a4d1a1b1b8/download/2crimeinindia2024-volumeii.pdf',
              '423af46b6704338d9241fc95411fbca706b70662e79becdd4dc8f7ab0c16ae50', 'Crime in India 2024, Volume II (NCRB, Ministry of Home Affairs), via OpenCity'),
 }
@@ -50,9 +52,9 @@ def rows(block, ncols):
         if m and 1 <= int(m.group(1)) <= 36 and not re.search(r'\d\s*$', m.group(2)):
             out[int(m.group(1))] = m.group(3).split()
             continue
-        m = re.match(r'^\s*(TOTAL STATE\(S\)|TOTAL UT\(S\)|TOTAL ALL INDIA)\s+((?:' + NUM + r'\s+){%d}' % (ncols - 1) + NUM + r')\s*$', line)
+        m = re.match(r'^\s*(TOTAL STATE\(S\)|TOTAL UT\(S\)|TOTAL \(?ALL INDIA\)?)\s+((?:' + NUM + r'\s+){%d}' % (ncols - 1) + NUM + r')\s*$', line)
         if m:
-            tot[{'TOTAL STATE(S)': 'states', 'TOTAL UT(S)': 'uts', 'TOTAL ALL INDIA': 'india'}[m.group(1)]] = m.group(2).split()
+            tot[{'TOTAL STATE(S)': 'states', 'TOTAL UT(S)': 'uts', 'TOTAL ALL INDIA': 'india', 'TOTAL (ALL INDIA)': 'india'}[m.group(1)]] = m.group(2).split()
     return out, tot
 
 
@@ -75,11 +77,11 @@ def check_totals(label, r, tot, cols):
 
 
 def main():
-    v1, v2 = sys.argv[1], sys.argv[2]
-    for k, p in (('vol1', v1), ('vol2', v2)):
+    v1, v2, v3 = sys.argv[1], sys.argv[2], sys.argv[3]
+    for k, p in (('vol1', v1), ('vol2', v2), ('vol3', v3)):
         if sha(p) != SRC[k][1]:
             raise SystemExit('%s: SHA-256 differs from the edition this script was written for' % p)
-    t1, t2 = text(v1), text(v2)
+    t1, t2, t3 = text(v1), text(v2), text(v3)
     # Table 2A.1: cases 2022, 2023, 2024, population (lakh), rate, chargesheeting rate
     a = t1.rindex('STATES:', 0, t1.index('TABLE 2A.1 Page 1 of 1'))
     r21, tot21 = rows(t1[a:t1.index('TABLE 2A.1 Page 1 of 1')], 6)
@@ -93,13 +95,20 @@ def main():
     # Table 7A.1: 2022, 2023, 2024, SC population lakh (2011), rate 2024, chargesheeting rate 2024
     j = t2.index('Crime/Atrocities against Scheduled Caste(s) - 2022-2024')
     r71, tot71 = rows(t2[j:t2.index('TABLE 7A.1 Page 1 of 1', j)], 6)
-    for name, r in (('2A.1', r21), ('2A.2 p1', r221), ('2A.2 p2', r222), ('7A.1', r71)):
+    # Table 14.1: cases 2022, 2023, IPC 2024, BNS 2024, total 2024, population (lakh), rate per lakh, chargesheeting rate
+    k = t3.index('Human Trafficking Cases - 2024')
+    r141, tot141 = rows(t3[k:t3.index('TABLE 14.1 - Page 1 of 1', k)], 8)
+    for name, r in (('2A.1', r21), ('2A.2 p1', r221), ('2A.2 p2', r222), ('7A.1', r71), ('14.1', r141)):
         if sorted(r) != list(range(1, 37)):
             raise SystemExit('%s: expected 36 rows, got serials %s' % (name, sorted(r)))
     check_totals('2A.1', r21, tot21, [0, 1, 2, 3])
     check_totals('2A.2 p1', r221, tot221, range(7))
     check_totals('2A.2 p2', r222, tot222, range(7))
     check_totals('7A.1', r71, tot71, [0, 1, 2, 3])
+    check_totals('14.1', r141, tot141, [0, 1, 2, 3, 4, 5])
+    for sl in r141:
+        if num(r141[sl][2]) + num(r141[sl][3]) != num(r141[sl][4]):
+            raise SystemExit('14.1: IPC + BNS is not the total for row %d' % sl)
     out = {'source': {k: {'title': v[2], 'url': v[0], 'sha256': v[1]} for k, v in SRC.items()},
            'note': 'Counts are crimes registered with the police in 2024. Murder motives are cases of murder (Table 2A.2) by motive recorded. '
                    'SC population is the 2011 Census figure NCRB prints. Totals were checked against NCRB TOTAL STATE(S), TOTAL UT(S) and TOTAL ALL INDIA.',
@@ -112,11 +121,14 @@ def main():
             'murder_witchcraft_2024': num(r221[sl][3]), 'murder_honour_2024': num(r222[sl][2]),
             'sc_crimes_2022': num(r71[sl][0]), 'sc_crimes_2023': num(r71[sl][1]), 'sc_crimes_2024': num(r71[sl][2]),
             'sc_population_lakh_2011': num(r71[sl][3]), 'sc_rate_2024': num(r71[sl][4]),
+            'trafficking_2022': num(r141[sl][0]), 'trafficking_2023': num(r141[sl][1]), 'trafficking_2024': num(r141[sl][4]),
+            'trafficking_rate_per_lakh_2024': num(r141[sl][6]),
         }
     out['india'] = {'murder_2024': num(tot21['india'][2]), 'population_lakh': num(tot21['india'][3]),
                     'murder_witchcraft_2024': num(tot221['india'][3]), 'murder_honour_2024': num(tot222['india'][2]),
                     'sc_crimes_2022': num(tot71['india'][0]), 'sc_crimes_2023': num(tot71['india'][1]), 'sc_crimes_2024': num(tot71['india'][2]),
-                    'sc_population_lakh_2011': num(tot71['india'][3]), 'sc_rate_2024': num(tot71['india'][4])}
+                    'sc_population_lakh_2011': num(tot71['india'][3]), 'sc_rate_2024': num(tot71['india'][4]),
+                    'trafficking_2022': num(tot141['india'][0]), 'trafficking_2023': num(tot141['india'][1]), 'trafficking_2024': num(tot141['india'][4])}
     if '--check' in sys.argv:
         print('OK' if json.load(open(OUT)) == json.loads(json.dumps(out)) else 'STALE')
         return

@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 68 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 70 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 260 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 262 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 68 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 70 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -87,12 +87,11 @@ more crime, easier reporting, or both, so `higherIsBetter` is null and the sheet
 say so. Do not rank states on them. Dowry deaths and acid attacks are derived
 from NCRB's case counts over its female population because the printed rate has
 one decimal; the derived value rounds to NCRB's printed rate in every state. A
-zero means none registered. The trafficking map (S02j) is not refreshed: its 2024 table is in Crime in India
-Volume III, which could not be fetched from a primary source. Honour killings,
+zero means none registered. Trafficking (Volume III Table 14.1, from ncrb.gov.in, not OpenCity whose 'Vol 3' is a copy of Volume II), honour killings,
 witchcraft murders and crimes against SCs come from `data/ncrb/crime-in-india-2024-other.json`,
-read by `scripts/extract_ncrb_other.py` from Volumes 1 and II (SHA-256 pinned, totals
-checked) and turned into `ncrb_honour`, `ncrb_witchcraft` and `ncrb_sc_crimes` by
-`scripts/build_ncrb_other_indicators.py`; X249 to X251 are drawn from those.
+read by `scripts/extract_ncrb_other.py` from Volumes 1, II and III (SHA-256 pinned, totals
+checked) and turned into `ncrb_honour`, `ncrb_witchcraft`, `ncrb_sc_crimes` and `ncrb_trafficking` by
+`scripts/build_ncrb_other_indicators.py`; X249 to X251 and X262 are drawn from those.
 
 ## Climate and court maps, and the two source faults found
 
@@ -132,8 +131,9 @@ no all-India row in these series, so `national` is null. The API can be called d
 `scripts/fetch_mospi_udise.py` (`/api/udise/getUdiseRecords`, indicator 28) and `scripts/fetch_mospi_plfs.py`
 (`/api/plfs/getData`, indicator 5) commit their raw rows under `data/mospi/`; `build_udise_enrolment_indicators.py`
 and `build_plfs_contract_indicator.py` turn them into `udise_private_share` (X257) and `plfs_no_contract` (X258).
-UDISE management categories must add to the all-management total. PLFS annual data stops at 2023-24, and
-indicator 4 (worker distribution) returned nothing for the filters tried, so S10g is not rebuilt.
+UDISE management categories must add to the all-management total. PLFS annual data stops at 2023-24 on the agriculture-year series; indicator 4 (worker distribution) works for
+calendar year 2025 with `year_type_code=2` (industry_section_code 2 is agriculture; code 1 is 'All'), which
+builds `plfs_women_nonagri` (X261, MoSPI redesigned PLFS for 2025).
 
 ## ENVSTATS cannot be bulk-fetched from here
 
@@ -264,7 +264,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 260 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 262 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.
