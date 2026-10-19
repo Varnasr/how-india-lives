@@ -59,6 +59,14 @@ Installed renewable capacity is MoSPI's MNRE series `Total Power` (solar, wind, 
 
 MoSPI's PLFS calendar-year 2025 distribution of female workers by industry (usual status, rural and urban). The map plots 100 minus the share in agriculture, forestry and fishing, one decimal; the All India row is MoSPI's. PLFS was redesigned for 2025, so earlier rounds are not strictly comparable.
 
+## HIV, health spending, beds, PM-JAY and Mudra (`naco_hiv`, `nha_*`, `ls_public_beds`, `pmjay_admissions`, `mudra_sc_st`)
+
+- **Adult HIV prevalence:** NACO Sankalak (7th edition, 2025) Figure 2.7, estimates for 2024, as printed. It is a model-based estimate. Ladakh and Lakshadweep are not reported.
+- **Health spending:** National Health Accounts 2022-23, Table A.6, 21 states. Government spending per person and the out-of-pocket share of total health spending are the table's own figures. Each row is checked: the shares equal the ratios of the crore figures (0.15 point) and each per-person figure equals spending over the printed population (4%). Out-of-pocket spending rests on the NSS 75th round (2017-18).
+- **Public beds:** Lok Sabha question 1000 of 25 July 2025, beds at PHC, CHC, sub-district and district hospitals and medical colleges as on 31 March 2023, divided by 2024 projected population (NCRB Table 2A.1) per lakh. The five columns add to 8,18,661, the figure in the answer. The medical-college column adds to 16,998 beds more than its printed total, which is exactly Maharashtra's entry, so Maharashtra is left off. The table lists Uttarakhand as 26 and Uttar Pradesh as 27.
+- **PM-JAY:** Lok Sabha question 2518 of 13 February 2026, admissions authorised in FY 2024-25 (lakh) divided by population (lakh) times 100,000. The table prints no total to check. Delhi and Odisha joined in April 2025 and West Bengal is not in the scheme.
+- **Mudra:** Lok Sabha question 5803 of 30 March 2026, loans to SC and ST entrepreneurs April 2022 to March 2025, divided by SC plus ST population in lakh (Census 2011, NCRB Tables 7A.1 and 7C.1). The loan counts add to the printed 3,84,16,963. States with under 1 lakh SC and ST people are left off.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.

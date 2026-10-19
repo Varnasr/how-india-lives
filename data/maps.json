@@ -234,7 +234,8 @@
       "financial inclusion"
     ],
     "title_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण",
-    "takeaway_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण 5 गुना तक भिन्न है — ऋण तक पहुँच बराबर नहीं है।"
+    "takeaway_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण 5 गुना तक भिन्न है — ऋण तक पहुँच बराबर नहीं है।",
+    "newer": "mudra_sc_st"
   },
   {
     "id": "X179",
@@ -1681,7 +1682,8 @@
       "health"
     ],
     "title_hi": "प्रति व्यक्ति सरकारी स्वास्थ्य व्यय",
-    "takeaway_hi": "केरल सार्वजनिक स्वास्थ्य पर प्रति व्यक्ति Rs 2,500+ खर्च करता है; बिहार Rs 500 से कम खर्च करता है।"
+    "takeaway_hi": "केरल सार्वजनिक स्वास्थ्य पर प्रति व्यक्ति Rs 2,500+ खर्च करता है; बिहार Rs 500 से कम खर्च करता है।",
+    "newer": "nha_ghe_pc"
   },
   {
     "id": "S03i",
@@ -1831,7 +1833,8 @@
       "health"
     ],
     "title_hi": "प्रति लाख आबादी पर अस्पताल बिस्तर",
-    "takeaway_hi": "केरल में प्रति 1,000 पर 5+ अस्पताल बिस्तर हैं; बिहार में 1 से कम — WHO न्यूनतम से नीचे।"
+    "takeaway_hi": "केरल में प्रति 1,000 पर 5+ अस्पताल बिस्तर हैं; बिहार में 1 से कम — WHO न्यूनतम से नीचे।",
+    "newer": "ls_public_beds"
   },
   {
     "id": "S03q",
@@ -1849,7 +1852,8 @@
       "health insurance"
     ],
     "title_hi": "PM-JAY आयुष्मान भारत प्रति लाख अस्पताल भर्ती",
-    "takeaway_hi": "आयुष्मान भारत के तहत प्रति लाख अस्पताल भर्ती राज्यों के बीच 10 गुना भिन्न है — उपयोग ≠ कवरेज।"
+    "takeaway_hi": "आयुष्मान भारत के तहत प्रति लाख अस्पताल भर्ती राज्यों के बीच 10 गुना भिन्न है — उपयोग ≠ कवरेज।",
+    "newer": "pmjay_admissions"
   },
   {
     "id": "S03r",
@@ -1867,7 +1871,8 @@
       "poverty"
     ],
     "title_hi": "जेब से स्वास्थ्य व्यय",
-    "takeaway_hi": "उत्तर प्रदेश और बिहार में जेब से होने वाला स्वास्थ्य व्यय कुल स्वास्थ्य व्यय के 70% से अधिक है।"
+    "takeaway_hi": "उत्तर प्रदेश और बिहार में जेब से होने वाला स्वास्थ्य व्यय कुल स्वास्थ्य व्यय के 70% से अधिक है।",
+    "newer": "nha_oope_share"
   },
   {
     "id": "S03s",
@@ -1921,7 +1926,8 @@
       "health"
     ],
     "title_hi": "वयस्कों में HIV प्रसार, 15-49",
-    "takeaway_hi": "HIV प्रसार मिज़ोरम, नागालैंड और मणिपुर (पूर्वोत्तर) तथा दक्षिणी राज्यों में केंद्रित है।"
+    "takeaway_hi": "HIV प्रसार मिज़ोरम, नागालैंड और मणिपुर (पूर्वोत्तर) तथा दक्षिणी राज्यों में केंद्रित है।",
+    "newer": "naco_hiv"
   },
   {
     "id": "S04a",
@@ -3790,7 +3796,8 @@
       "health"
     ],
     "title_hi": "वयस्कों 15-49 में एचआईवी प्रसार",
-    "takeaway_hi": "वयस्कों में एचआईवी प्रसार पूर्वोत्तर राज्यों (इंजेक्शन-जनित) और दक्षिणी राज्यों (यौन-संचारित) में केंद्रित है।"
+    "takeaway_hi": "वयस्कों में एचआईवी प्रसार पूर्वोत्तर राज्यों (इंजेक्शन-जनित) और दक्षिणी राज्यों (यौन-संचारित) में केंद्रित है।",
+    "newer": "naco_hiv"
   },
   {
     "id": "X206",
@@ -4826,5 +4833,114 @@
     ],
     "title_hi": "दर्ज मानव तस्करी के मामले, NCRB 2024",
     "takeaway_hi": "त्रिपुरा में प्रति 10 लाख आबादी पर 14.80 मानव तस्करी के मामले दर्ज हुए (62 मामले, 2023 में 18) और तेलंगाना में 11.04 (423 मामले, किसी भी राज्य में सबसे अधिक), जबकि भारत का आँकड़ा 1.52 है। अरुणाचल प्रदेश 8 मामलों से 5.06 पर है। सात राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X263",
+    "title": "Adult HIV prevalence, NACO 2024",
+    "file": "X263_Adult_HIV_prevalence_NACO_2024.png",
+    "section": "health",
+    "source": "NACO (Sankalak 2025)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Mizoram has the highest estimated adult HIV prevalence at 2.75 per cent, followed by Nagaland at 1.37 and Manipur at 0.81, against 0.20 for India. Jammu and Kashmir has the lowest at 0.06, then Kerala and Jharkhand at 0.07. Andhra Pradesh (0.58) and Karnataka (0.44) are the highest among the large southern states.",
+    "policy": "These are modelled estimates from surveillance and programme data, not a count of people tested, so small differences between low-prevalence states are within the margin of error. Prevalence is a share of adults. The states with the most people living with HIV in absolute terms differ from those with the highest prevalence.",
+    "tags": [
+      "HIV",
+      "NACO",
+      "health"
+    ],
+    "title_hi": "वयस्कों में एचआईवी का प्रसार, NACO 2024",
+    "takeaway_hi": "अनुमानित वयस्क एचआईवी प्रसार मिज़ोरम में सबसे अधिक 2.75 प्रतिशत है, फिर नागालैंड में 1.37 और मणिपुर में 0.81, जबकि भारत का आँकड़ा 0.20 है। जम्मू और कश्मीर में सबसे कम 0.06 है, फिर केरल और झारखंड में 0.07।"
+  },
+  {
+    "id": "X264",
+    "title": "Government health spending per person, NHA 2022-23",
+    "file": "X264_Government_health_spending_per_person_NHA_2022-23.png",
+    "section": "health",
+    "source": "National Health Accounts 2022-23",
+    "year": "2022-23",
+    "quality": "NEW",
+    "takeaway": "Government agencies spend Rs 5,913 per person on health in Himachal Pradesh, Rs 3,916 in Jammu and Kashmir and Rs 3,592 in Kerala, against Rs 1,056 in Bihar, Rs 1,419 in Uttar Pradesh and Rs 1,536 in Jharkhand. Only 21 states are covered.",
+    "policy": "The figure counts spending by the Union, state and local governments inside the state, so it includes central schemes and is not what the state government alone spends. Three of the four highest are hill states (Himachal Pradesh, Jammu and Kashmir, Uttarakhand). The 21 states are those for which the estimate can be made; small states, union territories and most of the north-east are not covered.",
+    "tags": [
+      "NHA",
+      "health spending",
+      "health"
+    ],
+    "title_hi": "प्रति व्यक्ति सरकारी स्वास्थ्य व्यय, NHA 2022-23",
+    "takeaway_hi": "हिमाचल प्रदेश में सरकारी एजेंसियाँ प्रति व्यक्ति 5,913 रुपये स्वास्थ्य पर खर्च करती हैं, जम्मू और कश्मीर में 3,916 और केरल में 3,592, जबकि बिहार में 1,056, उत्तर प्रदेश में 1,419 और झारखंड में 1,536। केवल 21 राज्य शामिल हैं।"
+  },
+  {
+    "id": "X265",
+    "title": "Out-of-pocket share of health spending, NHA 2022-23",
+    "file": "X265_Out-of-pocket_share_of_health_spending_NHA_2022-23.png",
+    "section": "health",
+    "source": "National Health Accounts 2022-23",
+    "year": "2022-23",
+    "quality": "NEW",
+    "takeaway": "Households pay 66.1 per cent of health spending out of pocket in Uttar Pradesh, 64.0 in Kerala, 62.3 in West Bengal and 60.6 in Punjab, against 28.8 in Uttarakhand, 29.2 in Karnataka and 29.7 in Jammu and Kashmir. Bihar is at 47.7. Only 21 states are covered.",
+    "policy": "A high share is not the same as low public spending: Kerala's total health spending is Rs 13,116 per person and its out-of-pocket spending Rs 8,388 per person. The household figures rest on the NSS 75th round of 2017-18, so state changes since then are not captured.",
+    "tags": [
+      "NHA",
+      "out of pocket",
+      "health spending"
+    ],
+    "title_hi": "स्वास्थ्य व्यय में जेब से भुगतान का हिस्सा, NHA 2022-23",
+    "takeaway_hi": "उत्तर प्रदेश में स्वास्थ्य व्यय का 66.1 प्रतिशत परिवार जेब से भरते हैं, केरल में 64.0, पश्चिम बंगाल में 62.3 और पंजाब में 60.6, जबकि उत्तराखंड में 28.8, कर्नाटक में 29.2 और जम्मू और कश्मीर में 29.7। बिहार में 47.7। केवल 21 राज्य शामिल हैं।"
+  },
+  {
+    "id": "X266",
+    "title": "Public hospital beds per lakh people, March 2023",
+    "file": "X266_Public_hospital_beds_per_lakh_people_2023.png",
+    "section": "health",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off.",
+    "policy": "Maharashtra is grey because the source's medical-college column adds to 16,998 beds more than its printed total, exactly Maharashtra's entry, and the source does not say which is wrong. The count is public beds only, so it says nothing about private hospitals. Beds are for March 2023 and populations are 2024 projections.",
+    "tags": [
+      "hospital beds",
+      "health infrastructure",
+      "health"
+    ],
+    "title_hi": "प्रति लाख आबादी पर सरकारी अस्पताल के बिस्तर, मार्च 2023",
+    "takeaway_hi": "राज्यों में हिमाचल प्रदेश में प्रति लाख आबादी 136 सरकारी अस्पताल बिस्तर हैं, केरल में 119 और तमिलनाडु में 106, जबकि बिहार में 22, झारखंड में 29 और उत्तर प्रदेश में 32। लक्षद्वीप (357), अंडमान-निकोबार (340) और चंडीगढ़ (309) सबसे ऊपर हैं। महाराष्ट्र छोड़ा गया है।"
+  },
+  {
+    "id": "X267",
+    "title": "PM-JAY hospital admissions per lakh people, 2024-25",
+    "file": "X267_PM-JAY_hospital_admissions_per_lakh_people_2024-25.png",
+    "section": "health",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Meghalaya had 6,785 PM-JAY admissions authorised per lakh people in 2024-25, Chhattisgarh 5,689 and Karnataka 5,574, against 732 in Bihar, 1,043 in Uttar Pradesh and 1,021 in Maharashtra. Kerala fell from 3,397 in 2022-23 to 2,530 and Tamil Nadu from 2,288 to 1,468, while Karnataka rose by 2,474.",
+    "policy": "The base here is the whole population, not the families covered, so a state that covers more of its people shows a higher figure for that reason alone. Delhi and Odisha joined the scheme in April 2025 and West Bengal is not in it, so they have no figure. Some states run their own schemes beside PM-JAY, which these counts leave out.",
+    "tags": [
+      "PM-JAY",
+      "Ayushman Bharat",
+      "health insurance"
+    ],
+    "title_hi": "प्रति लाख आबादी पर PM-JAY अस्पताल भर्ती, 2024-25",
+    "takeaway_hi": "2024-25 में मेघालय में प्रति लाख आबादी 6,785 PM-JAY भर्ती स्वीकृत हुईं, छत्तीसगढ़ में 5,689 और कर्नाटक में 5,574, जबकि बिहार में 732, उत्तर प्रदेश में 1,043 और महाराष्ट्र में 1,021। केरल 3,397 से 2,530 पर और तमिलनाडु 2,288 से 1,468 पर आ गया।"
+  },
+  {
+    "id": "X268",
+    "title": "Mudra loans to SC and ST entrepreneurs, 2022-25",
+    "file": "X268_Mudra_loans_to_SC_and_ST_entrepreneurs_2022-25.png",
+    "section": "caste",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Bihar had 27,973 Mudra loans to SC and ST entrepreneurs per lakh SC and ST people over three years, Haryana 23,274 and Tripura 21,071, against 12,558 for India, and fewer than 1,500 in Meghalaya, Nagaland, Manipur and Dadra and Nagar Haveli and Daman and Diu. Uttar Pradesh is at 13,890 and West Bengal at 10,151.",
+    "policy": "The count is loans, not borrowers, so one entrepreneur with several small loans counts several times. SC and ST are reported together and the population base is the 2011 Census. Loan numbers are those uploaded by lending institutions to the Mudra portal. States with under 1 lakh SC and ST people are left grey.",
+    "tags": [
+      "Mudra",
+      "SC",
+      "ST",
+      "credit"
+    ],
+    "title_hi": "SC और ST उद्यमियों को मुद्रा ऋण, 2022-25",
+    "takeaway_hi": "तीन वर्षों में बिहार में प्रति लाख SC और ST आबादी 27,973 मुद्रा ऋण SC और ST उद्यमियों को मिले, हरियाणा में 23,274 और त्रिपुरा में 21,071, जबकि भारत का आँकड़ा 12,558 है। मेघालय, नागालैंड, मणिपुर और दादरा-नगर हवेली और दमन-दीव में 1,500 से कम।"
   }
 ]

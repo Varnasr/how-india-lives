@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 70 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 76 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 262 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 268 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 70 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 76 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -154,6 +154,17 @@ vintage line, and the index marks it "latest available". `check_data.py` fails i
 S11j is flagged UNCERTAIN because its takeaway does not match NFHS-5's blood-sugar figures. Where NFHS-6 does
 repeat a measure the map gets a `newer` link instead (S12i, S03n, S04d, S04l and others).
 
+## Maps built from PDFs
+
+Each extractor takes the PDF as an argument, pins its SHA-256, checks the table against its own printed totals and
+writes a JSON under `data/`; a `build_*_indicator.py` turns that into the indicator and `extra_calcs.py` writes the
+calculation CSV. They share `scripts/indicator_io.py` (state-name map, `write_indicators`, `--check`). Source faults found:
+the Lok Sabha beds table's medical-college column is off by exactly Maharashtra's entry (Maharashtra left off), and that
+table numbers Uttarakhand 26 and Uttar Pradesh 27, the reverse of NCRB, which swapped two states' values until a
+sanity check on the extremes caught it. **Never map a state by serial number across two sources: check a name.**
+The NCRB-population denominators are 2024 projections, so a count from another year divided by them mixes years, and
+each such map says so.
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
@@ -264,7 +275,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 262 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 268 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

@@ -95,16 +95,20 @@ def main():
     # Table 7A.1: 2022, 2023, 2024, SC population lakh (2011), rate 2024, chargesheeting rate 2024
     j = t2.index('Crime/Atrocities against Scheduled Caste(s) - 2022-2024')
     r71, tot71 = rows(t2[j:t2.index('TABLE 7A.1 Page 1 of 1', j)], 6)
+    # Table 7C.1: same layout as 7A.1 for Scheduled Tribes; only the 2011 ST population (col 4) is used here
+    j2 = t2.index('Crime/Atrocities against Scheduled Tribe(s) - 2022-2024')
+    r7c, tot7c = rows(t2[j2:t2.index('TABLE 7C.1 Page 1 of 1', j2)], 6)
     # Table 14.1: cases 2022, 2023, IPC 2024, BNS 2024, total 2024, population (lakh), rate per lakh, chargesheeting rate
     k = t3.index('Human Trafficking Cases - 2024')
     r141, tot141 = rows(t3[k:t3.index('TABLE 14.1 - Page 1 of 1', k)], 8)
-    for name, r in (('2A.1', r21), ('2A.2 p1', r221), ('2A.2 p2', r222), ('7A.1', r71), ('14.1', r141)):
+    for name, r in (('2A.1', r21), ('2A.2 p1', r221), ('2A.2 p2', r222), ('7A.1', r71), ('7C.1', r7c), ('14.1', r141)):
         if sorted(r) != list(range(1, 37)):
             raise SystemExit('%s: expected 36 rows, got serials %s' % (name, sorted(r)))
     check_totals('2A.1', r21, tot21, [0, 1, 2, 3])
     check_totals('2A.2 p1', r221, tot221, range(7))
     check_totals('2A.2 p2', r222, tot222, range(7))
     check_totals('7A.1', r71, tot71, [0, 1, 2, 3])
+    check_totals('7C.1', r7c, tot7c, [0, 1, 2, 3])
     check_totals('14.1', r141, tot141, [0, 1, 2, 3, 4, 5])
     for sl in r141:
         if num(r141[sl][2]) + num(r141[sl][3]) != num(r141[sl][4]):
@@ -121,13 +125,14 @@ def main():
             'murder_witchcraft_2024': num(r221[sl][3]), 'murder_honour_2024': num(r222[sl][2]),
             'sc_crimes_2022': num(r71[sl][0]), 'sc_crimes_2023': num(r71[sl][1]), 'sc_crimes_2024': num(r71[sl][2]),
             'sc_population_lakh_2011': num(r71[sl][3]), 'sc_rate_2024': num(r71[sl][4]),
+            'st_population_lakh_2011': num(r7c[sl][3]),
             'trafficking_2022': num(r141[sl][0]), 'trafficking_2023': num(r141[sl][1]), 'trafficking_2024': num(r141[sl][4]),
             'trafficking_rate_per_lakh_2024': num(r141[sl][6]),
         }
     out['india'] = {'murder_2024': num(tot21['india'][2]), 'population_lakh': num(tot21['india'][3]),
                     'murder_witchcraft_2024': num(tot221['india'][3]), 'murder_honour_2024': num(tot222['india'][2]),
                     'sc_crimes_2022': num(tot71['india'][0]), 'sc_crimes_2023': num(tot71['india'][1]), 'sc_crimes_2024': num(tot71['india'][2]),
-                    'sc_population_lakh_2011': num(tot71['india'][3]), 'sc_rate_2024': num(tot71['india'][4]),
+                    'sc_population_lakh_2011': num(tot71['india'][3]), 'sc_rate_2024': num(tot71['india'][4]), 'st_population_lakh_2011': num(tot7c['india'][3]),
                     'trafficking_2022': num(tot141['india'][0]), 'trafficking_2023': num(tot141['india'][1]), 'trafficking_2024': num(tot141['india'][4])}
     if '--check' in sys.argv:
         print('OK' if json.load(open(OUT)) == json.loads(json.dumps(out)) else 'STALE')
