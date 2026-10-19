@@ -707,5 +707,110 @@
       "schooling",
       "dropout"
     ]
+  },
+  {
+    "id": "X240",
+    "indicator": "ncrb_total",
+    "section": "gender",
+    "file": "X240_Crimes_against_women_recorded_NCRB_2024.png",
+    "title": "Crimes against women recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: WHAT POLICE REGISTER",
+    "subtitle": "All crimes against women registered by the police, per lakh women, NCRB 2024.\nNagaland 5.1. Delhi 130.7. India 64.6, from 66.2 in 2023.",
+    "callout_note": "cases per lakh women were registered in {state}, the highest of any state or territory",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "Registered crimes against women run from 5.1 per lakh women in Nagaland to 130.7 in Delhi. The India figure is 64.6, from 66.2 in 2023.",
+    "policy": "This counts registrations, not incidence. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "takeaway_hi": "राज्यों के बीच दर्ज महिला-विरोधी अपराध 5.1 से 130.7 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 64.6 है, जो 2023 में 66.2 था।",
+    "title_hi": "दर्ज महिला-विरोधी अपराध, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "women"
+    ]
+  },
+  {
+    "id": "X241",
+    "indicator": "ncrb_rape",
+    "section": "gender",
+    "file": "X241_Rape_cases_recorded_NCRB_2024.png",
+    "title": "Rape cases recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: RAPE AS REGISTERED",
+    "subtitle": "Rape cases registered by the police, per lakh women, NCRB 2024.\nLadakh 0.8. Chandigarh 16.6. India 4.3, from 4.4 in 2023.",
+    "callout_note": "cases per lakh women were registered in {state}, the highest of any state or territory",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "Registered rape cases run from 0.8 per lakh women in Ladakh to 16.6 in Chandigarh. The India figure is 4.3, from 4.4 in 2023.",
+    "policy": "Rape of girls is mostly booked under the POCSO Act, so this map does not hold every rape case. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "takeaway_hi": "दर्ज बलात्कार के मामले लद्दाख में 0.8 से चंडीगढ़ में 16.6 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 4.3 है, जो 2023 में 4.4 था।",
+    "title_hi": "दर्ज बलात्कार के मामले, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "rape"
+    ]
+  },
+  {
+    "id": "X242",
+    "indicator": "ncrb_cruelty",
+    "section": "gender",
+    "file": "X242_Cruelty_by_husband_or_relatives_NCRB_2024.png",
+    "title": "Cruelty by husband or relatives, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: CRUELTY WITHIN MARRIAGE",
+    "subtitle": "Cases of cruelty by a husband or his relatives, per lakh women, NCRB 2024.\nGoa 0.4. Telangana 52.8. India 17.6, from 19.7 in 2023.",
+    "callout_note": "cases per lakh women were registered in {state}, the highest of any state or territory",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "Registered cruelty by a husband or his relatives runs from 0.4 per lakh women in Goa to 52.8 in Telangana. The India figure is 17.6, from 19.7 in 2023.",
+    "policy": "This is a count of cases registered, and it is not the same as the spousal violence women report in surveys such as NFHS. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "takeaway_hi": "पति या रिश्तेदारों द्वारा दर्ज क्रूरता गोवा में 0.4 से तेलंगाना में 52.8 प्रति लाख महिलाओं तक है। भारत का आँकड़ा 17.6 है, जो 2023 में 19.7 था।",
+    "title_hi": "पति या रिश्तेदारों द्वारा क्रूरता, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "marriage"
+    ]
+  },
+  {
+    "id": "X243",
+    "indicator": "ncrb_dowry_death",
+    "section": "gender",
+    "file": "X243_Dowry_deaths_recorded_NCRB_2024.png",
+    "title": "Dowry deaths recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: DOWRY DEATHS AS REGISTERED",
+    "subtitle": "Dowry death cases registered by the police, per lakh women, NCRB 2024.\nAndaman and Nicobar 0.00. Uttar Pradesh 1.78. India 0.84, from 0.91 in 2023.",
+    "callout_note": "cases per lakh women were registered in {state}, the highest of any state or territory",
+    "decimals": 2,
+    "suffix": "",
+    "takeaway": "Registered dowry deaths run from none registered in 11 states and territories to 1.78 per lakh women in Uttar Pradesh. The India figure is 0.84, from 0.91 in 2023.",
+    "policy": "A zero here means none were registered, not that none occurred. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "takeaway_hi": "दर्ज दहेज मृत्यु 11 राज्यों और क्षेत्रों में शून्य से उत्तर प्रदेश में 1.78 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 0.84 है, जो 2023 में 0.91 था।",
+    "title_hi": "दर्ज दहेज मृत्यु, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "dowry"
+    ]
+  },
+  {
+    "id": "X244",
+    "indicator": "ncrb_acid",
+    "section": "gender",
+    "file": "X244_Acid_attack_cases_recorded_NCRB_2024.png",
+    "title": "Acid attack cases recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  CRIME: ACID ATTACKS AS REGISTERED",
+    "subtitle": "Acid attack cases registered by the police, per crore women, NCRB 2024.\nWest Bengal and Manipur 6.13 each. India 1.73, from 1.67 in 2023.",
+    "callout_note": "cases per crore women were registered, the highest figure, shared exactly by West Bengal (30 cases) and Manipur (1 case)",
+    "decimals": 2,
+    "suffix": "",
+    "takeaway": "Registered acid attacks reach 6.13 per crore women in both West Bengal and Manipur, against 1.73 for India (1.67 in 2023). Fifteen states and territories registered none.",
+    "policy": "The counts are small, so one case moves a small state a long way. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "takeaway_hi": "दर्ज एसिड हमले पश्चिम बंगाल और मणिपुर, दोनों में 6.13 प्रति करोड़ महिलाओं तक हैं, जबकि भारत का आँकड़ा 1.73 है (2023 में 1.67)। 15 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।",
+    "title_hi": "दर्ज एसिड हमले के मामले, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "crime",
+      "acid attack"
+    ]
   }
 ]

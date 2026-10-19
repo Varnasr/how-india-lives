@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 48 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 53 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,19 +22,19 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 239 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 244 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 48 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 53 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-**The other 34 are generated (X206 to X239), and that is the path a new sheet should take.**
+**The other 39 are generated (X206 to X244), and that is the path a new sheet should take.**
 `scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
 so the static map and the interactive map of the same indicator are drawing the
 same numbers and cannot disagree. X206 to X211 were made this way on
-2026-09-23, and X212 to X239 (NFHS-6, PLFS 2025 and UDISE+ 2024-25 sheets) on 2026-10-19. Before that there was no renderer here at all, and this file said
+2026-09-23, and X212 to X239 (NFHS-6, PLFS 2025 and UDISE+ 2024-25 sheets) and X240 to X244 (NCRB 2024, from Women on Record) on 2026-10-19. Before that there was no renderer here at all, and this file said
 in as many words that a static map could not be made from the repository.
 
 An interactive indicator is still the cheaper artefact, and a new figure should
@@ -70,6 +70,26 @@ anaemia and the mortality rates are not among them, so those static maps keep
 their NFHS-5 figures and say so. Some changes are large (Karnataka's spousal
 violence 44.4 to 14.1, Ladakh's 17.7 to 1.9) and are what the sheets print;
 quote them with the survey's own caution that NFHS-6 is provisional.
+
+## Crime figures come from Women on Record, and mean registrations
+
+`data/ncrb/crimes-against-women.json` holds NCRB's 2023 and 2024 state and UT
+figures for five headings (all crimes, rape, cruelty by husband or relatives,
+dowry deaths, acid attacks), pulled by `scripts/extract_ncrb_wor.py` from the
+Women on Record dataset, which reads Crime in India Volume 1 table 3A.2 and
+checks every row against NCRB's own totals. The source PDF's address and SHA-256
+sit beside each figure, with the Women on Record commit. `scripts/build_ncrb_indicators.py`
+(`--check` supported) turns them into the `ncrb_*` indicators; X240 to X244 are
+drawn from those.
+
+**These count crimes registered, not crimes committed.** A higher figure can mean
+more crime, easier reporting, or both, so `higherIsBetter` is null and the sheets
+say so. Do not rank states on them. Dowry deaths and acid attacks are derived
+from NCRB's case counts over its female population because the printed rate has
+one decimal; the derived value rounds to NCRB's printed rate in every state. A
+zero means none registered. The trafficking map (S02j) is not refreshed: Women on
+Record holds trafficking counts with no population base the atlas can use. Honour
+killings, witch-hunting and crimes against SCs are not in that dataset either.
 
 ## Why the checks exist
 
@@ -173,7 +193,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 239 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 244 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

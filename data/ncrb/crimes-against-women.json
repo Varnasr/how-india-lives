@@ -1,0 +1,1716 @@
+{
+ "source": "NCRB, Crime in India 2023 and 2024, Volume 1, as read and checked by Women on Record (womenonrecord.net)",
+ "women_on_record_commit": "7c120ff4d98f13f6d9d6930490868ff7b26e995d",
+ "years": {
+  "2023": {
+   "population_lakh": {
+    "Andhra Pradesh": 266.1,
+    "Arunachal Pradesh": 7.6,
+    "Assam": 176.0,
+    "Bihar": 611.9,
+    "Chhattisgarh": 151.0,
+    "Goa": 7.8,
+    "Gujarat": 341.1,
+    "Haryana": 142.9,
+    "Himachal Pradesh": 36.9,
+    "Jharkhand": 193.6,
+    "Karnataka": 334.2,
+    "Kerala": 186.2,
+    "Madhya Pradesh": 421.2,
+    "Maharashtra": 608.0,
+    "Manipur": 16.1,
+    "Meghalaya": 16.8,
+    "Mizoram": 6.2,
+    "Nagaland": 10.8,
+    "Odisha": 230.5,
+    "Punjab": 146.3,
+    "Rajasthan": 396.0,
+    "Sikkim": 3.3,
+    "Tamil Nadu": 385.4,
+    "Telangana": 189.6,
+    "Tripura": 20.4,
+    "Uttar Pradesh": 1133.5,
+    "Uttarakhand": 56.9,
+    "West Bengal": 486.4,
+    "A&N Islands": 1.9,
+    "Chandigarh": 5.7,
+    "D&N Haveli and Daman & Diu": 4.4,
+    "Delhi": 100.6,
+    "Jammu & Kashmir": 65.0,
+    "Ladakh": 1.3,
+    "Lakshadweep": 0.3,
+    "Puducherry": 8.7,
+    "All India": 6770.4
+   },
+   "codes": {
+    "TOTAL": {
+     "Andhra Pradesh": {
+      "cases": 22418.0,
+      "rate": 84.2
+     },
+     "Arunachal Pradesh": {
+      "cases": 326.0,
+      "rate": 42.8
+     },
+     "Assam": {
+      "cases": 12070.0,
+      "rate": 68.6
+     },
+     "Bihar": {
+      "cases": 22952.0,
+      "rate": 37.5
+     },
+     "Chhattisgarh": {
+      "cases": 8035.0,
+      "rate": 53.2
+     },
+     "Goa": {
+      "cases": 286.0,
+      "rate": 36.5
+     },
+     "Gujarat": {
+      "cases": 7805.0,
+      "rate": 22.9
+     },
+     "Haryana": {
+      "cases": 15758.0,
+      "rate": 110.3
+     },
+     "Himachal Pradesh": {
+      "cases": 1604.0,
+      "rate": 43.5
+     },
+     "Jharkhand": {
+      "cases": 6989.0,
+      "rate": 36.1
+     },
+     "Karnataka": {
+      "cases": 20336.0,
+      "rate": 60.9
+     },
+     "Kerala": {
+      "cases": 16025.0,
+      "rate": 86.1
+     },
+     "Madhya Pradesh": {
+      "cases": 32342.0,
+      "rate": 76.8
+     },
+     "Maharashtra": {
+      "cases": 47101.0,
+      "rate": 77.5
+     },
+     "Manipur": {
+      "cases": 201.0,
+      "rate": 12.5
+     },
+     "Meghalaya": {
+      "cases": 628.0,
+      "rate": 37.5
+     },
+     "Mizoram": {
+      "cases": 184.0,
+      "rate": 29.9
+     },
+     "Nagaland": {
+      "cases": 56.0,
+      "rate": 5.2
+     },
+     "Odisha": {
+      "cases": 25914.0,
+      "rate": 112.4
+     },
+     "Punjab": {
+      "cases": 5258.0,
+      "rate": 35.9
+     },
+     "Rajasthan": {
+      "cases": 45450.0,
+      "rate": 114.8
+     },
+     "Sikkim": {
+      "cases": 134.0,
+      "rate": 41.0
+     },
+     "Tamil Nadu": {
+      "cases": 8943.0,
+      "rate": 23.2
+     },
+     "Telangana": {
+      "cases": 23678.0,
+      "rate": 124.9
+     },
+     "Tripura": {
+      "cases": 791.0,
+      "rate": 38.7
+     },
+     "Uttar Pradesh": {
+      "cases": 66381.0,
+      "rate": 58.6
+     },
+     "Uttarakhand": {
+      "cases": 3808.0,
+      "rate": 66.9
+     },
+     "West Bengal": {
+      "cases": 34691.0,
+      "rate": 71.3
+     },
+     "A&N Islands": {
+      "cases": 205.0,
+      "rate": 107.3
+     },
+     "Chandigarh": {
+      "cases": 371.0,
+      "rate": 65.2
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 124.0,
+      "rate": 28.4
+     },
+     "Delhi": {
+      "cases": 13439.0,
+      "rate": 133.6
+     },
+     "Jammu & Kashmir": {
+      "cases": 3653.0,
+      "rate": 56.2
+     },
+     "Ladakh": {
+      "cases": 20.0,
+      "rate": 15.2
+     },
+     "Lakshadweep": {
+      "cases": 23.0,
+      "rate": 69.7
+     },
+     "Puducherry": {
+      "cases": 212.0,
+      "rate": 24.4
+     },
+     "All India": {
+      "cases": 448211.0,
+      "rate": 66.2
+     }
+    },
+    "RAPE": {
+     "Andhra Pradesh": {
+      "cases": 438.0,
+      "rate": 1.6
+     },
+     "Arunachal Pradesh": {
+      "cases": 71.0,
+      "rate": 9.3
+     },
+     "Assam": {
+      "cases": 989.0,
+      "rate": 5.6
+     },
+     "Bihar": {
+      "cases": 902.0,
+      "rate": 1.5
+     },
+     "Chhattisgarh": {
+      "cases": 1171.0,
+      "rate": 7.8
+     },
+     "Goa": {
+      "cases": 97.0,
+      "rate": 12.4
+     },
+     "Gujarat": {
+      "cases": 634.0,
+      "rate": 1.9
+     },
+     "Haryana": {
+      "cases": 1772.0,
+      "rate": 12.4
+     },
+     "Himachal Pradesh": {
+      "cases": 344.0,
+      "rate": 9.3
+     },
+     "Jharkhand": {
+      "cases": 1221.0,
+      "rate": 6.3
+     },
+     "Karnataka": {
+      "cases": 656.0,
+      "rate": 2.0
+     },
+     "Kerala": {
+      "cases": 843.0,
+      "rate": 4.5
+     },
+     "Madhya Pradesh": {
+      "cases": 2979.0,
+      "rate": 7.1
+     },
+     "Maharashtra": {
+      "cases": 2930.0,
+      "rate": 4.8
+     },
+     "Manipur": {
+      "cases": 27.0,
+      "rate": 1.7
+     },
+     "Meghalaya": {
+      "cases": 66.0,
+      "rate": 3.9
+     },
+     "Mizoram": {
+      "cases": 36.0,
+      "rate": 5.9
+     },
+     "Nagaland": {
+      "cases": 10.0,
+      "rate": 0.9
+     },
+     "Odisha": {
+      "cases": 1195.0,
+      "rate": 5.2
+     },
+     "Punjab": {
+      "cases": 457.0,
+      "rate": 3.1
+     },
+     "Rajasthan": {
+      "cases": 5078.0,
+      "rate": 12.8
+     },
+     "Sikkim": {
+      "cases": 9.0,
+      "rate": 2.8
+     },
+     "Tamil Nadu": {
+      "cases": 365.0,
+      "rate": 0.9
+     },
+     "Telangana": {
+      "cases": 817.0,
+      "rate": 4.3
+     },
+     "Tripura": {
+      "cases": 57.0,
+      "rate": 2.8
+     },
+     "Uttar Pradesh": {
+      "cases": 3516.0,
+      "rate": 3.1
+     },
+     "Uttarakhand": {
+      "cases": 421.0,
+      "rate": 7.4
+     },
+     "West Bengal": {
+      "cases": 1110.0,
+      "rate": 2.3
+     },
+     "A&N Islands": {
+      "cases": 14.0,
+      "rate": 7.3
+     },
+     "Chandigarh": {
+      "cases": 102.0,
+      "rate": 17.9
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 6.0,
+      "rate": 1.4
+     },
+     "Delhi": {
+      "cases": 1094.0,
+      "rate": 10.9
+     },
+     "Jammu & Kashmir": {
+      "cases": 231.0,
+      "rate": 3.6
+     },
+     "Ladakh": {
+      "cases": 2.0,
+      "rate": 1.5
+     },
+     "Lakshadweep": {
+      "cases": 1.0,
+      "rate": 3.0
+     },
+     "Puducherry": {
+      "cases": 9.0,
+      "rate": 1.0
+     },
+     "All India": {
+      "cases": 29670.0,
+      "rate": 4.4
+     }
+    },
+    "CRUELTY": {
+     "Andhra Pradesh": {
+      "cases": 10594.0,
+      "rate": 39.8
+     },
+     "Arunachal Pradesh": {
+      "cases": 58.0,
+      "rate": 7.6
+     },
+     "Assam": {
+      "cases": 2923.0,
+      "rate": 16.6
+     },
+     "Bihar": {
+      "cases": 2032.0,
+      "rate": 3.3
+     },
+     "Chhattisgarh": {
+      "cases": 755.0,
+      "rate": 5.0
+     },
+     "Goa": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Gujarat": {
+      "cases": 2176.0,
+      "rate": 6.4
+     },
+     "Haryana": {
+      "cases": 5191.0,
+      "rate": 36.3
+     },
+     "Himachal Pradesh": {
+      "cases": 217.0,
+      "rate": 5.9
+     },
+     "Jharkhand": {
+      "cases": 770.0,
+      "rate": 4.0
+     },
+     "Karnataka": {
+      "cases": 3000.0,
+      "rate": 9.0
+     },
+     "Kerala": {
+      "cases": 4710.0,
+      "rate": 25.3
+     },
+     "Madhya Pradesh": {
+      "cases": 7577.0,
+      "rate": 18.0
+     },
+     "Maharashtra": {
+      "cases": 11226.0,
+      "rate": 18.5
+     },
+     "Manipur": {
+      "cases": 7.0,
+      "rate": 0.4
+     },
+     "Meghalaya": {
+      "cases": 14.0,
+      "rate": 0.8
+     },
+     "Mizoram": {
+      "cases": 5.0,
+      "rate": 0.8
+     },
+     "Nagaland": {
+      "cases": 2.0,
+      "rate": 0.2
+     },
+     "Odisha": {
+      "cases": 5534.0,
+      "rate": 24.0
+     },
+     "Punjab": {
+      "cases": 1532.0,
+      "rate": 10.5
+     },
+     "Rajasthan": {
+      "cases": 18033.0,
+      "rate": 45.5
+     },
+     "Sikkim": {
+      "cases": 1.0,
+      "rate": 0.3
+     },
+     "Tamil Nadu": {
+      "cases": 1017.0,
+      "rate": 2.6
+     },
+     "Telangana": {
+      "cases": 10518.0,
+      "rate": 55.5
+     },
+     "Tripura": {
+      "cases": 319.0,
+      "rate": 15.6
+     },
+     "Uttar Pradesh": {
+      "cases": 19889.0,
+      "rate": 17.5
+     },
+     "Uttarakhand": {
+      "cases": 1016.0,
+      "rate": 17.9
+     },
+     "West Bengal": {
+      "cases": 19698.0,
+      "rate": 40.5
+     },
+     "A&N Islands": {
+      "cases": 6.0,
+      "rate": 3.1
+     },
+     "Chandigarh": {
+      "cases": 76.0,
+      "rate": 13.4
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 2.0,
+      "rate": 0.5
+     },
+     "Delhi": {
+      "cases": 4236.0,
+      "rate": 42.1
+     },
+     "Jammu & Kashmir": {
+      "cases": 524.0,
+      "rate": 8.1
+     },
+     "Ladakh": {
+      "cases": 6.0,
+      "rate": 4.5
+     },
+     "Lakshadweep": {
+      "cases": 3.0,
+      "rate": 9.1
+     },
+     "Puducherry": {
+      "cases": 9.0,
+      "rate": 1.0
+     },
+     "All India": {
+      "cases": 133676.0,
+      "rate": 19.7
+     }
+    },
+    "DOWRY_DEATH": {
+     "Andhra Pradesh": {
+      "cases": 95.0,
+      "rate": 0.4
+     },
+     "Arunachal Pradesh": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Assam": {
+      "cases": 101.0,
+      "rate": 0.6
+     },
+     "Bihar": {
+      "cases": 1143.0,
+      "rate": 1.9
+     },
+     "Chhattisgarh": {
+      "cases": 46.0,
+      "rate": 0.3
+     },
+     "Goa": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Gujarat": {
+      "cases": 12.0,
+      "rate": 0.0
+     },
+     "Haryana": {
+      "cases": 207.0,
+      "rate": 1.4
+     },
+     "Himachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Jharkhand": {
+      "cases": 218.0,
+      "rate": 1.1
+     },
+     "Karnataka": {
+      "cases": 156.0,
+      "rate": 0.5
+     },
+     "Kerala": {
+      "cases": 8.0,
+      "rate": 0.0
+     },
+     "Madhya Pradesh": {
+      "cases": 468.0,
+      "rate": 1.1
+     },
+     "Maharashtra": {
+      "cases": 170.0,
+      "rate": 0.3
+     },
+     "Manipur": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Meghalaya": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Mizoram": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Nagaland": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Odisha": {
+      "cases": 231.0,
+      "rate": 1.0
+     },
+     "Punjab": {
+      "cases": 44.0,
+      "rate": 0.3
+     },
+     "Rajasthan": {
+      "cases": 428.0,
+      "rate": 1.1
+     },
+     "Sikkim": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Tamil Nadu": {
+      "cases": 11.0,
+      "rate": 0.0
+     },
+     "Telangana": {
+      "cases": 145.0,
+      "rate": 0.8
+     },
+     "Tripura": {
+      "cases": 21.0,
+      "rate": 1.0
+     },
+     "Uttar Pradesh": {
+      "cases": 2122.0,
+      "rate": 1.9
+     },
+     "Uttarakhand": {
+      "cases": 48.0,
+      "rate": 0.8
+     },
+     "West Bengal": {
+      "cases": 350.0,
+      "rate": 0.7
+     },
+     "A&N Islands": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Chandigarh": {
+      "cases": 4.0,
+      "rate": 0.7
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Delhi": {
+      "cases": 115.0,
+      "rate": 1.1
+     },
+     "Jammu & Kashmir": {
+      "cases": 9.0,
+      "rate": 0.1
+     },
+     "Ladakh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Lakshadweep": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Puducherry": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "All India": {
+      "cases": 6156.0,
+      "rate": 0.9
+     }
+    },
+    "ACID": {
+     "Andhra Pradesh": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Arunachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Assam": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Bihar": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Chhattisgarh": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Goa": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Gujarat": {
+      "cases": 2.0,
+      "rate": 0.0
+     },
+     "Haryana": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Himachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Jharkhand": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Karnataka": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Kerala": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Madhya Pradesh": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Maharashtra": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Manipur": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Meghalaya": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Mizoram": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Nagaland": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Odisha": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Punjab": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Rajasthan": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Sikkim": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Tamil Nadu": {
+      "cases": 3.0,
+      "rate": 0.0
+     },
+     "Telangana": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Tripura": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Uttar Pradesh": {
+      "cases": 28.0,
+      "rate": 0.0
+     },
+     "Uttarakhand": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "West Bengal": {
+      "cases": 31.0,
+      "rate": 0.1
+     },
+     "A&N Islands": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Chandigarh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Delhi": {
+      "cases": 6.0,
+      "rate": 0.1
+     },
+     "Jammu & Kashmir": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Ladakh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Lakshadweep": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Puducherry": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "All India": {
+      "cases": 113.0,
+      "rate": 0.0
+     }
+    }
+   },
+   "provenance": {
+    "RAPE:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "RAPE:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "DOWRY_DEATH:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "DOWRY_DEATH:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "CRUELTY:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "CRUELTY:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "ACID:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "ACID:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "TOTAL:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    },
+    "TOTAL:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2023, Volume 1",
+     "url": "https://data.opencity.in/dataset/40449a25-7fb3-4e38-91b9-f834af6078e2/resource/b7c71212-9463-4407-ab63-f349403a75b6/download/4f02eaf8-5d55-43d9-9a23-09cd724b5566.pdf",
+     "sha256": "553ac8b2eadfe9e2f3e3b80688fb3ced884dde4c1ddb5ba18077ca7432289661"
+    }
+   }
+  },
+  "2024": {
+   "population_lakh": {
+    "Andhra Pradesh": 267.1,
+    "Arunachal Pradesh": 7.7,
+    "Assam": 177.7,
+    "Bihar": 621.0,
+    "Chhattisgarh": 152.7,
+    "Goa": 7.9,
+    "Gujarat": 345.0,
+    "Haryana": 144.7,
+    "Himachal Pradesh": 37.1,
+    "Jharkhand": 196.1,
+    "Karnataka": 336.3,
+    "Kerala": 186.9,
+    "Madhya Pradesh": 426.5,
+    "Maharashtra": 612.6,
+    "Manipur": 16.3,
+    "Meghalaya": 16.9,
+    "Mizoram": 6.2,
+    "Nagaland": 10.9,
+    "Odisha": 232.0,
+    "Punjab": 147.3,
+    "Rajasthan": 400.6,
+    "Sikkim": 3.3,
+    "Tamil Nadu": 386.7,
+    "Telangana": 190.5,
+    "Tripura": 20.6,
+    "Uttar Pradesh": 1145.4,
+    "Uttarakhand": 57.5,
+    "West Bengal": 489.0,
+    "A&N Islands": 1.9,
+    "Chandigarh": 5.8,
+    "D&N Haveli and Daman & Diu": 4.6,
+    "Delhi": 102.5,
+    "Jammu & Kashmir": 65.5,
+    "Ladakh": 1.3,
+    "Lakshadweep": 0.3,
+    "Puducherry": 8.9,
+    "All India": 6833.4
+   },
+   "codes": {
+    "TOTAL": {
+     "Andhra Pradesh": {
+      "cases": 19952.0,
+      "rate": 74.7
+     },
+     "Arunachal Pradesh": {
+      "cases": 321.0,
+      "rate": 41.7
+     },
+     "Assam": {
+      "cases": 10546.0,
+      "rate": 59.3
+     },
+     "Bihar": {
+      "cases": 27359.0,
+      "rate": 44.1
+     },
+     "Chhattisgarh": {
+      "cases": 8601.0,
+      "rate": 56.3
+     },
+     "Goa": {
+      "cases": 356.0,
+      "rate": 45.1
+     },
+     "Gujarat": {
+      "cases": 7606.0,
+      "rate": 22.0
+     },
+     "Haryana": {
+      "cases": 13945.0,
+      "rate": 96.4
+     },
+     "Himachal Pradesh": {
+      "cases": 1605.0,
+      "rate": 43.3
+     },
+     "Jharkhand": {
+      "cases": 6367.0,
+      "rate": 32.5
+     },
+     "Karnataka": {
+      "cases": 19945.0,
+      "rate": 59.3
+     },
+     "Kerala": {
+      "cases": 15037.0,
+      "rate": 80.5
+     },
+     "Madhya Pradesh": {
+      "cases": 32832.0,
+      "rate": 77.0
+     },
+     "Maharashtra": {
+      "cases": 47954.0,
+      "rate": 78.3
+     },
+     "Manipur": {
+      "cases": 195.0,
+      "rate": 12.0
+     },
+     "Meghalaya": {
+      "cases": 658.0,
+      "rate": 38.9
+     },
+     "Mizoram": {
+      "cases": 259.0,
+      "rate": 41.8
+     },
+     "Nagaland": {
+      "cases": 56.0,
+      "rate": 5.1
+     },
+     "Odisha": {
+      "cases": 27449.0,
+      "rate": 118.3
+     },
+     "Punjab": {
+      "cases": 5348.0,
+      "rate": 36.3
+     },
+     "Rajasthan": {
+      "cases": 36563.0,
+      "rate": 91.3
+     },
+     "Sikkim": {
+      "cases": 131.0,
+      "rate": 39.7
+     },
+     "Tamil Nadu": {
+      "cases": 11363.0,
+      "rate": 29.4
+     },
+     "Telangana": {
+      "cases": 24495.0,
+      "rate": 128.6
+     },
+     "Tripura": {
+      "cases": 716.0,
+      "rate": 34.8
+     },
+     "Uttar Pradesh": {
+      "cases": 66398.0,
+      "rate": 58.0
+     },
+     "Uttarakhand": {
+      "cases": 3342.0,
+      "rate": 58.1
+     },
+     "West Bengal": {
+      "cases": 34360.0,
+      "rate": 70.3
+     },
+     "A&N Islands": {
+      "cases": 156.0,
+      "rate": 82.1
+     },
+     "Chandigarh": {
+      "cases": 452.0,
+      "rate": 77.9
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 86.0,
+      "rate": 18.7
+     },
+     "Delhi": {
+      "cases": 13396.0,
+      "rate": 130.7
+     },
+     "Jammu & Kashmir": {
+      "cases": 3366.0,
+      "rate": 51.4
+     },
+     "Ladakh": {
+      "cases": 34.0,
+      "rate": 26.2
+     },
+     "Lakshadweep": {
+      "cases": 13.0,
+      "rate": 43.3
+     },
+     "Puducherry": {
+      "cases": 272.0,
+      "rate": 30.6
+     },
+     "All India": {
+      "cases": 441534.0,
+      "rate": 64.6
+     }
+    },
+    "RAPE": {
+     "Andhra Pradesh": {
+      "cases": 441.0,
+      "rate": 1.7
+     },
+     "Arunachal Pradesh": {
+      "cases": 76.0,
+      "rate": 9.9
+     },
+     "Assam": {
+      "cases": 927.0,
+      "rate": 5.2
+     },
+     "Bihar": {
+      "cases": 1165.0,
+      "rate": 1.9
+     },
+     "Chhattisgarh": {
+      "cases": 1171.0,
+      "rate": 7.7
+     },
+     "Goa": {
+      "cases": 105.0,
+      "rate": 13.3
+     },
+     "Gujarat": {
+      "cases": 661.0,
+      "rate": 1.9
+     },
+     "Haryana": {
+      "cases": 1391.0,
+      "rate": 9.6
+     },
+     "Himachal Pradesh": {
+      "cases": 324.0,
+      "rate": 8.7
+     },
+     "Jharkhand": {
+      "cases": 1073.0,
+      "rate": 5.5
+     },
+     "Karnataka": {
+      "cases": 671.0,
+      "rate": 2.0
+     },
+     "Kerala": {
+      "cases": 940.0,
+      "rate": 5.0
+     },
+     "Madhya Pradesh": {
+      "cases": 3061.0,
+      "rate": 7.2
+     },
+     "Maharashtra": {
+      "cases": 3091.0,
+      "rate": 5.0
+     },
+     "Manipur": {
+      "cases": 19.0,
+      "rate": 1.2
+     },
+     "Meghalaya": {
+      "cases": 57.0,
+      "rate": 3.4
+     },
+     "Mizoram": {
+      "cases": 20.0,
+      "rate": 3.2
+     },
+     "Nagaland": {
+      "cases": 14.0,
+      "rate": 1.3
+     },
+     "Odisha": {
+      "cases": 1268.0,
+      "rate": 5.5
+     },
+     "Punjab": {
+      "cases": 475.0,
+      "rate": 3.2
+     },
+     "Rajasthan": {
+      "cases": 4871.0,
+      "rate": 12.2
+     },
+     "Sikkim": {
+      "cases": 7.0,
+      "rate": 2.1
+     },
+     "Tamil Nadu": {
+      "cases": 419.0,
+      "rate": 1.1
+     },
+     "Telangana": {
+      "cases": 1148.0,
+      "rate": 6.0
+     },
+     "Tripura": {
+      "cases": 64.0,
+      "rate": 3.1
+     },
+     "Uttar Pradesh": {
+      "cases": 3209.0,
+      "rate": 2.8
+     },
+     "Uttarakhand": {
+      "cases": 305.0,
+      "rate": 5.3
+     },
+     "West Bengal": {
+      "cases": 1118.0,
+      "rate": 2.3
+     },
+     "A&N Islands": {
+      "cases": 7.0,
+      "rate": 3.7
+     },
+     "Chandigarh": {
+      "cases": 96.0,
+      "rate": 16.6
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 11.0,
+      "rate": 2.4
+     },
+     "Delhi": {
+      "cases": 1058.0,
+      "rate": 10.3
+     },
+     "Jammu & Kashmir": {
+      "cases": 261.0,
+      "rate": 4.0
+     },
+     "Ladakh": {
+      "cases": 1.0,
+      "rate": 0.8
+     },
+     "Lakshadweep": {
+      "cases": 2.0,
+      "rate": 6.7
+     },
+     "Puducherry": {
+      "cases": 9.0,
+      "rate": 1.0
+     },
+     "All India": {
+      "cases": 29536.0,
+      "rate": 4.3
+     }
+    },
+    "CRUELTY": {
+     "Andhra Pradesh": {
+      "cases": 9165.0,
+      "rate": 34.3
+     },
+     "Arunachal Pradesh": {
+      "cases": 54.0,
+      "rate": 7.0
+     },
+     "Assam": {
+      "cases": 1441.0,
+      "rate": 8.1
+     },
+     "Bihar": {
+      "cases": 1841.0,
+      "rate": 3.0
+     },
+     "Chhattisgarh": {
+      "cases": 623.0,
+      "rate": 4.1
+     },
+     "Goa": {
+      "cases": 3.0,
+      "rate": 0.4
+     },
+     "Gujarat": {
+      "cases": 1926.0,
+      "rate": 5.6
+     },
+     "Haryana": {
+      "cases": 4422.0,
+      "rate": 30.6
+     },
+     "Himachal Pradesh": {
+      "cases": 184.0,
+      "rate": 5.0
+     },
+     "Jharkhand": {
+      "cases": 582.0,
+      "rate": 3.0
+     },
+     "Karnataka": {
+      "cases": 2947.0,
+      "rate": 8.8
+     },
+     "Kerala": {
+      "cases": 4458.0,
+      "rate": 23.9
+     },
+     "Madhya Pradesh": {
+      "cases": 7514.0,
+      "rate": 17.6
+     },
+     "Maharashtra": {
+      "cases": 10538.0,
+      "rate": 17.2
+     },
+     "Manipur": {
+      "cases": 12.0,
+      "rate": 0.7
+     },
+     "Meghalaya": {
+      "cases": 10.0,
+      "rate": 0.6
+     },
+     "Mizoram": {
+      "cases": 8.0,
+      "rate": 1.3
+     },
+     "Nagaland": {
+      "cases": 4.0,
+      "rate": 0.4
+     },
+     "Odisha": {
+      "cases": 5109.0,
+      "rate": 22.0
+     },
+     "Punjab": {
+      "cases": 1642.0,
+      "rate": 11.1
+     },
+     "Rajasthan": {
+      "cases": 10578.0,
+      "rate": 26.4
+     },
+     "Sikkim": {
+      "cases": 2.0,
+      "rate": 0.6
+     },
+     "Tamil Nadu": {
+      "cases": 870.0,
+      "rate": 2.2
+     },
+     "Telangana": {
+      "cases": 10061.0,
+      "rate": 52.8
+     },
+     "Tripura": {
+      "cases": 257.0,
+      "rate": 12.5
+     },
+     "Uttar Pradesh": {
+      "cases": 21266.0,
+      "rate": 18.6
+     },
+     "Uttarakhand": {
+      "cases": 161.0,
+      "rate": 2.8
+     },
+     "West Bengal": {
+      "cases": 19330.0,
+      "rate": 39.5
+     },
+     "A&N Islands": {
+      "cases": 2.0,
+      "rate": 1.1
+     },
+     "Chandigarh": {
+      "cases": 162.0,
+      "rate": 27.9
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 3.0,
+      "rate": 0.7
+     },
+     "Delhi": {
+      "cases": 4647.0,
+      "rate": 45.3
+     },
+     "Jammu & Kashmir": {
+      "cases": 380.0,
+      "rate": 5.8
+     },
+     "Ladakh": {
+      "cases": 9.0,
+      "rate": 6.9
+     },
+     "Lakshadweep": {
+      "cases": 1.0,
+      "rate": 3.3
+     },
+     "Puducherry": {
+      "cases": 15.0,
+      "rate": 1.7
+     },
+     "All India": {
+      "cases": 120227.0,
+      "rate": 17.6
+     }
+    },
+    "DOWRY_DEATH": {
+     "Andhra Pradesh": {
+      "cases": 72.0,
+      "rate": 0.3
+     },
+     "Arunachal Pradesh": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Assam": {
+      "cases": 94.0,
+      "rate": 0.5
+     },
+     "Bihar": {
+      "cases": 1078.0,
+      "rate": 1.7
+     },
+     "Chhattisgarh": {
+      "cases": 54.0,
+      "rate": 0.4
+     },
+     "Goa": {
+      "cases": 2.0,
+      "rate": 0.3
+     },
+     "Gujarat": {
+      "cases": 16.0,
+      "rate": 0.0
+     },
+     "Haryana": {
+      "cases": 177.0,
+      "rate": 1.2
+     },
+     "Himachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Jharkhand": {
+      "cases": 206.0,
+      "rate": 1.1
+     },
+     "Karnataka": {
+      "cases": 112.0,
+      "rate": 0.3
+     },
+     "Kerala": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Madhya Pradesh": {
+      "cases": 450.0,
+      "rate": 1.1
+     },
+     "Maharashtra": {
+      "cases": 143.0,
+      "rate": 0.2
+     },
+     "Manipur": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Meghalaya": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Mizoram": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Nagaland": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Odisha": {
+      "cases": 200.0,
+      "rate": 0.9
+     },
+     "Punjab": {
+      "cases": 39.0,
+      "rate": 0.3
+     },
+     "Rajasthan": {
+      "cases": 386.0,
+      "rate": 1.0
+     },
+     "Sikkim": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Tamil Nadu": {
+      "cases": 7.0,
+      "rate": 0.0
+     },
+     "Telangana": {
+      "cases": 144.0,
+      "rate": 0.8
+     },
+     "Tripura": {
+      "cases": 20.0,
+      "rate": 1.0
+     },
+     "Uttar Pradesh": {
+      "cases": 2038.0,
+      "rate": 1.8
+     },
+     "Uttarakhand": {
+      "cases": 41.0,
+      "rate": 0.7
+     },
+     "West Bengal": {
+      "cases": 337.0,
+      "rate": 0.7
+     },
+     "A&N Islands": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Chandigarh": {
+      "cases": 3.0,
+      "rate": 0.5
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Delhi": {
+      "cases": 109.0,
+      "rate": 1.1
+     },
+     "Jammu & Kashmir": {
+      "cases": 7.0,
+      "rate": 0.1
+     },
+     "Ladakh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Lakshadweep": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Puducherry": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "All India": {
+      "cases": 5737.0,
+      "rate": 0.8
+     }
+    },
+    "ACID": {
+     "Andhra Pradesh": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Arunachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Assam": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Bihar": {
+      "cases": 10.0,
+      "rate": 0.0
+     },
+     "Chhattisgarh": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Goa": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Gujarat": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Haryana": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Himachal Pradesh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Jharkhand": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Karnataka": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Kerala": {
+      "cases": 5.0,
+      "rate": 0.0
+     },
+     "Madhya Pradesh": {
+      "cases": 9.0,
+      "rate": 0.0
+     },
+     "Maharashtra": {
+      "cases": 11.0,
+      "rate": 0.0
+     },
+     "Manipur": {
+      "cases": 1.0,
+      "rate": 0.1
+     },
+     "Meghalaya": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Mizoram": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Nagaland": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Odisha": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Punjab": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Rajasthan": {
+      "cases": 4.0,
+      "rate": 0.0
+     },
+     "Sikkim": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Tamil Nadu": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Telangana": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Tripura": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Uttar Pradesh": {
+      "cases": 15.0,
+      "rate": 0.0
+     },
+     "Uttarakhand": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "West Bengal": {
+      "cases": 30.0,
+      "rate": 0.1
+     },
+     "A&N Islands": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Chandigarh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "D&N Haveli and Daman & Diu": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Delhi": {
+      "cases": 1.0,
+      "rate": 0.0
+     },
+     "Jammu & Kashmir": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Ladakh": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Lakshadweep": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "Puducherry": {
+      "cases": 0.0,
+      "rate": 0.0
+     },
+     "All India": {
+      "cases": 118.0,
+      "rate": 0.0
+     }
+    }
+   },
+   "provenance": {
+    "RAPE:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "RAPE:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "DOWRY_DEATH:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "DOWRY_DEATH:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "CRUELTY:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "CRUELTY:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "ACID:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "ACID:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "TOTAL:cases": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    },
+    "TOTAL:rate": {
+     "table": "3A.2",
+     "edition": "Crime in India 2024, Volume 1",
+     "url": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+     "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c"
+    }
+   }
+  }
+ }
+}
