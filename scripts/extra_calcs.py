@@ -91,4 +91,14 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/rbi_remittance_share.csv'] = rows_to_csv(
         ['state', 'share_2016_17_pct', 'share_2020_21_pct', 'share_2023_24_pct (mapped)', 'approx_usd_bn_2023_24 (share x 118.7)'],
         [[s, '' if d['2016-17'] is None else d['2016-17'], '' if d['2020-21'] is None else d['2020-21'], d['2023-24'], fmt(d['2023-24'] * 118.7 / 100)] for s, d in sorted(rr.items())])
+    pr = load('data/mospi/udise-ptr.json')['rows']
+    lv = {}
+    for r in pr:
+        lv.setdefault(r['state'], {})[(r['year'], r['level_of_education'])] = r['value']
+    prim = {r['state']: float(r['value']) for r in pr if r['year'] == '2024-25' and r['level_of_education'] == 'Primary'}
+    import build_udise_ptr_indicator as up
+    check_equal('udise_ptr_primary', {up.GEO.get(k, k): v for k, v in prim.items()}, by['udise_ptr_primary']['values'])
+    files['calculations/udise_pupil_teacher_ratio.csv'] = rows_to_csv(
+        ['state', 'primary_2024_25 (mapped)', 'primary_2022_23', 'upper_primary_2024_25', 'secondary_2024_25', 'higher_secondary_2024_25'],
+        [[s, d[('2024-25', 'Primary')], d[('2022-23', 'Primary')], d[('2024-25', 'Upper Primary')], d[('2024-25', 'Secondary')], d[('2024-25', 'Higher Secondary')]] for s, d in sorted(lv.items())])
     return files

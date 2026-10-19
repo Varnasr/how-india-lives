@@ -1501,5 +1501,27 @@
       "migration",
       "economy"
     ]
+  },
+  {
+    "id": "X277",
+    "indicator": "udise_ptr_primary",
+    "section": "education",
+    "file": "X277_Pupil-teacher_ratio_primary_UDISE_2024-25.png",
+    "title": "Pupil-teacher ratio in primary schools, UDISE+ 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  EDUCATION: TEACHERS",
+    "subtitle": "Pupils per teacher in primary schools (classes 1 to 5), all management types, UDISE+ 2024-25.\nThe Right to Education norm is 30 pupils per teacher.",
+    "callout_note": "pupils per teacher in primary schools in {state}",
+    "decimals": 0,
+    "suffix": "",
+    "takeaway": "No state or territory is above the Right to Education norm of 30 pupils per teacher at primary level in 2024-25. Delhi is highest at 29, followed by Dadra and Nagar Haveli and Daman and Diu (28), Bihar and Jharkhand (26) and Gujarat and Maharashtra (24). Ladakh (5) and Sikkim (6) are lowest. Bihar's ratio is shown as 43 in 2022-23 and 26 in 2024-25, and Delhi's as 34 and 29.",
+    "policy": "A state average hides schools with one teacher for many pupils and others with too many teachers for few pupils, so a low ratio does not mean every school is adequately staffed. The figures cover government, aided and private schools together and are whole numbers. MoSPI does not say whether 2022-23 and 2024-25 are counted on the same basis, so the large fall in Bihar should be read with caution until checked against UDISE+ reports for both years.",
+    "takeaway_hi": "2024-25 में कोई भी राज्य या केंद्र शासित प्रदेश प्राथमिक स्तर पर शिक्षा का अधिकार के मानक 30 छात्र प्रति शिक्षक से ऊपर नहीं है। दिल्ली सबसे अधिक 29 पर है, फिर दादरा-नगर हवेली और दमन-दीव (28), बिहार और झारखंड (26)। लद्दाख (5) और सिक्किम (6) सबसे नीचे हैं। बिहार का अनुपात 2022-23 में 43 और 2024-25 में 26 दिखाया गया है।",
+    "title_hi": "प्राथमिक विद्यालयों में छात्र-शिक्षक अनुपात, UDISE+ 2024-25",
+    "tags": [
+      "UDISE+",
+      "teachers",
+      "pupil-teacher ratio",
+      "education"
+    ]
   }
 ]

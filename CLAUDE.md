@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 84 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 85 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 276 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 277 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 84 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 85 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -177,6 +177,8 @@ each such map says so.
 
 `scripts/extract_rbi_remittances.py` reads Table 2 of the RBI Bulletin article on the sixth Remittances Survey from the saved HTML (shares by state, 2016-17, 2020-21, 2023-24; sum 100 and five text figures checked) and `build_rbi_remittances_indicator.py` makes `rbi_remit_share` (X276, linked from S10h). It is a share of the national total, not dependence.
 
+`scripts/fetch_mospi_ptr.py` pulls UDISE+ pupil-teacher ratios by level (indicator 23, all management) and `build_udise_ptr_indicator.py` makes `udise_ptr_primary` (X277, linked from S07i). It covers all schools, not government only, and Bihar's 43 to 26 between 2022-23 and 2024-25 may reflect a change of basis.
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
@@ -287,7 +289,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 276 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 277 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.
