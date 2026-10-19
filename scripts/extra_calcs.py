@@ -81,4 +81,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/trai_internet.csv'] = rows_to_csv(
         ['state', 'rural_subscribers_mn', 'urban_subscribers_mn', 'total_subscribers_mn', 'rural_per100', 'urban_per100', 'total_per100 (mapped)'],
         [[s, d['rural_mn'], d['urban_mn'], d['total_mn'], '' if d['rural_per100'] is None else d['rural_per100'], '' if d['urban_per100'] is None else d['urban_per100'], d['total_per100']] for s, d in sorted(ti.items())])
+    tb = load('data/ntep/tb-notification-2023.json')['states']
+    check_equal('tb_notification_rate', {s: d['rate'] for s, d in tb.items()}, by['tb_notification_rate']['values'])
+    files['calculations/tb_notification.csv'] = rows_to_csv(
+        ['state', 'population_2023_lakh', 'notified_public', 'notified_private', 'notified_total', 'rate_per_lakh_printed (mapped)', 'rate_per_lakh_recomputed'],
+        [[s, d['population_lakh'], d['notified_public'], '' if d['notified_private'] is None else d['notified_private'], d['notified'], d['rate'], fmt(d['notified'] / d['population_lakh'])] for s, d in sorted(tb.items())])
     return files

@@ -109,3 +109,7 @@ Table 1 of each state page of ASER (Rural) 2024: the share of children aged 6 to
 ## Internet subscriptions per 100 people, TRAI March 2026 (`trai_internet_per100`)
 
 TRAI's Yearly Performance Indicators 2025-26, Table 1.43: internet subscribers (millions) and subscribers per 100 population by state and UT. Rural plus urban equals total in every row (0.02 million) and the 36 rows sum to the printed 1,092.79 million (rural 440.87, urban 651.93); the total per 100 is 76.59. A subscription is not a person, so values above 100 are possible. Where the rural or urban per-100 cell is printed '-' (Delhi, Chandigarh, Lakshadweep) it is left empty. Replaces X168 and S01d.
+
+## TB case notification rate (`tb_notification_rate`)
+
+India TB Report 2024 (Central TB Division, data for 2023), Tables 1.1 (population in lakhs) and 1.2 (patients notified, public and private, and the rate per lakh). Public plus private equals the total in every row, the 36 rows sum exactly to the national 25,52,257, and notified divided by population reproduces each printed rate within 0.5. The rate counts cases notified where the patient was notified, not incidence; the report gives no state incidence. Lakshadweep (6 cases) is flagged as few cases. S03t (a modelled incidence map) links here as the newer map.

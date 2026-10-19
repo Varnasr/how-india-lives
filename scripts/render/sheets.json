@@ -1457,5 +1457,27 @@
       "internet",
       "digital access"
     ]
+  },
+  {
+    "id": "X275",
+    "indicator": "tb_notification_rate",
+    "section": "health",
+    "file": "X275_TB_case_notification_rate_2023.png",
+    "title": "TB case notification rate, India TB Report 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: TUBERCULOSIS",
+    "subtitle": "TB patients notified in 2023 per lakh population, public and private sector (India TB Report 2024).\n25.5 lakh patients notified: 178.8 per lakh.",
+    "callout_note": "TB cases notified per lakh population in {state}",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "India notified 25,52,257 TB patients in 2023, a rate of 178.8 per lakh population, of which 119.7 came from the public sector and 59.2 from private providers. Chandigarh (556.4), Delhi (507.2) and Puducherry (263.5) are highest. Of the other states Haryana (260.8) and Uttar Pradesh (260.1) are highest and Kerala (61.5), Manipur (69.4) and Jammu and Kashmir (77.6) lowest, apart from Lakshadweep (9.0, on 6 cases).",
+    "policy": "A notification rate counts cases found and reported, so a high rate can mean more TB or better case finding, and a low one can mean fewer cases or cases missed. The report gives no state incidence, only a national modelled figure of 199 per lakh for 2022, so this map does not show where TB is commonest. Cases are counted where they were notified, which can differ from where the patient lives, and Lakshadweep's rate rests on 6 cases.",
+    "takeaway_hi": "भारत में 2023 में 25,52,257 टीबी रोगी अधिसूचित हुए, यानी प्रति लाख जनसंख्या 178.8, जिनमें 119.7 सार्वजनिक क्षेत्र से और 59.2 निजी प्रदाताओं से। चंडीगढ़ (556.4), दिल्ली (507.2) और पुडुचेरी (263.5) सबसे ऊपर हैं। बाकी राज्यों में हरियाणा (260.8) और उत्तर प्रदेश (260.1) सबसे ऊपर और केरल (61.5), मणिपुर (69.4) और जम्मू-कश्मीर (77.6) सबसे नीचे हैं।",
+    "title_hi": "टीबी मामला अधिसूचना दर, इंडिया टीबी रिपोर्ट 2024",
+    "tags": [
+      "TB",
+      "NTEP",
+      "health",
+      "tuberculosis"
+    ]
   }
 ]

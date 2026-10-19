@@ -1910,7 +1910,8 @@
       "disease"
     ],
     "title_hi": "प्रति लाख आबादी पर टीबी घटना",
-    "takeaway_hi": "उत्तर प्रदेश और बिहार में टीबी की घटना प्रति लाख 300 से अधिक है; केरल में यह 60 से कम है।"
+    "takeaway_hi": "उत्तर प्रदेश और बिहार में टीबी की घटना प्रति लाख 300 से अधिक है; केरल में यह 60 से कम है।",
+    "newer": "X275"
   },
   {
     "id": "S03u",
@@ -5062,5 +5063,24 @@
     ],
     "title_hi": "प्रति 100 लोगों पर इंटरनेट कनेक्शन, TRAI मार्च 2026",
     "takeaway_hi": "TRAI के अनुसार मार्च 2026 के अंत में 1,092.8 मिलियन इंटरनेट कनेक्शन हैं, यानी प्रति 100 लोगों पर 76.6। बिहार में सबसे कम 50.5, फिर झारखंड (55.3), मध्य प्रदेश (62.1) और उत्तर प्रदेश (62.8)। दिल्ली (173.5) और गोवा (150.4) में सबसे अधिक। कनेक्शन व्यक्ति नहीं है, इसलिए 100 से ऊपर के आँकड़ों का अर्थ यह नहीं कि सब ऑनलाइन हैं।"
+  },
+  {
+    "id": "X275",
+    "title": "TB case notification rate, India TB Report 2024",
+    "file": "X275_TB_case_notification_rate_2023.png",
+    "section": "health",
+    "source": "Central TB Division, India TB Report 2024",
+    "year": "2023",
+    "quality": "NEW",
+    "takeaway": "India notified 25,52,257 TB patients in 2023, a rate of 178.8 per lakh population, of which 119.7 came from the public sector and 59.2 from private providers. Chandigarh (556.4), Delhi (507.2) and Puducherry (263.5) are highest. Of the other states Haryana (260.8) and Uttar Pradesh (260.1) are highest and Kerala (61.5), Manipur (69.4) and Jammu and Kashmir (77.6) lowest, apart from Lakshadweep (9.0, on 6 cases).",
+    "policy": "A notification rate counts cases found and reported, so a high rate can mean more TB or better case finding, and a low one can mean fewer cases or cases missed. The report gives no state incidence, only a national modelled figure of 199 per lakh for 2022, so this map does not show where TB is commonest. Cases are counted where they were notified, which can differ from where the patient lives, and Lakshadweep's rate rests on 6 cases.",
+    "tags": [
+      "TB",
+      "NTEP",
+      "health",
+      "tuberculosis"
+    ],
+    "title_hi": "टीबी मामला अधिसूचना दर, इंडिया टीबी रिपोर्ट 2024",
+    "takeaway_hi": "भारत में 2023 में 25,52,257 टीबी रोगी अधिसूचित हुए, यानी प्रति लाख जनसंख्या 178.8, जिनमें 119.7 सार्वजनिक क्षेत्र से और 59.2 निजी प्रदाताओं से। चंडीगढ़ (556.4), दिल्ली (507.2) और पुडुचेरी (263.5) सबसे ऊपर हैं। बाकी राज्यों में हरियाणा (260.8) और उत्तर प्रदेश (260.1) सबसे ऊपर और केरल (61.5), मणिपुर (69.4) और जम्मू-कश्मीर (77.6) सबसे नीचे हैं।"
   }
 ]

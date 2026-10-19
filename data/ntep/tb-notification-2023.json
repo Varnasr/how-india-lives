@@ -1,0 +1,374 @@
+{
+ "source": "Central TB Division, India TB Report 2024, Tables 1.1 and 1.2 (2023)",
+ "url": "https://tbcindia.gov.in/",
+ "sha256": "e37f9f406153b5e9a19726538c3f4d09dc4c470281c34fe511adaa56a0e22765",
+ "india": {
+  "notified": 2552257.0,
+  "rate": 178.8,
+  "rate_public": 119.7,
+  "rate_private": 59.2,
+  "population_lakh": 14271.24
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "target": 520.0,
+   "notified_public": 536.0,
+   "notified_private": 25.0,
+   "notified": 561.0,
+   "rate_public": 136.4,
+   "rate_private": 6.4,
+   "rate": 142.8,
+   "population_lakh": 3.93
+  },
+  "Andhra Pradesh": {
+   "target": 105000.0,
+   "notified_public": 58627.0,
+   "notified_private": 30437.0,
+   "notified": 89064.0,
+   "rate_public": 110.1,
+   "rate_private": 57.2,
+   "rate": 167.3,
+   "population_lakh": 532.49
+  },
+  "Arunachal Pradesh": {
+   "target": 3500.0,
+   "notified_public": 2278.0,
+   "notified_private": 326.0,
+   "notified": 2604.0,
+   "rate_public": 88.2,
+   "rate_private": 12.6,
+   "rate": 100.8,
+   "population_lakh": 25.83
+  },
+  "Assam": {
+   "target": 63000.0,
+   "notified_public": 39123.0,
+   "notified_private": 12739.0,
+   "notified": 51862.0,
+   "rate_public": 107.6,
+   "rate_private": 35.0,
+   "rate": 142.7,
+   "population_lakh": 363.54
+  },
+  "Bihar": {
+   "target": 250000.0,
+   "notified_public": 84049.0,
+   "notified_private": 102925.0,
+   "notified": 186974.0,
+   "rate_public": 63.7,
+   "rate_private": 78.0,
+   "rate": 141.8,
+   "population_lakh": 1318.93
+  },
+  "Chandigarh": {
+   "target": 7200.0,
+   "notified_public": 5779.0,
+   "notified_private": 942.0,
+   "notified": 6721.0,
+   "rate_public": 478.4,
+   "rate_private": 78.0,
+   "rate": 556.4,
+   "population_lakh": 12.08
+  },
+  "Chhattisgarh": {
+   "target": 55000.0,
+   "notified_public": 25700.0,
+   "notified_private": 13224.0,
+   "notified": 38924.0,
+   "rate_public": 85.2,
+   "rate_private": 43.8,
+   "rate": 129.0,
+   "population_lakh": 301.8
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "target": 1200.0,
+   "notified_public": 1060.0,
+   "notified_private": 107.0,
+   "notified": 1167.0,
+   "rate_public": 120.5,
+   "rate_private": 12.2,
+   "rate": 132.7,
+   "population_lakh": 8.79
+  },
+  "Delhi": {
+   "target": 110000.0,
+   "notified_public": 74640.0,
+   "notified_private": 25883.0,
+   "notified": 100523.0,
+   "rate_public": 376.6,
+   "rate_private": 130.6,
+   "rate": 507.2,
+   "population_lakh": 198.21
+  },
+  "Goa": {
+   "target": 2200.0,
+   "notified_public": 1734.0,
+   "notified_private": 348.0,
+   "notified": 2082.0,
+   "rate_public": 110.5,
+   "rate_private": 22.2,
+   "rate": 132.7,
+   "population_lakh": 15.69
+  },
+  "Gujarat": {
+   "target": 140000.0,
+   "notified_public": 96858.0,
+   "notified_private": 47649.0,
+   "notified": 144507.0,
+   "rate_public": 133.7,
+   "rate_private": 65.8,
+   "rate": 199.5,
+   "population_lakh": 724.39
+  },
+  "Haryana": {
+   "target": 96000.0,
+   "notified_public": 53645.0,
+   "notified_private": 26845.0,
+   "notified": 80490.0,
+   "rate_public": 173.8,
+   "rate_private": 87.0,
+   "rate": 260.8,
+   "population_lakh": 308.57
+  },
+  "Himachal Pradesh": {
+   "target": 15550.0,
+   "notified_public": 14109.0,
+   "notified_private": 1539.0,
+   "notified": 15648.0,
+   "rate_public": 182.9,
+   "rate_private": 20.0,
+   "rate": 202.9,
+   "population_lakh": 77.14
+  },
+  "Jammu and Kashmir": {
+   "target": 12500.0,
+   "notified_public": 9777.0,
+   "notified_private": 1977.0,
+   "notified": 11754.0,
+   "rate_public": 64.6,
+   "rate_private": 13.1,
+   "rate": 77.6,
+   "population_lakh": 151.44
+  },
+  "Jharkhand": {
+   "target": 70000.0,
+   "notified_public": 46997.0,
+   "notified_private": 14720.0,
+   "notified": 61717.0,
+   "rate_public": 112.7,
+   "rate_private": 35.3,
+   "rate": 148.0,
+   "population_lakh": 417.01
+  },
+  "Karnataka": {
+   "target": 100000.0,
+   "notified_public": 58295.0,
+   "notified_private": 23567.0,
+   "notified": 81862.0,
+   "rate_public": 78.8,
+   "rate_private": 31.8,
+   "rate": 110.6,
+   "population_lakh": 740.18
+  },
+  "Kerala": {
+   "target": 22000.0,
+   "notified_public": 15173.0,
+   "notified_private": 6626.0,
+   "notified": 21799.0,
+   "rate_public": 42.8,
+   "rate_private": 18.7,
+   "rate": 61.5,
+   "population_lakh": 354.59
+  },
+  "Ladakh": {
+   "target": 250.0,
+   "notified_public": 312.0,
+   "notified_private": 8.0,
+   "notified": 320.0,
+   "rate_public": 119.4,
+   "rate_private": 3.1,
+   "rate": 122.5,
+   "population_lakh": 2.61
+  },
+  "Lakshadweep": {
+   "target": 12.0,
+   "notified_public": 6.0,
+   "notified_private": null,
+   "notified": 6.0,
+   "rate_public": 9.0,
+   "rate_private": 0.0,
+   "rate": 9.0,
+   "population_lakh": 0.67
+  },
+  "Madhya Pradesh": {
+   "target": 210000.0,
+   "notified_public": 128275.0,
+   "notified_private": 56416.0,
+   "notified": 184691.0,
+   "rate_public": 145.2,
+   "rate_private": 63.9,
+   "rate": 209.0,
+   "population_lakh": 883.49
+  },
+  "Maharashtra": {
+   "target": 250000.0,
+   "notified_public": 124453.0,
+   "notified_private": 103211.0,
+   "notified": 227664.0,
+   "rate_public": 96.2,
+   "rate_private": 79.8,
+   "rate": 175.9,
+   "population_lakh": 1293.95
+  },
+  "Manipur": {
+   "target": 3500.0,
+   "notified_public": 1543.0,
+   "notified_private": 952.0,
+   "notified": 2495.0,
+   "rate_public": 42.9,
+   "rate_private": 26.5,
+   "rate": 69.4,
+   "population_lakh": 35.94
+  },
+  "Meghalaya": {
+   "target": 5700.0,
+   "notified_public": 4056.0,
+   "notified_private": 852.0,
+   "notified": 4908.0,
+   "rate_public": 104.2,
+   "rate_private": 21.9,
+   "rate": 126.1,
+   "population_lakh": 38.93
+  },
+  "Mizoram": {
+   "target": 3000.0,
+   "notified_public": 1835.0,
+   "notified_private": 438.0,
+   "notified": 2273.0,
+   "rate_public": 139.1,
+   "rate_private": 33.2,
+   "rate": 172.3,
+   "population_lakh": 13.19
+  },
+  "Nagaland": {
+   "target": 5000.0,
+   "notified_public": 3553.0,
+   "notified_private": 734.0,
+   "notified": 4287.0,
+   "rate_public": 169.2,
+   "rate_private": 35.0,
+   "rate": 204.1,
+   "population_lakh": 21.0
+  },
+  "Odisha": {
+   "target": 65000.0,
+   "notified_public": 52265.0,
+   "notified_private": 10122.0,
+   "notified": 62387.0,
+   "rate_public": 109.3,
+   "rate_private": 21.2,
+   "rate": 130.5,
+   "population_lakh": 477.98
+  },
+  "Puducherry": {
+   "target": 4100.0,
+   "notified_public": 4059.0,
+   "notified_private": 110.0,
+   "notified": 4169.0,
+   "rate_public": 256.6,
+   "rate_private": 7.0,
+   "rate": 263.5,
+   "population_lakh": 15.82
+  },
+  "Punjab": {
+   "target": 70000.0,
+   "notified_public": 42326.0,
+   "notified_private": 12898.0,
+   "notified": 55224.0,
+   "rate_public": 138.4,
+   "rate_private": 42.2,
+   "rate": 180.6,
+   "population_lakh": 305.76
+  },
+  "Rajasthan": {
+   "target": 180000.0,
+   "notified_public": 123511.0,
+   "notified_private": 41612.0,
+   "notified": 165123.0,
+   "rate_public": 152.4,
+   "rate_private": 51.4,
+   "rate": 203.8,
+   "population_lakh": 810.25
+  },
+  "Sikkim": {
+   "target": 1400.0,
+   "notified_public": 1298.0,
+   "notified_private": 93.0,
+   "notified": 1391.0,
+   "rate_public": 192.6,
+   "rate_private": 13.8,
+   "rate": 206.4,
+   "population_lakh": 6.74
+  },
+  "Tamil Nadu": {
+   "target": 120000.0,
+   "notified_public": 74328.0,
+   "notified_private": 23923.0,
+   "notified": 98251.0,
+   "rate_public": 94.8,
+   "rate_private": 30.5,
+   "rate": 125.3,
+   "population_lakh": 784.34
+  },
+  "Telangana": {
+   "target": 80000.0,
+   "notified_public": 49871.0,
+   "notified_private": 25123.0,
+   "notified": 74994.0,
+   "rate_public": 122.7,
+   "rate_private": 61.8,
+   "rate": 184.5,
+   "population_lakh": 406.44
+  },
+  "Tripura": {
+   "target": 3200.0,
+   "notified_public": 3187.0,
+   "notified_private": 199.0,
+   "notified": 3386.0,
+   "rate_public": 78.6,
+   "rate_private": 4.9,
+   "rate": 83.5,
+   "population_lakh": 40.53
+  },
+  "Uttar Pradesh": {
+   "target": 550000.0,
+   "notified_public": 409529.0,
+   "notified_private": 223343.0,
+   "notified": 632872.0,
+   "rate_public": 168.3,
+   "rate_private": 91.8,
+   "rate": 260.1,
+   "population_lakh": 2433.27
+  },
+  "Uttarakhand": {
+   "target": 28000.0,
+   "notified_public": 20435.0,
+   "notified_private": 6394.0,
+   "notified": 26829.0,
+   "rate_public": 168.2,
+   "rate_private": 52.6,
+   "rate": 220.9,
+   "population_lakh": 121.46
+  },
+  "West Bengal": {
+   "target": 130000.0,
+   "notified_public": 74656.0,
+   "notified_private": 28072.0,
+   "notified": 102728.0,
+   "rate_public": 72.9,
+   "rate_private": 27.4,
+   "rate": 100.3,
+   "population_lakh": 1024.25
+  }
+ }
+}
