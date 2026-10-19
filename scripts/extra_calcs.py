@@ -71,4 +71,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/aser_std5_reading.csv'] = rows_to_csv(
         ['state', 'can_read_std2_2018_pct', 'can_read_std2_2022_pct', 'can_read_std2_2024_pct (mapped)', 'cannot_read_2024_pct (100 minus mapped)', 'change_2022_to_2024_points'],
         [[s, x['2018'], x['2022'], x['2024'], fmt(100 - x['2024']), fmt(x['2024'] - x['2022'])] for s, x in sorted(ar.items())])
+    ae = load('data/aser/not-enrolled-2024.json')['states']
+    check_equal('aser_oos_6_14', {s: x['6-14']['not_in_school'] for s, x in ae.items()}, by['aser_oos_6_14']['values'])
+    files['calculations/aser_not_in_school.csv'] = rows_to_csv(
+        ['state', 'govt_pct_6_14', 'private_pct_6_14', 'other_pct_6_14', 'not_in_school_pct_6_14 (mapped)', 'not_in_school_pct_15_16'],
+        [[s, x['6-14']['govt'], x['6-14']['private'], x['6-14']['other'], x['6-14']['not_in_school'], x.get('15-16', {}).get('not_in_school', '')] for s, x in sorted(ae.items())])
     return files

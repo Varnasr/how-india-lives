@@ -101,3 +101,7 @@ The older static sheets (the 205 made outside this repository) have no per-state
 ## Std V reading, ASER 2024 (`aser_std5_read`)
 
 ASER Centre's Annual Status of Education Report (Rural) 2024, provisional, 28 January 2025: the share of Std V children in rural government schools who can read a Std II level text, 27 states, for 2018, 2022 and 2024. The mapped value is the 2024 figure; the file also gives its complement (children who cannot) and the change since 2022. The all-India rural government-school figure (44.8; 38.5 in 2022) must lie within the state range. ASER tests children at home in rural districts only and its state tables are government schools only. Samples are small in the smaller states.
+
+## Children not in school, ASER 2024 (`aser_oos_6_14`)
+
+Table 1 of each state page of ASER (Rural) 2024: the share of children aged 6 to 14 enrolled in government, private and other schools and not in school. Each row adds to 100 within rounding (0.3) and the all-India figure (1.9; 7.9 for ages 15 and 16, matching the report text) lies in the state range. Rural household survey; 27 states.

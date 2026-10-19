@@ -1,0 +1,399 @@
+{
+ "source": "ASER Centre, ASER (Rural) 2024, provisional, 28 Jan 2025",
+ "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER_2024_Final-Report_13_2_24-1.pdf",
+ "sha256": "402808c3bd282686333e41b700dcaa8942bb21094b4daa59672606f2047d4195",
+ "india": {
+  "6-14": {
+   "govt": 66.8,
+   "private": 30.6,
+   "other": 0.7,
+   "not_in_school": 1.9
+  },
+  "15-16": {
+   "govt": 60.3,
+   "private": 31.3,
+   "other": 0.6,
+   "not_in_school": 7.9
+  }
+ },
+ "states": {
+  "Andhra Pradesh": {
+   "6-14": {
+    "govt": 61.8,
+    "private": 37.9,
+    "other": 0.1,
+    "not_in_school": 0.1
+   },
+   "15-16": {
+    "govt": 61.3,
+    "private": 36.6,
+    "other": 0.8,
+    "not_in_school": 1.3
+   }
+  },
+  "Arunachal Pradesh": {
+   "6-14": {
+    "govt": 56.3,
+    "private": 39.3,
+    "other": 1.6,
+    "not_in_school": 2.8
+   },
+   "15-16": {
+    "govt": 72.0,
+    "private": 17.6,
+    "other": 0.6,
+    "not_in_school": 9.9
+   }
+  },
+  "Assam": {
+   "6-14": {
+    "govt": 69.9,
+    "private": 28.4,
+    "other": 0.9,
+    "not_in_school": 0.9
+   },
+   "15-16": {
+    "govt": 67.5,
+    "private": 26.0,
+    "other": 1.6,
+    "not_in_school": 5.0
+   }
+  },
+  "Bihar": {
+   "6-14": {
+    "govt": 80.1,
+    "private": 15.7,
+    "other": 1.3,
+    "not_in_school": 3.0
+   },
+   "15-16": {
+    "govt": 83.9,
+    "private": 6.7,
+    "other": 0.7,
+    "not_in_school": 8.6
+   }
+  },
+  "Chhattisgarh": {
+   "6-14": {
+    "govt": 80.6,
+    "private": 17.5,
+    "other": 0.0,
+    "not_in_school": 1.8
+   },
+   "15-16": {
+    "govt": 76.3,
+    "private": 11.9,
+    "other": 0.0,
+    "not_in_school": 11.8
+   }
+  },
+  "Gujarat": {
+   "6-14": {
+    "govt": 86.5,
+    "private": 12.4,
+    "other": 0.1,
+    "not_in_school": 1.0
+   },
+   "15-16": {
+    "govt": 66.0,
+    "private": 23.9,
+    "other": 0.1,
+    "not_in_school": 10.0
+   }
+  },
+  "Haryana": {
+   "6-14": {
+    "govt": 46.0,
+    "private": 52.3,
+    "other": 0.5,
+    "not_in_school": 1.3
+   },
+   "15-16": {
+    "govt": 48.8,
+    "private": 47.4,
+    "other": 0.3,
+    "not_in_school": 3.5
+   }
+  },
+  "Himachal Pradesh": {
+   "6-14": {
+    "govt": 58.6,
+    "private": 41.0,
+    "other": 0.0,
+    "not_in_school": 0.4
+   },
+   "15-16": {
+    "govt": 71.7,
+    "private": 25.3,
+    "other": 0.0,
+    "not_in_school": 3.0
+   }
+  },
+  "Jammu and Kashmir": {
+   "6-14": {
+    "govt": 57.2,
+    "private": 41.7,
+    "other": 0.4,
+    "not_in_school": 0.6
+   },
+   "15-16": {
+    "govt": 65.9,
+    "private": 29.7,
+    "other": 0.6,
+    "not_in_school": 3.8
+   }
+  },
+  "Jharkhand": {
+   "6-14": {
+    "govt": 77.4,
+    "private": 20.3,
+    "other": 0.8,
+    "not_in_school": 1.5
+   },
+   "15-16": {
+    "govt": 72.4,
+    "private": 20.1,
+    "other": 1.0,
+    "not_in_school": 6.6
+   }
+  },
+  "Karnataka": {
+   "6-14": {
+    "govt": 71.1,
+    "private": 28.5,
+    "other": 0.1,
+    "not_in_school": 0.3
+   },
+   "15-16": {
+    "govt": 67.8,
+    "private": 29.3,
+    "other": 0.1,
+    "not_in_school": 2.8
+   }
+  },
+  "Kerala": {
+   "6-14": {
+    "govt": 44.5,
+    "private": 54.0,
+    "other": 1.5,
+    "not_in_school": 0.1
+   },
+   "15-16": {
+    "govt": 55.4,
+    "private": 43.0,
+    "other": 1.3,
+    "not_in_school": 0.3
+   }
+  },
+  "Madhya Pradesh": {
+   "6-14": {
+    "govt": 66.9,
+    "private": 30.5,
+    "other": 0.1,
+    "not_in_school": 2.5
+   },
+   "15-16": {
+    "govt": 65.5,
+    "private": 20.1,
+    "other": 0.1,
+    "not_in_school": 14.3
+   }
+  },
+  "Maharashtra": {
+   "6-14": {
+    "govt": 60.9,
+    "private": 38.5,
+    "other": 0.3,
+    "not_in_school": 0.4
+   },
+   "15-16": {
+    "govt": 22.5,
+    "private": 75.4,
+    "other": 0.2,
+    "not_in_school": 1.9
+   }
+  },
+  "Meghalaya": {
+   "6-14": {
+    "govt": 38.4,
+    "private": 57.6,
+    "other": 0.0,
+    "not_in_school": 4.1
+   },
+   "15-16": {
+    "govt": 35.7,
+    "private": 50.4,
+    "other": 0.0,
+    "not_in_school": 13.9
+   }
+  },
+  "Mizoram": {
+   "6-14": {
+    "govt": 59.4,
+    "private": 39.1,
+    "other": 0.4,
+    "not_in_school": 1.1
+   },
+   "15-16": {
+    "govt": 60.2,
+    "private": 23.8,
+    "other": 0.6,
+    "not_in_school": 15.3
+   }
+  },
+  "Nagaland": {
+   "6-14": {
+    "govt": 45.5,
+    "private": 53.0,
+    "other": 0.0,
+    "not_in_school": 1.4
+   },
+   "15-16": {
+    "govt": 53.8,
+    "private": 33.5,
+    "other": 0.1,
+    "not_in_school": 12.6
+   }
+  },
+  "Odisha": {
+   "6-14": {
+    "govt": 88.6,
+    "private": 10.3,
+    "other": 0.0,
+    "not_in_school": 1.1
+   },
+   "15-16": {
+    "govt": 86.4,
+    "private": 7.0,
+    "other": 0.2,
+    "not_in_school": 6.5
+   }
+  },
+  "Punjab": {
+   "6-14": {
+    "govt": 58.0,
+    "private": 41.3,
+    "other": 0.1,
+    "not_in_school": 0.5
+   },
+   "15-16": {
+    "govt": 62.4,
+    "private": 34.2,
+    "other": 0.2,
+    "not_in_school": 3.3
+   }
+  },
+  "Rajasthan": {
+   "6-14": {
+    "govt": 59.3,
+    "private": 38.3,
+    "other": 0.3,
+    "not_in_school": 2.2
+   },
+   "15-16": {
+    "govt": 62.0,
+    "private": 26.6,
+    "other": 0.0,
+    "not_in_school": 11.3
+   }
+  },
+  "Sikkim": {
+   "6-14": {
+    "govt": 69.0,
+    "private": 30.4,
+    "other": 0.4,
+    "not_in_school": 0.2
+   },
+   "15-16": {
+    "govt": 90.1,
+    "private": 6.1,
+    "other": 0.5,
+    "not_in_school": 3.3
+   }
+  },
+  "Tamil Nadu": {
+   "6-14": {
+    "govt": 68.7,
+    "private": 31.0,
+    "other": 0.2,
+    "not_in_school": 0.1
+   },
+   "15-16": {
+    "govt": 73.8,
+    "private": 24.2,
+    "other": 0.2,
+    "not_in_school": 1.8
+   }
+  },
+  "Telangana": {
+   "6-14": {
+    "govt": 59.8,
+    "private": 39.2,
+    "other": 0.5,
+    "not_in_school": 0.5
+   },
+   "15-16": {
+    "govt": 67.9,
+    "private": 28.9,
+    "other": 0.8,
+    "not_in_school": 2.5
+   }
+  },
+  "Tripura": {
+   "6-14": {
+    "govt": 73.8,
+    "private": 25.0,
+    "other": 0.9,
+    "not_in_school": 0.3
+   },
+   "15-16": {
+    "govt": 82.6,
+    "private": 13.8,
+    "other": 0.3,
+    "not_in_school": 3.4
+   }
+  },
+  "Uttar Pradesh": {
+   "6-14": {
+    "govt": 49.1,
+    "private": 45.5,
+    "other": 1.5,
+    "not_in_school": 3.9
+   },
+   "15-16": {
+    "govt": 28.1,
+    "private": 58.2,
+    "other": 0.7,
+    "not_in_school": 13.0
+   }
+  },
+  "Uttarakhand": {
+   "6-14": {
+    "govt": 62.8,
+    "private": 35.4,
+    "other": 1.0,
+    "not_in_school": 0.8
+   },
+   "15-16": {
+    "govt": 67.9,
+    "private": 27.2,
+    "other": 0.5,
+    "not_in_school": 4.3
+   }
+  },
+  "West Bengal": {
+   "6-14": {
+    "govt": 89.6,
+    "private": 8.7,
+    "other": 0.7,
+    "not_in_school": 0.9
+   },
+   "15-16": {
+    "govt": 91.1,
+    "private": 2.0,
+    "other": 1.5,
+    "not_in_school": 5.4
+   }
+  }
+ }
+}

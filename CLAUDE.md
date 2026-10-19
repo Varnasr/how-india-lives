@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 80 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 81 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 272 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 273 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 80 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 81 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -169,6 +169,8 @@ each such map says so.
 
 `scripts/extract_aser_reading.py` reads ASER 2024's state tables (government schools, rural, Std III and Std V reading at Std II level; SHA-256 pinned) into `data/aser/reading-2024.json`; `build_aser_reading_indicator.py` makes `aser_std5_read` (X272, replacing the old S07a). ASER's state tables are government-school only, and the map shows the share who *can* read, so the old 'cannot read' framing is 100 minus it.
 
+`scripts/extract_aser_enrolment.py` reads Table 1 of every state page (children not in school, ages 6-14 and 15-16) and `build_aser_enrolment_indicator.py` makes `aser_oos_6_14` (X273, replacing S07h).
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
@@ -279,7 +281,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 272 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 273 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

@@ -1414,5 +1414,27 @@
       "education",
       "reading"
     ]
+  },
+  {
+    "id": "X273",
+    "indicator": "aser_oos_6_14",
+    "section": "education",
+    "file": "X273_Children_6-14_not_in_school_ASER_2024.png",
+    "title": "Children aged 6 to 14 not in school, ASER 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  EDUCATION: ENROLMENT",
+    "subtitle": "Share of rural children aged 6 to 14 not enrolled in any school, ASER 2024 (provisional).\nAll-India rural: 1.9 per cent.",
+    "callout_note": "of rural children aged 6 to 14 are not in school in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "ASER finds 1.9 per cent of rural children aged 6 to 14 not enrolled in any school. The share is highest in Meghalaya (4.1 per cent), Uttar Pradesh (3.9), Bihar (3.0), Arunachal Pradesh (2.8) and Madhya Pradesh (2.5), and Andhra Pradesh, Kerala and Tamil Nadu are at 0.1. The figure is much larger for older children: 7.9 per cent of 15 and 16 year olds are not in school.",
+    "policy": "These are rural household survey estimates, so they miss children in cities and migrant families surveyed elsewhere. A child counted as enrolled may still be absent: in the schools ASER visited, only 55.2 per cent of enrolled children in Bihar were present on the survey day. Small state samples mean the ranking among states near 1 per cent is not firm.",
+    "takeaway_hi": "ASER के अनुसार ग्रामीण क्षेत्रों में 6 से 14 वर्ष के 1.9 प्रतिशत बच्चे किसी स्कूल में नामांकित नहीं हैं। यह मेघालय (4.1), उत्तर प्रदेश (3.9), बिहार (3.0), अरुणाचल प्रदेश (2.8) और मध्य प्रदेश (2.5) में सबसे अधिक है। 15 और 16 वर्ष के 7.9 प्रतिशत बच्चे स्कूल से बाहर हैं।",
+    "title_hi": "स्कूल से बाहर बच्चे, 6-14 वर्ष, ASER 2024",
+    "tags": [
+      "ASER",
+      "out of school",
+      "children",
+      "education"
+    ]
   }
 ]
