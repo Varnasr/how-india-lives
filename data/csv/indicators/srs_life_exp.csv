@@ -1,0 +1,24 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+srs_life_exp,Life Expectancy at Birth,Andhra Pradesh,70.7,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Assam,68.6,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Bihar,69.3,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Chhattisgarh,64.6,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Delhi,74.2,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Gujarat,70.4,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Haryana,68.8,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Himachal Pradesh,74.4,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Jammu and Kashmir,74.4,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Jharkhand,69.5,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Karnataka,70.0,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Kerala,75.1,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Madhya Pradesh,67.6,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Maharashtra,72.8,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Odisha,70.5,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Punjab,70.8,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Rajasthan,70.4,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Tamil Nadu,73.4,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Telangana,70.8,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Uttar Pradesh,68.0,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,Uttarakhand,71.3,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,West Bengal,72.5,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19
+srs_life_exp,Life Expectancy at Birth,India (national figure as published or computed),70.3,years,2019-23,,,,,"ORGI, SRS Abridged Life Tables 2019-23",https://censusindia.gov.in/nada/index.php/catalog/46175,2026-10-19

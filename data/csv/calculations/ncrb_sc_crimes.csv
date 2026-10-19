@@ -1,0 +1,37 @@
+state,cases_2024,sc_population_lakh_2011,ncrb_printed_rate_2024 (mapped value),recomputed_rate_2024 (cases / population),cases_2023,rate_2023 (cases_2023 / population),note
+Andaman and Nicobar,0,0.0,,,0,,excluded: under 1 lakh Scheduled Caste population
+Andhra Pradesh,1823,84.5,21.6,21.6,2027,24.0,
+Arunachal Pradesh,1,0.0,,,0,,excluded: under 1 lakh Scheduled Caste population
+Assam,7,22.3,0.3,0.3,5,0.2,
+Bihar,7549,165.7,45.6,45.6,7064,42.6,
+Chandigarh,5,2.0,2.5,2.5,3,1.5,
+Chhattisgarh,268,32.7,8.2,8.2,250,7.6,
+Dadra and Nagar Haveli and Daman and Diu,2,0.1,16.2,,1,,excluded: under 1 lakh Scheduled Caste population
+Delhi,133,28.1,4.7,4.7,128,4.6,
+Goa,1,0.3,3.9,,4,,excluded: under 1 lakh Scheduled Caste population
+Gujarat,1304,40.7,32.0,32.0,1373,33.7,
+Haryana,1076,51.1,21.0,21.1,1539,30.1,
+Himachal Pradesh,247,17.3,14.3,14.3,229,13.2,
+Jammu and Kashmir,19,9.2,2.1,2.1,26,2.8,
+Jharkhand,566,39.9,14.2,14.2,604,15.1,
+Karnataka,2016,104.7,19.2,19.3,1923,18.4,
+Kerala,1064,30.4,35.0,35.0,1128,37.1,
+Ladakh,0,0.0,0.0,,0,,excluded: under 1 lakh Scheduled Caste population
+Lakshadweep,0,0.0,,,0,,excluded: under 1 lakh Scheduled Caste population
+Madhya Pradesh,7765,113.4,68.5,68.5,8232,72.6,
+Maharashtra,3219,132.8,24.2,24.2,3024,22.8,
+Manipur,1,1.0,1.0,1.0,0,0.0,
+Meghalaya,0,0.2,0.0,,0,,excluded: under 1 lakh Scheduled Caste population
+Mizoram,2,0.0,164.2,,0,,excluded: under 1 lakh Scheduled Caste population
+Nagaland,0,0.0,,,0,,excluded: under 1 lakh Scheduled Caste population
+Odisha,2704,71.9,37.6,37.6,2696,37.5,
+Puducherry,4,2.0,2.0,2.0,4,2.0,
+Punjab,166,88.6,1.9,1.9,116,1.3,
+Rajasthan,7008,122.2,57.3,57.3,8449,69.1,
+Sikkim,1,0.3,3.5,,0,,excluded: under 1 lakh Scheduled Caste population
+Tamil Nadu,1777,144.4,12.3,12.3,1921,13.3,
+Telangana,2059,54.3,37.9,37.9,1709,31.5,
+Tripura,0,6.5,0.0,0.0,0,0.0,
+Uttar Pradesh,14642,413.6,35.4,35.4,15130,36.6,
+Uttarakhand,153,18.9,8.1,8.1,102,5.4,
+West Bengal,116,214.6,0.5,0.5,102,0.5,

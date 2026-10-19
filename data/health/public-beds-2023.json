@@ -1,0 +1,270 @@
+{
+ "source": "Lok Sabha Unstarred Question 1000, 25 July 2025, Annexure-I (Health Dynamics of India 2022-23), beds as on 31 March 2023",
+ "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1000_LIR76k.pdf?source=pqals",
+ "sha256": "fc1c3d7209d79c4661b92730fe462aced66389d691f6cd0c0f99e715af59d35c",
+ "national_total": 818661,
+ "columns": [
+  "phc",
+  "chc",
+  "sub_divisional_hospital",
+  "district_hospital",
+  "medical_college"
+ ],
+ "unreliable": {
+  "Maharashtra": "The medical-college column adds to 16,998 beds more than its printed total, which is exactly this state's entry. The source does not say which is wrong, so the state is left off the map."
+ },
+ "states": {
+  "Andhra Pradesh": {
+   "phc": 8712,
+   "chc": 6400,
+   "sub_divisional_hospital": 5400,
+   "district_hospital": 2600,
+   "medical_college": 12583
+  },
+  "Arunachal Pradesh": {
+   "phc": 397,
+   "chc": 594,
+   "sub_divisional_hospital": null,
+   "district_hospital": 1151,
+   "medical_college": 350
+  },
+  "Assam": {
+   "phc": 3166,
+   "chc": 6218,
+   "sub_divisional_hospital": 844,
+   "district_hospital": 3677,
+   "medical_college": 9343
+  },
+  "Bihar": {
+   "phc": 5596,
+   "chc": 8039,
+   "sub_divisional_hospital": 2459,
+   "district_hospital": 4575,
+   "medical_college": 7251
+  },
+  "Chhattisgarh": {
+   "phc": 5015,
+   "chc": 6726,
+   "sub_divisional_hospital": 629,
+   "district_hospital": 3542,
+   "medical_college": 4458
+  },
+  "Goa": {
+   "phc": 183,
+   "chc": 210,
+   "sub_divisional_hospital": 253,
+   "district_hospital": 600,
+   "medical_college": 1342
+  },
+  "Gujarat": {
+   "phc": 9422,
+   "chc": 11167,
+   "sub_divisional_hospital": 4492,
+   "district_hospital": 3257,
+   "medical_college": 17899
+  },
+  "Haryana": {
+   "phc": 2183,
+   "chc": 3079,
+   "sub_divisional_hospital": 1581,
+   "district_hospital": 3647,
+   "medical_college": 3660
+  },
+  "Himachal Pradesh": {
+   "phc": 1005,
+   "chc": 969,
+   "sub_divisional_hospital": 3665,
+   "district_hospital": 1924,
+   "medical_college": 2632
+  },
+  "Jharkhand": {
+   "phc": 1229,
+   "chc": 3647,
+   "sub_divisional_hospital": 534,
+   "district_hospital": 3215,
+   "medical_college": 2900
+  },
+  "Karnataka": {
+   "phc": 15112,
+   "chc": 6500,
+   "sub_divisional_hospital": 14530,
+   "district_hospital": 6174,
+   "medical_college": 13712
+  },
+  "Kerala": {
+   "phc": 5727,
+   "chc": 6371,
+   "sub_divisional_hospital": 8347,
+   "district_hospital": 15113,
+   "medical_college": 7175
+  },
+  "Madhya Pradesh": {
+   "phc": 8640,
+   "chc": 10590,
+   "sub_divisional_hospital": 9721,
+   "district_hospital": 16650,
+   "medical_college": 5850
+  },
+  "Maharashtra": {
+   "phc": 18276,
+   "chc": 15004,
+   "sub_divisional_hospital": 7903,
+   "district_hospital": 4108,
+   "medical_college": 16998
+  },
+  "Manipur": {
+   "phc": 420,
+   "chc": 365,
+   "sub_divisional_hospital": 10,
+   "district_hospital": 551,
+   "medical_college": 1449
+  },
+  "Meghalaya": {
+   "phc": 1127,
+   "chc": 867,
+   "sub_divisional_hospital": 40,
+   "district_hospital": 1960,
+   "medical_college": 594
+  },
+  "Mizoram": {
+   "phc": 655,
+   "chc": 240,
+   "sub_divisional_hospital": 70,
+   "district_hospital": 903,
+   "medical_college": 500
+  },
+  "Nagaland": {
+   "phc": 706,
+   "chc": 325,
+   "sub_divisional_hospital": null,
+   "district_hospital": 1017,
+   "medical_college": null
+  },
+  "Odisha": {
+   "phc": 1501,
+   "chc": 6290,
+   "sub_divisional_hospital": 1946,
+   "district_hospital": 7288,
+   "medical_college": 9291
+  },
+  "Punjab": {
+   "phc": 1688,
+   "chc": 3711,
+   "sub_divisional_hospital": 2509,
+   "district_hospital": 3931,
+   "medical_college": 3160
+  },
+  "Rajasthan": {
+   "phc": 13866,
+   "chc": 23820,
+   "sub_divisional_hospital": 2500,
+   "district_hospital": 9474,
+   "medical_college": 17131
+  },
+  "Sikkim": {
+   "phc": 257,
+   "chc": 28,
+   "sub_divisional_hospital": null,
+   "district_hospital": 400,
+   "medical_college": null
+  },
+  "Tamil Nadu": {
+   "phc": 10025,
+   "chc": 12582,
+   "sub_divisional_hospital": 21978,
+   "district_hospital": 7695,
+   "medical_college": 29888
+  },
+  "Telangana": {
+   "phc": 4662,
+   "chc": 3320,
+   "sub_divisional_hospital": 5400,
+   "district_hospital": 2270,
+   "medical_college": 5960
+  },
+  "Tripura": {
+   "phc": 918,
+   "chc": 630,
+   "sub_divisional_hospital": 900,
+   "district_hospital": 1260,
+   "medical_college": 727
+  },
+  "Uttarakhand": {
+   "phc": 2111,
+   "chc": 1699,
+   "sub_divisional_hospital": 2035,
+   "district_hospital": 1511,
+   "medical_college": 1850
+  },
+  "Uttar Pradesh": {
+   "phc": 13548,
+   "chc": 26157,
+   "sub_divisional_hospital": null,
+   "district_hospital": 22812,
+   "medical_college": 14726
+  },
+  "West Bengal": {
+   "phc": 7640,
+   "chc": 11205,
+   "sub_divisional_hospital": 13110,
+   "district_hospital": 7599,
+   "medical_college": 25086
+  },
+  "Andaman and Nicobar": {
+   "phc": 230,
+   "chc": 210,
+   "sub_divisional_hospital": null,
+   "district_hospital": 220,
+   "medical_college": 700
+  },
+  "Chandigarh": {
+   "phc": 23,
+   "chc": 120,
+   "sub_divisional_hospital": 100,
+   "district_hospital": 527,
+   "medical_college": 3096
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "phc": 177,
+   "chc": 132,
+   "sub_divisional_hospital": 100,
+   "district_hospital": 240,
+   "medical_college": 589
+  },
+  "Delhi": {
+   "phc": 12,
+   "chc": null,
+   "sub_divisional_hospital": 431,
+   "district_hospital": 9789,
+   "medical_college": 12060
+  },
+  "Jammu and Kashmir": {
+   "phc": 3955,
+   "chc": 2769,
+   "sub_divisional_hospital": null,
+   "district_hospital": 1862,
+   "medical_college": 5420
+  },
+  "Ladakh": {
+   "phc": 320,
+   "chc": 190,
+   "sub_divisional_hospital": null,
+   "district_hospital": 370,
+   "medical_college": null
+  },
+  "Lakshadweep": {
+   "phc": 40,
+   "chc": 90,
+   "sub_divisional_hospital": 70,
+   "district_hospital": 50,
+   "medical_college": null
+  },
+  "Puducherry": {
+   "phc": 185,
+   "chc": 120,
+   "sub_divisional_hospital": null,
+   "district_hospital": 1853,
+   "medical_college": 2794
+  }
+ }
+}

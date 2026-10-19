@@ -1,0 +1,158 @@
+{
+ "source": "Lok Sabha Unstarred Question 5803, 30 Mar 2026, Annexure (Ministry of Finance); data uploaded by Member Lending Institutions on the Mudra portal",
+ "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5803_fuDmOn.pdf?source=pqals",
+ "sha256": "d150ae55e44f017449c71395e5d51dad98e629c4e516b16c32f8afd58b6ca9bb",
+ "period": "1 April 2022 to 31 March 2025",
+ "national_loans": 38416963,
+ "national_amount_rs_crore": 209190.69,
+ "columns": [
+  "loans_to_sc_and_st_entrepreneurs",
+  "amount_rs_crore"
+ ],
+ "states": {
+  "Kerala": [
+   467267,
+   2630
+  ],
+  "Andaman and Nicobar": [
+   270,
+   12
+  ],
+  "Andhra Pradesh": [
+   407143,
+   4469
+  ],
+  "Arunachal Pradesh": [
+   33576,
+   428
+  ],
+  "Assam": [
+   215895,
+   1982
+  ],
+  "Bihar": [
+   5010024,
+   23344
+  ],
+  "Chandigarh": [
+   16846,
+   103
+  ],
+  "Chhattisgarh": [
+   836049,
+   4333
+  ],
+  "Dadra and Nagar Haveli and Daman and Diu": [
+   1149,
+   15
+  ],
+  "Delhi": [
+   112227,
+   647
+  ],
+  "Goa": [
+   6335,
+   43
+  ],
+  "Gujarat": [
+   895011,
+   5638
+  ],
+  "Haryana": [
+   1189322,
+   6342
+  ],
+  "Himachal Pradesh": [
+   96451,
+   1168
+  ],
+  "Jammu and Kashmir": [
+   45926,
+   452
+  ],
+  "Jharkhand": [
+   1661761,
+   7807
+  ],
+  "Karnataka": [
+   2593552,
+   15771
+  ],
+  "Ladakh": [
+   20063,
+   549
+  ],
+  "Lakshadweep": [
+   4803,
+   87
+  ],
+  "Madhya Pradesh": [
+   3406196,
+   16954
+  ],
+  "Maharashtra": [
+   2874748,
+   14124
+  ],
+  "Manipur": [
+   7327,
+   118
+  ],
+  "Meghalaya": [
+   36559,
+   425
+  ],
+  "Mizoram": [
+   37494,
+   1073
+  ],
+  "Nagaland": [
+   12326,
+   228
+  ],
+  "Odisha": [
+   2487185,
+   10948
+  ],
+  "Puducherry": [
+   27734,
+   228
+  ],
+  "Punjab": [
+   1461516,
+   6962
+  ],
+  "Rajasthan": [
+   2877087,
+   16005
+  ],
+  "Sikkim": [
+   10308,
+   143
+  ],
+  "Tamil Nadu": [
+   2004209,
+   13705
+  ],
+  "Telangana": [
+   228899,
+   2446
+  ],
+  "Tripura": [
+   383497,
+   2284
+  ],
+  "Uttar Pradesh": [
+   5901723,
+   28981
+  ],
+  "Uttarakhand": [
+   330051,
+   1810
+  ],
+  "West Bengal": [
+   2716434,
+   16937
+  ]
+ }
+}

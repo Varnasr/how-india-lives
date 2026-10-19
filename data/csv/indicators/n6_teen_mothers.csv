@@ -1,0 +1,36 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Andaman and Nicobar,1.6,%,2023-24,3.0,2019-21,-1.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Andhra Pradesh,9.2,%,2023-24,12.6,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Arunachal Pradesh,5.6,%,2023-24,6.0,2019-21,-0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Assam,7.3,%,2023-24,11.7,2019-21,-4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Bihar,11.4,%,2023-24,11.0,2019-21,0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Chandigarh,0.0,%,2023-24,0.8,2019-21,-0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Chhattisgarh,4.2,%,2023-24,3.1,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Dadra and Nagar Haveli and Daman and Diu,5.0,%,2023-24,4.3,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Delhi,2.4,%,2023-24,3.3,2019-21,-0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Goa,1.1,%,2023-24,2.7,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Gujarat,5.6,%,2023-24,5.2,2019-21,0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Haryana,4.7,%,2023-24,3.9,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Himachal Pradesh,2.9,%,2023-24,3.4,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Jammu and Kashmir,1.8,%,2023-24,1.0,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Jharkhand,11.7,%,2023-24,9.8,2019-21,1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Karnataka,4.9,%,2023-24,5.4,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Kerala,1.5,%,2023-24,2.4,2019-21,-0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Ladakh,0.8,%,2023-24,0.0,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Madhya Pradesh,5.6,%,2023-24,5.1,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Maharashtra,7.1,%,2023-24,7.6,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Meghalaya,4.6,%,2023-24,7.2,2019-21,-2.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Mizoram,4.8,%,2023-24,4.1,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Nagaland,3.2,%,2023-24,3.8,2019-21,-0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Odisha,6.5,%,2023-24,7.5,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Puducherry,2.9,%,2023-24,4.1,2019-21,-1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Punjab,2.8,%,2023-24,3.1,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Rajasthan,4.7,%,2023-24,3.7,2019-21,1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Sikkim,4.2,%,2023-24,3.1,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Tamil Nadu,4.1,%,2023-24,6.3,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Telangana,6.0,%,2023-24,5.8,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Tripura,18.0,%,2023-24,21.9,2019-21,-3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Uttar Pradesh,3.5,%,2023-24,2.9,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,Uttarakhand,1.6,%,2023-24,2.4,2019-21,-0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,West Bengal,16.6,%,2023-24,16.4,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_teen_mothers,Girls 15-19 already mothers or pregnant,India (national figure as published or computed),6.7,%,2023-24,6.8,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

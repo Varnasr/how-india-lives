@@ -1,0 +1,33 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Andhra Pradesh,87.7,%,2023-24,73.2,2019-21,14.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Arunachal Pradesh,75.9,%,2023-24,64.9,2019-21,11.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Assam,81.7,%,2023-24,66.7,2019-21,15.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Bihar,77.3,%,2023-24,71.0,2019-21,6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Chandigarh,82.1,%,2023-24,80.9,2019-21,1.2,yes,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Chhattisgarh,77.9,%,2023-24,79.7,2019-21,-1.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Dadra and Nagar Haveli and Daman and Diu,89.0,%,2023-24,94.9,2019-21,-5.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Delhi,80.7,%,2023-24,76.0,2019-21,4.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Goa,93.8,%,2023-24,81.9,2019-21,11.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Gujarat,81.7,%,2023-24,76.4,2019-21,5.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Haryana,79.7,%,2023-24,76.9,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Himachal Pradesh,90.1,%,2023-24,89.2,2019-21,0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Jammu and Kashmir,89.4,%,2023-24,86.2,2019-21,3.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Jharkhand,78.1,%,2023-24,74.1,2019-21,4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Karnataka,90.2,%,2023-24,84.3,2019-21,5.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Kerala,84.9,%,2023-24,78.4,2019-21,6.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Madhya Pradesh,81.5,%,2023-24,77.4,2019-21,4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Maharashtra,83.4,%,2023-24,73.6,2019-21,9.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Meghalaya,75.3,%,2023-24,64.0,2019-21,11.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Mizoram,72.1,%,2023-24,72.7,2019-21,-0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Nagaland,64.3,%,2023-24,57.9,2019-21,6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Odisha,90.8,%,2023-24,90.7,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Puducherry,89.3,%,2023-24,82.3,2019-21,7.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Punjab,77.7,%,2023-24,76.2,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Rajasthan,80.6,%,2023-24,80.5,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Tamil Nadu,90.0,%,2023-24,89.4,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Telangana,80.9,%,2023-24,79.1,2019-21,1.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Tripura,74.4,%,2023-24,69.5,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Uttar Pradesh,81.4,%,2023-24,69.9,2019-21,11.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",Uttarakhand,86.0,%,2023-24,81.1,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",West Bengal,88.1,%,2023-24,88.2,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_full_vacc,"Children fully vaccinated, 12-23 months",India (national figure as published or computed),82.6,%,2023-24,76.6,2019-21,6.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

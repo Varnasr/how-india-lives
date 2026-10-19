@@ -1,0 +1,36 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_stunting,Children under 5 who are stunted,Andaman and Nicobar,26.7,%,2023-24,22.5,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Andhra Pradesh,24.6,%,2023-24,31.2,2019-21,-6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Arunachal Pradesh,24.1,%,2023-24,28.0,2019-21,-3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Assam,30.3,%,2023-24,35.3,2019-21,-5.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Bihar,35.6,%,2023-24,42.9,2019-21,-7.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Chandigarh,19.0,%,2023-24,25.3,2019-21,-6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Chhattisgarh,27.5,%,2023-24,34.6,2019-21,-7.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Dadra and Nagar Haveli and Daman and Diu,37.1,%,2023-24,39.4,2019-21,-2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Delhi,26.4,%,2023-24,30.9,2019-21,-4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Goa,19.4,%,2023-24,25.8,2019-21,-6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Gujarat,35.3,%,2023-24,39.0,2019-21,-3.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Haryana,25.9,%,2023-24,27.5,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Himachal Pradesh,20.6,%,2023-24,30.8,2019-21,-10.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Jammu and Kashmir,21.4,%,2023-24,26.9,2019-21,-5.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Jharkhand,35.0,%,2023-24,39.6,2019-21,-4.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Karnataka,26.5,%,2023-24,35.4,2019-21,-8.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Kerala,20.1,%,2023-24,23.4,2019-21,-3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Lakshadweep,34.1,%,2023-24,32.0,2019-21,2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Madhya Pradesh,31.4,%,2023-24,35.7,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Maharashtra,29.5,%,2023-24,35.2,2019-21,-5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Meghalaya,36.8,%,2023-24,46.5,2019-21,-9.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Mizoram,26.1,%,2023-24,28.9,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Nagaland,25.1,%,2023-24,32.7,2019-21,-7.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Odisha,26.8,%,2023-24,31.0,2019-21,-4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Puducherry,16.6,%,2023-24,20.0,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Punjab,20.4,%,2023-24,24.5,2019-21,-4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Rajasthan,29.6,%,2023-24,31.8,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Sikkim,20.1,%,2023-24,22.3,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Tamil Nadu,20.7,%,2023-24,25.0,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Telangana,27.0,%,2023-24,33.1,2019-21,-6.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Tripura,21.9,%,2023-24,32.3,2019-21,-10.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Uttar Pradesh,31.5,%,2023-24,39.7,2019-21,-8.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,Uttarakhand,20.0,%,2023-24,27.0,2019-21,-7.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,West Bengal,22.4,%,2023-24,33.8,2019-21,-11.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_stunting,Children under 5 who are stunted,India (national figure as published or computed),29.3,%,2023-24,35.5,2019-21,-6.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

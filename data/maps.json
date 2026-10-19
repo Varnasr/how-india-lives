@@ -33,7 +33,8 @@
       "access"
     ],
     "title_hi": "टेलीविज़न वाले परिवार",
-    "takeaway_hi": "90%+ शहरी परिवारों के पास टीवी है; ग्रामीण बिहार में 50% से कम।"
+    "takeaway_hi": "90%+ शहरी परिवारों के पास टीवी है; ग्रामीण बिहार में 50% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X168",
@@ -51,7 +52,8 @@
       "digital access"
     ],
     "title_hi": "स्मार्टफोन + इंटरनेट पहुँच",
-    "takeaway_hi": "महानगरों में स्मार्टफोन + इंटरनेट पहुँच 70% से अधिक है, पर ग्रामीण पूर्वोत्तर राज्यों में 25% से कम।"
+    "takeaway_hi": "महानगरों में स्मार्टफोन + इंटरनेट पहुँच 70% से अधिक है, पर ग्रामीण पूर्वोत्तर राज्यों में 25% से कम।",
+    "newer": "X274"
   },
   {
     "id": "X169",
@@ -87,7 +89,8 @@
       "gender"
     ],
     "title_hi": "महिलाओं का मीडिया संपर्क अंतर, टीवी बनाम प्रिंट",
-    "takeaway_hi": "महिलाओं का मीडिया संपर्क अंतर (टीवी बनाम प्रिंट) बिहार में सबसे अधिक है — महिलाएँ टीवी देखती हैं पर अखबार नहीं पढ़तीं।"
+    "takeaway_hi": "महिलाओं का मीडिया संपर्क अंतर (टीवी बनाम प्रिंट) बिहार में सबसे अधिक है — महिलाएँ टीवी देखती हैं पर अखबार नहीं पढ़तीं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X171",
@@ -105,7 +108,8 @@
       "economy"
     ],
     "title_hi": "पक्के मकान",
-    "takeaway_hi": "केरल में 90% से अधिक परिवार पक्के मकानों में रहते हैं; असम में 40% से कम।"
+    "takeaway_hi": "केरल में 90% से अधिक परिवार पक्के मकानों में रहते हैं; असम में 40% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X172",
@@ -231,7 +235,8 @@
       "financial inclusion"
     ],
     "title_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण",
-    "takeaway_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण 5 गुना तक भिन्न है — ऋण तक पहुँच बराबर नहीं है।"
+    "takeaway_hi": "प्रति लाख अनुसूचित जाति/जनजाति आबादी पर मुद्रा ऋण 5 गुना तक भिन्न है — ऋण तक पहुँच बराबर नहीं है।",
+    "newer": "mudra_sc_st"
   },
   {
     "id": "X179",
@@ -267,7 +272,8 @@
       "reporting gap"
     ],
     "title_hi": "घरेलू हिंसा FIR दर बनाम अनुभव",
-    "takeaway_hi": "कई राज्यों में, घरेलू हिंसा के लिए FIR दर्ज कराने की दर उसका अनुभव बताने वाली महिलाओं की 5% से कम है।"
+    "takeaway_hi": "कई राज्यों में, घरेलू हिंसा के लिए FIR दर्ज कराने की दर उसका अनुभव बताने वाली महिलाओं की 5% से कम है।",
+    "data_note": "This map sets NFHS-5 survey experience against police-recorded cases. NFHS-6 reports spousal violence overall (map X216), and the FIR comparison has not been redone, so the figures remain as made."
   },
   {
     "id": "X181",
@@ -303,7 +309,8 @@
       "gender"
     ],
     "title_hi": "प्रति करोड़ आबादी पर तेज़ाब हमले के मामले",
-    "takeaway_hi": "तेज़ाब हमले के मामले उत्तर प्रदेश, पश्चिम बंगाल और दिल्ली में केंद्रित हैं — पर कई मामले दर्ज नहीं होते।"
+    "takeaway_hi": "तेज़ाब हमले के मामले उत्तर प्रदेश, पश्चिम बंगाल और दिल्ली में केंद्रित हैं — पर कई मामले दर्ज नहीं होते।",
+    "newer": "ncrb_acid"
   },
   {
     "id": "X183",
@@ -357,7 +364,8 @@
       "health"
     ],
     "title_hi": "पहले 6 महीनों में केवल स्तनपान",
-    "takeaway_hi": "पहले 6 महीनों में केवल स्तनपान छत्तीसगढ़ में 75% से लेकर नागालैंड में 40% से कम तक है।"
+    "takeaway_hi": "पहले 6 महीनों में केवल स्तनपान छत्तीसगढ़ में 75% से लेकर नागालैंड में 40% से कम तक है।",
+    "newer": "n6_ebf"
   },
   {
     "id": "X186",
@@ -375,7 +383,8 @@
       "children"
     ],
     "title_hi": "दस्त से पीड़ित बच्चों को ज़िंक",
-    "takeaway_hi": "देशभर में दस्त से पीड़ित केवल 30% बच्चों को ही ज़िंक उपचार मिलता है — एक सस्ता जीवनरक्षक जिसका कम उपयोग होता है।"
+    "takeaway_hi": "देशभर में दस्त से पीड़ित केवल 30% बच्चों को ही ज़िंक उपचार मिलता है — एक सस्ता जीवनरक्षक जिसका कम उपयोग होता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X187",
@@ -393,7 +402,8 @@
       "nutrition"
     ],
     "title_hi": "किशोरी एनीमिया, लड़कियाँ 15-19",
-    "takeaway_hi": "किशोरियों (15-19) में एनीमिया झारखंड और बिहार में 60% से अधिक है।"
+    "takeaway_hi": "किशोरियों (15-19) में एनीमिया झारखंड और बिहार में 60% से अधिक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X188",
@@ -411,7 +421,8 @@
       "nutrition"
     ],
     "title_hi": "5 वर्ष से कम उम्र के कम वज़न वाले बच्चे",
-    "takeaway_hi": "झारखंड और बिहार में 5 वर्ष से कम उम्र के 40% से अधिक बच्चे कम वज़न के हैं।"
+    "takeaway_hi": "झारखंड और बिहार में 5 वर्ष से कम उम्र के 40% से अधिक बच्चे कम वज़न के हैं।",
+    "newer": "n6_underweight"
   },
   {
     "id": "X189",
@@ -429,7 +440,8 @@
       "health"
     ],
     "title_hi": "बेहतर पेयजल स्रोत का उपयोग करने वाले परिवार",
-    "takeaway_hi": "बेहतर पेयजल स्रोत तक पहुँच केरल में 95% से अधिक है, लेकिन कुछ पूर्वोत्तर राज्यों में 60% से कम है।"
+    "takeaway_hi": "बेहतर पेयजल स्रोत तक पहुँच केरल में 95% से अधिक है, लेकिन कुछ पूर्वोत्तर राज्यों में 60% से कम है।",
+    "newer": "X282"
   },
   {
     "id": "X190",
@@ -447,7 +459,8 @@
       "health"
     ],
     "title_hi": "साबुन से हाथ धोने की सुविधा वाले परिवार",
-    "takeaway_hi": "साबुन से हाथ धोने की सुविधा केरल के 80%+ घरों में मौजूद है, लेकिन ओडिशा में 30% से कम में।"
+    "takeaway_hi": "साबुन से हाथ धोने की सुविधा केरल के 80%+ घरों में मौजूद है, लेकिन ओडिशा में 30% से कम में।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X191",
@@ -465,7 +478,8 @@
       "sanitation"
     ],
     "title_hi": "अब भी जारी खुले में शौच",
-    "takeaway_hi": "खुले में शौच एसबीएम के तहत नाटकीय रूप से घटा है, लेकिन बिहार और झारखंड के कुछ हिस्सों में 10-30% पर अब भी जारी है।"
+    "takeaway_hi": "खुले में शौच एसबीएम के तहत नाटकीय रूप से घटा है, लेकिन बिहार और झारखंड के कुछ हिस्सों में 10-30% पर अब भी जारी है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X192",
@@ -483,7 +497,8 @@
       "WASH"
     ],
     "title_hi": "बिना शौचालय सुविधा वाले परिवार",
-    "takeaway_hi": "राष्ट्रीय अभियानों के बावजूद पूर्वी और पूर्वोत्तर भारत में बिना शौचालय सुविधा वाले परिवार अब भी बने हुए हैं।"
+    "takeaway_hi": "राष्ट्रीय अभियानों के बावजूद पूर्वी और पूर्वोत्तर भारत में बिना शौचालय सुविधा वाले परिवार अब भी बने हुए हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X193",
@@ -627,7 +642,8 @@
       "education"
     ],
     "title_hi": "व्यावहारिक अंग्रेज़ी प्रवाह",
-    "takeaway_hi": "पूर्वोत्तर राज्यों और केरल में व्यावहारिक अंग्रेज़ी प्रवाह 30%+ है, पर हिंदी पट्टी में 5% से कम।"
+    "takeaway_hi": "पूर्वोत्तर राज्यों और केरल में व्यावहारिक अंग्रेज़ी प्रवाह 30%+ है, पर हिंदी पट्टी में 5% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X201",
@@ -645,7 +661,8 @@
       "economy"
     ],
     "title_hi": "कार, जीप या वैन वाले परिवार",
-    "takeaway_hi": "दिल्ली के 20%+ परिवारों के पास कार है; बिहार में 2% से कम।"
+    "takeaway_hi": "दिल्ली के 20%+ परिवारों के पास कार है; बिहार में 2% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X202",
@@ -699,7 +716,8 @@
       "nutrition"
     ],
     "title_hi": "मातृ कुपोषण, BMI 18.5 से कम वाली महिलाएँ",
-    "takeaway_hi": "मातृ कुपोषण (BMI 18.5 से कम) झारखंड और बिहार में 30% से अधिक है।"
+    "takeaway_hi": "मातृ कुपोषण (BMI 18.5 से कम) झारखंड और बिहार में 30% से अधिक है।",
+    "newer": "n6_women_thin"
   },
   {
     "id": "X205",
@@ -735,7 +753,8 @@
       "age structure"
     ],
     "title_hi": "राज्यवार औसत आयु",
-    "takeaway_hi": "केरल की औसत आयु 33 वर्ष है; बिहार की 20 — 13 वर्ष का अंतर जो स्कूलों की माँग से लेकर पेंशन के बोझ तक सब कुछ तय करता है।"
+    "takeaway_hi": "केरल की औसत आयु 33 वर्ष है; बिहार की 20 — 13 वर्ष का अंतर जो स्कूलों की माँग से लेकर पेंशन के बोझ तक सब कुछ तय करता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00b",
@@ -753,7 +772,8 @@
       "demography"
     ],
     "title_hi": "लिंगानुपात — प्रति 1,000 पुरुष पर महिलाएँ",
-    "takeaway_hi": "केरल में प्रति 1,000 पुरुषों पर 1,084 महिलाएँ हैं; हरियाणा में 879 — 205 का अंतर जो दशकों की पुत्र-वरीयता दर्शाता है।"
+    "takeaway_hi": "केरल में प्रति 1,000 पुरुषों पर 1,084 महिलाएँ हैं; हरियाणा में 879 — 205 का अंतर जो दशकों की पुत्र-वरीयता दर्शाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00c",
@@ -771,7 +791,8 @@
       "demography"
     ],
     "title_hi": "बाल लिंगानुपात (0-6 वर्ष) — प्रति 1,000 लड़कों पर लड़कियाँ",
-    "takeaway_hi": "पंजाब और हरियाणा का बाल लिंगानुपात (6 वर्ष से कम) दुनिया में सबसे खराब में से है — प्रति 1,000 लड़कों पर 900 से कम लड़कियाँ।"
+    "takeaway_hi": "पंजाब और हरियाणा का बाल लिंगानुपात (6 वर्ष से कम) दुनिया में सबसे खराब में से है — प्रति 1,000 लड़कों पर 900 से कम लड़कियाँ।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00d",
@@ -789,7 +810,8 @@
       "demography"
     ],
     "title_hi": "प्रति लाख ट्रांसजेंडर जनसंख्या",
-    "takeaway_hi": "केरल और तमिलनाडु प्रति लाख सबसे अधिक ट्रांसजेंडर जनसंख्या दर्ज करते हैं — जहाँ सामाजिक आंदोलन अधिक मजबूत हैं।"
+    "takeaway_hi": "केरल और तमिलनाडु प्रति लाख सबसे अधिक ट्रांसजेंडर जनसंख्या दर्ज करते हैं — जहाँ सामाजिक आंदोलन अधिक मजबूत हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00e",
@@ -807,7 +829,8 @@
       "fertility"
     ],
     "title_hi": "दशकीय जनसंख्या वृद्धि दर 2001-2011",
-    "takeaway_hi": "बिहार और मेघालय 2001-2011 में 25%+ बढ़े; केरल और गोवा 5% से कम — भारत का जनसांख्यिकीय संक्रमण असमान है।"
+    "takeaway_hi": "बिहार और मेघालय 2001-2011 में 25%+ बढ़े; केरल और गोवा 5% से कम — भारत का जनसांख्यिकीय संक्रमण असमान है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00f",
@@ -825,7 +848,8 @@
       "family"
     ],
     "title_hi": "औसत घरेलू आकार",
-    "takeaway_hi": "उत्तर प्रदेश में प्रति घर औसतन 6.1 व्यक्ति; गोवा में 3.7 — संयुक्त बनाम एकल परिवार की झलक।"
+    "takeaway_hi": "उत्तर प्रदेश में प्रति घर औसतन 6.1 व्यक्ति; गोवा में 3.7 — संयुक्त बनाम एकल परिवार की झलक।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00g",
@@ -843,7 +867,8 @@
       "workforce"
     ],
     "title_hi": "निर्भरता अनुपात",
-    "takeaway_hi": "बिहार का निर्भरता अनुपात 80 से अधिक; गोवा का 40 से कम — बिहार में प्रति कामगार दोगुने आश्रित।"
+    "takeaway_hi": "बिहार का निर्भरता अनुपात 80 से अधिक; गोवा का 40 से कम — बिहार में प्रति कामगार दोगुने आश्रित।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00h",
@@ -861,7 +886,8 @@
       "age"
     ],
     "title_hi": "15 वर्ष से कम जनसंख्या का हिस्सा",
-    "takeaway_hi": "बिहार में 40% जनसंख्या 15 वर्ष से कम है; केरल में 22% — दो बिल्कुल अलग भारत।"
+    "takeaway_hi": "बिहार में 40% जनसंख्या 15 वर्ष से कम है; केरल में 22% — दो बिल्कुल अलग भारत।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00i",
@@ -879,7 +905,8 @@
       "demography"
     ],
     "title_hi": "60 वर्ष से अधिक जनसंख्या का हिस्सा",
-    "takeaway_hi": "केरल में 16% जनसंख्या 60 वर्ष से अधिक; बिहार में 7% — केरल यूरोपीय गति से पर भारतीय आय पर बूढ़ा हो रहा है।"
+    "takeaway_hi": "केरल में 16% जनसंख्या 60 वर्ष से अधिक; बिहार में 7% — केरल यूरोपीय गति से पर भारतीय आय पर बूढ़ा हो रहा है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00j",
@@ -897,7 +924,8 @@
       "demography"
     ],
     "title_hi": "कामकाजी आयु (15-59) जनसंख्या का हिस्सा",
-    "takeaway_hi": "दक्षिणी और पश्चिमी राज्यों में 65%+ कामकाजी-आयु जनसंख्या — जनसांख्यिकीय लाभांश की खिड़की बंद हो रही है।"
+    "takeaway_hi": "दक्षिणी और पश्चिमी राज्यों में 65%+ कामकाजी-आयु जनसंख्या — जनसांख्यिकीय लाभांश की खिड़की बंद हो रही है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00k",
@@ -933,7 +961,8 @@
       "labour"
     ],
     "title_hi": "प्रति 1,000 जनसंख्या पर शुद्ध प्रवासन दर",
-    "takeaway_hi": "बिहार और उत्तर प्रदेश लोगों के शुद्ध निर्यातक हैं; महाराष्ट्र और दिल्ली आयातक — प्रवासन आर्थिक अवसर का मानचित्र है।"
+    "takeaway_hi": "बिहार और उत्तर प्रदेश लोगों के शुद्ध निर्यातक हैं; महाराष्ट्र और दिल्ली आयातक — प्रवासन आर्थिक अवसर का मानचित्र है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00m",
@@ -951,7 +980,8 @@
       "demography"
     ],
     "title_hi": "शहरी जनसंख्या में झुग्गीवासियों का %",
-    "takeaway_hi": "महाराष्ट्र की 40%+ शहरी जनसंख्या झुग्गियों में रहती है; कई पूर्वोत्तर राज्यों में यह लगभग शून्य है।"
+    "takeaway_hi": "महाराष्ट्र की 40%+ शहरी जनसंख्या झुग्गियों में रहती है; कई पूर्वोत्तर राज्यों में यह लगभग शून्य है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01a",
@@ -969,7 +999,8 @@
       "culture"
     ],
     "title_hi": "मातृभाषा के रूप में हिंदी",
-    "takeaway_hi": "उत्तर प्रदेश/मध्य प्रदेश में 80%+ लोगों की मातृभाषा हिंदी है, पर तमिलनाडु और केरल में 1% से भी कम — यही भारत का भाषाई विभाजन है।"
+    "takeaway_hi": "उत्तर प्रदेश/मध्य प्रदेश में 80%+ लोगों की मातृभाषा हिंदी है, पर तमिलनाडु और केरल में 1% से भी कम — यही भारत का भाषाई विभाजन है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01b",
@@ -987,7 +1018,8 @@
       "rural"
     ],
     "title_hi": "शहरी आबादी का हिस्सा",
-    "takeaway_hi": "तमिलनाडु 48% शहरी है; बिहार 11% — शहरीकरण का यह अंतर लगभग पाँच गुना है।"
+    "takeaway_hi": "तमिलनाडु 48% शहरी है; बिहार 11% — शहरीकरण का यह अंतर लगभग पाँच गुना है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01c",
@@ -1005,7 +1037,8 @@
       "food"
     ],
     "title_hi": "शाकाहारी आबादी का हिस्सा",
-    "takeaway_hi": "राजस्थान और गुजरात 60%+ शाकाहारी हैं; बंगाल और केरल में 5% से भी कम — भारत का खान-पान का नक्शा रूढ़िवादी धारणाओं को झुठलाता है।"
+    "takeaway_hi": "राजस्थान और गुजरात 60%+ शाकाहारी हैं; बंगाल और केरल में 5% से भी कम — भारत का खान-पान का नक्शा रूढ़िवादी धारणाओं को झुठलाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01d",
@@ -1023,7 +1056,8 @@
       "mobile"
     ],
     "title_hi": "मोबाइल इंटरनेट पहुँच",
-    "takeaway_hi": "दिल्ली में मोबाइल इंटरनेट की पहुँच 75%+ है; असम और बिहार में 30% से कम।"
+    "takeaway_hi": "दिल्ली में मोबाइल इंटरनेट की पहुँच 75%+ है; असम और बिहार में 30% से कम।",
+    "newer": "X274"
   },
   {
     "id": "S01e",
@@ -1077,7 +1111,8 @@
       "culture"
     ],
     "title_hi": "स्नातक डिग्रीधारक (20+ वयस्कों का %)",
-    "takeaway_hi": "दिल्ली में 35%+ वयस्कों के पास स्नातक डिग्री है; बिहार में यह 10% से कम है।"
+    "takeaway_hi": "दिल्ली में 35%+ वयस्कों के पास स्नातक डिग्री है; बिहार में यह 10% से कम है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01h",
@@ -1132,7 +1167,8 @@
       "food"
     ],
     "title_hi": "प्रमुख अनाज के रूप में चावल (कुल अनाज का %)",
-    "takeaway_hi": "दक्षिण और पूर्व में चावल कुल अनाज खपत के 90%+ पर हावी है; उत्तर में गेहूँ का दबदबा है।"
+    "takeaway_hi": "दक्षिण और पूर्व में चावल कुल अनाज खपत के 90%+ पर हावी है; उत्तर में गेहूँ का दबदबा है।",
+    "newer": "X278"
   },
   {
     "id": "S01k",
@@ -1168,7 +1204,8 @@
       "food"
     ],
     "title_hi": "पर्याप्त आयोडीनयुक्त नमक इस्तेमाल करने वाले परिवार",
-    "takeaway_hi": "भारत में केवल 60% परिवार पर्याप्त आयोडीनयुक्त नमक इस्तेमाल करते हैं — जो संज्ञानात्मक क्षति का एक रोकथाम योग्य कारण है।"
+    "takeaway_hi": "भारत में केवल 60% परिवार पर्याप्त आयोडीनयुक्त नमक इस्तेमाल करते हैं — जो संज्ञानात्मक क्षति का एक रोकथाम योग्य कारण है।",
+    "newer": "n6_iodised_salt"
   },
   {
     "id": "S01m",
@@ -1186,7 +1223,8 @@
       "nutrition"
     ],
     "title_hi": "5+ खाद्य समूह खाने वाली महिलाएँ (आहार विविधता)",
-    "takeaway_hi": "भारत में केवल 25% महिलाएँ रोज़ाना 5+ खाद्य समूह खाती हैं — अधिकांश राज्यों में आहार विविधता एक विलासिता है।"
+    "takeaway_hi": "भारत में केवल 25% महिलाएँ रोज़ाना 5+ खाद्य समूह खाती हैं — अधिकांश राज्यों में आहार विविधता एक विलासिता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S01n",
@@ -1204,7 +1242,8 @@
       "culture"
     ],
     "title_hi": "भाषाई विविधता (अनुसूचित भाषाएँ)",
-    "takeaway_hi": "अरुणाचल प्रदेश में 30+ अनुसूचित भाषाएँ हैं; हिंदी पट्टी के राज्यों में 1-2 — भाषाई विविधता बेहद असमान है।"
+    "takeaway_hi": "अरुणाचल प्रदेश में 30+ अनुसूचित भाषाएँ हैं; हिंदी पट्टी के राज्यों में 1-2 — भाषाई विविधता बेहद असमान है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S02a",
@@ -1258,7 +1297,8 @@
       "contracts"
     ],
     "title_hi": "अनौपचारिक कार्यबल — बिना लिखित अनुबंध",
-    "takeaway_hi": "बिहार और झारखंड में 70% से अधिक श्रमिकों के पास कोई लिखित अनुबंध नहीं है — वे कानूनी रूप से अदृश्य हैं।"
+    "takeaway_hi": "बिहार और झारखंड में 70% से अधिक श्रमिकों के पास कोई लिखित अनुबंध नहीं है — वे कानूनी रूप से अदृश्य हैं।",
+    "newer": "plfs_no_contract"
   },
   {
     "id": "S02d",
@@ -1330,7 +1370,8 @@
       "economy"
     ],
     "title_hi": "प्रति व्यक्ति GSDP — Rs लाख",
-    "takeaway_hi": "गोवा का प्रति व्यक्ति GSDP Rs 5.5 लाख है; बिहार का Rs 0.5 लाख — 11 गुना का अंतर।"
+    "takeaway_hi": "गोवा का प्रति व्यक्ति GSDP Rs 5.5 लाख है; बिहार का Rs 0.5 लाख — 11 गुना का अंतर।",
+    "newer": "gsdp_pc"
   },
   {
     "id": "S02h",
@@ -1348,7 +1389,8 @@
       "justice"
     ],
     "title_hi": "प्रति न्यायाधीश लंबित मुकदमे",
-    "takeaway_hi": "उत्तर प्रदेश में एक न्यायाधीश पर 3,000+ लंबित मामले हैं; सिक्किम में 500 से कम — बोझ तले न्याय व्यवस्था चरमरा जाती है।"
+    "takeaway_hi": "उत्तर प्रदेश में एक न्यायाधीश पर 3,000+ लंबित मामले हैं; सिक्किम में 500 से कम — बोझ तले न्याय व्यवस्था चरमरा जाती है।",
+    "newer": "court_pending_per_judge"
   },
   {
     "id": "S02i",
@@ -1384,7 +1426,8 @@
       "economy"
     ],
     "title_hi": "प्रति 10 लाख जनसंख्या मानव तस्करी के मामले",
-    "takeaway_hi": "तस्करी के मामले असम, पश्चिम बंगाल और झारखंड में केंद्रित हैं — यह गलियारा गरीबी और प्रवास के मार्गों का अनुसरण करता है।"
+    "takeaway_hi": "तस्करी के मामले असम, पश्चिम बंगाल और झारखंड में केंद्रित हैं — यह गलियारा गरीबी और प्रवास के मार्गों का अनुसरण करता है।",
+    "newer": "ncrb_trafficking"
   },
   {
     "id": "S02k",
@@ -1402,7 +1445,8 @@
       "energy"
     ],
     "title_hi": "प्राथमिक रसोई ईंधन के रूप में LPG",
-    "takeaway_hi": "दिल्ली के 98% परिवार LPG इस्तेमाल करते हैं; बिहार में उज्ज्वला के बावजूद यह 40% से कम है — किफायत न होना अपनाने में बाधक है।"
+    "takeaway_hi": "दिल्ली के 98% परिवार LPG इस्तेमाल करते हैं; बिहार में उज्ज्वला के बावजूद यह 40% से कम है — किफायत न होना अपनाने में बाधक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S02l",
@@ -1492,7 +1536,8 @@
       "economy"
     ],
     "title_hi": "पक्के मकान",
-    "takeaway_hi": "केरल के 90%+ परिवार पक्के मकानों में रहते हैं; असम और बिहार में यह 50% से कम है।"
+    "takeaway_hi": "केरल के 90%+ परिवार पक्के मकानों में रहते हैं; असम और बिहार में यह 50% से कम है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S03a",
@@ -1510,7 +1555,8 @@
       "children"
     ],
     "title_hi": "5 वर्ष से कम उम्र के बौने बच्चे",
-    "takeaway_hi": "बिहार में 5 वर्ष से कम उम्र के 38% बच्चे बौनेपन के शिकार हैं; केरल में यह 12% है — गलत राज्य में जन्म लेना आपको इंच गँवाता है।"
+    "takeaway_hi": "बिहार में 5 वर्ष से कम उम्र के 38% बच्चे बौनेपन के शिकार हैं; केरल में यह 12% है — गलत राज्य में जन्म लेना आपको इंच गँवाता है।",
+    "newer": "n6_stunting"
   },
   {
     "id": "S03b",
@@ -1528,7 +1574,8 @@
       "nutrition"
     ],
     "title_hi": "महिलाओं में एनीमिया, 15-49",
-    "takeaway_hi": "झारखंड और बिहार में 65% से अधिक महिलाएँ एनीमिया से पीड़ित हैं, जबकि मणिपुर में 33%।"
+    "takeaway_hi": "झारखंड और बिहार में 65% से अधिक महिलाएँ एनीमिया से पीड़ित हैं, जबकि मणिपुर में 33%।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03c",
@@ -1546,7 +1593,8 @@
       "health"
     ],
     "title_hi": "कार्यशील शौचालय वाले परिवार",
-    "takeaway_hi": "केरल के 97% परिवारों के पास कार्यशील शौचालय है; बिहार में यह हाल तक 40% से कम था।"
+    "takeaway_hi": "केरल के 97% परिवारों के पास कार्यशील शौचालय है; बिहार में यह हाल तक 40% से कम था।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03d",
@@ -1564,7 +1612,8 @@
       "health"
     ],
     "title_hi": "संस्थागत प्रसव",
-    "takeaway_hi": "केरल और तमिलनाडु में 99% प्रसव संस्थागत होते हैं; नागालैंड में यह 50% से कम है।"
+    "takeaway_hi": "केरल और तमिलनाडु में 99% प्रसव संस्थागत होते हैं; नागालैंड में यह 50% से कम है।",
+    "newer": "n6_inst_births"
   },
   {
     "id": "S03e",
@@ -1582,7 +1631,8 @@
       "children"
     ],
     "title_hi": "पूर्ण टीकाकरण कवरेज, 12-23 महीने",
-    "takeaway_hi": "पूर्ण टीकाकरण कवरेज ओडिशा में 90%+ है, लेकिन नागालैंड में 60% से कम — 30 अंकों का अंतर।"
+    "takeaway_hi": "पूर्ण टीकाकरण कवरेज ओडिशा में 90%+ है, लेकिन नागालैंड में 60% से कम — 30 अंकों का अंतर।",
+    "newer": "n6_full_vacc"
   },
   {
     "id": "S03f",
@@ -1600,7 +1650,8 @@
       "health"
     ],
     "title_hi": "मातृ मृत्यु अनुपात",
-    "takeaway_hi": "असम का MMR प्रति 100,000 जीवित जन्मों पर 215 है; केरल का 19 है — मातृ मृत्यु के जोखिम में 11 गुना अंतर।"
+    "takeaway_hi": "असम का MMR प्रति 100,000 जीवित जन्मों पर 215 है; केरल का 19 है — मातृ मृत्यु के जोखिम में 11 गुना अंतर।",
+    "newer": "X280"
   },
   {
     "id": "S03g",
@@ -1636,7 +1687,8 @@
       "health"
     ],
     "title_hi": "प्रति व्यक्ति सरकारी स्वास्थ्य व्यय",
-    "takeaway_hi": "केरल सार्वजनिक स्वास्थ्य पर प्रति व्यक्ति Rs 2,500+ खर्च करता है; बिहार Rs 500 से कम खर्च करता है।"
+    "takeaway_hi": "केरल सार्वजनिक स्वास्थ्य पर प्रति व्यक्ति Rs 2,500+ खर्च करता है; बिहार Rs 500 से कम खर्च करता है।",
+    "newer": "nha_ghe_pc"
   },
   {
     "id": "S03i",
@@ -1654,7 +1706,8 @@
       "health"
     ],
     "title_hi": "5 वर्ष से कम आयु मृत्यु दर",
-    "takeaway_hi": "मध्य प्रदेश में 5 वर्ष से कम आयु मृत्यु दर प्रति 1,000 पर 65 है; केरल में यह 4 है — 16 गुना अंतर।"
+    "takeaway_hi": "मध्य प्रदेश में 5 वर्ष से कम आयु मृत्यु दर प्रति 1,000 पर 65 है; केरल में यह 4 है — 16 गुना अंतर।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03j",
@@ -1672,7 +1725,8 @@
       "health"
     ],
     "title_hi": "नवजात मृत्यु दर, पहले 28 दिन",
-    "takeaway_hi": "नवजात मृत्यु (पहले 28 दिन) शिशु मृत्यु का 60%+ हिस्सा है — अधिकांश पहले 48 घंटों में।"
+    "takeaway_hi": "नवजात मृत्यु (पहले 28 दिन) शिशु मृत्यु का 60%+ हिस्सा है — अधिकांश पहले 48 घंटों में।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03k",
@@ -1690,7 +1744,8 @@
       "health"
     ],
     "title_hi": "सिज़ेरियन प्रसव दर",
-    "takeaway_hi": "तेलंगाना की सिज़ेरियन दर 57% है; नागालैंड की 6% है — दोनों ही समस्याग्रस्त हैं, पर विपरीत कारणों से।"
+    "takeaway_hi": "तेलंगाना की सिज़ेरियन दर 57% है; नागालैंड की 6% है — दोनों ही समस्याग्रस्त हैं, पर विपरीत कारणों से।",
+    "newer": "n6_csection"
   },
   {
     "id": "S03l",
@@ -1708,7 +1763,8 @@
       "nutrition"
     ],
     "title_hi": "कम वज़न के नवजात",
-    "takeaway_hi": "उत्तर प्रदेश और मध्य प्रदेश में 20%+ शिशु कम वज़न के साथ जन्म लेते हैं; मिज़ोरम में यह 5% से कम है।"
+    "takeaway_hi": "उत्तर प्रदेश और मध्य प्रदेश में 20%+ शिशु कम वज़न के साथ जन्म लेते हैं; मिज़ोरम में यह 5% से कम है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03m",
@@ -1726,7 +1782,8 @@
       "children"
     ],
     "title_hi": "दस्त का ORS से उपचार",
-    "takeaway_hi": "बचपन में दस्त के दौरान ORS का उपयोग ओडिशा में 75% से लेकर कुछ पूर्वोत्तर राज्यों में 30% से कम तक है।"
+    "takeaway_hi": "बचपन में दस्त के दौरान ORS का उपयोग ओडिशा में 75% से लेकर कुछ पूर्वोत्तर राज्यों में 30% से कम तक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03n",
@@ -1744,7 +1801,8 @@
       "children"
     ],
     "title_hi": "ARI लक्षण वाले बच्चे स्वास्थ्य केंद्र ले जाए गए",
-    "takeaway_hi": "बिहार में, ARI लक्षण वाले 60% से कम बच्चों को स्वास्थ्य केंद्र ले जाया जाता है।"
+    "takeaway_hi": "बिहार में, ARI लक्षण वाले 60% से कम बच्चों को स्वास्थ्य केंद्र ले जाया जाता है।",
+    "newer": "n6_ari_care"
   },
   {
     "id": "S03o",
@@ -1780,7 +1838,8 @@
       "health"
     ],
     "title_hi": "प्रति लाख आबादी पर अस्पताल बिस्तर",
-    "takeaway_hi": "केरल में प्रति 1,000 पर 5+ अस्पताल बिस्तर हैं; बिहार में 1 से कम — WHO न्यूनतम से नीचे।"
+    "takeaway_hi": "केरल में प्रति 1,000 पर 5+ अस्पताल बिस्तर हैं; बिहार में 1 से कम — WHO न्यूनतम से नीचे।",
+    "newer": "ls_public_beds"
   },
   {
     "id": "S03q",
@@ -1798,7 +1857,8 @@
       "health insurance"
     ],
     "title_hi": "PM-JAY आयुष्मान भारत प्रति लाख अस्पताल भर्ती",
-    "takeaway_hi": "आयुष्मान भारत के तहत प्रति लाख अस्पताल भर्ती राज्यों के बीच 10 गुना भिन्न है — उपयोग ≠ कवरेज।"
+    "takeaway_hi": "आयुष्मान भारत के तहत प्रति लाख अस्पताल भर्ती राज्यों के बीच 10 गुना भिन्न है — उपयोग ≠ कवरेज।",
+    "newer": "pmjay_admissions"
   },
   {
     "id": "S03r",
@@ -1816,7 +1876,8 @@
       "poverty"
     ],
     "title_hi": "जेब से स्वास्थ्य व्यय",
-    "takeaway_hi": "उत्तर प्रदेश और बिहार में जेब से होने वाला स्वास्थ्य व्यय कुल स्वास्थ्य व्यय के 70% से अधिक है।"
+    "takeaway_hi": "उत्तर प्रदेश और बिहार में जेब से होने वाला स्वास्थ्य व्यय कुल स्वास्थ्य व्यय के 70% से अधिक है।",
+    "newer": "nha_oope_share"
   },
   {
     "id": "S03s",
@@ -1834,7 +1895,8 @@
       "health"
     ],
     "title_hi": "जन्म के समय जीवन प्रत्याशा",
-    "takeaway_hi": "केरल में जीवन प्रत्याशा 77 वर्ष है; छत्तीसगढ़ में यह 64 है — एक ही देश के भीतर 13 वर्ष का अंतर।"
+    "takeaway_hi": "केरल में जीवन प्रत्याशा 77 वर्ष है; छत्तीसगढ़ में यह 64 है — एक ही देश के भीतर 13 वर्ष का अंतर।",
+    "newer": "X281"
   },
   {
     "id": "S03t",
@@ -1852,7 +1914,8 @@
       "disease"
     ],
     "title_hi": "प्रति लाख आबादी पर टीबी घटना",
-    "takeaway_hi": "उत्तर प्रदेश और बिहार में टीबी की घटना प्रति लाख 300 से अधिक है; केरल में यह 60 से कम है।"
+    "takeaway_hi": "उत्तर प्रदेश और बिहार में टीबी की घटना प्रति लाख 300 से अधिक है; केरल में यह 60 से कम है।",
+    "newer": "X275"
   },
   {
     "id": "S03u",
@@ -1870,7 +1933,8 @@
       "health"
     ],
     "title_hi": "वयस्कों में HIV प्रसार, 15-49",
-    "takeaway_hi": "HIV प्रसार मिज़ोरम, नागालैंड और मणिपुर (पूर्वोत्तर) तथा दक्षिणी राज्यों में केंद्रित है।"
+    "takeaway_hi": "HIV प्रसार मिज़ोरम, नागालैंड और मणिपुर (पूर्वोत्तर) तथा दक्षिणी राज्यों में केंद्रित है।",
+    "newer": "naco_hiv"
   },
   {
     "id": "S04a",
@@ -1888,7 +1952,8 @@
       "gender"
     ],
     "title_hi": "18 से पहले विवाहित लड़कियाँ",
-    "takeaway_hi": "बिहार में 40% महिलाओं का विवाह 18 वर्ष से पहले हुआ; गोवा और केरल में यह 5% से कम है।"
+    "takeaway_hi": "बिहार में 40% महिलाओं का विवाह 18 वर्ष से पहले हुआ; गोवा और केरल में यह 5% से कम है।",
+    "newer": "n6_child_marriage"
   },
   {
     "id": "S04b",
@@ -1906,7 +1971,8 @@
       "gender"
     ],
     "title_hi": "जन्म के समय लिंगानुपात, प्रति 1000 लड़कों पर लड़कियाँ",
-    "takeaway_hi": "हरियाणा और पंजाब का जन्म के समय लिंगानुपात (प्रति 1,000 लड़कों पर 900 लड़कियों से कम) सक्रिय लिंग चयन का संकेत देता है।"
+    "takeaway_hi": "हरियाणा और पंजाब का जन्म के समय लिंगानुपात (प्रति 1,000 लड़कों पर 900 लड़कियों से कम) सक्रिय लिंग चयन का संकेत देता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S04c",
@@ -1924,7 +1990,8 @@
       "gender"
     ],
     "title_hi": "महिला श्रम बल भागीदारी दर",
-    "takeaway_hi": "हिमाचल में महिला श्रम बल भागीदारी 58% है; बिहार में यह 5% से कम है — 10 गुना अंतर।"
+    "takeaway_hi": "हिमाचल में महिला श्रम बल भागीदारी 58% है; बिहार में यह 5% से कम है — 10 गुना अंतर।",
+    "newer": "flfpr"
   },
   {
     "id": "S04d",
@@ -1942,7 +2009,8 @@
       "gender"
     ],
     "title_hi": "अकेले या संयुक्त रूप से वित्तीय निर्णय लेने वाली महिलाएँ",
-    "takeaway_hi": "दक्षिणी राज्यों में 80%+ महिलाएँ घरेलू वित्तीय निर्णयों में भाग लेती हैं; बिहार में 40% से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में 80%+ महिलाएँ घरेलू वित्तीय निर्णयों में भाग लेती हैं; बिहार में 40% से कम।",
+    "newer": "n6_decisions_w"
   },
   {
     "id": "S04e",
@@ -1960,7 +2028,8 @@
       "gender"
     ],
     "title_hi": "पत्नी पिटाई को कम से कम एक स्थिति में उचित ठहराने वाली महिलाएँ",
-    "takeaway_hi": "बिहार में 40%+ महिलाएँ मानती हैं कि पति का अपनी पत्नी को पीटना उचित है; मणिपुर में 10% से कम।"
+    "takeaway_hi": "बिहार में 40%+ महिलाएँ मानती हैं कि पति का अपनी पत्नी को पीटना उचित है; मणिपुर में 10% से कम।",
+    "data_note": "NFHS-6 state fact sheets do not repeat the attitude questions on wife-beating, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S04f",
@@ -1978,7 +2047,8 @@
       "information"
     ],
     "title_hi": "किसी भी मीडिया से संपर्क न रखने वाली महिलाएँ",
-    "takeaway_hi": "बिहार और झारखंड में 50% से अधिक महिलाओं का किसी भी मीडिया से संपर्क नहीं है — न टीवी, न रेडियो, न अखबार।"
+    "takeaway_hi": "बिहार और झारखंड में 50% से अधिक महिलाओं का किसी भी मीडिया से संपर्क नहीं है — न टीवी, न रेडियो, न अखबार।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S04g",
@@ -1996,7 +2066,8 @@
       "gender"
     ],
     "title_hi": "स्वतंत्र रूप से बैंक खाता उपयोग करने वाली महिलाएँ",
-    "takeaway_hi": "दक्षिणी राज्यों में 80% से अधिक महिलाएँ स्वतंत्र रूप से बैंक खाता रखती और उपयोग करती हैं; बिहार में 30% से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में 80% से अधिक महिलाएँ स्वतंत्र रूप से बैंक खाता रखती और उपयोग करती हैं; बिहार में 30% से कम।",
+    "newer": "n6_bank_w"
   },
   {
     "id": "S04h",
@@ -2014,7 +2085,8 @@
       "gender"
     ],
     "title_hi": "घरेलू हिंसा, शारीरिक हिंसा बताने वाली महिलाएँ",
-    "takeaway_hi": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।"
+    "takeaway_hi": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।",
+    "data_note": "NFHS-6 reports ever-experienced spousal violence overall (see the NFHS-6 map X216) but not this physical-violence measure, so NFHS-5 (2019-21) remains the latest state-level figure for it."
   },
   {
     "id": "S04i",
@@ -2032,7 +2104,8 @@
       "gender"
     ],
     "title_hi": "प्रति लाख महिलाओं पर दहेज मृत्यु दर",
-    "takeaway_hi": "उत्तर प्रदेश दहेज मृत्यु की सबसे अधिक निरपेक्ष संख्या दर्ज करता है — सालाना 2,000 से अधिक।"
+    "takeaway_hi": "उत्तर प्रदेश दहेज मृत्यु की सबसे अधिक निरपेक्ष संख्या दर्ज करता है — सालाना 2,000 से अधिक।",
+    "newer": "ncrb_dowry_death"
   },
   {
     "id": "S04j",
@@ -2050,7 +2123,8 @@
       "gender"
     ],
     "title_hi": "ऑनर किलिंग दर्ज मामले",
-    "takeaway_hi": "ऑनर किलिंग के आँकड़े बेहद अनिश्चित हैं — कुछ राज्य शून्य दर्ज करते हैं, जो संभवतः अनुपस्थिति नहीं बल्कि रिपोर्ट न होने को दर्शाता है।"
+    "takeaway_hi": "ऑनर किलिंग के आँकड़े बेहद अनिश्चित हैं — कुछ राज्य शून्य दर्ज करते हैं, जो संभवतः अनुपस्थिति नहीं बल्कि रिपोर्ट न होने को दर्शाता है।",
+    "newer": "ncrb_honour"
   },
   {
     "id": "S04k",
@@ -2068,7 +2142,8 @@
       "gender"
     ],
     "title_hi": "डायन-शिकार मौतें",
-    "takeaway_hi": "झारखंड, ओडिशा और असम सबसे अधिक डायन-शिकार मौतें दर्ज करते हैं — गरीब, विधवा, आदिवासी महिलाओं को निशाना बनाते हुए।"
+    "takeaway_hi": "झारखंड, ओडिशा और असम सबसे अधिक डायन-शिकार मौतें दर्ज करते हैं — गरीब, विधवा, आदिवासी महिलाओं को निशाना बनाते हुए।",
+    "newer": "ncrb_witchcraft"
   },
   {
     "id": "S04l",
@@ -2086,7 +2161,8 @@
       "gender"
     ],
     "title_hi": "10+ वर्ष की स्कूली शिक्षा वाली महिलाएँ",
-    "takeaway_hi": "केरल और गोवा में 70%+ महिलाओं के पास 10+ वर्ष की स्कूली शिक्षा है; बिहार में 25% से कम।"
+    "takeaway_hi": "केरल और गोवा में 70%+ महिलाओं के पास 10+ वर्ष की स्कूली शिक्षा है; बिहार में 25% से कम।",
+    "newer": "n6_women_school"
   },
   {
     "id": "S04m",
@@ -2104,7 +2180,8 @@
       "gender"
     ],
     "title_hi": "कुल विधायकों में महिला विधायक %",
-    "takeaway_hi": "राजस्थान और हरियाणा में महिला विधायक 15% से अधिक हैं (आरक्षण के बाद), पर कई राज्यों में 5% से कम।"
+    "takeaway_hi": "राजस्थान और हरियाणा में महिला विधायक 15% से अधिक हैं (आरक्षण के बाद), पर कई राज्यों में 5% से कम।",
+    "newer": "adr_women_mlas"
   },
   {
     "id": "S04n",
@@ -2122,7 +2199,8 @@
       "gender"
     ],
     "title_hi": "किशोरी गर्भावस्था दर, 15-19 आयु की माताएँ",
-    "takeaway_hi": "त्रिपुरा और असम में 15-19 आयु की 10%+ महिलाएँ पहले से माँ हैं; गोवा में 1% से कम।"
+    "takeaway_hi": "त्रिपुरा और असम में 15-19 आयु की 10%+ महिलाएँ पहले से माँ हैं; गोवा में 1% से कम।",
+    "newer": "n6_teen_mothers"
   },
   {
     "id": "S04o",
@@ -2140,7 +2218,8 @@
       "women's work"
     ],
     "title_hi": "प्रति लाख कामकाजी महिलाओं पर शिशुगृह",
-    "takeaway_hi": "कामकाजी महिलाओं पर शिशुगृह की उपलब्धता बहुत भिन्न है — बाल देखभाल भारत का गायब बुनियादी ढाँचा है।"
+    "takeaway_hi": "कामकाजी महिलाओं पर शिशुगृह की उपलब्धता बहुत भिन्न है — बाल देखभाल भारत का गायब बुनियादी ढाँचा है।",
+    "data_note": "This map draws on NFHS-5 and a second source recorded as NCRB. NFHS-6 does not repeat the survey measure, so the combined figure has not been rebuilt and remains as made in 2019-22."
   },
   {
     "id": "S04p",
@@ -2176,7 +2255,8 @@
       "caste"
     ],
     "title_hi": "अनुसूचित जाति + जनजाति आबादी का हिस्सा",
-    "takeaway_hi": "मिज़ोरम और मेघालय में अनुसूचित जाति/जनजाति की आबादी 50% से अधिक है; गोवा और दिल्ली में 10% से कम।"
+    "takeaway_hi": "मिज़ोरम और मेघालय में अनुसूचित जाति/जनजाति की आबादी 50% से अधिक है; गोवा और दिल्ली में 10% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S05b",
@@ -2212,7 +2292,8 @@
       "caste"
     ],
     "title_hi": "अनुसूचित जाति बनाम सामान्य टीकाकरण कवरेज अंतर",
-    "takeaway_hi": "कई राज्यों में अनुसूचित जाति और सामान्य वर्ग के बच्चों के बीच टीकाकरण का अंतर 15 अंकों से अधिक है।"
+    "takeaway_hi": "कई राज्यों में अनुसूचित जाति और सामान्य वर्ग के बच्चों के बीच टीकाकरण का अंतर 15 अंकों से अधिक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S05d",
@@ -2248,7 +2329,8 @@
       "caste"
     ],
     "title_hi": "प्रति लाख अनुसूचित जाति आबादी पर अपराध",
-    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में अनुसूचित जातियों के खिलाफ सबसे अधिक अपराध दर्ज होते हैं — पर अधिक रिपोर्टिंग बेहतर पुलिस पहुँच का संकेत भी हो सकती है।"
+    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में अनुसूचित जातियों के खिलाफ सबसे अधिक अपराध दर्ज होते हैं — पर अधिक रिपोर्टिंग बेहतर पुलिस पहुँच का संकेत भी हो सकती है।",
+    "newer": "ncrb_sc_crimes"
   },
   {
     "id": "S05f",
@@ -2302,7 +2384,8 @@
       "governance"
     ],
     "title_hi": "मृत्यु पंजीकरण पूर्णता",
-    "takeaway_hi": "केरल में मृत्यु पंजीकरण की पूर्णता 95% से अधिक है, पर बिहार और झारखंड में 50% से कम।"
+    "takeaway_hi": "केरल में मृत्यु पंजीकरण की पूर्णता 95% से अधिक है, पर बिहार और झारखंड में 50% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S05i",
@@ -2320,7 +2403,8 @@
       "governance"
     ],
     "title_hi": "5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण",
-    "takeaway_hi": "दक्षिणी राज्यों में 5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण 95% से अधिक है, पर असम और नागालैंड में 60% से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में 5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण 95% से अधिक है, पर असम और नागालैंड में 60% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06a",
@@ -2338,7 +2422,8 @@
       "diversity"
     ],
     "title_hi": "गैर-हिंदू आबादी हिस्सा",
-    "takeaway_hi": "मिज़ोरम, मेघालय और नागालैंड में 85% से अधिक आबादी गैर-हिंदू है — भारत का धार्मिक नक्शा एकरंगा नहीं है।"
+    "takeaway_hi": "मिज़ोरम, मेघालय और नागालैंड में 85% से अधिक आबादी गैर-हिंदू है — भारत का धार्मिक नक्शा एकरंगा नहीं है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06b",
@@ -2356,7 +2441,8 @@
       "religion"
     ],
     "title_hi": "ईसाई आबादी हिस्सा",
-    "takeaway_hi": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।"
+    "takeaway_hi": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06c",
@@ -2410,7 +2496,8 @@
       "religion"
     ],
     "title_hi": "राज्यवार सांप्रदायिक दंगे 2019-2024",
-    "takeaway_hi": "सांप्रदायिक दंगे उत्तर प्रदेश, राजस्थान, गुजरात और मध्य प्रदेश में केंद्रित हैं — समान रूप से बंटे नहीं हैं।"
+    "takeaway_hi": "सांप्रदायिक दंगे उत्तर प्रदेश, राजस्थान, गुजरात और मध्य प्रदेश में केंद्रित हैं — समान रूप से बंटे नहीं हैं।",
+    "newer": "ncrb_riots"
   },
   {
     "id": "S06f",
@@ -2428,7 +2515,8 @@
       "religion"
     ],
     "title_hi": "बौद्ध आबादी हिस्सा",
-    "takeaway_hi": "महाराष्ट्र में सबसे बड़ी बौद्ध आबादी (6%) है, जो डॉ. अंबेडकर के धर्मांतरण आंदोलन से प्रेरित है।"
+    "takeaway_hi": "महाराष्ट्र में सबसे बड़ी बौद्ध आबादी (6%) है, जो डॉ. अंबेडकर के धर्मांतरण आंदोलन से प्रेरित है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06g",
@@ -2446,7 +2534,8 @@
       "religion"
     ],
     "title_hi": "जनजातीय/स्वदेशी धर्म हिस्सा",
-    "takeaway_hi": "जनजातीय/स्वदेशी धर्म के अनुयायी झारखंड, छत्तीसगढ़ और पूर्वोत्तर राज्यों में केंद्रित हैं।"
+    "takeaway_hi": "जनजातीय/स्वदेशी धर्म के अनुयायी झारखंड, छत्तीसगढ़ और पूर्वोत्तर राज्यों में केंद्रित हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06h",
@@ -2464,7 +2553,8 @@
       "identity"
     ],
     "title_hi": "धर्म नहीं बताया गया",
-    "takeaway_hi": "मणिपुर और मेघालय में 'धर्म नहीं बताया गया' औसत से अधिक है — जो विवादित पहचानों को दर्शाता है।"
+    "takeaway_hi": "मणिपुर और मेघालय में 'धर्म नहीं बताया गया' औसत से अधिक है — जो विवादित पहचानों को दर्शाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06i",
@@ -2518,7 +2608,8 @@
       "education"
     ],
     "title_hi": "कक्षा 2 न पढ़ पाने वाले कक्षा 5 के बच्चे (ASER)",
-    "takeaway_hi": "बिहार में कक्षा 5 के 60%+ छात्र कक्षा 2 का पाठ नहीं पढ़ सकते — वे स्कूल में हैं पर सीख नहीं रहे।"
+    "takeaway_hi": "बिहार में कक्षा 5 के 60%+ छात्र कक्षा 2 का पाठ नहीं पढ़ सकते — वे स्कूल में हैं पर सीख नहीं रहे।",
+    "newer": "X272"
   },
   {
     "id": "S07b",
@@ -2536,7 +2627,8 @@
       "education"
     ],
     "title_hi": "पहली/दूसरी भाषा के रूप में अंग्रेज़ी बोलने वाले %",
-    "takeaway_hi": "नागालैंड और मेघालय में 30%+ लोग अंग्रेज़ी को पहली या दूसरी भाषा के रूप में बोलते हैं; बिहार में 1% से कम।"
+    "takeaway_hi": "नागालैंड और मेघालय में 30%+ लोग अंग्रेज़ी को पहली या दूसरी भाषा के रूप में बोलते हैं; बिहार में 1% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07c",
@@ -2554,7 +2646,8 @@
       "education"
     ],
     "title_hi": "स्नातक डिग्रीधारी (20+ वयस्कों का %)",
-    "takeaway_hi": "दिल्ली में वयस्कों में 35%+ स्नातक डिग्रीधारी हैं; बिहार में 8% से कम।"
+    "takeaway_hi": "दिल्ली में वयस्कों में 35%+ स्नातक डिग्रीधारी हैं; बिहार में 8% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07d",
@@ -2572,7 +2665,8 @@
       "education"
     ],
     "title_hi": "महिला साक्षरता दर",
-    "takeaway_hi": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।"
+    "takeaway_hi": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07e",
@@ -2608,7 +2702,8 @@
       "education"
     ],
     "title_hi": "निजी स्कूल नामांकन हिस्सा (कक्षा 1-12)",
-    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में 50%+ नामांकित छात्र निजी स्कूलों में हैं; पूर्वोत्तर में 15% से कम।"
+    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में 50%+ नामांकित छात्र निजी स्कूलों में हैं; पूर्वोत्तर में 15% से कम।",
+    "newer": "udise_private_share"
   },
   {
     "id": "S07g",
@@ -2644,7 +2739,8 @@
       "education"
     ],
     "title_hi": "स्कूल से बाहर बच्चे (6-14 वर्ष)",
-    "takeaway_hi": "स्कूल से बाहर बच्चे (6-14) उत्तर प्रदेश, बिहार और राजस्थान में केंद्रित हैं — गरीबी, बाल श्रम और दूरी के कारण।"
+    "takeaway_hi": "स्कूल से बाहर बच्चे (6-14) उत्तर प्रदेश, बिहार और राजस्थान में केंद्रित हैं — गरीबी, बाल श्रम और दूरी के कारण।",
+    "newer": "X273"
   },
   {
     "id": "S07i",
@@ -2662,7 +2758,8 @@
       "education"
     ],
     "title_hi": "सरकारी प्राथमिक स्कूलों में छात्र-शिक्षक अनुपात",
-    "takeaway_hi": "बिहार में सरकारी प्राथमिक स्कूलों में छात्र-शिक्षक अनुपात 40:1 से अधिक है; केरल में 25:1 से कम।"
+    "takeaway_hi": "बिहार में सरकारी प्राथमिक स्कूलों में छात्र-शिक्षक अनुपात 40:1 से अधिक है; केरल में 25:1 से कम।",
+    "newer": "X277"
   },
   {
     "id": "S07j",
@@ -2698,7 +2795,8 @@
       "inclusion"
     ],
     "title_hi": "दिव्यांगता व्यापकता",
-    "takeaway_hi": "दिव्यांगता व्यापकता राज्यों के बीच 2-3 गुना भिन्न है — संभवतः मापन अंतर दर्शाती है, वास्तविक दर नहीं।"
+    "takeaway_hi": "दिव्यांगता व्यापकता राज्यों के बीच 2-3 गुना भिन्न है — संभवतः मापन अंतर दर्शाती है, वास्तविक दर नहीं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S08a",
@@ -2788,7 +2886,8 @@
       "environment"
     ],
     "title_hi": "गंभीर रूप से प्रदूषित नदी खंड",
-    "takeaway_hi": "उत्तर प्रदेश और महाराष्ट्र में सबसे अधिक गंभीर रूप से प्रदूषित नदी खंड हैं — औद्योगिक और सीवेज संदूषण के कारण।"
+    "takeaway_hi": "उत्तर प्रदेश और महाराष्ट्र में सबसे अधिक गंभीर रूप से प्रदूषित नदी खंड हैं — औद्योगिक और सीवेज संदूषण के कारण।",
+    "newer": "cpcb_prs_critical"
   },
   {
     "id": "S08f",
@@ -2914,7 +3013,8 @@
       "wind"
     ],
     "title_hi": "प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता",
-    "takeaway_hi": "राजस्थान और गुजरात प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता में आगे हैं; पूर्वोत्तर राज्य काफ़ी पीछे हैं।"
+    "takeaway_hi": "राजस्थान और गुजरात प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता में आगे हैं; पूर्वोत्तर राज्य काफ़ी पीछे हैं।",
+    "newer": "mnre_per_person"
   },
   {
     "id": "S08m",
@@ -2932,7 +3032,8 @@
       "air pollution"
     ],
     "title_hi": "प्रमुख ईंधन के रूप में स्वच्छ खाना पकाने का ईंधन",
-    "takeaway_hi": "केरल के 95%+ परिवार स्वच्छ खाना पकाने का ईंधन इस्तेमाल करते हैं; बिहार में 50% से अधिक अब भी बायोमास जलाते हैं।"
+    "takeaway_hi": "केरल के 95%+ परिवार स्वच्छ खाना पकाने का ईंधन इस्तेमाल करते हैं; बिहार में 50% से अधिक अब भी बायोमास जलाते हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S09a",
@@ -3058,7 +3159,8 @@
       "gender"
     ],
     "title_hi": "NCRB महिलाओं के विरुद्ध अपराध दर",
-    "takeaway_hi": "असम और उत्तर प्रदेश में महिलाओं के विरुद्ध अपराध की दर सबसे अधिक दर्ज की गई — पर दर्ज होना ≠ घटित होना।"
+    "takeaway_hi": "असम और उत्तर प्रदेश में महिलाओं के विरुद्ध अपराध की दर सबसे अधिक दर्ज की गई — पर दर्ज होना ≠ घटित होना।",
+    "newer": "ncrb_total"
   },
   {
     "id": "S09h",
@@ -3112,7 +3214,8 @@
       "social protection"
     ],
     "title_hi": "विकलांगता पेंशन कवरेज",
-    "takeaway_hi": "विकलांगता पेंशन कवरेज वृद्धावस्था पेंशन से भी अधिक तीव्रता से भिन्न होता है — विकलांग नागरिक दोहरे रूप से बाहर हैं।"
+    "takeaway_hi": "विकलांगता पेंशन कवरेज वृद्धावस्था पेंशन से भी अधिक तीव्रता से भिन्न होता है — विकलांग नागरिक दोहरे रूप से बाहर हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S09k",
@@ -3184,7 +3287,8 @@
       "economy"
     ],
     "title_hi": "GSDP में विनिर्माण GVA का हिस्सा",
-    "takeaway_hi": "तमिलनाडु और गुजरात को GSDP का 20%+ विनिर्माण से मिलता है; पूर्वोत्तर राज्यों को 5% से कम।"
+    "takeaway_hi": "तमिलनाडु और गुजरात को GSDP का 20%+ विनिर्माण से मिलता है; पूर्वोत्तर राज्यों को 5% से कम।",
+    "newer": "gsva_mfg"
   },
   {
     "id": "S10c",
@@ -3202,7 +3306,8 @@
       "economy"
     ],
     "title_hi": "GSDP में कृषि का हिस्सा",
-    "takeaway_hi": "मध्य प्रदेश और छत्तीसगढ़ में कृषि GSDP में 30%+ योगदान देती है, पर दिल्ली और गोवा में 5% से कम।"
+    "takeaway_hi": "मध्य प्रदेश और छत्तीसगढ़ में कृषि GSDP में 30%+ योगदान देती है, पर दिल्ली और गोवा में 5% से कम।",
+    "newer": "gsva_agri"
   },
   {
     "id": "S10d",
@@ -3238,7 +3343,8 @@
       "economy"
     ],
     "title_hi": "GSDP में सेवाओं का हिस्सा",
-    "takeaway_hi": "दिल्ली, महाराष्ट्र और कर्नाटक में सेवाएँ GSDP का 60%+ योगदान देती हैं — नया विकास इंजन।"
+    "takeaway_hi": "दिल्ली, महाराष्ट्र और कर्नाटक में सेवाएँ GSDP का 60%+ योगदान देती हैं — नया विकास इंजन।",
+    "newer": "gsva_services"
   },
   {
     "id": "S10f",
@@ -3274,7 +3380,8 @@
       "gender"
     ],
     "title_hi": "गैर-कृषि रोज़गार में महिलाएँ",
-    "takeaway_hi": "गैर-कृषि रोज़गार में महिलाएँ दक्षिणी और पश्चिमी राज्यों में केंद्रित हैं।"
+    "takeaway_hi": "गैर-कृषि रोज़गार में महिलाएँ दक्षिणी और पश्चिमी राज्यों में केंद्रित हैं।",
+    "newer": "plfs_women_nonagri"
   },
   {
     "id": "S10h",
@@ -3292,7 +3399,8 @@
       "economy"
     ],
     "title_hi": "रेमिटेंस पर निर्भर राज्य",
-    "takeaway_hi": "बिहार और उत्तर प्रदेश रेमिटेंस पर सबसे अधिक निर्भर राज्य हैं — प्रवासी आय ग्रामीण उपभोग को सहारा देती है।"
+    "takeaway_hi": "बिहार और उत्तर प्रदेश रेमिटेंस पर सबसे अधिक निर्भर राज्य हैं — प्रवासी आय ग्रामीण उपभोग को सहारा देती है।",
+    "newer": "X276"
   },
   {
     "id": "S10i",
@@ -3400,7 +3508,8 @@
       "health"
     ],
     "title_hi": "तंबाकू सेवन पुरुष",
-    "takeaway_hi": "मिज़ोरम और त्रिपुरा में 50% से अधिक पुरुष तंबाकू का सेवन करते हैं; गोवा में 15% से कम।"
+    "takeaway_hi": "मिज़ोरम और त्रिपुरा में 50% से अधिक पुरुष तंबाकू का सेवन करते हैं; गोवा में 15% से कम।",
+    "newer": "n6_tobacco_m"
   },
   {
     "id": "S11f",
@@ -3418,7 +3527,8 @@
       "health"
     ],
     "title_hi": "तंबाकू सेवन महिलाएं",
-    "takeaway_hi": "महिलाओं में तंबाकू सेवन पूर्वोत्तर में सबसे अधिक (40%+) और पंजाब व हरियाणा में सबसे कम (2% से कम) है।"
+    "takeaway_hi": "महिलाओं में तंबाकू सेवन पूर्वोत्तर में सबसे अधिक (40%+) और पंजाब व हरियाणा में सबसे कम (2% से कम) है।",
+    "newer": "n6_tobacco_w"
   },
   {
     "id": "S11g",
@@ -3436,7 +3546,8 @@
       "health"
     ],
     "title_hi": "शराब सेवन पुरुष",
-    "takeaway_hi": "अरुणाचल प्रदेश में पुरुषों में शराब सेवन 50% से अधिक है; कई राज्यों में नशाबंदी के कारण यह लगभग शून्य है।"
+    "takeaway_hi": "अरुणाचल प्रदेश में पुरुषों में शराब सेवन 50% से अधिक है; कई राज्यों में नशाबंदी के कारण यह लगभग शून्य है।",
+    "newer": "n6_alcohol_m"
   },
   {
     "id": "S11h",
@@ -3454,7 +3565,8 @@
       "NCD"
     ],
     "title_hi": "उच्च रक्तचाप महिलाएं",
-    "takeaway_hi": "केरल और पंजाब में महिलाओं में उच्च रक्तचाप 30% से अधिक है — अमीर राज्यों में NCD संक्रमण काफी आगे बढ़ चुका है।"
+    "takeaway_hi": "केरल और पंजाब में महिलाओं में उच्च रक्तचाप 30% से अधिक है — अमीर राज्यों में NCD संक्रमण काफी आगे बढ़ चुका है।",
+    "newer": "n6_women_bp"
   },
   {
     "id": "S11i",
@@ -3472,7 +3584,8 @@
       "NCD"
     ],
     "title_hi": "उच्च रक्तचाप पुरुष",
-    "takeaway_hi": "पुरुषों में उच्च रक्तचाप भी इसी तरह का पैटर्न दिखाता है — दक्षिणी और पश्चिमी राज्यों में अधिक।"
+    "takeaway_hi": "पुरुषों में उच्च रक्तचाप भी इसी तरह का पैटर्न दिखाता है — दक्षिणी और पश्चिमी राज्यों में अधिक।",
+    "newer": "n6_men_bp"
   },
   {
     "id": "S11j",
@@ -3481,7 +3594,7 @@
     "section": "social-protection",
     "source": "NFHS-5",
     "year": "2019-21",
-    "quality": "NEW",
+    "quality": "UNCERTAIN",
     "takeaway": "Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh.",
     "policy": "India's diabetes epidemic is concentrated in states undergoing nutrition transition — urban diets + sedentary lifestyles.",
     "tags": [
@@ -3490,7 +3603,8 @@
       "health"
     ],
     "title_hi": "वयस्कों में मधुमेह प्रसार",
-    "takeaway_hi": "मधुमेह का प्रसार केरल/गोवा में 15%+ से लेकर छत्तीसगढ़ में 5% से कम तक है।"
+    "takeaway_hi": "मधुमेह का प्रसार केरल/गोवा में 15%+ से लेकर छत्तीसगढ़ में 5% से कम तक है।",
+    "data_note": "NFHS-6 reports high blood sugar separately for women (NFHS-6 map X225) and men, not a single adult diabetes figure. The takeaway on this older map says Chhattisgarh is under 5%, but NFHS-5 reports 9.0% of women and 10.8% of men there with high blood sugar, so the map is flagged UNCERTAIN: check the source before quoting it."
   },
   {
     "id": "S12a",
@@ -3508,7 +3622,8 @@
       "reproductive"
     ],
     "title_hi": "आधुनिक गर्भनिरोध में महिला नसबंदी का %",
-    "takeaway_hi": "आंध्र प्रदेश और मध्य प्रदेश में आधुनिक गर्भनिरोध का 70%+ हिस्सा महिला नसबंदी है।"
+    "takeaway_hi": "आंध्र प्रदेश और मध्य प्रदेश में आधुनिक गर्भनिरोध का 70%+ हिस्सा महिला नसबंदी है।",
+    "data_note": "NFHS-6 reports female sterilisation only as a share of all currently married women, not as a share of modern methods as here, so the two cannot be compared and NFHS-5 (2019-21) remains the latest figure for this measure."
   },
   {
     "id": "S12b",
@@ -3526,7 +3641,8 @@
       "reproductive"
     ],
     "title_hi": "वर्तमान में विवाहित दंपतियों द्वारा कंडोम उपयोग",
-    "takeaway_hi": "अधिकांश राज्यों में विवाहित दंपतियों द्वारा कंडोम उपयोग 10% से कम है — पुरुष तरीके हाशिए पर बने हुए हैं।"
+    "takeaway_hi": "अधिकांश राज्यों में विवाहित दंपतियों द्वारा कंडोम उपयोग 10% से कम है — पुरुष तरीके हाशिए पर बने हुए हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12c",
@@ -3544,7 +3660,8 @@
       "contraception"
     ],
     "title_hi": "विवाहित महिलाओं में IUD/कॉपर-टी उपयोग",
-    "takeaway_hi": "IUD/कॉपर-टी उपयोग 2% से 12% तक भिन्न है — उत्तर प्रदेश में अधिक (सरकारी प्रोत्साहन) और दक्षिणी राज्यों में कम।"
+    "takeaway_hi": "IUD/कॉपर-टी उपयोग 2% से 12% तक भिन्न है — उत्तर प्रदेश में अधिक (सरकारी प्रोत्साहन) और दक्षिणी राज्यों में कम।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12d",
@@ -3562,7 +3679,8 @@
       "reproductive"
     ],
     "title_hi": "विवाहित महिलाओं में गोली का उपयोग",
-    "takeaway_hi": "गोली का उपयोग बंगाल और असम में सबसे अधिक (15%+), बाकी जगह न्यूनतम है — तरीकों का मिश्रण सांस्कृतिक अपनाव से तय होता है।"
+    "takeaway_hi": "गोली का उपयोग बंगाल और असम में सबसे अधिक (15%+), बाकी जगह न्यूनतम है — तरीकों का मिश्रण सांस्कृतिक अपनाव से तय होता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12e",
@@ -3580,7 +3698,8 @@
       "reproductive"
     ],
     "title_hi": "गर्भनिरोध की अपूर्ण जरूरत",
-    "takeaway_hi": "बिहार और झारखंड में गर्भनिरोध की अपूर्ण जरूरत 15% से अधिक है — महिलाएं गर्भधारण रोकना चाहती हैं पर नहीं रोक पातीं।"
+    "takeaway_hi": "बिहार और झारखंड में गर्भनिरोध की अपूर्ण जरूरत 15% से अधिक है — महिलाएं गर्भधारण रोकना चाहती हैं पर नहीं रोक पातीं।",
+    "newer": "n6_unmet_need"
   },
   {
     "id": "S12f",
@@ -3598,7 +3717,8 @@
       "reproductive"
     ],
     "title_hi": "विवाहित पुरुषों में पुरुष नसबंदी दर",
-    "takeaway_hi": "पुरुष नसबंदी दर राष्ट्रीय स्तर पर 1% से नीचे है — भारत के परिवार नियोजन कार्यक्रम ने पुरुष तरीकों में कभी निवेश नहीं किया।"
+    "takeaway_hi": "पुरुष नसबंदी दर राष्ट्रीय स्तर पर 1% से नीचे है — भारत के परिवार नियोजन कार्यक्रम ने पुरुष तरीकों में कभी निवेश नहीं किया।",
+    "data_note": "NFHS-6 reports male sterilisation only within the contraceptive method mix of currently married women, which is not this map's measure, so NFHS-5 (2019-21) remains the latest state-level figure for it."
   },
   {
     "id": "S12g",
@@ -3634,7 +3754,8 @@
       "women"
     ],
     "title_hi": "अधिक वजन और मोटापे वाली महिलाएं",
-    "takeaway_hi": "दिल्ली, पंजाब और केरल में अधिक वजन/मोटापे वाली महिलाएं 40% से अधिक हैं — पोषण संक्रमण वास्तविक है।"
+    "takeaway_hi": "दिल्ली, पंजाब और केरल में अधिक वजन/मोटापे वाली महिलाएं 40% से अधिक हैं — पोषण संक्रमण वास्तविक है।",
+    "newer": "n6_women_overweight"
   },
   {
     "id": "S12i",
@@ -3652,7 +3773,8 @@
       "men"
     ],
     "title_hi": "अधिक वजन और मोटापे वाले पुरुष",
-    "takeaway_hi": "पुरुष मोटापा भी इसी तरह के पैटर्न का अनुसरण करता है — शहरी, संपन्न, दक्षिणी राज्यों में अधिक।"
+    "takeaway_hi": "पुरुष मोटापा भी इसी तरह के पैटर्न का अनुसरण करता है — शहरी, संपन्न, दक्षिणी राज्यों में अधिक।",
+    "newer": "n6_men_overweight"
   },
   {
     "id": "S12j",
@@ -3688,7 +3810,8 @@
       "health"
     ],
     "title_hi": "वयस्कों 15-49 में एचआईवी प्रसार",
-    "takeaway_hi": "वयस्कों में एचआईवी प्रसार पूर्वोत्तर राज्यों (इंजेक्शन-जनित) और दक्षिणी राज्यों (यौन-संचारित) में केंद्रित है।"
+    "takeaway_hi": "वयस्कों में एचआईवी प्रसार पूर्वोत्तर राज्यों (इंजेक्शन-जनित) और दक्षिणी राज्यों (यौन-संचारित) में केंद्रित है।",
+    "newer": "naco_hiv"
   },
   {
     "id": "X206",
@@ -3797,5 +3920,1308 @@
     ],
     "title_hi": "साक्षरता में लैंगिक अंतर",
     "takeaway_hi": "राजस्थान में साक्षरता का लैंगिक अंतर 23.2 प्रतिशत बिंदु है, केरल के 2.2 से दस गुना अधिक।"
+  },
+  {
+    "id": "X212",
+    "title": "Child stunting, NFHS-6",
+    "file": "X212_Child_Stunting_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Between 16.6 per cent in Puducherry and 37.1 per cent in Dadra and Nagar Haveli and Daman and Diu, stunting still differs by more than two times across the country. The India figure fell from 35.5 to 29.3 per cent between NFHS-5 and NFHS-6.",
+    "policy": "A national fall hides states that moved the other way. Andaman and Nicobar and Lakshadweep rose, so a programme judged on the India average would miss them.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "children"
+    ],
+    "title_hi": "बाल बौनापन, NFHS-6",
+    "takeaway_hi": "पुडुचेरी में 16.6 प्रतिशत से दादरा और नागर हवेली और दमन और दीव में 37.1 प्रतिशत तक, बौनापन अब भी दो गुना से अधिक अलग है। NFHS-5 से NFHS-6 के बीच भारत का आँकड़ा 35.5 से घटकर 29.3 प्रतिशत हो गया।"
+  },
+  {
+    "id": "X213",
+    "title": "Institutional births, NFHS-6",
+    "file": "X213_Institutional_Births_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Nearly every birth now happens in a facility in most states, with Lakshadweep at 100.0 per cent. Nagaland, at 62.2 per cent, is the clear outlier, and India stands at 90.6 per cent, up from 88.6.",
+    "policy": "When the national figure is near 90 per cent, the remaining gap is concentrated in a few states and in the most remote households, and it needs targeted delivery rather than another national drive.",
+    "tags": [
+      "NFHS-6",
+      "maternal health",
+      "births"
+    ],
+    "title_hi": "संस्थागत प्रसव, NFHS-6",
+    "takeaway_hi": "अधिकांश राज्यों में लगभग हर प्रसव अब स्वास्थ्य संस्थान में होता है, लक्षद्वीप में 100.0 प्रतिशत। नागालैंड 62.2 प्रतिशत के साथ स्पष्ट अपवाद है, और भारत का आँकड़ा 88.6 से बढ़कर 90.6 प्रतिशत है।"
+  },
+  {
+    "id": "X214",
+    "title": "Women who have used the internet, NFHS-6",
+    "file": "X214_Women_Who_Have_Used_the_Internet_NFHS6.png",
+    "section": "education",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "The share of women who have ever used the internet nearly doubled between the two rounds, from 33.3 to 64.3 per cent. It still runs from 48.8 per cent in Tripura to 94.0 per cent in Goa.",
+    "policy": "Ever having used the internet is a low bar. It says nothing about owning a phone, reading confidently online, or using a service independently, so it should not be read as digital inclusion.",
+    "tags": [
+      "NFHS-6",
+      "digital",
+      "women"
+    ],
+    "title_hi": "इंटरनेट इस्तेमाल करने वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "दो दौर के बीच कभी इंटरनेट इस्तेमाल करने वाली महिलाओं का हिस्सा लगभग दोगुना होकर 33.3 से 64.3 प्रतिशत हो गया। फिर भी यह त्रिपुरा में 48.8 प्रतिशत से गोवा में 94.0 प्रतिशत तक है।"
+  },
+  {
+    "id": "X215",
+    "title": "Women with a bank account they use, NFHS-6",
+    "file": "X215_Women_With_Own_Bank_Account_NFHS6.png",
+    "section": "gender",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Access to an account women use themselves has become close to universal. The gap between states shrank to 14 points, from 81.5 per cent in Meghalaya to 95.5 per cent in Ladakh.",
+    "policy": "An account that a woman uses herself is not the same as control over the money in it. Survey figures on decisions and earnings are the next question to ask.",
+    "tags": [
+      "NFHS-6",
+      "finance",
+      "women"
+    ],
+    "title_hi": "स्वयं उपयोग किए जाने वाले बैंक खाते वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "महिलाओं द्वारा स्वयं उपयोग किए जाने वाले खाते की पहुँच लगभग सार्वभौमिक हो गई है। राज्यों के बीच अंतर घटकर 14 अंक रह गया, मेघालय में 81.5 प्रतिशत से लद्दाख में 95.5 प्रतिशत तक।"
+  },
+  {
+    "id": "X216",
+    "title": "Spousal violence, NFHS-6",
+    "file": "X216_Spousal_Violence_NFHS6.png",
+    "section": "gender",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Reported spousal violence runs from 1.9 per cent in Ladakh to 36.1 per cent in Bihar. The India figure is 22.3 per cent, down from 29.2 in NFHS-5.",
+    "policy": "These are what women told interviewers, and a low figure can mean low violence or low willingness to report it. Some state changes between rounds are very large, so read a single state with care.",
+    "tags": [
+      "NFHS-6",
+      "violence",
+      "women"
+    ],
+    "title_hi": "पति द्वारा हिंसा, NFHS-6",
+    "takeaway_hi": "रिपोर्ट की गई पति द्वारा हिंसा लद्दाख में 1.9 प्रतिशत से बिहार में 36.1 प्रतिशत तक है। भारत का आँकड़ा 22.3 प्रतिशत है, जो NFHS-5 में 29.2 था।"
+  },
+  {
+    "id": "X217",
+    "title": "Women married before 18, NFHS-6",
+    "file": "X217_Women_Married_Before_18_NFHS6.png",
+    "section": "gender",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Child marriage fell nationally from 23.3 to 20.1 per cent, but it is still 36.4 per cent in West Bengal, more than twelve times the 2.9 per cent of Kerala.",
+    "policy": "Andaman and Nicobar and Tamil Nadu have no published figure in the fact sheets, so they are grey. A grey state here has no figure, not a low one.",
+    "tags": [
+      "NFHS-6",
+      "child marriage",
+      "women"
+    ],
+    "title_hi": "18 से पहले विवाहित महिलाएँ, NFHS-6",
+    "takeaway_hi": "बाल विवाह राष्ट्रीय स्तर पर 23.3 से घटकर 20.1 प्रतिशत हुआ, पर पश्चिम बंगाल में यह अब भी 36.4 प्रतिशत है, जो केरल के 2.9 प्रतिशत से बारह गुना से अधिक है।"
+  },
+  {
+    "id": "X218",
+    "title": "Child wasting, NFHS-6",
+    "file": "X218_Child_wasting_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Children under 5 who are wasted ranges from 8.1 per cent in Mizoram to 24.2 per cent in Dadra and Nagar Haveli and Daman and Diu. The India figure is 19.0 per cent, down from 19.3 in NFHS-5.",
+    "policy": "Wasting reflects recent shortfalls in food and bouts of illness, so it can move faster than stunting. One survey year is not a trend.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "children"
+    ],
+    "title_hi": "बाल दुबलापन (वेस्टिंग), NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 8.1 से 24.2 प्रतिशत तक है। भारत का आँकड़ा 19.0 प्रतिशत है, जो NFHS-5 में 19.3 था।"
+  },
+  {
+    "id": "X219",
+    "title": "Underweight children, NFHS-6",
+    "file": "X219_Underweight_children_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Children under 5 who are underweight ranges from 11.2 per cent in Sikkim to 41.3 per cent in Dadra and Nagar Haveli and Daman and Diu. The India figure is 31.8 per cent, down from 32.1 in NFHS-5.",
+    "policy": "Underweight mixes stunting and wasting, so it is a rougher guide than either measure alone.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "children"
+    ],
+    "title_hi": "कम वज़न वाले बच्चे, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 11.2 से 41.3 प्रतिशत तक है। भारत का आँकड़ा 31.8 प्रतिशत है, जो NFHS-5 में 32.1 था।"
+  },
+  {
+    "id": "X220",
+    "title": "Exclusive breastfeeding, NFHS-6",
+    "file": "X220_Exclusive_breastfeeding_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Exclusive breastfeeding under 6 months ranges from 34.6 per cent in Uttar Pradesh to 75.8 per cent in Chhattisgarh. The India figure is 55.8 per cent, down from 63.7 in NFHS-5.",
+    "policy": "Mothers report this from recall for their youngest child. Small states rest on few cases, and some have no published figure.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "infants"
+    ],
+    "title_hi": "केवल स्तनपान, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 34.6 से 75.8 प्रतिशत तक है। भारत का आँकड़ा 55.8 प्रतिशत है, जो NFHS-5 में 63.7 था।"
+  },
+  {
+    "id": "X221",
+    "title": "Full vaccination, NFHS-6",
+    "file": "X221_Full_vaccination_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Children fully vaccinated, 12-23 months ranges from 64.3 per cent in Nagaland to 93.8 per cent in Goa. The India figure is 82.6 per cent, up from 76.6 in NFHS-5.",
+    "policy": "The figure combines vaccination cards with the mother's recall, and states with few children in this age group give noisy results.",
+    "tags": [
+      "NFHS-6",
+      "immunisation",
+      "children"
+    ],
+    "title_hi": "पूर्ण टीकाकरण, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 64.3 से 93.8 प्रतिशत तक है। भारत का आँकड़ा 82.6 प्रतिशत है, जो NFHS-5 में 76.6 था।"
+  },
+  {
+    "id": "X222",
+    "title": "Caesarean births, NFHS-6",
+    "file": "X222_Caesarean_births_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Births delivered by caesarean section ranges from 6.4 per cent in Meghalaya to 62.2 per cent in Telangana. The India figure is 27.2 per cent, up from 21.5 in NFHS-5.",
+    "policy": "There is no single right rate. Whether a rate reflects need or access is a question this survey cannot answer.",
+    "tags": [
+      "NFHS-6",
+      "maternal health",
+      "births"
+    ],
+    "title_hi": "सिज़ेरियन प्रसव, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 6.4 से 62.2 प्रतिशत तक है। भारत का आँकड़ा 27.2 प्रतिशत है, जो NFHS-5 में 21.5 था।"
+  },
+  {
+    "id": "X223",
+    "title": "Women with low BMI, NFHS-6",
+    "file": "X223_Women_with_low_BMI_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women with bmi below 18.5 ranges from 3.1 per cent in Andaman and Nicobar to 29.2 per cent in Jharkhand. The India figure is 19.7 per cent, up from 18.7 in NFHS-5.",
+    "policy": "A BMI below 18.5 marks undernutrition in an adult woman, and it moves slowly between survey rounds.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "women"
+    ],
+    "title_hi": "कम BMI वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 3.1 से 29.2 प्रतिशत तक है। भारत का आँकड़ा 19.7 प्रतिशत है, जो NFHS-5 में 18.7 था।"
+  },
+  {
+    "id": "X224",
+    "title": "Overweight women, NFHS-6",
+    "file": "X224_Overweight_women_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women who are overweight or obese ranges from 19.6 per cent in Assam to 51.3 per cent in Puducherry. The India figure is 30.7 per cent, up from 24.0 in NFHS-5.",
+    "policy": "Overweight now sits beside undernutrition in many states, so one national health message misses both.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "women"
+    ],
+    "title_hi": "अधिक वज़न वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 19.6 से 51.3 प्रतिशत तक है। भारत का आँकड़ा 30.7 प्रतिशत है, जो NFHS-5 में 24.0 था।"
+  },
+  {
+    "id": "X225",
+    "title": "High blood sugar in women, NFHS-6",
+    "file": "X225_High_blood_sugar_in_women_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women with high blood sugar ranges from 6.7 per cent in Ladakh to 28.9 per cent in Kerala. The India figure is 17.8 per cent, up from 13.5 in NFHS-5.",
+    "policy": "These are random blood sugar readings or reported medication, not a diagnosis of diabetes.",
+    "tags": [
+      "NFHS-6",
+      "diabetes",
+      "women"
+    ],
+    "title_hi": "उच्च रक्त शर्करा वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 6.7 से 28.9 प्रतिशत तक है। भारत का आँकड़ा 17.8 प्रतिशत है, जो NFHS-5 में 13.5 था।"
+  },
+  {
+    "id": "X226",
+    "title": "High blood pressure in women, NFHS-6",
+    "file": "X226_High_blood_pressure_in_women_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women with elevated blood pressure ranges from 12.1 per cent in Uttar Pradesh to 32.0 per cent in Sikkim. The India figure is 19.4 per cent, down from 21.3 in NFHS-5.",
+    "policy": "The figure includes people already on medicine, so a high share can reflect disease, screening, or both.",
+    "tags": [
+      "NFHS-6",
+      "hypertension",
+      "women"
+    ],
+    "title_hi": "उच्च रक्तचाप वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 12.1 से 32.0 प्रतिशत तक है। भारत का आँकड़ा 19.4 प्रतिशत है, जो NFHS-5 में 21.3 था।"
+  },
+  {
+    "id": "X227",
+    "title": "High blood pressure in men, NFHS-6",
+    "file": "X227_High_blood_pressure_in_men_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Men with elevated blood pressure ranges from 14.1 per cent in Uttar Pradesh to 36.6 per cent in Kerala. The India figure is 22.1 per cent, down from 24.0 in NFHS-5.",
+    "policy": "The figure includes people already on medicine, so a high share can reflect disease, screening, or both.",
+    "tags": [
+      "NFHS-6",
+      "hypertension",
+      "men"
+    ],
+    "title_hi": "उच्च रक्तचाप वाले पुरुष, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 14.1 से 36.6 प्रतिशत तक है। भारत का आँकड़ा 22.1 प्रतिशत है, जो NFHS-5 में 24.0 था।"
+  },
+  {
+    "id": "X228",
+    "title": "Tobacco use among women, NFHS-6",
+    "file": "X228_Tobacco_use_among_women_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women who use tobacco ranges from 0.5 per cent in Chandigarh to 61.0 per cent in Mizoram. The India figure is 8.4 per cent, down from 8.9 in NFHS-5.",
+    "policy": "This is self-reported, and willingness to report differs by state and by sex.",
+    "tags": [
+      "NFHS-6",
+      "tobacco",
+      "women"
+    ],
+    "title_hi": "तंबाकू सेवन, महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 0.5 से 61.0 प्रतिशत तक है। भारत का आँकड़ा 8.4 प्रतिशत है, जो NFHS-5 में 8.9 था।"
+  },
+  {
+    "id": "X229",
+    "title": "Tobacco use among men, NFHS-6",
+    "file": "X229_Tobacco_use_among_men_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Men who use tobacco ranges from 11.4 per cent in Puducherry to 73.6 per cent in Mizoram. The India figure is 36.3 per cent, down from 38.0 in NFHS-5.",
+    "policy": "This is self-reported, and willingness to report differs by state and by sex.",
+    "tags": [
+      "NFHS-6",
+      "tobacco",
+      "men"
+    ],
+    "title_hi": "तंबाकू सेवन, पुरुष, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 11.4 से 73.6 प्रतिशत तक है। भारत का आँकड़ा 36.3 प्रतिशत है, जो NFHS-5 में 38.0 था।"
+  },
+  {
+    "id": "X230",
+    "title": "Alcohol use among men, NFHS-6",
+    "file": "X230_Alcohol_use_among_men_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Men who drink alcohol ranges from 0.6 per cent in Lakshadweep to 50.5 per cent in Arunachal Pradesh. The India figure is 18.9 per cent, up from 18.7 in NFHS-5.",
+    "policy": "This is self-reported. State prohibition and local norms shape what men are willing to say.",
+    "tags": [
+      "NFHS-6",
+      "alcohol",
+      "men"
+    ],
+    "title_hi": "शराब सेवन, पुरुष, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 0.6 से 50.5 प्रतिशत तक है। भारत का आँकड़ा 18.9 प्रतिशत है, जो NFHS-5 में 18.7 था।"
+  },
+  {
+    "id": "X231",
+    "title": "Households using iodized salt, NFHS-6",
+    "file": "X231_Households_using_iodized_salt_NFHS_6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Households using iodized salt ranges from 86.5 per cent in Uttar Pradesh to 99.9 per cent in Sikkim. The India figure is 94.2 per cent, down from 94.3 in NFHS-5.",
+    "policy": "A high national share can hide the few states where many households still lack iodized salt.",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "households"
+    ],
+    "title_hi": "आयोडीनयुक्त नमक वाले परिवार, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 86.5 से 99.9 प्रतिशत तक है। भारत का आँकड़ा 94.2 प्रतिशत है, जो NFHS-5 में 94.3 था।"
+  },
+  {
+    "id": "X232",
+    "title": "Women with their own mobile phone, NFHS-6",
+    "file": "X232_Women_with_their_own_mobile_phone_NFHS_6.png",
+    "section": "gender",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women with a mobile phone they use ranges from 47.8 per cent in Chhattisgarh to 91.6 per cent in Sikkim. The India figure is 63.6 per cent, up from 53.9 in NFHS-5.",
+    "policy": "Having a phone is not the same as having a data connection or using it freely.",
+    "tags": [
+      "NFHS-6",
+      "digital",
+      "women"
+    ],
+    "title_hi": "अपना मोबाइल फ़ोन रखने वाली महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 47.8 से 91.6 प्रतिशत तक है। भारत का आँकड़ा 63.6 प्रतिशत है, जो NFHS-5 में 53.9 था।"
+  },
+  {
+    "id": "X233",
+    "title": "Women in household decisions, NFHS-6",
+    "file": "X233_Women_in_household_decisions_NFHS_6.png",
+    "section": "gender",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Married women in household decisions ranges from 84.0 per cent in Andhra Pradesh to 98.9 per cent in Nagaland. The India figure is 89.0 per cent, up from 88.7 in NFHS-5.",
+    "policy": "The measure covers three decisions and only currently married women.",
+    "tags": [
+      "NFHS-6",
+      "decisions",
+      "women"
+    ],
+    "title_hi": "घरेलू निर्णयों में भागीदारी, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 84.0 से 98.9 प्रतिशत तक है। भारत का आँकड़ा 89.0 प्रतिशत है, जो NFHS-5 में 88.7 था।"
+  },
+  {
+    "id": "X234",
+    "title": "Teenage motherhood, NFHS-6",
+    "file": "X234_Teenage_motherhood_NFHS_6.png",
+    "section": "reproductive-choices",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Girls 15-19 already mothers or pregnant ranges from 0.0 per cent in Chandigarh to 18.0 per cent in Tripura. The India figure is 6.7 per cent, down from 6.8 in NFHS-5.",
+    "policy": "This is a small share of a small age group, so state figures rest on few cases.",
+    "tags": [
+      "NFHS-6",
+      "adolescents",
+      "pregnancy"
+    ],
+    "title_hi": "किशोर मातृत्व, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 0.0 से 18.0 प्रतिशत तक है। भारत का आँकड़ा 6.7 प्रतिशत है, जो NFHS-5 में 6.8 था।"
+  },
+  {
+    "id": "X235",
+    "title": "Unmet need for family planning, NFHS-6",
+    "file": "X235_Unmet_need_for_family_planning_NFHS_6.png",
+    "section": "reproductive-choices",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Unmet need for family planning ranges from 4.4 per cent in Andhra Pradesh to 21.0 per cent in Meghalaya. The India figure is 8.5 per cent, down from 9.4 in NFHS-5.",
+    "policy": "Unmet need is a woman's stated wish to delay or stop childbearing while using no contraception, and it covers currently married women only.",
+    "tags": [
+      "NFHS-6",
+      "contraception",
+      "women"
+    ],
+    "title_hi": "परिवार नियोजन की अपूर्ण आवश्यकता, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 4.4 से 21.0 प्रतिशत तक है। भारत का आँकड़ा 8.5 प्रतिशत है, जो NFHS-5 में 9.4 था।"
+  },
+  {
+    "id": "X236",
+    "title": "Women with 10 or more years of schooling, NFHS-6",
+    "file": "X236_Women_with_10_or_more_years_of_schooling_NFHS_6.png",
+    "section": "education",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Women with 10 or more years of schooling ranges from 32.9 per cent in Tripura to 86.6 per cent in Kerala. The India figure is 46.4 per cent, up from 41.0 in NFHS-5.",
+    "policy": "Ten years marks the end of secondary school. Years in school are not the same as what was learned.",
+    "tags": [
+      "NFHS-6",
+      "schooling",
+      "women"
+    ],
+    "title_hi": "10 या अधिक वर्ष की स्कूली शिक्षा, महिलाएँ, NFHS-6",
+    "takeaway_hi": "राज्यों के बीच यह 32.9 से 86.6 प्रतिशत तक है। भारत का आँकड़ा 46.4 प्रतिशत है, जो NFHS-5 में 41.0 था।"
+  },
+  {
+    "id": "X237",
+    "title": "Unemployment rate, PLFS 2025",
+    "file": "X237_Unemployment_rate_PLFS_2025.png",
+    "section": "economy",
+    "source": "PLFS (MoSPI)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "Unemployment rate ranges from 0.9 per cent in Gujarat to 10.0 per cent in Andaman and Nicobar. The India figure is 3.1 per cent.",
+    "policy": "A low unemployment rate can mean people cannot afford to stay out of work, so it says little about the quality of jobs.",
+    "tags": [
+      "PLFS",
+      "work",
+      "unemployment"
+    ],
+    "title_hi": "बेरोज़गारी दर, PLFS 2025",
+    "takeaway_hi": "राज्यों के बीच यह 0.9 से 10.0 प्रतिशत तक है। भारत का आँकड़ा 3.1 प्रतिशत है।"
+  },
+  {
+    "id": "X238",
+    "title": "Youth unemployment rate, PLFS 2025",
+    "file": "X238_Youth_unemployment_rate_PLFS_2025.png",
+    "section": "economy",
+    "source": "PLFS (MoSPI)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "Youth unemployment rate ranges from 2.5 per cent in Gujarat to 31.2 per cent in Andaman and Nicobar. The India figure is 9.9 per cent.",
+    "policy": "Youth rates run well above adult rates, and small states rest on small samples, so single figures are noisy.",
+    "tags": [
+      "PLFS",
+      "work",
+      "youth"
+    ],
+    "title_hi": "युवा बेरोज़गारी दर, PLFS 2025",
+    "takeaway_hi": "राज्यों के बीच यह 2.5 से 31.2 प्रतिशत तक है। भारत का आँकड़ा 9.9 प्रतिशत है।"
+  },
+  {
+    "id": "X239",
+    "title": "Secondary school dropout, UDISE+ 2024-25",
+    "file": "X239_Secondary_school_dropout_UDISE_2024_25.png",
+    "section": "education",
+    "source": "UDISE+ (MoSPI)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Secondary school dropout rate ranges from 2.0 per cent in Chandigarh to 20.0 per cent in West Bengal.",
+    "policy": "Bihar is grey because the API reports exactly 0, which is not a credible measurement. A grey state here has no usable figure, not a low one.",
+    "tags": [
+      "UDISE+",
+      "schooling",
+      "dropout"
+    ],
+    "title_hi": "माध्यमिक स्तर पर स्कूल छोड़ना, UDISE+ 2024-25",
+    "takeaway_hi": "राज्यों के बीच यह 2.0 से 20.0 प्रतिशत तक है।"
+  },
+  {
+    "id": "X240",
+    "title": "Crimes against women recorded, NCRB 2024",
+    "file": "X240_Crimes_against_women_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Registered crimes against women run from 5.1 per lakh women in Nagaland to 130.7 in Delhi. The India figure is 64.6, from 66.2 in 2023.",
+    "policy": "This counts registrations, not incidence. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "women"
+    ],
+    "title_hi": "दर्ज महिला-विरोधी अपराध, NCRB 2024",
+    "takeaway_hi": "राज्यों के बीच दर्ज महिला-विरोधी अपराध 5.1 से 130.7 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 64.6 है, जो 2023 में 66.2 था।"
+  },
+  {
+    "id": "X241",
+    "title": "Rape cases recorded, NCRB 2024",
+    "file": "X241_Rape_cases_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Registered rape cases run from 0.8 per lakh women in Ladakh to 16.6 in Chandigarh. The India figure is 4.3, from 4.4 in 2023.",
+    "policy": "Rape of girls is mostly booked under the POCSO Act, so this map does not hold every rape case. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "rape"
+    ],
+    "title_hi": "दर्ज बलात्कार के मामले, NCRB 2024",
+    "takeaway_hi": "दर्ज बलात्कार के मामले लद्दाख में 0.8 से चंडीगढ़ में 16.6 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 4.3 है, जो 2023 में 4.4 था।"
+  },
+  {
+    "id": "X242",
+    "title": "Cruelty by husband or relatives, NCRB 2024",
+    "file": "X242_Cruelty_by_husband_or_relatives_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Registered cruelty by a husband or his relatives runs from 0.4 per lakh women in Goa to 52.8 in Telangana. The India figure is 17.6, from 19.7 in 2023.",
+    "policy": "This is a count of cases registered, and it is not the same as the spousal violence women report in surveys such as NFHS. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "marriage"
+    ],
+    "title_hi": "पति या रिश्तेदारों द्वारा क्रूरता, NCRB 2024",
+    "takeaway_hi": "पति या रिश्तेदारों द्वारा दर्ज क्रूरता गोवा में 0.4 से तेलंगाना में 52.8 प्रति लाख महिलाओं तक है। भारत का आँकड़ा 17.6 है, जो 2023 में 19.7 था।"
+  },
+  {
+    "id": "X243",
+    "title": "Dowry deaths recorded, NCRB 2024",
+    "file": "X243_Dowry_deaths_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Registered dowry deaths run from none registered in 11 states and territories to 1.78 per lakh women in Uttar Pradesh. The India figure is 0.84, from 0.91 in 2023.",
+    "policy": "A zero here means none were registered, not that none occurred. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "dowry"
+    ],
+    "title_hi": "दर्ज दहेज मृत्यु, NCRB 2024",
+    "takeaway_hi": "दर्ज दहेज मृत्यु 11 राज्यों और क्षेत्रों में शून्य से उत्तर प्रदेश में 1.78 प्रति लाख महिलाओं तक हैं। भारत का आँकड़ा 0.84 है, जो 2023 में 0.91 था।"
+  },
+  {
+    "id": "X244",
+    "title": "Acid attack cases recorded, NCRB 2024",
+    "file": "X244_Acid_attack_cases_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Registered acid attacks reach 6.13 per crore women in both West Bengal and Manipur, against 1.73 for India (1.67 in 2023). Fifteen states and territories registered none.",
+    "policy": "The counts are small, so one case moves a small state a long way. A higher figure can reflect easier reporting as well as more crime, so states should not be ranked on it.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "acid attack"
+    ],
+    "title_hi": "दर्ज एसिड हमले के मामले, NCRB 2024",
+    "takeaway_hi": "दर्ज एसिड हमले पश्चिम बंगाल और मणिपुर, दोनों में 6.13 प्रति करोड़ महिलाओं तक हैं, जबकि भारत का आँकड़ा 1.73 है (2023 में 1.67)। 15 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X245",
+    "title": "Change in forest cover, 2021 to 2023",
+    "file": "X245_Change_in_forest_cover_2021_to_2023.png",
+    "section": "environment",
+    "source": "Forest Survey of India (ISFR 2023, via MoSPI)",
+    "year": "2021-23",
+    "quality": "NEW",
+    "takeaway": "Forest cover rose by 156 sq km across India between 2021 and 2023, but states split. Mizoram gained 242 sq km and Gujarat 180, while Madhya Pradesh lost 372, Andhra Pradesh 139 and Telangana 100.",
+    "policy": "Forest cover is satellite-measured tree canopy over one hectare, so plantations and orchards count, and a gain does not mean more natural forest. Puducherry and the merged Dadra and Nagar Haveli and Daman and Diu have no usable figure in the source, so they are grey.",
+    "tags": [
+      "ISFR",
+      "forest",
+      "environment"
+    ],
+    "title_hi": "वन आच्छादन में बदलाव, 2021 से 2023",
+    "takeaway_hi": "ISFR 2021 और 2023 के बीच भारत में वन आच्छादन 156 वर्ग किमी बढ़ा, पर राज्यों में बँटवारा है। मिज़ोरम में 242 और गुजरात में 180 वर्ग किमी की बढ़त हुई, जबकि मध्य प्रदेश में 372, आंध्र प्रदेश में 139 और तेलंगाना में 100 वर्ग किमी की कमी आई।"
+  },
+  {
+    "id": "X246",
+    "title": "Heat-wave days, 2022-24 average",
+    "file": "X246_Heat_wave_days_2022_24_average.png",
+    "section": "environment",
+    "source": "IMD (via MoSPI EnviStats)",
+    "year": "2022-24",
+    "quality": "NEW",
+    "takeaway": "Heat-wave days run from 0.3 a summer in Assam to 17.0 in Punjab, with Haryana at 16.7 and Jharkhand at 15.7. Only 19 states report all three years.",
+    "policy": "Single years swing widely (Uttarakhand reported 15, 0 and 22 days in 2022, 2023 and 2024), so this three-year average is still a rough guide. Himachal Pradesh, Chandigarh, Kerala, Mizoram and Puducherry have missing years, and 12 other states and territories are not in the source at all.",
+    "tags": [
+      "IMD",
+      "heat",
+      "environment"
+    ],
+    "title_hi": "लू वाले दिन, 2022-24 औसत",
+    "takeaway_hi": "लू वाले दिन असम में 0.3 प्रति गर्मी से पंजाब में 17.0 तक हैं, हरियाणा में 16.7 और झारखंड में 15.7 के साथ। केवल 19 राज्य तीनों वर्षों के आँकड़े देते हैं।"
+  },
+  {
+    "id": "X247",
+    "title": "Pending cases per working judge, March 2026",
+    "file": "X247_Pending_cases_per_working_judge_March_2026.png",
+    "section": "economy",
+    "source": "NJDG and Nyaya Vikas (Lok Sabha, March 2026)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "A working judicial officer in Uttar Pradesh faces 4,563 pending cases, against 99 in Sikkim. The India figure is 2,359.",
+    "policy": "The cases and the judges come from different sources and the judges table carries no date, so this is a rough guide. West Bengal and Andaman and Nicobar share one figure because the source merges their judges. Meghalaya is grey because its pendency row contradicts itself in the source. Pending cases mix old and new filings of every kind, so the ratio does not measure how fast a judge works.",
+    "tags": [
+      "NJDG",
+      "courts",
+      "pendency"
+    ],
+    "title_hi": "प्रति कार्यरत न्यायाधीश लंबित मामले, मार्च 2026",
+    "takeaway_hi": "उत्तर प्रदेश में एक कार्यरत न्यायिक अधिकारी के सामने 4,563 लंबित मामले हैं, जबकि सिक्किम में 99। भारत का आँकड़ा 2,359 है।"
+  },
+  {
+    "id": "X248",
+    "title": "Vacant judicial posts, subordinate courts, 2026",
+    "file": "X248_Vacant_judicial_posts_subordinate_courts_2026.png",
+    "section": "economy",
+    "source": "Nyaya Vikas (Lok Sabha, March 2026)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Nearly one in five sanctioned posts in the subordinate judiciary is vacant (18.8 per cent), from none in Lakshadweep to 47.1 per cent in Ladakh and 42.4 in Meghalaya.",
+    "policy": "Small territories swing on a few posts: Ladakh's 47.1 per cent is 8 of 17 posts. The source's own national vacancy total (4,868) does not match its state rows (4,880), so the India figure here is computed from the rows.",
+    "tags": [
+      "courts",
+      "vacancy",
+      "judges"
+    ],
+    "title_hi": "रिक्त न्यायिक पद, अधीनस्थ न्यायालय, 2026",
+    "takeaway_hi": "अधीनस्थ न्यायपालिका में लगभग हर पाँच में से एक स्वीकृत पद रिक्त है (18.8 प्रतिशत), लक्षद्वीप में शून्य से लद्दाख में 47.1 और मेघालय में 42.4 प्रतिशत तक।"
+  },
+  {
+    "id": "X249",
+    "title": "Crimes against Scheduled Castes recorded, NCRB 2024",
+    "file": "X249_Crimes_against_Scheduled_Castes_recorded_NCRB_2024.png",
+    "section": "caste",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Madhya Pradesh registered 68.5 cases per lakh Scheduled Caste people, Rajasthan 57.3 and Bihar 45.6, against 27.7 for India. West Bengal registered 0.5, with 116 cases among 214.6 lakh Scheduled Caste people, and Tripura none.",
+    "policy": "The map counts registrations. A low figure can mean few atrocities or few that reach a police station and get recorded under the SC/ST Act, so a state with a very low rate has not shown that it is safer. Ten states and territories with under 1 lakh Scheduled Caste people are left grey because one case would swing their rate by more than 100.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "caste",
+      "atrocities"
+    ],
+    "title_hi": "अनुसूचित जातियों के विरुद्ध दर्ज अपराध, NCRB 2024",
+    "takeaway_hi": "मध्य प्रदेश में प्रति लाख अनुसूचित जाति व्यक्तियों पर 68.5 मामले दर्ज हुए, राजस्थान में 57.3 और बिहार में 45.6, जबकि भारत का आँकड़ा 27.7 है। पश्चिम बंगाल में 0.5 (214.6 लाख अनुसूचित जाति आबादी में 116 मामले) और त्रिपुरा में शून्य।"
+  },
+  {
+    "id": "X250",
+    "title": "Honour killings recorded, NCRB 2024",
+    "file": "X250_Honour_killings_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB recorded 36 murders with honour killing as the motive in 2024. Bihar had the most (6), then Jharkhand and Punjab (5 each). Manipur has the highest rate, 3.07 per crore, from one case. Twenty-three states and territories recorded none.",
+    "policy": "A zero means no murder was recorded under this motive, which is not the same as none occurring: a family that reports an honour killing as a suicide or an accident leaves no trace in this table. With counts this small the map is a list of where the motive was written down, and it should not be read as a ranking.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "honour killing"
+    ],
+    "title_hi": "दर्ज ऑनर किलिंग, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में ऑनर किलिंग को उद्देश्य बताकर 36 हत्याएँ दर्ज कीं। सबसे अधिक बिहार (6) में, फिर झारखंड और पंजाब (5-5) में। मणिपुर की दर सबसे ऊँची (प्रति करोड़ 3.07) है, जो एक ही मामले से बनी है। 23 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X251",
+    "title": "Murders linked to witchcraft recorded, NCRB 2024",
+    "file": "X251_Murders_linked_to_witchcraft_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB recorded 54 murders with witchcraft as the motive in 2024. Madhya Pradesh had the most (17), then Chhattisgarh (10) and Odisha (7). Nagaland has the highest rate, 4.42 per crore, from one case, and Chhattisgarh is next at 3.26 from ten. Twenty-five states and territories recorded none.",
+    "policy": "The table counts murders only. Assaults, banishment and other harm done to people branded as witches are not in it, and a murder is recorded under this motive only if the police write it down. With counts this small, a single case moves a small state to the top.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "witch-hunting"
+    ],
+    "title_hi": "डायन-शिकार से जुड़ी दर्ज हत्याएँ, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में डायन/जादू-टोने को उद्देश्य बताकर 54 हत्याएँ दर्ज कीं। सबसे अधिक मध्य प्रदेश (17) में, फिर छत्तीसगढ़ (10) और ओडिशा (7) में। नागालैंड की दर सबसे ऊँची (प्रति करोड़ 4.42) है, जो एक मामले से बनी है; छत्तीसगढ़ 3.26 पर दस मामलों से अगला है। 25 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X252",
+    "title": "GSDP per head, MoSPI 2024-25",
+    "file": "X252_GSDP_per_head_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Sikkim produces Rs 7,63,749 per person and Goa Rs 7,37,738, against Rs 76,374 in Bihar and Rs 1,26,304 in Uttar Pradesh. Eleven of the 32 states and territories with a figure are under Rs 2 lakh per person. Bihar grew 26 per cent in two years at current prices and Goa 36 per cent.",
+    "policy": "Output per head counts what is produced inside a state, not what its residents earn or keep. Sikkim, Goa, Delhi and Chandigarh are small economies and city-states, so their figures say little about the average household. The 2024-25 figure is an estimate that states revise, and Nagaland and Ladakh have none for the year.",
+    "tags": [
+      "GSDP",
+      "income",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "प्रति व्यक्ति राज्य सकल घरेलू उत्पाद, MoSPI 2024-25",
+    "takeaway_hi": "सिक्किम में प्रति व्यक्ति 7,63,749 रुपये और गोवा में 7,37,738 रुपये का उत्पादन होता है, जबकि बिहार में 76,374 और उत्तर प्रदेश में 1,26,304। आँकड़े वाले 32 में से 11 राज्यों और क्षेत्रों में यह 2 लाख रुपये से कम है।"
+  },
+  {
+    "id": "X253",
+    "title": "Agriculture share of state output, MoSPI 2024-25",
+    "file": "X253_Agriculture_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Agriculture is 41.3% of Madhya Pradesh's output and 38.0% of Tripura's, against 0.3% in Delhi and 0.5% in Chandigarh. The middle state is at 18.1%. Manipur's share fell most between 2022-23 and 2024-25, by 3.4 points.",
+    "policy": "A share of output is not a share of jobs, and farm work employs a much larger share of workers than its share of output suggests. The share also falls when other sectors grow faster, so a lower number is not proof that farming did badly.",
+    "tags": [
+      "agriculture",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में कृषि का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "मध्य प्रदेश के उत्पादन में कृषि का हिस्सा 41.3% और त्रिपुरा में 38.0% है, जबकि दिल्ली में 0.3% और चंडीगढ़ में 0.5%। बीच के राज्य में यह 18.1% है।"
+  },
+  {
+    "id": "X254",
+    "title": "Manufacturing share of state output, MoSPI 2024-25",
+    "file": "X254_Manufacturing_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Manufacturing is 38.4% of Sikkim's output, 32.8% of Gujarat's and 27.8% of Goa's, but under 2% in Arunachal Pradesh, Manipur and Mizoram. The middle state is at 11.4%. Gujarat's share fell 2.1 points in two years and Sikkim's rose 2.7.",
+    "policy": "In a small economy one large unit can move the share a long way, so Sikkim's figure and the small shares in the north-east and the islands say as much about size as about policy.",
+    "tags": [
+      "manufacturing",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में विनिर्माण का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "सिक्किम के उत्पादन में विनिर्माण का हिस्सा 38.4%, गुजरात में 32.8% और गोवा में 27.8% है, जबकि अरुणाचल प्रदेश, मणिपुर और मिज़ोरम में 2% से कम। बीच के राज्य में 11.4%।"
+  },
+  {
+    "id": "X255",
+    "title": "Services share of state output, MoSPI 2024-25",
+    "file": "X255_Services_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Services are 89.4% of Chandigarh's output and 86.1% of Delhi's, and 69.2% of Karnataka's. They are 35.5% in Madhya Pradesh, 32.3% in Chhattisgarh and 29.9% in Sikkim. The middle state is at 49.2%.",
+    "policy": "Services here include public administration and real estate, which includes the imputed rent of owner-occupied homes, so a high share does not mean a state sells software or finance. Mining, electricity and construction are counted outside services.",
+    "tags": [
+      "services",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में सेवाओं का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "सेवाएँ चंडीगढ़ के उत्पादन का 89.4%, दिल्ली का 86.1% और कर्नाटक का 69.2% हैं। मध्य प्रदेश में 35.5%, छत्तीसगढ़ में 32.3% और सिक्किम में 29.9%। बीच के राज्य में 49.2%।"
+  },
+  {
+    "id": "X256",
+    "title": "Children with fever or ARI symptoms taken to a health facility, NFHS-6",
+    "file": "X256_Children_with_ARI_taken_to_a_health_facility_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Nagaland takes 34.0 per cent of children with fever or breathing symptoms for care, Mizoram 42.2 and Assam 44.4, against 86.9 in Punjab and 80.3 in Karnataka. The India figure is 68.8 per cent, almost unchanged from 69.0 in NFHS-5. Punjab rose 29.6 points and Dadra and Nagar Haveli and Daman and Diu fell 14.5.",
+    "policy": "The figure counts children taken to any health provider, public or private, and says nothing about the quality of care. A figure for a small territory rests on few children, and Chandigarh's 92.1 is based on 25 to 49 cases, so it is flagged and the takeaway compares Punjab, the highest figure without that flag.",
+    "tags": [
+      "NFHS-6",
+      "children",
+      "health",
+      "ARI"
+    ],
+    "title_hi": "बुखार या ARI लक्षण वाले बच्चे जिन्हें स्वास्थ्य केंद्र ले जाया गया, NFHS-6",
+    "takeaway_hi": "नागालैंड में बुखार या साँस के लक्षण वाले 34.0 प्रतिशत बच्चों को इलाज के लिए ले जाया गया, मिज़ोरम में 42.2 और असम में 44.4, जबकि पंजाब में 86.9 और कर्नाटक में 80.3। भारत का आँकड़ा 68.8 प्रतिशत है, NFHS-5 के 69.0 से लगभग वही।"
+  },
+  {
+    "id": "X257",
+    "title": "Private school enrolment share, UDISE+ 2024-25",
+    "file": "X257_Private_school_enrolment_share_UDISE_2024-25.png",
+    "section": "education",
+    "source": "UDISE+ (MoSPI)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Private unaided schools enrol 67.5% of students in Nagaland, 62.7% in Manipur and 60.8% in Telangana, against 7.1% in West Bengal, 12.0% in Goa and 12.7% in Bihar. Across all states and territories the share is 36.8%, up from 31.9% in 2022-23, and it rose in every state and territory.",
+    "policy": "Government-aided schools are privately managed but publicly funded and are not counted as private here, so a low share can mean a large aided sector rather than a large government one. The two-year rise is large and the source does not say how much of it is a change in the schools or in how they were counted.",
+    "tags": [
+      "UDISE+",
+      "private schools",
+      "education"
+    ],
+    "title_hi": "निजी स्कूलों में नामांकन का हिस्सा, UDISE+ 2024-25",
+    "takeaway_hi": "निजी गैर-सहायता प्राप्त स्कूल नागालैंड में 67.5%, मणिपुर में 62.7% और तेलंगाना में 60.8% विद्यार्थियों को पढ़ाते हैं, जबकि पश्चिम बंगाल में 7.1%, गोवा में 12.0% और बिहार में 12.7%। सभी राज्यों और क्षेत्रों में यह हिस्सा 36.8% है, जो 2022-23 में 31.9% था।"
+  },
+  {
+    "id": "X258",
+    "title": "Regular employees with no written contract, PLFS 2023-24",
+    "file": "X258_Regular_employees_with_no_written_contract_PLFS_2023-24.png",
+    "section": "economy",
+    "source": "PLFS (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "In Punjab 84.5% of regular wage and salaried employees have no written contract, in Rajasthan 77.1% and in Gujarat 71.9%, against 10.0% in Arunachal Pradesh, 11.4% in Mizoram and 12.5% in Nagaland. The India figure is 58.0%, from 58.6% a year earlier. Bihar rose 10.1 points in the year.",
+    "policy": "The measure covers only regular wage and salaried employees, who are a minority of workers. A high share in a state with much private-sector salaried work, and a low one where most salaried jobs are in government, partly reflect who the employers are. A written contract is not the same as social security cover.",
+    "tags": [
+      "PLFS",
+      "employment",
+      "contracts",
+      "economy"
+    ],
+    "title_hi": "बिना लिखित अनुबंध वाले नियमित कर्मचारी, PLFS 2023-24",
+    "takeaway_hi": "पंजाब में 84.5% नियमित वेतनभोगी कर्मचारियों के पास लिखित अनुबंध नहीं है, राजस्थान में 77.1% और गुजरात में 71.9%, जबकि अरुणाचल प्रदेश में 10.0%, मिज़ोरम में 11.4% और नागालैंड में 12.5%। भारत का आँकड़ा 58.0% है, जो एक साल पहले 58.6% था।"
+  },
+  {
+    "id": "X259",
+    "title": "Men who are overweight or obese, NFHS-6",
+    "file": "X259_Men_who_are_overweight_or_obese_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Overweight or obesity affects 48.5 per cent of men in Chandigarh, 46.1 in the Andaman and Nicobar Islands and 45.9 in Puducherry, against 16.1 in Chhattisgarh, 17.6 in Madhya Pradesh and 19.3 in Rajasthan. The India figure is 27.3 per cent, up from 22.9 in NFHS-5. Chandigarh rose 14.1 points and Ladakh fell 10.0.",
+    "policy": "Body mass index counts weight for height and says nothing about diet or fitness. NFHS-6 is provisional, and 27 states and territories carry a figure here.",
+    "tags": [
+      "NFHS-6",
+      "obesity",
+      "men",
+      "health"
+    ],
+    "title_hi": "अधिक वज़न या मोटापे वाले पुरुष, NFHS-6",
+    "takeaway_hi": "अधिक वज़न या मोटापा चंडीगढ़ में 48.5 प्रतिशत, अंडमान-निकोबार में 46.1 और पुदुचेरी में 45.9 प्रतिशत पुरुषों में है, जबकि छत्तीसगढ़ में 16.1, मध्य प्रदेश में 17.6 और राजस्थान में 19.3। भारत का आँकड़ा 27.3 प्रतिशत है, NFHS-5 के 22.9 से अधिक।"
+  },
+  {
+    "id": "X260",
+    "title": "Installed renewable capacity per person, July 2026",
+    "file": "X260_Renewable_capacity_per_person_MNRE_2026.png",
+    "section": "environment",
+    "source": "MNRE (via MoSPI)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Sikkim has 3,350 watts of installed renewable capacity per person, Himachal Pradesh 1,726 and Arunachal Pradesh 1,438, against 208 for India and 5 in Bihar. Gujarat has 724 and Rajasthan 612. Jharkhand and Tripura have 14 each.",
+    "policy": "This is capacity, not electricity generated: solar and wind plants run for a fraction of the year, and large hydro depends on rain. Large hydro is in MoSPI's total (Himachal Pradesh's 12,980 MW is 11,571 MW of large hydro), and small populations push the per-person figure up. Capacity is for July 2026 and population is a 2024 projection.",
+    "tags": [
+      "renewable energy",
+      "MNRE",
+      "environment"
+    ],
+    "title_hi": "प्रति व्यक्ति स्थापित नवीकरणीय क्षमता, जुलाई 2026",
+    "takeaway_hi": "सिक्किम में प्रति व्यक्ति 3,350 वाट स्थापित नवीकरणीय क्षमता है, हिमाचल प्रदेश में 1,726 और अरुणाचल प्रदेश में 1,438, जबकि भारत का आँकड़ा 208 और बिहार का 5 है। गुजरात में 724 और राजस्थान में 612 है। झारखंड और त्रिपुरा में 14-14।"
+  },
+  {
+    "id": "X261",
+    "title": "Women workers outside agriculture, PLFS 2025",
+    "file": "X261_Women_workers_outside_agriculture_PLFS_2025.png",
+    "section": "economy",
+    "source": "PLFS 2025 (MoSPI)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "In Chandigarh 99.5% of women workers are outside agriculture and in Delhi 99.3%, against 21.9% in Rajasthan, 22.7% in Himachal Pradesh and 24.4% in Jharkhand. For India the figure is 40.2%: 59.8% of women workers are in agriculture, forestry or fishing.",
+    "policy": "Counting a woman as a worker includes unpaid work on the family farm, so a low share outside agriculture often means work that carries no wage rather than no work. PLFS was redesigned for 2025, so these figures are not a strict continuation of earlier rounds.",
+    "tags": [
+      "PLFS",
+      "women",
+      "employment",
+      "agriculture"
+    ],
+    "title_hi": "कृषि के बाहर काम करने वाली महिला श्रमिक, PLFS 2025",
+    "takeaway_hi": "चंडीगढ़ में 99.5% और दिल्ली में 99.3% महिला श्रमिक कृषि से बाहर हैं, जबकि राजस्थान में 21.9%, हिमाचल प्रदेश में 22.7% और झारखंड में 24.4%। भारत में यह 40.2% है: 59.8% महिला श्रमिक कृषि, वानिकी या मत्स्य पालन में हैं।"
+  },
+  {
+    "id": "X262",
+    "title": "Human trafficking cases recorded, NCRB 2024",
+    "file": "X262_Human_trafficking_cases_recorded_NCRB_2024.png",
+    "section": "economy",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Tripura registered 14.80 human trafficking cases per 10 lakh people (62 cases, up from 18 in 2023) and Telangana 11.04 (423 cases, the most of any state), against 1.52 for India. Arunachal Pradesh is at 5.06 from 8 cases. Seven states and territories registered none, and Assam, West Bengal and Jharkhand, named on the older map, are below 3.",
+    "policy": "These are registrations by police anti-trafficking units, so a high figure can mean more units actively filing cases rather than more trafficking, and a zero is not proof of none. Fifteen states and territories have fewer than 10 cases, where one case moves the rate a long way. The older map covered 2022, and its ranking has changed.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "trafficking"
+    ],
+    "title_hi": "दर्ज मानव तस्करी के मामले, NCRB 2024",
+    "takeaway_hi": "त्रिपुरा में प्रति 10 लाख आबादी पर 14.80 मानव तस्करी के मामले दर्ज हुए (62 मामले, 2023 में 18) और तेलंगाना में 11.04 (423 मामले, किसी भी राज्य में सबसे अधिक), जबकि भारत का आँकड़ा 1.52 है। अरुणाचल प्रदेश 8 मामलों से 5.06 पर है। सात राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X263",
+    "title": "Adult HIV prevalence, NACO 2024",
+    "file": "X263_Adult_HIV_prevalence_NACO_2024.png",
+    "section": "health",
+    "source": "NACO (Sankalak 2025)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Mizoram has the highest estimated adult HIV prevalence at 2.75 per cent, followed by Nagaland at 1.37 and Manipur at 0.81, against 0.20 for India. Jammu and Kashmir has the lowest at 0.06, then Kerala and Jharkhand at 0.07. Andhra Pradesh (0.58) and Karnataka (0.44) are the highest among the large southern states.",
+    "policy": "These are modelled estimates from surveillance and programme data, not a count of people tested, so small differences between low-prevalence states are within the margin of error. Prevalence is a share of adults. The states with the most people living with HIV in absolute terms differ from those with the highest prevalence.",
+    "tags": [
+      "HIV",
+      "NACO",
+      "health"
+    ],
+    "title_hi": "वयस्कों में एचआईवी का प्रसार, NACO 2024",
+    "takeaway_hi": "अनुमानित वयस्क एचआईवी प्रसार मिज़ोरम में सबसे अधिक 2.75 प्रतिशत है, फिर नागालैंड में 1.37 और मणिपुर में 0.81, जबकि भारत का आँकड़ा 0.20 है। जम्मू और कश्मीर में सबसे कम 0.06 है, फिर केरल और झारखंड में 0.07।"
+  },
+  {
+    "id": "X264",
+    "title": "Government health spending per person, NHA 2022-23",
+    "file": "X264_Government_health_spending_per_person_NHA_2022-23.png",
+    "section": "health",
+    "source": "National Health Accounts 2022-23",
+    "year": "2022-23",
+    "quality": "NEW",
+    "takeaway": "Government agencies spend Rs 5,913 per person on health in Himachal Pradesh, Rs 3,916 in Jammu and Kashmir and Rs 3,592 in Kerala, against Rs 1,056 in Bihar, Rs 1,419 in Uttar Pradesh and Rs 1,536 in Jharkhand. Only 21 states are covered.",
+    "policy": "The figure counts spending by the Union, state and local governments inside the state, so it includes central schemes and is not what the state government alone spends. Three of the four highest are hill states (Himachal Pradesh, Jammu and Kashmir, Uttarakhand). The 21 states are those for which the estimate can be made; small states, union territories and most of the north-east are not covered.",
+    "tags": [
+      "NHA",
+      "health spending",
+      "health"
+    ],
+    "title_hi": "प्रति व्यक्ति सरकारी स्वास्थ्य व्यय, NHA 2022-23",
+    "takeaway_hi": "हिमाचल प्रदेश में सरकारी एजेंसियाँ प्रति व्यक्ति 5,913 रुपये स्वास्थ्य पर खर्च करती हैं, जम्मू और कश्मीर में 3,916 और केरल में 3,592, जबकि बिहार में 1,056, उत्तर प्रदेश में 1,419 और झारखंड में 1,536। केवल 21 राज्य शामिल हैं।"
+  },
+  {
+    "id": "X265",
+    "title": "Out-of-pocket share of health spending, NHA 2022-23",
+    "file": "X265_Out-of-pocket_share_of_health_spending_NHA_2022-23.png",
+    "section": "health",
+    "source": "National Health Accounts 2022-23",
+    "year": "2022-23",
+    "quality": "NEW",
+    "takeaway": "Households pay 66.1 per cent of health spending out of pocket in Uttar Pradesh, 64.0 in Kerala, 62.3 in West Bengal and 60.6 in Punjab, against 28.8 in Uttarakhand, 29.2 in Karnataka and 29.7 in Jammu and Kashmir. Bihar is at 47.7. Only 21 states are covered.",
+    "policy": "A high share is not the same as low public spending: Kerala's total health spending is Rs 13,116 per person and its out-of-pocket spending Rs 8,388 per person. The household figures rest on the NSS 75th round of 2017-18, so state changes since then are not captured.",
+    "tags": [
+      "NHA",
+      "out of pocket",
+      "health spending"
+    ],
+    "title_hi": "स्वास्थ्य व्यय में जेब से भुगतान का हिस्सा, NHA 2022-23",
+    "takeaway_hi": "उत्तर प्रदेश में स्वास्थ्य व्यय का 66.1 प्रतिशत परिवार जेब से भरते हैं, केरल में 64.0, पश्चिम बंगाल में 62.3 और पंजाब में 60.6, जबकि उत्तराखंड में 28.8, कर्नाटक में 29.2 और जम्मू और कश्मीर में 29.7। बिहार में 47.7। केवल 21 राज्य शामिल हैं।"
+  },
+  {
+    "id": "X266",
+    "title": "Public hospital beds per lakh people, March 2023",
+    "file": "X266_Public_hospital_beds_per_lakh_people_2023.png",
+    "section": "health",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off.",
+    "policy": "Maharashtra is grey because the source's medical-college column adds to 16,998 beds more than its printed total, exactly Maharashtra's entry, and the source does not say which is wrong. The count is public beds only, so it says nothing about private hospitals. Beds are for March 2023 and populations are 2024 projections.",
+    "tags": [
+      "hospital beds",
+      "health infrastructure",
+      "health"
+    ],
+    "title_hi": "प्रति लाख आबादी पर सरकारी अस्पताल के बिस्तर, मार्च 2023",
+    "takeaway_hi": "राज्यों में हिमाचल प्रदेश में प्रति लाख आबादी 136 सरकारी अस्पताल बिस्तर हैं, केरल में 119 और तमिलनाडु में 106, जबकि बिहार में 22, झारखंड में 29 और उत्तर प्रदेश में 32। लक्षद्वीप (357), अंडमान-निकोबार (340) और चंडीगढ़ (309) सबसे ऊपर हैं। महाराष्ट्र छोड़ा गया है।"
+  },
+  {
+    "id": "X267",
+    "title": "PM-JAY hospital admissions per lakh people, 2024-25",
+    "file": "X267_PM-JAY_hospital_admissions_per_lakh_people_2024-25.png",
+    "section": "health",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Meghalaya had 6,785 PM-JAY admissions authorised per lakh people in 2024-25, Chhattisgarh 5,689 and Karnataka 5,574, against 732 in Bihar, 1,043 in Uttar Pradesh and 1,021 in Maharashtra. Kerala fell from 3,397 in 2022-23 to 2,530 and Tamil Nadu from 2,288 to 1,468, while Karnataka rose by 2,474.",
+    "policy": "The base here is the whole population, not the families covered, so a state that covers more of its people shows a higher figure for that reason alone. Delhi and Odisha joined the scheme in April 2025 and West Bengal is not in it, so they have no figure. Some states run their own schemes beside PM-JAY, which these counts leave out.",
+    "tags": [
+      "PM-JAY",
+      "Ayushman Bharat",
+      "health insurance"
+    ],
+    "title_hi": "प्रति लाख आबादी पर PM-JAY अस्पताल भर्ती, 2024-25",
+    "takeaway_hi": "2024-25 में मेघालय में प्रति लाख आबादी 6,785 PM-JAY भर्ती स्वीकृत हुईं, छत्तीसगढ़ में 5,689 और कर्नाटक में 5,574, जबकि बिहार में 732, उत्तर प्रदेश में 1,043 और महाराष्ट्र में 1,021। केरल 3,397 से 2,530 पर और तमिलनाडु 2,288 से 1,468 पर आ गया।"
+  },
+  {
+    "id": "X268",
+    "title": "Mudra loans to SC and ST entrepreneurs, 2022-25",
+    "file": "X268_Mudra_loans_to_SC_and_ST_entrepreneurs_2022-25.png",
+    "section": "caste",
+    "source": "Lok Sabha answers (MoHFW, MoF)",
+    "year": "2023-25",
+    "quality": "NEW",
+    "takeaway": "Bihar had 27,973 Mudra loans to SC and ST entrepreneurs per lakh SC and ST people over three years, Haryana 23,274 and Tripura 21,071, against 12,558 for India, and fewer than 1,500 in Meghalaya, Nagaland, Manipur and Dadra and Nagar Haveli and Daman and Diu. Uttar Pradesh is at 13,890 and West Bengal at 10,151.",
+    "policy": "The count is loans, not borrowers, so one entrepreneur with several small loans counts several times. SC and ST are reported together and the population base is the 2011 Census. Loan numbers are those uploaded by lending institutions to the Mudra portal. States with under 1 lakh SC and ST people are left grey.",
+    "tags": [
+      "Mudra",
+      "SC",
+      "ST",
+      "credit"
+    ],
+    "title_hi": "SC और ST उद्यमियों को मुद्रा ऋण, 2022-25",
+    "takeaway_hi": "तीन वर्षों में बिहार में प्रति लाख SC और ST आबादी 27,973 मुद्रा ऋण SC और ST उद्यमियों को मिले, हरियाणा में 23,274 और त्रिपुरा में 21,071, जबकि भारत का आँकड़ा 12,558 है। मेघालय, नागालैंड, मणिपुर और दादरा-नगर हवेली और दमन-दीव में 1,500 से कम।"
+  },
+  {
+    "id": "X269",
+    "title": "Communal and religious riots recorded, NCRB 2024",
+    "file": "X269_Communal_and_religious_riots_recorded_NCRB_2024.png",
+    "section": "religion",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB registered 349 communal or religious riot cases in 2024. Maharashtra had the most (90), then Bihar (80), Jharkhand (45), Odisha (37) and Karnataka (34). Per crore people, Goa is highest at 18.87 from 3 cases, then Jharkhand (11.21) and Odisha (7.93), against 2.48 for India. Sixteen states and territories registered none.",
+    "policy": "The map shows one year. The older map covered 2019 to 2024 cumulatively and could not be rebuilt from the 2024 volume alone. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
+    "tags": [
+      "NCRB",
+      "riots",
+      "communal",
+      "religion"
+    ],
+    "title_hi": "दर्ज सांप्रदायिक और धार्मिक दंगे, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में 349 सांप्रदायिक या धार्मिक दंगे दर्ज किए। सबसे अधिक महाराष्ट्र (90), फिर बिहार (80), झारखंड (45), ओडिशा (37) और कर्नाटक (34)। प्रति करोड़ आबादी पर गोवा 18.87 के साथ सबसे ऊपर है (3 मामले), फिर झारखंड (11.21) और ओडिशा (7.93), जबकि भारत का आँकड़ा 2.48 है। 16 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X270",
+    "title": "Women among MLAs, ADR 2026",
+    "file": "X270_Women_among_MLAs_ADR_2026.png",
+    "section": "democracy",
+    "source": "ADR / National Election Watch",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Women hold 21.1 per cent of seats in the Chhattisgarh assembly (19 of 90), 15.0 in Tripura and 14.8 in Jharkhand, against 1.5 in Himachal Pradesh (1 of 68), 3.3 in Jammu and Kashmir, Nagaland and Puducherry, and 4.5 in Karnataka. Across 31 assemblies 390 of 4,123 MLAs are women, 9.5 per cent. Uttar Pradesh has the most women MLAs (47) but only 11.7 per cent of its seats.",
+    "policy": "Each assembly is shown on its last election as of 2 February 2026, so Assam, Kerala, Puducherry, Tamil Nadu and West Bengal are on 2021 results and have since voted. A small assembly moves a long way on one seat. Ladakh has no assembly. Women's share of Lok Sabha seats after 2024 was 14 per cent in the same report.",
+    "tags": [
+      "ADR",
+      "women",
+      "MLAs",
+      "democracy"
+    ],
+    "title_hi": "विधायकों में महिलाएँ, ADR 2026",
+    "takeaway_hi": "छत्तीसगढ़ विधानसभा में महिलाओं के पास 21.1 प्रतिशत सीटें हैं (90 में 19), त्रिपुरा में 15.0 और झारखंड में 14.8, जबकि हिमाचल प्रदेश में 1.5 (68 में 1), जम्मू और कश्मीर, नागालैंड और पुदुचेरी में 3.3 और कर्नाटक में 4.5। 31 विधानसभाओं में 4,123 में से 390 विधायक महिलाएँ हैं, यानी 9.5 प्रतिशत।"
+  },
+  {
+    "id": "X271",
+    "title": "Critically polluted river stretches, CPCB 2025",
+    "file": "X271_Critically_polluted_river_stretches_CPCB_2025.png",
+    "section": "environment",
+    "source": "CPCB (Polluted River Stretches 2025)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "CPCB lists 36 river stretches in its most polluted class, with biochemical oxygen demand above 30 mg/L, in 14 states and territories: Uttarakhand and Tamil Nadu have 5 each, Uttar Pradesh and Gujarat 4 and Karnataka 3. The 18 other states in the table have none in this class. Maharashtra has 54 polluted stretches in all but only 2 are critical, and Kerala has 31, none critical.",
+    "policy": "This is a count of stretches, not a measure of how polluted a state's rivers are overall: states differ in river length and in how many locations are monitored. A state not in CPCB's table of 32 has no polluted stretch listed, which can mean clean water or little monitoring. The monitoring is from 2022 and 2023 and the report is dated September 2025.",
+    "tags": [
+      "CPCB",
+      "rivers",
+      "pollution",
+      "environment"
+    ],
+    "title_hi": "अत्यधिक प्रदूषित नदी खंड, CPCB 2025",
+    "takeaway_hi": "CPCB ने 14 राज्यों और क्षेत्रों में अपने सबसे प्रदूषित वर्ग (जैव-रासायनिक ऑक्सीजन माँग 30 mg/L से अधिक) में 36 नदी खंड सूचीबद्ध किए हैं: उत्तराखंड और तमिलनाडु में 5-5, उत्तर प्रदेश और गुजरात में 4 और कर्नाटक में 3। तालिका के शेष 18 राज्यों में इस वर्ग में कोई नहीं। महाराष्ट्र में कुल 54 प्रदूषित खंड हैं पर केवल 2 अत्यधिक प्रदूषित।"
+  },
+  {
+    "id": "X272",
+    "title": "Std V children who can read a Std II text, ASER 2024",
+    "file": "X272_Std5_children_who_can_read_Std2_text_ASER_2024.png",
+    "section": "education",
+    "source": "ASER Centre, ASER (Rural) 2024",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "In rural government schools 44.8 per cent of Std V children can read a Std II text, which means 55.2 per cent cannot. Himachal Pradesh is highest at 70.1 per cent and Jammu and Kashmir lowest at 21.8, with Nagaland 27.1, Arunachal Pradesh 27.5 and Telangana 29.3 close behind. Compared with 2022, 20 of the 27 published states improved, Sikkim by 26.4 points and Mizoram by 19.5; Tripura fell 8.0 points and Kerala 3.7.",
+    "policy": "ASER tests children at home in rural districts, and these state tables cover government schools only, so they say nothing about private schools or cities. Samples are small in the smaller states, which is why Sikkim's jump should be read as a sign rather than a measurement. Reading a Std II text is a Std II skill, which is what a Std V child is expected to have.",
+    "tags": [
+      "ASER",
+      "learning outcomes",
+      "education",
+      "reading"
+    ],
+    "title_hi": "कक्षा 5 के बच्चे जो कक्षा 2 का पाठ पढ़ सकते हैं, ASER 2024",
+    "takeaway_hi": "ग्रामीण सरकारी स्कूलों में कक्षा 5 के 44.8 प्रतिशत बच्चे कक्षा 2 का पाठ पढ़ सकते हैं, यानी 55.2 प्रतिशत नहीं पढ़ सकते। हिमाचल प्रदेश में सबसे अधिक 70.1 प्रतिशत और जम्मू-कश्मीर में सबसे कम 21.8 प्रतिशत है। 2022 की तुलना में 27 में से 20 राज्यों में सुधार हुआ।"
+  },
+  {
+    "id": "X273",
+    "title": "Children aged 6 to 14 not in school, ASER 2024",
+    "file": "X273_Children_6-14_not_in_school_ASER_2024.png",
+    "section": "education",
+    "source": "ASER Centre, ASER (Rural) 2024",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "ASER finds 1.9 per cent of rural children aged 6 to 14 not enrolled in any school. The share is highest in Meghalaya (4.1 per cent), Uttar Pradesh (3.9), Bihar (3.0), Arunachal Pradesh (2.8) and Madhya Pradesh (2.5), and Andhra Pradesh, Kerala and Tamil Nadu are at 0.1. The figure is much larger for older children: 7.9 per cent of 15 and 16 year olds are not in school.",
+    "policy": "These are rural household survey estimates, so they miss children in cities and migrant families surveyed elsewhere. A child counted as enrolled may still be absent: in the schools ASER visited, only 55.2 per cent of enrolled children in Bihar were present on the survey day. Small state samples mean the ranking among states near 1 per cent is not firm.",
+    "tags": [
+      "ASER",
+      "out of school",
+      "children",
+      "education"
+    ],
+    "title_hi": "स्कूल से बाहर बच्चे, 6-14 वर्ष, ASER 2024",
+    "takeaway_hi": "ASER के अनुसार ग्रामीण क्षेत्रों में 6 से 14 वर्ष के 1.9 प्रतिशत बच्चे किसी स्कूल में नामांकित नहीं हैं। यह मेघालय (4.1), उत्तर प्रदेश (3.9), बिहार (3.0), अरुणाचल प्रदेश (2.8) और मध्य प्रदेश (2.5) में सबसे अधिक है। 15 और 16 वर्ष के 7.9 प्रतिशत बच्चे स्कूल से बाहर हैं।"
+  },
+  {
+    "id": "X274",
+    "title": "Internet subscriptions per 100 people, TRAI March 2026",
+    "file": "X274_Internet_subscriptions_per_100_people_TRAI_2026.png",
+    "section": "economy",
+    "source": "TRAI, Yearly Performance Indicators 2025-26",
+    "year": "Mar 2026",
+    "quality": "NEW",
+    "takeaway": "TRAI counts 1,092.8 million internet subscriptions at the end of March 2026, or 76.6 per 100 people. Bihar has the fewest at 50.5 per 100, followed by Jharkhand (55.3), Madhya Pradesh (62.1) and Uttar Pradesh (62.8). Delhi (173.5), Goa (150.4), Ladakh (132.3) and Chandigarh (120.4) are highest. Rural India has 48.3 subscriptions per 100 people and urban India 126.8.",
+    "policy": "A subscription is not a person. One person can hold a phone and a broadband line, or two SIMs, so figures above 100 in Delhi, Goa and Haryana say nothing about everyone being online, and the low figures in Bihar and Jharkhand do not say how many people are. Population is a projection to 2026 and the operators' rural and urban split uses different sources, so only totals are shown. Survey measures of who uses the internet (NFHS, NSS) are a separate and usually lower count.",
+    "tags": [
+      "TRAI",
+      "internet",
+      "digital access"
+    ],
+    "title_hi": "प्रति 100 लोगों पर इंटरनेट कनेक्शन, TRAI मार्च 2026",
+    "takeaway_hi": "TRAI के अनुसार मार्च 2026 के अंत में 1,092.8 मिलियन इंटरनेट कनेक्शन हैं, यानी प्रति 100 लोगों पर 76.6। बिहार में सबसे कम 50.5, फिर झारखंड (55.3), मध्य प्रदेश (62.1) और उत्तर प्रदेश (62.8)। दिल्ली (173.5) और गोवा (150.4) में सबसे अधिक। कनेक्शन व्यक्ति नहीं है, इसलिए 100 से ऊपर के आँकड़ों का अर्थ यह नहीं कि सब ऑनलाइन हैं।"
+  },
+  {
+    "id": "X275",
+    "title": "TB case notification rate, India TB Report 2024",
+    "file": "X275_TB_case_notification_rate_2023.png",
+    "section": "health",
+    "source": "Central TB Division, India TB Report 2024",
+    "year": "2023",
+    "quality": "NEW",
+    "takeaway": "India notified 25,52,257 TB patients in 2023, a rate of 178.8 per lakh population, of which 119.7 came from the public sector and 59.2 from private providers. Chandigarh (556.4), Delhi (507.2) and Puducherry (263.5) are highest. Of the other states Haryana (260.8) and Uttar Pradesh (260.1) are highest and Kerala (61.5), Manipur (69.4) and Jammu and Kashmir (77.6) lowest, apart from Lakshadweep (9.0, on 6 cases).",
+    "policy": "A notification rate counts cases found and reported, so a high rate can mean more TB or better case finding, and a low one can mean fewer cases or cases missed. The report gives no state incidence, only a national modelled figure of 199 per lakh for 2022, so this map does not show where TB is commonest. Cases are counted where they were notified, which can differ from where the patient lives, and Lakshadweep's rate rests on 6 cases.",
+    "tags": [
+      "TB",
+      "NTEP",
+      "health",
+      "tuberculosis"
+    ],
+    "title_hi": "टीबी मामला अधिसूचना दर, इंडिया टीबी रिपोर्ट 2024",
+    "takeaway_hi": "भारत में 2023 में 25,52,257 टीबी रोगी अधिसूचित हुए, यानी प्रति लाख जनसंख्या 178.8, जिनमें 119.7 सार्वजनिक क्षेत्र से और 59.2 निजी प्रदाताओं से। चंडीगढ़ (556.4), दिल्ली (507.2) और पुडुचेरी (263.5) सबसे ऊपर हैं। बाकी राज्यों में हरियाणा (260.8) और उत्तर प्रदेश (260.1) सबसे ऊपर और केरल (61.5), मणिपुर (69.4) और जम्मू-कश्मीर (77.6) सबसे नीचे हैं।"
+  },
+  {
+    "id": "X276",
+    "title": "Share of India's inward remittances by state, RBI 2023-24",
+    "file": "X276_Share_of_inward_remittances_RBI_2023-24.png",
+    "section": "economy",
+    "source": "RBI, India's Remittances Survey (sixth round)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Five states received two thirds of India's inward remittances in 2023-24: Maharashtra 20.5 per cent, Kerala 19.7, Tamil Nadu 10.4, Telangana 8.1 and Karnataka 7.7, together 66.4. Bihar received 1.3 per cent and Uttar Pradesh 3.0. Maharashtra's share fell from 35.2 per cent in the 2020-21 round, while Kerala's rose from 10.2 to 19.7.",
+    "policy": "A share says where remittances land in total, and it follows population as well as migration: a populous state with few emigrants can have a small share and still receive a great deal per person, and the reverse. It does not show how much a state depends on remittances, which needs state income or consumption beside it. The survey covers remittances received through formal channels for family maintenance, savings and withdrawals from non-resident deposits.",
+    "tags": [
+      "RBI",
+      "remittances",
+      "migration",
+      "economy"
+    ],
+    "title_hi": "राज्यवार आवक विप्रेषण का हिस्सा, RBI 2023-24",
+    "takeaway_hi": "2023-24 में भारत के आवक विप्रेषण का दो-तिहाई पाँच राज्यों को मिला: महाराष्ट्र 20.5 प्रतिशत, केरल 19.7, तमिलनाडु 10.4, तेलंगाना 8.1 और कर्नाटक 7.7, कुल 66.4। बिहार को 1.3 और उत्तर प्रदेश को 3.0 प्रतिशत मिला। 2020-21 के दौर में महाराष्ट्र का हिस्सा 35.2 प्रतिशत था।"
+  },
+  {
+    "id": "X277",
+    "title": "Pupil-teacher ratio in primary schools, UDISE+ 2024-25",
+    "file": "X277_Pupil-teacher_ratio_primary_UDISE_2024-25.png",
+    "section": "education",
+    "source": "UDISE+ via MoSPI",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "No state or territory is above the Right to Education norm of 30 pupils per teacher at primary level in 2024-25. Delhi is highest at 29, followed by Dadra and Nagar Haveli and Daman and Diu (28), Bihar and Jharkhand (26) and Gujarat and Maharashtra (24). Ladakh (5) and Sikkim (6) are lowest. Bihar's ratio is shown as 43 in 2022-23 and 26 in 2024-25, and Delhi's as 34 and 29.",
+    "policy": "A state average hides schools with one teacher for many pupils and others with too many teachers for few pupils, so a low ratio does not mean every school is adequately staffed. The figures cover government, aided and private schools together and are whole numbers. MoSPI does not say whether 2022-23 and 2024-25 are counted on the same basis, so the large fall in Bihar should be read with caution until checked against UDISE+ reports for both years.",
+    "tags": [
+      "UDISE+",
+      "teachers",
+      "pupil-teacher ratio",
+      "education"
+    ],
+    "title_hi": "प्राथमिक विद्यालयों में छात्र-शिक्षक अनुपात, UDISE+ 2024-25",
+    "takeaway_hi": "2024-25 में कोई भी राज्य या केंद्र शासित प्रदेश प्राथमिक स्तर पर शिक्षा का अधिकार के मानक 30 छात्र प्रति शिक्षक से ऊपर नहीं है। दिल्ली सबसे अधिक 29 पर है, फिर दादरा-नगर हवेली और दमन-दीव (28), बिहार और झारखंड (26)। लद्दाख (5) और सिक्किम (6) सबसे नीचे हैं। बिहार का अनुपात 2022-23 में 43 और 2024-25 में 26 दिखाया गया है।"
+  },
+  {
+    "id": "X278",
+    "title": "Rice share of cereal consumption, rural households, HCES 2023-24",
+    "file": "X278_Rice_share_of_cereal_consumption_Rural_HCES_2023-24.png",
+    "section": "economy",
+    "source": "MoSPI HCES 2023-24",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Rice is 54.2 per cent of the cereals eaten per person in rural India (HCES 2023-24, by weight), against 55.4 per cent in 2022-23. In 14 states and territories it is 90 per cent or more, led by Mizoram (99.6), Manipur (99.4) and Nagaland (98.4), while in Rajasthan (3.7), Haryana (7.6) and Punjab (9.3) wheat and coarse grains take most of the plate.",
+    "policy": "This is a share of kilograms of cereal, not of calories or spending, and it counts household consumption from purchases, home production and free items together. A high rice share does not say how much cereal anyone eats. Rural and urban figures come from separate series, and the survey publishes no combined state figure, so the two maps should not be averaged.",
+    "tags": [
+      "HCES",
+      "food",
+      "rice",
+      "cereals",
+      "economy"
+    ],
+    "title_hi": "अनाज उपभोग में चावल का हिस्सा (ग्रामीण), HCES 2023-24",
+    "takeaway_hi": "HCES 2023-24 के अनुसार ग्रामीण भारत में प्रति व्यक्ति खाए जाने वाले अनाज (वज़न के हिसाब से) में चावल का हिस्सा 54.2 प्रतिशत है, जबकि 2022-23 में यह 55.4 प्रतिशत था। 14 राज्यों और क्षेत्रों में यह 90 प्रतिशत या उससे अधिक है।"
+  },
+  {
+    "id": "X279",
+    "title": "Rice share of cereal consumption, urban households, HCES 2023-24",
+    "file": "X279_Rice_share_of_cereal_consumption_Urban_HCES_2023-24.png",
+    "section": "economy",
+    "source": "MoSPI HCES 2023-24",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Rice is 52.3 per cent of the cereals eaten per person in urban India (HCES 2023-24, by weight), against 53.2 per cent in 2022-23. In 8 states and territories it is 90 per cent or more, led by Mizoram (99.4), Manipur (99.2) and Nagaland (97.3), while in Rajasthan (6.4), Chandigarh (13.6) and Punjab (13.6) wheat and coarse grains take most of the plate.",
+    "policy": "This is a share of kilograms of cereal, not of calories or spending, and it counts household consumption from purchases, home production and free items together. A high rice share does not say how much cereal anyone eats. Rural and urban figures come from separate series, and the survey publishes no combined state figure, so the two maps should not be averaged.",
+    "tags": [
+      "HCES",
+      "food",
+      "rice",
+      "cereals",
+      "economy"
+    ],
+    "title_hi": "अनाज उपभोग में चावल का हिस्सा (शहरी), HCES 2023-24",
+    "takeaway_hi": "HCES 2023-24 के अनुसार शहरी भारत में प्रति व्यक्ति खाए जाने वाले अनाज (वज़न के हिसाब से) में चावल का हिस्सा 52.3 प्रतिशत है, जबकि 2022-23 में यह 53.2 प्रतिशत था। 8 राज्यों और क्षेत्रों में यह 90 प्रतिशत या उससे अधिक है।"
+  },
+  {
+    "id": "X280",
+    "title": "Maternal mortality ratio, SRS 2022-24",
+    "file": "X280_Maternal_mortality_ratio_SRS_2022-24.png",
+    "section": "health",
+    "source": "ORGI, SRS Special Bulletin on Maternal Mortality",
+    "year": "2022-24",
+    "quality": "NEW",
+    "takeaway": "SRS puts India's maternal mortality ratio at 87 per 100,000 live births for 2022-24, one lower than 88 in 2021-23. Uttar Pradesh (154), Madhya Pradesh (135) and Chhattisgarh and Odisha (124 each) are highest. Kerala (24), Tamil Nadu (25), Maharashtra (37) and Andhra Pradesh (39) are lowest. Uttar Pradesh's 95 per cent interval (115 to 192) lies wholly above Kerala's (0 to 50).",
+    "policy": "Maternal deaths are rare events, so the estimates pool three years and carry wide confidence intervals: Bihar's 96 could be anywhere from 62 to 130. Most gaps between adjacent states are within that noise, and only large gaps, such as Uttar Pradesh against the southern states, are firm. SRS shows 19 states separately and pools the rest as 'Other states' (84), so the remaining states and UTs are grey here.",
+    "tags": [
+      "SRS",
+      "maternal mortality",
+      "health",
+      "women"
+    ],
+    "title_hi": "मातृ मृत्यु अनुपात, SRS 2022-24",
+    "takeaway_hi": "SRS के अनुसार 2022-24 में भारत का मातृ मृत्यु अनुपात प्रति 1,00,000 जीवित जन्म पर 87 है, जो 2021-23 के 88 से एक कम है। उत्तर प्रदेश (154), मध्य प्रदेश (135) तथा छत्तीसगढ़ और ओडिशा (124) सबसे ऊपर हैं। केरल (24), तमिलनाडु (25), महाराष्ट्र (37) और आंध्र प्रदेश (39) सबसे नीचे हैं।"
+  },
+  {
+    "id": "X281",
+    "title": "Life expectancy at birth, SRS 2019-23",
+    "file": "X281_Life_expectancy_at_birth_SRS_2019-23.png",
+    "section": "health",
+    "source": "ORGI, SRS Abridged Life Tables 2019-23",
+    "year": "2019-23",
+    "quality": "NEW",
+    "takeaway": "SRS puts life expectancy at birth at 70.3 years in India for 2019-23, up 0.4 years from 2018-22. Kerala is highest at 75.1 years, followed by Jammu and Kashmir and Himachal Pradesh (74.4 each) and Delhi (74.2). Chhattisgarh is lowest at 64.6, followed by Madhya Pradesh (67.6), Uttar Pradesh (68.0) and Assam (68.6), a gap of 10.5 years between the top and bottom. Women outlive men in every state shown, by 7.1 years in Himachal Pradesh and 0.8 in Bihar.",
+    "policy": "Life expectancy is a summary of the death rates of one period at every age, not a forecast of how long any child born now will live. SRS publishes it only for India and the larger states and UTs, so smaller states and the other UTs are grey, and Jammu and Kashmir includes Ladakh. The estimates come from a sample, five years pooled, so a difference of a few tenths of a year between two states is not firm.",
+    "tags": [
+      "SRS",
+      "life expectancy",
+      "health",
+      "mortality"
+    ],
+    "title_hi": "जन्म पर जीवन प्रत्याशा, SRS 2019-23",
+    "takeaway_hi": "SRS के अनुसार 2019-23 में भारत में जन्म पर जीवन प्रत्याशा 70.3 वर्ष है, जो 2018-22 से 0.4 वर्ष अधिक है। केरल में सबसे अधिक 75.1 वर्ष है, फिर जम्मू-कश्मीर और हिमाचल प्रदेश (74.4) और दिल्ली (74.2)। छत्तीसगढ़ में सबसे कम 64.6 है, फिर मध्य प्रदेश (67.6), उत्तर प्रदेश (68.0) और असम (68.6)। दिखाए गए हर राज्य में महिलाएँ पुरुषों से अधिक जीती हैं।"
+  },
+  {
+    "id": "X282",
+    "title": "Population with an improved drinking-water source, NFHS-6",
+    "file": "X282_Improved_drinking_water_source_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6 (2023-24)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "NFHS-6 finds 96.5 per cent of India's household population living with an improved source of drinking water, against 95.9 per cent in NFHS-5. Nagaland (82.7), Jharkhand and Meghalaya (84.3 each), Lakshadweep (88.4), Madhya Pradesh (89.0) and Himachal Pradesh (89.5) are lowest, and Chandigarh, Delhi and Puducherry are highest at 99.8 to 99.9. No state reported in NFHS-6 is under 82 per cent, so the old claim of under 60 per cent in some north-eastern states does not hold on this measure.",
+    "policy": "An improved source is not safe water. The survey definition counts piped water, tube wells, protected wells, rainwater, tanker trucks and bottled water, and says nothing about contamination, arsenic or fluoride, how many hours water flows, or how far it must be carried. Manipur has no NFHS-6 figure. NFHS-6 is provisional, and some state changes are large (Nagaland down 8.3 points, Himachal Pradesh down 6.7), which should be read with that in mind.",
+    "tags": [
+      "NFHS-6",
+      "drinking water",
+      "WASH",
+      "health"
+    ],
+    "title_hi": "बेहतर पेयजल स्रोत वाली आबादी, NFHS-6",
+    "takeaway_hi": "NFHS-6 के अनुसार भारत की 96.5 प्रतिशत घरेलू आबादी बेहतर पेयजल स्रोत वाले परिवारों में रहती है, जबकि NFHS-5 में यह 95.9 प्रतिशत थी। नागालैंड (82.7), झारखंड और मेघालय (84.3), लक्षद्वीप (88.4), मध्य प्रदेश (89.0) और हिमाचल प्रदेश (89.5) सबसे नीचे हैं। बेहतर स्रोत का अर्थ सुरक्षित पानी नहीं है।"
   }
 ]

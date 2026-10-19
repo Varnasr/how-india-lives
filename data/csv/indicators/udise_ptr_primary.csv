@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Andaman and Nicobar,9.0,pupils per teacher (classes 1-5),2024-25,11.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Andhra Pradesh,21.0,pupils per teacher (classes 1-5),2024-25,24.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Arunachal Pradesh,9.0,pupils per teacher (classes 1-5),2024-25,10.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Assam,19.0,pupils per teacher (classes 1-5),2024-25,20.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Bihar,26.0,pupils per teacher (classes 1-5),2024-25,43.0,2022-23,-17.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Chandigarh,22.0,pupils per teacher (classes 1-5),2024-25,27.0,2022-23,-5.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Chhattisgarh,18.0,pupils per teacher (classes 1-5),2024-25,19.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Dadra and Nagar Haveli and Daman and Diu,28.0,pupils per teacher (classes 1-5),2024-25,31.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Delhi,29.0,pupils per teacher (classes 1-5),2024-25,34.0,2022-23,-5.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Goa,23.0,pupils per teacher (classes 1-5),2024-25,25.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Gujarat,24.0,pupils per teacher (classes 1-5),2024-25,29.0,2022-23,-5.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Haryana,21.0,pupils per teacher (classes 1-5),2024-25,23.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Himachal Pradesh,13.0,pupils per teacher (classes 1-5),2024-25,15.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Jammu and Kashmir,12.0,pupils per teacher (classes 1-5),2024-25,13.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Jharkhand,26.0,pupils per teacher (classes 1-5),2024-25,27.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Karnataka,21.0,pupils per teacher (classes 1-5),2024-25,23.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Kerala,22.0,pupils per teacher (classes 1-5),2024-25,25.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Ladakh,5.0,pupils per teacher (classes 1-5),2024-25,6.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Lakshadweep,17.0,pupils per teacher (classes 1-5),2024-25,15.0,2022-23,2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Madhya Pradesh,16.0,pupils per teacher (classes 1-5),2024-25,19.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Maharashtra,24.0,pupils per teacher (classes 1-5),2024-25,24.0,2022-23,0.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Manipur,13.0,pupils per teacher (classes 1-5),2024-25,13.0,2022-23,0.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Meghalaya,18.0,pupils per teacher (classes 1-5),2024-25,18.0,2022-23,0.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Mizoram,12.0,pupils per teacher (classes 1-5),2024-25,15.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Nagaland,9.0,pupils per teacher (classes 1-5),2024-25,9.0,2022-23,0.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Odisha,16.0,pupils per teacher (classes 1-5),2024-25,17.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Puducherry,14.0,pupils per teacher (classes 1-5),2024-25,16.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Punjab,20.0,pupils per teacher (classes 1-5),2024-25,22.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Rajasthan,18.0,pupils per teacher (classes 1-5),2024-25,24.0,2022-23,-6.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Sikkim,6.0,pupils per teacher (classes 1-5),2024-25,6.0,2022-23,0.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Tamil Nadu,20.0,pupils per teacher (classes 1-5),2024-25,19.0,2022-23,1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Telangana,18.0,pupils per teacher (classes 1-5),2024-25,21.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Tripura,16.0,pupils per teacher (classes 1-5),2024-25,17.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Uttar Pradesh,20.0,pupils per teacher (classes 1-5),2024-25,23.0,2022-23,-3.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",Uttarakhand,15.0,pupils per teacher (classes 1-5),2024-25,17.0,2022-23,-2.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19
+udise_ptr_primary,"Pupil-Teacher Ratio, Primary Schools",West Bengal,21.0,pupils per teacher (classes 1-5),2024-25,22.0,2022-23,-1.0,,UDISE+ via MoSPI,https://mospi.gov.in/,2026-10-19

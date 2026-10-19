@@ -1,0 +1,30 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_women_overweight,Women who are overweight or obese,Andaman and Nicobar,44.5,%,2023-24,38.1,2019-21,6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Andhra Pradesh,47.9,%,2023-24,36.3,2019-21,11.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Arunachal Pradesh,29.3,%,2023-24,23.9,2019-21,5.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Assam,19.6,%,2023-24,15.2,2019-21,4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Bihar,19.8,%,2023-24,16.0,2019-21,3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Chandigarh,41.9,%,2023-24,44.0,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Chhattisgarh,20.3,%,2023-24,14.1,2019-21,6.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Dadra and Nagar Haveli and Daman and Diu,29.0,%,2023-24,26.9,2019-21,2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Goa,45.1,%,2023-24,36.1,2019-21,9.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Gujarat,32.1,%,2023-24,22.7,2019-21,9.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Haryana,37.3,%,2023-24,33.1,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Jammu and Kashmir,36.7,%,2023-24,29.4,2019-21,7.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Kerala,46.7,%,2023-24,38.2,2019-21,8.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Ladakh,22.8,%,2023-24,28.3,2019-21,-5.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Lakshadweep,50.1,%,2023-24,33.5,2019-21,16.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Madhya Pradesh,22.2,%,2023-24,16.6,2019-21,5.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Maharashtra,31.1,%,2023-24,23.5,2019-21,7.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Odisha,29.7,%,2023-24,23.0,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Puducherry,51.3,%,2023-24,46.3,2019-21,5.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Punjab,44.7,%,2023-24,40.8,2019-21,3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Rajasthan,20.3,%,2023-24,12.9,2019-21,7.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Sikkim,47.5,%,2023-24,34.8,2019-21,12.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Tamil Nadu,44.2,%,2023-24,40.5,2019-21,3.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Telangana,36.3,%,2023-24,30.1,2019-21,6.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Tripura,26.2,%,2023-24,21.6,2019-21,4.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Uttar Pradesh,26.7,%,2023-24,21.4,2019-21,5.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,Uttarakhand,34.3,%,2023-24,29.8,2019-21,4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,West Bengal,34.6,%,2023-24,22.7,2019-21,11.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_overweight,Women who are overweight or obese,India (national figure as published or computed),30.7,%,2023-24,24.0,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

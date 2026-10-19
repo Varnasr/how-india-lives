@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 20 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 90 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,19 +22,19 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 211 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 282 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 20 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 90 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-**The other six are generated, and that is the path a new sheet should take.**
+**The other 51 are generated (X206 to X256), and that is the path a new sheet should take.**
 `scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
 so the static map and the interactive map of the same indicator are drawing the
 same numbers and cannot disagree. X206 to X211 were made this way on
-2026-09-23. Before that there was no renderer here at all, and this file said
+2026-09-23, and X212 to X239 (NFHS-6, PLFS 2025 and UDISE+ 2024-25 sheets) and X240 to X244 (NCRB 2024, from Women on Record) on 2026-10-19. Before that there was no renderer here at all, and this file said
 in as many words that a static map could not be made from the repository.
 
 An interactive indicator is still the cheaper artefact, and a new figure should
@@ -43,6 +43,153 @@ now one line in `scripts/render/sheets.json` rather than a rendering job in
 another tool.
 
 `mapId` is the whole of the cross-link between the two views, in both directions.
+
+## NFHS-6 and PLFS 2025 came in October 2026, and how
+
+`data/nfhs6/states.json` holds the NFHS-6 (2023-24) state and UT totals, read
+from IIPS's fact-sheet compendium of May 2026 by `scripts/extract_nfhs6.py`.
+**Thirteen of that PDF's 36 sheets carry no text layer**, so
+`scripts/ocr_nfhs6.py` reads them as images first (`rapidocr-onnxruntime`).
+OCR can lose a row label or misread a digit, so the extract was held to three
+tests: the NFHS-5 column printed in each sheet matched MoSPI's NFHS-5 values on
+every spot check (stunting 17 of 18 sheets, the one miss a row absent in the
+source; institutional births and caesarean sections 10 of 10), every state's
+total sits between its urban and rural figures, and the largest changes were
+read against the page images. A figure the source prints as `*` or leaves blank
+is absent, never filled in. Manipur has no NFHS-6 sheet.
+
+`scripts/build_nfhs6_indicators.py` turns 25 of them into `n6_*` indicators
+with the NFHS-5 total beside each as `previous`, and the explorer's "Change
+since 2019-21" view reads that. `scripts/build_plfs_indicators.py` adds the two
+PLFS 2025 unemployment indicators from `data/mospi/plfs-2025.json`. Both are
+idempotent and have `--check`. `maps.json` carries `newer` on the 18 NFHS-5
+maps whose measure NFHS-6 repeats; the map page and the gallery card link to it.
+
+**NFHS-6 is not a drop-in for NFHS-5.** It reports 101 indicators against 131;
+anaemia and the mortality rates are not among them, so those static maps keep
+their NFHS-5 figures and say so. Some changes are large (Karnataka's spousal
+violence 44.4 to 14.1, Ladakh's 17.7 to 1.9) and are what the sheets print;
+quote them with the survey's own caution that NFHS-6 is provisional.
+
+## Crime figures come from Women on Record, and mean registrations
+
+`data/ncrb/crimes-against-women.json` holds NCRB's 2023 and 2024 state and UT
+figures for five headings (all crimes, rape, cruelty by husband or relatives,
+dowry deaths, acid attacks), pulled by `scripts/extract_ncrb_wor.py` from the
+Women on Record dataset, which reads Crime in India Volume 1 table 3A.2 and
+checks every row against NCRB's own totals. The source PDF's address and SHA-256
+sit beside each figure, with the Women on Record commit. `scripts/build_ncrb_indicators.py`
+(`--check` supported) turns them into the `ncrb_*` indicators; X240 to X244 are
+drawn from those.
+
+**These count crimes registered, not crimes committed.** A higher figure can mean
+more crime, easier reporting, or both, so `higherIsBetter` is null and the sheets
+say so. Do not rank states on them. Dowry deaths and acid attacks are derived
+from NCRB's case counts over its female population because the printed rate has
+one decimal; the derived value rounds to NCRB's printed rate in every state. A
+zero means none registered. Trafficking (Volume III Table 14.1, from ncrb.gov.in, not OpenCity whose 'Vol 3' is a copy of Volume II), honour killings,
+witchcraft murders and crimes against SCs come from `data/ncrb/crime-in-india-2024-other.json`,
+read by `scripts/extract_ncrb_other.py` from Volumes 1, II and III (SHA-256 pinned, totals
+checked) and turned into `ncrb_honour`, `ncrb_witchcraft`, `ncrb_sc_crimes` and `ncrb_trafficking` by
+`scripts/build_ncrb_other_indicators.py`; X249 to X251 and X262 are drawn from those.
+
+## Climate and court maps, and the two source faults found
+
+`data/climate/envstats.json` (MoSPI EnviStats) and `data/courts/lok-sabha-3501.json`
+(Lok Sabha Unstarred Question 3501, 13 March 2026, Annexures II and IV) feed
+`scripts/build_climate_indicators.py` and `scripts/build_court_indicators.py`
+(both `--check`), and X245 to X248. Each source had a fault that no check on the
+numbers alone would have caught:
+
+- **EnviStats labels the India total as "Puducherry"** in forest cover (715,342.61
+  sq km in ISFR 2023). It equals the sum of every other row, so Puducherry has no
+  figure and the row is never mapped. The 2023 minus 2021 total, +156.41 sq km, is
+  the increase ISFR 2023 reports. The merged Dadra and Nagar Haveli and Daman and
+  Diu also has two ambiguous rows and is left out.
+- **The court answer is a scan and Meghalaya's pendency row contradicts itself**
+  (4,917 + 4,917 is not 16,671). The national columns add up only with the printed
+  figures, so the error is in the source. Meghalaya is left off that map. The printed
+  national working-judges total (21,026) is 12 above what the state rows add to
+  (21,014); the rows are used. The pendency table is NJDG as on 9 March 2026 and the
+  judges table is Nyaya Vikas and undated, so cases per judge is a rough guide.
+
+Heat-wave days swing from 0 to 26 between years in one state, so the map uses the
+2022-24 mean for the 19 states with all three years.
+
+## State output from MoSPI National Accounts
+
+`scripts/fetch_mospi_nas.py` pulls per-head GSDP and state value added by industry (base 2011-12, current
+prices, 2022-23 and 2024-25) from `api.mospi.gov.in/api/nas/getNasData` into `data/mospi/nas-state.json`.
+`limit` above 100 returns 400. `scripts/build_nas_indicators.py` builds `gsdp_pc`, `gsva_agri`, `gsva_mfg`
+and `gsva_services` (X252 to X255); each state's twelve industry rows must add to its published total.
+Services exclude mining, electricity and construction. Nagaland and Ladakh have no 2024-25 figure. There is
+no all-India row in these series, so `national` is null. The API can be called directly from Python with
+`ctx.options |= 0x4`, which is faster than the MCP tool for many states.
+
+## School enrolment and PLFS contract series
+
+`scripts/fetch_mospi_udise.py` (`/api/udise/getUdiseRecords`, indicator 28) and `scripts/fetch_mospi_plfs.py`
+(`/api/plfs/getData`, indicator 5) commit their raw rows under `data/mospi/`; `build_udise_enrolment_indicators.py`
+and `build_plfs_contract_indicator.py` turn them into `udise_private_share` (X257) and `plfs_no_contract` (X258).
+UDISE management categories must add to the all-management total. PLFS annual data stops at 2023-24 on the agriculture-year series; indicator 4 (worker distribution) works for
+calendar year 2025 with `year_type_code=2` (industry_section_code 2 is agriculture; code 1 is 'All'), which
+builds `plfs_women_nonagri` (X261, MoSPI redesigned PLFS for 2025).
+
+## ENVSTATS cannot be bulk-fetched from here
+
+The ENVSTATS dataset has no REST path I could find (`getEnvstatsRecords` and 15 variants answer with the
+swagger page), and through the MCP tool a `sub_indicator` filter is ignored, so groundwater (indicator 71,
+2024) returns all 14 series for 36 states, 504 rows over 9 pages. Rainfall (indicator 3) has no state
+dimension at all. S08a, S08j and the solid-waste, river-quality and piped-water maps are therefore not
+rebuilt. If a REST path for ENVSTATS turns up, `fetch_mospi_*.py` is the pattern to copy; the groundwater
+measure to map is `Stage of Ground Water Development (%)` (sub-indicator 277), whose unit field says
+BCM/Yr in error.
+
+## Maps that cannot be updated carry a data note
+
+A static map from the 2011 Census, or from NFHS-5 where NFHS-6 does not repeat the measure, is not a backlog
+item. `data/maps.json` gives it a `data_note` saying why (the census is decennial and the next is planned for
+2027; NFHS-6 carries 101 indicators against 131 and omits this one), the map page prints it under the
+vintage line, and the index marks it "latest available". `check_data.py` fails if such a map has no note.
+S11j is flagged UNCERTAIN because its takeaway does not match NFHS-5's blood-sugar figures. Where NFHS-6 does
+repeat a measure the map gets a `newer` link instead (S12i, S03n, S04d, S04l and others).
+
+## Maps built from PDFs
+
+Each extractor takes the PDF as an argument, pins its SHA-256, checks the table against its own printed totals and
+writes a JSON under `data/`; a `build_*_indicator.py` turns that into the indicator and `extra_calcs.py` writes the
+calculation CSV. They share `scripts/indicator_io.py` (state-name map, `write_indicators`, `--check`). Source faults found:
+the Lok Sabha beds table's medical-college column is off by exactly Maharashtra's entry (Maharashtra left off), and that
+table numbers Uttarakhand 26 and Uttar Pradesh 27, the reverse of NCRB, which swapped two states' values until a
+sanity check on the extremes caught it. **Never map a state by serial number across two sources: check a name.**
+The NCRB-population denominators are 2024 projections, so a count from another year divided by them mixes years, and
+each such map says so.
+
+## ASER reading
+
+`scripts/extract_aser_reading.py` reads ASER 2024's state tables (government schools, rural, Std III and Std V reading at Std II level; SHA-256 pinned) into `data/aser/reading-2024.json`; `build_aser_reading_indicator.py` makes `aser_std5_read` (X272, replacing the old S07a). ASER's state tables are government-school only, and the map shows the share who *can* read, so the old 'cannot read' framing is 100 minus it.
+
+`scripts/extract_aser_enrolment.py` reads Table 1 of every state page (children not in school, ages 6-14 and 15-16) and `build_aser_enrolment_indicator.py` makes `aser_oos_6_14` (X273, replacing S07h).
+
+`scripts/extract_trai_internet.py` reads TRAI Table 1.43 (internet subscriptions per 100 by state, March 2026; sums checked to the printed totals) and `build_trai_internet_indicator.py` makes `trai_internet_per100` (X274, linked as `newer` from X168 and S01d). A subscription is not a person.
+
+`scripts/extract_tb_notification.py` reads India TB Report 2024 Tables 1.1 and 1.2 (notified TB patients and rate per lakh by state, 2023; totals and rates recomputed) and `build_tb_notification_indicator.py` makes `tb_notification_rate` (X275, linked from S03t). It is a notification rate, not the incidence S03t showed.
+
+`scripts/extract_rbi_remittances.py` reads Table 2 of the RBI Bulletin article on the sixth Remittances Survey from the saved HTML (shares by state, 2016-17, 2020-21, 2023-24; sum 100 and five text figures checked) and `build_rbi_remittances_indicator.py` makes `rbi_remit_share` (X276, linked from S10h). It is a share of the national total, not dependence.
+
+`scripts/fetch_mospi_ptr.py` pulls UDISE+ pupil-teacher ratios by level (indicator 23, all management) and `build_udise_ptr_indicator.py` makes `udise_ptr_primary` (X277, linked from S07i). It covers all schools, not government only, and Bihar's 43 to 26 between 2022-23 and 2024-25 may reflect a change of basis.
+
+`scripts/fetch_mospi_hces_cereals.py` pulls HCES cereal quantities and `build_hces_rice_indicators.py` makes `hces_rice_r` and `hces_rice_u` (X278 and X279; S01j links to X278). The API prints '-' for a negligible component, treated as 0 after the parts-add-to-total check.
+
+`scripts/extract_srs_mmr.py` and `extract_srs_life_tables.py` hold SRS tables (maternal mortality 2022-24, 19 states; life expectancy 2019-23, 22 states) read from a text extraction because censusindia.gov.in's certificate chain is incomplete and the PDFs cannot be downloaded here; Firecrawl with `parsers: [pdf]` and `pdfOptions.maxPages` reads them. They are checked internally, not pinned by SHA-256. Builders: `build_srs_mmr_indicator.py` (X280, from S03f) and `build_srs_life_indicator.py` (X281, from S03s).
+
+## CSV exports and the calculations behind the maps
+
+`scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
+`calculations/` for every derived one) and `data/CALCULATIONS.md` says in words how each figure is
+got. The export recomputes each derived value from the source files and stops if it differs from the
+indicator, so a calculation file cannot disagree with its map. CI runs it with `--check`. After any
+indicator change, run `python3 scripts/export_csv.py` and commit the result.
 
 ## Why the checks exist
 
@@ -146,7 +293,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 211 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 282 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.
@@ -154,7 +301,7 @@ substitutes for each other, and this repository is the argument for that.
   22 larger states; PLFS and the Census cover all 36. A state left grey has no
   published figure, not a low one, and the note under the map says so. Do not
   fill a gap by interpolation.
-- **Nine maps in `maps.json` are self-flagged `quality: "UNCERTAIN"`** and are
+- **Ten maps in `maps.json` are self-flagged `quality: "UNCERTAIN"`** and are
   published anyway. That is a live decision, not a bug, but check the flag before
   quoting a figure from one.
 - **The static maps run on old vintages**: 37 on NFHS-5 (2019-21) and 37 on

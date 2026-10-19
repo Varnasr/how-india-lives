@@ -1,0 +1,262 @@
+{
+ "source": "ORGI, SRS based Abridged Life Tables 2019-23, Statement 3 (as corrected by Corrigendum 15/09/2020-VS(SRS))",
+ "url": "https://censusindia.gov.in/nada/index.php/catalog/46175",
+ "retrieved": "2026-10-19",
+ "unit": "years",
+ "india": {
+  "total": 70.3,
+  "male": 68.5,
+  "female": 72.5,
+  "rural_total": 69.1,
+  "rural_male": 67.1,
+  "rural_female": 71.4,
+  "urban_total": 73.1,
+  "urban_male": 71.4,
+  "urban_female": 75.0
+ },
+ "note": "Jammu and Kashmir includes Ladakh. Statement 4 of the report prints different totals for some states; Statement 3 is used.",
+ "states": {
+  "Andhra Pradesh": {
+   "total": 70.7,
+   "male": 68.5,
+   "female": 73.3,
+   "rural_total": 69.8,
+   "rural_male": 67.4,
+   "rural_female": 72.5,
+   "urban_total": 72.8,
+   "urban_male": 71.0,
+   "urban_female": 74.9
+  },
+  "Assam": {
+   "total": 68.6,
+   "male": 66.9,
+   "female": 70.7,
+   "rural_total": 67.7,
+   "rural_male": 66.0,
+   "rural_female": 69.9,
+   "urban_total": 73.5,
+   "urban_male": 72.1,
+   "urban_female": 75.1
+  },
+  "Bihar": {
+   "total": 69.3,
+   "male": 68.9,
+   "female": 69.7,
+   "rural_total": 69.0,
+   "rural_male": 68.5,
+   "rural_female": 69.4,
+   "urban_total": 71.5,
+   "urban_male": 71.4,
+   "urban_female": 71.5
+  },
+  "Chhattisgarh": {
+   "total": 64.6,
+   "male": 62.4,
+   "female": 67.1,
+   "rural_total": 64.1,
+   "rural_male": 62.0,
+   "rural_female": 66.3,
+   "urban_total": 66.4,
+   "urban_male": 63.7,
+   "urban_female": 69.7
+  },
+  "Delhi": {
+   "total": 74.2,
+   "male": 72.3,
+   "female": 76.8,
+   "rural_total": 72.1,
+   "rural_male": 68.6,
+   "rural_female": 76.6,
+   "urban_total": 74.3,
+   "urban_male": 72.4,
+   "urban_female": 76.8
+  },
+  "Gujarat": {
+   "total": 70.4,
+   "male": 67.6,
+   "female": 73.9,
+   "rural_total": 68.6,
+   "rural_male": 65.2,
+   "rural_female": 72.9,
+   "urban_total": 72.7,
+   "urban_male": 70.6,
+   "urban_female": 75.2
+  },
+  "Haryana": {
+   "total": 68.8,
+   "male": 65.9,
+   "female": 72.2,
+   "rural_total": 67.9,
+   "rural_male": 64.8,
+   "rural_female": 71.8,
+   "urban_total": 70.1,
+   "urban_male": 67.8,
+   "urban_female": 72.9
+  },
+  "Himachal Pradesh": {
+   "total": 74.4,
+   "male": 71.0,
+   "female": 78.1,
+   "rural_total": 74.2,
+   "rural_male": 70.6,
+   "rural_female": 78.1,
+   "urban_total": 76.1,
+   "urban_male": 74.5,
+   "urban_female": 77.9
+  },
+  "Jammu and Kashmir": {
+   "total": 74.4,
+   "male": 73.4,
+   "female": 75.5,
+   "rural_total": 73.4,
+   "rural_male": 72.6,
+   "rural_female": 74.3,
+   "urban_total": 76.7,
+   "urban_male": 75.6,
+   "urban_female": 78.0
+  },
+  "Jharkhand": {
+   "total": 69.5,
+   "male": 68.7,
+   "female": 70.5,
+   "rural_total": 68.8,
+   "rural_male": 67.9,
+   "rural_female": 69.8,
+   "urban_total": 71.5,
+   "urban_male": 70.8,
+   "urban_female": 72.4
+  },
+  "Karnataka": {
+   "total": 70.0,
+   "male": 67.8,
+   "female": 72.4,
+   "rural_total": 68.5,
+   "rural_male": 65.5,
+   "rural_female": 71.8,
+   "urban_total": 72.6,
+   "urban_male": 71.9,
+   "urban_female": 73.4
+  },
+  "Kerala": {
+   "total": 75.1,
+   "male": 71.9,
+   "female": 78.4,
+   "rural_total": 75.7,
+   "rural_male": 72.5,
+   "rural_female": 78.9,
+   "urban_total": 74.6,
+   "urban_male": 71.4,
+   "urban_female": 77.8
+  },
+  "Madhya Pradesh": {
+   "total": 67.6,
+   "male": 65.4,
+   "female": 70.3,
+   "rural_total": 66.8,
+   "rural_male": 64.5,
+   "rural_female": 69.4,
+   "urban_total": 70.5,
+   "urban_male": 68.2,
+   "urban_female": 73.0
+  },
+  "Maharashtra": {
+   "total": 72.8,
+   "male": 70.7,
+   "female": 75.2,
+   "rural_total": 71.3,
+   "rural_male": 68.9,
+   "rural_female": 74.0,
+   "urban_total": 75.0,
+   "urban_male": 73.3,
+   "urban_female": 77.0
+  },
+  "Odisha": {
+   "total": 70.5,
+   "male": 69.4,
+   "female": 71.8,
+   "rural_total": 70.2,
+   "rural_male": 69.1,
+   "rural_female": 71.5,
+   "urban_total": 72.1,
+   "urban_male": 70.7,
+   "urban_female": 73.5
+  },
+  "Punjab": {
+   "total": 70.8,
+   "male": 68.8,
+   "female": 73.1,
+   "rural_total": 69.2,
+   "rural_male": 66.9,
+   "rural_female": 72.0,
+   "urban_total": 73.2,
+   "urban_male": 72.0,
+   "urban_female": 74.7
+  },
+  "Rajasthan": {
+   "total": 70.4,
+   "male": 67.8,
+   "female": 73.3,
+   "rural_total": 69.7,
+   "rural_male": 67.0,
+   "rural_female": 72.7,
+   "urban_total": 72.7,
+   "urban_male": 70.3,
+   "urban_female": 75.5
+  },
+  "Tamil Nadu": {
+   "total": 73.4,
+   "male": 71.4,
+   "female": 75.6,
+   "rural_total": 70.3,
+   "rural_male": 67.8,
+   "rural_female": 73.1,
+   "urban_total": 76.3,
+   "urban_male": 74.8,
+   "urban_female": 77.9
+  },
+  "Telangana": {
+   "total": 70.8,
+   "male": 68.6,
+   "female": 73.2,
+   "rural_total": 69.8,
+   "rural_male": 67.0,
+   "rural_female": 72.9,
+   "urban_total": 71.9,
+   "urban_male": 70.7,
+   "urban_female": 73.5
+  },
+  "Uttar Pradesh": {
+   "total": 68.0,
+   "male": 66.5,
+   "female": 69.8,
+   "rural_total": 67.4,
+   "rural_male": 65.8,
+   "rural_female": 69.3,
+   "urban_total": 70.1,
+   "urban_male": 68.7,
+   "urban_female": 71.6
+  },
+  "Uttarakhand": {
+   "total": 71.3,
+   "male": 68.1,
+   "female": 74.8,
+   "rural_total": 71.4,
+   "rural_male": 67.8,
+   "rural_female": 75.3,
+   "urban_total": 71.0,
+   "urban_male": 68.8,
+   "urban_female": 73.4
+  },
+  "West Bengal": {
+   "total": 72.5,
+   "male": 71.1,
+   "female": 74.0,
+   "rural_total": 71.4,
+   "rural_male": 69.9,
+   "rural_female": 73.1,
+   "urban_total": 74.8,
+   "urban_male": 73.5,
+   "urban_female": 76.3
+  }
+ }
+}

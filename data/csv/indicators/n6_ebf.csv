@@ -1,0 +1,30 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_ebf,Exclusive breastfeeding under 6 months,Andhra Pradesh,69.5,%,2023-24,68.0,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Arunachal Pradesh,50.5,%,2023-24,63.4,2019-21,-12.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Assam,54.3,%,2023-24,63.6,2019-21,-9.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Bihar,62.5,%,2023-24,58.9,2019-21,3.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Chhattisgarh,75.8,%,2023-24,80.3,2019-21,-4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Dadra and Nagar Haveli and Daman and Diu,64.1,%,2023-24,79.4,2019-21,-15.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Delhi,48.3,%,2023-24,64.3,2019-21,-16.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Gujarat,71.4,%,2023-24,65.0,2019-21,6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Haryana,41.2,%,2023-24,69.5,2019-21,-28.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Himachal Pradesh,60.8,%,2023-24,69.9,2019-21,-9.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Jammu and Kashmir,59.2,%,2023-24,62.0,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Jharkhand,63.8,%,2023-24,76.1,2019-21,-12.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Karnataka,61.6,%,2023-24,61.0,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Kerala,72.7,%,2023-24,55.5,2019-21,17.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Madhya Pradesh,56.4,%,2023-24,74.0,2019-21,-17.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Maharashtra,64.7,%,2023-24,71.0,2019-21,-6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Meghalaya,46.8,%,2023-24,42.7,2019-21,4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Mizoram,64.9,%,2023-24,67.9,2019-21,-3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Nagaland,37.4,%,2023-24,43.2,2019-21,-5.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Odisha,66.7,%,2023-24,72.9,2019-21,-6.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Puducherry,73.1,%,2023-24,64.8,2019-21,8.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Punjab,51.0,%,2023-24,55.5,2019-21,-4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Rajasthan,54.3,%,2023-24,70.4,2019-21,-16.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Tamil Nadu,55.6,%,2023-24,55.1,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Telangana,64.8,%,2023-24,68.2,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Uttar Pradesh,34.6,%,2023-24,59.7,2019-21,-25.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,Uttarakhand,40.8,%,2023-24,52.5,2019-21,-11.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,West Bengal,58.4,%,2023-24,53.3,2019-21,5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_ebf,Exclusive breastfeeding under 6 months,India (national figure as published or computed),55.8,%,2023-24,63.7,2019-21,-7.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

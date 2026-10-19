@@ -29,7 +29,7 @@ CORE_KEYS = {
     'higherIsBetter', 'national', 'sourceUrl', 'values',
     'name_hi', 'desc_hi', 'unit_hi',
 }
-OPTIONAL_KEYS = {'mapId', 'retrieved'}
+OPTIONAL_KEYS = {'mapId', 'retrieved', 'previous', 'previousYear', 'nationalPrevious', 'fewCases'}
 
 errors = []
 checks = 0
@@ -151,6 +151,18 @@ def main():
             check('%s national figure sits inside its state range' % iid,
                   lo <= nat <= hi, '%s outside [%s, %s]' % (nat, lo, hi))
 
+        if 'previous' in ind:
+            prev = ind['previous']
+            check('%s previous is keyed to geojson states' % iid,
+                  isinstance(prev, dict) and not (set(prev) - states), 'unmatched: %s' % sorted(set(prev) - states))
+            check('%s previous holds only finite numbers' % iid,
+                  all(isinstance(v, (int, float)) and not isinstance(v, bool) and v == v for v in prev.values()),
+                  'non-numeric value')
+            check('%s names the year of its previous round' % iid, bool(ind.get('previousYear')), 'previousYear absent')
+        if 'fewCases' in ind:
+            check('%s fewCases names only states it has a value for' % iid,
+                  set(ind['fewCases']) <= set(values), 'names %s' % sorted(set(ind['fewCases']) - set(values)))
+
         check('%s sourceUrl is a URL' % iid,
               str(ind.get('sourceUrl', '')).startswith('http'),
               '%r' % (ind.get('sourceUrl'),))
@@ -223,6 +235,21 @@ def main():
         check('indicator %s links back to sheet %s' % (sh['indicator'], sh['id']),
               ind.get('mapId') == sh['id'],
               'mapId is %r' % ind.get('mapId'))
+
+    # ------------------------------------------------- vintage notes
+    #
+    # A map from the 2011 Census or NFHS-5 that has no newer figure in the atlas
+    # must say why. Without a note it reads as a map nobody got round to
+    # updating, when the honest reason is that the source has not been collected
+    # again or does not repeat the measure.
+    generated = {sh['id'] for sh in sheets}
+    for m in maps:
+        if m['id'] in generated:
+            continue
+        old = m.get('source') == 'Census 2011' or 'NFHS' in m.get('source', '')
+        if old and not m.get('newer'):
+            check('map %s carries a data note saying why it has not been updated' % m['id'],
+                  len(m.get('data_note', '')) >= 40, 'add data_note to data/maps.json')
 
     # ---------------------------------------------------------------- report
     if errors:

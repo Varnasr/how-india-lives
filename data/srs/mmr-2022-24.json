@@ -1,0 +1,156 @@
+{
+ "source": "ORGI, SRS Special Bulletin on Maternal Mortality in India 2022-24, Table 1",
+ "url": "https://censusindia.gov.in/nada/index.php/catalog/47151",
+ "retrieved": "2026-10-19",
+ "unit": "maternal deaths per 100,000 live births",
+ "india": {
+  "mmr": 87,
+  "ci_low": 78,
+  "ci_high": 95,
+  "mortality_rate": 5,
+  "lifetime_risk": "0.18%"
+ },
+ "other_states_pooled": {
+  "mmr": 84,
+  "ci_low": 62,
+  "ci_high": 107,
+  "mortality_rate": 4,
+  "lifetime_risk": "0.14%"
+ },
+ "previous_india_2021_23": 88,
+ "states": {
+  "Assam": {
+   "mmr": 84,
+   "ci_low": 35,
+   "ci_high": 134,
+   "mortality_rate": 5,
+   "lifetime_risk": "0.17%"
+  },
+  "Bihar": {
+   "mmr": 96,
+   "ci_low": 62,
+   "ci_high": 130,
+   "mortality_rate": 9,
+   "lifetime_risk": "0.32%"
+  },
+  "Jharkhand": {
+   "mmr": 82,
+   "ci_low": 29,
+   "ci_high": 136,
+   "mortality_rate": 6,
+   "lifetime_risk": "0.20%"
+  },
+  "Madhya Pradesh": {
+   "mmr": 135,
+   "ci_low": 93,
+   "ci_high": 176,
+   "mortality_rate": 11,
+   "lifetime_risk": "0.38%"
+  },
+  "Chhattisgarh": {
+   "mmr": 124,
+   "ci_low": 48,
+   "ci_high": 199,
+   "mortality_rate": 9,
+   "lifetime_risk": "0.31%"
+  },
+  "Odisha": {
+   "mmr": 124,
+   "ci_low": 74,
+   "ci_high": 175,
+   "mortality_rate": 7,
+   "lifetime_risk": "0.24%"
+  },
+  "Rajasthan": {
+   "mmr": 87,
+   "ci_low": 51,
+   "ci_high": 124,
+   "mortality_rate": 7,
+   "lifetime_risk": "0.25%"
+  },
+  "Uttar Pradesh": {
+   "mmr": 154,
+   "ci_low": 115,
+   "ci_high": 192,
+   "mortality_rate": 13,
+   "lifetime_risk": "0.44%"
+  },
+  "Uttarakhand": {
+   "mmr": 99,
+   "ci_low": 52,
+   "ci_high": 146,
+   "mortality_rate": 6,
+   "lifetime_risk": "0.21%"
+  },
+  "Andhra Pradesh": {
+   "mmr": 39,
+   "ci_low": 9,
+   "ci_high": 69,
+   "mortality_rate": 2,
+   "lifetime_risk": "0.07%"
+  },
+  "Telangana": {
+   "mmr": 48,
+   "ci_low": 8,
+   "ci_high": 89,
+   "mortality_rate": 3,
+   "lifetime_risk": "0.09%"
+  },
+  "Karnataka": {
+   "mmr": 73,
+   "ci_low": 37,
+   "ci_high": 108,
+   "mortality_rate": 3,
+   "lifetime_risk": "0.12%"
+  },
+  "Kerala": {
+   "mmr": 24,
+   "ci_low": 0,
+   "ci_high": 50,
+   "mortality_rate": 1,
+   "lifetime_risk": "0.04%"
+  },
+  "Tamil Nadu": {
+   "mmr": 25,
+   "ci_low": 3,
+   "ci_high": 46,
+   "mortality_rate": 1,
+   "lifetime_risk": "0.04%"
+  },
+  "Gujarat": {
+   "mmr": 64,
+   "ci_low": 33,
+   "ci_high": 95,
+   "mortality_rate": 4,
+   "lifetime_risk": "0.14%"
+  },
+  "Haryana": {
+   "mmr": 94,
+   "ci_low": 47,
+   "ci_high": 141,
+   "mortality_rate": 6,
+   "lifetime_risk": "0.22%"
+  },
+  "Maharashtra": {
+   "mmr": 37,
+   "ci_low": 14,
+   "ci_high": 61,
+   "mortality_rate": 2,
+   "lifetime_risk": "0.07%"
+  },
+  "Punjab": {
+   "mmr": 77,
+   "ci_low": 23,
+   "ci_high": 132,
+   "mortality_rate": 4,
+   "lifetime_risk": "0.13%"
+  },
+  "West Bengal": {
+   "mmr": 94,
+   "ci_low": 56,
+   "ci_high": 132,
+   "mortality_rate": 4,
+   "lifetime_risk": "0.15%"
+  }
+ }
+}

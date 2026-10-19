@@ -1,0 +1,38 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+gini_r,Rural Consumption Inequality,Andaman and Nicobar,0.265,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Andhra Pradesh,0.196,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Arunachal Pradesh,0.232,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Assam,0.183,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Bihar,0.191,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Chandigarh,0.181,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Chhattisgarh,0.211,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Dadra and Nagar Haveli and Daman and Diu,0.215,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Delhi,0.205,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Goa,0.19,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Gujarat,0.21,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Haryana,0.187,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Himachal Pradesh,0.226,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Jammu and Kashmir,0.22,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Jharkhand,0.22,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Karnataka,0.227,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Kerala,0.255,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Ladakh,0.238,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Lakshadweep,0.249,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Madhya Pradesh,0.208,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Maharashtra,0.229,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Manipur,0.181,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Meghalaya,0.189,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Mizoram,0.22,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Nagaland,0.203,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Odisha,0.221,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Puducherry,0.162,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Punjab,0.19,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Rajasthan,0.241,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Sikkim,0.249,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Tamil Nadu,0.21,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Telangana,0.164,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Tripura,0.187,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Uttar Pradesh,0.191,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,Uttarakhand,0.218,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,West Bengal,0.196,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+gini_r,Rural Consumption Inequality,India (national figure as published or computed),0.237,"Gini, 0 to 1",2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23

@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_tobacco_w,Women who use tobacco,Andaman and Nicobar,26.6,%,2023-24,31.2,2019-21,-4.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Andhra Pradesh,3.8,%,2023-24,3.9,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Arunachal Pradesh,19.1,%,2023-24,18.8,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Assam,16.5,%,2023-24,22.2,2019-21,-5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Bihar,4.0,%,2023-24,5.0,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Chandigarh,0.5,%,2023-24,0.6,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Chhattisgarh,18.7,%,2023-24,17.3,2019-21,1.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Dadra and Nagar Haveli and Daman and Diu,1.9,%,2023-24,2.9,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Delhi,1.7,%,2023-24,2.2,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Goa,3.1,%,2023-24,2.6,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Gujarat,7.0,%,2023-24,8.7,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Haryana,2.2,%,2023-24,2.6,2019-21,-0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Himachal Pradesh,1.9,%,2023-24,1.7,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Jammu and Kashmir,3.1,%,2023-24,3.6,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Jharkhand,7.5,%,2023-24,8.4,2019-21,-0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Karnataka,6.4,%,2023-24,8.6,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Kerala,2.2,%,2023-24,2.2,2019-21,0.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Ladakh,0.7,%,2023-24,3.2,2019-21,-2.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Lakshadweep,15.8,%,2023-24,17.5,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Madhya Pradesh,11.6,%,2023-24,10.3,2019-21,1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Maharashtra,8.8,%,2023-24,11.0,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Meghalaya,34.6,%,2023-24,28.3,2019-21,6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Mizoram,61.0,%,2023-24,61.7,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Nagaland,17.4,%,2023-24,13.7,2019-21,3.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Odisha,22.8,%,2023-24,26.1,2019-21,-3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Puducherry,4.1,%,2023-24,2.6,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Punjab,0.5,%,2023-24,0.4,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Rajasthan,6.9,%,2023-24,6.9,2019-21,0.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Sikkim,13.1,%,2023-24,11.6,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Tamil Nadu,4.8,%,2023-24,4.9,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Telangana,5.9,%,2023-24,5.6,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Tripura,47.7,%,2023-24,50.5,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Uttar Pradesh,9.6,%,2023-24,8.5,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,Uttarakhand,4.3,%,2023-24,4.6,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,West Bengal,11.2,%,2023-24,10.8,2019-21,0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_w,Women who use tobacco,India (national figure as published or computed),8.4,%,2023-24,8.9,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

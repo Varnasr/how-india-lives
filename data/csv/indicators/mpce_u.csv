@@ -1,0 +1,38 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+mpce_u,Urban Consumption per Person,Andaman and Nicobar,10453,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Andhra Pradesh,7182,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Arunachal Pradesh,9832,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Assam,6794,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Bihar,5080,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Chandigarh,13425,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Chhattisgarh,4927,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Dadra and Nagar Haveli and Daman and Diu,6837,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Delhi,8534,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Goa,9726,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Gujarat,7175,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Haryana,8427,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Himachal Pradesh,9223,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Jammu and Kashmir,6327,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Jharkhand,5393,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Karnataka,8076,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Kerala,7783,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Ladakh,7533,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Lakshadweep,6377,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Madhya Pradesh,5538,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Maharashtra,7363,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Manipur,5945,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Meghalaya,7839,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Mizoram,8709,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Nagaland,8022,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Odisha,5825,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Puducherry,8637,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Punjab,7359,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Rajasthan,6574,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Sikkim,13927,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Tamil Nadu,8165,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Telangana,8978,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Tripura,8034,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Uttar Pradesh,5395,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,Uttarakhand,7486,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,West Bengal,5775,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23
+mpce_u,Urban Consumption per Person,India (national figure as published or computed),6996,₹ per person per month,2023-24,,,,,HCES 2023-24 (MoSPI),https://www.mospi.gov.in/publication/household-consumption-expenditure-survey,2026-09-23

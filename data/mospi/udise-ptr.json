@@ -1,0 +1,1734 @@
+{
+ "source": "MoSPI open data API, dataset UDISE, indicator 23 (Pupil Teacher Ratio by level of education)",
+ "retrieved": "2026-10-19",
+ "rows": [
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Primary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Upper Primary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Secondary",
+   "value": "7"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Higher Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Primary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "31"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Primary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "8"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "level_of_education": "Primary",
+   "value": "20"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "level_of_education": "Higher Secondary",
+   "value": "18"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "level_of_education": "Primary",
+   "value": "43"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "level_of_education": "Upper Primary",
+   "value": "21"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "level_of_education": "Secondary",
+   "value": "54"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "level_of_education": "Higher Secondary",
+   "value": "52"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "level_of_education": "Primary",
+   "value": "27"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "level_of_education": "Upper Primary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "level_of_education": "Higher Secondary",
+   "value": "28"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "level_of_education": "Primary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "level_of_education": "Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "level_of_education": "Higher Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Primary",
+   "value": "31"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Upper Primary",
+   "value": "27"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Secondary",
+   "value": "21"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Higher Secondary",
+   "value": "23"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "level_of_education": "Primary",
+   "value": "34"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "level_of_education": "Upper Primary",
+   "value": "31"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "level_of_education": "Secondary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "level_of_education": "Higher Secondary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "level_of_education": "Primary",
+   "value": "25"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "level_of_education": "Higher Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "level_of_education": "Primary",
+   "value": "29"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "level_of_education": "Upper Primary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "level_of_education": "Secondary",
+   "value": "26"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "level_of_education": "Higher Secondary",
+   "value": "27"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "level_of_education": "Primary",
+   "value": "23"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "level_of_education": "Upper Primary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "level_of_education": "Higher Secondary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Primary",
+   "value": "15"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "8"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Secondary",
+   "value": "6"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Upper Primary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Higher Secondary",
+   "value": "25"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "level_of_education": "Primary",
+   "value": "27"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "level_of_education": "Upper Primary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "level_of_education": "Secondary",
+   "value": "30"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "level_of_education": "Higher Secondary",
+   "value": "46"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "level_of_education": "Primary",
+   "value": "23"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "level_of_education": "Secondary",
+   "value": "18"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "level_of_education": "Higher Secondary",
+   "value": "32"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "level_of_education": "Primary",
+   "value": "25"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "level_of_education": "Upper Primary",
+   "value": "20"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "level_of_education": "Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "level_of_education": "Higher Secondary",
+   "value": "21"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "level_of_education": "Primary",
+   "value": "6"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "level_of_education": "Upper Primary",
+   "value": "4"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "level_of_education": "Secondary",
+   "value": "5"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "level_of_education": "Higher Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "level_of_education": "Primary",
+   "value": "15"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "level_of_education": "Secondary",
+   "value": "5"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "level_of_education": "Higher Secondary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Primary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "18"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Secondary",
+   "value": "20"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "23"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "level_of_education": "Primary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "level_of_education": "Upper Primary",
+   "value": "25"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "level_of_education": "Secondary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "level_of_education": "Higher Secondary",
+   "value": "36"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "level_of_education": "Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "level_of_education": "Upper Primary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "level_of_education": "Primary",
+   "value": "18"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "level_of_education": "Higher Secondary",
+   "value": "18"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "level_of_education": "Primary",
+   "value": "15"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "level_of_education": "Upper Primary",
+   "value": "7"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "level_of_education": "Higher Secondary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "level_of_education": "Primary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "level_of_education": "Upper Primary",
+   "value": "7"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "level_of_education": "Higher Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "level_of_education": "Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "level_of_education": "Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "level_of_education": "Higher Secondary",
+   "value": "39"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "level_of_education": "Primary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "level_of_education": "Primary",
+   "value": "22"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "level_of_education": "Higher Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "level_of_education": "Primary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "level_of_education": "Higher Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "level_of_education": "Primary",
+   "value": "6"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "level_of_education": "Upper Primary",
+   "value": "7"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "level_of_education": "Secondary",
+   "value": "6"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "level_of_education": "Higher Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "level_of_education": "Primary",
+   "value": "19"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "level_of_education": "Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "level_of_education": "Higher Secondary",
+   "value": "24"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "level_of_education": "Primary",
+   "value": "21"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "level_of_education": "Higher Secondary",
+   "value": "31"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "level_of_education": "Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "level_of_education": "Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "level_of_education": "Primary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "level_of_education": "Higher Secondary",
+   "value": "15"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Primary",
+   "value": "23"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "22"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Secondary",
+   "value": "26"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "35"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "level_of_education": "Primary",
+   "value": "22"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "level_of_education": "Upper Primary",
+   "value": "27"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "level_of_education": "Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "level_of_education": "Higher Secondary",
+   "value": "30"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Primary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Upper Primary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Secondary",
+   "value": "6"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "level_of_education": "Higher Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Primary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "30"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Primary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "7"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "level_of_education": "Primary",
+   "value": "19"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "level_of_education": "Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "level_of_education": "Higher Secondary",
+   "value": "19"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "level_of_education": "Primary",
+   "value": "26"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "level_of_education": "Upper Primary",
+   "value": "19"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "level_of_education": "Secondary",
+   "value": "26"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "level_of_education": "Higher Secondary",
+   "value": "27"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "level_of_education": "Primary",
+   "value": "22"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "level_of_education": "Higher Secondary",
+   "value": "23"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "level_of_education": "Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "level_of_education": "Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "level_of_education": "Higher Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Primary",
+   "value": "28"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Upper Primary",
+   "value": "26"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Secondary",
+   "value": "19"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "level_of_education": "Higher Secondary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "level_of_education": "Primary",
+   "value": "29"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "level_of_education": "Upper Primary",
+   "value": "28"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "level_of_education": "Secondary",
+   "value": "17"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "level_of_education": "Higher Secondary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "level_of_education": "Primary",
+   "value": "23"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "level_of_education": "Primary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "level_of_education": "Upper Primary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "level_of_education": "Secondary",
+   "value": "27"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "level_of_education": "Higher Secondary",
+   "value": "25"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "level_of_education": "Primary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "level_of_education": "Higher Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Primary",
+   "value": "13"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Secondary",
+   "value": "6"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Upper Primary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "level_of_education": "Higher Secondary",
+   "value": "22"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "level_of_education": "Primary",
+   "value": "26"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "level_of_education": "Upper Primary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "level_of_education": "Secondary",
+   "value": "30"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "level_of_education": "Higher Secondary",
+   "value": "47"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "level_of_education": "Primary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "level_of_education": "Upper Primary",
+   "value": "17"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "level_of_education": "Secondary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "level_of_education": "Higher Secondary",
+   "value": "28"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "level_of_education": "Primary",
+   "value": "22"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "level_of_education": "Upper Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "level_of_education": "Secondary",
+   "value": "13"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "level_of_education": "Higher Secondary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "level_of_education": "Primary",
+   "value": "5"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "level_of_education": "Upper Primary",
+   "value": "3"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "level_of_education": "Secondary",
+   "value": "5"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "level_of_education": "Higher Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "level_of_education": "Primary",
+   "value": "17"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "level_of_education": "Higher Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Primary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "level_of_education": "Primary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "level_of_education": "Upper Primary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "level_of_education": "Secondary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "level_of_education": "Higher Secondary",
+   "value": "37"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "level_of_education": "Primary",
+   "value": "13"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "level_of_education": "Upper Primary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "level_of_education": "Higher Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "level_of_education": "Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "level_of_education": "Upper Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "level_of_education": "Higher Secondary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "level_of_education": "Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "level_of_education": "Upper Primary",
+   "value": "6"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "level_of_education": "Higher Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "level_of_education": "Primary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "level_of_education": "Upper Primary",
+   "value": "7"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "level_of_education": "Secondary",
+   "value": "8"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "level_of_education": "Primary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "level_of_education": "Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "level_of_education": "Higher Secondary",
+   "value": "37"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "level_of_education": "Primary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "level_of_education": "Upper Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "level_of_education": "Higher Secondary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "level_of_education": "Primary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "level_of_education": "Higher Secondary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "level_of_education": "Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "level_of_education": "Upper Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "level_of_education": "Higher Secondary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "level_of_education": "Primary",
+   "value": "6"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "level_of_education": "Upper Primary",
+   "value": "6"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "level_of_education": "Secondary",
+   "value": "5"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "level_of_education": "Higher Secondary",
+   "value": "7"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "level_of_education": "Primary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "level_of_education": "Upper Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "level_of_education": "Secondary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "level_of_education": "Higher Secondary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "level_of_education": "Primary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "level_of_education": "Upper Primary",
+   "value": "12"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "level_of_education": "Secondary",
+   "value": "9"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "level_of_education": "Higher Secondary",
+   "value": "24"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "level_of_education": "Primary",
+   "value": "16"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "level_of_education": "Upper Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "level_of_education": "Secondary",
+   "value": "11"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "level_of_education": "Higher Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "level_of_education": "Primary",
+   "value": "15"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "level_of_education": "Upper Primary",
+   "value": "13"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "level_of_education": "Secondary",
+   "value": "10"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "level_of_education": "Higher Secondary",
+   "value": "14"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Primary",
+   "value": "20"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Upper Primary",
+   "value": "22"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Secondary",
+   "value": "22"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "level_of_education": "Higher Secondary",
+   "value": "35"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "level_of_education": "Primary",
+   "value": "21"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "level_of_education": "Upper Primary",
+   "value": "27"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "level_of_education": "Secondary",
+   "value": "18"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "level_of_education": "Higher Secondary",
+   "value": "21"
+  }
+ ]
+}

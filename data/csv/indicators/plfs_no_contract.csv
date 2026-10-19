@@ -1,0 +1,38 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+plfs_no_contract,Regular Employees with No Written Contract,Andaman and Nicobar,42.0,% of regular wage and salaried employees,2023-24,42.3,2022-23,-0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Andhra Pradesh,60.5,% of regular wage and salaried employees,2023-24,60.1,2022-23,0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Arunachal Pradesh,10.0,% of regular wage and salaried employees,2023-24,10.7,2022-23,-0.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Assam,45.5,% of regular wage and salaried employees,2023-24,47.0,2022-23,-1.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Bihar,63.9,% of regular wage and salaried employees,2023-24,53.8,2022-23,10.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Chandigarh,32.1,% of regular wage and salaried employees,2023-24,40.7,2022-23,-8.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Chhattisgarh,67.6,% of regular wage and salaried employees,2023-24,68.9,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Dadra and Nagar Haveli and Daman and Diu,58.0,% of regular wage and salaried employees,2023-24,70.1,2022-23,-12.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Delhi,60.3,% of regular wage and salaried employees,2023-24,66.7,2022-23,-6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Goa,25.2,% of regular wage and salaried employees,2023-24,20.7,2022-23,4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Gujarat,71.9,% of regular wage and salaried employees,2023-24,74.0,2022-23,-2.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Haryana,59.3,% of regular wage and salaried employees,2023-24,64.2,2022-23,-4.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Himachal Pradesh,42.3,% of regular wage and salaried employees,2023-24,38.6,2022-23,3.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Jammu and Kashmir,43.0,% of regular wage and salaried employees,2023-24,46.9,2022-23,-3.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Jharkhand,51.7,% of regular wage and salaried employees,2023-24,53.9,2022-23,-2.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Karnataka,35.4,% of regular wage and salaried employees,2023-24,40.9,2022-23,-5.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Kerala,51.5,% of regular wage and salaried employees,2023-24,52.8,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Ladakh,21.9,% of regular wage and salaried employees,2023-24,25.4,2022-23,-3.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Lakshadweep,20.8,% of regular wage and salaried employees,2023-24,9.4,2022-23,11.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Madhya Pradesh,54.1,% of regular wage and salaried employees,2023-24,55.3,2022-23,-1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Maharashtra,64.0,% of regular wage and salaried employees,2023-24,62.9,2022-23,1.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Manipur,24.7,% of regular wage and salaried employees,2023-24,22.9,2022-23,1.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Meghalaya,30.2,% of regular wage and salaried employees,2023-24,35.4,2022-23,-5.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Mizoram,11.4,% of regular wage and salaried employees,2023-24,10.2,2022-23,1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Nagaland,12.5,% of regular wage and salaried employees,2023-24,19.4,2022-23,-6.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Odisha,48.0,% of regular wage and salaried employees,2023-24,47.7,2022-23,0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Puducherry,50.1,% of regular wage and salaried employees,2023-24,54.6,2022-23,-4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Punjab,84.5,% of regular wage and salaried employees,2023-24,81.7,2022-23,2.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Rajasthan,77.1,% of regular wage and salaried employees,2023-24,73.7,2022-23,3.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Sikkim,21.7,% of regular wage and salaried employees,2023-24,30.2,2022-23,-8.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Tamil Nadu,50.4,% of regular wage and salaried employees,2023-24,52.7,2022-23,-2.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Telangana,47.2,% of regular wage and salaried employees,2023-24,40.8,2022-23,6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Tripura,42.6,% of regular wage and salaried employees,2023-24,46.9,2022-23,-4.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Uttar Pradesh,60.0,% of regular wage and salaried employees,2023-24,63.1,2022-23,-3.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Uttarakhand,48.3,% of regular wage and salaried employees,2023-24,48.7,2022-23,-0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,West Bengal,57.3,% of regular wage and salaried employees,2023-24,58.7,2022-23,-1.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,India (national figure as published or computed),58.0,% of regular wage and salaried employees,2023-24,58.6,2022-23,-0.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19

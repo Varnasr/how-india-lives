@@ -1,0 +1,162 @@
+{
+ "source": "ADR and National Election Watch, Women's Political Participation and Representation in India 2026 (as on 2 February 2026)",
+ "url": "https://adrindia.org/sites/default/files/Womens_Political_Participation_and_Representation_in_India_2026_Eng.pdf",
+ "sha256": "dfc7d3b7d8c5f57ac993cb302ddd1f056911576022e8760d9f468c47f3d81b01",
+ "states": {
+  "Andhra Pradesh": {
+   "election_year": 2024,
+   "seats_analysed": 175,
+   "women": 22
+  },
+  "Arunachal Pradesh": {
+   "election_year": 2024,
+   "seats_analysed": 60,
+   "women": 4
+  },
+  "Assam": {
+   "election_year": 2021,
+   "seats_analysed": 126,
+   "women": 6
+  },
+  "Bihar": {
+   "election_year": 2025,
+   "seats_analysed": 243,
+   "women": 29
+  },
+  "Chhattisgarh": {
+   "election_year": 2023,
+   "seats_analysed": 90,
+   "women": 19
+  },
+  "Delhi": {
+   "election_year": 2025,
+   "seats_analysed": 70,
+   "women": 5
+  },
+  "Goa": {
+   "election_year": 2022,
+   "seats_analysed": 40,
+   "women": 3
+  },
+  "Gujarat": {
+   "election_year": 2022,
+   "seats_analysed": 182,
+   "women": 15
+  },
+  "Haryana": {
+   "election_year": 2024,
+   "seats_analysed": 90,
+   "women": 13
+  },
+  "Himachal Pradesh": {
+   "election_year": 2022,
+   "seats_analysed": 68,
+   "women": 1
+  },
+  "Jammu and Kashmir": {
+   "election_year": 2024,
+   "seats_analysed": 90,
+   "women": 3
+  },
+  "Jharkhand": {
+   "election_year": 2024,
+   "seats_analysed": 81,
+   "women": 12
+  },
+  "Karnataka": {
+   "election_year": 2023,
+   "seats_analysed": 224,
+   "women": 10
+  },
+  "Kerala": {
+   "election_year": 2021,
+   "seats_analysed": 140,
+   "women": 11
+  },
+  "Madhya Pradesh": {
+   "election_year": 2023,
+   "seats_analysed": 230,
+   "women": 27
+  },
+  "Maharashtra": {
+   "election_year": 2024,
+   "seats_analysed": 288,
+   "women": 22
+  },
+  "Manipur": {
+   "election_year": 2022,
+   "seats_analysed": 60,
+   "women": 5
+  },
+  "Meghalaya": {
+   "election_year": 2023,
+   "seats_analysed": 60,
+   "women": 3
+  },
+  "Mizoram": {
+   "election_year": 2023,
+   "seats_analysed": 40,
+   "women": 3
+  },
+  "Nagaland": {
+   "election_year": 2023,
+   "seats_analysed": 60,
+   "women": 2
+  },
+  "Odisha": {
+   "election_year": 2024,
+   "seats_analysed": 147,
+   "women": 11
+  },
+  "Puducherry": {
+   "election_year": 2021,
+   "seats_analysed": 30,
+   "women": 1
+  },
+  "Punjab": {
+   "election_year": 2022,
+   "seats_analysed": 117,
+   "women": 13
+  },
+  "Rajasthan": {
+   "election_year": 2023,
+   "seats_analysed": 200,
+   "women": 20
+  },
+  "Sikkim": {
+   "election_year": 2024,
+   "seats_analysed": 32,
+   "women": 4
+  },
+  "Tamil Nadu": {
+   "election_year": 2021,
+   "seats_analysed": 234,
+   "women": 12
+  },
+  "Telangana": {
+   "election_year": 2023,
+   "seats_analysed": 119,
+   "women": 10
+  },
+  "Tripura": {
+   "election_year": 2023,
+   "seats_analysed": 60,
+   "women": 9
+  },
+  "Uttar Pradesh": {
+   "election_year": 2022,
+   "seats_analysed": 403,
+   "women": 47
+  },
+  "Uttarakhand": {
+   "election_year": 2022,
+   "seats_analysed": 70,
+   "women": 8
+  },
+  "West Bengal": {
+   "election_year": 2021,
+   "seats_analysed": 294,
+   "women": 40
+  }
+ }
+}

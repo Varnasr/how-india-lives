@@ -1,0 +1,270 @@
+{
+ "source": "Central Pollution Control Board, Polluted River Stretches for Restoration of Water Quality, September 2025 (monitoring 2022 and 2023), Table 1",
+ "url": "https://dste.py.gov.in/ppcc/pdf/Laboratory/PRS-2025.pdf",
+ "sha256": "3b63e0b96490bded1fb104cba69c3235bc8e73efd2f93c3b444f5a63c0af67fb",
+ "classes": {
+  "priority_I": "BOD above 30 mg/L",
+  "priority_II": "20.1 to 30",
+  "priority_III": "10.1 to 20",
+  "priority_IV": "6.1 to 10",
+  "priority_V": "3.1 to 6"
+ },
+ "states": {
+  "Andhra Pradesh": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 1,
+   "priority_IV": 0,
+   "priority_V": 3,
+   "total": 4
+  },
+  "Arunachal Pradesh": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 4,
+   "total": 4
+  },
+  "Assam": {
+   "priority_I": 1,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 1,
+   "priority_V": 4,
+   "total": 6
+  },
+  "Bihar": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 4,
+   "priority_IV": 3,
+   "priority_V": 5,
+   "total": 12
+  },
+  "Chhattisgarh": {
+   "priority_I": 0,
+   "priority_II": 1,
+   "priority_III": 3,
+   "priority_IV": 0,
+   "priority_V": 2,
+   "total": 6
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "priority_I": 0,
+   "priority_II": 1,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 0,
+   "total": 1
+  },
+  "Delhi": {
+   "priority_I": 1,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 0,
+   "total": 1
+  },
+  "Goa": {
+   "priority_I": 0,
+   "priority_II": 1,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 1,
+   "total": 2
+  },
+  "Gujarat": {
+   "priority_I": 4,
+   "priority_II": 1,
+   "priority_III": 0,
+   "priority_IV": 3,
+   "priority_V": 3,
+   "total": 11
+  },
+  "Haryana": {
+   "priority_I": 2,
+   "priority_II": 1,
+   "priority_III": 1,
+   "priority_IV": 0,
+   "priority_V": 0,
+   "total": 4
+  },
+  "Himachal Pradesh": {
+   "priority_I": 2,
+   "priority_II": 3,
+   "priority_III": 2,
+   "priority_IV": 2,
+   "priority_V": 1,
+   "total": 10
+  },
+  "Jammu and Kashmir": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 1,
+   "priority_IV": 2,
+   "priority_V": 4,
+   "total": 7
+  },
+  "Jharkhand": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 1,
+   "priority_IV": 1,
+   "priority_V": 8,
+   "total": 10
+  },
+  "Karnataka": {
+   "priority_I": 3,
+   "priority_II": 0,
+   "priority_III": 4,
+   "priority_IV": 2,
+   "priority_V": 5,
+   "total": 14
+  },
+  "Kerala": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 2,
+   "priority_IV": 4,
+   "priority_V": 25,
+   "total": 31
+  },
+  "Madhya Pradesh": {
+   "priority_I": 2,
+   "priority_II": 1,
+   "priority_III": 2,
+   "priority_IV": 2,
+   "priority_V": 10,
+   "total": 17
+  },
+  "Maharashtra": {
+   "priority_I": 2,
+   "priority_II": 5,
+   "priority_III": 9,
+   "priority_IV": 14,
+   "priority_V": 24,
+   "total": 54
+  },
+  "Manipur": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 18,
+   "total": 18
+  },
+  "Meghalaya": {
+   "priority_I": 2,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 0,
+   "total": 2
+  },
+  "Mizoram": {
+   "priority_I": 0,
+   "priority_II": 2,
+   "priority_III": 1,
+   "priority_IV": 0,
+   "priority_V": 1,
+   "total": 4
+  },
+  "Nagaland": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 1,
+   "priority_V": 1,
+   "total": 2
+  },
+  "Odisha": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 1,
+   "priority_IV": 0,
+   "priority_V": 5,
+   "total": 6
+  },
+  "Puducherry": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 1,
+   "priority_V": 1,
+   "total": 2
+  },
+  "Punjab": {
+   "priority_I": 2,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 0,
+   "total": 2
+  },
+  "Rajasthan": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 1,
+   "priority_IV": 0,
+   "priority_V": 8,
+   "total": 9
+  },
+  "Sikkim": {
+   "priority_I": 0,
+   "priority_II": 2,
+   "priority_III": 0,
+   "priority_IV": 1,
+   "priority_V": 0,
+   "total": 3
+  },
+  "Tamil Nadu": {
+   "priority_I": 5,
+   "priority_II": 1,
+   "priority_III": 0,
+   "priority_IV": 1,
+   "priority_V": 2,
+   "total": 9
+  },
+  "Telangana": {
+   "priority_I": 0,
+   "priority_II": 1,
+   "priority_III": 3,
+   "priority_IV": 0,
+   "priority_V": 1,
+   "total": 5
+  },
+  "Tripura": {
+   "priority_I": 0,
+   "priority_II": 0,
+   "priority_III": 0,
+   "priority_IV": 0,
+   "priority_V": 1,
+   "total": 1
+  },
+  "Uttar Pradesh": {
+   "priority_I": 4,
+   "priority_II": 1,
+   "priority_III": 3,
+   "priority_IV": 3,
+   "priority_V": 4,
+   "total": 15
+  },
+  "Uttarakhand": {
+   "priority_I": 5,
+   "priority_II": 0,
+   "priority_III": 4,
+   "priority_IV": 2,
+   "priority_V": 1,
+   "total": 12
+  },
+  "West Bengal": {
+   "priority_I": 1,
+   "priority_II": 0,
+   "priority_III": 2,
+   "priority_IV": 2,
+   "priority_V": 6,
+   "total": 11
+  }
+ }
+}

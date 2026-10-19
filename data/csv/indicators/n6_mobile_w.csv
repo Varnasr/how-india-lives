@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_mobile_w,Women with a mobile phone they use,Andaman and Nicobar,86.7,%,2023-24,80.8,2019-21,5.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Andhra Pradesh,64.1,%,2023-24,48.9,2019-21,15.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Arunachal Pradesh,90.3,%,2023-24,76.4,2019-21,13.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Assam,66.8,%,2023-24,57.2,2019-21,9.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Bihar,62.8,%,2023-24,51.4,2019-21,11.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Chandigarh,84.4,%,2023-24,70.0,2019-21,14.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Chhattisgarh,47.8,%,2023-24,40.7,2019-21,7.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Dadra and Nagar Haveli and Daman and Diu,68.3,%,2023-24,60.5,2019-21,7.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Delhi,83.3,%,2023-24,73.8,2019-21,9.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Goa,89.9,%,2023-24,91.2,2019-21,-1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Gujarat,58.8,%,2023-24,48.8,2019-21,10.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Haryana,64.9,%,2023-24,50.4,2019-21,14.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Himachal Pradesh,84.3,%,2023-24,79.5,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Jammu and Kashmir,76.9,%,2023-24,75.2,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Jharkhand,58.4,%,2023-24,49.0,2019-21,9.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Karnataka,72.4,%,2023-24,61.8,2019-21,10.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Kerala,89.1,%,2023-24,86.6,2019-21,2.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Ladakh,89.0,%,2023-24,81.2,2019-21,7.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Lakshadweep,85.8,%,2023-24,84.0,2019-21,1.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Madhya Pradesh,48.5,%,2023-24,38.5,2019-21,10.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Maharashtra,63.5,%,2023-24,54.8,2019-21,8.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Meghalaya,80.6,%,2023-24,67.5,2019-21,13.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Mizoram,90.9,%,2023-24,82.3,2019-21,8.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Nagaland,88.5,%,2023-24,82.5,2019-21,6.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Odisha,63.6,%,2023-24,50.1,2019-21,13.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Puducherry,82.4,%,2023-24,82.8,2019-21,-0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Punjab,72.6,%,2023-24,61.2,2019-21,11.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Rajasthan,61.1,%,2023-24,50.2,2019-21,10.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Sikkim,91.6,%,2023-24,88.6,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Tamil Nadu,76.8,%,2023-24,74.6,2019-21,2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Telangana,65.8,%,2023-24,60.0,2019-21,5.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Tripura,65.5,%,2023-24,53.1,2019-21,12.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Uttar Pradesh,56.4,%,2023-24,46.5,2019-21,9.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,Uttarakhand,72.5,%,2023-24,60.9,2019-21,11.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,West Bengal,65.1,%,2023-24,50.1,2019-21,15.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_mobile_w,Women with a mobile phone they use,India (national figure as published or computed),63.6,%,2023-24,53.9,2019-21,9.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

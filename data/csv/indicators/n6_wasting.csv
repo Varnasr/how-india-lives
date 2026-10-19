@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_wasting,Children under 5 who are wasted,Andaman and Nicobar,11.1,%,2023-24,16.0,2019-21,-4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Andhra Pradesh,12.3,%,2023-24,16.1,2019-21,-3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Arunachal Pradesh,16.1,%,2023-24,13.1,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Assam,21.4,%,2023-24,21.7,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Bihar,19.0,%,2023-24,22.9,2019-21,-3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Chandigarh,19.5,%,2023-24,8.4,2019-21,11.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Chhattisgarh,21.1,%,2023-24,18.9,2019-21,2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Dadra and Nagar Haveli and Daman and Diu,24.2,%,2023-24,21.6,2019-21,2.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Delhi,15.0,%,2023-24,11.2,2019-21,3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Goa,16.3,%,2023-24,19.1,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Gujarat,20.2,%,2023-24,25.1,2019-21,-4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Haryana,16.6,%,2023-24,11.5,2019-21,5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Himachal Pradesh,10.4,%,2023-24,17.4,2019-21,-7.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Jammu and Kashmir,10.6,%,2023-24,19.0,2019-21,-8.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Jharkhand,22.3,%,2023-24,22.4,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Karnataka,18.7,%,2023-24,19.5,2019-21,-0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Kerala,10.9,%,2023-24,15.8,2019-21,-4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Ladakh,10.6,%,2023-24,17.5,2019-21,-6.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Lakshadweep,12.4,%,2023-24,17.4,2019-21,-5.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Madhya Pradesh,23.8,%,2023-24,18.9,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Maharashtra,19.9,%,2023-24,25.6,2019-21,-5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Meghalaya,13.2,%,2023-24,12.1,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Mizoram,8.1,%,2023-24,9.8,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Nagaland,8.9,%,2023-24,19.1,2019-21,-10.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Odisha,22.1,%,2023-24,18.1,2019-21,4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Puducherry,16.7,%,2023-24,12.4,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Punjab,18.0,%,2023-24,10.6,2019-21,7.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Rajasthan,19.8,%,2023-24,16.8,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Sikkim,9.4,%,2023-24,13.6,2019-21,-4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Tamil Nadu,17.4,%,2023-24,14.6,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Telangana,16.9,%,2023-24,21.7,2019-21,-4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Tripura,18.4,%,2023-24,18.2,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Uttar Pradesh,19.2,%,2023-24,17.3,2019-21,1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,Uttarakhand,11.0,%,2023-24,13.2,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,West Bengal,20.3,%,2023-24,20.3,2019-21,0.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_wasting,Children under 5 who are wasted,India (national figure as published or computed),19.0,%,2023-24,19.3,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

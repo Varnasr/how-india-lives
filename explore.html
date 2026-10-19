@@ -44,9 +44,12 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
     --map-empty: #E2E8F0; --map-stroke: #FFFFFF; --map-c0: #E0F2FE; --map-c1: #075985;
+    /* change maps: blue is the better direction, amber the worse; neither is red/green, so colour-blind readers keep the contrast */
+    --map-good: #0369A1; --map-bad: #C2410C; --map-mid: #F1F5F9;
 }
 html[data-theme="dark"] {
     --map-empty: #334155; --map-stroke: #0F172A; --map-c0: #0C4A6E; --map-c1: #7DD3FC;
+    --map-good: #38BDF8; --map-bad: #FB923C; --map-mid: #1E293B;
 }
 html, body { max-width: 100%; overflow-x: hidden; }
 body {
@@ -112,9 +115,19 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); f
 .view-tab:hover { color: var(--accent-color); }
 .view-tab.active { background: var(--accent-color); color: var(--on-accent); }
 
+/* ── Mode toggle and indicator search ── */
+.mode-tabs { display: inline-flex; gap: 3px; padding: 3px; background: var(--secondary-bg); border: 1px solid var(--border-color); border-radius: 12px; }
+.mode-tab { font-family: inherit; font-size: 0.82rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); background: none; border: none; padding: 7px 14px; border-radius: 9px; }
+.mode-tab:hover { color: var(--accent-color); }
+.mode-tab[aria-pressed="true"] { background: var(--card-bg); color: var(--text-primary); box-shadow: 0 1px 3px rgba(15,23,42,.18); }
+.search-input { width: 100%; font-family: inherit; font-size: 0.9rem; color: var(--text-primary); background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 10px 14px; margin-bottom: 8px; }
+.search-input:focus { outline: 2px solid var(--accent-color); outline-offset: 1px; }
+.trend { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.trend.good { color: var(--success-color); } .trend.bad { color: var(--danger-color); } .trend.flat { color: var(--text-muted); }
+
 /* ── Controls ── */
 .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0 0; }
-.select-wrap { position: relative; flex: 0 1 340px; min-width: 0; }
+.select-wrap { position: relative; flex: 0 1 400px; min-width: 0; }
 .select-wrap::after {
     content: ""; position: absolute; right: 14px; top: 50%; width: 9px; height: 9px;
     border-right: 2px solid var(--text-muted); border-bottom: 2px solid var(--text-muted);
@@ -131,6 +144,7 @@ select.im-select {
 select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset: 1px; }
 .compare-selects { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; }
 .compare-selects .select-wrap::after { top: 62%; }
+#single-controls .select-wrap::after { top: auto; bottom: 20px; transform: rotate(45deg); }
 
 .meta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 14px; font-size: 0.82rem; color: var(--text-muted); }
 .meta-row .badge { background: var(--secondary-bg); border: 1px solid var(--border-color); border-radius: 999px; padding: 2px 10px; font-weight: 600; color: var(--text-secondary); }
@@ -281,7 +295,12 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     <div class="controls" id="single-controls">
         <div class="select-wrap">
             <label class="sw-label" for="ind-select" data-i18n="ex.lbl.indicator">Indicator</label>
+            <input class="search-input" id="ind-search" type="search" placeholder="Search 90 indicators" aria-label="Search indicators" autocomplete="off">
             <select id="ind-select" class="im-select" aria-label="Choose an indicator"></select>
+        </div>
+        <div class="mode-tabs hidden" id="mode-tabs" role="group" aria-label="What to map" style="align-self:flex-end;">
+            <button class="mode-tab" id="mode-latest" aria-pressed="true" type="button">Latest</button>
+            <button class="mode-tab" id="mode-change" aria-pressed="false" type="button">Change since previous round</button>
         </div>
         <div class="dl-btns" style="align-self:flex-end;">
             <button class="dl-btn" id="dl-csv" title="Download this indicator as CSV">CSV</button>
@@ -362,7 +381,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 
     <div class="note" id="data-note"></div>
     <p class="credit">Boundaries: Natural Earth (public domain), simplified for the web. This view complements the
-        atlas of <a href="index.html">211 detailed maps</a> — see the <a href="methodology.html">methodology</a> for
+        atlas of <a href="index.html">282 detailed maps</a> — see the <a href="methodology.html">methodology</a> for
         source notes and limitations.</p>
 </div>
 
@@ -376,7 +395,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     var scatter = document.getElementById('scatter-svg');
     var tooltip = document.getElementById('tooltip');
     var geo = null, dataset = null, byId = {}, byName = {}, paths = {};
-    var state = { view: 'map', ind: null, x: null, y: null, st: null };
+    var state = { view: 'map', ind: null, x: null, y: null, st: null, mode: 'latest', q: '' };
 
     function $(id){ return document.getElementById(id); }
     function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
@@ -384,7 +403,23 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     function lerp(a,b,t){ return Math.round(a+(b-a)*t); }
     function colorFor(t){ var c0=hexToRgb(css('--map-c0')),c1=hexToRgb(css('--map-c1')); return 'rgb('+lerp(c0[0],c1[0],t)+','+lerp(c0[1],c1[1],t)+','+lerp(c0[2],c1[2],t)+')'; }
     function fmt(v){ if(v==null)return '—'; if(Math.abs(v)>=1000)return Math.round(v).toLocaleString('en-IN'); return (v%1===0)?v.toString():(Math.round(v*100)/100).toString(); }
-    function extent(ind){ var vs=Object.keys(ind.values).map(function(k){return ind.values[k];}); return [Math.min.apply(null,vs), Math.max.apply(null,vs)]; }
+    function extent(ind, vals){ vals=vals||ind.values; var vs=Object.keys(vals).map(function(k){return vals[k];}); return [Math.min.apply(null,vs), Math.max.apply(null,vs)]; }
+    function r2(v){ return Math.round(v*100)/100; }
+    // Change since the previous round, for states with a figure in both rounds.
+    function deltas(ind){ var o={}; if(!ind.previous)return o; Object.keys(ind.values).forEach(function(k){ if(ind.previous[k]!=null)o[k]=r2(ind.values[k]-ind.previous[k]); }); return o; }
+    function changing(ind){ return state.mode==='change' && !!ind.previous; }
+    function valsOf(ind){ return changing(ind)?deltas(ind):ind.values; }
+    function sgn(v){ return (v>0?'+':v<0?'−':'')+fmt(Math.abs(v)); }
+    // Goodness of a change in [-1, 1]: positive means the better direction, when the indicator has one.
+    function goodness(ind, d, maxAbs){ var g=d/(maxAbs||1); return ind.higherIsBetter===false?-g:g; }
+    function mix(c0,c1,t){ return 'rgb('+lerp(c0[0],c1[0],t)+','+lerp(c0[1],c1[1],t)+','+lerp(c0[2],c1[2],t)+')'; }
+    function divColor(g){ var mid=hexToRgb(css('--map-mid')); return g>=0 ? mix(mid,hexToRgb(css('--map-good')),Math.min(1,g)) : mix(mid,hexToRgb(css('--map-bad')),Math.min(1,-g)); }
+    function trendHtml(ind, name){
+        if(!ind.previous||ind.previous[name]==null||ind.values[name]==null)return '';
+        var d=r2(ind.values[name]-ind.previous[name]);
+        var cls=d===0||ind.higherIsBetter==null?'flat':((ind.higherIsBetter===true)===(d>0)?'good':'bad');
+        return '<span class="trend '+cls+'">'+(d>0?'▲ ':d<0?'▼ ':'')+sgn(d)+' since '+ind.previousYear+'</span>';
+    }
     // Localised field: use the _hi variant when Hindi is active and present.
     function L(o, f){ return (window.IM && IM.lang === 'hi' && o[f + '_hi']) ? o[f + '_hi'] : o[f]; }
     function nm(o){ return L(o, 'name'); } function un(o){ return L(o, 'unit'); } function dsc(o){ return L(o, 'desc'); }
@@ -428,43 +463,58 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 
     // ── MAP ──
     function renderMap(ind) {
-        var e=extent(ind), min=e[0], max=e[1];
+        var ch=changing(ind), vals=valsOf(ind);
+        var e=extent(ind,vals), min=e[0], max=e[1], maxAbs=Math.max(Math.abs(min),Math.abs(max))||1;
+        var yrs=ch?' (change, '+ind.previousYear+' to '+ind.year+')':'';
         geo.features.forEach(function(f){
             var name=f.properties.name, path=paths[name]; if(!path)return;
-            var v=ind.values[name];
-            path.setAttribute('aria-label', name+': '+(v==null?'no data':fmt(v)+' '+un(ind))+'. '+nm(ind)+'. Enter to open dashboard.');
+            var v=vals[name];
+            path.setAttribute('aria-label', name+': '+(v==null?'no data':(ch?sgn(v):fmt(v))+' '+(ch?'percentage points':un(ind)))+'. '+nm(ind)+yrs+'. Enter to open dashboard.');
             if(v==null){ path.style.fill=css('--map-empty'); return; }
-            path.style.fill=colorFor((v-min)/(max-min||1));
+            path.style.fill=ch?divColor(goodness(ind,v,maxAbs)):colorFor((v-min)/(max-min||1));
         });
-        $('legend-title').textContent=nm(ind);
-        $('legend-bar').style.background='linear-gradient(90deg,'+colorFor(0)+','+colorFor(1)+')';
-        $('legend-min').textContent=fmt(min); $('legend-max').textContent=fmt(max);
+        $('legend-title').textContent=nm(ind)+(ch?' — change':'');
         var avg=$('legend-avg');
-        if(ind.national!=null){ var fr=Math.max(0,Math.min(1,(ind.national-min)/(max-min||1)));
-            avg.innerHTML='<span class="marker" style="left:'+(fr*100).toFixed(1)+'%;transform:translateX('+(-fr*100).toFixed(1)+'%)">India '+fmt(ind.national)+'</span>'; }
-        else avg.innerHTML='';
-        var arrow=ind.higherIsBetter===true?'Darker = higher (better)':ind.higherIsBetter===false?'Darker = higher (worse)':'Darker = higher';
-        $('legend-dir').innerHTML='<span class="dot"></span> Grey = no data · '+arrow;
-        var sorted=Object.keys(ind.values).sort(function(a,b){return ind.values[b]-ind.values[a];});
-        function row(n,cls){ return '<div class="rank-row '+cls+'"><span class="r-name" title="'+n+'">'+n+'</span><span class="r-val">'+fmt(ind.values[n])+'</span></div>'; }
+        if(ch){
+            var flip=ind.higherIsBetter===false;
+            $('legend-bar').style.background='linear-gradient(90deg,'+divColor(-1)+','+divColor(0)+','+divColor(1)+')';
+            $('legend-min').textContent=(flip?'+':'−')+fmt(maxAbs); $('legend-max').textContent=(flip?'−':'+')+fmt(maxAbs);
+            var nd=(ind.national!=null&&ind.nationalPrevious!=null)?r2(ind.national-ind.nationalPrevious):null;
+            var fr2=nd!=null?Math.max(0,Math.min(1,0.5+goodness(ind,nd,maxAbs)*0.5)):0.5;
+            avg.innerHTML=nd!=null?'<span class="marker" style="left:'+(fr2*100).toFixed(1)+'%;transform:translateX('+(-fr2*100).toFixed(1)+'%)">India '+sgn(nd)+'</span>':'';
+            var hib=ind.higherIsBetter;
+            $('legend-dir').innerHTML='<span class="dot"></span> Grey = no figure in one round · '+(hib==null?'Blue = rose, amber = fell':'Blue = moved the better way, amber = the worse way')+' · points of percentage';
+        } else {
+            $('legend-bar').style.background='linear-gradient(90deg,'+colorFor(0)+','+colorFor(1)+')';
+            $('legend-min').textContent=fmt(min); $('legend-max').textContent=fmt(max);
+            if(ind.national!=null){ var fr=Math.max(0,Math.min(1,(ind.national-min)/(max-min||1)));
+                avg.innerHTML='<span class="marker" style="left:'+(fr*100).toFixed(1)+'%;transform:translateX('+(-fr*100).toFixed(1)+'%)">India '+fmt(ind.national)+'</span>'; }
+            else avg.innerHTML='';
+            var arrow=ind.higherIsBetter===true?'Darker = higher (better)':ind.higherIsBetter===false?'Darker = higher (worse)':'Darker = higher';
+            $('legend-dir').innerHTML='<span class="dot"></span> Grey = no data · '+arrow;
+        }
+        var sorted=Object.keys(vals).sort(function(a,b){return vals[b]-vals[a];});
+        function row(n,cls){ if(ch)cls=goodness(ind,vals[n],maxAbs)>=0?'hi':'lo'; return '<div class="rank-row '+cls+'"><span class="r-name" title="'+n+'">'+n+'</span><span class="r-val">'+(ch?sgn(vals[n]):fmt(vals[n]))+'</span></div>'; }
         $('ranks').innerHTML=sorted.slice(0,3).map(function(n){return row(n,'hi');}).join('')+'<div class="rank-gap">⋯</div>'+sorted.slice(-3).reverse().map(function(n){return row(n,'lo');}).join('');
     }
 
     // ── RANKING ──
     function renderRanking(ind) {
-        var e=extent(ind), min=e[0], max=e[1];
-        var sorted=Object.keys(ind.values).sort(function(a,b){return ind.values[b]-ind.values[a];});
-        var base=Math.min(0,min);
+        var ch=changing(ind), vals=valsOf(ind);
+        var e=extent(ind,vals), min=e[0], max=e[1], maxAbs=Math.max(Math.abs(min),Math.abs(max))||1;
+        var sorted=Object.keys(vals).sort(function(a,b){return vals[b]-vals[a];});
+        var base=ch?-maxAbs:Math.min(0,min), top=ch?maxAbs:max;
         var html=sorted.map(function(n,i){
-            var v=ind.values[n];
-            var w=((v-base)/(max-base||1))*100;
+            var v=vals[n];
+            var w=((v-base)/(top-base||1))*100;
             var t=(v-min)/(max-min||1);
             return '<div class="rank-bar-row"><span class="rb-rank">'+(i+1)+'</span>'+
                 '<span class="rb-name" title="'+n+'">'+n+'</span>'+
-                '<span class="rb-track"><span class="rb-fill" style="width:'+w.toFixed(1)+'%;background:'+colorFor(t)+'"></span></span>'+
-                '<span class="rb-val">'+fmt(v)+'</span></div>';
+                '<span class="rb-track"><span class="rb-fill" style="width:'+w.toFixed(1)+'%;background:'+(ch?divColor(goodness(ind,v,maxAbs)):colorFor(t))+'"></span></span>'+
+                '<span class="rb-val">'+(ch?sgn(v):fmt(v))+'</span></div>';
         }).join('');
-        if(ind.national!=null) html+='<div class="rank-avg-note">India average: <strong>'+fmt(ind.national)+' '+un(ind)+'</strong></div>';
+        if(ch&&ind.nationalPrevious!=null) html+='<div class="rank-avg-note">India: <strong>'+sgn(r2(ind.national-ind.nationalPrevious))+' points</strong> ('+fmt(ind.nationalPrevious)+' in '+ind.previousYear+', '+fmt(ind.national)+' in '+ind.year+')</div>';
+        else if(ind.national!=null) html+='<div class="rank-avg-note">India average: <strong>'+fmt(ind.national)+' '+un(ind)+'</strong></div>';
         $('view-ranking').innerHTML=html;
     }
 
@@ -542,12 +592,13 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
             var delta=ind.national!=null?(v-ind.national):null;
             var vs=delta!=null?'<span class="'+goodClass(delta,ind.higherIsBetter)+'">'+(delta>=0?'+':'−')+fmt(Math.abs(Math.round(delta*100)/100))+' vs India</span>':'';
             return '<a class="dash-card" href="#'+ind.id+'">'+
-                '<div class="dash-top"><span class="dash-name">'+nm(ind)+'<small>'+ind.theme+'</small></span>'+
+                '<div class="dash-top"><span class="dash-name">'+nm(ind)+'<small>'+ind.theme+' · '+ind.year+'</small></span>'+
                 '<span class="dash-val">'+fmt(v)+' <small>'+un(ind)+'</small></span></div>'+
                 '<div class="dash-track"><span class="fill" style="width:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span>'+
                 (nf!=null?'<span class="nat" style="left:'+(nf*100).toFixed(1)+'%" title="India average"></span>':'')+
                 '<span class="st-dot" style="left:'+(sf*100).toFixed(1)+'%;background:'+colorFor(sf)+'"></span></div>'+
                 '<div class="dash-foot"><span class="rank '+rankClass(rank,total,ind.higherIsBetter)+'">Rank '+rank+' of '+total+'</span>'+vs+'</div>'+
+                (ind.previous?'<div class="dash-foot" style="margin-top:6px">'+trendHtml(ind,name)+'</div>':'')+
                 '</a>';
         }).join('');
         $('state-dash').innerHTML=html;
@@ -560,7 +611,9 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         tooltip.style.left=x+'px'; tooltip.style.top=y+'px'; tooltip.classList.add('show'); }
     function mapTip(name,cx,cy){ var ind=state.ind, v=ind.values[name], delta='';
         if(v!=null&&ind.national!=null){ var d=v-ind.national; delta='<span class="t-delta">'+(d>=0?'+':'−')+fmt(Math.abs(Math.round(d*100)/100))+' vs India ('+fmt(ind.national)+')</span>'; }
-        tooltip.innerHTML='<span class="t-name">'+name+'</span>'+(v==null?'<span class="t-unit">no data</span>':'<span class="t-val">'+fmt(v)+' <span class="t-unit">'+un(ind)+'</span></span><br>'+delta); place(cx,cy); }
+        var prev=(v!=null&&ind.previous&&ind.previous[name]!=null)?'<br><span class="t-delta">'+fmt(ind.previous[name])+' in '+ind.previousYear+' ('+sgn(r2(v-ind.previous[name]))+')</span>':'';
+        var few=(ind.fewCases&&ind.fewCases.indexOf(name)>-1)?'<br><span class="t-delta">Small sample (25-49 cases)</span>':'';
+        tooltip.innerHTML='<span class="t-name">'+name+'</span>'+(v==null?'<span class="t-unit">no data</span>':'<span class="t-val">'+fmt(v)+' <span class="t-unit">'+un(ind)+'</span></span><br>'+delta+prev+few); place(cx,cy); }
     function hideTip(){ tooltip.classList.remove('show'); if(lastHl){ lastHl.classList.remove('hl'); lastHl=null; } }
     svg.addEventListener('mousemove',function(e){ var t=e.target; if(t&&t.tagName==='path'){ if(lastHl&&lastHl!==t)lastHl.classList.remove('hl'); t.classList.add('hl'); lastHl=t; mapTip(t.getAttribute('data-name'),e.clientX,e.clientY); } else hideTip(); });
     svg.addEventListener('mouseleave',hideTip);
@@ -575,8 +628,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     // ── Downloads ──
     function download(name, text, type){ var blob=new Blob([text],{type:type}); var url=URL.createObjectURL(blob);
         var a=document.createElement('a'); a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function(){URL.revokeObjectURL(url);},1000); }
-    function csvFor(ind){ var rows=['State,'+JSON.stringify(ind.name+' ('+ind.unit+')')];
-        Object.keys(ind.values).sort().forEach(function(k){ rows.push(JSON.stringify(k)+','+ind.values[k]); });
+    function csvFor(ind){ var rows=['State,'+JSON.stringify(ind.name+' ('+ind.unit+')')+(ind.previous?','+JSON.stringify('Previous round ('+ind.previousYear+')'):'')];
+        Object.keys(ind.values).sort().forEach(function(k){ rows.push(JSON.stringify(k)+','+ind.values[k]+(ind.previous?','+(ind.previous[k]==null?'':ind.previous[k]):'')); });
         rows.push(''); rows.push('# Source: '+ind.source+' '+ind.year); if(ind.national!=null)rows.push('# India,'+ind.national);
         return rows.join('\n'); }
     $('dl-csv').addEventListener('click',function(){ if(state.ind) download('india-'+state.ind.id+'.csv', csvFor(state.ind), 'text/csv'); });
@@ -588,7 +641,15 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         $('ind-desc').textContent=dsc(ind);
         var ml=$('map-link'); if(ind.mapId)ml.setAttribute('href','index.html#map/'+ind.mapId); else ml.removeAttribute('href');
     }
-    function applyMap(id){ var ind=byId[id]; if(!ind)return false; state.ind=ind; $('ind-select').value=id; setSingleMeta(ind); if(state.view==='map')renderMap(ind); if(state.view==='ranking')renderRanking(ind); return true; }
+    function syncMode(){
+        var has=!!(state.ind&&state.ind.previous);
+        if(!has)state.mode='latest';
+        $('mode-tabs').classList.toggle('hidden',!has);
+        $('mode-latest').setAttribute('aria-pressed',String(state.mode==='latest'));
+        $('mode-change').setAttribute('aria-pressed',String(state.mode==='change'));
+        if(has)$('mode-change').textContent='Change since '+state.ind.previousYear;
+    }
+    function applyMap(id){ var ind=byId[id]; if(!ind)return false; state.ind=ind; syncMode(); $('ind-select').value=id; setSingleMeta(ind); if(state.view==='map')renderMap(ind); if(state.view==='ranking')renderRanking(ind); return true; }
     function applyCompare(){ var ix=byId[state.x], iy=byId[state.y]; if(ix&&iy){ $('x-select').value=state.x; $('y-select').value=state.y; $('meta-row').innerHTML=''; $('ind-desc').textContent=''; $('map-link').removeAttribute('href'); renderCompare(ix,iy); } }
     function applyState(name){ if(!name)return false; state.st=name; $('state-select').value=name; $('meta-row').innerHTML=''; $('ind-desc').textContent=''; $('map-link').removeAttribute('href'); renderState(name); return true; }
 
@@ -612,16 +673,17 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     function writeHash(){
         var h = state.view==='compare' ? 'compare/'+state.x+'~'+state.y
               : state.view==='state' ? 'state/'+encodeURIComponent(state.st)
-              : state.view==='ranking' ? 'ranking/'+state.ind.id
-              : state.ind.id;
+              : state.view==='ranking' ? 'ranking/'+state.ind.id+(state.mode==='change'?'/change':'')
+              : state.ind.id+(state.mode==='change'?'/change':'');
         history.replaceState(null,'','#'+h);
     }
     function readHash(){
         var h=location.hash.replace(/^#/,'');
         if(h.indexOf('compare/')===0){ var p=h.slice(8).split('~'); if(byId[p[0]]&&byId[p[1]]){ state.x=p[0]; state.y=p[1]; showView('compare'); return true; } }
         if(h.indexOf('state/')===0){ var nm=decodeURIComponent(h.slice(6)); if(byName[nm]){ state.st=nm; showView('state'); return true; } }
-        if(h.indexOf('ranking/')===0){ var id=h.slice(8); if(applyMap(id)){ showView('ranking'); return true; } }
-        if(h && applyMap(h)){ showView('map'); return true; }
+        var chg=/\/change$/.test(h); if(chg)h=h.replace(/\/change$/,'');
+        if(h.indexOf('ranking/')===0){ var id=h.slice(8); if(applyMap(id)){ if(chg&&state.ind.previous)state.mode='change'; syncMode(); showView('ranking'); return true; } }
+        if(h && applyMap(h)){ if(chg&&state.ind.previous)state.mode='change'; syncMode(); showView('map'); return true; }
         return false;
     }
 
@@ -642,14 +704,24 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 
         // grouped selects
         var themes=[]; dataset.indicators.forEach(function(i){ if(themes.indexOf(i.theme)===-1)themes.push(i.theme); });
-        function optionsHtml(){ return themes.map(function(th){
-            return '<optgroup label="'+th+'">'+dataset.indicators.filter(function(i){return i.theme===th;}).map(function(i){return '<option value="'+i.id+'">'+nm(i)+'</option>';}).join('')+'</optgroup>';
+        function optionsHtml(q){ q=(q||'').toLowerCase(); return themes.map(function(th){
+            var list=dataset.indicators.filter(function(i){ return i.theme===th && (!q || (nm(i)+' '+i.source+' '+i.year+' '+th).toLowerCase().indexOf(q)>-1); });
+            return list.length?'<optgroup label="'+th+'">'+list.map(function(i){return '<option value="'+i.id+'">'+nm(i)+' · '+i.year+'</option>';}).join('')+'</optgroup>':'';
         }).join(''); }
         $('ind-select').innerHTML=optionsHtml();
+        $('ind-search').addEventListener('input',function(){
+            var keep=state.ind&&state.ind.id; $('ind-select').innerHTML=optionsHtml(this.value);
+            if(keep&&$('ind-select').querySelector('option[value="'+keep+'"]'))$('ind-select').value=keep;
+            $('map-status').textContent=$('ind-select').options.length+' indicators match';
+        });
+        function setMode(m){ if(!state.ind||!state.ind.previous)return; state.mode=m; syncMode(); if(state.view==='map')renderMap(state.ind); else if(state.view==='ranking')renderRanking(state.ind); writeHash(); }
+        $('mode-latest').addEventListener('click',function(){ setMode('latest'); });
+        $('mode-change').addEventListener('click',function(){ setMode('change'); });
         $('x-select').innerHTML=optionsHtml();
         $('y-select').innerHTML=optionsHtml();
+        $('ind-search').setAttribute('placeholder','Search '+dataset.indicators.length+' indicators');
 
-        $('ind-select').addEventListener('change',function(){ applyMap(this.value); writeHash(); });
+        $('ind-select').addEventListener('change',function(){ state.mode='latest'; applyMap(this.value); writeHash(); });
         $('x-select').addEventListener('change',function(){ state.x=this.value; applyCompare(); writeHash(); });
         $('y-select').addEventListener('change',function(){ state.y=this.value; applyCompare(); writeHash(); });
         Array.prototype.forEach.call(document.querySelectorAll('.view-tab'),function(b){ b.addEventListener('click',function(){ showView(b.dataset.view); }); });

@@ -1,0 +1,2010 @@
+{
+ "source": "MoSPI open data API, dataset UDISE, indicator 28 (Enrolment of Students), gender Total, level Primary to Higher Secondary (1-12)",
+ "retrieved": "2026-10-19",
+ "rows": [
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "All Management",
+   "value": "66108"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "type_of_management": "All Management",
+   "value": "8179520"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "All Management",
+   "value": "304381"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "type_of_management": "All Management",
+   "value": "6734504"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "type_of_management": "All Management",
+   "value": "24148321"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "type_of_management": "All Management",
+   "value": "245647"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "type_of_management": "All Management",
+   "value": "5465821"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "All Management",
+   "value": "131749"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "type_of_management": "All Management",
+   "value": "4333458"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "type_of_management": "All Management",
+   "value": "278707"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "type_of_management": "All Management",
+   "value": "11391198"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "type_of_management": "All Management",
+   "value": "5541592"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "type_of_management": "All Management",
+   "value": "1296791"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "All Management",
+   "value": "2247391"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "type_of_management": "All Management",
+   "value": "6928892"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "type_of_management": "All Management",
+   "value": "12022596"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "type_of_management": "All Management",
+   "value": "5672947"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "type_of_management": "All Management",
+   "value": "48237"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "type_of_management": "All Management",
+   "value": "11400"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "type_of_management": "All Management",
+   "value": "14487328"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "type_of_management": "All Management",
+   "value": "20896370"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "type_of_management": "All Management",
+   "value": "598318"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "type_of_management": "All Management",
+   "value": "888378"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "type_of_management": "All Management",
+   "value": "256304"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "type_of_management": "All Management",
+   "value": "343415"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "type_of_management": "All Management",
+   "value": "7611671"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "type_of_management": "All Management",
+   "value": "223338"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "type_of_management": "All Management",
+   "value": "5141706"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "type_of_management": "All Management",
+   "value": "16791347"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "type_of_management": "All Management",
+   "value": "108859"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "type_of_management": "All Management",
+   "value": "11809036"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "type_of_management": "All Management",
+   "value": "6695268"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "type_of_management": "All Management",
+   "value": "663509"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "type_of_management": "All Management",
+   "value": "2257303"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "type_of_management": "All Management",
+   "value": "41101921"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "type_of_management": "All Management",
+   "value": "16700579"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Government",
+   "value": "46824"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Government",
+   "value": "4250576"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Government",
+   "value": "200866"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "type_of_management": "Government",
+   "value": "4921163"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "type_of_management": "Government",
+   "value": "20358873"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "type_of_management": "Government",
+   "value": "155846"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "type_of_management": "Government",
+   "value": "4076947"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Government",
+   "value": "90273"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "type_of_management": "Government",
+   "value": "2655004"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "type_of_management": "Government",
+   "value": "41041"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "type_of_management": "Government",
+   "value": "5510571"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "type_of_management": "Government",
+   "value": "2462970"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Government",
+   "value": "834418"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Government",
+   "value": "1297060"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "type_of_management": "Government",
+   "value": "4899113"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "type_of_management": "Government",
+   "value": "5302823"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "type_of_management": "Government",
+   "value": "1706256"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "type_of_management": "Government",
+   "value": "24219"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "type_of_management": "Government",
+   "value": "11400"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Government",
+   "value": "9080231"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "type_of_management": "Government",
+   "value": "5429334"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "type_of_management": "Government",
+   "value": "200784"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "type_of_management": "Government",
+   "value": "359258"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "type_of_management": "Government",
+   "value": "121783"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "type_of_management": "Government",
+   "value": "121927"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "type_of_management": "Government",
+   "value": "5267256"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "type_of_management": "Government",
+   "value": "82584"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "type_of_management": "Government",
+   "value": "2550612"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "type_of_management": "Government",
+   "value": "9248020"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "type_of_management": "Government",
+   "value": "73198"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "type_of_management": "Government",
+   "value": "4981855"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "type_of_management": "Government",
+   "value": "3004734"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "type_of_management": "Government",
+   "value": "517046"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "type_of_management": "Government",
+   "value": "942296"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Government",
+   "value": "18017010"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "type_of_management": "Government",
+   "value": "14945266"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Government Aided",
+   "value": "1835"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "161849"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "20515"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "type_of_management": "Government Aided",
+   "value": "324487"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "type_of_management": "Government Aided",
+   "value": "155238"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "type_of_management": "Government Aided",
+   "value": "8546"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "type_of_management": "Government Aided",
+   "value": "71480"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Government Aided",
+   "value": "7013"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "type_of_management": "Government Aided",
+   "value": "148446"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "type_of_management": "Government Aided",
+   "value": "205892"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "type_of_management": "Government Aided",
+   "value": "1709526"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "type_of_management": "Government Aided",
+   "value": "2604"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Government Aided",
+   "value": "155"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "type_of_management": "Government Aided",
+   "value": "279872"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "type_of_management": "Government Aided",
+   "value": "1508140"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "type_of_management": "Government Aided",
+   "value": "2611995"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "type_of_management": "Government Aided",
+   "value": "569"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "100922"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "type_of_management": "Government Aided",
+   "value": "9720108"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "type_of_management": "Government Aided",
+   "value": "27903"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "type_of_management": "Government Aided",
+   "value": "306113"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "type_of_management": "Government Aided",
+   "value": "21028"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "type_of_management": "Government Aided",
+   "value": "938856"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "type_of_management": "Government Aided",
+   "value": "21625"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "type_of_management": "Government Aided",
+   "value": "184814"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "type_of_management": "Government Aided",
+   "value": "3632"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "type_of_management": "Government Aided",
+   "value": "2136406"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "type_of_management": "Government Aided",
+   "value": "83762"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "type_of_management": "Government Aided",
+   "value": "26806"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "type_of_management": "Government Aided",
+   "value": "157504"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "4952186"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "type_of_management": "Government Aided",
+   "value": "25797"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "17449"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "3752467"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "79328"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1271800"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "2535360"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "77449"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1307711"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "34285"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1530008"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "31774"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "4169993"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "3000267"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "462328"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "944204"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1066901"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5211019"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1290229"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "23449"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5242941"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5709732"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "360672"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "194338"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "107824"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "221441"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1326191"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "119129"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "2405574"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "7398470"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "32029"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "4673260"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "3602684"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "107881"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1101211"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "16756154"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "974816"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Others",
+   "value": "14628"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Others",
+   "value": "3672"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "type_of_management": "Others",
+   "value": "217054"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "type_of_management": "Others",
+   "value": "1098850"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "type_of_management": "Others",
+   "value": "3806"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "type_of_management": "Others",
+   "value": "9683"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Others",
+   "value": "178"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "type_of_management": "Others",
+   "value": "1108"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "type_of_management": "Others",
+   "value": "75751"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Others",
+   "value": "45"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Others",
+   "value": "5972"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "type_of_management": "Others",
+   "value": "683006"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "type_of_management": "Others",
+   "value": "614"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "type_of_management": "Others",
+   "value": "64467"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Others",
+   "value": "63234"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "type_of_management": "Others",
+   "value": "37196"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "type_of_management": "Others",
+   "value": "8959"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "type_of_management": "Others",
+   "value": "28669"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "type_of_management": "Others",
+   "value": "5669"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "type_of_management": "Others",
+   "value": "47"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "type_of_management": "Others",
+   "value": "79368"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "type_of_management": "Others",
+   "value": "706"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "type_of_management": "Others",
+   "value": "144857"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "type_of_management": "Others",
+   "value": "17515"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "type_of_management": "Others",
+   "value": "4088"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "type_of_management": "Others",
+   "value": "11776"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "type_of_management": "Others",
+   "value": "56292"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Others",
+   "value": "1376571"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "type_of_management": "Others",
+   "value": "754700"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "All Management",
+   "value": "61545"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "type_of_management": "All Management",
+   "value": "7905267"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "All Management",
+   "value": "286439"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "type_of_management": "All Management",
+   "value": "6545966"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "type_of_management": "All Management",
+   "value": "20777958"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "type_of_management": "All Management",
+   "value": "222335"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "type_of_management": "All Management",
+   "value": "5319933"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "All Management",
+   "value": "133118"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "type_of_management": "All Management",
+   "value": "4178226"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "type_of_management": "All Management",
+   "value": "271320"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "type_of_management": "All Management",
+   "value": "10560799"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "type_of_management": "All Management",
+   "value": "5368101"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "type_of_management": "All Management",
+   "value": "1231582"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "All Management",
+   "value": "2200547"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "type_of_management": "All Management",
+   "value": "7122054"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "type_of_management": "All Management",
+   "value": "11514006"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "type_of_management": "All Management",
+   "value": "5558896"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "type_of_management": "All Management",
+   "value": "46134"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "type_of_management": "All Management",
+   "value": "11016"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "type_of_management": "All Management",
+   "value": "13828565"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "type_of_management": "All Management",
+   "value": "20955275"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "type_of_management": "All Management",
+   "value": "590987"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "type_of_management": "All Management",
+   "value": "878792"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "type_of_management": "All Management",
+   "value": "238240"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "type_of_management": "All Management",
+   "value": "339826"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "type_of_management": "All Management",
+   "value": "7554643"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "type_of_management": "All Management",
+   "value": "213364"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "type_of_management": "All Management",
+   "value": "4985472"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "type_of_management": "All Management",
+   "value": "15340387"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "type_of_management": "All Management",
+   "value": "96806"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "type_of_management": "All Management",
+   "value": "11428524"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "type_of_management": "All Management",
+   "value": "6872441"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "type_of_management": "All Management",
+   "value": "642732"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "type_of_management": "All Management",
+   "value": "2218680"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "type_of_management": "All Management",
+   "value": "41400917"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "type_of_management": "All Management",
+   "value": "15984707"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Government",
+   "value": "42311"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Government",
+   "value": "3607546"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Government",
+   "value": "162203"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "type_of_management": "Government",
+   "value": "4590308"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "type_of_management": "Government",
+   "value": "17157829"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "type_of_management": "Government",
+   "value": "134352"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "type_of_management": "Government",
+   "value": "3765512"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Government",
+   "value": "88306"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "type_of_management": "Government",
+   "value": "2359617"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "type_of_management": "Government",
+   "value": "38545"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "type_of_management": "Government",
+   "value": "4847926"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "type_of_management": "Government",
+   "value": "2123770"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Government",
+   "value": "729713"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Government",
+   "value": "1207731"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "type_of_management": "Government",
+   "value": "4831514"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "type_of_management": "Government",
+   "value": "4693415"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "type_of_management": "Government",
+   "value": "1587730"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "type_of_management": "Government",
+   "value": "22170"
+  },
+  {
+   "year": "2024-25",
+   "state": "Lakshadweep",
+   "type_of_management": "Government",
+   "value": "11016"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Government",
+   "value": "8089920"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "type_of_management": "Government",
+   "value": "5048187"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "type_of_management": "Government",
+   "value": "190376"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "type_of_management": "Government",
+   "value": "339548"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "type_of_management": "Government",
+   "value": "101342"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "type_of_management": "Government",
+   "value": "110356"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "type_of_management": "Government",
+   "value": "5044967"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "type_of_management": "Government",
+   "value": "69748"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "type_of_management": "Government",
+   "value": "2328566"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "type_of_management": "Government",
+   "value": "7739562"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "type_of_management": "Government",
+   "value": "61030"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "type_of_management": "Government",
+   "value": "4448930"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "type_of_management": "Government",
+   "value": "2623057"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "type_of_management": "Government",
+   "value": "476674"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "type_of_management": "Government",
+   "value": "793021"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Government",
+   "value": "14888715"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "type_of_management": "Government",
+   "value": "14022496"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Government Aided",
+   "value": "1725"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "101648"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "20359"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "type_of_management": "Government Aided",
+   "value": "134735"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "type_of_management": "Government Aided",
+   "value": "117602"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "type_of_management": "Government Aided",
+   "value": "8072"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "type_of_management": "Government Aided",
+   "value": "68791"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Government Aided",
+   "value": "6908"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "type_of_management": "Government Aided",
+   "value": "134510"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "type_of_management": "Government Aided",
+   "value": "200300"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "type_of_management": "Government Aided",
+   "value": "1647915"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "type_of_management": "Government Aided",
+   "value": "1823"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Government Aided",
+   "value": "128"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "type_of_management": "Government Aided",
+   "value": "284426"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "type_of_management": "Government Aided",
+   "value": "1380226"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "type_of_management": "Government Aided",
+   "value": "2479028"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "type_of_management": "Government Aided",
+   "value": "708"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "88187"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "type_of_management": "Government Aided",
+   "value": "9557438"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "type_of_management": "Government Aided",
+   "value": "23440"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "type_of_management": "Government Aided",
+   "value": "293995"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "type_of_management": "Government Aided",
+   "value": "19123"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "type_of_management": "Government Aided",
+   "value": "950139"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "type_of_management": "Government Aided",
+   "value": "19787"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "type_of_management": "Government Aided",
+   "value": "168741"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "type_of_management": "Government Aided",
+   "value": "766"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "type_of_management": "Government Aided",
+   "value": "1956522"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "type_of_management": "Government Aided",
+   "value": "71185"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "type_of_management": "Government Aided",
+   "value": "27959"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "type_of_management": "Government Aided",
+   "value": "148418"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Government Aided",
+   "value": "4502631"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "type_of_management": "Government Aided",
+   "value": "29936"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andaman & Nicobar Islands",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "17509"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "4188649"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "101704"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1703929"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "2634760"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chandigarh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "79911"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1480195"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "37746"
+  },
+  {
+   "year": "2024-25",
+   "state": "Delhi",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1684099"
+  },
+  {
+   "year": "2024-25",
+   "state": "Goa",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "32475"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "4063600"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "3172319"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "501821"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "988834"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1267216"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5439890"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1419499"
+  },
+  {
+   "year": "2024-25",
+   "state": "Ladakh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "23256"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5612161"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "6313948"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "370760"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "215292"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "112074"
+  },
+  {
+   "year": "2024-25",
+   "state": "Nagaland",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "229470"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1479674"
+  },
+  {
+   "year": "2024-25",
+   "state": "Puducherry",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "123829"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "2487373"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "7472223"
+  },
+  {
+   "year": "2024-25",
+   "state": "Sikkim",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "35010"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "5008922"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "4176120"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "127847"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1216954"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "20752079"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "type_of_management": "Private Unaided Recognized",
+   "value": "1130899"
+  },
+  {
+   "year": "2024-25",
+   "state": "Andhra Pradesh",
+   "type_of_management": "Others",
+   "value": "7424"
+  },
+  {
+   "year": "2024-25",
+   "state": "Arunachal Pradesh",
+   "type_of_management": "Others",
+   "value": "2173"
+  },
+  {
+   "year": "2024-25",
+   "state": "Assam",
+   "type_of_management": "Others",
+   "value": "116994"
+  },
+  {
+   "year": "2024-25",
+   "state": "Bihar",
+   "type_of_management": "Others",
+   "value": "867767"
+  },
+  {
+   "year": "2024-25",
+   "state": "Chhattisgarh",
+   "type_of_management": "Others",
+   "value": "5435"
+  },
+  {
+   "year": "2024-25",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "type_of_management": "Others",
+   "value": "158"
+  },
+  {
+   "year": "2024-25",
+   "state": "Gujarat",
+   "type_of_management": "Others",
+   "value": "1358"
+  },
+  {
+   "year": "2024-25",
+   "state": "Haryana",
+   "type_of_management": "Others",
+   "value": "70189"
+  },
+  {
+   "year": "2024-25",
+   "state": "Himachal Pradesh",
+   "type_of_management": "Others",
+   "value": "48"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jammu & Kashmir",
+   "type_of_management": "Others",
+   "value": "3854"
+  },
+  {
+   "year": "2024-25",
+   "state": "Jharkhand",
+   "type_of_management": "Others",
+   "value": "738898"
+  },
+  {
+   "year": "2024-25",
+   "state": "Karnataka",
+   "type_of_management": "Others",
+   "value": "475"
+  },
+  {
+   "year": "2024-25",
+   "state": "Kerala",
+   "type_of_management": "Others",
+   "value": "72639"
+  },
+  {
+   "year": "2024-25",
+   "state": "Madhya Pradesh",
+   "type_of_management": "Others",
+   "value": "38297"
+  },
+  {
+   "year": "2024-25",
+   "state": "Maharashtra",
+   "type_of_management": "Others",
+   "value": "35702"
+  },
+  {
+   "year": "2024-25",
+   "state": "Manipur",
+   "type_of_management": "Others",
+   "value": "6411"
+  },
+  {
+   "year": "2024-25",
+   "state": "Meghalaya",
+   "type_of_management": "Others",
+   "value": "29957"
+  },
+  {
+   "year": "2024-25",
+   "state": "Mizoram",
+   "type_of_management": "Others",
+   "value": "5701"
+  },
+  {
+   "year": "2024-25",
+   "state": "Odisha",
+   "type_of_management": "Others",
+   "value": "79863"
+  },
+  {
+   "year": "2024-25",
+   "state": "Punjab",
+   "type_of_management": "Others",
+   "value": "792"
+  },
+  {
+   "year": "2024-25",
+   "state": "Rajasthan",
+   "type_of_management": "Others",
+   "value": "128602"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tamil Nadu",
+   "type_of_management": "Others",
+   "value": "14150"
+  },
+  {
+   "year": "2024-25",
+   "state": "Telangana",
+   "type_of_management": "Others",
+   "value": "2079"
+  },
+  {
+   "year": "2024-25",
+   "state": "Tripura",
+   "type_of_management": "Others",
+   "value": "10252"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttarakhand",
+   "type_of_management": "Others",
+   "value": "60287"
+  },
+  {
+   "year": "2024-25",
+   "state": "Uttar Pradesh",
+   "type_of_management": "Others",
+   "value": "1257492"
+  },
+  {
+   "year": "2024-25",
+   "state": "West Bengal",
+   "type_of_management": "Others",
+   "value": "801376"
+  }
+ ]
+}
