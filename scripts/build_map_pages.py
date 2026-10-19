@@ -119,6 +119,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 .btns{{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 10px}}
 .btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:var(--on-acc)}}
 .btn.ghost{{background:var(--card);color:var(--tx2);border:1px solid var(--bd)}}
+.vint{{font-size:.9rem;color:var(--tx2);background:var(--sec);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;margin:14px 0}}
 .src{{font-size:.82rem;color:var(--mut);margin-top:10px}}
 .credit{{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}}
 .credit a{{color:var(--acc)}}
@@ -138,6 +139,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
     {interactive_btn}
     <a class="btn ghost" href="/m/index.html">All 211 maps</a>
   </div>
+  <p class="vint"><strong>Data vintage.</strong> {vintage}</p>
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
@@ -153,9 +155,26 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
         takeaway=('<div class="takeaway" id="pm-takeaway" data-en="%s">%s</div>' % (esc(m['takeaway']), esc(m['takeaway']))) if m.get('takeaway') else '',
         policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
-        swap_script=swap_script,
+        swap_script=swap_script, vintage=esc(vintage(m)[1]),
         id=esc(m['id']), interactive_btn=interactive_btn,
     )
+
+def vintage(m):
+    """(short label, sentence) saying how current the data behind a map is."""
+    src, yr = m.get('source', ''), m.get('year', '')
+    if 'NFHS' in src:
+        return ('NFHS-5, 2019-21',
+                'This map uses NFHS-5 (2019-21). NFHS-6 (2023-24) state fact sheets were released in May 2026, '
+                'but they are provisional and report fewer indicators, so the figures here have not been replaced.')
+    if 'Census' in src:
+        return ('Census 2011',
+                'This map uses the 2011 Census, the latest published count by state and district. '
+                'Populations and shares will have changed since.')
+    note = 'The figures are for %s and have not been refreshed since this map was made.' % yr if yr else \
+        'The data year is not recorded for this map.'
+    if m.get('quality') == 'UNCERTAIN':
+        note += ' It is flagged UNCERTAIN: check the source before quoting a figure.'
+    return ('Data year %s' % yr if yr else 'Data year not recorded', note)
 
 def index_page(maps):
     by_sec = {}
@@ -166,7 +185,7 @@ def index_page(maps):
         items = by_sec.get(sec, [])
         if not items:
             continue
-        lis = ''.join('<li><a href="/m/%s.html">%s</a></li>' % (esc(m['id']), esc(m['title'])) for m in items)
+        lis = ''.join('<li><a href="/m/%s.html">%s</a> <span class="vt">%s</span></li>' % (esc(m['id']), esc(m['title']), esc(vintage(m)[0])) for m in items)
         blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
     return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -193,6 +212,7 @@ ul{{list-style:none;columns:2;column-gap:28px}}
 li{{margin:5px 0;break-inside:avoid}}
 li a{{color:var(--tx2);text-decoration:none;font-size:.9rem}}
 li a:hover{{color:var(--acc)}}
+.vt{{font-size:.72rem;color:var(--mut);white-space:nowrap}}
 </style></head>
 <body>
 <div id="im-common-header"></div>
