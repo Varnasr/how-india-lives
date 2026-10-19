@@ -1,0 +1,29 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_men_overweight,Men who are overweight or obese,Andaman and Nicobar,46.1,%,2023-24,45.3,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Andhra Pradesh,41.5,%,2023-24,31.1,2019-21,10.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Arunachal Pradesh,31.8,%,2023-24,27.6,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Assam,21.1,%,2023-24,16.2,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Bihar,19.4,%,2023-24,14.7,2019-21,4.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Chandigarh,48.5,%,2023-24,34.4,2019-21,14.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Chhattisgarh,16.1,%,2023-24,15.0,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Dadra and Nagar Haveli and Daman and Diu,25.7,%,2023-24,21.4,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Goa,43.6,%,2023-24,32.6,2019-21,11.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Gujarat,29.9,%,2023-24,20.0,2019-21,9.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Haryana,33.9,%,2023-24,28.3,2019-21,5.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Jammu and Kashmir,27.1,%,2023-24,31.7,2019-21,-4.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Kerala,37.0,%,2023-24,36.4,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Ladakh,27.8,%,2023-24,37.8,2019-21,-10.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Madhya Pradesh,17.6,%,2023-24,15.6,2019-21,2.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Maharashtra,32.8,%,2023-24,24.7,2019-21,8.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Odisha,27.8,%,2023-24,22.2,2019-21,5.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Puducherry,45.9,%,2023-24,43.3,2019-21,2.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Punjab,37.5,%,2023-24,32.3,2019-21,5.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Rajasthan,19.3,%,2023-24,15.0,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Sikkim,42.6,%,2023-24,36.3,2019-21,6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Tamil Nadu,38.8,%,2023-24,37.1,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Telangana,35.5,%,2023-24,32.4,2019-21,3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Tripura,23.0,%,2023-24,23.5,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Uttar Pradesh,21.8,%,2023-24,18.5,2019-21,3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Uttarakhand,26.5,%,2023-24,27.1,2019-21,-0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,West Bengal,24.5,%,2023-24,16.2,2019-21,8.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,India (national figure as published or computed),27.3,%,2023-24,22.9,2019-21,4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

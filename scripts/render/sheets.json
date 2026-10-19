@@ -1113,5 +1113,27 @@
       "contracts",
       "economy"
     ]
+  },
+  {
+    "id": "X259",
+    "indicator": "n6_men_overweight",
+    "section": "health",
+    "file": "X259_Men_who_are_overweight_or_obese_NFHS6.png",
+    "title": "Men who are overweight or obese, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: BODY WEIGHT",
+    "subtitle": "Share of men with a body mass index of 25.0 or more, NFHS-6 (2023-24).\nChandigarh 48.5%, Chhattisgarh 16.1%. India 27.3%, from 22.9% in NFHS-5.",
+    "callout_note": "of men are overweight or obese in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Overweight or obesity affects 48.5 per cent of men in Chandigarh, 46.1 in the Andaman and Nicobar Islands and 45.9 in Puducherry, against 16.1 in Chhattisgarh, 17.6 in Madhya Pradesh and 19.3 in Rajasthan. The India figure is 27.3 per cent, up from 22.9 in NFHS-5. Chandigarh rose 14.1 points and Ladakh fell 10.0.",
+    "policy": "Body mass index counts weight for height and says nothing about diet or fitness. NFHS-6 is provisional, and 27 states and territories carry a figure here.",
+    "takeaway_hi": "अधिक वज़न या मोटापा चंडीगढ़ में 48.5 प्रतिशत, अंडमान-निकोबार में 46.1 और पुदुचेरी में 45.9 प्रतिशत पुरुषों में है, जबकि छत्तीसगढ़ में 16.1, मध्य प्रदेश में 17.6 और राजस्थान में 19.3। भारत का आँकड़ा 27.3 प्रतिशत है, NFHS-5 के 22.9 से अधिक।",
+    "title_hi": "अधिक वज़न या मोटापे वाले पुरुष, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "obesity",
+      "men",
+      "health"
+    ]
   }
 ]

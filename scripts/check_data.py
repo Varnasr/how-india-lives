@@ -236,6 +236,21 @@ def main():
               ind.get('mapId') == sh['id'],
               'mapId is %r' % ind.get('mapId'))
 
+    # ------------------------------------------------- vintage notes
+    #
+    # A map from the 2011 Census or NFHS-5 that has no newer figure in the atlas
+    # must say why. Without a note it reads as a map nobody got round to
+    # updating, when the honest reason is that the source has not been collected
+    # again or does not repeat the measure.
+    generated = {sh['id'] for sh in sheets}
+    for m in maps:
+        if m['id'] in generated:
+            continue
+        old = m.get('source') == 'Census 2011' or 'NFHS' in m.get('source', '')
+        if old and not m.get('newer'):
+            check('map %s carries a data note saying why it has not been updated' % m['id'],
+                  len(m.get('data_note', '')) >= 40, 'add data_note to data/maps.json')
+
     # ---------------------------------------------------------------- report
     if errors:
         print('FAIL: %d of %d checks' % (len(errors), checks))

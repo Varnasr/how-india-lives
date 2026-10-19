@@ -1307,6 +1307,80 @@ gsva_services,Services Share of State Output,Tripura,44.2,% of gross state value
 gsva_services,Services Share of State Output,Uttar Pradesh,47.0,% of gross state value added,2024-25,48.4,2022-23,-1.4,,"MoSPI (National Accounts, state series)",https://mospi.gov.in/national-accounts-statistics,2026-10-19
 gsva_services,Services Share of State Output,Uttarakhand,49.5,% of gross state value added,2024-25,47.1,2022-23,2.4,,"MoSPI (National Accounts, state series)",https://mospi.gov.in/national-accounts-statistics,2026-10-19
 gsva_services,Services Share of State Output,West Bengal,57.6,% of gross state value added,2024-25,55.6,2022-23,2.0,,"MoSPI (National Accounts, state series)",https://mospi.gov.in/national-accounts-statistics,2026-10-19
+udise_private_share,Private School Enrolment Share,Andaman and Nicobar,28.4,"% of enrolment, classes 1-12",2024-25,26.4,2022-23,2.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Andhra Pradesh,53.0,"% of enrolment, classes 1-12",2024-25,45.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Arunachal Pradesh,35.5,"% of enrolment, classes 1-12",2024-25,26.1,2022-23,9.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Assam,26.0,"% of enrolment, classes 1-12",2024-25,18.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Bihar,12.7,"% of enrolment, classes 1-12",2024-25,10.5,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Chandigarh,35.9,"% of enrolment, classes 1-12",2024-25,31.5,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Chhattisgarh,27.8,"% of enrolment, classes 1-12",2024-25,23.9,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Dadra and Nagar Haveli and Daman and Diu,28.4,"% of enrolment, classes 1-12",2024-25,26.0,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Delhi,40.3,"% of enrolment, classes 1-12",2024-25,35.3,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Goa,12.0,"% of enrolment, classes 1-12",2024-25,11.4,2022-23,0.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Gujarat,38.5,"% of enrolment, classes 1-12",2024-25,36.6,2022-23,1.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Haryana,59.1,"% of enrolment, classes 1-12",2024-25,54.1,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Himachal Pradesh,40.7,"% of enrolment, classes 1-12",2024-25,35.7,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Jammu and Kashmir,44.9,"% of enrolment, classes 1-12",2024-25,42.0,2022-23,2.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Jharkhand,17.8,"% of enrolment, classes 1-12",2024-25,15.4,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Karnataka,47.2,"% of enrolment, classes 1-12",2024-25,43.3,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Kerala,25.5,"% of enrolment, classes 1-12",2024-25,22.7,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Ladakh,50.4,"% of enrolment, classes 1-12",2024-25,48.6,2022-23,1.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Lakshadweep,0.0,"% of enrolment, classes 1-12",2024-25,0.0,2022-23,0.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Madhya Pradesh,40.6,"% of enrolment, classes 1-12",2024-25,36.2,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Maharashtra,30.1,"% of enrolment, classes 1-12",2024-25,27.3,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Manipur,62.7,"% of enrolment, classes 1-12",2024-25,60.3,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Meghalaya,24.5,"% of enrolment, classes 1-12",2024-25,21.9,2022-23,2.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Mizoram,47.0,"% of enrolment, classes 1-12",2024-25,42.1,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Nagaland,67.5,"% of enrolment, classes 1-12",2024-25,64.5,2022-23,3.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Odisha,19.6,"% of enrolment, classes 1-12",2024-25,17.4,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Puducherry,58.0,"% of enrolment, classes 1-12",2024-25,53.3,2022-23,4.7,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Punjab,49.9,"% of enrolment, classes 1-12",2024-25,46.8,2022-23,3.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Rajasthan,48.7,"% of enrolment, classes 1-12",2024-25,44.1,2022-23,4.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Sikkim,36.2,"% of enrolment, classes 1-12",2024-25,29.4,2022-23,6.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Tamil Nadu,43.8,"% of enrolment, classes 1-12",2024-25,39.6,2022-23,4.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Telangana,60.8,"% of enrolment, classes 1-12",2024-25,53.8,2022-23,7.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Tripura,19.9,"% of enrolment, classes 1-12",2024-25,16.3,2022-23,3.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Uttar Pradesh,50.1,"% of enrolment, classes 1-12",2024-25,40.8,2022-23,9.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Uttarakhand,54.9,"% of enrolment, classes 1-12",2024-25,48.8,2022-23,6.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,West Bengal,7.1,"% of enrolment, classes 1-12",2024-25,5.8,2022-23,1.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,India (national figure as published or computed),36.8,"% of enrolment, classes 1-12",2024-25,31.9,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Andaman and Nicobar,42.0,% of regular wage and salaried employees,2023-24,42.3,2022-23,-0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Andhra Pradesh,60.5,% of regular wage and salaried employees,2023-24,60.1,2022-23,0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Arunachal Pradesh,10.0,% of regular wage and salaried employees,2023-24,10.7,2022-23,-0.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Assam,45.5,% of regular wage and salaried employees,2023-24,47.0,2022-23,-1.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Bihar,63.9,% of regular wage and salaried employees,2023-24,53.8,2022-23,10.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Chandigarh,32.1,% of regular wage and salaried employees,2023-24,40.7,2022-23,-8.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Chhattisgarh,67.6,% of regular wage and salaried employees,2023-24,68.9,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Dadra and Nagar Haveli and Daman and Diu,58.0,% of regular wage and salaried employees,2023-24,70.1,2022-23,-12.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Delhi,60.3,% of regular wage and salaried employees,2023-24,66.7,2022-23,-6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Goa,25.2,% of regular wage and salaried employees,2023-24,20.7,2022-23,4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Gujarat,71.9,% of regular wage and salaried employees,2023-24,74.0,2022-23,-2.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Haryana,59.3,% of regular wage and salaried employees,2023-24,64.2,2022-23,-4.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Himachal Pradesh,42.3,% of regular wage and salaried employees,2023-24,38.6,2022-23,3.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Jammu and Kashmir,43.0,% of regular wage and salaried employees,2023-24,46.9,2022-23,-3.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Jharkhand,51.7,% of regular wage and salaried employees,2023-24,53.9,2022-23,-2.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Karnataka,35.4,% of regular wage and salaried employees,2023-24,40.9,2022-23,-5.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Kerala,51.5,% of regular wage and salaried employees,2023-24,52.8,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Ladakh,21.9,% of regular wage and salaried employees,2023-24,25.4,2022-23,-3.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Lakshadweep,20.8,% of regular wage and salaried employees,2023-24,9.4,2022-23,11.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Madhya Pradesh,54.1,% of regular wage and salaried employees,2023-24,55.3,2022-23,-1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Maharashtra,64.0,% of regular wage and salaried employees,2023-24,62.9,2022-23,1.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Manipur,24.7,% of regular wage and salaried employees,2023-24,22.9,2022-23,1.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Meghalaya,30.2,% of regular wage and salaried employees,2023-24,35.4,2022-23,-5.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Mizoram,11.4,% of regular wage and salaried employees,2023-24,10.2,2022-23,1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Nagaland,12.5,% of regular wage and salaried employees,2023-24,19.4,2022-23,-6.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Odisha,48.0,% of regular wage and salaried employees,2023-24,47.7,2022-23,0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Puducherry,50.1,% of regular wage and salaried employees,2023-24,54.6,2022-23,-4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Punjab,84.5,% of regular wage and salaried employees,2023-24,81.7,2022-23,2.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Rajasthan,77.1,% of regular wage and salaried employees,2023-24,73.7,2022-23,3.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Sikkim,21.7,% of regular wage and salaried employees,2023-24,30.2,2022-23,-8.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Tamil Nadu,50.4,% of regular wage and salaried employees,2023-24,52.7,2022-23,-2.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Telangana,47.2,% of regular wage and salaried employees,2023-24,40.8,2022-23,6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Tripura,42.6,% of regular wage and salaried employees,2023-24,46.9,2022-23,-4.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Uttar Pradesh,60.0,% of regular wage and salaried employees,2023-24,63.1,2022-23,-3.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,Uttarakhand,48.3,% of regular wage and salaried employees,2023-24,48.7,2022-23,-0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,West Bengal,57.3,% of regular wage and salaried employees,2023-24,58.7,2022-23,-1.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
+plfs_no_contract,Regular Employees with No Written Contract,India (national figure as published or computed),58.0,% of regular wage and salaried employees,2023-24,58.6,2022-23,-0.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
 n6_stunting,Children under 5 who are stunted,Andaman and Nicobar,26.7,%,2023-24,22.5,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_stunting,Children under 5 who are stunted,Andhra Pradesh,24.6,%,2023-24,31.2,2019-21,-6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_stunting,Children under 5 who are stunted,Arunachal Pradesh,24.1,%,2023-24,28.0,2019-21,-3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
@@ -1612,6 +1686,34 @@ n6_women_overweight,Women who are overweight or obese,Uttar Pradesh,26.7,%,2023-
 n6_women_overweight,Women who are overweight or obese,Uttarakhand,34.3,%,2023-24,29.8,2019-21,4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_overweight,Women who are overweight or obese,West Bengal,34.6,%,2023-24,22.7,2019-21,11.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_overweight,Women who are overweight or obese,India (national figure as published or computed),30.7,%,2023-24,24.0,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Andaman and Nicobar,46.1,%,2023-24,45.3,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Andhra Pradesh,41.5,%,2023-24,31.1,2019-21,10.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Arunachal Pradesh,31.8,%,2023-24,27.6,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Assam,21.1,%,2023-24,16.2,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Bihar,19.4,%,2023-24,14.7,2019-21,4.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Chandigarh,48.5,%,2023-24,34.4,2019-21,14.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Chhattisgarh,16.1,%,2023-24,15.0,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Dadra and Nagar Haveli and Daman and Diu,25.7,%,2023-24,21.4,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Goa,43.6,%,2023-24,32.6,2019-21,11.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Gujarat,29.9,%,2023-24,20.0,2019-21,9.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Haryana,33.9,%,2023-24,28.3,2019-21,5.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Jammu and Kashmir,27.1,%,2023-24,31.7,2019-21,-4.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Kerala,37.0,%,2023-24,36.4,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Ladakh,27.8,%,2023-24,37.8,2019-21,-10.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Madhya Pradesh,17.6,%,2023-24,15.6,2019-21,2.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Maharashtra,32.8,%,2023-24,24.7,2019-21,8.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Odisha,27.8,%,2023-24,22.2,2019-21,5.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Puducherry,45.9,%,2023-24,43.3,2019-21,2.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Punjab,37.5,%,2023-24,32.3,2019-21,5.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Rajasthan,19.3,%,2023-24,15.0,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Sikkim,42.6,%,2023-24,36.3,2019-21,6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Tamil Nadu,38.8,%,2023-24,37.1,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Telangana,35.5,%,2023-24,32.4,2019-21,3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Tripura,23.0,%,2023-24,23.5,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Uttar Pradesh,21.8,%,2023-24,18.5,2019-21,3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,Uttarakhand,26.5,%,2023-24,27.1,2019-21,-0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,West Bengal,24.5,%,2023-24,16.2,2019-21,8.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_men_overweight,Men who are overweight or obese,India (national figure as published or computed),27.3,%,2023-24,22.9,2019-21,4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_sugar,Women with high blood sugar,Andaman and Nicobar,20.5,%,2023-24,17.5,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_sugar,Women with high blood sugar,Andhra Pradesh,21.8,%,2023-24,19.5,2019-21,2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_sugar,Women with high blood sugar,Arunachal Pradesh,11.2,%,2023-24,8.4,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
@@ -2206,77 +2308,3 @@ n6_women_internet,Women who have ever used the internet,Uttar Pradesh,70.0,%,202
 n6_women_internet,Women who have ever used the internet,Uttarakhand,76.9,%,2023-24,45.1,2019-21,31.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_internet,Women who have ever used the internet,West Bengal,59.3,%,2023-24,25.5,2019-21,33.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
 n6_women_internet,Women who have ever used the internet,India (national figure as published or computed),64.3,%,2023-24,33.3,2019-21,31.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Andaman and Nicobar,28.4,"% of enrolment, classes 1-12",2024-25,26.4,2022-23,2.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Andhra Pradesh,53.0,"% of enrolment, classes 1-12",2024-25,45.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Arunachal Pradesh,35.5,"% of enrolment, classes 1-12",2024-25,26.1,2022-23,9.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Assam,26.0,"% of enrolment, classes 1-12",2024-25,18.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Bihar,12.7,"% of enrolment, classes 1-12",2024-25,10.5,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Chandigarh,35.9,"% of enrolment, classes 1-12",2024-25,31.5,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Chhattisgarh,27.8,"% of enrolment, classes 1-12",2024-25,23.9,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Dadra and Nagar Haveli and Daman and Diu,28.4,"% of enrolment, classes 1-12",2024-25,26.0,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Delhi,40.3,"% of enrolment, classes 1-12",2024-25,35.3,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Goa,12.0,"% of enrolment, classes 1-12",2024-25,11.4,2022-23,0.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Gujarat,38.5,"% of enrolment, classes 1-12",2024-25,36.6,2022-23,1.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Haryana,59.1,"% of enrolment, classes 1-12",2024-25,54.1,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Himachal Pradesh,40.7,"% of enrolment, classes 1-12",2024-25,35.7,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Jammu and Kashmir,44.9,"% of enrolment, classes 1-12",2024-25,42.0,2022-23,2.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Jharkhand,17.8,"% of enrolment, classes 1-12",2024-25,15.4,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Karnataka,47.2,"% of enrolment, classes 1-12",2024-25,43.3,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Kerala,25.5,"% of enrolment, classes 1-12",2024-25,22.7,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Ladakh,50.4,"% of enrolment, classes 1-12",2024-25,48.6,2022-23,1.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Lakshadweep,0.0,"% of enrolment, classes 1-12",2024-25,0.0,2022-23,0.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Madhya Pradesh,40.6,"% of enrolment, classes 1-12",2024-25,36.2,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Maharashtra,30.1,"% of enrolment, classes 1-12",2024-25,27.3,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Manipur,62.7,"% of enrolment, classes 1-12",2024-25,60.3,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Meghalaya,24.5,"% of enrolment, classes 1-12",2024-25,21.9,2022-23,2.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Mizoram,47.0,"% of enrolment, classes 1-12",2024-25,42.1,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Nagaland,67.5,"% of enrolment, classes 1-12",2024-25,64.5,2022-23,3.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Odisha,19.6,"% of enrolment, classes 1-12",2024-25,17.4,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Puducherry,58.0,"% of enrolment, classes 1-12",2024-25,53.3,2022-23,4.7,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Punjab,49.9,"% of enrolment, classes 1-12",2024-25,46.8,2022-23,3.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Rajasthan,48.7,"% of enrolment, classes 1-12",2024-25,44.1,2022-23,4.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Sikkim,36.2,"% of enrolment, classes 1-12",2024-25,29.4,2022-23,6.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Tamil Nadu,43.8,"% of enrolment, classes 1-12",2024-25,39.6,2022-23,4.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Telangana,60.8,"% of enrolment, classes 1-12",2024-25,53.8,2022-23,7.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Tripura,19.9,"% of enrolment, classes 1-12",2024-25,16.3,2022-23,3.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Uttar Pradesh,50.1,"% of enrolment, classes 1-12",2024-25,40.8,2022-23,9.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,Uttarakhand,54.9,"% of enrolment, classes 1-12",2024-25,48.8,2022-23,6.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,West Bengal,7.1,"% of enrolment, classes 1-12",2024-25,5.8,2022-23,1.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_private_share,Private School Enrolment Share,India (national figure as published or computed),36.8,"% of enrolment, classes 1-12",2024-25,31.9,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Andaman and Nicobar,42.0,% of regular wage and salaried employees,2023-24,42.3,2022-23,-0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Andhra Pradesh,60.5,% of regular wage and salaried employees,2023-24,60.1,2022-23,0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Arunachal Pradesh,10.0,% of regular wage and salaried employees,2023-24,10.7,2022-23,-0.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Assam,45.5,% of regular wage and salaried employees,2023-24,47.0,2022-23,-1.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Bihar,63.9,% of regular wage and salaried employees,2023-24,53.8,2022-23,10.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Chandigarh,32.1,% of regular wage and salaried employees,2023-24,40.7,2022-23,-8.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Chhattisgarh,67.6,% of regular wage and salaried employees,2023-24,68.9,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Dadra and Nagar Haveli and Daman and Diu,58.0,% of regular wage and salaried employees,2023-24,70.1,2022-23,-12.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Delhi,60.3,% of regular wage and salaried employees,2023-24,66.7,2022-23,-6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Goa,25.2,% of regular wage and salaried employees,2023-24,20.7,2022-23,4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Gujarat,71.9,% of regular wage and salaried employees,2023-24,74.0,2022-23,-2.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Haryana,59.3,% of regular wage and salaried employees,2023-24,64.2,2022-23,-4.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Himachal Pradesh,42.3,% of regular wage and salaried employees,2023-24,38.6,2022-23,3.7,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Jammu and Kashmir,43.0,% of regular wage and salaried employees,2023-24,46.9,2022-23,-3.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Jharkhand,51.7,% of regular wage and salaried employees,2023-24,53.9,2022-23,-2.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Karnataka,35.4,% of regular wage and salaried employees,2023-24,40.9,2022-23,-5.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Kerala,51.5,% of regular wage and salaried employees,2023-24,52.8,2022-23,-1.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Ladakh,21.9,% of regular wage and salaried employees,2023-24,25.4,2022-23,-3.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Lakshadweep,20.8,% of regular wage and salaried employees,2023-24,9.4,2022-23,11.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Madhya Pradesh,54.1,% of regular wage and salaried employees,2023-24,55.3,2022-23,-1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Maharashtra,64.0,% of regular wage and salaried employees,2023-24,62.9,2022-23,1.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Manipur,24.7,% of regular wage and salaried employees,2023-24,22.9,2022-23,1.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Meghalaya,30.2,% of regular wage and salaried employees,2023-24,35.4,2022-23,-5.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Mizoram,11.4,% of regular wage and salaried employees,2023-24,10.2,2022-23,1.2,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Nagaland,12.5,% of regular wage and salaried employees,2023-24,19.4,2022-23,-6.9,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Odisha,48.0,% of regular wage and salaried employees,2023-24,47.7,2022-23,0.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Puducherry,50.1,% of regular wage and salaried employees,2023-24,54.6,2022-23,-4.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Punjab,84.5,% of regular wage and salaried employees,2023-24,81.7,2022-23,2.8,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Rajasthan,77.1,% of regular wage and salaried employees,2023-24,73.7,2022-23,3.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Sikkim,21.7,% of regular wage and salaried employees,2023-24,30.2,2022-23,-8.5,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Tamil Nadu,50.4,% of regular wage and salaried employees,2023-24,52.7,2022-23,-2.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Telangana,47.2,% of regular wage and salaried employees,2023-24,40.8,2022-23,6.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Tripura,42.6,% of regular wage and salaried employees,2023-24,46.9,2022-23,-4.3,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Uttar Pradesh,60.0,% of regular wage and salaried employees,2023-24,63.1,2022-23,-3.1,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,Uttarakhand,48.3,% of regular wage and salaried employees,2023-24,48.7,2022-23,-0.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,West Bengal,57.3,% of regular wage and salaried employees,2023-24,58.7,2022-23,-1.4,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19
-plfs_no_contract,Regular Employees with No Written Contract,India (national figure as published or computed),58.0,% of regular wage and salaried employees,2023-24,58.6,2022-23,-0.6,,PLFS annual (MoSPI),https://mospi.gov.in/,2026-10-19

@@ -33,7 +33,8 @@
       "access"
     ],
     "title_hi": "टेलीविज़न वाले परिवार",
-    "takeaway_hi": "90%+ शहरी परिवारों के पास टीवी है; ग्रामीण बिहार में 50% से कम।"
+    "takeaway_hi": "90%+ शहरी परिवारों के पास टीवी है; ग्रामीण बिहार में 50% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X168",
@@ -87,7 +88,8 @@
       "gender"
     ],
     "title_hi": "महिलाओं का मीडिया संपर्क अंतर, टीवी बनाम प्रिंट",
-    "takeaway_hi": "महिलाओं का मीडिया संपर्क अंतर (टीवी बनाम प्रिंट) बिहार में सबसे अधिक है — महिलाएँ टीवी देखती हैं पर अखबार नहीं पढ़तीं।"
+    "takeaway_hi": "महिलाओं का मीडिया संपर्क अंतर (टीवी बनाम प्रिंट) बिहार में सबसे अधिक है — महिलाएँ टीवी देखती हैं पर अखबार नहीं पढ़तीं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X171",
@@ -105,7 +107,8 @@
       "economy"
     ],
     "title_hi": "पक्के मकान",
-    "takeaway_hi": "केरल में 90% से अधिक परिवार पक्के मकानों में रहते हैं; असम में 40% से कम।"
+    "takeaway_hi": "केरल में 90% से अधिक परिवार पक्के मकानों में रहते हैं; असम में 40% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X172",
@@ -267,7 +270,8 @@
       "reporting gap"
     ],
     "title_hi": "घरेलू हिंसा FIR दर बनाम अनुभव",
-    "takeaway_hi": "कई राज्यों में, घरेलू हिंसा के लिए FIR दर्ज कराने की दर उसका अनुभव बताने वाली महिलाओं की 5% से कम है।"
+    "takeaway_hi": "कई राज्यों में, घरेलू हिंसा के लिए FIR दर्ज कराने की दर उसका अनुभव बताने वाली महिलाओं की 5% से कम है।",
+    "data_note": "This map sets NFHS-5 survey experience against police-recorded cases. NFHS-6 reports spousal violence overall (map X216), and the FIR comparison has not been redone, so the figures remain as made."
   },
   {
     "id": "X181",
@@ -377,7 +381,8 @@
       "children"
     ],
     "title_hi": "दस्त से पीड़ित बच्चों को ज़िंक",
-    "takeaway_hi": "देशभर में दस्त से पीड़ित केवल 30% बच्चों को ही ज़िंक उपचार मिलता है — एक सस्ता जीवनरक्षक जिसका कम उपयोग होता है।"
+    "takeaway_hi": "देशभर में दस्त से पीड़ित केवल 30% बच्चों को ही ज़िंक उपचार मिलता है — एक सस्ता जीवनरक्षक जिसका कम उपयोग होता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X187",
@@ -395,7 +400,8 @@
       "nutrition"
     ],
     "title_hi": "किशोरी एनीमिया, लड़कियाँ 15-19",
-    "takeaway_hi": "किशोरियों (15-19) में एनीमिया झारखंड और बिहार में 60% से अधिक है।"
+    "takeaway_hi": "किशोरियों (15-19) में एनीमिया झारखंड और बिहार में 60% से अधिक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X188",
@@ -450,7 +456,8 @@
       "health"
     ],
     "title_hi": "साबुन से हाथ धोने की सुविधा वाले परिवार",
-    "takeaway_hi": "साबुन से हाथ धोने की सुविधा केरल के 80%+ घरों में मौजूद है, लेकिन ओडिशा में 30% से कम में।"
+    "takeaway_hi": "साबुन से हाथ धोने की सुविधा केरल के 80%+ घरों में मौजूद है, लेकिन ओडिशा में 30% से कम में।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X191",
@@ -468,7 +475,8 @@
       "sanitation"
     ],
     "title_hi": "अब भी जारी खुले में शौच",
-    "takeaway_hi": "खुले में शौच एसबीएम के तहत नाटकीय रूप से घटा है, लेकिन बिहार और झारखंड के कुछ हिस्सों में 10-30% पर अब भी जारी है।"
+    "takeaway_hi": "खुले में शौच एसबीएम के तहत नाटकीय रूप से घटा है, लेकिन बिहार और झारखंड के कुछ हिस्सों में 10-30% पर अब भी जारी है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X192",
@@ -486,7 +494,8 @@
       "WASH"
     ],
     "title_hi": "बिना शौचालय सुविधा वाले परिवार",
-    "takeaway_hi": "राष्ट्रीय अभियानों के बावजूद पूर्वी और पूर्वोत्तर भारत में बिना शौचालय सुविधा वाले परिवार अब भी बने हुए हैं।"
+    "takeaway_hi": "राष्ट्रीय अभियानों के बावजूद पूर्वी और पूर्वोत्तर भारत में बिना शौचालय सुविधा वाले परिवार अब भी बने हुए हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "X193",
@@ -630,7 +639,8 @@
       "education"
     ],
     "title_hi": "व्यावहारिक अंग्रेज़ी प्रवाह",
-    "takeaway_hi": "पूर्वोत्तर राज्यों और केरल में व्यावहारिक अंग्रेज़ी प्रवाह 30%+ है, पर हिंदी पट्टी में 5% से कम।"
+    "takeaway_hi": "पूर्वोत्तर राज्यों और केरल में व्यावहारिक अंग्रेज़ी प्रवाह 30%+ है, पर हिंदी पट्टी में 5% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X201",
@@ -648,7 +658,8 @@
       "economy"
     ],
     "title_hi": "कार, जीप या वैन वाले परिवार",
-    "takeaway_hi": "दिल्ली के 20%+ परिवारों के पास कार है; बिहार में 2% से कम।"
+    "takeaway_hi": "दिल्ली के 20%+ परिवारों के पास कार है; बिहार में 2% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "X202",
@@ -739,7 +750,8 @@
       "age structure"
     ],
     "title_hi": "राज्यवार औसत आयु",
-    "takeaway_hi": "केरल की औसत आयु 33 वर्ष है; बिहार की 20 — 13 वर्ष का अंतर जो स्कूलों की माँग से लेकर पेंशन के बोझ तक सब कुछ तय करता है।"
+    "takeaway_hi": "केरल की औसत आयु 33 वर्ष है; बिहार की 20 — 13 वर्ष का अंतर जो स्कूलों की माँग से लेकर पेंशन के बोझ तक सब कुछ तय करता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00b",
@@ -757,7 +769,8 @@
       "demography"
     ],
     "title_hi": "लिंगानुपात — प्रति 1,000 पुरुष पर महिलाएँ",
-    "takeaway_hi": "केरल में प्रति 1,000 पुरुषों पर 1,084 महिलाएँ हैं; हरियाणा में 879 — 205 का अंतर जो दशकों की पुत्र-वरीयता दर्शाता है।"
+    "takeaway_hi": "केरल में प्रति 1,000 पुरुषों पर 1,084 महिलाएँ हैं; हरियाणा में 879 — 205 का अंतर जो दशकों की पुत्र-वरीयता दर्शाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00c",
@@ -775,7 +788,8 @@
       "demography"
     ],
     "title_hi": "बाल लिंगानुपात (0-6 वर्ष) — प्रति 1,000 लड़कों पर लड़कियाँ",
-    "takeaway_hi": "पंजाब और हरियाणा का बाल लिंगानुपात (6 वर्ष से कम) दुनिया में सबसे खराब में से है — प्रति 1,000 लड़कों पर 900 से कम लड़कियाँ।"
+    "takeaway_hi": "पंजाब और हरियाणा का बाल लिंगानुपात (6 वर्ष से कम) दुनिया में सबसे खराब में से है — प्रति 1,000 लड़कों पर 900 से कम लड़कियाँ।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00d",
@@ -793,7 +807,8 @@
       "demography"
     ],
     "title_hi": "प्रति लाख ट्रांसजेंडर जनसंख्या",
-    "takeaway_hi": "केरल और तमिलनाडु प्रति लाख सबसे अधिक ट्रांसजेंडर जनसंख्या दर्ज करते हैं — जहाँ सामाजिक आंदोलन अधिक मजबूत हैं।"
+    "takeaway_hi": "केरल और तमिलनाडु प्रति लाख सबसे अधिक ट्रांसजेंडर जनसंख्या दर्ज करते हैं — जहाँ सामाजिक आंदोलन अधिक मजबूत हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00e",
@@ -811,7 +826,8 @@
       "fertility"
     ],
     "title_hi": "दशकीय जनसंख्या वृद्धि दर 2001-2011",
-    "takeaway_hi": "बिहार और मेघालय 2001-2011 में 25%+ बढ़े; केरल और गोवा 5% से कम — भारत का जनसांख्यिकीय संक्रमण असमान है।"
+    "takeaway_hi": "बिहार और मेघालय 2001-2011 में 25%+ बढ़े; केरल और गोवा 5% से कम — भारत का जनसांख्यिकीय संक्रमण असमान है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00f",
@@ -829,7 +845,8 @@
       "family"
     ],
     "title_hi": "औसत घरेलू आकार",
-    "takeaway_hi": "उत्तर प्रदेश में प्रति घर औसतन 6.1 व्यक्ति; गोवा में 3.7 — संयुक्त बनाम एकल परिवार की झलक।"
+    "takeaway_hi": "उत्तर प्रदेश में प्रति घर औसतन 6.1 व्यक्ति; गोवा में 3.7 — संयुक्त बनाम एकल परिवार की झलक।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00g",
@@ -847,7 +864,8 @@
       "workforce"
     ],
     "title_hi": "निर्भरता अनुपात",
-    "takeaway_hi": "बिहार का निर्भरता अनुपात 80 से अधिक; गोवा का 40 से कम — बिहार में प्रति कामगार दोगुने आश्रित।"
+    "takeaway_hi": "बिहार का निर्भरता अनुपात 80 से अधिक; गोवा का 40 से कम — बिहार में प्रति कामगार दोगुने आश्रित।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00h",
@@ -865,7 +883,8 @@
       "age"
     ],
     "title_hi": "15 वर्ष से कम जनसंख्या का हिस्सा",
-    "takeaway_hi": "बिहार में 40% जनसंख्या 15 वर्ष से कम है; केरल में 22% — दो बिल्कुल अलग भारत।"
+    "takeaway_hi": "बिहार में 40% जनसंख्या 15 वर्ष से कम है; केरल में 22% — दो बिल्कुल अलग भारत।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00i",
@@ -883,7 +902,8 @@
       "demography"
     ],
     "title_hi": "60 वर्ष से अधिक जनसंख्या का हिस्सा",
-    "takeaway_hi": "केरल में 16% जनसंख्या 60 वर्ष से अधिक; बिहार में 7% — केरल यूरोपीय गति से पर भारतीय आय पर बूढ़ा हो रहा है।"
+    "takeaway_hi": "केरल में 16% जनसंख्या 60 वर्ष से अधिक; बिहार में 7% — केरल यूरोपीय गति से पर भारतीय आय पर बूढ़ा हो रहा है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00j",
@@ -901,7 +921,8 @@
       "demography"
     ],
     "title_hi": "कामकाजी आयु (15-59) जनसंख्या का हिस्सा",
-    "takeaway_hi": "दक्षिणी और पश्चिमी राज्यों में 65%+ कामकाजी-आयु जनसंख्या — जनसांख्यिकीय लाभांश की खिड़की बंद हो रही है।"
+    "takeaway_hi": "दक्षिणी और पश्चिमी राज्यों में 65%+ कामकाजी-आयु जनसंख्या — जनसांख्यिकीय लाभांश की खिड़की बंद हो रही है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00k",
@@ -937,7 +958,8 @@
       "labour"
     ],
     "title_hi": "प्रति 1,000 जनसंख्या पर शुद्ध प्रवासन दर",
-    "takeaway_hi": "बिहार और उत्तर प्रदेश लोगों के शुद्ध निर्यातक हैं; महाराष्ट्र और दिल्ली आयातक — प्रवासन आर्थिक अवसर का मानचित्र है।"
+    "takeaway_hi": "बिहार और उत्तर प्रदेश लोगों के शुद्ध निर्यातक हैं; महाराष्ट्र और दिल्ली आयातक — प्रवासन आर्थिक अवसर का मानचित्र है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S00m",
@@ -955,7 +977,8 @@
       "demography"
     ],
     "title_hi": "शहरी जनसंख्या में झुग्गीवासियों का %",
-    "takeaway_hi": "महाराष्ट्र की 40%+ शहरी जनसंख्या झुग्गियों में रहती है; कई पूर्वोत्तर राज्यों में यह लगभग शून्य है।"
+    "takeaway_hi": "महाराष्ट्र की 40%+ शहरी जनसंख्या झुग्गियों में रहती है; कई पूर्वोत्तर राज्यों में यह लगभग शून्य है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01a",
@@ -973,7 +996,8 @@
       "culture"
     ],
     "title_hi": "मातृभाषा के रूप में हिंदी",
-    "takeaway_hi": "उत्तर प्रदेश/मध्य प्रदेश में 80%+ लोगों की मातृभाषा हिंदी है, पर तमिलनाडु और केरल में 1% से भी कम — यही भारत का भाषाई विभाजन है।"
+    "takeaway_hi": "उत्तर प्रदेश/मध्य प्रदेश में 80%+ लोगों की मातृभाषा हिंदी है, पर तमिलनाडु और केरल में 1% से भी कम — यही भारत का भाषाई विभाजन है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01b",
@@ -991,7 +1015,8 @@
       "rural"
     ],
     "title_hi": "शहरी आबादी का हिस्सा",
-    "takeaway_hi": "तमिलनाडु 48% शहरी है; बिहार 11% — शहरीकरण का यह अंतर लगभग पाँच गुना है।"
+    "takeaway_hi": "तमिलनाडु 48% शहरी है; बिहार 11% — शहरीकरण का यह अंतर लगभग पाँच गुना है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01c",
@@ -1009,7 +1034,8 @@
       "food"
     ],
     "title_hi": "शाकाहारी आबादी का हिस्सा",
-    "takeaway_hi": "राजस्थान और गुजरात 60%+ शाकाहारी हैं; बंगाल और केरल में 5% से भी कम — भारत का खान-पान का नक्शा रूढ़िवादी धारणाओं को झुठलाता है।"
+    "takeaway_hi": "राजस्थान और गुजरात 60%+ शाकाहारी हैं; बंगाल और केरल में 5% से भी कम — भारत का खान-पान का नक्शा रूढ़िवादी धारणाओं को झुठलाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01d",
@@ -1081,7 +1107,8 @@
       "culture"
     ],
     "title_hi": "स्नातक डिग्रीधारक (20+ वयस्कों का %)",
-    "takeaway_hi": "दिल्ली में 35%+ वयस्कों के पास स्नातक डिग्री है; बिहार में यह 10% से कम है।"
+    "takeaway_hi": "दिल्ली में 35%+ वयस्कों के पास स्नातक डिग्री है; बिहार में यह 10% से कम है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S01h",
@@ -1191,7 +1218,8 @@
       "nutrition"
     ],
     "title_hi": "5+ खाद्य समूह खाने वाली महिलाएँ (आहार विविधता)",
-    "takeaway_hi": "भारत में केवल 25% महिलाएँ रोज़ाना 5+ खाद्य समूह खाती हैं — अधिकांश राज्यों में आहार विविधता एक विलासिता है।"
+    "takeaway_hi": "भारत में केवल 25% महिलाएँ रोज़ाना 5+ खाद्य समूह खाती हैं — अधिकांश राज्यों में आहार विविधता एक विलासिता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S01n",
@@ -1209,7 +1237,8 @@
       "culture"
     ],
     "title_hi": "भाषाई विविधता (अनुसूचित भाषाएँ)",
-    "takeaway_hi": "अरुणाचल प्रदेश में 30+ अनुसूचित भाषाएँ हैं; हिंदी पट्टी के राज्यों में 1-2 — भाषाई विविधता बेहद असमान है।"
+    "takeaway_hi": "अरुणाचल प्रदेश में 30+ अनुसूचित भाषाएँ हैं; हिंदी पट्टी के राज्यों में 1-2 — भाषाई विविधता बेहद असमान है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S02a",
@@ -1410,7 +1439,8 @@
       "energy"
     ],
     "title_hi": "प्राथमिक रसोई ईंधन के रूप में LPG",
-    "takeaway_hi": "दिल्ली के 98% परिवार LPG इस्तेमाल करते हैं; बिहार में उज्ज्वला के बावजूद यह 40% से कम है — किफायत न होना अपनाने में बाधक है।"
+    "takeaway_hi": "दिल्ली के 98% परिवार LPG इस्तेमाल करते हैं; बिहार में उज्ज्वला के बावजूद यह 40% से कम है — किफायत न होना अपनाने में बाधक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S02l",
@@ -1500,7 +1530,8 @@
       "economy"
     ],
     "title_hi": "पक्के मकान",
-    "takeaway_hi": "केरल के 90%+ परिवार पक्के मकानों में रहते हैं; असम और बिहार में यह 50% से कम है।"
+    "takeaway_hi": "केरल के 90%+ परिवार पक्के मकानों में रहते हैं; असम और बिहार में यह 50% से कम है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S03a",
@@ -1537,7 +1568,8 @@
       "nutrition"
     ],
     "title_hi": "महिलाओं में एनीमिया, 15-49",
-    "takeaway_hi": "झारखंड और बिहार में 65% से अधिक महिलाएँ एनीमिया से पीड़ित हैं, जबकि मणिपुर में 33%।"
+    "takeaway_hi": "झारखंड और बिहार में 65% से अधिक महिलाएँ एनीमिया से पीड़ित हैं, जबकि मणिपुर में 33%।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03c",
@@ -1555,7 +1587,8 @@
       "health"
     ],
     "title_hi": "कार्यशील शौचालय वाले परिवार",
-    "takeaway_hi": "केरल के 97% परिवारों के पास कार्यशील शौचालय है; बिहार में यह हाल तक 40% से कम था।"
+    "takeaway_hi": "केरल के 97% परिवारों के पास कार्यशील शौचालय है; बिहार में यह हाल तक 40% से कम था।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03d",
@@ -1665,7 +1698,8 @@
       "health"
     ],
     "title_hi": "5 वर्ष से कम आयु मृत्यु दर",
-    "takeaway_hi": "मध्य प्रदेश में 5 वर्ष से कम आयु मृत्यु दर प्रति 1,000 पर 65 है; केरल में यह 4 है — 16 गुना अंतर।"
+    "takeaway_hi": "मध्य प्रदेश में 5 वर्ष से कम आयु मृत्यु दर प्रति 1,000 पर 65 है; केरल में यह 4 है — 16 गुना अंतर।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03j",
@@ -1683,7 +1717,8 @@
       "health"
     ],
     "title_hi": "नवजात मृत्यु दर, पहले 28 दिन",
-    "takeaway_hi": "नवजात मृत्यु (पहले 28 दिन) शिशु मृत्यु का 60%+ हिस्सा है — अधिकांश पहले 48 घंटों में।"
+    "takeaway_hi": "नवजात मृत्यु (पहले 28 दिन) शिशु मृत्यु का 60%+ हिस्सा है — अधिकांश पहले 48 घंटों में।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03k",
@@ -1720,7 +1755,8 @@
       "nutrition"
     ],
     "title_hi": "कम वज़न के नवजात",
-    "takeaway_hi": "उत्तर प्रदेश और मध्य प्रदेश में 20%+ शिशु कम वज़न के साथ जन्म लेते हैं; मिज़ोरम में यह 5% से कम है।"
+    "takeaway_hi": "उत्तर प्रदेश और मध्य प्रदेश में 20%+ शिशु कम वज़न के साथ जन्म लेते हैं; मिज़ोरम में यह 5% से कम है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03m",
@@ -1738,7 +1774,8 @@
       "children"
     ],
     "title_hi": "दस्त का ORS से उपचार",
-    "takeaway_hi": "बचपन में दस्त के दौरान ORS का उपयोग ओडिशा में 75% से लेकर कुछ पूर्वोत्तर राज्यों में 30% से कम तक है।"
+    "takeaway_hi": "बचपन में दस्त के दौरान ORS का उपयोग ओडिशा में 75% से लेकर कुछ पूर्वोत्तर राज्यों में 30% से कम तक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S03n",
@@ -1920,7 +1957,8 @@
       "gender"
     ],
     "title_hi": "जन्म के समय लिंगानुपात, प्रति 1000 लड़कों पर लड़कियाँ",
-    "takeaway_hi": "हरियाणा और पंजाब का जन्म के समय लिंगानुपात (प्रति 1,000 लड़कों पर 900 लड़कियों से कम) सक्रिय लिंग चयन का संकेत देता है।"
+    "takeaway_hi": "हरियाणा और पंजाब का जन्म के समय लिंगानुपात (प्रति 1,000 लड़कों पर 900 लड़कियों से कम) सक्रिय लिंग चयन का संकेत देता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S04c",
@@ -1976,7 +2014,8 @@
       "gender"
     ],
     "title_hi": "पत्नी पिटाई को कम से कम एक स्थिति में उचित ठहराने वाली महिलाएँ",
-    "takeaway_hi": "बिहार में 40%+ महिलाएँ मानती हैं कि पति का अपनी पत्नी को पीटना उचित है; मणिपुर में 10% से कम।"
+    "takeaway_hi": "बिहार में 40%+ महिलाएँ मानती हैं कि पति का अपनी पत्नी को पीटना उचित है; मणिपुर में 10% से कम।",
+    "data_note": "NFHS-6 state fact sheets do not repeat the attitude questions on wife-beating, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S04f",
@@ -1994,7 +2033,8 @@
       "information"
     ],
     "title_hi": "किसी भी मीडिया से संपर्क न रखने वाली महिलाएँ",
-    "takeaway_hi": "बिहार और झारखंड में 50% से अधिक महिलाओं का किसी भी मीडिया से संपर्क नहीं है — न टीवी, न रेडियो, न अखबार।"
+    "takeaway_hi": "बिहार और झारखंड में 50% से अधिक महिलाओं का किसी भी मीडिया से संपर्क नहीं है — न टीवी, न रेडियो, न अखबार।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S04g",
@@ -2031,7 +2071,8 @@
       "gender"
     ],
     "title_hi": "घरेलू हिंसा, शारीरिक हिंसा बताने वाली महिलाएँ",
-    "takeaway_hi": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।"
+    "takeaway_hi": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।",
+    "data_note": "NFHS-6 reports ever-experienced spousal violence overall (see the NFHS-6 map X216) but not this physical-violence measure, so NFHS-5 (2019-21) remains the latest state-level figure for it."
   },
   {
     "id": "S04i",
@@ -2162,7 +2203,8 @@
       "women's work"
     ],
     "title_hi": "प्रति लाख कामकाजी महिलाओं पर शिशुगृह",
-    "takeaway_hi": "कामकाजी महिलाओं पर शिशुगृह की उपलब्धता बहुत भिन्न है — बाल देखभाल भारत का गायब बुनियादी ढाँचा है।"
+    "takeaway_hi": "कामकाजी महिलाओं पर शिशुगृह की उपलब्धता बहुत भिन्न है — बाल देखभाल भारत का गायब बुनियादी ढाँचा है।",
+    "data_note": "This map draws on NFHS-5 and a second source recorded as NCRB. NFHS-6 does not repeat the survey measure, so the combined figure has not been rebuilt and remains as made in 2019-22."
   },
   {
     "id": "S04p",
@@ -2198,7 +2240,8 @@
       "caste"
     ],
     "title_hi": "अनुसूचित जाति + जनजाति आबादी का हिस्सा",
-    "takeaway_hi": "मिज़ोरम और मेघालय में अनुसूचित जाति/जनजाति की आबादी 50% से अधिक है; गोवा और दिल्ली में 10% से कम।"
+    "takeaway_hi": "मिज़ोरम और मेघालय में अनुसूचित जाति/जनजाति की आबादी 50% से अधिक है; गोवा और दिल्ली में 10% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S05b",
@@ -2234,7 +2277,8 @@
       "caste"
     ],
     "title_hi": "अनुसूचित जाति बनाम सामान्य टीकाकरण कवरेज अंतर",
-    "takeaway_hi": "कई राज्यों में अनुसूचित जाति और सामान्य वर्ग के बच्चों के बीच टीकाकरण का अंतर 15 अंकों से अधिक है।"
+    "takeaway_hi": "कई राज्यों में अनुसूचित जाति और सामान्य वर्ग के बच्चों के बीच टीकाकरण का अंतर 15 अंकों से अधिक है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S05d",
@@ -2325,7 +2369,8 @@
       "governance"
     ],
     "title_hi": "मृत्यु पंजीकरण पूर्णता",
-    "takeaway_hi": "केरल में मृत्यु पंजीकरण की पूर्णता 95% से अधिक है, पर बिहार और झारखंड में 50% से कम।"
+    "takeaway_hi": "केरल में मृत्यु पंजीकरण की पूर्णता 95% से अधिक है, पर बिहार और झारखंड में 50% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S05i",
@@ -2343,7 +2388,8 @@
       "governance"
     ],
     "title_hi": "5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण",
-    "takeaway_hi": "दक्षिणी राज्यों में 5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण 95% से अधिक है, पर असम और नागालैंड में 60% से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में 5 वर्ष से कम आयु के बच्चों का जन्म पंजीकरण 95% से अधिक है, पर असम और नागालैंड में 60% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06a",
@@ -2361,7 +2407,8 @@
       "diversity"
     ],
     "title_hi": "गैर-हिंदू आबादी हिस्सा",
-    "takeaway_hi": "मिज़ोरम, मेघालय और नागालैंड में 85% से अधिक आबादी गैर-हिंदू है — भारत का धार्मिक नक्शा एकरंगा नहीं है।"
+    "takeaway_hi": "मिज़ोरम, मेघालय और नागालैंड में 85% से अधिक आबादी गैर-हिंदू है — भारत का धार्मिक नक्शा एकरंगा नहीं है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06b",
@@ -2379,7 +2426,8 @@
       "religion"
     ],
     "title_hi": "ईसाई आबादी हिस्सा",
-    "takeaway_hi": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।"
+    "takeaway_hi": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06c",
@@ -2451,7 +2499,8 @@
       "religion"
     ],
     "title_hi": "बौद्ध आबादी हिस्सा",
-    "takeaway_hi": "महाराष्ट्र में सबसे बड़ी बौद्ध आबादी (6%) है, जो डॉ. अंबेडकर के धर्मांतरण आंदोलन से प्रेरित है।"
+    "takeaway_hi": "महाराष्ट्र में सबसे बड़ी बौद्ध आबादी (6%) है, जो डॉ. अंबेडकर के धर्मांतरण आंदोलन से प्रेरित है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06g",
@@ -2469,7 +2518,8 @@
       "religion"
     ],
     "title_hi": "जनजातीय/स्वदेशी धर्म हिस्सा",
-    "takeaway_hi": "जनजातीय/स्वदेशी धर्म के अनुयायी झारखंड, छत्तीसगढ़ और पूर्वोत्तर राज्यों में केंद्रित हैं।"
+    "takeaway_hi": "जनजातीय/स्वदेशी धर्म के अनुयायी झारखंड, छत्तीसगढ़ और पूर्वोत्तर राज्यों में केंद्रित हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06h",
@@ -2487,7 +2537,8 @@
       "identity"
     ],
     "title_hi": "धर्म नहीं बताया गया",
-    "takeaway_hi": "मणिपुर और मेघालय में 'धर्म नहीं बताया गया' औसत से अधिक है — जो विवादित पहचानों को दर्शाता है।"
+    "takeaway_hi": "मणिपुर और मेघालय में 'धर्म नहीं बताया गया' औसत से अधिक है — जो विवादित पहचानों को दर्शाता है।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S06i",
@@ -2559,7 +2610,8 @@
       "education"
     ],
     "title_hi": "पहली/दूसरी भाषा के रूप में अंग्रेज़ी बोलने वाले %",
-    "takeaway_hi": "नागालैंड और मेघालय में 30%+ लोग अंग्रेज़ी को पहली या दूसरी भाषा के रूप में बोलते हैं; बिहार में 1% से कम।"
+    "takeaway_hi": "नागालैंड और मेघालय में 30%+ लोग अंग्रेज़ी को पहली या दूसरी भाषा के रूप में बोलते हैं; बिहार में 1% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07c",
@@ -2577,7 +2629,8 @@
       "education"
     ],
     "title_hi": "स्नातक डिग्रीधारी (20+ वयस्कों का %)",
-    "takeaway_hi": "दिल्ली में वयस्कों में 35%+ स्नातक डिग्रीधारी हैं; बिहार में 8% से कम।"
+    "takeaway_hi": "दिल्ली में वयस्कों में 35%+ स्नातक डिग्रीधारी हैं; बिहार में 8% से कम।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07d",
@@ -2595,7 +2648,8 @@
       "education"
     ],
     "title_hi": "महिला साक्षरता दर",
-    "takeaway_hi": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।"
+    "takeaway_hi": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S07e",
@@ -2722,7 +2776,8 @@
       "inclusion"
     ],
     "title_hi": "दिव्यांगता व्यापकता",
-    "takeaway_hi": "दिव्यांगता व्यापकता राज्यों के बीच 2-3 गुना भिन्न है — संभवतः मापन अंतर दर्शाती है, वास्तविक दर नहीं।"
+    "takeaway_hi": "दिव्यांगता व्यापकता राज्यों के बीच 2-3 गुना भिन्न है — संभवतः मापन अंतर दर्शाती है, वास्तविक दर नहीं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S08a",
@@ -2956,7 +3011,8 @@
       "air pollution"
     ],
     "title_hi": "प्रमुख ईंधन के रूप में स्वच्छ खाना पकाने का ईंधन",
-    "takeaway_hi": "केरल के 95%+ परिवार स्वच्छ खाना पकाने का ईंधन इस्तेमाल करते हैं; बिहार में 50% से अधिक अब भी बायोमास जलाते हैं।"
+    "takeaway_hi": "केरल के 95%+ परिवार स्वच्छ खाना पकाने का ईंधन इस्तेमाल करते हैं; बिहार में 50% से अधिक अब भी बायोमास जलाते हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S09a",
@@ -3137,7 +3193,8 @@
       "social protection"
     ],
     "title_hi": "विकलांगता पेंशन कवरेज",
-    "takeaway_hi": "विकलांगता पेंशन कवरेज वृद्धावस्था पेंशन से भी अधिक तीव्रता से भिन्न होता है — विकलांग नागरिक दोहरे रूप से बाहर हैं।"
+    "takeaway_hi": "विकलांगता पेंशन कवरेज वृद्धावस्था पेंशन से भी अधिक तीव्रता से भिन्न होता है — विकलांग नागरिक दोहरे रूप से बाहर हैं।",
+    "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
     "id": "S09k",
@@ -3514,7 +3571,7 @@
     "section": "social-protection",
     "source": "NFHS-5",
     "year": "2019-21",
-    "quality": "NEW",
+    "quality": "UNCERTAIN",
     "takeaway": "Diabetes prevalence ranges from 15%+ in Kerala/Goa to under 5% in Chhattisgarh.",
     "policy": "India's diabetes epidemic is concentrated in states undergoing nutrition transition — urban diets + sedentary lifestyles.",
     "tags": [
@@ -3523,7 +3580,8 @@
       "health"
     ],
     "title_hi": "वयस्कों में मधुमेह प्रसार",
-    "takeaway_hi": "मधुमेह का प्रसार केरल/गोवा में 15%+ से लेकर छत्तीसगढ़ में 5% से कम तक है।"
+    "takeaway_hi": "मधुमेह का प्रसार केरल/गोवा में 15%+ से लेकर छत्तीसगढ़ में 5% से कम तक है।",
+    "data_note": "NFHS-6 reports high blood sugar separately for women (NFHS-6 map X225) and men, not a single adult diabetes figure. The takeaway on this older map says Chhattisgarh is under 5%, but NFHS-5 reports 9.0% of women and 10.8% of men there with high blood sugar, so the map is flagged UNCERTAIN: check the source before quoting it."
   },
   {
     "id": "S12a",
@@ -3541,7 +3599,8 @@
       "reproductive"
     ],
     "title_hi": "आधुनिक गर्भनिरोध में महिला नसबंदी का %",
-    "takeaway_hi": "आंध्र प्रदेश और मध्य प्रदेश में आधुनिक गर्भनिरोध का 70%+ हिस्सा महिला नसबंदी है।"
+    "takeaway_hi": "आंध्र प्रदेश और मध्य प्रदेश में आधुनिक गर्भनिरोध का 70%+ हिस्सा महिला नसबंदी है।",
+    "data_note": "NFHS-6 reports female sterilisation only as a share of all currently married women, not as a share of modern methods as here, so the two cannot be compared and NFHS-5 (2019-21) remains the latest figure for this measure."
   },
   {
     "id": "S12b",
@@ -3559,7 +3618,8 @@
       "reproductive"
     ],
     "title_hi": "वर्तमान में विवाहित दंपतियों द्वारा कंडोम उपयोग",
-    "takeaway_hi": "अधिकांश राज्यों में विवाहित दंपतियों द्वारा कंडोम उपयोग 10% से कम है — पुरुष तरीके हाशिए पर बने हुए हैं।"
+    "takeaway_hi": "अधिकांश राज्यों में विवाहित दंपतियों द्वारा कंडोम उपयोग 10% से कम है — पुरुष तरीके हाशिए पर बने हुए हैं।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12c",
@@ -3577,7 +3637,8 @@
       "contraception"
     ],
     "title_hi": "विवाहित महिलाओं में IUD/कॉपर-टी उपयोग",
-    "takeaway_hi": "IUD/कॉपर-टी उपयोग 2% से 12% तक भिन्न है — उत्तर प्रदेश में अधिक (सरकारी प्रोत्साहन) और दक्षिणी राज्यों में कम।"
+    "takeaway_hi": "IUD/कॉपर-टी उपयोग 2% से 12% तक भिन्न है — उत्तर प्रदेश में अधिक (सरकारी प्रोत्साहन) और दक्षिणी राज्यों में कम।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12d",
@@ -3595,7 +3656,8 @@
       "reproductive"
     ],
     "title_hi": "विवाहित महिलाओं में गोली का उपयोग",
-    "takeaway_hi": "गोली का उपयोग बंगाल और असम में सबसे अधिक (15%+), बाकी जगह न्यूनतम है — तरीकों का मिश्रण सांस्कृतिक अपनाव से तय होता है।"
+    "takeaway_hi": "गोली का उपयोग बंगाल और असम में सबसे अधिक (15%+), बाकी जगह न्यूनतम है — तरीकों का मिश्रण सांस्कृतिक अपनाव से तय होता है।",
+    "data_note": "NFHS-6 (2023-24) state fact sheets carry 101 indicators against 131 in NFHS-5 and do not repeat this measure, so NFHS-5 (2019-21) remains the latest state-level figure."
   },
   {
     "id": "S12e",
@@ -3632,7 +3694,8 @@
       "reproductive"
     ],
     "title_hi": "विवाहित पुरुषों में पुरुष नसबंदी दर",
-    "takeaway_hi": "पुरुष नसबंदी दर राष्ट्रीय स्तर पर 1% से नीचे है — भारत के परिवार नियोजन कार्यक्रम ने पुरुष तरीकों में कभी निवेश नहीं किया।"
+    "takeaway_hi": "पुरुष नसबंदी दर राष्ट्रीय स्तर पर 1% से नीचे है — भारत के परिवार नियोजन कार्यक्रम ने पुरुष तरीकों में कभी निवेश नहीं किया।",
+    "data_note": "NFHS-6 reports male sterilisation only within the contraceptive method mix of currently married women, which is not this map's measure, so NFHS-5 (2019-21) remains the latest state-level figure for it."
   },
   {
     "id": "S12g",
@@ -3687,7 +3750,8 @@
       "men"
     ],
     "title_hi": "अधिक वजन और मोटापे वाले पुरुष",
-    "takeaway_hi": "पुरुष मोटापा भी इसी तरह के पैटर्न का अनुसरण करता है — शहरी, संपन्न, दक्षिणी राज्यों में अधिक।"
+    "takeaway_hi": "पुरुष मोटापा भी इसी तरह के पैटर्न का अनुसरण करता है — शहरी, संपन्न, दक्षिणी राज्यों में अधिक।",
+    "newer": "n6_men_overweight"
   },
   {
     "id": "S12j",
@@ -4685,5 +4749,24 @@
     ],
     "title_hi": "बिना लिखित अनुबंध वाले नियमित कर्मचारी, PLFS 2023-24",
     "takeaway_hi": "पंजाब में 84.5% नियमित वेतनभोगी कर्मचारियों के पास लिखित अनुबंध नहीं है, राजस्थान में 77.1% और गुजरात में 71.9%, जबकि अरुणाचल प्रदेश में 10.0%, मिज़ोरम में 11.4% और नागालैंड में 12.5%। भारत का आँकड़ा 58.0% है, जो एक साल पहले 58.6% था।"
+  },
+  {
+    "id": "X259",
+    "title": "Men who are overweight or obese, NFHS-6",
+    "file": "X259_Men_who_are_overweight_or_obese_NFHS6.png",
+    "section": "health",
+    "source": "NFHS-6",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Overweight or obesity affects 48.5 per cent of men in Chandigarh, 46.1 in the Andaman and Nicobar Islands and 45.9 in Puducherry, against 16.1 in Chhattisgarh, 17.6 in Madhya Pradesh and 19.3 in Rajasthan. The India figure is 27.3 per cent, up from 22.9 in NFHS-5. Chandigarh rose 14.1 points and Ladakh fell 10.0.",
+    "policy": "Body mass index counts weight for height and says nothing about diet or fitness. NFHS-6 is provisional, and 27 states and territories carry a figure here.",
+    "tags": [
+      "NFHS-6",
+      "obesity",
+      "men",
+      "health"
+    ],
+    "title_hi": "अधिक वज़न या मोटापे वाले पुरुष, NFHS-6",
+    "takeaway_hi": "अधिक वज़न या मोटापा चंडीगढ़ में 48.5 प्रतिशत, अंडमान-निकोबार में 46.1 और पुदुचेरी में 45.9 प्रतिशत पुरुषों में है, जबकि छत्तीसगढ़ में 16.1, मध्य प्रदेश में 17.6 और राजस्थान में 19.3। भारत का आँकड़ा 27.3 प्रतिशत है, NFHS-5 के 22.9 से अधिक।"
   }
 ]

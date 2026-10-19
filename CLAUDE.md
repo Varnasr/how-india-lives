@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 66 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 67 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 258 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 259 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 66 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 67 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -145,6 +145,15 @@ rebuilt. If a REST path for ENVSTATS turns up, `fetch_mospi_*.py` is the pattern
 measure to map is `Stage of Ground Water Development (%)` (sub-indicator 277), whose unit field says
 BCM/Yr in error.
 
+## Maps that cannot be updated carry a data note
+
+A static map from the 2011 Census, or from NFHS-5 where NFHS-6 does not repeat the measure, is not a backlog
+item. `data/maps.json` gives it a `data_note` saying why (the census is decennial and the next is planned for
+2027; NFHS-6 carries 101 indicators against 131 and omits this one), the map page prints it under the
+vintage line, and the index marks it "latest available". `check_data.py` fails if such a map has no note.
+S11j is flagged UNCERTAIN because its takeaway does not match NFHS-5's blood-sugar figures. Where NFHS-6 does
+repeat a measure the map gets a `newer` link instead (S12i, S03n, S04d, S04l and others).
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
@@ -255,7 +264,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 258 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 259 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.
@@ -263,7 +272,7 @@ substitutes for each other, and this repository is the argument for that.
   22 larger states; PLFS and the Census cover all 36. A state left grey has no
   published figure, not a low one, and the note under the map says so. Do not
   fill a gap by interpolation.
-- **Nine maps in `maps.json` are self-flagged `quality: "UNCERTAIN"`** and are
+- **Ten maps in `maps.json` are self-flagged `quality: "UNCERTAIN"`** and are
   published anyway. That is a live decision, not a bug, but check the flag before
   quoting a figure from one.
 - **The static maps run on old vintages**: 37 on NFHS-5 (2019-21) and 37 on
