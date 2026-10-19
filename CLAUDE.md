@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 57 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 60 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,15 +22,15 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 248 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 251 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 57 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 60 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
-**The other 43 are generated (X206 to X248), and that is the path a new sheet should take.**
+**The other 43 are generated (X206 to X251), and that is the path a new sheet should take.**
 `scripts/render/` renders a sheet from an indicator in `interactive-data.json`,
 so the static map and the interactive map of the same indicator are drawing the
 same numbers and cannot disagree. X206 to X211 were made this way on
@@ -87,9 +87,12 @@ more crime, easier reporting, or both, so `higherIsBetter` is null and the sheet
 say so. Do not rank states on them. Dowry deaths and acid attacks are derived
 from NCRB's case counts over its female population because the printed rate has
 one decimal; the derived value rounds to NCRB's printed rate in every state. A
-zero means none registered. The trafficking map (S02j) is not refreshed: Women on
-Record holds trafficking counts with no population base the atlas can use. Honour
-killings, witch-hunting and crimes against SCs are not in that dataset either.
+zero means none registered. The trafficking map (S02j) is not refreshed: its 2024 table is in Crime in India
+Volume III, which could not be fetched from a primary source. Honour killings,
+witchcraft murders and crimes against SCs come from `data/ncrb/crime-in-india-2024-other.json`,
+read by `scripts/extract_ncrb_other.py` from Volumes 1 and II (SHA-256 pinned, totals
+checked) and turned into `ncrb_honour`, `ncrb_witchcraft` and `ncrb_sc_crimes` by
+`scripts/build_ncrb_other_indicators.py`; X249 to X251 are drawn from those.
 
 ## Climate and court maps, and the two source faults found
 
@@ -113,6 +116,14 @@ numbers alone would have caught:
 
 Heat-wave days swing from 0 to 26 between years in one state, so the map uses the
 2022-24 mean for the 19 states with all three years.
+
+## CSV exports and the calculations behind the maps
+
+`scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
+`calculations/` for every derived one) and `data/CALCULATIONS.md` says in words how each figure is
+got. The export recomputes each derived value from the source files and stops if it differs from the
+indicator, so a calculation file cannot disagree with its map. CI runs it with `--check`. After any
+indicator change, run `python3 scripts/export_csv.py` and commit the result.
 
 ## Why the checks exist
 
@@ -216,7 +227,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 248 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 251 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

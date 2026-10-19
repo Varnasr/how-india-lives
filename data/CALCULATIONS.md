@@ -28,6 +28,14 @@ Source: NCRB Crime in India, Volume 1, 2024 (2023 beside it), through the Women 
 - `ncrb_acid`: cases divided by female population in lakh, times 100, giving cases per crore women.
 - Cities, districts of Delhi and rows in brackets are skipped. These are registrations. A higher figure can mean more crime, easier reporting, or both, so the maps do not say higher is better or worse.
 
+## Honour killings, witchcraft murders and crimes against Scheduled Castes (`ncrb_honour`, `ncrb_witchcraft`, `ncrb_sc_crimes`)
+
+Source: NCRB Crime in India 2024, Volume 1 (Tables 2A.1 and 2A.2) and Volume II (Table 7A.1), read by `scripts/extract_ncrb_other.py`. The script refuses a PDF whose SHA-256 differs from the one recorded, and stops unless every column's states and UTs add to NCRB's own printed totals.
+
+- Honour killings and witchcraft are counts of murders by recorded motive (Table 2A.2). The map divides by the population NCRB prints beside the murder counts (Table 2A.1, lakh) and multiplies by 100, giving cases per crore. India has 36 and 54 such murders, so one case moves a small state a long way (Manipur's top rate is one case; so is Nagaland's for witchcraft). A zero means none recorded under that motive.
+- Crimes against Scheduled Castes uses NCRB's printed 2024 rate per lakh SC population (2011 Census). It is recomputed from cases and the population NCRB prints to 0.1 lakh and must agree within that rounding. 2023 is 2023 cases over the same population. Ten states and territories with under 1 lakh SC people are left grey.
+- These count registrations, not incidence, so the maps claim no direction.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.
@@ -44,6 +52,10 @@ Source: MoSPI ENVSTATS, from the India State of Forest Report and IMD.
 - Forest change is forest cover in ISFR 2023 minus ISFR 2021, square kilometres.
 - One source row labelled Puducherry is the India total and is excluded. The national change is the sum of the states and equals that row's own difference. Merged-UT rows that cannot be assigned with confidence are excluded.
 - Heat-wave days is the mean of 2022, 2023 and 2024, one decimal, only for states with all three years.
+
+## What is not on the maps
+
+Human trafficking, the old S02j sheet, has no 2024 state table here: it sits in Crime in India 2024 Volume III, which I could not reach from a primary source. PM2.5, rainfall and flood-prone districts have no state-level source in hand either. Their sheets keep their old vintage and say so.
 
 ## What the CSVs cannot show
 

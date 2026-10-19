@@ -2063,7 +2063,8 @@
       "gender"
     ],
     "title_hi": "ऑनर किलिंग दर्ज मामले",
-    "takeaway_hi": "ऑनर किलिंग के आँकड़े बेहद अनिश्चित हैं — कुछ राज्य शून्य दर्ज करते हैं, जो संभवतः अनुपस्थिति नहीं बल्कि रिपोर्ट न होने को दर्शाता है।"
+    "takeaway_hi": "ऑनर किलिंग के आँकड़े बेहद अनिश्चित हैं — कुछ राज्य शून्य दर्ज करते हैं, जो संभवतः अनुपस्थिति नहीं बल्कि रिपोर्ट न होने को दर्शाता है।",
+    "newer": "ncrb_honour"
   },
   {
     "id": "S04k",
@@ -2081,7 +2082,8 @@
       "gender"
     ],
     "title_hi": "डायन-शिकार मौतें",
-    "takeaway_hi": "झारखंड, ओडिशा और असम सबसे अधिक डायन-शिकार मौतें दर्ज करते हैं — गरीब, विधवा, आदिवासी महिलाओं को निशाना बनाते हुए।"
+    "takeaway_hi": "झारखंड, ओडिशा और असम सबसे अधिक डायन-शिकार मौतें दर्ज करते हैं — गरीब, विधवा, आदिवासी महिलाओं को निशाना बनाते हुए।",
+    "newer": "ncrb_witchcraft"
   },
   {
     "id": "S04l",
@@ -2262,7 +2264,8 @@
       "caste"
     ],
     "title_hi": "प्रति लाख अनुसूचित जाति आबादी पर अपराध",
-    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में अनुसूचित जातियों के खिलाफ सबसे अधिक अपराध दर्ज होते हैं — पर अधिक रिपोर्टिंग बेहतर पुलिस पहुँच का संकेत भी हो सकती है।"
+    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में अनुसूचित जातियों के खिलाफ सबसे अधिक अपराध दर्ज होते हैं — पर अधिक रिपोर्टिंग बेहतर पुलिस पहुँच का संकेत भी हो सकती है।",
+    "newer": "ncrb_sc_crimes"
   },
   {
     "id": "S05f",
@@ -4485,5 +4488,60 @@
     ],
     "title_hi": "रिक्त न्यायिक पद, अधीनस्थ न्यायालय, 2026",
     "takeaway_hi": "अधीनस्थ न्यायपालिका में लगभग हर पाँच में से एक स्वीकृत पद रिक्त है (18.8 प्रतिशत), लक्षद्वीप में शून्य से लद्दाख में 47.1 और मेघालय में 42.4 प्रतिशत तक।"
+  },
+  {
+    "id": "X249",
+    "title": "Crimes against Scheduled Castes recorded, NCRB 2024",
+    "file": "X249_Crimes_against_Scheduled_Castes_recorded_NCRB_2024.png",
+    "section": "caste",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Madhya Pradesh registered 68.5 cases per lakh Scheduled Caste people, Rajasthan 57.3 and Bihar 45.6, against 27.7 for India. West Bengal registered 0.5, with 116 cases among 214.6 lakh Scheduled Caste people, and Tripura none.",
+    "policy": "The map counts registrations. A low figure can mean few atrocities or few that reach a police station and get recorded under the SC/ST Act, so a state with a very low rate has not shown that it is safer. Ten states and territories with under 1 lakh Scheduled Caste people are left grey because one case would swing their rate by more than 100.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "caste",
+      "atrocities"
+    ],
+    "title_hi": "अनुसूचित जातियों के विरुद्ध दर्ज अपराध, NCRB 2024",
+    "takeaway_hi": "मध्य प्रदेश में प्रति लाख अनुसूचित जाति व्यक्तियों पर 68.5 मामले दर्ज हुए, राजस्थान में 57.3 और बिहार में 45.6, जबकि भारत का आँकड़ा 27.7 है। पश्चिम बंगाल में 0.5 (214.6 लाख अनुसूचित जाति आबादी में 116 मामले) और त्रिपुरा में शून्य।"
+  },
+  {
+    "id": "X250",
+    "title": "Honour killings recorded, NCRB 2024",
+    "file": "X250_Honour_killings_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB recorded 36 murders with honour killing as the motive in 2024. Bihar had the most (6), then Jharkhand and Punjab (5 each). Manipur has the highest rate, 3.07 per crore, from one case. Twenty-three states and territories recorded none.",
+    "policy": "A zero means no murder was recorded under this motive, which is not the same as none occurring: a family that reports an honour killing as a suicide or an accident leaves no trace in this table. With counts this small the map is a list of where the motive was written down, and it should not be read as a ranking.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "honour killing"
+    ],
+    "title_hi": "दर्ज ऑनर किलिंग, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में ऑनर किलिंग को उद्देश्य बताकर 36 हत्याएँ दर्ज कीं। सबसे अधिक बिहार (6) में, फिर झारखंड और पंजाब (5-5) में। मणिपुर की दर सबसे ऊँची (प्रति करोड़ 3.07) है, जो एक ही मामले से बनी है। 23 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X251",
+    "title": "Murders linked to witchcraft recorded, NCRB 2024",
+    "file": "X251_Murders_linked_to_witchcraft_recorded_NCRB_2024.png",
+    "section": "gender",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB recorded 54 murders with witchcraft as the motive in 2024. Madhya Pradesh had the most (17), then Chhattisgarh (10) and Odisha (7). Nagaland has the highest rate, 4.42 per crore, from one case, and Chhattisgarh is next at 3.26 from ten. Twenty-five states and territories recorded none.",
+    "policy": "The table counts murders only. Assaults, banishment and other harm done to people branded as witches are not in it, and a murder is recorded under this motive only if the police write it down. With counts this small, a single case moves a small state to the top.",
+    "tags": [
+      "NCRB",
+      "crime",
+      "witch-hunting"
+    ],
+    "title_hi": "डायन-शिकार से जुड़ी दर्ज हत्याएँ, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में डायन/जादू-टोने को उद्देश्य बताकर 54 हत्याएँ दर्ज कीं। सबसे अधिक मध्य प्रदेश (17) में, फिर छत्तीसगढ़ (10) और ओडिशा (7) में। नागालैंड की दर सबसे ऊँची (प्रति करोड़ 4.42) है, जो एक मामले से बनी है; छत्तीसगढ़ 3.26 पर दस मामलों से अगला है। 25 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
   }
 ]

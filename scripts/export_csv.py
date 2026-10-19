@@ -127,6 +127,36 @@ def ncrb_calcs(by):
     return files
 
 
+def ncrb_other_calcs(by):
+    raw = load('data/ncrb/crime-in-india-2024-other.json')
+    S = raw['states']
+    files = {}
+    rows, got = [], {}
+    for s, r in sorted(S.items()):
+        pop = r['sc_population_lakh_2011']
+        if pop < 1.0:
+            rows.append([s, r['sc_crimes_2024'], pop, fmt(r['sc_rate_2024']), '', r['sc_crimes_2023'], '', 'excluded: under 1 lakh Scheduled Caste population'])
+            continue
+        got[s] = r['sc_rate_2024']
+        rows.append([s, r['sc_crimes_2024'], pop, fmt(r['sc_rate_2024']), fmt(round(r['sc_crimes_2024'] / pop, 1)),
+                     r['sc_crimes_2023'], fmt(round(r['sc_crimes_2023'] / pop, 1)), ''])
+    check_equal('ncrb_sc_crimes', got, by['ncrb_sc_crimes']['values'])
+    files['calculations/ncrb_sc_crimes.csv'] = rows_to_csv(
+        ['state', 'cases_2024', 'sc_population_lakh_2011', 'ncrb_printed_rate_2024 (mapped value)', 'recomputed_rate_2024 (cases / population)',
+         'cases_2023', 'rate_2023 (cases_2023 / population)', 'note'], rows)
+    for key, iid in (('murder_honour_2024', 'ncrb_honour'), ('murder_witchcraft_2024', 'ncrb_witchcraft')):
+        rows, got = [], {}
+        for s, r in sorted(S.items()):
+            v = round(r[key] / r['population_lakh'] * 100, 2)
+            got[s] = v
+            rows.append([s, r[key], r['population_lakh'], v, r['murder_2024']])
+        check_equal(iid, got, by[iid]['values'])
+        files['calculations/%s.csv' % iid] = rows_to_csv(
+            ['state', 'murders_with_this_motive_2024', 'population_lakh (as printed with Table 2A.1)', 'cases_per_crore_population (cases / population_lakh x 100)',
+             'all_murders_2024'], rows)
+    return files
+
+
 def court_calcs(by):
     raw = load('data/courts/lok-sabha-3501.json')
     pend = raw['pending_cases_district_subordinate_courts']['by_state']
@@ -206,6 +236,7 @@ def main():
     files = indicator_files(inds)
     files.update(nfhs6_calcs(by))
     files.update(ncrb_calcs(by))
+    files.update(ncrb_other_calcs(by))
     files.update(court_calcs(by))
     files.update(climate_calcs(by))
     for mod in ('extra_calcs',):
