@@ -960,5 +960,93 @@
       "crime",
       "witch-hunting"
     ]
+  },
+  {
+    "id": "X252",
+    "indicator": "gsdp_pc",
+    "section": "economy",
+    "file": "X252_GSDP_per_head_MoSPI_2024-25.png",
+    "title": "GSDP per head, MoSPI 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  SECTION 2 · ECONOMY: OUTPUT PER PERSON",
+    "subtitle": "Gross state domestic product per head at current prices, Rs, 2024-25.\nSikkim Rs 7.64 lakh, Bihar Rs 0.76 lakh.",
+    "callout_note": "rupees of output per person in {state}, ten times Bihar's Rs 76,374",
+    "decimals": 0,
+    "suffix": "",
+    "takeaway": "Sikkim produces Rs 7,63,749 per person and Goa Rs 7,37,738, against Rs 76,374 in Bihar and Rs 1,26,304 in Uttar Pradesh. Eleven of the 32 states and territories with a figure are under Rs 2 lakh per person. Bihar grew 26 per cent in two years at current prices and Goa 36 per cent.",
+    "policy": "Output per head counts what is produced inside a state, not what its residents earn or keep. Sikkim, Goa, Delhi and Chandigarh are small economies and city-states, so their figures say little about the average household. The 2024-25 figure is an estimate that states revise, and Nagaland and Ladakh have none for the year.",
+    "takeaway_hi": "सिक्किम में प्रति व्यक्ति 7,63,749 रुपये और गोवा में 7,37,738 रुपये का उत्पादन होता है, जबकि बिहार में 76,374 और उत्तर प्रदेश में 1,26,304। आँकड़े वाले 32 में से 11 राज्यों और क्षेत्रों में यह 2 लाख रुपये से कम है।",
+    "title_hi": "प्रति व्यक्ति राज्य सकल घरेलू उत्पाद, MoSPI 2024-25",
+    "tags": [
+      "GSDP",
+      "income",
+      "economy",
+      "MoSPI"
+    ]
+  },
+  {
+    "id": "X253",
+    "indicator": "gsva_agri",
+    "section": "economy",
+    "file": "X253_Agriculture_share_of_state_output_MoSPI_2024-25.png",
+    "title": "Agriculture share of state output, MoSPI 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  SECTION 2 · ECONOMY: HOW STATES EARN",
+    "subtitle": "Agriculture, livestock, forestry and fishing as a share of gross state value added,\ncurrent prices, 2024-25. Middle state 18.1%.",
+    "callout_note": "of value added in {state} comes from agriculture, livestock, forestry and fishing",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Agriculture is 41.3% of Madhya Pradesh's output and 38.0% of Tripura's, against 0.3% in Delhi and 0.5% in Chandigarh. The middle state is at 18.1%. Manipur's share fell most between 2022-23 and 2024-25, by 3.4 points.",
+    "policy": "A share of output is not a share of jobs, and farm work employs a much larger share of workers than its share of output suggests. The share also falls when other sectors grow faster, so a lower number is not proof that farming did badly.",
+    "takeaway_hi": "मध्य प्रदेश के उत्पादन में कृषि का हिस्सा 41.3% और त्रिपुरा में 38.0% है, जबकि दिल्ली में 0.3% और चंडीगढ़ में 0.5%। बीच के राज्य में यह 18.1% है।",
+    "title_hi": "राज्य उत्पादन में कृषि का हिस्सा, MoSPI 2024-25",
+    "tags": [
+      "agriculture",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ]
+  },
+  {
+    "id": "X254",
+    "indicator": "gsva_mfg",
+    "section": "economy",
+    "file": "X254_Manufacturing_share_of_state_output_MoSPI_2024-25.png",
+    "title": "Manufacturing share of state output, MoSPI 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  SECTION 2 · ECONOMY: HOW STATES EARN",
+    "subtitle": "Manufacturing as a share of gross state value added, current prices, 2024-25.\nMiddle state 11.4%.",
+    "callout_note": "of value added in {state} comes from manufacturing",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Manufacturing is 38.4% of Sikkim's output, 32.8% of Gujarat's and 27.8% of Goa's, but under 2% in Arunachal Pradesh, Manipur and Mizoram. The middle state is at 11.4%. Gujarat's share fell 2.1 points in two years and Sikkim's rose 2.7.",
+    "policy": "In a small economy one large unit can move the share a long way, so Sikkim's figure and the small shares in the north-east and the islands say as much about size as about policy.",
+    "takeaway_hi": "सिक्किम के उत्पादन में विनिर्माण का हिस्सा 38.4%, गुजरात में 32.8% और गोवा में 27.8% है, जबकि अरुणाचल प्रदेश, मणिपुर और मिज़ोरम में 2% से कम। बीच के राज्य में 11.4%।",
+    "title_hi": "राज्य उत्पादन में विनिर्माण का हिस्सा, MoSPI 2024-25",
+    "tags": [
+      "manufacturing",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ]
+  },
+  {
+    "id": "X255",
+    "indicator": "gsva_services",
+    "section": "economy",
+    "file": "X255_Services_share_of_state_output_MoSPI_2024-25.png",
+    "title": "Services share of state output, MoSPI 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  SECTION 2 · ECONOMY: HOW STATES EARN",
+    "subtitle": "Services (trade, transport, finance, real estate, public administration and others)\nas a share of gross state value added, current prices, 2024-25. Middle state 49.2%.",
+    "callout_note": "of value added in {state} comes from services",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Services are 89.4% of Chandigarh's output and 86.1% of Delhi's, and 69.2% of Karnataka's. They are 35.5% in Madhya Pradesh, 32.3% in Chhattisgarh and 29.9% in Sikkim. The middle state is at 49.2%.",
+    "policy": "Services here include public administration and real estate, which includes the imputed rent of owner-occupied homes, so a high share does not mean a state sells software or finance. Mining, electricity and construction are counted outside services.",
+    "takeaway_hi": "सेवाएँ चंडीगढ़ के उत्पादन का 89.4%, दिल्ली का 86.1% और कर्नाटक का 69.2% हैं। मध्य प्रदेश में 35.5%, छत्तीसगढ़ में 32.3% और सिक्किम में 29.9%। बीच के राज्य में 49.2%।",
+    "title_hi": "राज्य उत्पादन में सेवाओं का हिस्सा, MoSPI 2024-25",
+    "tags": [
+      "services",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ]
   }
 ]

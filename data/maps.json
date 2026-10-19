@@ -1335,7 +1335,8 @@
       "economy"
     ],
     "title_hi": "प्रति व्यक्ति GSDP — Rs लाख",
-    "takeaway_hi": "गोवा का प्रति व्यक्ति GSDP Rs 5.5 लाख है; बिहार का Rs 0.5 लाख — 11 गुना का अंतर।"
+    "takeaway_hi": "गोवा का प्रति व्यक्ति GSDP Rs 5.5 लाख है; बिहार का Rs 0.5 लाख — 11 गुना का अंतर।",
+    "newer": "gsdp_pc"
   },
   {
     "id": "S02h",
@@ -3202,7 +3203,8 @@
       "economy"
     ],
     "title_hi": "GSDP में विनिर्माण GVA का हिस्सा",
-    "takeaway_hi": "तमिलनाडु और गुजरात को GSDP का 20%+ विनिर्माण से मिलता है; पूर्वोत्तर राज्यों को 5% से कम।"
+    "takeaway_hi": "तमिलनाडु और गुजरात को GSDP का 20%+ विनिर्माण से मिलता है; पूर्वोत्तर राज्यों को 5% से कम।",
+    "newer": "gsva_mfg"
   },
   {
     "id": "S10c",
@@ -3220,7 +3222,8 @@
       "economy"
     ],
     "title_hi": "GSDP में कृषि का हिस्सा",
-    "takeaway_hi": "मध्य प्रदेश और छत्तीसगढ़ में कृषि GSDP में 30%+ योगदान देती है, पर दिल्ली और गोवा में 5% से कम।"
+    "takeaway_hi": "मध्य प्रदेश और छत्तीसगढ़ में कृषि GSDP में 30%+ योगदान देती है, पर दिल्ली और गोवा में 5% से कम।",
+    "newer": "gsva_agri"
   },
   {
     "id": "S10d",
@@ -3256,7 +3259,8 @@
       "economy"
     ],
     "title_hi": "GSDP में सेवाओं का हिस्सा",
-    "takeaway_hi": "दिल्ली, महाराष्ट्र और कर्नाटक में सेवाएँ GSDP का 60%+ योगदान देती हैं — नया विकास इंजन।"
+    "takeaway_hi": "दिल्ली, महाराष्ट्र और कर्नाटक में सेवाएँ GSDP का 60%+ योगदान देती हैं — नया विकास इंजन।",
+    "newer": "gsva_services"
   },
   {
     "id": "S10f",
@@ -4543,5 +4547,81 @@
     ],
     "title_hi": "डायन-शिकार से जुड़ी दर्ज हत्याएँ, NCRB 2024",
     "takeaway_hi": "NCRB ने 2024 में डायन/जादू-टोने को उद्देश्य बताकर 54 हत्याएँ दर्ज कीं। सबसे अधिक मध्य प्रदेश (17) में, फिर छत्तीसगढ़ (10) और ओडिशा (7) में। नागालैंड की दर सबसे ऊँची (प्रति करोड़ 4.42) है, जो एक मामले से बनी है; छत्तीसगढ़ 3.26 पर दस मामलों से अगला है। 25 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X252",
+    "title": "GSDP per head, MoSPI 2024-25",
+    "file": "X252_GSDP_per_head_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Sikkim produces Rs 7,63,749 per person and Goa Rs 7,37,738, against Rs 76,374 in Bihar and Rs 1,26,304 in Uttar Pradesh. Eleven of the 32 states and territories with a figure are under Rs 2 lakh per person. Bihar grew 26 per cent in two years at current prices and Goa 36 per cent.",
+    "policy": "Output per head counts what is produced inside a state, not what its residents earn or keep. Sikkim, Goa, Delhi and Chandigarh are small economies and city-states, so their figures say little about the average household. The 2024-25 figure is an estimate that states revise, and Nagaland and Ladakh have none for the year.",
+    "tags": [
+      "GSDP",
+      "income",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "प्रति व्यक्ति राज्य सकल घरेलू उत्पाद, MoSPI 2024-25",
+    "takeaway_hi": "सिक्किम में प्रति व्यक्ति 7,63,749 रुपये और गोवा में 7,37,738 रुपये का उत्पादन होता है, जबकि बिहार में 76,374 और उत्तर प्रदेश में 1,26,304। आँकड़े वाले 32 में से 11 राज्यों और क्षेत्रों में यह 2 लाख रुपये से कम है।"
+  },
+  {
+    "id": "X253",
+    "title": "Agriculture share of state output, MoSPI 2024-25",
+    "file": "X253_Agriculture_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Agriculture is 41.3% of Madhya Pradesh's output and 38.0% of Tripura's, against 0.3% in Delhi and 0.5% in Chandigarh. The middle state is at 18.1%. Manipur's share fell most between 2022-23 and 2024-25, by 3.4 points.",
+    "policy": "A share of output is not a share of jobs, and farm work employs a much larger share of workers than its share of output suggests. The share also falls when other sectors grow faster, so a lower number is not proof that farming did badly.",
+    "tags": [
+      "agriculture",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में कृषि का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "मध्य प्रदेश के उत्पादन में कृषि का हिस्सा 41.3% और त्रिपुरा में 38.0% है, जबकि दिल्ली में 0.3% और चंडीगढ़ में 0.5%। बीच के राज्य में यह 18.1% है।"
+  },
+  {
+    "id": "X254",
+    "title": "Manufacturing share of state output, MoSPI 2024-25",
+    "file": "X254_Manufacturing_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Manufacturing is 38.4% of Sikkim's output, 32.8% of Gujarat's and 27.8% of Goa's, but under 2% in Arunachal Pradesh, Manipur and Mizoram. The middle state is at 11.4%. Gujarat's share fell 2.1 points in two years and Sikkim's rose 2.7.",
+    "policy": "In a small economy one large unit can move the share a long way, so Sikkim's figure and the small shares in the north-east and the islands say as much about size as about policy.",
+    "tags": [
+      "manufacturing",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में विनिर्माण का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "सिक्किम के उत्पादन में विनिर्माण का हिस्सा 38.4%, गुजरात में 32.8% और गोवा में 27.8% है, जबकि अरुणाचल प्रदेश, मणिपुर और मिज़ोरम में 2% से कम। बीच के राज्य में 11.4%।"
+  },
+  {
+    "id": "X255",
+    "title": "Services share of state output, MoSPI 2024-25",
+    "file": "X255_Services_share_of_state_output_MoSPI_2024-25.png",
+    "section": "economy",
+    "source": "MoSPI (National Accounts)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Services are 89.4% of Chandigarh's output and 86.1% of Delhi's, and 69.2% of Karnataka's. They are 35.5% in Madhya Pradesh, 32.3% in Chhattisgarh and 29.9% in Sikkim. The middle state is at 49.2%.",
+    "policy": "Services here include public administration and real estate, which includes the imputed rent of owner-occupied homes, so a high share does not mean a state sells software or finance. Mining, electricity and construction are counted outside services.",
+    "tags": [
+      "services",
+      "GSVA",
+      "economy",
+      "MoSPI"
+    ],
+    "title_hi": "राज्य उत्पादन में सेवाओं का हिस्सा, MoSPI 2024-25",
+    "takeaway_hi": "सेवाएँ चंडीगढ़ के उत्पादन का 89.4%, दिल्ली का 86.1% और कर्नाटक का 69.2% हैं। मध्य प्रदेश में 35.5%, छत्तीसगढ़ में 32.3% और सिक्किम में 29.9%। बीच के राज्य में 49.2%।"
   }
 ]

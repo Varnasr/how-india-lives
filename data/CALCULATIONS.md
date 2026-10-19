@@ -36,6 +36,15 @@ Source: NCRB Crime in India 2024, Volume 1 (Tables 2A.1 and 2A.2) and Volume II 
 - Crimes against Scheduled Castes uses NCRB's printed 2024 rate per lakh SC population (2011 Census). It is recomputed from cases and the population NCRB prints to 0.1 lakh and must agree within that rounding. 2023 is 2023 cases over the same population. Ten states and territories with under 1 lakh SC people are left grey.
 - These count registrations, not incidence, so the maps claim no direction.
 
+## State output (`gsdp_pc`, `gsva_agri`, `gsva_mfg`, `gsva_services`)
+
+Source: MoSPI National Accounts Statistics, state series, base year 2011-12, current prices, 2024-25 (2022-23 beside it), fetched by `scripts/fetch_mospi_nas.py`.
+
+- GSDP per head is MoSPI's published figure in rupees, as served.
+- A sector share is the sector's gross state value added divided by the state's total GSVA, times 100, one decimal. Each state's twelve industry rows must add to its published total within 0.01% or the build stops.
+- Services are trade, repair, hotels and restaurants; transport, storage and communication; financial services; real estate, ownership of dwellings and professional services; public administration; other services. Mining, electricity and construction are not services.
+- 2024-25 is an estimate that states revise. Nagaland and Ladakh have no 2024-25 figure. The series has no all-India row, so no national figure is shown.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.

@@ -157,6 +157,32 @@ def ncrb_other_calcs(by):
     return files
 
 
+def nas_calcs(by):
+    import build_nas_indicators as nas
+    raw = load('data/mospi/nas-state.json')
+    g = nas.gva(raw)
+    files = {}
+    pc = {}
+    for r in raw['per_capita_gsdp']:
+        pc.setdefault(r['year'], {})[nas.GEO.get(r['state'], r['state'])] = r['current_price']
+    check_equal('gsdp_pc', {s: float(v) for s, v in pc['2024-25'].items()}, by['gsdp_pc']['values'], tol=0.5)
+    files['calculations/gsdp_pc.csv'] = rows_to_csv(
+        ['state', 'per_capita_gsdp_rs_2022_23', 'per_capita_gsdp_rs_2024_25 (mapped value)'],
+        [[s, pc['2022-23'].get(s, ''), pc['2024-25'].get(s, '')] for s in sorted(set(pc['2022-23']) | set(pc['2024-25']))])
+    for iid, parts in (('gsva_agri', [nas.AGRI]), ('gsva_mfg', [nas.MFG]), ('gsva_services', nas.SERV)):
+        rows, got = [], {}
+        for s in sorted(g['2024-25']):
+            d, d0 = g['2024-25'][s], g['2022-23'].get(s)
+            num = sum(d[p] for p in parts)
+            v = round(num / d[nas.TOTAL] * 100, 1)
+            got[s] = v
+            rows.append([s, fmt(num), fmt(d[nas.TOTAL]), v, fmt(round(sum(d0[p] for p in parts) / d0[nas.TOTAL] * 100, 1)) if d0 else ''])
+        check_equal(iid, got, by[iid]['values'])
+        files['calculations/%s.csv' % iid] = rows_to_csv(
+            ['state', 'sector_gsva_2024_25_rs_lakh (' + ' + '.join(parts) + ')', 'total_gsva_2024_25_rs_lakh', 'share_pct_2024_25 (sector / total x 100, 1 dp)', 'share_pct_2022_23'], rows)
+    return files
+
+
 def court_calcs(by):
     raw = load('data/courts/lok-sabha-3501.json')
     pend = raw['pending_cases_district_subordinate_courts']['by_state']
@@ -237,6 +263,7 @@ def main():
     files.update(nfhs6_calcs(by))
     files.update(ncrb_calcs(by))
     files.update(ncrb_other_calcs(by))
+    files.update(nas_calcs(by))
     files.update(court_calcs(by))
     files.update(climate_calcs(by))
     for mod in ('extra_calcs',):
