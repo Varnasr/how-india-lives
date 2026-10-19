@@ -105,3 +105,7 @@ ASER Centre's Annual Status of Education Report (Rural) 2024, provisional, 28 Ja
 ## Children not in school, ASER 2024 (`aser_oos_6_14`)
 
 Table 1 of each state page of ASER (Rural) 2024: the share of children aged 6 to 14 enrolled in government, private and other schools and not in school. Each row adds to 100 within rounding (0.3) and the all-India figure (1.9; 7.9 for ages 15 and 16, matching the report text) lies in the state range. Rural household survey; 27 states.
+
+## Internet subscriptions per 100 people, TRAI March 2026 (`trai_internet_per100`)
+
+TRAI's Yearly Performance Indicators 2025-26, Table 1.43: internet subscribers (millions) and subscribers per 100 population by state and UT. Rural plus urban equals total in every row (0.02 million) and the 36 rows sum to the printed 1,092.79 million (rural 440.87, urban 651.93); the total per 100 is 76.59. A subscription is not a person, so values above 100 are possible. Where the rural or urban per-100 cell is printed '-' (Delhi, Chandigarh, Lakshadweep) it is left empty. Replaces X168 and S01d.

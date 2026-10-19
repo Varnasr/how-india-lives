@@ -76,4 +76,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/aser_not_in_school.csv'] = rows_to_csv(
         ['state', 'govt_pct_6_14', 'private_pct_6_14', 'other_pct_6_14', 'not_in_school_pct_6_14 (mapped)', 'not_in_school_pct_15_16'],
         [[s, x['6-14']['govt'], x['6-14']['private'], x['6-14']['other'], x['6-14']['not_in_school'], x.get('15-16', {}).get('not_in_school', '')] for s, x in sorted(ae.items())])
+    ti = load('data/trai/internet-2026-03.json')['states']
+    check_equal('trai_internet_per100', {s: d['total_per100'] for s, d in ti.items()}, by['trai_internet_per100']['values'])
+    files['calculations/trai_internet.csv'] = rows_to_csv(
+        ['state', 'rural_subscribers_mn', 'urban_subscribers_mn', 'total_subscribers_mn', 'rural_per100', 'urban_per100', 'total_per100 (mapped)'],
+        [[s, d['rural_mn'], d['urban_mn'], d['total_mn'], '' if d['rural_per100'] is None else d['rural_per100'], '' if d['urban_per100'] is None else d['urban_per100'], d['total_per100']] for s, d in sorted(ti.items())])
     return files

@@ -1436,5 +1436,26 @@
       "children",
       "education"
     ]
+  },
+  {
+    "id": "X274",
+    "indicator": "trai_internet_per100",
+    "section": "economy",
+    "file": "X274_Internet_subscriptions_per_100_people_TRAI_2026.png",
+    "title": "Internet subscriptions per 100 people, TRAI March 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  DIGITAL ACCESS",
+    "subtitle": "Wired and wireless internet subscriptions per 100 people, end of March 2026 (TRAI).\nAll India: 76.6 subscriptions per 100 people, 1,092.8 million in all.",
+    "callout_note": "internet subscriptions per 100 people in {state}",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "TRAI counts 1,092.8 million internet subscriptions at the end of March 2026, or 76.6 per 100 people. Bihar has the fewest at 50.5 per 100, followed by Jharkhand (55.3), Madhya Pradesh (62.1) and Uttar Pradesh (62.8). Delhi (173.5), Goa (150.4), Ladakh (132.3) and Chandigarh (120.4) are highest. Rural India has 48.3 subscriptions per 100 people and urban India 126.8.",
+    "policy": "A subscription is not a person. One person can hold a phone and a broadband line, or two SIMs, so figures above 100 in Delhi, Goa and Haryana say nothing about everyone being online, and the low figures in Bihar and Jharkhand do not say how many people are. Population is a projection to 2026 and the operators' rural and urban split uses different sources, so only totals are shown. Survey measures of who uses the internet (NFHS, NSS) are a separate and usually lower count.",
+    "takeaway_hi": "TRAI के अनुसार मार्च 2026 के अंत में 1,092.8 मिलियन इंटरनेट कनेक्शन हैं, यानी प्रति 100 लोगों पर 76.6। बिहार में सबसे कम 50.5, फिर झारखंड (55.3), मध्य प्रदेश (62.1) और उत्तर प्रदेश (62.8)। दिल्ली (173.5) और गोवा (150.4) में सबसे अधिक। कनेक्शन व्यक्ति नहीं है, इसलिए 100 से ऊपर के आँकड़ों का अर्थ यह नहीं कि सब ऑनलाइन हैं।",
+    "title_hi": "प्रति 100 लोगों पर इंटरनेट कनेक्शन, TRAI मार्च 2026",
+    "tags": [
+      "TRAI",
+      "internet",
+      "digital access"
+    ]
   }
 ]
