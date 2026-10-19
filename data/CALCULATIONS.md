@@ -113,3 +113,7 @@ TRAI's Yearly Performance Indicators 2025-26, Table 1.43: internet subscribers (
 ## TB case notification rate (`tb_notification_rate`)
 
 India TB Report 2024 (Central TB Division, data for 2023), Tables 1.1 (population in lakhs) and 1.2 (patients notified, public and private, and the rate per lakh). Public plus private equals the total in every row, the 36 rows sum exactly to the national 25,52,257, and notified divided by population reproduces each printed rate within 0.5. The rate counts cases notified where the patient was notified, not incidence; the report gives no state incidence. Lakshadweep (6 cases) is flagged as few cases. S03t (a modelled incidence map) links here as the newer map.
+
+## Share of India's inward remittances (`rbi_remit_share`)
+
+RBI Bulletin, 19 March 2025, Table 2 (sixth round of the Remittances Survey, 2023-24): each state's and UT's share of India's inward remittances, with the 2016-17 and 2020-21 rounds beside it. The 36 shares add to 100.0 and the five largest match the article's text (Maharashtra 20.5, Kerala 19.7, Tamil Nadu 10.4, Telangana 8.1, Karnataka 7.7). The calculation file multiplies each share by the US$ 118.7 billion total the article gives, for a rough dollar figure; it is arithmetic on rounded shares, not a published state amount. A dash in an earlier round means the state was not shown separately. S10h (an older dependence map) links here as its newer map; a share is not dependence or per-person receipts.

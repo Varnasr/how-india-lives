@@ -1479,5 +1479,27 @@
       "health",
       "tuberculosis"
     ]
+  },
+  {
+    "id": "X276",
+    "indicator": "rbi_remit_share",
+    "section": "economy",
+    "file": "X276_Share_of_inward_remittances_RBI_2023-24.png",
+    "title": "Share of India's inward remittances by state, RBI 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: REMITTANCES",
+    "subtitle": "Each state's share of the US$ 118.7 billion of inward remittances in 2023-24 (RBI Remittances Survey, sixth round).\nShares add to 100 per cent.",
+    "callout_note": "of India's inward remittances went to {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Five states received two thirds of India's inward remittances in 2023-24: Maharashtra 20.5 per cent, Kerala 19.7, Tamil Nadu 10.4, Telangana 8.1 and Karnataka 7.7, together 66.4. Bihar received 1.3 per cent and Uttar Pradesh 3.0. Maharashtra's share fell from 35.2 per cent in the 2020-21 round, while Kerala's rose from 10.2 to 19.7.",
+    "policy": "A share says where remittances land in total, and it follows population as well as migration: a populous state with few emigrants can have a small share and still receive a great deal per person, and the reverse. It does not show how much a state depends on remittances, which needs state income or consumption beside it. The survey covers remittances received through formal channels for family maintenance, savings and withdrawals from non-resident deposits.",
+    "takeaway_hi": "2023-24 में भारत के आवक विप्रेषण का दो-तिहाई पाँच राज्यों को मिला: महाराष्ट्र 20.5 प्रतिशत, केरल 19.7, तमिलनाडु 10.4, तेलंगाना 8.1 और कर्नाटक 7.7, कुल 66.4। बिहार को 1.3 और उत्तर प्रदेश को 3.0 प्रतिशत मिला। 2020-21 के दौर में महाराष्ट्र का हिस्सा 35.2 प्रतिशत था।",
+    "title_hi": "राज्यवार आवक विप्रेषण का हिस्सा, RBI 2023-24",
+    "tags": [
+      "RBI",
+      "remittances",
+      "migration",
+      "economy"
+    ]
   }
 ]

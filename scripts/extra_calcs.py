@@ -86,4 +86,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/tb_notification.csv'] = rows_to_csv(
         ['state', 'population_2023_lakh', 'notified_public', 'notified_private', 'notified_total', 'rate_per_lakh_printed (mapped)', 'rate_per_lakh_recomputed'],
         [[s, d['population_lakh'], d['notified_public'], '' if d['notified_private'] is None else d['notified_private'], d['notified'], d['rate'], fmt(d['notified'] / d['population_lakh'])] for s, d in sorted(tb.items())])
+    rr = load('data/rbi/remittances-2023-24.json')['states']
+    check_equal('rbi_remit_share', {s: d['2023-24'] for s, d in rr.items()}, by['rbi_remit_share']['values'])
+    files['calculations/rbi_remittance_share.csv'] = rows_to_csv(
+        ['state', 'share_2016_17_pct', 'share_2020_21_pct', 'share_2023_24_pct (mapped)', 'approx_usd_bn_2023_24 (share x 118.7)'],
+        [[s, '' if d['2016-17'] is None else d['2016-17'], '' if d['2020-21'] is None else d['2020-21'], d['2023-24'], fmt(d['2023-24'] * 118.7 / 100)] for s, d in sorted(rr.items())])
     return files
