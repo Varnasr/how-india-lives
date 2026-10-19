@@ -29,7 +29,7 @@ CORE_KEYS = {
     'higherIsBetter', 'national', 'sourceUrl', 'values',
     'name_hi', 'desc_hi', 'unit_hi',
 }
-OPTIONAL_KEYS = {'mapId', 'retrieved'}
+OPTIONAL_KEYS = {'mapId', 'retrieved', 'previous', 'previousYear', 'nationalPrevious', 'fewCases'}
 
 errors = []
 checks = 0
@@ -150,6 +150,18 @@ def main():
             lo, hi = min(nums), max(nums)
             check('%s national figure sits inside its state range' % iid,
                   lo <= nat <= hi, '%s outside [%s, %s]' % (nat, lo, hi))
+
+        if 'previous' in ind:
+            prev = ind['previous']
+            check('%s previous is keyed to geojson states' % iid,
+                  isinstance(prev, dict) and not (set(prev) - states), 'unmatched: %s' % sorted(set(prev) - states))
+            check('%s previous holds only finite numbers' % iid,
+                  all(isinstance(v, (int, float)) and not isinstance(v, bool) and v == v for v in prev.values()),
+                  'non-numeric value')
+            check('%s names the year of its previous round' % iid, bool(ind.get('previousYear')), 'previousYear absent')
+        if 'fewCases' in ind:
+            check('%s fewCases names only states it has a value for' % iid,
+                  set(ind['fewCases']) <= set(values), 'names %s' % sorted(set(ind['fewCases']) - set(values)))
 
         check('%s sourceUrl is a URL' % iid,
               str(ind.get('sourceUrl', '')).startswith('http'),

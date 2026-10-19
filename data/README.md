@@ -30,6 +30,9 @@ extend as more indicators get real state-level values.
       "national": 74.04,             // India average; drawn as a marker on the legend (optional)
       "mapId": "S07d",               // OPTIONAL: id of the matching map in maps.json
       "retrieved": "2026-09-22",     // OPTIONAL: ISO date the values were pulled from an API
+      "previous": {"Kerala": 93.9},  // OPTIONAL: the same measure at the previous round, state by state
+      "previousYear": "2019-21",     // OPTIONAL: required with `previous`; `nationalPrevious` is the India figure
+      "fewCases": ["Goa"],           // OPTIONAL: states whose figure rests on 25-49 unweighted cases
       "values": {                    // keys must match the `name` field in india-states.geojson
         "Kerala": 94.0,
         "Bihar": 61.8
@@ -71,7 +74,7 @@ Every failure it guards against is quiet, which is the reason it exists:
 - **A stale `mapId`** renders a cross-link button leading to a 404.
 - **A precached path that 404s** rejects `cache.addAll`, which fails the whole
   service worker install and silently leaves the site with no offline layer.
-- **Counts written in prose** (211 maps, 20 indicators) go stale the first time
+- **Counts written in prose** (211 maps, 45 indicators) go stale the first time
   one is added, in three files.
 
 Four of those were fault-injected against a real failure on 2026-09-22 to confirm
@@ -105,7 +108,7 @@ also sets `<html lang>` and fires an `im:langchange` event).
 
 Currently translated:
 - The navigation and the interactive tool's chrome (tabs, labels, headings).
-- **All 20 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
+- **All 45 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
 - **All 211 maps** — every map has `title_hi` + `takeaway_hi`, and every section
   title has a Hindi form. Numbers, ratios and state names are preserved.
 
@@ -120,3 +123,15 @@ To translate additional content (e.g. per-map static pages, policy notes):
 
 This keeps translation incremental — partial coverage degrades gracefully to
 English rather than breaking.
+
+### The NFHS-6 indicators (`n6_*`)
+
+Written by `scripts/build_nfhs6_indicators.py` from `data/nfhs6/states.json`, which
+`scripts/extract_nfhs6.py` reads out of IIPS's NFHS-6 India and State/UT fact sheets
+(May 2026). Do not edit them by hand; re-run the builder. Thirteen of the 36 sheets in
+that PDF carry no text layer, so `scripts/ocr_nfhs6.py` reads them as images first. A
+figure the sheet leaves blank (under 25 cases) is absent here and its state is grey;
+Manipur has no NFHS-6 sheet. `previous` is the NFHS-5 total printed beside the NFHS-6 one in the same sheet, so a change is always
+between two figures the survey put side by side. The fact sheets report 101 indicators
+against NFHS-5's 131; anaemia and the mortality rates are not among them, so those maps
+cannot be refreshed from this release.
