@@ -25,7 +25,7 @@ PUBLISHED = {
     "sw.js", "manifest.json", "robots.txt", "sitemap.xml", "LICENSE",
 }
 KEPT_BACK = {
-    ".github", ".gitignore", ".gitattributes", "CLAUDE.md", "CONTRIBUTING.md",
+    ".github", ".gitignore", ".gitattributes", ".editorconfig", ".claude", "CLAUDE.md", "CONTRIBUTING.md",
     "README.md", "scripts", "netlify.toml", "_site",
 }
 
