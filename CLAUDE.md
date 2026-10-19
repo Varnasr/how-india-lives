@@ -135,6 +135,16 @@ and `build_plfs_contract_indicator.py` turn them into `udise_private_share` (X25
 UDISE management categories must add to the all-management total. PLFS annual data stops at 2023-24, and
 indicator 4 (worker distribution) returned nothing for the filters tried, so S10g is not rebuilt.
 
+## ENVSTATS cannot be bulk-fetched from here
+
+The ENVSTATS dataset has no REST path I could find (`getEnvstatsRecords` and 15 variants answer with the
+swagger page), and through the MCP tool a `sub_indicator` filter is ignored, so groundwater (indicator 71,
+2024) returns all 14 series for 36 states, 504 rows over 9 pages. Rainfall (indicator 3) has no state
+dimension at all. S08a, S08j and the solid-waste, river-quality and piped-water maps are therefore not
+rebuilt. If a REST path for ENVSTATS turns up, `fetch_mospi_*.py` is the pattern to copy; the groundwater
+measure to map is `Stage of Ground Water Development (%)` (sub-indicator 277), whose unit field says
+BCM/Yr in error.
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
