@@ -35,6 +35,7 @@ Source: NCRB Crime in India 2024, Volume 1 (Tables 2A.1 and 2A.2) and Volume II 
 - Honour killings and witchcraft are counts of murders by recorded motive (Table 2A.2). The map divides by the population NCRB prints beside the murder counts (Table 2A.1, lakh) and multiplies by 100, giving cases per crore. India has 36 and 54 such murders, so one case moves a small state a long way (Manipur's top rate is one case; so is Nagaland's for witchcraft). A zero means none recorded under that motive.
 - Crimes against Scheduled Castes uses NCRB's printed 2024 rate per lakh SC population (2011 Census). It is recomputed from cases and the population NCRB prints to 0.1 lakh and must agree within that rounding. 2023 is 2023 cases over the same population. Ten states and territories with under 1 lakh SC people are left grey.
 - Human trafficking (`ncrb_trafficking`, Crime in India 2024 Volume III, Table 14.1): cases divided by the population NCRB prints with the table (lakh) times 10, giving cases per 10 lakh; 2023 uses the same population. The extractor requires IPC plus BNS to equal each state's total and the states and UTs to add to NCRB's printed totals (2,135 cases in India). States with under 10 cases are flagged as small samples.
+- Communal or religious riots (`ncrb_riots`, Crime in India 2024 Volume 1, Table 1A.4, sub-head a of rioting): IPC plus BNS cases in 2024 divided by the printed population (lakh) times 100, cases per crore. One year only; the old map's 2019 to 2024 total cannot be rebuilt from this volume. The states and UTs add to NCRB's printed 349.
 - These count registrations, not incidence, so the maps claim no direction.
 
 ## State output (`gsdp_pc`, `gsva_agri`, `gsva_mfg`, `gsva_services`)
@@ -66,6 +67,11 @@ MoSPI's PLFS calendar-year 2025 distribution of female workers by industry (usua
 - **Public beds:** Lok Sabha question 1000 of 25 July 2025, beds at PHC, CHC, sub-district and district hospitals and medical colleges as on 31 March 2023, divided by 2024 projected population (NCRB Table 2A.1) per lakh. The five columns add to 8,18,661, the figure in the answer. The medical-college column adds to 16,998 beds more than its printed total, which is exactly Maharashtra's entry, so Maharashtra is left off. The table lists Uttarakhand as 26 and Uttar Pradesh as 27.
 - **PM-JAY:** Lok Sabha question 2518 of 13 February 2026, admissions authorised in FY 2024-25 (lakh) divided by population (lakh) times 100,000. The table prints no total to check. Delhi and Odisha joined in April 2025 and West Bengal is not in the scheme.
 - **Mudra:** Lok Sabha question 5803 of 30 March 2026, loans to SC and ST entrepreneurs April 2022 to March 2025, divided by SC plus ST population in lakh (Census 2011, NCRB Tables 7A.1 and 7C.1). The loan counts add to the printed 3,84,16,963. States with under 1 lakh SC and ST people are left off.
+
+## Women MLAs and polluted rivers (`adr_women_mlas`, `cpcb_prs_critical`)
+
+- **Women MLAs:** ADR and National Election Watch, as on 2 February 2026: women divided by seats analysed, times 100. Each assembly's men plus women equal its seats, and the 31 assemblies give the 4,123 MLAs and 390 women the report states. Five assemblies (Assam, Kerala, Puducherry, Tamil Nadu, West Bengal) are on 2021 results.
+- **Polluted rivers:** CPCB's Table 1 (September 2025, monitoring 2022-23): the count of Priority I stretches (BOD above 30 mg/L). Each row's classes add to its total and each column to the printed totals (36, 21, 45, 45, 148, 295). The report's summary elsewhere says 279 stretches, against Table 1's 295.
 
 ## Courts
 

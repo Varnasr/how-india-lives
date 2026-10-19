@@ -2173,7 +2173,8 @@
       "gender"
     ],
     "title_hi": "कुल विधायकों में महिला विधायक %",
-    "takeaway_hi": "राजस्थान और हरियाणा में महिला विधायक 15% से अधिक हैं (आरक्षण के बाद), पर कई राज्यों में 5% से कम।"
+    "takeaway_hi": "राजस्थान और हरियाणा में महिला विधायक 15% से अधिक हैं (आरक्षण के बाद), पर कई राज्यों में 5% से कम।",
+    "newer": "adr_women_mlas"
   },
   {
     "id": "S04n",
@@ -2488,7 +2489,8 @@
       "religion"
     ],
     "title_hi": "राज्यवार सांप्रदायिक दंगे 2019-2024",
-    "takeaway_hi": "सांप्रदायिक दंगे उत्तर प्रदेश, राजस्थान, गुजरात और मध्य प्रदेश में केंद्रित हैं — समान रूप से बंटे नहीं हैं।"
+    "takeaway_hi": "सांप्रदायिक दंगे उत्तर प्रदेश, राजस्थान, गुजरात और मध्य प्रदेश में केंद्रित हैं — समान रूप से बंटे नहीं हैं।",
+    "newer": "ncrb_riots"
   },
   {
     "id": "S06f",
@@ -2874,7 +2876,8 @@
       "environment"
     ],
     "title_hi": "गंभीर रूप से प्रदूषित नदी खंड",
-    "takeaway_hi": "उत्तर प्रदेश और महाराष्ट्र में सबसे अधिक गंभीर रूप से प्रदूषित नदी खंड हैं — औद्योगिक और सीवेज संदूषण के कारण।"
+    "takeaway_hi": "उत्तर प्रदेश और महाराष्ट्र में सबसे अधिक गंभीर रूप से प्रदूषित नदी खंड हैं — औद्योगिक और सीवेज संदूषण के कारण।",
+    "newer": "cpcb_prs_critical"
   },
   {
     "id": "S08f",
@@ -4942,5 +4945,62 @@
     ],
     "title_hi": "SC और ST उद्यमियों को मुद्रा ऋण, 2022-25",
     "takeaway_hi": "तीन वर्षों में बिहार में प्रति लाख SC और ST आबादी 27,973 मुद्रा ऋण SC और ST उद्यमियों को मिले, हरियाणा में 23,274 और त्रिपुरा में 21,071, जबकि भारत का आँकड़ा 12,558 है। मेघालय, नागालैंड, मणिपुर और दादरा-नगर हवेली और दमन-दीव में 1,500 से कम।"
+  },
+  {
+    "id": "X269",
+    "title": "Communal and religious riots recorded, NCRB 2024",
+    "file": "X269_Communal_and_religious_riots_recorded_NCRB_2024.png",
+    "section": "religion",
+    "source": "NCRB (Crime in India 2024)",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "NCRB registered 349 communal or religious riot cases in 2024. Maharashtra had the most (90), then Bihar (80), Jharkhand (45), Odisha (37) and Karnataka (34). Per crore people, Goa is highest at 18.87 from 3 cases, then Jharkhand (11.21) and Odisha (7.93), against 2.48 for India. Sixteen states and territories registered none.",
+    "policy": "The map shows one year. The older map covered 2019 to 2024 cumulatively and could not be rebuilt from the 2024 volume alone. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
+    "tags": [
+      "NCRB",
+      "riots",
+      "communal",
+      "religion"
+    ],
+    "title_hi": "दर्ज सांप्रदायिक और धार्मिक दंगे, NCRB 2024",
+    "takeaway_hi": "NCRB ने 2024 में 349 सांप्रदायिक या धार्मिक दंगे दर्ज किए। सबसे अधिक महाराष्ट्र (90), फिर बिहार (80), झारखंड (45), ओडिशा (37) और कर्नाटक (34)। प्रति करोड़ आबादी पर गोवा 18.87 के साथ सबसे ऊपर है (3 मामले), फिर झारखंड (11.21) और ओडिशा (7.93), जबकि भारत का आँकड़ा 2.48 है। 16 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।"
+  },
+  {
+    "id": "X270",
+    "title": "Women among MLAs, ADR 2026",
+    "file": "X270_Women_among_MLAs_ADR_2026.png",
+    "section": "democracy",
+    "source": "ADR / National Election Watch",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Women hold 21.1 per cent of seats in the Chhattisgarh assembly (19 of 90), 15.0 in Tripura and 14.8 in Jharkhand, against 1.5 in Himachal Pradesh (1 of 68), 3.3 in Jammu and Kashmir, Nagaland and Puducherry, and 4.5 in Karnataka. Across 31 assemblies 390 of 4,123 MLAs are women, 9.5 per cent. Uttar Pradesh has the most women MLAs (47) but only 11.7 per cent of its seats.",
+    "policy": "Each assembly is shown on its last election as of 2 February 2026, so Assam, Kerala, Puducherry, Tamil Nadu and West Bengal are on 2021 results and have since voted. A small assembly moves a long way on one seat. Ladakh has no assembly. Women's share of Lok Sabha seats after 2024 was 14 per cent in the same report.",
+    "tags": [
+      "ADR",
+      "women",
+      "MLAs",
+      "democracy"
+    ],
+    "title_hi": "विधायकों में महिलाएँ, ADR 2026",
+    "takeaway_hi": "छत्तीसगढ़ विधानसभा में महिलाओं के पास 21.1 प्रतिशत सीटें हैं (90 में 19), त्रिपुरा में 15.0 और झारखंड में 14.8, जबकि हिमाचल प्रदेश में 1.5 (68 में 1), जम्मू और कश्मीर, नागालैंड और पुदुचेरी में 3.3 और कर्नाटक में 4.5। 31 विधानसभाओं में 4,123 में से 390 विधायक महिलाएँ हैं, यानी 9.5 प्रतिशत।"
+  },
+  {
+    "id": "X271",
+    "title": "Critically polluted river stretches, CPCB 2025",
+    "file": "X271_Critically_polluted_river_stretches_CPCB_2025.png",
+    "section": "environment",
+    "source": "CPCB (Polluted River Stretches 2025)",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "CPCB lists 36 river stretches in its most polluted class, with biochemical oxygen demand above 30 mg/L, in 14 states and territories: Uttarakhand and Tamil Nadu have 5 each, Uttar Pradesh and Gujarat 4 and Karnataka 3. The 18 other states in the table have none in this class. Maharashtra has 54 polluted stretches in all but only 2 are critical, and Kerala has 31, none critical.",
+    "policy": "This is a count of stretches, not a measure of how polluted a state's rivers are overall: states differ in river length and in how many locations are monitored. A state not in CPCB's table of 32 has no polluted stretch listed, which can mean clean water or little monitoring. The monitoring is from 2022 and 2023 and the report is dated September 2025.",
+    "tags": [
+      "CPCB",
+      "rivers",
+      "pollution",
+      "environment"
+    ],
+    "title_hi": "अत्यधिक प्रदूषित नदी खंड, CPCB 2025",
+    "takeaway_hi": "CPCB ने 14 राज्यों और क्षेत्रों में अपने सबसे प्रदूषित वर्ग (जैव-रासायनिक ऑक्सीजन माँग 30 mg/L से अधिक) में 36 नदी खंड सूचीबद्ध किए हैं: उत्तराखंड और तमिलनाडु में 5-5, उत्तर प्रदेश और गुजरात में 4 और कर्नाटक में 3। तालिका के शेष 18 राज्यों में इस वर्ग में कोई नहीं। महाराष्ट्र में कुल 54 प्रदूषित खंड हैं पर केवल 2 अत्यधिक प्रदूषित।"
   }
 ]

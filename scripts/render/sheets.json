@@ -1326,5 +1326,71 @@
       "ST",
       "credit"
     ]
+  },
+  {
+    "id": "X269",
+    "indicator": "ncrb_riots",
+    "section": "religion",
+    "file": "X269_Communal_and_religious_riots_recorded_NCRB_2024.png",
+    "title": "Communal and religious riots recorded, NCRB 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  RELIGION: RIOTS AS REGISTERED",
+    "subtitle": "Riot cases registered with a communal or religious motive, per crore population, NCRB 2024.\nIndia 2.48 (349 cases). One year only.",
+    "callout_note": "cases per crore people in {state}, from 3 cases in a state of 15.9 lakh people",
+    "decimals": 2,
+    "suffix": "",
+    "takeaway": "NCRB registered 349 communal or religious riot cases in 2024. Maharashtra had the most (90), then Bihar (80), Jharkhand (45), Odisha (37) and Karnataka (34). Per crore people, Goa is highest at 18.87 from 3 cases, then Jharkhand (11.21) and Odisha (7.93), against 2.48 for India. Sixteen states and territories registered none.",
+    "policy": "The map shows one year. The older map covered 2019 to 2024 cumulatively and could not be rebuilt from the 2024 volume alone. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
+    "takeaway_hi": "NCRB ने 2024 में 349 सांप्रदायिक या धार्मिक दंगे दर्ज किए। सबसे अधिक महाराष्ट्र (90), फिर बिहार (80), झारखंड (45), ओडिशा (37) और कर्नाटक (34)। प्रति करोड़ आबादी पर गोवा 18.87 के साथ सबसे ऊपर है (3 मामले), फिर झारखंड (11.21) और ओडिशा (7.93), जबकि भारत का आँकड़ा 2.48 है। 16 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।",
+    "title_hi": "दर्ज सांप्रदायिक और धार्मिक दंगे, NCRB 2024",
+    "tags": [
+      "NCRB",
+      "riots",
+      "communal",
+      "religion"
+    ]
+  },
+  {
+    "id": "X270",
+    "indicator": "adr_women_mlas",
+    "section": "democracy",
+    "file": "X270_Women_among_MLAs_ADR_2026.png",
+    "title": "Women among MLAs, ADR 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  DEMOCRACY: WHO SITS IN THE ASSEMBLY",
+    "subtitle": "Women as a share of sitting MLAs, by state assembly, as on 2 February 2026.\n390 of 4,123 MLAs, 9.5%.",
+    "callout_note": "of MLAs in {state} are women (19 of 90 seats)",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women hold 21.1 per cent of seats in the Chhattisgarh assembly (19 of 90), 15.0 in Tripura and 14.8 in Jharkhand, against 1.5 in Himachal Pradesh (1 of 68), 3.3 in Jammu and Kashmir, Nagaland and Puducherry, and 4.5 in Karnataka. Across 31 assemblies 390 of 4,123 MLAs are women, 9.5 per cent. Uttar Pradesh has the most women MLAs (47) but only 11.7 per cent of its seats.",
+    "policy": "Each assembly is shown on its last election as of 2 February 2026, so Assam, Kerala, Puducherry, Tamil Nadu and West Bengal are on 2021 results and have since voted. A small assembly moves a long way on one seat. Ladakh has no assembly. Women's share of Lok Sabha seats after 2024 was 14 per cent in the same report.",
+    "takeaway_hi": "छत्तीसगढ़ विधानसभा में महिलाओं के पास 21.1 प्रतिशत सीटें हैं (90 में 19), त्रिपुरा में 15.0 और झारखंड में 14.8, जबकि हिमाचल प्रदेश में 1.5 (68 में 1), जम्मू और कश्मीर, नागालैंड और पुदुचेरी में 3.3 और कर्नाटक में 4.5। 31 विधानसभाओं में 4,123 में से 390 विधायक महिलाएँ हैं, यानी 9.5 प्रतिशत।",
+    "title_hi": "विधायकों में महिलाएँ, ADR 2026",
+    "tags": [
+      "ADR",
+      "women",
+      "MLAs",
+      "democracy"
+    ]
+  },
+  {
+    "id": "X271",
+    "indicator": "cpcb_prs_critical",
+    "section": "environment",
+    "file": "X271_Critically_polluted_river_stretches_CPCB_2025.png",
+    "title": "Critically polluted river stretches, CPCB 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ENVIRONMENT: RIVERS",
+    "subtitle": "River stretches in the most polluted class (BOD above 30 mg/L), CPCB report of September 2025,\nfrom monitoring in 2022 and 2023. 36 stretches in India.",
+    "callout_note": "critically polluted river stretches in {state}, level with one other state at the top",
+    "decimals": 0,
+    "suffix": "",
+    "takeaway": "CPCB lists 36 river stretches in its most polluted class, with biochemical oxygen demand above 30 mg/L, in 14 states and territories: Uttarakhand and Tamil Nadu have 5 each, Uttar Pradesh and Gujarat 4 and Karnataka 3. The 18 other states in the table have none in this class. Maharashtra has 54 polluted stretches in all but only 2 are critical, and Kerala has 31, none critical.",
+    "policy": "This is a count of stretches, not a measure of how polluted a state's rivers are overall: states differ in river length and in how many locations are monitored. A state not in CPCB's table of 32 has no polluted stretch listed, which can mean clean water or little monitoring. The monitoring is from 2022 and 2023 and the report is dated September 2025.",
+    "takeaway_hi": "CPCB ने 14 राज्यों और क्षेत्रों में अपने सबसे प्रदूषित वर्ग (जैव-रासायनिक ऑक्सीजन माँग 30 mg/L से अधिक) में 36 नदी खंड सूचीबद्ध किए हैं: उत्तराखंड और तमिलनाडु में 5-5, उत्तर प्रदेश और गुजरात में 4 और कर्नाटक में 3। तालिका के शेष 18 राज्यों में इस वर्ग में कोई नहीं। महाराष्ट्र में कुल 54 प्रदूषित खंड हैं पर केवल 2 अत्यधिक प्रदूषित।",
+    "title_hi": "अत्यधिक प्रदूषित नदी खंड, CPCB 2025",
+    "tags": [
+      "CPCB",
+      "rivers",
+      "pollution",
+      "environment"
+    ]
   }
 ]

@@ -154,6 +154,14 @@ def ncrb_other_calcs(by):
     files['calculations/ncrb_trafficking.csv'] = rows_to_csv(
         ['state', 'cases_2022', 'cases_2023', 'cases_2024', 'population_lakh_2024 (NCRB Table 14.1)', 'ncrb_printed_rate_per_lakh_2024',
          'cases_per_10_lakh_2024 (cases / population_lakh x 10, 2 dp)', 'cases_per_10_lakh_2023 (same population)'], rows)
+    rows, got = [], {}
+    for s, r in sorted(S.items()):
+        v = round(r['communal_riots_2024'] / r['population_lakh'] * 100, 2)
+        got[s] = v
+        rows.append([s, r['communal_riots_2024'], r['communal_riots_victims_2024'], r['population_lakh'], v])
+    check_equal('ncrb_riots', got, by['ncrb_riots']['values'])
+    files['calculations/ncrb_riots.csv'] = rows_to_csv(
+        ['state', 'communal_or_religious_riot_cases_2024 (IPC + BNS, Table 1A.4)', 'victims', 'population_lakh_2024', 'cases_per_crore_population (cases / population_lakh x 100, 2 dp)'], rows)
     for key, iid in (('murder_honour_2024', 'ncrb_honour'), ('murder_witchcraft_2024', 'ncrb_witchcraft')):
         rows, got = [], {}
         for s, r in sorted(S.items()):

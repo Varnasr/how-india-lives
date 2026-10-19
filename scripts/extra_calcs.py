@@ -54,4 +54,16 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     check_equal('ls_public_beds', {s: round(sum(v or 0 for v in r.values()) / pop[s]['population_lakh']) for s, r in beds['states'].items() if s not in beds['unreliable']}, by['ls_public_beds']['values'])
     check_equal('pmjay_admissions', {s: round(r[2] / pop[s]['population_lakh'] * 1e5) for s, r in pm['states'].items() if s not in pm['not_in_scheme_until_april_2025']}, by['pmjay_admissions']['values'])
     check_equal('mudra_sc_st', {s: round(l / (pop[s]['sc_population_lakh_2011'] + pop[s]['st_population_lakh_2011'])) for s, (l, a) in mu['states'].items() if pop[s]['sc_population_lakh_2011'] + pop[s]['st_population_lakh_2011'] >= 1.0}, by['mudra_sc_st']['values'])
+    # ADR women MLAs
+    adr = load('data/adr/women-mlas-2026.json')['states']
+    check_equal('adr_women_mlas', {s: round(r['women'] / r['seats_analysed'] * 100, 1) for s, r in adr.items()}, by['adr_women_mlas']['values'])
+    files['calculations/adr_women_mlas.csv'] = rows_to_csv(
+        ['state', 'last_election_year', 'seats_analysed', 'women_mlas', 'women_share_pct (women / seats x 100, 1 dp)'],
+        [[s, r['election_year'], r['seats_analysed'], r['women'], round(r['women'] / r['seats_analysed'] * 100, 1)] for s, r in sorted(adr.items())])
+    # CPCB rivers
+    cp = load('data/cpcb/polluted-rivers-2025.json')['states']
+    check_equal('cpcb_prs_critical', {s: r['priority_I'] for s, r in cp.items()}, by['cpcb_prs_critical']['values'])
+    files['calculations/cpcb_polluted_rivers.csv'] = rows_to_csv(
+        ['state', 'priority_I_bod_above_30 (mapped)', 'priority_II_20_to_30', 'priority_III_10_to_20', 'priority_IV_6_to_10', 'priority_V_3_to_6', 'total'],
+        [[s, r['priority_I'], r['priority_II'], r['priority_III'], r['priority_IV'], r['priority_V'], r['total']] for s, r in sorted(cp.items())])
     return files
