@@ -245,5 +245,467 @@
       "child marriage",
       "women"
     ]
+  },
+  {
+    "id": "X218",
+    "indicator": "n6_wasting",
+    "section": "health",
+    "file": "X218_Child_wasting_NFHS_6.png",
+    "title": "Child wasting, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: WEIGHT FOR HEIGHT",
+    "subtitle": "Share of children under 5 whose weight for height is more than two standard deviations below the WHO standard, NFHS-6 (2023-24).\nMizoram 8.1 per cent. Dadra and Nagar Haveli and Daman and Diu 24.2. India 19.0, down from 19.3 in NFHS-5.",
+    "callout_note": "of children under 5 are wasted in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Children under 5 who are wasted ranges from 8.1 per cent in Mizoram to 24.2 per cent in Dadra and Nagar Haveli and Daman and Diu. The India figure is 19.0 per cent, down from 19.3 in NFHS-5.",
+    "policy": "Wasting reflects recent shortfalls in food and bouts of illness, so it can move faster than stunting. One survey year is not a trend.",
+    "takeaway_hi": "राज्यों के बीच यह 8.1 से 24.2 प्रतिशत तक है। भारत का आँकड़ा 19.0 प्रतिशत है, जो NFHS-5 में 19.3 था।",
+    "title_hi": "बाल दुबलापन (वेस्टिंग), NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "children"
+    ]
+  },
+  {
+    "id": "X219",
+    "indicator": "n6_underweight",
+    "section": "health",
+    "file": "X219_Underweight_children_NFHS_6.png",
+    "title": "Underweight children, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: WEIGHT FOR AGE",
+    "subtitle": "Share of children under 5 whose weight for age is more than two standard deviations below the WHO standard, NFHS-6 (2023-24).\nSikkim 11.2 per cent. Dadra and Nagar Haveli and Daman and Diu 41.3. India 31.8, down from 32.1 in NFHS-5.",
+    "callout_note": "of children under 5 are underweight in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Children under 5 who are underweight ranges from 11.2 per cent in Sikkim to 41.3 per cent in Dadra and Nagar Haveli and Daman and Diu. The India figure is 31.8 per cent, down from 32.1 in NFHS-5.",
+    "policy": "Underweight mixes stunting and wasting, so it is a rougher guide than either measure alone.",
+    "takeaway_hi": "राज्यों के बीच यह 11.2 से 41.3 प्रतिशत तक है। भारत का आँकड़ा 31.8 प्रतिशत है, जो NFHS-5 में 32.1 था।",
+    "title_hi": "कम वज़न वाले बच्चे, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "children"
+    ]
+  },
+  {
+    "id": "X220",
+    "indicator": "n6_ebf",
+    "section": "health",
+    "file": "X220_Exclusive_breastfeeding_NFHS_6.png",
+    "title": "Exclusive breastfeeding, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: THE FIRST SIX MONTHS",
+    "subtitle": "Share of children under 6 months who are exclusively breastfed, NFHS-6 (2023-24).\nUttar Pradesh 34.6 per cent. Chhattisgarh 75.8. India 55.8, down from 63.7 in NFHS-5.",
+    "callout_note": "of children under 6 months are exclusively breastfed in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Exclusive breastfeeding under 6 months ranges from 34.6 per cent in Uttar Pradesh to 75.8 per cent in Chhattisgarh. The India figure is 55.8 per cent, down from 63.7 in NFHS-5.",
+    "policy": "Mothers report this from recall for their youngest child. Small states rest on few cases, and some have no published figure.",
+    "takeaway_hi": "राज्यों के बीच यह 34.6 से 75.8 प्रतिशत तक है। भारत का आँकड़ा 55.8 प्रतिशत है, जो NFHS-5 में 63.7 था।",
+    "title_hi": "केवल स्तनपान, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "infants"
+    ]
+  },
+  {
+    "id": "X221",
+    "indicator": "n6_full_vacc",
+    "section": "health",
+    "file": "X221_Full_vaccination_NFHS_6.png",
+    "title": "Full vaccination, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: THE VACCINATION CARD",
+    "subtitle": "Share of children aged 12-23 months fully vaccinated, NFHS-6 (2023-24).\nNagaland 64.3 per cent. Goa 93.8. India 82.6, up from 76.6 in NFHS-5.",
+    "callout_note": "of children aged 12-23 months are fully vaccinated in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Children fully vaccinated, 12-23 months ranges from 64.3 per cent in Nagaland to 93.8 per cent in Goa. The India figure is 82.6 per cent, up from 76.6 in NFHS-5.",
+    "policy": "The figure combines vaccination cards with the mother's recall, and states with few children in this age group give noisy results.",
+    "takeaway_hi": "राज्यों के बीच यह 64.3 से 93.8 प्रतिशत तक है। भारत का आँकड़ा 82.6 प्रतिशत है, जो NFHS-5 में 76.6 था।",
+    "title_hi": "पूर्ण टीकाकरण, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "immunisation",
+      "children"
+    ]
+  },
+  {
+    "id": "X222",
+    "indicator": "n6_csection",
+    "section": "health",
+    "file": "X222_Caesarean_births_NFHS_6.png",
+    "title": "Caesarean births, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: HOW BIRTHS ARE DELIVERED",
+    "subtitle": "Share of births in the five years before the survey delivered by caesarean section, NFHS-6 (2023-24).\nMeghalaya 6.4 per cent. Telangana 62.2. India 27.2, up from 21.5 in NFHS-5.",
+    "callout_note": "of births were delivered by caesarean section in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Births delivered by caesarean section ranges from 6.4 per cent in Meghalaya to 62.2 per cent in Telangana. The India figure is 27.2 per cent, up from 21.5 in NFHS-5.",
+    "policy": "There is no single right rate. Whether a rate reflects need or access is a question this survey cannot answer.",
+    "takeaway_hi": "राज्यों के बीच यह 6.4 से 62.2 प्रतिशत तक है। भारत का आँकड़ा 27.2 प्रतिशत है, जो NFHS-5 में 21.5 था।",
+    "title_hi": "सिज़ेरियन प्रसव, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "maternal health",
+      "births"
+    ]
+  },
+  {
+    "id": "X223",
+    "indicator": "n6_women_thin",
+    "section": "health",
+    "file": "X223_Women_with_low_BMI_NFHS_6.png",
+    "title": "Women with low BMI, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: ADULT UNDERNUTRITION",
+    "subtitle": "Share of women aged 15-49 whose body mass index is below normal, NFHS-6 (2023-24).\nAndaman and Nicobar 3.1 per cent. Jharkhand 29.2. India 19.7, up from 18.7 in NFHS-5.",
+    "callout_note": "of women aged 15-49 have a BMI below 18.5 in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women with bmi below 18.5 ranges from 3.1 per cent in Andaman and Nicobar to 29.2 per cent in Jharkhand. The India figure is 19.7 per cent, up from 18.7 in NFHS-5.",
+    "policy": "A BMI below 18.5 marks undernutrition in an adult woman, and it moves slowly between survey rounds.",
+    "takeaway_hi": "राज्यों के बीच यह 3.1 से 29.2 प्रतिशत तक है। भारत का आँकड़ा 19.7 प्रतिशत है, जो NFHS-5 में 18.7 था।",
+    "title_hi": "कम BMI वाली महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "women"
+    ]
+  },
+  {
+    "id": "X224",
+    "indicator": "n6_women_overweight",
+    "section": "health",
+    "file": "X224_Overweight_women_NFHS_6.png",
+    "title": "Overweight women, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: ADULT OVERWEIGHT",
+    "subtitle": "Share of women aged 15-49 with a body mass index of 25.0 or more, NFHS-6 (2023-24).\nAssam 19.6 per cent. Puducherry 51.3. India 30.7, up from 24.0 in NFHS-5.",
+    "callout_note": "of women aged 15-49 are overweight or obese in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women who are overweight or obese ranges from 19.6 per cent in Assam to 51.3 per cent in Puducherry. The India figure is 30.7 per cent, up from 24.0 in NFHS-5.",
+    "policy": "Overweight now sits beside undernutrition in many states, so one national health message misses both.",
+    "takeaway_hi": "राज्यों के बीच यह 19.6 से 51.3 प्रतिशत तक है। भारत का आँकड़ा 30.7 प्रतिशत है, जो NFHS-5 में 24.0 था।",
+    "title_hi": "अधिक वज़न वाली महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "women"
+    ]
+  },
+  {
+    "id": "X225",
+    "indicator": "n6_women_sugar",
+    "section": "health",
+    "file": "X225_High_blood_sugar_in_women_NFHS_6.png",
+    "title": "High blood sugar in women, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: BLOOD SUGAR",
+    "subtitle": "Share of women aged 15 and over with blood sugar above 140 mg/dl, NFHS-6 (2023-24).\nLadakh 6.7 per cent. Kerala 28.9. India 17.8, up from 13.5 in NFHS-5.",
+    "callout_note": "of women aged 15 and over have high blood sugar or take medicine for it in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women with high blood sugar ranges from 6.7 per cent in Ladakh to 28.9 per cent in Kerala. The India figure is 17.8 per cent, up from 13.5 in NFHS-5.",
+    "policy": "These are random blood sugar readings or reported medication, not a diagnosis of diabetes.",
+    "takeaway_hi": "राज्यों के बीच यह 6.7 से 28.9 प्रतिशत तक है। भारत का आँकड़ा 17.8 प्रतिशत है, जो NFHS-5 में 13.5 था।",
+    "title_hi": "उच्च रक्त शर्करा वाली महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "diabetes",
+      "women"
+    ]
+  },
+  {
+    "id": "X226",
+    "indicator": "n6_women_bp",
+    "section": "health",
+    "file": "X226_High_blood_pressure_in_women_NFHS_6.png",
+    "title": "High blood pressure in women, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: BLOOD PRESSURE",
+    "subtitle": "Share of women aged 15 and over with systolic of 140 or more or diastolic of 90 or more, NFHS-6 (2023-24).\nUttar Pradesh 12.1 per cent. Sikkim 32.0. India 19.4, down from 21.3 in NFHS-5.",
+    "callout_note": "of women aged 15 and over have elevated blood pressure or take medicine for it in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women with elevated blood pressure ranges from 12.1 per cent in Uttar Pradesh to 32.0 per cent in Sikkim. The India figure is 19.4 per cent, down from 21.3 in NFHS-5.",
+    "policy": "The figure includes people already on medicine, so a high share can reflect disease, screening, or both.",
+    "takeaway_hi": "राज्यों के बीच यह 12.1 से 32.0 प्रतिशत तक है। भारत का आँकड़ा 19.4 प्रतिशत है, जो NFHS-5 में 21.3 था।",
+    "title_hi": "उच्च रक्तचाप वाली महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "hypertension",
+      "women"
+    ]
+  },
+  {
+    "id": "X227",
+    "indicator": "n6_men_bp",
+    "section": "health",
+    "file": "X227_High_blood_pressure_in_men_NFHS_6.png",
+    "title": "High blood pressure in men, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: BLOOD PRESSURE",
+    "subtitle": "Share of men aged 15 and over with systolic of 140 or more or diastolic of 90 or more, NFHS-6 (2023-24).\nUttar Pradesh 14.1 per cent. Kerala 36.6. India 22.1, down from 24.0 in NFHS-5.",
+    "callout_note": "of men aged 15 and over have elevated blood pressure or take medicine for it in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Men with elevated blood pressure ranges from 14.1 per cent in Uttar Pradesh to 36.6 per cent in Kerala. The India figure is 22.1 per cent, down from 24.0 in NFHS-5.",
+    "policy": "The figure includes people already on medicine, so a high share can reflect disease, screening, or both.",
+    "takeaway_hi": "राज्यों के बीच यह 14.1 से 36.6 प्रतिशत तक है। भारत का आँकड़ा 22.1 प्रतिशत है, जो NFHS-5 में 24.0 था।",
+    "title_hi": "उच्च रक्तचाप वाले पुरुष, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "hypertension",
+      "men"
+    ]
+  },
+  {
+    "id": "X228",
+    "indicator": "n6_tobacco_w",
+    "section": "health",
+    "file": "X228_Tobacco_use_among_women_NFHS_6.png",
+    "title": "Tobacco use among women, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: TOBACCO",
+    "subtitle": "Share of women aged 15 and over who use any kind of tobacco, NFHS-6 (2023-24).\nChandigarh 0.5 per cent. Mizoram 61.0. India 8.4, down from 8.9 in NFHS-5.",
+    "callout_note": "of women aged 15 and over use tobacco in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women who use tobacco ranges from 0.5 per cent in Chandigarh to 61.0 per cent in Mizoram. The India figure is 8.4 per cent, down from 8.9 in NFHS-5.",
+    "policy": "This is self-reported, and willingness to report differs by state and by sex.",
+    "takeaway_hi": "राज्यों के बीच यह 0.5 से 61.0 प्रतिशत तक है। भारत का आँकड़ा 8.4 प्रतिशत है, जो NFHS-5 में 8.9 था।",
+    "title_hi": "तंबाकू सेवन, महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "tobacco",
+      "women"
+    ]
+  },
+  {
+    "id": "X229",
+    "indicator": "n6_tobacco_m",
+    "section": "health",
+    "file": "X229_Tobacco_use_among_men_NFHS_6.png",
+    "title": "Tobacco use among men, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: TOBACCO",
+    "subtitle": "Share of men aged 15 and over who use any kind of tobacco, NFHS-6 (2023-24).\nPuducherry 11.4 per cent. Mizoram 73.6. India 36.3, down from 38.0 in NFHS-5.",
+    "callout_note": "of men aged 15 and over use tobacco in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Men who use tobacco ranges from 11.4 per cent in Puducherry to 73.6 per cent in Mizoram. The India figure is 36.3 per cent, down from 38.0 in NFHS-5.",
+    "policy": "This is self-reported, and willingness to report differs by state and by sex.",
+    "takeaway_hi": "राज्यों के बीच यह 11.4 से 73.6 प्रतिशत तक है। भारत का आँकड़ा 36.3 प्रतिशत है, जो NFHS-5 में 38.0 था।",
+    "title_hi": "तंबाकू सेवन, पुरुष, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "tobacco",
+      "men"
+    ]
+  },
+  {
+    "id": "X230",
+    "indicator": "n6_alcohol_m",
+    "section": "health",
+    "file": "X230_Alcohol_use_among_men_NFHS_6.png",
+    "title": "Alcohol use among men, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: ALCOHOL",
+    "subtitle": "Share of men aged 15 and over who consume alcohol, NFHS-6 (2023-24).\nLakshadweep 0.6 per cent. Arunachal Pradesh 50.5. India 18.9, up from 18.7 in NFHS-5.",
+    "callout_note": "of men aged 15 and over drink alcohol in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Men who drink alcohol ranges from 0.6 per cent in Lakshadweep to 50.5 per cent in Arunachal Pradesh. The India figure is 18.9 per cent, up from 18.7 in NFHS-5.",
+    "policy": "This is self-reported. State prohibition and local norms shape what men are willing to say.",
+    "takeaway_hi": "राज्यों के बीच यह 0.6 से 50.5 प्रतिशत तक है। भारत का आँकड़ा 18.9 प्रतिशत है, जो NFHS-5 में 18.7 था।",
+    "title_hi": "शराब सेवन, पुरुष, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "alcohol",
+      "men"
+    ]
+  },
+  {
+    "id": "X231",
+    "indicator": "n6_iodised_salt",
+    "section": "health",
+    "file": "X231_Households_using_iodized_salt_NFHS_6.png",
+    "title": "Households using iodized salt, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: THE SALT ON THE TABLE",
+    "subtitle": "Share of households using iodized salt, NFHS-6 (2023-24).\nUttar Pradesh 86.5 per cent. Sikkim 99.9. India 94.2, down from 94.3 in NFHS-5.",
+    "callout_note": "of households use iodized salt in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Households using iodized salt ranges from 86.5 per cent in Uttar Pradesh to 99.9 per cent in Sikkim. The India figure is 94.2 per cent, down from 94.3 in NFHS-5.",
+    "policy": "A high national share can hide the few states where many households still lack iodized salt.",
+    "takeaway_hi": "राज्यों के बीच यह 86.5 से 99.9 प्रतिशत तक है। भारत का आँकड़ा 94.2 प्रतिशत है, जो NFHS-5 में 94.3 था।",
+    "title_hi": "आयोडीनयुक्त नमक वाले परिवार, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "nutrition",
+      "households"
+    ]
+  },
+  {
+    "id": "X232",
+    "indicator": "n6_mobile_w",
+    "section": "gender",
+    "file": "X232_Women_with_their_own_mobile_phone_NFHS_6.png",
+    "title": "Women with their own mobile phone, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: WHO HOLDS THE PHONE",
+    "subtitle": "Share of women aged 15-49 who have a mobile phone that they themselves use, NFHS-6 (2023-24).\nChhattisgarh 47.8 per cent. Sikkim 91.6. India 63.6, up from 53.9 in NFHS-5.",
+    "callout_note": "of women aged 15-49 have a mobile phone they use themselves in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women with a mobile phone they use ranges from 47.8 per cent in Chhattisgarh to 91.6 per cent in Sikkim. The India figure is 63.6 per cent, up from 53.9 in NFHS-5.",
+    "policy": "Having a phone is not the same as having a data connection or using it freely.",
+    "takeaway_hi": "राज्यों के बीच यह 47.8 से 91.6 प्रतिशत तक है। भारत का आँकड़ा 63.6 प्रतिशत है, जो NFHS-5 में 53.9 था।",
+    "title_hi": "अपना मोबाइल फ़ोन रखने वाली महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "digital",
+      "women"
+    ]
+  },
+  {
+    "id": "X233",
+    "indicator": "n6_decisions_w",
+    "section": "gender",
+    "file": "X233_Women_in_household_decisions_NFHS_6.png",
+    "title": "Women in household decisions, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: WHO DECIDES",
+    "subtitle": "Share of currently married women aged 15-49 who usually take part in all three household decisions asked about, NFHS-6 (2023-24).\nAndhra Pradesh 84.0 per cent. Nagaland 98.9. India 89.0, up from 88.7 in NFHS-5.",
+    "callout_note": "of currently married women usually take part in all three household decisions asked about in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Married women in household decisions ranges from 84.0 per cent in Andhra Pradesh to 98.9 per cent in Nagaland. The India figure is 89.0 per cent, up from 88.7 in NFHS-5.",
+    "policy": "The measure covers three decisions and only currently married women.",
+    "takeaway_hi": "राज्यों के बीच यह 84.0 से 98.9 प्रतिशत तक है। भारत का आँकड़ा 89.0 प्रतिशत है, जो NFHS-5 में 88.7 था।",
+    "title_hi": "घरेलू निर्णयों में भागीदारी, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "decisions",
+      "women"
+    ]
+  },
+  {
+    "id": "X234",
+    "indicator": "n6_teen_mothers",
+    "section": "reproductive-choices",
+    "file": "X234_Teenage_motherhood_NFHS_6.png",
+    "title": "Teenage motherhood, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  REPRODUCTIVE CHOICES: GIRLS 15-19",
+    "subtitle": "Share of women aged 15-19 who were already mothers or pregnant at the time of the survey, NFHS-6 (2023-24).\nChandigarh 0.0 per cent. Tripura 18.0. India 6.7, down from 6.8 in NFHS-5.",
+    "callout_note": "of women aged 15-19 were already mothers or pregnant in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Girls 15-19 already mothers or pregnant ranges from 0.0 per cent in Chandigarh to 18.0 per cent in Tripura. The India figure is 6.7 per cent, down from 6.8 in NFHS-5.",
+    "policy": "This is a small share of a small age group, so state figures rest on few cases.",
+    "takeaway_hi": "राज्यों के बीच यह 0.0 से 18.0 प्रतिशत तक है। भारत का आँकड़ा 6.7 प्रतिशत है, जो NFHS-5 में 6.8 था।",
+    "title_hi": "किशोर मातृत्व, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "adolescents",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "X235",
+    "indicator": "n6_unmet_need",
+    "section": "reproductive-choices",
+    "file": "X235_Unmet_need_for_family_planning_NFHS_6.png",
+    "title": "Unmet need for family planning, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  REPRODUCTIVE CHOICES: WHAT IS NOT MET",
+    "subtitle": "Share of currently married women aged 15-49 with an unmet need for family planning, NFHS-6 (2023-24).\nAndhra Pradesh 4.4 per cent. Meghalaya 21.0. India 8.5, down from 9.4 in NFHS-5.",
+    "callout_note": "of currently married women have an unmet need for family planning in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Unmet need for family planning ranges from 4.4 per cent in Andhra Pradesh to 21.0 per cent in Meghalaya. The India figure is 8.5 per cent, down from 9.4 in NFHS-5.",
+    "policy": "Unmet need is a woman's stated wish to delay or stop childbearing while using no contraception, and it covers currently married women only.",
+    "takeaway_hi": "राज्यों के बीच यह 4.4 से 21.0 प्रतिशत तक है। भारत का आँकड़ा 8.5 प्रतिशत है, जो NFHS-5 में 9.4 था।",
+    "title_hi": "परिवार नियोजन की अपूर्ण आवश्यकता, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "contraception",
+      "women"
+    ]
+  },
+  {
+    "id": "X236",
+    "indicator": "n6_women_school",
+    "section": "education",
+    "file": "X236_Women_with_10_or_more_years_of_schooling_NFHS_6.png",
+    "title": "Women with 10 or more years of schooling, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  EDUCATION: YEARS IN SCHOOL",
+    "subtitle": "Share of women aged 15-49 with 10 or more years of schooling, NFHS-6 (2023-24).\nTripura 32.9 per cent. Kerala 86.6. India 46.4, up from 41.0 in NFHS-5.",
+    "callout_note": "of women aged 15-49 have 10 or more years of schooling in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Women with 10 or more years of schooling ranges from 32.9 per cent in Tripura to 86.6 per cent in Kerala. The India figure is 46.4 per cent, up from 41.0 in NFHS-5.",
+    "policy": "Ten years marks the end of secondary school. Years in school are not the same as what was learned.",
+    "takeaway_hi": "राज्यों के बीच यह 32.9 से 86.6 प्रतिशत तक है। भारत का आँकड़ा 46.4 प्रतिशत है, जो NFHS-5 में 41.0 था।",
+    "title_hi": "10 या अधिक वर्ष की स्कूली शिक्षा, महिलाएँ, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "schooling",
+      "women"
+    ]
+  },
+  {
+    "id": "X237",
+    "indicator": "plfs_ur",
+    "section": "economy",
+    "file": "X237_Unemployment_rate_PLFS_2025.png",
+    "title": "Unemployment rate, PLFS 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: WHO IS LOOKING FOR WORK",
+    "subtitle": "Share of the labour force aged 15 and above who are without work and looking for it, PLFS (2025).\nGujarat 0.9 per cent. Andaman and Nicobar 10.0. India 3.1.",
+    "callout_note": "of the labour force aged 15 and above are unemployed in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Unemployment rate ranges from 0.9 per cent in Gujarat to 10.0 per cent in Andaman and Nicobar. The India figure is 3.1 per cent.",
+    "policy": "A low unemployment rate can mean people cannot afford to stay out of work, so it says little about the quality of jobs.",
+    "takeaway_hi": "राज्यों के बीच यह 0.9 से 10.0 प्रतिशत तक है। भारत का आँकड़ा 3.1 प्रतिशत है।",
+    "title_hi": "बेरोज़गारी दर, PLFS 2025",
+    "tags": [
+      "PLFS",
+      "work",
+      "unemployment"
+    ]
+  },
+  {
+    "id": "X238",
+    "indicator": "plfs_yur",
+    "section": "economy",
+    "file": "X238_Youth_unemployment_rate_PLFS_2025.png",
+    "title": "Youth unemployment rate, PLFS 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: YOUNG AND LOOKING FOR WORK",
+    "subtitle": "Share of the labour force aged 15-29 who are without work and looking for it, PLFS (2025).\nGujarat 2.5 per cent. Andaman and Nicobar 31.2. India 9.9.",
+    "callout_note": "of the labour force aged 15-29 are unemployed in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Youth unemployment rate ranges from 2.5 per cent in Gujarat to 31.2 per cent in Andaman and Nicobar. The India figure is 9.9 per cent.",
+    "policy": "Youth rates run well above adult rates, and small states rest on small samples, so single figures are noisy.",
+    "takeaway_hi": "राज्यों के बीच यह 2.5 से 31.2 प्रतिशत तक है। भारत का आँकड़ा 9.9 प्रतिशत है।",
+    "title_hi": "युवा बेरोज़गारी दर, PLFS 2025",
+    "tags": [
+      "PLFS",
+      "work",
+      "youth"
+    ]
+  },
+  {
+    "id": "X239",
+    "indicator": "udise_dropout_sec",
+    "section": "education",
+    "file": "X239_Secondary_school_dropout_UDISE_2024_25.png",
+    "title": "Secondary school dropout, UDISE+ 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  EDUCATION: WHO LEAVES SCHOOL",
+    "subtitle": "Share of students in secondary school (classes 9-10) who dropped out, UDISE+ (2024-25).\nChandigarh 2.0 per cent. West Bengal 20.0.",
+    "callout_note": "of students in classes 9-10 dropped out in {state}, the highest of any state or territory with a figure",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Secondary school dropout rate ranges from 2.0 per cent in Chandigarh to 20.0 per cent in West Bengal.",
+    "policy": "Bihar is grey because the API reports exactly 0, which is not a credible measurement. A grey state here has no usable figure, not a low one.",
+    "takeaway_hi": "राज्यों के बीच यह 2.0 से 20.0 प्रतिशत तक है।",
+    "title_hi": "माध्यमिक स्तर पर स्कूल छोड़ना, UDISE+ 2024-25",
+    "tags": [
+      "UDISE+",
+      "schooling",
+      "dropout"
+    ]
   }
 ]
