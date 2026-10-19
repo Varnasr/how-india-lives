@@ -1070,5 +1070,48 @@
       "health",
       "ARI"
     ]
+  },
+  {
+    "id": "X257",
+    "indicator": "udise_private_share",
+    "section": "education",
+    "file": "X257_Private_school_enrolment_share_UDISE_2024-25.png",
+    "title": "Private school enrolment share, UDISE+ 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  EDUCATION: WHO RUNS THE SCHOOLS",
+    "subtitle": "Share of students in classes 1-12 enrolled in private unaided recognised schools, UDISE+ 2024-25.\nIndia 36.8%, from 31.9% in 2022-23.",
+    "callout_note": "of students in classes 1-12 attend private unaided schools in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Private unaided schools enrol 67.5% of students in Nagaland, 62.7% in Manipur and 60.8% in Telangana, against 7.1% in West Bengal, 12.0% in Goa and 12.7% in Bihar. Across all states and territories the share is 36.8%, up from 31.9% in 2022-23, and it rose in every state and territory.",
+    "policy": "Government-aided schools are privately managed but publicly funded and are not counted as private here, so a low share can mean a large aided sector rather than a large government one. The two-year rise is large and the source does not say how much of it is a change in the schools or in how they were counted.",
+    "takeaway_hi": "निजी गैर-सहायता प्राप्त स्कूल नागालैंड में 67.5%, मणिपुर में 62.7% और तेलंगाना में 60.8% विद्यार्थियों को पढ़ाते हैं, जबकि पश्चिम बंगाल में 7.1%, गोवा में 12.0% और बिहार में 12.7%। सभी राज्यों और क्षेत्रों में यह हिस्सा 36.8% है, जो 2022-23 में 31.9% था।",
+    "title_hi": "निजी स्कूलों में नामांकन का हिस्सा, UDISE+ 2024-25",
+    "tags": [
+      "UDISE+",
+      "private schools",
+      "education"
+    ]
+  },
+  {
+    "id": "X258",
+    "indicator": "plfs_no_contract",
+    "section": "economy",
+    "file": "X258_Regular_employees_with_no_written_contract_PLFS_2023-24.png",
+    "title": "Regular employees with no written contract, PLFS 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: THE QUALITY OF SALARIED WORK",
+    "subtitle": "Share of regular wage and salaried employees with no written job contract, PLFS 2023-24.\nIndia 58.0%, from 58.6% in 2022-23.",
+    "callout_note": "of regular wage and salaried employees in {state} have no written job contract",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "In Punjab 84.5% of regular wage and salaried employees have no written contract, in Rajasthan 77.1% and in Gujarat 71.9%, against 10.0% in Arunachal Pradesh, 11.4% in Mizoram and 12.5% in Nagaland. The India figure is 58.0%, from 58.6% a year earlier. Bihar rose 10.1 points in the year.",
+    "policy": "The measure covers only regular wage and salaried employees, who are a minority of workers. A high share in a state with much private-sector salaried work, and a low one where most salaried jobs are in government, partly reflect who the employers are. A written contract is not the same as social security cover.",
+    "takeaway_hi": "पंजाब में 84.5% नियमित वेतनभोगी कर्मचारियों के पास लिखित अनुबंध नहीं है, राजस्थान में 77.1% और गुजरात में 71.9%, जबकि अरुणाचल प्रदेश में 10.0%, मिज़ोरम में 11.4% और नागालैंड में 12.5%। भारत का आँकड़ा 58.0% है, जो एक साल पहले 58.6% था।",
+    "title_hi": "बिना लिखित अनुबंध वाले नियमित कर्मचारी, PLFS 2023-24",
+    "tags": [
+      "PLFS",
+      "employment",
+      "contracts",
+      "economy"
+    ]
   }
 ]

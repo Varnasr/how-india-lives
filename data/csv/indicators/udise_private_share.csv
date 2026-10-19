@@ -1,0 +1,38 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+udise_private_share,Private School Enrolment Share,Andaman and Nicobar,28.4,"% of enrolment, classes 1-12",2024-25,26.4,2022-23,2.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Andhra Pradesh,53.0,"% of enrolment, classes 1-12",2024-25,45.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Arunachal Pradesh,35.5,"% of enrolment, classes 1-12",2024-25,26.1,2022-23,9.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Assam,26.0,"% of enrolment, classes 1-12",2024-25,18.9,2022-23,7.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Bihar,12.7,"% of enrolment, classes 1-12",2024-25,10.5,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Chandigarh,35.9,"% of enrolment, classes 1-12",2024-25,31.5,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Chhattisgarh,27.8,"% of enrolment, classes 1-12",2024-25,23.9,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Dadra and Nagar Haveli and Daman and Diu,28.4,"% of enrolment, classes 1-12",2024-25,26.0,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Delhi,40.3,"% of enrolment, classes 1-12",2024-25,35.3,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Goa,12.0,"% of enrolment, classes 1-12",2024-25,11.4,2022-23,0.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Gujarat,38.5,"% of enrolment, classes 1-12",2024-25,36.6,2022-23,1.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Haryana,59.1,"% of enrolment, classes 1-12",2024-25,54.1,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Himachal Pradesh,40.7,"% of enrolment, classes 1-12",2024-25,35.7,2022-23,5.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Jammu and Kashmir,44.9,"% of enrolment, classes 1-12",2024-25,42.0,2022-23,2.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Jharkhand,17.8,"% of enrolment, classes 1-12",2024-25,15.4,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Karnataka,47.2,"% of enrolment, classes 1-12",2024-25,43.3,2022-23,3.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Kerala,25.5,"% of enrolment, classes 1-12",2024-25,22.7,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Ladakh,50.4,"% of enrolment, classes 1-12",2024-25,48.6,2022-23,1.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Lakshadweep,0.0,"% of enrolment, classes 1-12",2024-25,0.0,2022-23,0.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Madhya Pradesh,40.6,"% of enrolment, classes 1-12",2024-25,36.2,2022-23,4.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Maharashtra,30.1,"% of enrolment, classes 1-12",2024-25,27.3,2022-23,2.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Manipur,62.7,"% of enrolment, classes 1-12",2024-25,60.3,2022-23,2.4,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Meghalaya,24.5,"% of enrolment, classes 1-12",2024-25,21.9,2022-23,2.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Mizoram,47.0,"% of enrolment, classes 1-12",2024-25,42.1,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Nagaland,67.5,"% of enrolment, classes 1-12",2024-25,64.5,2022-23,3.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Odisha,19.6,"% of enrolment, classes 1-12",2024-25,17.4,2022-23,2.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Puducherry,58.0,"% of enrolment, classes 1-12",2024-25,53.3,2022-23,4.7,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Punjab,49.9,"% of enrolment, classes 1-12",2024-25,46.8,2022-23,3.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Rajasthan,48.7,"% of enrolment, classes 1-12",2024-25,44.1,2022-23,4.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Sikkim,36.2,"% of enrolment, classes 1-12",2024-25,29.4,2022-23,6.8,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Tamil Nadu,43.8,"% of enrolment, classes 1-12",2024-25,39.6,2022-23,4.2,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Telangana,60.8,"% of enrolment, classes 1-12",2024-25,53.8,2022-23,7.0,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Tripura,19.9,"% of enrolment, classes 1-12",2024-25,16.3,2022-23,3.6,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Uttar Pradesh,50.1,"% of enrolment, classes 1-12",2024-25,40.8,2022-23,9.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,Uttarakhand,54.9,"% of enrolment, classes 1-12",2024-25,48.8,2022-23,6.1,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,West Bengal,7.1,"% of enrolment, classes 1-12",2024-25,5.8,2022-23,1.3,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_private_share,Private School Enrolment Share,India (national figure as published or computed),36.8,"% of enrolment, classes 1-12",2024-25,31.9,2022-23,4.9,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19

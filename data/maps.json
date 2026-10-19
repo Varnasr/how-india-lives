@@ -1263,7 +1263,8 @@
       "contracts"
     ],
     "title_hi": "अनौपचारिक कार्यबल — बिना लिखित अनुबंध",
-    "takeaway_hi": "बिहार और झारखंड में 70% से अधिक श्रमिकों के पास कोई लिखित अनुबंध नहीं है — वे कानूनी रूप से अदृश्य हैं।"
+    "takeaway_hi": "बिहार और झारखंड में 70% से अधिक श्रमिकों के पास कोई लिखित अनुबंध नहीं है — वे कानूनी रूप से अदृश्य हैं।",
+    "newer": "plfs_no_contract"
   },
   {
     "id": "S02d",
@@ -1937,7 +1938,8 @@
       "gender"
     ],
     "title_hi": "महिला श्रम बल भागीदारी दर",
-    "takeaway_hi": "हिमाचल में महिला श्रम बल भागीदारी 58% है; बिहार में यह 5% से कम है — 10 गुना अंतर।"
+    "takeaway_hi": "हिमाचल में महिला श्रम बल भागीदारी 58% है; बिहार में यह 5% से कम है — 10 गुना अंतर।",
+    "newer": "flfpr"
   },
   {
     "id": "S04d",
@@ -2629,7 +2631,8 @@
       "education"
     ],
     "title_hi": "निजी स्कूल नामांकन हिस्सा (कक्षा 1-12)",
-    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में 50%+ नामांकित छात्र निजी स्कूलों में हैं; पूर्वोत्तर में 15% से कम।"
+    "takeaway_hi": "राजस्थान और उत्तर प्रदेश में 50%+ नामांकित छात्र निजी स्कूलों में हैं; पूर्वोत्तर में 15% से कम।",
+    "newer": "udise_private_share"
   },
   {
     "id": "S07g",
@@ -4645,5 +4648,42 @@
     ],
     "title_hi": "बुखार या ARI लक्षण वाले बच्चे जिन्हें स्वास्थ्य केंद्र ले जाया गया, NFHS-6",
     "takeaway_hi": "नागालैंड में बुखार या साँस के लक्षण वाले 34.0 प्रतिशत बच्चों को इलाज के लिए ले जाया गया, मिज़ोरम में 42.2 और असम में 44.4, जबकि पंजाब में 86.9 और कर्नाटक में 80.3। भारत का आँकड़ा 68.8 प्रतिशत है, NFHS-5 के 69.0 से लगभग वही।"
+  },
+  {
+    "id": "X257",
+    "title": "Private school enrolment share, UDISE+ 2024-25",
+    "file": "X257_Private_school_enrolment_share_UDISE_2024-25.png",
+    "section": "education",
+    "source": "UDISE+ (MoSPI)",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Private unaided schools enrol 67.5% of students in Nagaland, 62.7% in Manipur and 60.8% in Telangana, against 7.1% in West Bengal, 12.0% in Goa and 12.7% in Bihar. Across all states and territories the share is 36.8%, up from 31.9% in 2022-23, and it rose in every state and territory.",
+    "policy": "Government-aided schools are privately managed but publicly funded and are not counted as private here, so a low share can mean a large aided sector rather than a large government one. The two-year rise is large and the source does not say how much of it is a change in the schools or in how they were counted.",
+    "tags": [
+      "UDISE+",
+      "private schools",
+      "education"
+    ],
+    "title_hi": "निजी स्कूलों में नामांकन का हिस्सा, UDISE+ 2024-25",
+    "takeaway_hi": "निजी गैर-सहायता प्राप्त स्कूल नागालैंड में 67.5%, मणिपुर में 62.7% और तेलंगाना में 60.8% विद्यार्थियों को पढ़ाते हैं, जबकि पश्चिम बंगाल में 7.1%, गोवा में 12.0% और बिहार में 12.7%। सभी राज्यों और क्षेत्रों में यह हिस्सा 36.8% है, जो 2022-23 में 31.9% था।"
+  },
+  {
+    "id": "X258",
+    "title": "Regular employees with no written contract, PLFS 2023-24",
+    "file": "X258_Regular_employees_with_no_written_contract_PLFS_2023-24.png",
+    "section": "economy",
+    "source": "PLFS (MoSPI)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "In Punjab 84.5% of regular wage and salaried employees have no written contract, in Rajasthan 77.1% and in Gujarat 71.9%, against 10.0% in Arunachal Pradesh, 11.4% in Mizoram and 12.5% in Nagaland. The India figure is 58.0%, from 58.6% a year earlier. Bihar rose 10.1 points in the year.",
+    "policy": "The measure covers only regular wage and salaried employees, who are a minority of workers. A high share in a state with much private-sector salaried work, and a low one where most salaried jobs are in government, partly reflect who the employers are. A written contract is not the same as social security cover.",
+    "tags": [
+      "PLFS",
+      "employment",
+      "contracts",
+      "economy"
+    ],
+    "title_hi": "बिना लिखित अनुबंध वाले नियमित कर्मचारी, PLFS 2023-24",
+    "takeaway_hi": "पंजाब में 84.5% नियमित वेतनभोगी कर्मचारियों के पास लिखित अनुबंध नहीं है, राजस्थान में 77.1% और गुजरात में 71.9%, जबकि अरुणाचल प्रदेश में 10.0%, मिज़ोरम में 11.4% और नागालैंड में 12.5%। भारत का आँकड़ा 58.0% है, जो एक साल पहले 58.6% था।"
   }
 ]

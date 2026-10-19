@@ -183,6 +183,33 @@ def nas_calcs(by):
     return files
 
 
+def raw_series_calcs(by):
+    """Indicators taken from a MoSPI fetch: the calculation file lists the raw rows and the arithmetic."""
+    import build_udise_enrolment_indicators as ue
+    import build_plfs_contract_indicator as pc
+    files = {}
+    t = ue.tables(load('data/mospi/udise-enrolment.json'))
+    rows, got = [], {}
+    for s in sorted(t['2024-25']):
+        d, d0 = t['2024-25'][s], t['2022-23'].get(s, {})
+        pv = d.get('Private Unaided Recognized', 0)
+        got[s] = round(pv / d['All Management'] * 100, 1)
+        rows.append([s, fmt(pv), fmt(d['All Management']), got[s], fmt(round(d0.get('Private Unaided Recognized', 0) / d0['All Management'] * 100, 1)) if d0 else '',
+                     'no private row; government enrolment equals the total, so private is 0' if 'Private Unaided Recognized' not in d else ''])
+    check_equal('udise_private_share', got, by['udise_private_share']['values'])
+    files['calculations/udise_private_share.csv'] = rows_to_csv(
+        ['state', 'private_unaided_enrolment_2024_25', 'all_management_enrolment_2024_25', 'private_share_pct_2024_25 (private / all x 100, 1 dp)', 'private_share_pct_2022_23', 'note'], rows)
+    raw = load('data/mospi/plfs-contract.json')
+    a = {pc.GEO.get(r['state'], r['state']): r['value'] for r in raw['rows'] if r['year'] == '2023-24'}
+    b = {pc.GEO.get(r['state'], r['state']): r['value'] for r in raw['rows'] if r['year'] == '2022-23'}
+    got = {s: float(v) for s, v in a.items() if s != 'All India'}
+    check_equal('plfs_no_contract', got, by['plfs_no_contract']['values'])
+    files['calculations/plfs_no_contract.csv'] = rows_to_csv(
+        ['state_or_india', 'pct_regular_employees_no_written_contract_2023_24 (as published by MoSPI)', 'pct_2022_23', 'change_points'],
+        [[s, a[s], b.get(s, ''), fmt(round(float(a[s]) - float(b[s]), 1)) if s in b else ''] for s in sorted(a)])
+    return files
+
+
 def court_calcs(by):
     raw = load('data/courts/lok-sabha-3501.json')
     pend = raw['pending_cases_district_subordinate_courts']['by_state']
@@ -264,6 +291,7 @@ def main():
     files.update(ncrb_calcs(by))
     files.update(ncrb_other_calcs(by))
     files.update(nas_calcs(by))
+    files.update(raw_series_calcs(by))
     files.update(court_calcs(by))
     files.update(climate_calcs(by))
     for mod in ('extra_calcs',):

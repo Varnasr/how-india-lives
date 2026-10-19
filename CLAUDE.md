@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 64 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 66 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 256 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 258 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 64 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 66 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -126,6 +126,14 @@ and `gsva_services` (X252 to X255); each state's twelve industry rows must add t
 Services exclude mining, electricity and construction. Nagaland and Ladakh have no 2024-25 figure. There is
 no all-India row in these series, so `national` is null. The API can be called directly from Python with
 `ctx.options |= 0x4`, which is faster than the MCP tool for many states.
+
+## School enrolment and PLFS contract series
+
+`scripts/fetch_mospi_udise.py` (`/api/udise/getUdiseRecords`, indicator 28) and `scripts/fetch_mospi_plfs.py`
+(`/api/plfs/getData`, indicator 5) commit their raw rows under `data/mospi/`; `build_udise_enrolment_indicators.py`
+and `build_plfs_contract_indicator.py` turn them into `udise_private_share` (X257) and `plfs_no_contract` (X258).
+UDISE management categories must add to the all-management total. PLFS annual data stops at 2023-24, and
+indicator 4 (worker distribution) returned nothing for the filters tried, so S10g is not rebuilt.
 
 ## CSV exports and the calculations behind the maps
 
@@ -237,7 +245,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 256 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 258 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.

@@ -45,6 +45,11 @@ Source: MoSPI National Accounts Statistics, state series, base year 2011-12, cur
 - Services are trade, repair, hotels and restaurants; transport, storage and communication; financial services; real estate, ownership of dwellings and professional services; public administration; other services. Mining, electricity and construction are not services.
 - 2024-25 is an estimate that states revise. Nagaland and Ladakh have no 2024-25 figure. The series has no all-India row, so no national figure is shown.
 
+## Private school share (`udise_private_share`) and written contracts (`plfs_no_contract`)
+
+- Private share: UDISE+ enrolment (MoSPI API, indicator 28, both sexes, classes 1-12) in private unaided recognised schools divided by enrolment in all schools, times 100, one decimal. Government-aided schools are not counted as private. In every state and year the management categories must add to the all-management total or the build stops. Lakshadweep lists only government schools, whose enrolment equals the total, so its private share is 0. The national figure is the sum over all states and union territories.
+- Written contracts: MoSPI's published PLFS annual figure (indicator 5), the share of regular wage and salaried employees with no written job contract, persons, rural and urban. It is used as published, with the All India row as the national figure. It covers regular employees only.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.

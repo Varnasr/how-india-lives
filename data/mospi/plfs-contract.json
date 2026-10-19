@@ -1,0 +1,598 @@
+{
+ "source": "MoSPI open data API, dataset PLFS (annual), indicator 5, employee_contract 1 (with no written job contract), persons, rural + urban",
+ "retrieved": "2026-10-19",
+ "rows": [
+  {
+   "year": "2022-23",
+   "state": "All India",
+   "value": "58.6",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andaman & Nicobar Islands",
+   "value": "42.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Andhra Pradesh",
+   "value": "60.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Arunachal Pradesh",
+   "value": "10.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Assam",
+   "value": "47.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Bihar",
+   "value": "53.8",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chandigarh",
+   "value": "40.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Chhattisgarh",
+   "value": "68.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Dadra & Nagar Haveli & Daman & Diu",
+   "value": "70.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Delhi",
+   "value": "66.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Goa",
+   "value": "20.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Gujarat",
+   "value": "74.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Haryana",
+   "value": "64.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Himachal Pradesh",
+   "value": "38.6",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jammu & Kashmir",
+   "value": "46.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Jharkhand",
+   "value": "53.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Karnataka",
+   "value": "40.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Kerala",
+   "value": "52.8",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Ladakh",
+   "value": "25.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Lakshadweep",
+   "value": "9.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Madhya Pradesh",
+   "value": "55.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Maharashtra",
+   "value": "62.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Manipur",
+   "value": "22.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Meghalaya",
+   "value": "35.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Mizoram",
+   "value": "10.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Nagaland",
+   "value": "19.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Odisha",
+   "value": "47.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Puducherry",
+   "value": "54.6",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Punjab",
+   "value": "81.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Rajasthan",
+   "value": "73.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Sikkim",
+   "value": "30.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tamil Nadu",
+   "value": "52.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Telangana",
+   "value": "40.8",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Tripura",
+   "value": "46.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttarakhand",
+   "value": "48.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "Uttar Pradesh",
+   "value": "63.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2022-23",
+   "state": "West Bengal",
+   "value": "58.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "All India",
+   "value": "58.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Andaman & Nicobar Islands",
+   "value": "42.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Andhra Pradesh",
+   "value": "60.5",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Arunachal Pradesh",
+   "value": "10.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Assam",
+   "value": "45.5",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Bihar",
+   "value": "63.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Chandigarh",
+   "value": "32.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Chhattisgarh",
+   "value": "67.6",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Dadra & Nagar Haveli & Daman & Diu",
+   "value": "58.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Delhi",
+   "value": "60.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Goa",
+   "value": "25.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Gujarat",
+   "value": "71.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Haryana",
+   "value": "59.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Himachal Pradesh",
+   "value": "42.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Jammu & Kashmir",
+   "value": "43.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Jharkhand",
+   "value": "51.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Karnataka",
+   "value": "35.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Kerala",
+   "value": "51.5",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Ladakh",
+   "value": "21.9",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Lakshadweep",
+   "value": "20.8",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Madhya Pradesh",
+   "value": "54.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Maharashtra",
+   "value": "64.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Manipur",
+   "value": "24.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Meghalaya",
+   "value": "30.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Mizoram",
+   "value": "11.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Nagaland",
+   "value": "12.5",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Odisha",
+   "value": "48.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Puducherry",
+   "value": "50.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Punjab",
+   "value": "84.5",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Rajasthan",
+   "value": "77.1",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Sikkim",
+   "value": "21.7",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Tamil Nadu",
+   "value": "50.4",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Telangana",
+   "value": "47.2",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Tripura",
+   "value": "42.6",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Uttarakhand",
+   "value": "48.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "Uttar Pradesh",
+   "value": "60.0",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  },
+  {
+   "year": "2023-24",
+   "state": "West Bengal",
+   "value": "57.3",
+   "employee_contract": "1.with no written job contract",
+   "gender": "person",
+   "sector": "rural + urban"
+  }
+ ]
+}
