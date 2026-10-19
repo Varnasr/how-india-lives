@@ -111,4 +111,14 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
             ['state_or_india', 'rice_kg_per_person_month', 'wheat_kg', 'coarse_grains_kg', 'other_cereals_kg', 'total_cereals_kg', 'rice_share_pct (rice / total x 100, 1 dp; mapped)', 'rice_share_pct_2022_23'],
             [[s, d['Rice'], d['Wheat'], d['Coarse Grains'], d['Other Cereals'], d['Total Cereals'], round(d['Rice'] / d['Total Cereals'] * 100, 1),
               round(ht[('2022-23', sec)][s]['Rice'] / ht[('2022-23', sec)][s]['Total Cereals'] * 100, 1)] for s, d in sorted(cur.items())])
+    mm = load('data/srs/mmr-2022-24.json')['states']
+    check_equal('srs_mmr', {s: d['mmr'] for s, d in mm.items()}, by['srs_mmr']['values'])
+    files['calculations/srs_mmr.csv'] = rows_to_csv(
+        ['state', 'mmr_per_100000_live_births (mapped)', 'ci95_low', 'ci95_high', 'maternal_mortality_rate', 'lifetime_risk'],
+        [[s, d['mmr'], d['ci_low'], d['ci_high'], d['mortality_rate'], d['lifetime_risk']] for s, d in sorted(mm.items())])
+    le = load('data/srs/life-expectancy-2019-23.json')['states']
+    check_equal('srs_life_exp', {s: d['total'] for s, d in le.items()}, by['srs_life_exp']['values'])
+    files['calculations/srs_life_expectancy.csv'] = rows_to_csv(
+        ['state', 'total (mapped)', 'male', 'female', 'female_minus_male', 'rural_total', 'urban_total'],
+        [[s, d['total'], d['male'], d['female'], fmt(round(d['female'] - d['male'], 1)), d['rural_total'], d['urban_total']] for s, d in sorted(le.items())])
     return files

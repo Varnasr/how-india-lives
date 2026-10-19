@@ -1,0 +1,20 @@
+state,mmr_per_100000_live_births (mapped),ci95_low,ci95_high,maternal_mortality_rate,lifetime_risk
+Andhra Pradesh,39,9,69,2,0.07%
+Assam,84,35,134,5,0.17%
+Bihar,96,62,130,9,0.32%
+Chhattisgarh,124,48,199,9,0.31%
+Gujarat,64,33,95,4,0.14%
+Haryana,94,47,141,6,0.22%
+Jharkhand,82,29,136,6,0.20%
+Karnataka,73,37,108,3,0.12%
+Kerala,24,0,50,1,0.04%
+Madhya Pradesh,135,93,176,11,0.38%
+Maharashtra,37,14,61,2,0.07%
+Odisha,124,74,175,7,0.24%
+Punjab,77,23,132,4,0.13%
+Rajasthan,87,51,124,7,0.25%
+Tamil Nadu,25,3,46,1,0.04%
+Telangana,48,8,89,3,0.09%
+Uttar Pradesh,154,115,192,13,0.44%
+Uttarakhand,99,52,146,6,0.21%
+West Bengal,94,56,132,4,0.15%

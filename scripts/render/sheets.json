@@ -1569,5 +1569,49 @@
       "cereals",
       "economy"
     ]
+  },
+  {
+    "id": "X280",
+    "indicator": "srs_mmr",
+    "section": "health",
+    "file": "X280_Maternal_mortality_ratio_SRS_2022-24.png",
+    "title": "Maternal mortality ratio, SRS 2022-24",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: MATERNAL MORTALITY",
+    "subtitle": "Maternal deaths per 100,000 live births, three years pooled (SRS Special Bulletin 2022-24).\nIndia: 87, down from 88 in 2021-23. 19 states shown separately.",
+    "callout_note": "maternal deaths per 100,000 live births in {state}",
+    "decimals": 0,
+    "suffix": "",
+    "takeaway": "SRS puts India's maternal mortality ratio at 87 per 100,000 live births for 2022-24, one lower than 88 in 2021-23. Uttar Pradesh (154), Madhya Pradesh (135) and Chhattisgarh and Odisha (124 each) are highest. Kerala (24), Tamil Nadu (25), Maharashtra (37) and Andhra Pradesh (39) are lowest. Uttar Pradesh's 95 per cent interval (115 to 192) lies wholly above Kerala's (0 to 50).",
+    "policy": "Maternal deaths are rare events, so the estimates pool three years and carry wide confidence intervals: Bihar's 96 could be anywhere from 62 to 130. Most gaps between adjacent states are within that noise, and only large gaps, such as Uttar Pradesh against the southern states, are firm. SRS shows 19 states separately and pools the rest as 'Other states' (84), so the remaining states and UTs are grey here.",
+    "takeaway_hi": "SRS के अनुसार 2022-24 में भारत का मातृ मृत्यु अनुपात प्रति 1,00,000 जीवित जन्म पर 87 है, जो 2021-23 के 88 से एक कम है। उत्तर प्रदेश (154), मध्य प्रदेश (135) तथा छत्तीसगढ़ और ओडिशा (124) सबसे ऊपर हैं। केरल (24), तमिलनाडु (25), महाराष्ट्र (37) और आंध्र प्रदेश (39) सबसे नीचे हैं।",
+    "title_hi": "मातृ मृत्यु अनुपात, SRS 2022-24",
+    "tags": [
+      "SRS",
+      "maternal mortality",
+      "health",
+      "women"
+    ]
+  },
+  {
+    "id": "X281",
+    "indicator": "srs_life_exp",
+    "section": "health",
+    "file": "X281_Life_expectancy_at_birth_SRS_2019-23.png",
+    "title": "Life expectancy at birth, SRS 2019-23",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: LIFE EXPECTANCY",
+    "subtitle": "Expected years of life at birth, both sexes, SRS abridged life tables 2019-23.\nIndia: 70.3 years. 22 larger states and UTs published.",
+    "callout_note": "years of life expectancy at birth in {state}",
+    "decimals": 1,
+    "suffix": "",
+    "takeaway": "SRS puts life expectancy at birth at 70.3 years in India for 2019-23, up 0.4 years from 2018-22. Kerala is highest at 75.1 years, followed by Jammu and Kashmir and Himachal Pradesh (74.4 each) and Delhi (74.2). Chhattisgarh is lowest at 64.6, followed by Madhya Pradesh (67.6), Uttar Pradesh (68.0) and Assam (68.6), a gap of 10.5 years between the top and bottom. Women outlive men in every state shown, by 7.1 years in Himachal Pradesh and 0.8 in Bihar.",
+    "policy": "Life expectancy is a summary of the death rates of one period at every age, not a forecast of how long any child born now will live. SRS publishes it only for India and the larger states and UTs, so smaller states and the other UTs are grey, and Jammu and Kashmir includes Ladakh. The estimates come from a sample, five years pooled, so a difference of a few tenths of a year between two states is not firm.",
+    "takeaway_hi": "SRS के अनुसार 2019-23 में भारत में जन्म पर जीवन प्रत्याशा 70.3 वर्ष है, जो 2018-22 से 0.4 वर्ष अधिक है। केरल में सबसे अधिक 75.1 वर्ष है, फिर जम्मू-कश्मीर और हिमाचल प्रदेश (74.4) और दिल्ली (74.2)। छत्तीसगढ़ में सबसे कम 64.6 है, फिर मध्य प्रदेश (67.6), उत्तर प्रदेश (68.0) और असम (68.6)। दिखाए गए हर राज्य में महिलाएँ पुरुषों से अधिक जीती हैं।",
+    "title_hi": "जन्म पर जीवन प्रत्याशा, SRS 2019-23",
+    "tags": [
+      "SRS",
+      "life expectancy",
+      "health",
+      "mortality"
+    ]
   }
 ]
