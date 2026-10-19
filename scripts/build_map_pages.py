@@ -111,7 +111,8 @@ body{{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--
 .crumb{{font-size:.78rem;color:var(--mut);margin-bottom:6px}}
 .crumb a{{color:var(--acc);text-decoration:none}}
 h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px 0 14px}}
-.mapimg{{width:100%;border:1px solid var(--bd);border-radius:14px;background:var(--card);display:block}}
+.fullsize{{margin:.6rem 0 1.2rem;font-size:.95rem}}.fullsize a{{color:var(--acc);text-decoration:underline}}
+.mapimg{{width:100%;height:auto;border:1px solid var(--bd);border-radius:14px;background:var(--card);display:block}}
 .takeaway{{border-left:3px solid var(--acc);background:var(--sec);padding:14px 18px;border-radius:0 10px 10px 0;margin:20px 0;font-size:1.05rem}}
 .policy{{background:var(--sec);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;margin:14px 0;color:var(--tx2);font-size:.92rem}}
 .meta{{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}}
@@ -130,7 +131,8 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 <div class="wrap">
   <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="{sect}" href="/index.html#{section}">{sect}</a></nav>
   <h1 id="pm-title" data-en="{title}">{title}</h1>
-  <img class="mapimg" src="{img}" alt="Choropleth map of India by state: {title}. {desc}" width="1200" height="900">
+  <img class="mapimg" src="{img}" alt="Choropleth map of India by state: {title}. {desc}" width="3052" height="1725">
+  <p class="fullsize"><a href="{img}">Open the full-size image</a></p>
   {takeaway}
   {policy}
   <div class="meta"><span class="tag">{source} {year}</span><span class="tag">{sect}</span>{tags}</div>
