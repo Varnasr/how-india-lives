@@ -1,5 +1,7 @@
 # how-india-lives
 
+Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
+
 State-level atlas of India: 205 static choropleths with takeaway and policy
 notes, plus a live interactive choropleth over 20 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
