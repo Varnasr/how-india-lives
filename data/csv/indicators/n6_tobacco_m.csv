@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_tobacco_m,Men who use tobacco,Andaman and Nicobar,52.1,%,2023-24,58.7,2019-21,-6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Andhra Pradesh,18.8,%,2023-24,22.6,2019-21,-3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Arunachal Pradesh,51.4,%,2023-24,50.3,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Assam,45.2,%,2023-24,51.9,2019-21,-6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Bihar,45.8,%,2023-24,48.9,2019-21,-3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Chandigarh,15.1,%,2023-24,11.9,2019-21,3.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Chhattisgarh,45.3,%,2023-24,43.1,2019-21,2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Dadra and Nagar Haveli and Daman and Diu,31.1,%,2023-24,38.5,2019-21,-7.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Delhi,21.3,%,2023-24,26.2,2019-21,-4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Goa,17.1,%,2023-24,18.1,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Gujarat,38.4,%,2023-24,41.2,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Haryana,27.5,%,2023-24,29.1,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Himachal Pradesh,28.9,%,2023-24,32.2,2019-21,-3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Jammu and Kashmir,30.1,%,2023-24,38.5,2019-21,-8.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Jharkhand,45.2,%,2023-24,47.4,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Karnataka,24.2,%,2023-24,27.3,2019-21,-3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Kerala,15.9,%,2023-24,16.9,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Ladakh,18.9,%,2023-24,35.5,2019-21,-16.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Lakshadweep,29.5,%,2023-24,28.5,2019-21,1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Madhya Pradesh,47.7,%,2023-24,46.4,2019-21,1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Maharashtra,31.3,%,2023-24,33.8,2019-21,-2.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Meghalaya,57.8,%,2023-24,57.8,2019-21,0.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Mizoram,73.6,%,2023-24,73.1,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Nagaland,51.2,%,2023-24,48.4,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Odisha,48.3,%,2023-24,51.7,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Puducherry,11.4,%,2023-24,14.8,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Punjab,13.9,%,2023-24,12.8,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Rajasthan,37.6,%,2023-24,41.9,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Sikkim,39.3,%,2023-24,41.5,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Tamil Nadu,17.7,%,2023-24,20.0,2019-21,-2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Telangana,21.1,%,2023-24,22.3,2019-21,-1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Tripura,52.1,%,2023-24,57.2,2019-21,-5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Uttar Pradesh,45.2,%,2023-24,44.0,2019-21,1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,Uttarakhand,33.8,%,2023-24,33.7,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,West Bengal,46.2,%,2023-24,48.1,2019-21,-1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_tobacco_m,Men who use tobacco,India (national figure as published or computed),36.3,%,2023-24,38.0,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

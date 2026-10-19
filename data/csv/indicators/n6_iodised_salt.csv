@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_iodised_salt,Households using iodized salt,Andaman and Nicobar,99.0,%,2023-24,99.7,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Andhra Pradesh,97.3,%,2023-24,83.1,2019-21,14.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Arunachal Pradesh,98.7,%,2023-24,99.2,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Assam,97.5,%,2023-24,98.8,2019-21,-1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Bihar,93.0,%,2023-24,93.3,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Chandigarh,96.5,%,2023-24,96.8,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Chhattisgarh,98.1,%,2023-24,98.5,2019-21,-0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Dadra and Nagar Haveli and Daman and Diu,97.0,%,2023-24,89.1,2019-21,7.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Delhi,96.1,%,2023-24,96.8,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Goa,96.9,%,2023-24,97.6,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Gujarat,96.4,%,2023-24,95.6,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Haryana,95.8,%,2023-24,96.1,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Himachal Pradesh,96.7,%,2023-24,99.1,2019-21,-2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Jammu and Kashmir,96.0,%,2023-24,98.1,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Jharkhand,96.4,%,2023-24,97.7,2019-21,-1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Karnataka,96.3,%,2023-24,92.8,2019-21,3.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Kerala,99.1,%,2023-24,99.3,2019-21,-0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Ladakh,99.1,%,2023-24,98.8,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Lakshadweep,99.6,%,2023-24,96.7,2019-21,2.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Madhya Pradesh,95.9,%,2023-24,95.3,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Maharashtra,98.6,%,2023-24,96.2,2019-21,2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Meghalaya,94.6,%,2023-24,90.6,2019-21,4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Mizoram,99.7,%,2023-24,99.0,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Nagaland,98.5,%,2023-24,98.9,2019-21,-0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Odisha,93.6,%,2023-24,98.0,2019-21,-4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Puducherry,94.9,%,2023-24,93.3,2019-21,1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Punjab,92.7,%,2023-24,94.8,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Rajasthan,95.2,%,2023-24,94.2,2019-21,1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Sikkim,99.9,%,2023-24,98.2,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Tamil Nadu,92.8,%,2023-24,92.0,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Telangana,98.7,%,2023-24,95.8,2019-21,2.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Tripura,98.6,%,2023-24,99.5,2019-21,-0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Uttar Pradesh,86.5,%,2023-24,92.2,2019-21,-5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,Uttarakhand,92.4,%,2023-24,93.2,2019-21,-0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,West Bengal,93.0,%,2023-24,94.5,2019-21,-1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_iodised_salt,Households using iodized salt,India (national figure as published or computed),94.2,%,2023-24,94.3,2019-21,-0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

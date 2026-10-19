@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_alcohol_m,Men who drink alcohol,Andaman and Nicobar,32.0,%,2023-24,38.8,2019-21,-6.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Andhra Pradesh,23.3,%,2023-24,23.1,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Arunachal Pradesh,50.5,%,2023-24,52.6,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Assam,23.8,%,2023-24,25.2,2019-21,-1.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Bihar,16.5,%,2023-24,15.4,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Chandigarh,21.6,%,2023-24,18.6,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Chhattisgarh,38.3,%,2023-24,34.7,2019-21,3.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Dadra and Nagar Haveli and Daman and Diu,21.6,%,2023-24,27.7,2019-21,-6.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Delhi,16.1,%,2023-24,21.6,2019-21,-5.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Goa,22.4,%,2023-24,36.8,2019-21,-14.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Gujarat,5.2,%,2023-24,5.8,2019-21,-0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Haryana,17.5,%,2023-24,16.0,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Himachal Pradesh,30.2,%,2023-24,31.9,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Jammu and Kashmir,7.3,%,2023-24,8.7,2019-21,-1.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Jharkhand,33.6,%,2023-24,34.9,2019-21,-1.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Karnataka,15.6,%,2023-24,16.6,2019-21,-1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Kerala,22.7,%,2023-24,19.9,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Ladakh,18.4,%,2023-24,23.5,2019-21,-5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Lakshadweep,0.6,%,2023-24,0.4,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Madhya Pradesh,18.5,%,2023-24,17.0,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Maharashtra,12.2,%,2023-24,13.9,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Meghalaya,28.3,%,2023-24,32.4,2019-21,-4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Mizoram,23.0,%,2023-24,23.7,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Nagaland,26.9,%,2023-24,23.9,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Odisha,26.8,%,2023-24,28.7,2019-21,-1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Puducherry,22.8,%,2023-24,27.9,2019-21,-5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Punjab,22.9,%,2023-24,22.8,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Rajasthan,10.7,%,2023-24,11.0,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Sikkim,42.2,%,2023-24,39.9,2019-21,2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Tamil Nadu,23.5,%,2023-24,25.3,2019-21,-1.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Telangana,43.9,%,2023-24,43.4,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Tripura,29.5,%,2023-24,33.2,2019-21,-3.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Uttar Pradesh,18.7,%,2023-24,14.5,2019-21,4.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,Uttarakhand,27.2,%,2023-24,25.5,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,West Bengal,16.0,%,2023-24,18.0,2019-21,-2.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_alcohol_m,Men who drink alcohol,India (national figure as published or computed),18.9,%,2023-24,18.7,2019-21,0.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

@@ -1,0 +1,37 @@
+state,cases_2024,female_population_lakh_2024,ncrb_printed_rate_per_lakh_2024,mapped_value_2024,how_mapped_value_is_got,cases_2023,ncrb_printed_rate_per_lakh_2023
+Andaman and Nicobar,0.0,1.9,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Andhra Pradesh,72.0,267.1,0.3,0.27,cases / female_population_lakh x 1,95.0,0.4
+Arunachal Pradesh,1.0,7.7,0.1,0.13,cases / female_population_lakh x 1,1.0,0.1
+Assam,94.0,177.7,0.5,0.53,cases / female_population_lakh x 1,101,0.6
+Bihar,1078,621,1.7,1.74,cases / female_population_lakh x 1,1143,1.9
+Chandigarh,3.0,5.8,0.5,0.52,cases / female_population_lakh x 1,4.0,0.7
+Chhattisgarh,54.0,152.7,0.4,0.35,cases / female_population_lakh x 1,46.0,0.3
+Dadra and Nagar Haveli and Daman and Diu,0.0,4.6,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Delhi,109,102.5,1.1,1.06,cases / female_population_lakh x 1,115,1.1
+Goa,2.0,7.9,0.3,0.25,cases / female_population_lakh x 1,1.0,0.1
+Gujarat,16.0,345,0.0,0.05,cases / female_population_lakh x 1,12.0,0.0
+Haryana,177,144.7,1.2,1.22,cases / female_population_lakh x 1,207,1.4
+Himachal Pradesh,0.0,37.1,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Jammu and Kashmir,7.0,65.5,0.1,0.11,cases / female_population_lakh x 1,9.0,0.1
+Jharkhand,206,196.1,1.1,1.05,cases / female_population_lakh x 1,218,1.1
+Karnataka,112,336.3,0.3,0.33,cases / female_population_lakh x 1,156,0.5
+Kerala,1.0,186.9,0.0,0.01,cases / female_population_lakh x 1,8.0,0.0
+Ladakh,0.0,1.3,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Lakshadweep,0.0,0.3,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Madhya Pradesh,450,426.5,1.1,1.06,cases / female_population_lakh x 1,468,1.1
+Maharashtra,143,612.6,0.2,0.23,cases / female_population_lakh x 1,170,0.3
+Manipur,0.0,16.3,0.0,0.0,cases / female_population_lakh x 1,1.0,0.1
+Meghalaya,0.0,16.9,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Mizoram,0.0,6.2,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Nagaland,0.0,10.9,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Odisha,200,232,0.9,0.86,cases / female_population_lakh x 1,231,1.0
+Puducherry,0.0,8.9,0.0,0.0,cases / female_population_lakh x 1,1.0,0.1
+Punjab,39.0,147.3,0.3,0.26,cases / female_population_lakh x 1,44.0,0.3
+Rajasthan,386,400.6,1.0,0.96,cases / female_population_lakh x 1,428,1.1
+Sikkim,0.0,3.3,0.0,0.0,cases / female_population_lakh x 1,0.0,0.0
+Tamil Nadu,7.0,386.7,0.0,0.02,cases / female_population_lakh x 1,11.0,0.0
+Telangana,144,190.5,0.8,0.76,cases / female_population_lakh x 1,145,0.8
+Tripura,20.0,20.6,1.0,0.97,cases / female_population_lakh x 1,21.0,1.0
+Uttar Pradesh,2038,1145.4,1.8,1.78,cases / female_population_lakh x 1,2122,1.9
+Uttarakhand,41.0,57.5,0.7,0.71,cases / female_population_lakh x 1,48.0,0.8
+West Bengal,337,489,0.7,0.69,cases / female_population_lakh x 1,350,0.7

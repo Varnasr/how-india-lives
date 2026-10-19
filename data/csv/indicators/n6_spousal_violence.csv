@@ -1,0 +1,36 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_spousal_violence,Ever-married women who experienced spousal violence,Andaman and Nicobar,18.2,%,2023-24,17.2,2019-21,1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Andhra Pradesh,22.7,%,2023-24,29.9,2019-21,-7.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Arunachal Pradesh,17.8,%,2023-24,24.9,2019-21,-7.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Assam,16.2,%,2023-24,32.2,2019-21,-16.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Bihar,36.1,%,2023-24,40.1,2019-21,-4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Chandigarh,8.5,%,2023-24,9.7,2019-21,-1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Chhattisgarh,16.1,%,2023-24,20.1,2019-21,-4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Dadra and Nagar Haveli and Daman and Diu,19.9,%,2023-24,16.8,2019-21,3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Delhi,12.3,%,2023-24,22.5,2019-21,-10.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Goa,11.3,%,2023-24,8.3,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Gujarat,13.6,%,2023-24,13.9,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Haryana,13.6,%,2023-24,17.9,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Himachal Pradesh,4.3,%,2023-24,8.6,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Jammu and Kashmir,3.4,%,2023-24,9.7,2019-21,-6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Jharkhand,27.0,%,2023-24,31.4,2019-21,-4.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Karnataka,14.1,%,2023-24,44.4,2019-21,-30.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Kerala,17.7,%,2023-24,9.8,2019-21,7.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Ladakh,1.9,%,2023-24,17.7,2019-21,-15.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Madhya Pradesh,21.4,%,2023-24,28.0,2019-21,-6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Maharashtra,19.2,%,2023-24,25.2,2019-21,-6.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Meghalaya,5.9,%,2023-24,15.0,2019-21,-9.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Mizoram,11.4,%,2023-24,10.3,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Nagaland,4.0,%,2023-24,6.5,2019-21,-2.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Odisha,18.9,%,2023-24,30.3,2019-21,-11.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Puducherry,25.7,%,2023-24,30.0,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Punjab,8.7,%,2023-24,11.6,2019-21,-2.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Rajasthan,20.8,%,2023-24,24.1,2019-21,-3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Sikkim,4.6,%,2023-24,12.4,2019-21,-7.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Tamil Nadu,28.5,%,2023-24,38.1,2019-21,-9.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Telangana,30.8,%,2023-24,37.2,2019-21,-6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Tripura,19.1,%,2023-24,20.7,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Uttar Pradesh,28.5,%,2023-24,34.9,2019-21,-6.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,Uttarakhand,13.7,%,2023-24,15.3,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,West Bengal,19.0,%,2023-24,26.9,2019-21,-7.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_spousal_violence,Ever-married women who experienced spousal violence,India (national figure as published or computed),22.3,%,2023-24,29.2,2019-21,-6.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

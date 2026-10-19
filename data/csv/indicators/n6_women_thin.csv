@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_women_thin,Women with BMI below 18.5,Andaman and Nicobar,3.1,%,2023-24,9.4,2019-21,-6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Andhra Pradesh,10.8,%,2023-24,14.8,2019-21,-4.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Arunachal Pradesh,6.8,%,2023-24,5.7,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Assam,15.6,%,2023-24,17.7,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Bihar,26.3,%,2023-24,25.6,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Chandigarh,10.2,%,2023-24,13.0,2019-21,-2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Chhattisgarh,25.2,%,2023-24,23.1,2019-21,2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Dadra and Nagar Haveli and Daman and Diu,21.3,%,2023-24,25.1,2019-21,-3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Delhi,12.4,%,2023-24,10.0,2019-21,2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Goa,15.0,%,2023-24,13.8,2019-21,1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Gujarat,23.6,%,2023-24,25.2,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Haryana,17.2,%,2023-24,15.1,2019-21,2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Himachal Pradesh,15.1,%,2023-24,13.9,2019-21,1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Jammu and Kashmir,9.5,%,2023-24,5.2,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Jharkhand,29.2,%,2023-24,26.2,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Karnataka,15.1,%,2023-24,17.2,2019-21,-2.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Kerala,12.0,%,2023-24,10.1,2019-21,1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Ladakh,5.5,%,2023-24,4.4,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Lakshadweep,11.1,%,2023-24,8.0,2019-21,3.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Madhya Pradesh,26.5,%,2023-24,23.0,2019-21,3.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Maharashtra,18.4,%,2023-24,20.8,2019-21,-2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Meghalaya,9.1,%,2023-24,10.8,2019-21,-1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Mizoram,5.9,%,2023-24,5.3,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Nagaland,8.8,%,2023-24,11.1,2019-21,-2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Odisha,18.9,%,2023-24,20.8,2019-21,-1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Puducherry,8.7,%,2023-24,9.0,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Punjab,14.2,%,2023-24,12.7,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Rajasthan,27.3,%,2023-24,19.6,2019-21,7.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Sikkim,5.1,%,2023-24,5.8,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Tamil Nadu,12.1,%,2023-24,12.6,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Telangana,17.7,%,2023-24,18.8,2019-21,-1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Tripura,17.9,%,2023-24,16.2,2019-21,1.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Uttar Pradesh,22.2,%,2023-24,19.0,2019-21,3.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,Uttarakhand,15.5,%,2023-24,13.9,2019-21,1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,West Bengal,15.1,%,2023-24,14.8,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_thin,Women with BMI below 18.5,India (national figure as published or computed),19.7,%,2023-24,18.7,2019-21,1.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

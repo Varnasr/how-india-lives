@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_bank_w,Women with a bank account they use,Andaman and Nicobar,93.3,%,2023-24,89.2,2019-21,4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Andhra Pradesh,92.3,%,2023-24,81.8,2019-21,10.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Arunachal Pradesh,91.2,%,2023-24,78.2,2019-21,13.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Assam,91.7,%,2023-24,78.5,2019-21,13.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Bihar,90.9,%,2023-24,76.7,2019-21,14.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Chandigarh,87.7,%,2023-24,87.1,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Chhattisgarh,93.4,%,2023-24,80.3,2019-21,13.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Dadra and Nagar Haveli and Daman and Diu,90.7,%,2023-24,83.6,2019-21,7.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Delhi,86.7,%,2023-24,72.5,2019-21,14.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Goa,91.1,%,2023-24,88.3,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Gujarat,82.2,%,2023-24,70.0,2019-21,12.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Haryana,85.2,%,2023-24,73.6,2019-21,11.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Himachal Pradesh,93.0,%,2023-24,83.1,2019-21,9.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Jammu and Kashmir,93.0,%,2023-24,84.9,2019-21,8.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Jharkhand,90.8,%,2023-24,79.6,2019-21,11.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Karnataka,94.7,%,2023-24,88.7,2019-21,6.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Kerala,91.7,%,2023-24,78.5,2019-21,13.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Ladakh,95.5,%,2023-24,88.4,2019-21,7.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Lakshadweep,89.1,%,2023-24,66.9,2019-21,22.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Madhya Pradesh,92.1,%,2023-24,74.7,2019-21,17.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Maharashtra,84.0,%,2023-24,72.8,2019-21,11.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Meghalaya,81.5,%,2023-24,70.4,2019-21,11.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Mizoram,93.6,%,2023-24,80.7,2019-21,12.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Nagaland,85.7,%,2023-24,63.7,2019-21,22.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Odisha,90.6,%,2023-24,86.5,2019-21,4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Puducherry,92.1,%,2023-24,92.6,2019-21,-0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Punjab,87.9,%,2023-24,81.6,2019-21,6.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Rajasthan,89.1,%,2023-24,79.6,2019-21,9.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Sikkim,91.4,%,2023-24,76.4,2019-21,15.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Tamil Nadu,90.0,%,2023-24,92.2,2019-21,-2.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Telangana,92.3,%,2023-24,84.4,2019-21,7.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Tripura,91.6,%,2023-24,76.9,2019-21,14.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Uttar Pradesh,83.5,%,2023-24,75.4,2019-21,8.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,Uttarakhand,91.0,%,2023-24,80.2,2019-21,10.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,West Bengal,95.3,%,2023-24,76.5,2019-21,18.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_bank_w,Women with a bank account they use,India (national figure as published or computed),89.0,%,2023-24,78.6,2019-21,10.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

@@ -1,0 +1,36 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_women_sugar,Women with high blood sugar,Andaman and Nicobar,20.5,%,2023-24,17.5,2019-21,3.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Andhra Pradesh,21.8,%,2023-24,19.5,2019-21,2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Arunachal Pradesh,11.2,%,2023-24,8.4,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Assam,12.5,%,2023-24,12.8,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Bihar,13.1,%,2023-24,12.7,2019-21,0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Chandigarh,17.8,%,2023-24,19.0,2019-21,-1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Chhattisgarh,16.2,%,2023-24,9.0,2019-21,7.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Dadra and Nagar Haveli and Daman and Diu,12.9,%,2023-24,13.6,2019-21,-0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Delhi,19.0,%,2023-24,12.2,2019-21,6.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Goa,27.5,%,2023-24,20.8,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Gujarat,16.4,%,2023-24,15.8,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Haryana,16.7,%,2023-24,11.9,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Himachal Pradesh,20.6,%,2023-24,13.9,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Jammu and Kashmir,13.0,%,2023-24,8.7,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Jharkhand,15.0,%,2023-24,10.2,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Karnataka,22.3,%,2023-24,14.0,2019-21,8.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Kerala,28.9,%,2023-24,24.8,2019-21,4.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Ladakh,6.7,%,2023-24,6.7,2019-21,0.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Madhya Pradesh,14.5,%,2023-24,9.8,2019-21,4.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Maharashtra,16.0,%,2023-24,12.4,2019-21,3.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Meghalaya,7.1,%,2023-24,9.5,2019-21,-2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Mizoram,14.5,%,2023-24,13.8,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Nagaland,10.2,%,2023-24,9.3,2019-21,0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Odisha,21.7,%,2023-24,14.0,2019-21,7.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Puducherry,26.7,%,2023-24,20.1,2019-21,6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Punjab,21.3,%,2023-24,14.7,2019-21,6.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Rajasthan,10.4,%,2023-24,7.2,2019-21,3.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Sikkim,15.1,%,2023-24,12.2,2019-21,2.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Tamil Nadu,25.2,%,2023-24,20.7,2019-21,4.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Telangana,19.6,%,2023-24,14.7,2019-21,4.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Tripura,19.6,%,2023-24,17.7,2019-21,1.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Uttar Pradesh,15.5,%,2023-24,10.0,2019-21,5.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,Uttarakhand,18.1,%,2023-24,10.8,2019-21,7.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,West Bengal,22.7,%,2023-24,17.5,2019-21,5.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_women_sugar,Women with high blood sugar,India (national figure as published or computed),17.8,%,2023-24,13.5,2019-21,4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

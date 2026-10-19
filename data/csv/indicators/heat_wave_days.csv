@@ -1,0 +1,20 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Andhra Pradesh,10.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Assam,0.3,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Bihar,13.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Chhattisgarh,4.3,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Delhi,13.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Gujarat,3.3,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Haryana,16.7,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Jharkhand,15.7,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Karnataka,0.7,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Madhya Pradesh,7.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Maharashtra,2.7,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Odisha,12.7,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Punjab,17.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Rajasthan,15.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Tamil Nadu,3.3,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Telangana,2.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Uttar Pradesh,13.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",Uttarakhand,12.3,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19
+heat_wave_days,"Heat-Wave Days, 2022-24 Average",West Bengal,5.0,days a summer,2022-24,,,,,IMD (via MoSPI EnviStats),https://mospi.gov.in/,2026-10-19

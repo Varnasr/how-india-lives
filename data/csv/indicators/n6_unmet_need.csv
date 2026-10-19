@@ -1,0 +1,35 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_unmet_need,Unmet need for family planning,Andaman and Nicobar,4.6,%,2023-24,13.5,2019-21,-8.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Andhra Pradesh,4.4,%,2023-24,4.7,2019-21,-0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Arunachal Pradesh,8.9,%,2023-24,12.4,2019-21,-3.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Assam,7.4,%,2023-24,11.0,2019-21,-3.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Bihar,14.4,%,2023-24,13.6,2019-21,0.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Chandigarh,7.6,%,2023-24,6.9,2019-21,0.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Chhattisgarh,10.8,%,2023-24,8.3,2019-21,2.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Delhi,7.3,%,2023-24,6.1,2019-21,1.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Goa,5.1,%,2023-24,8.4,2019-21,-3.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Gujarat,6.0,%,2023-24,10.3,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Haryana,6.0,%,2023-24,7.6,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Himachal Pradesh,6.3,%,2023-24,7.9,2019-21,-1.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Jammu and Kashmir,8.2,%,2023-24,7.8,2019-21,0.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Jharkhand,12.6,%,2023-24,11.5,2019-21,1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Karnataka,8.8,%,2023-24,6.4,2019-21,2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Kerala,10.2,%,2023-24,12.5,2019-21,-2.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Ladakh,8.4,%,2023-24,7.9,2019-21,0.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Lakshadweep,8.7,%,2023-24,12.3,2019-21,-3.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Madhya Pradesh,6.2,%,2023-24,7.7,2019-21,-1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Maharashtra,6.9,%,2023-24,9.6,2019-21,-2.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Meghalaya,21.0,%,2023-24,26.9,2019-21,-5.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Mizoram,8.0,%,2023-24,18.9,2019-21,-10.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Nagaland,5.7,%,2023-24,9.1,2019-21,-3.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Odisha,10.0,%,2023-24,7.2,2019-21,2.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Puducherry,6.2,%,2023-24,10.5,2019-21,-4.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Punjab,6.7,%,2023-24,9.9,2019-21,-3.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Rajasthan,7.9,%,2023-24,7.6,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Sikkim,4.5,%,2023-24,11.9,2019-21,-7.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Tamil Nadu,6.4,%,2023-24,7.5,2019-21,-1.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Telangana,7.0,%,2023-24,6.4,2019-21,0.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Tripura,8.5,%,2023-24,8.2,2019-21,0.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Uttar Pradesh,10.8,%,2023-24,12.8,2019-21,-2.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,Uttarakhand,8.9,%,2023-24,8.8,2019-21,0.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_unmet_need,Unmet need for family planning,India (national figure as published or computed),8.5,%,2023-24,9.4,2019-21,-0.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19

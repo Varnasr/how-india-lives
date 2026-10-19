@@ -1,0 +1,37 @@
+indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
+n6_csection,Births delivered by caesarean section,Andaman and Nicobar,35.0,%,2023-24,29.9,2019-21,5.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Andhra Pradesh,52.2,%,2023-24,42.4,2019-21,9.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Arunachal Pradesh,17.4,%,2023-24,14.8,2019-21,2.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Assam,22.9,%,2023-24,18.1,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Bihar,13.2,%,2023-24,9.7,2019-21,3.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Chandigarh,36.1,%,2023-24,31.3,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Chhattisgarh,20.0,%,2023-24,15.2,2019-21,4.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Dadra and Nagar Haveli and Daman and Diu,28.6,%,2023-24,22.9,2019-21,5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Delhi,27.4,%,2023-24,23.6,2019-21,3.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Goa,46.2,%,2023-24,39.5,2019-21,6.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Gujarat,29.0,%,2023-24,21.0,2019-21,8.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Haryana,25.6,%,2023-24,19.4,2019-21,6.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Himachal Pradesh,29.9,%,2023-24,21.0,2019-21,8.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Jammu and Kashmir,51.0,%,2023-24,41.7,2019-21,9.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Jharkhand,15.7,%,2023-24,12.8,2019-21,2.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Karnataka,45.7,%,2023-24,31.5,2019-21,14.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Kerala,41.3,%,2023-24,38.9,2019-21,2.4,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Ladakh,27.8,%,2023-24,37.6,2019-21,-9.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Lakshadweep,39.9,%,2023-24,31.3,2019-21,8.6,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Madhya Pradesh,16.0,%,2023-24,12.1,2019-21,3.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Maharashtra,33.6,%,2023-24,25.4,2019-21,8.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Meghalaya,6.4,%,2023-24,8.2,2019-21,-1.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Mizoram,13.5,%,2023-24,10.8,2019-21,2.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Nagaland,9.9,%,2023-24,5.2,2019-21,4.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Odisha,29.4,%,2023-24,21.6,2019-21,7.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Puducherry,43.2,%,2023-24,36.3,2019-21,6.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Punjab,46.6,%,2023-24,38.5,2019-21,8.1,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Rajasthan,15.6,%,2023-24,10.4,2019-21,5.2,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Sikkim,51.1,%,2023-24,32.8,2019-21,18.3,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Tamil Nadu,46.9,%,2023-24,44.9,2019-21,2.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Telangana,62.2,%,2023-24,60.7,2019-21,1.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Tripura,30.1,%,2023-24,25.1,2019-21,5.0,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Uttar Pradesh,19.5,%,2023-24,13.7,2019-21,5.8,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,Uttarakhand,25.9,%,2023-24,20.4,2019-21,5.5,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,West Bengal,44.5,%,2023-24,32.6,2019-21,11.9,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
+n6_csection,Births delivered by caesarean section,India (national figure as published or computed),27.2,%,2023-24,21.5,2019-21,5.7,,NFHS-6 (2023-24),https://www.nfhsiips.in/,2026-10-19
