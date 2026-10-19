@@ -2993,7 +2993,8 @@
       "wind"
     ],
     "title_hi": "प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता",
-    "takeaway_hi": "राजस्थान और गुजरात प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता में आगे हैं; पूर्वोत्तर राज्य काफ़ी पीछे हैं।"
+    "takeaway_hi": "राजस्थान और गुजरात प्रति व्यक्ति नवीकरणीय ऊर्जा क्षमता में आगे हैं; पूर्वोत्तर राज्य काफ़ी पीछे हैं।",
+    "newer": "mnre_per_person"
   },
   {
     "id": "S08m",
@@ -4768,5 +4769,23 @@
     ],
     "title_hi": "अधिक वज़न या मोटापे वाले पुरुष, NFHS-6",
     "takeaway_hi": "अधिक वज़न या मोटापा चंडीगढ़ में 48.5 प्रतिशत, अंडमान-निकोबार में 46.1 और पुदुचेरी में 45.9 प्रतिशत पुरुषों में है, जबकि छत्तीसगढ़ में 16.1, मध्य प्रदेश में 17.6 और राजस्थान में 19.3। भारत का आँकड़ा 27.3 प्रतिशत है, NFHS-5 के 22.9 से अधिक।"
+  },
+  {
+    "id": "X260",
+    "title": "Installed renewable capacity per person, July 2026",
+    "file": "X260_Renewable_capacity_per_person_MNRE_2026.png",
+    "section": "environment",
+    "source": "MNRE (via MoSPI)",
+    "year": "2026",
+    "quality": "NEW",
+    "takeaway": "Sikkim has 3,350 watts of installed renewable capacity per person, Himachal Pradesh 1,726 and Arunachal Pradesh 1,438, against 208 for India and 5 in Bihar. Gujarat has 724 and Rajasthan 612. Jharkhand and Tripura have 14 each.",
+    "policy": "This is capacity, not electricity generated: solar and wind plants run for a fraction of the year, and large hydro depends on rain. Large hydro is in MoSPI's total (Himachal Pradesh's 12,980 MW is 11,571 MW of large hydro), and small populations push the per-person figure up. Capacity is for July 2026 and population is a 2024 projection.",
+    "tags": [
+      "renewable energy",
+      "MNRE",
+      "environment"
+    ],
+    "title_hi": "प्रति व्यक्ति स्थापित नवीकरणीय क्षमता, जुलाई 2026",
+    "takeaway_hi": "सिक्किम में प्रति व्यक्ति 3,350 वाट स्थापित नवीकरणीय क्षमता है, हिमाचल प्रदेश में 1,726 और अरुणाचल प्रदेश में 1,438, जबकि भारत का आँकड़ा 208 और बिहार का 5 है। गुजरात में 724 और राजस्थान में 612 है। झारखंड और त्रिपुरा में 14-14।"
   }
 ]

@@ -50,6 +50,10 @@ Source: MoSPI National Accounts Statistics, state series, base year 2011-12, cur
 - Private share: UDISE+ enrolment (MoSPI API, indicator 28, both sexes, classes 1-12) in private unaided recognised schools divided by enrolment in all schools, times 100, one decimal. Government-aided schools are not counted as private. In every state and year the management categories must add to the all-management total or the build stops. Lakshadweep lists only government schools, whose enrolment equals the total, so its private share is 0. The national figure is the sum over all states and union territories.
 - Written contracts: MoSPI's published PLFS annual figure (indicator 5), the share of regular wage and salaried employees with no written job contract, persons, rural and urban. It is used as published, with the All India row as the national figure. It covers regular employees only.
 
+## Renewable capacity per person (`mnre_per_person`)
+
+Installed renewable capacity is MoSPI's MNRE series `Total Power` (solar, wind, hydro including large hydro, bio) in MW for July 2026; the 36 states and UTs plus 'Others' add to the All India row within 1 MW. Population is the 2024 state figure (lakh) NCRB prints beside its murder table, taken from the National Commission on Population's 2020 projections. Watts per person = MW x 1,000,000 / (lakh x 100,000) = MW x 10 / lakh. The capacity year (2026) and the population year (2024) differ. The national figure is All India capacity over the total population.
+
 ## Courts
 
 Source: Ministry of Law and Justice, Lok Sabha unstarred question 3501, with NJDG pendency of 9 March 2026.

@@ -207,6 +207,20 @@ def raw_series_calcs(by):
     files['calculations/plfs_no_contract.csv'] = rows_to_csv(
         ['state_or_india', 'pct_regular_employees_no_written_contract_2023_24 (as published by MoSPI)', 'pct_2022_23', 'change_points'],
         [[s, a[s], b.get(s, ''), fmt(round(float(a[s]) - float(b[s]), 1)) if s in b else ''] for s in sorted(a)])
+    cap = load('data/mospi/mnre-total-2026-07.json')
+    pop = load('data/ncrb/crime-in-india-2024-other.json')
+    rows, got = [], {}
+    for s, mw in sorted(cap['capacity_mw'].items()):
+        if s in ('All India', 'Others'):
+            rows.append([s, mw, fmt(pop['india']['population_lakh']) if s == 'All India' else '', round(mw * 10 / pop['india']['population_lakh']) if s == 'All India' else '',
+                         'national figure: All India capacity over total population' if s == 'All India' else 'capacity not assigned to a state; not mapped'])
+            continue
+        lakh = pop['states'][s]['population_lakh']
+        got[s] = round(mw * 10 / lakh)
+        rows.append([s, mw, lakh, got[s], ''])
+    check_equal('mnre_per_person', got, by['mnre_per_person']['values'])
+    files['calculations/mnre_per_person.csv'] = rows_to_csv(
+        ['state', 'installed_renewable_capacity_mw_july_2026 (MoSPI MNRE Total Power)', 'population_lakh_2024_projection (NCRB Table 2A.1)', 'watts_per_person (MW x 10 / lakh)', 'note'], rows)
     return files
 
 
