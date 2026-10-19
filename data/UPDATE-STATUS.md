@@ -170,3 +170,22 @@ The source does not give a state breakdown.
 - The Agriculture Census 2021-22 had not been released by July 2026, so the three maps built on it have no newer data.
 - MGNREGA was replaced by a new scheme on 1 July 2026 according to the agent, which breaks continuity for S02e and S11b. Unverified by me.
 - Sites unreachable from this sandbox: data.gov.in, eparlib (Lok Sabha answers), the RBI Handbook table files, ECI statistical reports, cgwb.gov.in, bprd.nic.in, the Income Tax Department and Udyam portals. A file from you would unlock the "needs a file" group.
+
+## Built from this list, 2026-10-19
+
+Each of these now has a generated sheet and an indicator in the explorer, with its source and checks described in `data/CALCULATIONS.md`. The old map keeps its place in the catalogue and links to the new one as its newer version.
+
+| old map | new map | source |
+|---|---|---|
+| S07a | X272 | ASER 2024, Std V reading, government schools |
+| S07h | X273 | ASER 2024, children 6-14 not in school |
+| X168, S01d | X274 | TRAI Table 1.43, internet subscriptions per 100, March 2026 |
+| S03t | X275 | India TB Report 2024, case notification rate (not incidence) |
+| S10h | X276 | RBI remittances survey 2023-24, share of inward remittances (not dependence) |
+| S07i | X277 | UDISE+ 2024-25 via MoSPI, primary pupil-teacher ratio, all management |
+| S01j | X278, X279 | HCES 2023-24, rice share of cereals, rural and urban |
+| S03f | X280 | SRS maternal mortality 2022-24 (19 states) |
+| S03s | X281 | SRS abridged life tables 2019-23 (22 states) |
+| X189 | X282 | NFHS-6, improved drinking-water source |
+
+Still open: X184 (sex ratio at birth) needs Table 16 on page 315 of the 363-page SRS 2024 Statistical Report, and censusindia.gov.in cannot be downloaded from here (incomplete certificate chain) and the text extractor reads about 20 pages at a time, so it needs the PDF or the table supplied; S09e (SFLC internet shutdowns, a scrape of a tracker that counts recorded events, not days); X172 (to be retired in favour of X206 and X207, HCES consumption). Everything else on the list above that needs a file nobody has supplied stays as a vintage-labelled map.

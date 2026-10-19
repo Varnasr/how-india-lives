@@ -119,6 +119,10 @@ SPEC = [
     (14, 'women_internet', 'Education', 'Women who have ever used the internet',
      'Share of women aged 15-49 who have ever used the internet.',
      True, 'कभी इंटरनेट इस्तेमाल करने वाली महिलाएँ', '15-49 वर्ष की उन महिलाओं का हिस्सा जिन्होंने कभी इंटरनेट इस्तेमाल किया है।'),
+    (5, 'improved_water', 'Health', 'Population in households with an improved drinking-water source',
+     'Share of the household population living in households with an improved source of drinking water (piped water, tube well or borehole, protected well or spring, rainwater, tanker truck or bottled water), as NFHS defines it. An improved source is not the same as safe water: it says nothing about contamination, regular supply or distance.',
+     True, 'बेहतर पेयजल स्रोत वाले परिवारों में रहने वाली आबादी',
+     'बेहतर पेयजल स्रोत (नल का पानी, ट्यूबवेल या बोरवेल, संरक्षित कुआँ या झरना, वर्षा जल, टैंकर या बोतलबंद पानी) वाले परिवारों में रहने वाली आबादी का हिस्सा, NFHS की परिभाषा के अनुसार। बेहतर स्रोत का अर्थ सुरक्षित पानी नहीं है।'),
 ]
 
 

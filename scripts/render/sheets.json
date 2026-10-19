@@ -1613,5 +1613,27 @@
       "health",
       "mortality"
     ]
+  },
+  {
+    "id": "X282",
+    "indicator": "n6_improved_water",
+    "section": "health",
+    "file": "X282_Improved_drinking_water_source_NFHS6.png",
+    "title": "Population with an improved drinking-water source, NFHS-6",
+    "eyebrow": "HOW INDIA LIVES  ·  HEALTH: WATER",
+    "subtitle": "Share of the household population living in households with an improved drinking-water source, NFHS-6 (2023-24).\nIndia: 96.5 per cent, against 95.9 in NFHS-5.",
+    "callout_note": "of people live in households with an improved drinking-water source in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "NFHS-6 finds 96.5 per cent of India's household population living with an improved source of drinking water, against 95.9 per cent in NFHS-5. Nagaland (82.7), Jharkhand and Meghalaya (84.3 each), Lakshadweep (88.4), Madhya Pradesh (89.0) and Himachal Pradesh (89.5) are lowest, and Chandigarh, Delhi and Puducherry are highest at 99.8 to 99.9. No state reported in NFHS-6 is under 82 per cent, so the old claim of under 60 per cent in some north-eastern states does not hold on this measure.",
+    "policy": "An improved source is not safe water. The survey definition counts piped water, tube wells, protected wells, rainwater, tanker trucks and bottled water, and says nothing about contamination, arsenic or fluoride, how many hours water flows, or how far it must be carried. Manipur has no NFHS-6 figure. NFHS-6 is provisional, and some state changes are large (Nagaland down 8.3 points, Himachal Pradesh down 6.7), which should be read with that in mind.",
+    "takeaway_hi": "NFHS-6 के अनुसार भारत की 96.5 प्रतिशत घरेलू आबादी बेहतर पेयजल स्रोत वाले परिवारों में रहती है, जबकि NFHS-5 में यह 95.9 प्रतिशत थी। नागालैंड (82.7), झारखंड और मेघालय (84.3), लक्षद्वीप (88.4), मध्य प्रदेश (89.0) और हिमाचल प्रदेश (89.5) सबसे नीचे हैं। बेहतर स्रोत का अर्थ सुरक्षित पानी नहीं है।",
+    "title_hi": "बेहतर पेयजल स्रोत वाली आबादी, NFHS-6",
+    "tags": [
+      "NFHS-6",
+      "drinking water",
+      "WASH",
+      "health"
+    ]
   }
 ]
