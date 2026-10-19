@@ -121,3 +121,7 @@ RBI Bulletin, 19 March 2025, Table 2 (sixth round of the Remittances Survey, 202
 ## Pupil-teacher ratio, primary (`udise_ptr_primary`)
 
 UDISE+ indicator 23 (Pupil Teacher Ratio by level of education) from MoSPI's open data API, 2022-23 and 2024-25, all management types together and whole numbers as published (`scripts/fetch_mospi_ptr.py`). Each state has all four levels in both years (36 x 4 x 2 rows); the primary figure for 2024-25 is mapped and the calculation file lists the other levels. The API has no all-India row and no split by management for this indicator, so the old S07i (government primary schools) is not reproduced; the new map covers all schools. MoSPI does not say whether 2022-23 and 2024-25 are on the same basis, and Bihar's primary ratio goes from 43 to 26, so the change is shown with a warning.
+
+## Rice share of cereal consumption, rural and urban (`hces_rice_r`, `hces_rice_u`)
+
+MoSPI HCES, indicator 5 (average per-capita monthly quantity, kg), 2022-23 and 2023-24, without imputation (`scripts/fetch_mospi_hces_cereals.py`). Rice share = rice kg / total cereals kg x 100, to one decimal. In every row rice + wheat + coarse grains + other cereals equals the total within 1 per cent, where the API's '-' (a negligible or unreported component) counts as 0. The All India row gives the national marker (rural 54.2 = 5.065 / 9.352). A quantity share, not calories or spending, and rural and urban are separate series. S01j links to the rural map as its newer version; the urban map sits beside it.

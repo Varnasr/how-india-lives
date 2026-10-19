@@ -1523,5 +1523,51 @@
       "pupil-teacher ratio",
       "education"
     ]
+  },
+  {
+    "id": "X278",
+    "indicator": "hces_rice_r",
+    "section": "economy",
+    "file": "X278_Rice_share_of_cereal_consumption_Rural_HCES_2023-24.png",
+    "title": "Rice share of cereal consumption, rural households, HCES 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: FOOD",
+    "subtitle": "Rice as a share of all cereals eaten per person per month, by weight, rural households (HCES 2023-24).\nAll India: 54.2 per cent.",
+    "callout_note": "of cereals eaten in rural households are rice in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Rice is 54.2 per cent of the cereals eaten per person in rural India (HCES 2023-24, by weight), against 55.4 per cent in 2022-23. In 14 states and territories it is 90 per cent or more, led by Mizoram (99.6), Manipur (99.4) and Nagaland (98.4), while in Rajasthan (3.7), Haryana (7.6) and Punjab (9.3) wheat and coarse grains take most of the plate.",
+    "policy": "This is a share of kilograms of cereal, not of calories or spending, and it counts household consumption from purchases, home production and free items together. A high rice share does not say how much cereal anyone eats. Rural and urban figures come from separate series, and the survey publishes no combined state figure, so the two maps should not be averaged.",
+    "takeaway_hi": "HCES 2023-24 के अनुसार ग्रामीण भारत में प्रति व्यक्ति खाए जाने वाले अनाज (वज़न के हिसाब से) में चावल का हिस्सा 54.2 प्रतिशत है, जबकि 2022-23 में यह 55.4 प्रतिशत था। 14 राज्यों और क्षेत्रों में यह 90 प्रतिशत या उससे अधिक है।",
+    "title_hi": "अनाज उपभोग में चावल का हिस्सा (ग्रामीण), HCES 2023-24",
+    "tags": [
+      "HCES",
+      "food",
+      "rice",
+      "cereals",
+      "economy"
+    ]
+  },
+  {
+    "id": "X279",
+    "indicator": "hces_rice_u",
+    "section": "economy",
+    "file": "X279_Rice_share_of_cereal_consumption_Urban_HCES_2023-24.png",
+    "title": "Rice share of cereal consumption, urban households, HCES 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: FOOD",
+    "subtitle": "Rice as a share of all cereals eaten per person per month, by weight, urban households (HCES 2023-24).\nAll India: 52.3 per cent.",
+    "callout_note": "of cereals eaten in urban households are rice in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "Rice is 52.3 per cent of the cereals eaten per person in urban India (HCES 2023-24, by weight), against 53.2 per cent in 2022-23. In 8 states and territories it is 90 per cent or more, led by Mizoram (99.4), Manipur (99.2) and Nagaland (97.3), while in Rajasthan (6.4), Chandigarh (13.6) and Punjab (13.6) wheat and coarse grains take most of the plate.",
+    "policy": "This is a share of kilograms of cereal, not of calories or spending, and it counts household consumption from purchases, home production and free items together. A high rice share does not say how much cereal anyone eats. Rural and urban figures come from separate series, and the survey publishes no combined state figure, so the two maps should not be averaged.",
+    "takeaway_hi": "HCES 2023-24 के अनुसार शहरी भारत में प्रति व्यक्ति खाए जाने वाले अनाज (वज़न के हिसाब से) में चावल का हिस्सा 52.3 प्रतिशत है, जबकि 2022-23 में यह 53.2 प्रतिशत था। 8 राज्यों और क्षेत्रों में यह 90 प्रतिशत या उससे अधिक है।",
+    "title_hi": "अनाज उपभोग में चावल का हिस्सा (शहरी), HCES 2023-24",
+    "tags": [
+      "HCES",
+      "food",
+      "rice",
+      "cereals",
+      "economy"
+    ]
   }
 ]

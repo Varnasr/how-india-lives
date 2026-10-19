@@ -101,4 +101,14 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/udise_pupil_teacher_ratio.csv'] = rows_to_csv(
         ['state', 'primary_2024_25 (mapped)', 'primary_2022_23', 'upper_primary_2024_25', 'secondary_2024_25', 'higher_secondary_2024_25'],
         [[s, d[('2024-25', 'Primary')], d[('2022-23', 'Primary')], d[('2024-25', 'Upper Primary')], d[('2024-25', 'Secondary')], d[('2024-25', 'Higher Secondary')]] for s, d in sorted(lv.items())])
+    import build_hces_rice_indicators as hr
+    ht = hr.tables(load('data/mospi/hces-cereals.json'))
+    for k, sec, fn in (('hces_rice_r', 'Rural', 'hces_rice_rural'), ('hces_rice_u', 'Urban', 'hces_rice_urban')):
+        cur = ht[('2023-24', sec)]
+        got = {s: round(d['Rice'] / d['Total Cereals'] * 100, 1) for s, d in cur.items() if s != 'All India'}
+        check_equal(k, got, by[k]['values'])
+        files['calculations/%s.csv' % fn] = rows_to_csv(
+            ['state_or_india', 'rice_kg_per_person_month', 'wheat_kg', 'coarse_grains_kg', 'other_cereals_kg', 'total_cereals_kg', 'rice_share_pct (rice / total x 100, 1 dp; mapped)', 'rice_share_pct_2022_23'],
+            [[s, d['Rice'], d['Wheat'], d['Coarse Grains'], d['Other Cereals'], d['Total Cereals'], round(d['Rice'] / d['Total Cereals'] * 100, 1),
+              round(ht[('2022-23', sec)][s]['Rice'] / ht[('2022-23', sec)][s]['Total Cereals'] * 100, 1)] for s, d in sorted(cur.items())])
     return files
