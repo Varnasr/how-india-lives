@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 45 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 47 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -26,7 +26,7 @@ produces no diff, which is what lets CI use it as a staleness gate.
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 45 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 47 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -43,6 +43,33 @@ now one line in `scripts/render/sheets.json` rather than a rendering job in
 another tool.
 
 `mapId` is the whole of the cross-link between the two views, in both directions.
+
+## NFHS-6 and PLFS 2025 came in October 2026, and how
+
+`data/nfhs6/states.json` holds the NFHS-6 (2023-24) state and UT totals, read
+from IIPS's fact-sheet compendium of May 2026 by `scripts/extract_nfhs6.py`.
+**Thirteen of that PDF's 36 sheets carry no text layer**, so
+`scripts/ocr_nfhs6.py` reads them as images first (`rapidocr-onnxruntime`).
+OCR can lose a row label or misread a digit, so the extract was held to three
+tests: the NFHS-5 column printed in each sheet matched MoSPI's NFHS-5 values on
+every spot check (stunting 17 of 18 sheets, the one miss a row absent in the
+source; institutional births and caesarean sections 10 of 10), every state's
+total sits between its urban and rural figures, and the largest changes were
+read against the page images. A figure the source prints as `*` or leaves blank
+is absent, never filled in. Manipur has no NFHS-6 sheet.
+
+`scripts/build_nfhs6_indicators.py` turns 25 of them into `n6_*` indicators
+with the NFHS-5 total beside each as `previous`, and the explorer's "Change
+since 2019-21" view reads that. `scripts/build_plfs_indicators.py` adds the two
+PLFS 2025 unemployment indicators from `data/mospi/plfs-2025.json`. Both are
+idempotent and have `--check`. `maps.json` carries `newer` on the 18 NFHS-5
+maps whose measure NFHS-6 repeats; the map page and the gallery card link to it.
+
+**NFHS-6 is not a drop-in for NFHS-5.** It reports 101 indicators against 131;
+anaemia and the mortality rates are not among them, so those static maps keep
+their NFHS-5 figures and say so. Some changes are large (Karnataka's spousal
+violence 44.4 to 14.1, Ladakh's 17.7 to 1.9) and are what the sheets print;
+quote them with the survey's own caution that NFHS-6 is provisional.
 
 ## Why the checks exist
 
