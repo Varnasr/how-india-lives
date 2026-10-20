@@ -144,3 +144,27 @@ All three come from the RBI Handbook of Statistics on Indian States 2024-25 (rel
 ## Rice and sugarcane share of crop area (`rbi_thirsty_share`)
 
 RBI Handbook of Statistics on Indian States 2024-25, Tables 67 (rice), 69 (coarse cereals) and 78 (sugarcane), area in thousand hectares for 2023-24 and 2024-25, read through Firecrawl on 2026-10-20 with no SHA-256 pinned (`scripts/extract_rbi_crop_area.py`). Share = (rice + sugarcane) / (rice + sugarcane + coarse cereals) x 100. For each table and year the state rows sum to the printed ALL INDIA row within 0.5 per cent, and the national marker uses those totals (68.8 in 2024-25). Goa's coarse cereals are a dash in every year, so Goa is left out. Delhi and Sikkim are absent from the sugarcane table, and Jharkhand's 2023-24 dash, and all count as 0. Coarse cereals include maize and barley as well as millets, and the three groups leave out wheat, pulses, oilseeds, cotton, fruit, vegetables and plantation crops, which is why Kerala reads 99.8. The calculation file also gives the ratio form (hectares of rice and sugarcane per hectare of coarse cereals), which runs from 0.06 in Rajasthan to 589 in Kerala and is not mapped. S08f (the old 10x claim) links here as its newer map.
+
+## Sex ratio at birth (`srs_sex_ratio_birth`)
+
+ORGI, Sample Registration System Statistical Report 2023, Table 16 (page 315) and Statement 16 (page 66): females per 1,000 males at birth, three-year averages from 2017-19 to 2021-23, for India and 22 larger states. The PDF is pinned by SHA-256 in `scripts/extract_srs_sex_ratio_birth.py`. Table 16's 2021-23 columns equal Statement 16 row for row, the India figure is 917, and the highest and lowest states match the report's text. The map shows the 2021-23 total with 2020-22 beside it; the calculation file gives all five periods, rural and urban, and the change since 2017-19. Jammu and Kashmir includes Ladakh. A low figure can reflect sex-selective practice or unreported girls' births, and the data cannot separate them. X184, the older map labelled as a proxy for sex-selective abortion, links here as its newer map.
+
+## Startups per lakh people (`dpiit_startups`)
+
+DPIIT, Lok Sabha Unstarred Question 1446 of 28 July 2026, Annexure I: entities recognised as startups as on 30 June 2026, by state and UT (`scripts/extract_dpiit_startups.py`). The 36 rows add to the 2,40,092 the answer gives for India, and Odisha and Karnataka match the figures in its text. Startups per lakh = startups / population (NCRB's 2024 projection in lakh). A startup is counted at its registered address, which concentrates in Delhi, Karnataka and Maharashtra, and recognition does not say the business still trades. S10i links here as its newer map.
+
+## Mean age at effective marriage of females (`srs_marriage_age`)
+
+ORGI, SRS Statistical Report 2023, Statement 13 (page 53): the mean age at which a marriage took effect among females whose marriages were recorded in 2023, for India and 22 larger states, with the means for marriages below 18, at 18 to 20 and at 21 and over, in rural and urban areas (`scripts/extract_srs_marriage_age.py`; the PDF is pinned by SHA-256). India is 22.9, each total lies between its rural and urban values, and the mapped figure is the all-ages total. It is an average over recorded marriages, not the share of women married below 18. S01f links here as its newer map.
+
+## Over-exploited groundwater units (`cgwb_oe_share`)
+
+CGWB and Ministry of Jal Shakti, National Compilation on Dynamic Ground Water Resources of India, 2025, table "Categorization of blocks/mandals/talukas in India (2025)" (page 187). Over-exploited units / units assessed x 100. Each state's categories add to its total and the 36 rows add to the printed Grand Total (6,762 units, 730 over-exploited). Units are blocks, taluks, mandals or districts by state, so they differ in size. The 2024 national figure (751 of 6,746) is from the same compilation's trend table. S08j links here; the stage-of-extraction map (X285) is a different measure.
+
+## Annual rainfall, 2024 (`rain_2024`)
+
+State-wise rainfall tables in the same CGWB compilation (pages 39 and 40), from IMD data: normal rainfall and rainfall in calendar year 2024, in millimetres, for 36 states and UTs (`scripts/extract_cgwb_rainfall.py`). The report's own text agrees on the extremes (Ladakh 50.9 mm normal and 79.3 mm in 2024, Meghalaya 3,751.5 mm normal, Goa 4,906.6 mm in 2024) and on 18 states and UTs being below normal. The calculation file adds each state's departure from normal. S08a links here as its newer map.
+
+## Udyam MSME registrations per lakh people (`udyam_per_lakh`)
+
+Ministry of MSME, Lok Sabha Unstarred Question 755 of 4 December 2025, Annexure I: registrations on the Udyam Registration Portal and the Udyam Assist Platform (informal micro enterprises) by state and financial year, 1 July 2020 to 30 November 2025 (`scripts/extract_udyam_msme.py`; the PDF is pinned). In each year the state rows add to the printed Total and the six years give 7,22,32,207 registrations. Registrations per lakh = total registrations / population (NCRB 2024 projection). It counts registrations at the registered address, includes informal enterprises added since January 2023, and moves with registration drives, so it is not comparable with the earlier Udyam map. S10a links here as its newer map.

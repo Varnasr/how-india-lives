@@ -147,4 +147,41 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
         [[s, cr['rice'][s][1], (cr['sugarcane'].get(s) or [0, 0])[1] or 0, cr['coarse_cereals'][s][1], sh1[s],
           round((cr['rice'][s][1] + ((cr['sugarcane'].get(s) or [0, 0])[1] or 0)) / cr['coarse_cereals'][s][1], 2), sh0[s]]
          for s in sorted(sh1)])
+    sb = load('data/srs/sex-ratio-birth-2021-23.json')
+    check_equal('srs_sex_ratio_birth', {s: d['total'][4] for s, d in sb['states'].items()}, by['srs_sex_ratio_birth']['values'])
+    files['calculations/srs_sex_ratio_birth.csv'] = rows_to_csv(
+        ['state'] + ['total_' + p for p in sb['periods']] + ['rural_2021_23', 'urban_2021_23', 'change_2017_19_to_2021_23 (total)'],
+        [[s] + d['total'] + [d['rural'][4], d['urban'][4], d['total'][4] - d['total'][0]] for s, d in sorted(sb['states'].items())])
+    su = load('data/dpiit/startups-2026-06.json')
+    import build_dpiit_startups_indicator as bs
+    r_su, _ = bs.rates(su)
+    check_equal('dpiit_startups', r_su, by['dpiit_startups']['values'])
+    pop_su = {s: v['population_lakh'] for s, v in load('data/ncrb/crime-in-india-2024-other.json')['states'].items()}
+    files['calculations/dpiit_startups.csv'] = rows_to_csv(
+        ['state', 'startups_30_june_2026', 'population_2024_lakh (NCRB projection)', 'startups_per_lakh (mapped)'],
+        [[s, n, pop_su[s], r_su[s]] for s, n in sorted(su['states'].items())])
+    mr = load('data/srs/marriage-age-2023.json')
+    check_equal('srs_marriage_age', {s: d['total'][3] for s, d in mr['states'].items()}, by['srs_marriage_age']['values'])
+    files['calculations/srs_marriage_age.csv'] = rows_to_csv(
+        ['state', 'mean_age_all_2023 (mapped)', 'below_18', '18_20', '21_plus', 'rural_all_ages', 'urban_all_ages'],
+        [[s, d['total'][3], d['total'][0], d['total'][1], d['total'][2], '' if d['rural'][3] is None else d['rural'][3], '' if d['urban'][3] is None else d['urban'][3]]
+         for s, d in sorted(mr['states'].items())])
+    cg = load('data/cgwb/assessment-units-2025.json')
+    import build_cgwb_units_indicator as bcg
+    check_equal('cgwb_oe_share', bcg.share(cg), by['cgwb_oe_share']['values'])
+    files['calculations/cgwb_units.csv'] = rows_to_csv(
+        ['state', 'assessed', 'safe', 'semi_critical', 'critical', 'over_exploited', 'saline', 'over_exploited_pct (mapped)'],
+        [[s, d['assessed'], d['safe'], d['semi_critical'], d['critical'], d['over_exploited'], d['saline'], bcg.share(cg)[s]] for s, d in sorted(cg['states'].items())])
+    rn = load('data/cgwb/rainfall-2024.json')
+    check_equal('rain_2024', {s: d['rain_2024'] for s, d in rn['states'].items()}, by['rain_2024']['values'])
+    files['calculations/rainfall_2024.csv'] = rows_to_csv(
+        ['state', 'rain_2024_mm (mapped)', 'normal_mm', 'departure_pct'],
+        [[s, d['rain_2024'], d['normal'], round((d['rain_2024'] - d['normal']) / d['normal'] * 100, 1)] for s, d in sorted(rn['states'].items())])
+    ud = load('data/msme/udyam-registrations-2025-11.json')
+    import build_udyam_indicator as bu
+    r_ud, _ = bu.rates(ud)
+    check_equal('udyam_per_lakh', r_ud, by['udyam_per_lakh']['values'])
+    files['calculations/udyam_msme.csv'] = rows_to_csv(
+        ['state'] + ['registered_' + y for y in ud['years']] + ['total', 'registrations_per_lakh (mapped)'],
+        [[s] + v + [sum(v), r_ud[s]] for s, v in sorted(ud['states'].items())])
     return files

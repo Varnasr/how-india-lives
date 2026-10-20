@@ -56,24 +56,6 @@
     "newer": "X274"
   },
   {
-    "id": "X169",
-    "title": "IFCN-Registered Fact-Check Organisations per ",
-    "file": "X169_IFCN-Registered_Fact-Check_Organisations_per_.png",
-    "section": "democracy",
-    "source": "IFCN",
-    "year": "2024",
-    "quality": "NEW",
-    "takeaway": "IFCN-registered fact-check organisations are concentrated in metros — India's misinformation heartland has no fact-checkers.",
-    "policy": "Fact-checking in Hindi and vernacular languages is critically underfunded relative to the scale of misinformation.",
-    "tags": [
-      "fact-check",
-      "misinformation",
-      "media"
-    ],
-    "title_hi": "प्रति राज्य IFCN-पंजीकृत फैक्ट-चेक संस्थाएं",
-    "takeaway_hi": "IFCN-पंजीकृत फैक्ट-चेक संस्थाएं महानगरों में केंद्रित हैं — भारत के गलत सूचना के गढ़ में एक भी फैक्ट-चेकर नहीं है।"
-  },
-  {
     "id": "X170",
     "title": "Womens Media Exposure Gap TV vs Print",
     "file": "X170_Womens_Media_Exposure_Gap_TV_vs_Print.png",
@@ -132,24 +114,6 @@
     "data_note": "Superseded by the rural map (X206) and the urban map (X207): MoSPI publishes household spending 2023-24 for rural and urban India separately, with no combined state series, so this single map cannot be rebuilt. The figures here are for 2022-23."
   },
   {
-    "id": "X173",
-    "title": "Gig Workers as % of Workforce",
-    "file": "X173_Gig_Workers_as_pct_of_Workforce.png",
-    "section": "economy",
-    "source": "PLFS",
-    "year": "2022-23",
-    "quality": "UNCERTAIN",
-    "takeaway": "Gig workers represent 3-8% of the workforce in metros but under 1% in most rural states.",
-    "policy": "Gig work data is deeply uncertain; platform workers lack labour protections that even informal sector workers nominally have.",
-    "tags": [
-      "gig workers",
-      "platform economy",
-      "labour"
-    ],
-    "title_hi": "कार्यबल में गिग वर्कर्स का %",
-    "takeaway_hi": "महानगरों में गिग वर्कर्स कार्यबल का 3-8% हैं, पर अधिकांश ग्रामीण राज्यों में 1% से कम।"
-  },
-  {
     "id": "X174",
     "title": "Agricultural Mechanisation Tractors per 1000 ",
     "file": "X174_Agricultural_Mechanisation_Tractors_per_1000_.png",
@@ -183,7 +147,8 @@
       "environment"
     ],
     "title_hi": "प्रति हेक्टेयर उर्वरक खपत",
-    "takeaway_hi": "पंजाब और हरियाणा प्रति हेक्टेयर 200+ किग्रा उर्वरक डालते हैं; पूर्वोत्तर राज्य 30 से कम।"
+    "takeaway_hi": "पंजाब और हरियाणा प्रति हेक्टेयर 200+ किग्रा उर्वरक डालते हैं; पूर्वोत्तर राज्य 30 से कम।",
+    "data_note": "Not refreshed. The source named on the map (CIC) cannot be right for fertiliser use. The RBI Handbook carries state consumption per hectare to 2021-22 only, and later state tables could not be found."
   },
   {
     "id": "X176",
@@ -202,24 +167,6 @@
     ],
     "title_hi": "फसल विविधीकरण सूचकांक",
     "takeaway_hi": "पंजाब और हरियाणा में फसल विविधीकरण सबसे कम है — चावल-गेहूँ की एकल खेती का दबदबा है।"
-  },
-  {
-    "id": "X177",
-    "title": "Landless Agricultural Labourers",
-    "file": "X177_Landless_Agricultural_Labourers.png",
-    "section": "economy",
-    "source": "Agriculture Census",
-    "year": "2015-16",
-    "quality": "NEW",
-    "takeaway": "In Bihar and Bengal, 40%+ of agricultural workers are landless labourers — they own nothing they cultivate.",
-    "policy": "Landless labourers bear agricultural risk without owning assets; they are the most climate-vulnerable population.",
-    "tags": [
-      "landless labourers",
-      "agriculture",
-      "economy"
-    ],
-    "title_hi": "भूमिहीन कृषि मज़दूर",
-    "takeaway_hi": "बिहार और बंगाल में 40%+ कृषि श्रमिक भूमिहीन मज़दूर हैं — जो खेत वे जोतते हैं, उनका कुछ भी उनका अपना नहीं।"
   },
   {
     "id": "X178",
@@ -256,7 +203,8 @@
       "empowerment"
     ],
     "title_hi": "प्रति लाख महिलाओं पर महिला SHG सदस्यता",
-    "takeaway_hi": "दक्षिणी राज्यों में महिला SHG सदस्यता प्रति लाख महिलाओं पर 10,000 से अधिक है; उत्तर में 2,000 से कम।"
+    "takeaway_hi": "दक्षिणी राज्यों में महिला SHG सदस्यता प्रति लाख महिलाओं पर 10,000 से अधिक है; उत्तर में 2,000 से कम।",
+    "data_note": "Not refreshed. A national figure for 2026 is published (10.05 crore households in 92 lakh SHGs), but the state-wise membership table sits on the NRLM dashboard, which could not be reached."
   },
   {
     "id": "X180",
@@ -276,24 +224,6 @@
     "title_hi": "घरेलू हिंसा FIR दर बनाम अनुभव",
     "takeaway_hi": "कई राज्यों में, घरेलू हिंसा के लिए FIR दर्ज कराने की दर उसका अनुभव बताने वाली महिलाओं की 5% से कम है।",
     "data_note": "This map sets NFHS-5 survey experience against police-recorded cases. NFHS-6 reports spousal violence overall (map X216), and the FIR comparison has not been redone, so the figures remain as made."
-  },
-  {
-    "id": "X181",
-    "title": "Marital Rape Experience vs Reporting Gap",
-    "file": "X181_Marital_Rape_Experience_vs_Reporting_Gap.png",
-    "section": "gender",
-    "source": "NCRB",
-    "year": "2022",
-    "quality": "NEW",
-    "takeaway": "Marital rape experience rates are high but reporting rates are near zero — it's not a crime under Indian law.",
-    "policy": "India is one of 36 countries where marital rape is not criminalised; the data gap reflects the legal gap.",
-    "tags": [
-      "marital rape",
-      "reporting",
-      "gender"
-    ],
-    "title_hi": "वैवाहिक बलात्कार अनुभव बनाम रिपोर्टिंग अंतर",
-    "takeaway_hi": "वैवाहिक बलात्कार के अनुभव की दर अधिक है पर रिपोर्टिंग दर लगभग शून्य है — भारतीय कानून के तहत यह अपराध नहीं है।"
   },
   {
     "id": "X182",
@@ -349,7 +279,7 @@
     ],
     "title_hi": "लिंग-चयनात्मक गर्भपात प्रॉक्सी, अप्राकृतिक लिंगानुपात",
     "takeaway_hi": "जिन राज्यों में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 900 लड़कियों से कम है, वहाँ लिंग-चयनात्मक प्रथाओं के प्रमाण दिखते हैं।",
-    "data_note": "The latest source is the SRS Statistical Report 2023, sex ratio at birth for 2021-23: India 917, highest Chhattisgarh (974) and Kerala (971), lowest Uttarakhand (868) and Haryana (871). The full state table (Statement 16, printed page 66) could not be read from this environment, so the map has not been rebuilt from it."
+    "newer": "X287"
   },
   {
     "id": "X185",
@@ -522,42 +452,6 @@
     "takeaway_hi": "केरल में प्रति 100 वर्ग किमी 500+ किमी सड़क है; अरुणाचल प्रदेश में 30 से कम।"
   },
   {
-    "id": "X194",
-    "title": "Railway Stations per 1000 sq. km",
-    "file": "X194_Railway_Stations_per_1000_sq_km.png",
-    "section": "economy",
-    "source": "Indian Railways",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Railway station density is highest in the Gangetic plain and coastal states; the NE is barely connected.",
-    "policy": "Rail connectivity determines bulk goods movement, commuter mobility, and integration with the national economy.",
-    "tags": [
-      "railway",
-      "transport",
-      "infrastructure"
-    ],
-    "title_hi": "प्रति 1000 वर्ग किमी रेलवे स्टेशन",
-    "takeaway_hi": "रेलवे स्टेशन घनत्व गंगा के मैदान और तटीय राज्यों में सबसे अधिक है; पूर्वोत्तर मुश्किल से जुड़ा है।"
-  },
-  {
-    "id": "X195",
-    "title": "Telecom Tower Density per 1000 sq. km",
-    "file": "X195_Telecom_Tower_Density_per_1000_sq_km.png",
-    "section": "economy",
-    "source": "TRAI",
-    "year": "2024",
-    "quality": "NEW",
-    "takeaway": "Telecom tower density follows population density but lags in hilly and forested terrain.",
-    "policy": "Telecom coverage gaps in NE and tribal areas mean digital governance doesn't reach the people who need it most.",
-    "tags": [
-      "telecom",
-      "connectivity",
-      "digital"
-    ],
-    "title_hi": "प्रति 1000 वर्ग किमी टेलीकॉम टावर घनत्व",
-    "takeaway_hi": "टेलीकॉम टावर घनत्व जनसंख्या घनत्व का अनुसरण करता है, पर पहाड़ी और वनाच्छादित इलाकों में पिछड़ जाता है।"
-  },
-  {
     "id": "X196",
     "title": "Passport Holders as % of Population",
     "file": "X196_Passport_Holders_as_pct_of_Population.png",
@@ -591,25 +485,8 @@
       "economy"
     ],
     "title_hi": "प्रति लाख जनसंख्या हवाई यात्री",
-    "takeaway_hi": "दिल्ली/गोवा में प्रति लाख जनसंख्या हवाई यात्री बिहार की तुलना में 50 गुना हैं।"
-  },
-  {
-    "id": "X198",
-    "title": "Income Threshold Top 10% by State",
-    "file": "X198_Income_Threshold_Top_10pct_by_State.png",
-    "section": "economy",
-    "source": "PLFS/HCES",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "To be in the top 10% by income in Bihar, you need Rs 25,000/month; in Delhi, Rs 1.5 lakh.",
-    "policy": "What counts as 'rich' varies 6x between states — national income brackets mask state-level reality.",
-    "tags": [
-      "income threshold",
-      "inequality",
-      "economy"
-    ],
-    "title_hi": "राज्यवार शीर्ष 10% आय सीमा",
-    "takeaway_hi": "बिहार में आय के हिसाब से शीर्ष 10% में आने के लिए आपको Rs 25,000/माह चाहिए; दिल्ली में Rs 1.5 लाख।"
+    "takeaway_hi": "दिल्ली/गोवा में प्रति लाख जनसंख्या हवाई यात्री बिहार की तुलना में 50 गुना हैं।",
+    "data_note": "Not refreshed. Airports Authority of India traffic by airport exists for 2024-25, but passengers are counted where they board, so per-person state figures reward states with hub airports, and the files were not reached."
   },
   {
     "id": "X199",
@@ -627,7 +504,8 @@
       "education"
     ],
     "title_hi": "शहरी-ग्रामीण डिग्री अंतर",
-    "takeaway_hi": "बिहार में डिग्री प्राप्ति का शहरी-ग्रामीण अंतर 30 अंक से अधिक है; केरल में 10 से कम।"
+    "takeaway_hi": "बिहार में डिग्री प्राप्ति का शहरी-ग्रामीण अंतर 30 अंक से अधिक है; केरल में 10 से कम।",
+    "data_note": "Not refreshed. The PLFS annual report for 2025 may carry state education tables by sector, but the full tables could not be read, and the MoSPI data service holds no education table for PLFS."
   },
   {
     "id": "X200",
@@ -684,24 +562,6 @@
     ],
     "title_hi": "कंप्यूटर या लैपटॉप वाले परिवार",
     "takeaway_hi": "दिल्ली में कंप्यूटर/लैपटॉप स्वामित्व 30% से अधिक है; बिहार में 5% से कम।"
-  },
-  {
-    "id": "X203",
-    "title": "Distance to Nearest Bank Branch Rural km",
-    "file": "X203_Distance_to_Nearest_Bank_Branch_Rural_km.png",
-    "section": "economy",
-    "source": "RBI/DoP",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Average distance to the nearest bank branch in rural areas exceeds 10 km in many eastern states.",
-    "policy": "Banking access is a physical problem — mobile banking helps but can't replace a branch for cash-dependent rural populations.",
-    "tags": [
-      "bank branch",
-      "rural",
-      "financial inclusion"
-    ],
-    "title_hi": "निकटतम बैंक शाखा तक दूरी — ग्रामीण किमी",
-    "takeaway_hi": "कई पूर्वी राज्यों में ग्रामीण इलाकों में निकटतम बैंक शाखा तक औसत दूरी 10 किमी से अधिक है।"
   },
   {
     "id": "X204",
@@ -1096,7 +956,8 @@
       "culture"
     ],
     "title_hi": "पहली शादी के समय महिलाओं की औसत आयु",
-    "takeaway_hi": "केरल में महिलाएँ औसतन 23 की उम्र में शादी करती हैं; बिहार में यह 19 से कम है — 4 साल का यह अंतर जीवन की दिशा बदल देता है।"
+    "takeaway_hi": "केरल में महिलाएँ औसतन 23 की उम्र में शादी करती हैं; बिहार में यह 19 से कम है — 4 साल का यह अंतर जीवन की दिशा बदल देता है।",
+    "newer": "X289"
   },
   {
     "id": "S01g",
@@ -1118,42 +979,6 @@
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
-    "id": "S01h",
-    "title": "Beef and Buffalo Meat Consuming Househol",
-    "file": "S01h_Beef_and_Buffalo_Meat_Consuming_Househol.png",
-    "section": "food-and-culture",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "Over 70% of households in Kerala and NE states consume beef or buffalo meat; in Rajasthan it's near zero.",
-    "policy": "Beef bans have radically different economic impacts in states where cattle trade is a livelihood vs a cultural symbol.",
-    "tags": [
-      "beef",
-      "food",
-      "culture"
-    ],
-    "title_hi": "गोमांस और भैंस का मांस खाने वाले परिवार",
-    "takeaway_hi": "केरल और पूर्वोत्तर राज्यों में 70% से अधिक परिवार गोमांस या भैंस का मांस खाते हैं; राजस्थान में यह लगभग शून्य है।"
-  },
-  {
-    "id": "S01i",
-    "title": "Egg-Consuming Households",
-    "file": "S01i_Egg-Consuming_Households.png",
-    "section": "food-and-culture",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "Andhra Pradesh and Tamil Nadu are 90%+ egg-consuming; Rajasthan is under 20%.",
-    "policy": "Egg supplementation in school meals — proven to reduce stunting — faces political resistance in states that need it most.",
-    "tags": [
-      "eggs",
-      "nutrition",
-      "food"
-    ],
-    "title_hi": "अंडा खाने वाले परिवार",
-    "takeaway_hi": "आंध्र प्रदेश और तमिलनाडु में 90%+ परिवार अंडा खाते हैं; राजस्थान में 20% से कम।"
-  },
-  {
     "id": "S01j",
     "title": "Rice as Primary Cereal % of total cere",
     "file": "S01j_Rice_as_Primary_Cereal_pct_of_total_cere.png",
@@ -1172,24 +997,6 @@
     "title_hi": "प्रमुख अनाज के रूप में चावल (कुल अनाज का %)",
     "takeaway_hi": "दक्षिण और पूर्व में चावल कुल अनाज खपत के 90%+ पर हावी है; उत्तर में गेहूँ का दबदबा है।",
     "newer": "X278"
-  },
-  {
-    "id": "S01k",
-    "title": "Fish-Consuming Households",
-    "file": "S01k_Fish-Consuming_Households.png",
-    "section": "food-and-culture",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "80%+ households consume fish in Bengal, Odisha, and NE states; under 5% in Rajasthan and Haryana.",
-    "policy": "Inland fisheries policy and cold chain infrastructure have massive returns in fish-eating states but zero relevance elsewhere.",
-    "tags": [
-      "fish",
-      "food",
-      "protein"
-    ],
-    "title_hi": "मछली खाने वाले परिवार",
-    "takeaway_hi": "बंगाल, ओडिशा और पूर्वोत्तर राज्यों में 80%+ परिवार मछली खाते हैं; राजस्थान और हरियाणा में 5% से कम।"
   },
   {
     "id": "S01l",
@@ -1249,24 +1056,6 @@
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
-    "id": "S02a",
-    "title": "Households Earning Above Rs 25000 Month",
-    "file": "S02a_Households_Earning_Above_Rs_25000_Month.png",
-    "section": "economy",
-    "source": "RBI/MoSPI",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Over 50% of households in Goa earn above Rs 25,000/month; in Bihar, it's under 10%.",
-    "policy": "India's income inequality is not just between rich and poor people — it's between rich and poor states.",
-    "tags": [
-      "income",
-      "household",
-      "economy"
-    ],
-    "title_hi": "Rs 25000/माह से अधिक कमाने वाले परिवार",
-    "takeaway_hi": "गोवा में 50% से अधिक परिवार Rs 25,000/माह से अधिक कमाते हैं; बिहार में यह 10% से कम है।"
-  },
-  {
     "id": "S02b",
     "title": "Multidimensional Poverty Index MPI",
     "file": "S02b_Multidimensional_Poverty_Index_MPI.png",
@@ -1319,7 +1108,8 @@
       "economy"
     ],
     "title_hi": "जनसंख्या में आयकर दाताओं का %",
-    "takeaway_hi": "बिहार की केवल 2-3% जनसंख्या आयकर भरती है, जबकि दिल्ली और गोवा में 15%+।"
+    "takeaway_hi": "बिहार की केवल 2-3% जनसंख्या आयकर भरती है, जबकि दिल्ली और गोवा में 15%+।",
+    "data_note": "Not refreshed. The source named on the map (RBI/MoSPI) could not be traced, and the Income Tax Department's state tables for later assessment years could not be read here. Returns are counted by filing state and many carry no tax, so filers are not taxpayers."
   },
   {
     "id": "S02e",
@@ -1337,25 +1127,8 @@
       "social protection"
     ],
     "title_hi": "मनरेगा — प्रति परिवार औसत कार्य दिवस",
-    "takeaway_hi": "तमिलनाडु प्रति परिवार 50+ दिन मनरेगा कार्य देता है; बिहार 30 से कम देता है।"
-  },
-  {
-    "id": "S02f",
-    "title": "Night-time Light Radiance Economic Activity P",
-    "file": "S02f_Night-time_Light_Radiance_Economic_Activity_P.png",
-    "section": "economy",
-    "source": "NASA VIIRS",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap.",
-    "policy": "Night-light data is a bias-free proxy for economic activity, useful where GDP estimates are contested.",
-    "tags": [
-      "night light",
-      "satellite",
-      "economic activity"
-    ],
-    "title_hi": "रात्रिकालीन प्रकाश तीव्रता — आर्थिक गतिविधि",
-    "takeaway_hi": "मुंबई में रात्रिकालीन प्रकाश तीव्रता ग्रामीण बिहार की तुलना में 100 गुना है — उपग्रह आँकड़े विकास के अंतर की पुष्टि करते हैं।"
+    "takeaway_hi": "तमिलनाडु प्रति परिवार 50+ दिन मनरेगा कार्य देता है; बिहार 30 से कम देता है।",
+    "data_note": "Not refreshed. MGNREGA was replaced by VB-G RAM G from 1 July 2026, and the scheme's MIS for 2025-26 omits Kerala and Maharashtra and could not be read here. The map shows the year it was published for."
   },
   {
     "id": "S02g",
@@ -1394,24 +1167,6 @@
     "title_hi": "प्रति न्यायाधीश लंबित मुकदमे",
     "takeaway_hi": "उत्तर प्रदेश में एक न्यायाधीश पर 3,000+ लंबित मामले हैं; सिक्किम में 500 से कम — बोझ तले न्याय व्यवस्था चरमरा जाती है।",
     "newer": "court_pending_per_judge"
-  },
-  {
-    "id": "S02i",
-    "title": "Bonded Labour Identified and Released cumulat",
-    "file": "S02i_Bonded_Labour_Identified_and_Released_cumulat.png",
-    "section": "economy",
-    "source": "MoLE",
-    "year": "2023",
-    "quality": "UNCERTAIN",
-    "takeaway": "Over 90% of identified bonded labourers have been found in just 5 states — the practice persists despite laws.",
-    "policy": "Bonded labour rehabilitation requires proactive identification; states that don't look, don't find.",
-    "tags": [
-      "bonded labour",
-      "exploitation",
-      "economy"
-    ],
-    "title_hi": "पहचाने और मुक्त कराए गए बंधुआ मज़दूर (संचयी)",
-    "takeaway_hi": "पहचाने गए 90% से अधिक बंधुआ मज़दूर केवल 5 राज्यों में मिले हैं — कानूनों के बावजूद यह प्रथा बनी हुई है।"
   },
   {
     "id": "S02j",
@@ -1467,7 +1222,8 @@
       "infrastructure"
     ],
     "title_hi": "नल कनेक्शन से पाइप जल वाले परिवार",
-    "takeaway_hi": "गोवा और हिमाचल प्रदेश में 90%+ पाइप जल है; झारखंड और असम में यह 20% से कम है।"
+    "takeaway_hi": "गोवा और हिमाचल प्रदेश में 90%+ पाइप जल है; झारखंड और असम में यह 20% से कम है।",
+    "data_note": "Not refreshed. The Jal Jeevan Mission dashboard is live and changes daily, and its state table for a fixed date could not be read here. Household totals for Uttar Pradesh and Andhra Pradesh were revised, which changes percentages."
   },
   {
     "id": "S02m",
@@ -1485,7 +1241,8 @@
       "infrastructure"
     ],
     "title_hi": "औसत दैनिक बिजली आपूर्ति — ग्रामीण घंटे",
-    "takeaway_hi": "ग्रामीण पंजाब को रोज़ाना 20+ घंटे बिजली मिलती है; ग्रामीण बिहार को 12 से कम।"
+    "takeaway_hi": "ग्रामीण पंजाब को रोज़ाना 20+ घंटे बिजली मिलती है; ग्रामीण बिहार को 12 से कम।",
+    "data_note": "Not refreshed. Ministry of Power replies carry state hours of supply for 2023-24 and later, but the state tables could not be read here, and the 2025-26 state figures appear only in a press report."
   },
   {
     "id": "S02n",
@@ -1505,24 +1262,6 @@
     "title_hi": "प्रति लाख जनसंख्या बैंक शाखाएँ",
     "takeaway_hi": "कर्नाटक में प्रति लाख 16+ बैंक शाखाएँ हैं; पूर्वोत्तर राज्यों में 8 से कम।",
     "newer": "X284"
-  },
-  {
-    "id": "S02o",
-    "title": "Post Offices per Lakh Population",
-    "file": "S02o_Post_Offices_per_Lakh_Population.png",
-    "section": "economy",
-    "source": "RBI/DoP",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "India's post office network is denser than its bank network, especially in rural areas — a legacy asset.",
-    "policy": "Post offices can deliver last-mile financial services, pensions, and insurance where banks won't open branches.",
-    "tags": [
-      "post offices",
-      "infrastructure",
-      "economy"
-    ],
-    "title_hi": "प्रति लाख जनसंख्या डाकघर",
-    "takeaway_hi": "भारत का डाकघर नेटवर्क उसके बैंक नेटवर्क से सघन है, विशेषकर ग्रामीण इलाकों में — एक विरासती संपत्ति।"
   },
   {
     "id": "S02p",
@@ -1656,24 +1395,6 @@
     "title_hi": "मातृ मृत्यु अनुपात",
     "takeaway_hi": "असम का MMR प्रति 100,000 जीवित जन्मों पर 215 है; केरल का 19 है — मातृ मृत्यु के जोखिम में 11 गुना अंतर।",
     "newer": "X280"
-  },
-  {
-    "id": "S03g",
-    "title": "Annual Mean PM2.5 Concentration",
-    "file": "S03g_Annual_Mean_PM2.5_Concentration.png",
-    "section": "health",
-    "source": "CPCB",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Delhi's PM2.5 averages 100+ µg/m³ — 20x the WHO guideline; southern states are 3-4x lower.",
-    "policy": "Air pollution kills more Indians than tobacco; the health burden is concentrated in the Indo-Gangetic plain.",
-    "tags": [
-      "air quality",
-      "PM2.5",
-      "pollution"
-    ],
-    "title_hi": "वार्षिक औसत PM2.5 सांद्रता",
-    "takeaway_hi": "दिल्ली का PM2.5 औसतन 100+ µg/m³ है — WHO दिशानिर्देश से 20 गुना; दक्षिणी राज्य 3-4 गुना कम हैं।"
   },
   {
     "id": "S03h",
@@ -2226,24 +1947,6 @@
     "data_note": "This map draws on NFHS-5 and a second source recorded as NCRB. NFHS-6 does not repeat the survey measure, so the combined figure has not been rebuilt and remains as made in 2019-22."
   },
   {
-    "id": "S04p",
-    "title": "Female Domestic Workers as % of All Workers",
-    "file": "S04p_Female_Domestic_Workers_as_pct_of_All_Workers.png",
-    "section": "gender",
-    "source": "PLFS",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Female domestic workers are concentrated in metros and southern states — an invisible workforce.",
-    "policy": "Domestic workers lack minimum wage protection, social security, and safe working conditions in most states.",
-    "tags": [
-      "domestic workers",
-      "informal labour",
-      "gender"
-    ],
-    "title_hi": "सभी श्रमिकों में महिला घरेलू कामगार %",
-    "takeaway_hi": "महिला घरेलू कामगार महानगरों और दक्षिणी राज्यों में केंद्रित हैं — एक अदृश्य कार्यबल।"
-  },
-  {
     "id": "S05a",
     "title": "SC + ST Population Share",
     "file": "S05a_SC_+_ST_Population_Share.png",
@@ -2261,24 +1964,6 @@
     "title_hi": "अनुसूचित जाति + जनजाति आबादी का हिस्सा",
     "takeaway_hi": "मिज़ोरम और मेघालय में अनुसूचित जाति/जनजाति की आबादी 50% से अधिक है; गोवा और दिल्ली में 10% से कम।",
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
-  },
-  {
-    "id": "S05b",
-    "title": "SC Households Owning Agricultural Land",
-    "file": "S05b_SC_Households_Owning_Agricultural_Land.png",
-    "section": "caste",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "In Punjab, over 30% of SC households own agricultural land; in Bihar, under 5%.",
-    "policy": "Land ownership is the strongest predictor of Dalit economic mobility — landless SC families stay trapped.",
-    "tags": [
-      "SC land",
-      "agriculture",
-      "caste"
-    ],
-    "title_hi": "कृषि भूमि वाले अनुसूचित जाति परिवार",
-    "takeaway_hi": "पंजाब में 30% से अधिक अनुसूचित जाति परिवारों के पास कृषि भूमि है; बिहार में 5% से कम।"
   },
   {
     "id": "S05c",
@@ -2335,42 +2020,6 @@
     "title_hi": "प्रति लाख अनुसूचित जाति आबादी पर अपराध",
     "takeaway_hi": "राजस्थान और उत्तर प्रदेश में अनुसूचित जातियों के खिलाफ सबसे अधिक अपराध दर्ज होते हैं — पर अधिक रिपोर्टिंग बेहतर पुलिस पहुँच का संकेत भी हो सकती है।",
     "newer": "ncrb_sc_crimes"
-  },
-  {
-    "id": "S05f",
-    "title": "Manual Scavenging States Where It Persists",
-    "file": "S05f_Manual_Scavenging_States_Where_It_Persists.png",
-    "section": "caste",
-    "source": "NSKFDC/MoSJE",
-    "year": "2023",
-    "quality": "UNCERTAIN",
-    "takeaway": "Manual scavenging persists in UP, MP, Rajasthan, and Maharashtra despite being illegal since 1993.",
-    "policy": "Three laws ban manual scavenging, but without sewer network investment and mechanisation, the practice continues.",
-    "tags": [
-      "manual scavenging",
-      "sanitation",
-      "caste"
-    ],
-    "title_hi": "हाथ से मैला ढोना (जिन राज्यों में बरकरार है)",
-    "takeaway_hi": "1993 से अवैध होने के बावजूद उत्तर प्रदेश, मध्य प्रदेश, राजस्थान और महाराष्ट्र में हाथ से मैला ढोना अब भी बरकरार है।"
-  },
-  {
-    "id": "S05g",
-    "title": "SC Representation in IAS vs Population Share",
-    "file": "S05g_SC_Representation_in_IAS_vs_Population_Share.png",
-    "section": "caste",
-    "source": "DoPT",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "SC representation in IAS is 15% against a 16.6% population share — close, but promotion gaps widen at senior levels.",
-    "policy": "Entry-level representation has improved; the ceiling is at joint secretary and above, where SC officers are underrepresented.",
-    "tags": [
-      "IAS representation",
-      "bureaucracy",
-      "caste"
-    ],
-    "title_hi": "आईएएस में अनुसूचित जाति प्रतिनिधित्व बनाम आबादी हिस्सा",
-    "takeaway_hi": "आईएएस में अनुसूचित जाति का प्रतिनिधित्व 16.6% आबादी हिस्से के मुकाबले 15% है — करीब, पर वरिष्ठ स्तरों पर पदोन्नति का अंतर बढ़ जाता है।"
   },
   {
     "id": "S05h",
@@ -2447,24 +2096,6 @@
     "title_hi": "ईसाई आबादी हिस्सा",
     "takeaway_hi": "ईसाई नागालैंड की आबादी का 87% हैं पर राष्ट्रीय स्तर पर केवल 2.3% — अत्यधिक भौगोलिक केंद्रीकरण।",
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
-  },
-  {
-    "id": "S06c",
-    "title": "Muslim Multidimensional Poverty Rate",
-    "file": "S06c_Muslim_Multidimensional_Poverty_Rate.png",
-    "section": "religion",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "Muslim multidimensional poverty rates exceed 50% in UP and Bihar vs under 15% in Kerala.",
-    "policy": "Muslim poverty varies more between states than between communities — state-level development matters more than community identity.",
-    "tags": [
-      "Muslim poverty",
-      "MPI",
-      "religion"
-    ],
-    "title_hi": "मुस्लिम बहुआयामी गरीबी दर",
-    "takeaway_hi": "मुस्लिम बहुआयामी गरीबी दर उत्तर प्रदेश और बिहार में 50% से अधिक है, जबकि केरल में 15% से कम।"
   },
   {
     "id": "S06d",
@@ -2561,42 +2192,6 @@
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
-    "id": "S06i",
-    "title": "People Who Say Religion Is Very Important in ",
-    "file": "S06i_People_Who_Say_Religion_Is_Very_Important_in_.png",
-    "section": "religion",
-    "source": "Pew Research",
-    "year": "2021",
-    "quality": "NEW",
-    "takeaway": "90%+ of Indians say religion is 'very important' in their lives — but the figure varies 20+ points between states.",
-    "policy": "High religiosity states prioritise temple/mosque construction; lower-religiosity states invest more in secular public goods.",
-    "tags": [
-      "religiosity",
-      "importance",
-      "religion"
-    ],
-    "title_hi": "धर्म को जीवन में बहुत महत्वपूर्ण मानने वाले लोग",
-    "takeaway_hi": "90%+ भारतीय कहते हैं कि धर्म उनके जीवन में 'बहुत महत्वपूर्ण' है — पर यह आंकड़ा राज्यों के बीच 20+ अंक भिन्न होता है।"
-  },
-  {
-    "id": "S06j",
-    "title": "Hindu Denominational Diversity Vaishnavism vs",
-    "file": "S06j_Hindu_Denominational_Diversity_Vaishnavism_vs.png",
-    "section": "religion",
-    "source": "Dharmaviki/IIT-B",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Hindu denominational diversity (Vaishnavism vs Shaivism vs other) varies sharply — South is more Shaiva, North more Vaishnava.",
-    "policy": "Denominational diversity within Hinduism is invisible in policy but drives food culture, festival calendars, and temple economics.",
-    "tags": [
-      "Hindu denominations",
-      "Vaishnavism",
-      "Shaivism"
-    ],
-    "title_hi": "हिंदू संप्रदाय विविधता वैष्णव बनाम शैव",
-    "takeaway_hi": "हिंदू संप्रदाय विविधता (वैष्णव बनाम शैव बनाम अन्य) तेजी से भिन्न होती है — दक्षिण अधिक शैव, उत्तर अधिक वैष्णव है।"
-  },
-  {
     "id": "S07a",
     "title": "ASER Class 5 Children Who Cannot Read Class 2",
     "file": "S07a_ASER_Class_5_Children_Who_Cannot_Read_Class_2.png",
@@ -2673,24 +2268,6 @@
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {
-    "id": "S07e",
-    "title": "Teacher Vacancy Rate in Government Schools",
-    "file": "S07e_Teacher_Vacancy_Rate_in_Government_Schools.png",
-    "section": "education",
-    "source": "ASER/UDISE+",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Teacher vacancy rates in government schools exceed 40% in UP and Bihar — classrooms without teachers.",
-    "policy": "Teacher vacancies are concentrated where they hurt most; vacant positions in poor states widen the learning gap.",
-    "tags": [
-      "teacher vacancy",
-      "schools",
-      "education"
-    ],
-    "title_hi": "सरकारी स्कूलों में शिक्षक रिक्ति दर",
-    "takeaway_hi": "उत्तर प्रदेश और बिहार में सरकारी स्कूलों में शिक्षक रिक्ति दर 40% से अधिक है — बिना शिक्षकों की कक्षाएँ।"
-  },
-  {
     "id": "S07f",
     "title": "Private School Enrolment Share Classes 1-12",
     "file": "S07f_Private_School_Enrolment_Share_Classes_1-12.png",
@@ -2708,24 +2285,6 @@
     "title_hi": "निजी स्कूल नामांकन हिस्सा (कक्षा 1-12)",
     "takeaway_hi": "राजस्थान और उत्तर प्रदेश में 50%+ नामांकित छात्र निजी स्कूलों में हैं; पूर्वोत्तर में 15% से कम।",
     "newer": "udise_private_share"
-  },
-  {
-    "id": "S07g",
-    "title": "Internet Used for Information or Knowledge",
-    "file": "S07g_Internet_Used_for_Information_or_Knowledge.png",
-    "section": "education",
-    "source": "Multiple Sources",
-    "year": "Various",
-    "quality": "NEW",
-    "takeaway": "Internet used for information/knowledge varies 3x between Delhi and Bihar.",
-    "policy": "Digital learning access during COVID was highly unequal — the digital divide is an education divide.",
-    "tags": [
-      "internet",
-      "digital learning",
-      "education"
-    ],
-    "title_hi": "जानकारी/ज्ञान के लिए इंटरनेट का उपयोग",
-    "takeaway_hi": "जानकारी/ज्ञान के लिए इंटरनेट का उपयोग दिल्ली और बिहार के बीच 3 गुना भिन्न है।"
   },
   {
     "id": "S07h",
@@ -2766,24 +2325,6 @@
     "newer": "X277"
   },
   {
-    "id": "S07j",
-    "title": "Mid-Day Meal Coverage vs Enrolment",
-    "file": "S07j_Mid-Day_Meal_Coverage_vs_Enrolment.png",
-    "section": "education",
-    "source": "ASER/UDISE+",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Mid-day meal coverage vs enrolment shows leakage in several states — meals allocated but not reaching children.",
-    "policy": "The mid-day meal scheme is India's largest nutrition programme; leakage means both wasted funds and hungry children.",
-    "tags": [
-      "mid-day meal",
-      "nutrition",
-      "education"
-    ],
-    "title_hi": "मध्याह्न भोजन कवरेज बनाम नामांकन",
-    "takeaway_hi": "मध्याह्न भोजन कवरेज बनाम नामांकन कई राज्यों में रिसाव दिखाता है — भोजन आवंटित पर बच्चों तक नहीं पहुँचता।"
-  },
-  {
     "id": "S07k",
     "title": "Disability Prevalence",
     "file": "S07k_Disability_Prevalence.png",
@@ -2818,7 +2359,8 @@
       "environment"
     ],
     "title_hi": "वार्षिक वर्षा",
-    "takeaway_hi": "मेघालय में 11,000+ मिमी वार्षिक वर्षा होती है; राजस्थान में 400 से कम — 28 गुना का अंतर।"
+    "takeaway_hi": "मेघालय में 11,000+ मिमी वार्षिक वर्षा होती है; राजस्थान में 400 से कम — 28 गुना का अंतर।",
+    "newer": "X292"
   },
   {
     "id": "S08b",
@@ -2838,42 +2380,6 @@
     "title_hi": "शुद्ध सिंचित क्षेत्र (शुद्ध बोए गए क्षेत्र का %)",
     "takeaway_hi": "पंजाब अपने शुद्ध बोए गए क्षेत्र का 98% सिंचित करता है; झारखंड 10% से कम।",
     "newer": "X283"
-  },
-  {
-    "id": "S08c",
-    "title": "Mean June Temperature",
-    "file": "S08c_Mean_June_Temperature.png",
-    "section": "environment",
-    "source": "IMD",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Mean June temperature in Rajasthan and Vidarbha exceeds 40°C; in the NE, it's under 25°C.",
-    "policy": "Heat stress reduces labour productivity by 15-20% — outdoor workers in hot states lose both income and health.",
-    "tags": [
-      "temperature",
-      "heat",
-      "climate"
-    ],
-    "title_hi": "औसत जून तापमान",
-    "takeaway_hi": "राजस्थान और विदर्भ में औसत जून तापमान 40°C से अधिक होता है; पूर्वोत्तर में यह 25°C से कम है।"
-  },
-  {
-    "id": "S08d",
-    "title": "Extreme Heat Days Above 40C per Year",
-    "file": "S08d_Extreme_Heat_Days_Above_40C_per_Year.png",
-    "section": "environment",
-    "source": "IMD",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Parts of Rajasthan and Andhra Pradesh experience 40+ days above 40°C annually — and rising.",
-    "policy": "Extreme heat is India's most underestimated climate risk; heatwave action plans exist in only a few cities.",
-    "tags": [
-      "extreme heat",
-      "heatwave",
-      "climate"
-    ],
-    "title_hi": "प्रति वर्ष 40°C से ऊपर के अत्यधिक गर्मी वाले दिन",
-    "takeaway_hi": "राजस्थान और आंध्र प्रदेश के कुछ हिस्सों में हर साल 40°C से ऊपर 40+ दिन होते हैं — और यह बढ़ रहा है।"
   },
   {
     "id": "S08e",
@@ -2947,7 +2453,8 @@
       "environment"
     ],
     "title_hi": "प्रति व्यक्ति नगरपालिका ठोस अपशिष्ट",
-    "takeaway_hi": "दिल्ली ग्रामीण भारत की तुलना में प्रति व्यक्ति 3 गुना नगरपालिका ठोस अपशिष्ट पैदा करती है — शहरी उपभोग कचरे को बढ़ाता है।"
+    "takeaway_hi": "दिल्ली ग्रामीण भारत की तुलना में प्रति व्यक्ति 3 गुना नगरपालिका ठोस अपशिष्ट पैदा करती है — शहरी उपभोग कचरे को बढ़ाता है।",
+    "data_note": "Not refreshed. The CPCB annual report on solid waste management exists for 2022-23, but its state table could not be read here. Per-capita waste also needs an urban population that is a projection."
   },
   {
     "id": "S08i",
@@ -2984,25 +2491,7 @@
     ],
     "title_hi": "भूजल अति-दोहित ब्लॉक",
     "takeaway_hi": "पंजाब और हरियाणा में सबसे अधिक अति-दोहित भूजल ब्लॉक हैं — हरित क्रांति की छिपी हुई कीमत।",
-    "newer": "X285"
-  },
-  {
-    "id": "S08k",
-    "title": "PM Fasal Bima Crop Insurance Coverage",
-    "file": "S08k_PM_Fasal_Bima_Crop_Insurance_Coverage.png",
-    "section": "environment",
-    "source": "PMFBY",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Crop insurance (PMFBY) coverage varies 5x between states — farmer awareness and insurer presence matter.",
-    "policy": "Crop insurance is the primary climate adaptation tool for small farmers; uneven coverage leaves the most vulnerable exposed.",
-    "tags": [
-      "crop insurance",
-      "PMFBY",
-      "agriculture"
-    ],
-    "title_hi": "पीएम फसल बीमा कवरेज",
-    "takeaway_hi": "फसल बीमा (PMFBY) कवरेज राज्यों के बीच 5 गुना तक भिन्न है — किसान जागरूकता और बीमाकर्ता की मौजूदगी मायने रखती है।"
+    "newer": "X290"
   },
   {
     "id": "S08l",
@@ -3112,7 +2601,8 @@
       "democracy"
     ],
     "title_hi": "प्रति लाख आबादी पुलिस",
-    "takeaway_hi": "दिल्ली में प्रति लाख 250+ पुलिसकर्मी हैं; बिहार में 80 से भी कम — भारत में पुलिस वहीं सबसे कम है जहां अपराध सबसे घना है।"
+    "takeaway_hi": "दिल्ली में प्रति लाख 250+ पुलिसकर्मी हैं; बिहार में 80 से भी कम — भारत में पुलिस वहीं सबसे कम है जहां अपराध सबसे घना है।",
+    "data_note": "Not refreshed. The latest Bureau of Police Research and Development tables (1 January 2024) could not be reached, and the takeaway's figures (Delhi over 250, Bihar under 80 per lakh) could not be checked against a published table, so treat this map's figures as unverified."
   },
   {
     "id": "S09e",
@@ -3132,24 +2622,6 @@
     "title_hi": "इंटरनेट बंदी संचयी 2012-2024",
     "takeaway_hi": "2012 से अब तक की कुल इंटरनेट बंदी में अकेले जम्मू-कश्मीर का हिस्सा 60%+ है।",
     "data_note": "The SFLC.in tracker (internetshutdowns.in) answered 502 on 2026-10-20 and no primary state table was found, so this map keeps its earlier figures. SFLC recorded 848 shutdowns in India from 2012 to 2024. Human Rights Watch counted 418 of 690 shutdowns (61 per cent) in Jammu and Kashmir to 2022, and a Business Standard report puts Jammu and Kashmir at 50.8 per cent of shutdowns from 2016 to 2025, a different window and source. These count recorded events, not days of shutdown."
-  },
-  {
-    "id": "S09f",
-    "title": "RTI Applications per Lakh Population",
-    "file": "S09f_RTI_Applications_per_Lakh_Population.png",
-    "section": "democracy",
-    "source": "CIC",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Kerala and Maharashtra file the most RTI applications per capita; UP and Bihar file the fewest.",
-    "policy": "RTI usage maps civic awareness; states where citizens demand transparency tend to have better governance outcomes.",
-    "tags": [
-      "RTI",
-      "transparency",
-      "democracy"
-    ],
-    "title_hi": "प्रति लाख आबादी सूचना का अधिकार आवेदन",
-    "takeaway_hi": "केरल और महाराष्ट्र प्रति व्यक्ति सबसे अधिक सूचना का अधिकार आवेदन दायर करते हैं; उत्तर प्रदेश और बिहार सबसे कम।"
   },
   {
     "id": "S09g",
@@ -3187,24 +2659,6 @@
     ],
     "title_hi": "युवा 18-25 बनाम वृद्ध 65+ मतदान अंतर",
     "takeaway_hi": "कई राज्यों में वृद्ध मतदाता (65+) युवाओं (18-25) की तुलना में अधिक दर से मतदान करते हैं।"
-  },
-  {
-    "id": "S09i",
-    "title": "Old Age Pension Coverage % of Eligible",
-    "file": "S09i_Old_Age_Pension_Coverage_pct_of_Eligible.png",
-    "section": "democracy",
-    "source": "NSAP",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Old age pension coverage reaches 80%+ of eligible in some states but under 30% in others.",
-    "policy": "Pension coverage depends on state implementation capacity; central funding alone doesn't guarantee last-mile delivery.",
-    "tags": [
-      "old age pension",
-      "social security",
-      "democracy"
-    ],
-    "title_hi": "पात्र में से वृद्धावस्था पेंशन कवरेज %",
-    "takeaway_hi": "कुछ राज्यों में वृद्धावस्था पेंशन पात्र लोगों में से 80%+ तक पहुंचती है, पर कुछ में 30% से भी कम।"
   },
   {
     "id": "S09j",
@@ -3277,7 +2731,8 @@
       "economy"
     ],
     "title_hi": "प्रति लाख जनसंख्या MSME घनत्व",
-    "takeaway_hi": "तमिलनाडु और गुजरात में बिहार से 3 गुना MSME घनत्व है — लघु उद्यम भौगोलिक रूप से केंद्रित हैं।"
+    "takeaway_hi": "तमिलनाडु और गुजरात में बिहार से 3 गुना MSME घनत्व है — लघु उद्यम भौगोलिक रूप से केंद्रित हैं।",
+    "newer": "X293"
   },
   {
     "id": "S10b",
@@ -3426,25 +2881,8 @@
       "innovation"
     ],
     "title_hi": "प्रति लाख जनसंख्या DPIIT-मान्यता प्राप्त स्टार्टअप",
-    "takeaway_hi": "कर्नाटक में बिहार से 50 गुना स्टार्टअप घनत्व है — नवाचार तंत्र अत्यंत असमान हैं।"
-  },
-  {
-    "id": "S11a",
-    "title": "PM-JAY Hospital Admissions per Lakh Beneficia",
-    "file": "S11a_PM-JAY_Hospital_Admissions_per_Lakh_Beneficia.png",
-    "section": "social-protection",
-    "source": "NHA",
-    "year": "2021-22",
-    "quality": "NEW",
-    "takeaway": "PM-JAY utilisation per lakh beneficiaries varies 10x — having insurance ≠ being able to use it.",
-    "policy": "Supply-side gaps (hospitals, empanelled facilities) determine whether demand-side schemes reach people.",
-    "tags": [
-      "PM-JAY",
-      "health insurance",
-      "social protection"
-    ],
-    "title_hi": "प्रति लाख लाभार्थी PM-JAY अस्पताल भर्ती",
-    "takeaway_hi": "प्रति लाख लाभार्थी PM-JAY उपयोग में 10 गुना अंतर है — बीमा होना ≠ उसका उपयोग कर पाना।"
+    "takeaway_hi": "कर्नाटक में बिहार से 50 गुना स्टार्टअप घनत्व है — नवाचार तंत्र अत्यंत असमान हैं।",
+    "newer": "X288"
   },
   {
     "id": "S11b",
@@ -3462,25 +2900,8 @@
       "employment"
     ],
     "title_hi": "कुल व्यक्ति-दिवस में महिलाओं का % (मनरेगा)",
-    "takeaway_hi": "तमिलनाडु और केरल में महिलाएं मनरेगा के 60%+ व्यक्ति-दिवस बनाती हैं, पर उत्तर प्रदेश में 20% से कम।"
-  },
-  {
-    "id": "S11c",
-    "title": "PDS Ration Card Coverage vs Actual Offtake",
-    "file": "S11c_PDS_Ration_Card_Coverage_vs_Actual_Offtake.png",
-    "section": "social-protection",
-    "source": "DFPD",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "PDS coverage vs actual grain offtake shows leakage exceeding 40% in some states.",
-    "policy": "The gap between ration cards issued and grain actually distributed reveals both diversion and exclusion errors.",
-    "tags": [
-      "PDS",
-      "ration",
-      "food security"
-    ],
-    "title_hi": "PDS राशन कार्ड कवरेज बनाम वास्तविक उठाव",
-    "takeaway_hi": "PDS कवरेज बनाम वास्तविक अनाज उठाव कुछ राज्यों में 40% से अधिक की चोरी दर्शाता है।"
+    "takeaway_hi": "तमिलनाडु और केरल में महिलाएं मनरेगा के 60%+ व्यक्ति-दिवस बनाती हैं, पर उत्तर प्रदेश में 20% से कम।",
+    "data_note": "Not refreshed. MGNREGA was replaced by VB-G RAM G from 1 July 2026, and the scheme's MIS for 2025-26 omits Kerala and Maharashtra and could not be read here."
   },
   {
     "id": "S11d",
@@ -3498,7 +2919,8 @@
       "children"
     ],
     "title_hi": "प्रति 1000 बच्चे (0-6) आंगनवाड़ी केंद्र",
-    "takeaway_hi": "प्रति 1,000 बच्चों पर आंगनवाड़ी केंद्रों का घनत्व राज्यों के बीच 3 गुना भिन्न होता है।"
+    "takeaway_hi": "प्रति 1,000 बच्चों पर आंगनवाड़ी केंद्रों का घनत्व राज्यों के बीच 3 गुना भिन्न होता है।",
+    "data_note": "Not refreshed. Poshan Tracker counts of Anganwadi centres exist for 2025, but the only state denominator for children aged 0 to 6 is the 2011 Census or a projection, so a new ratio would mix years."
   },
   {
     "id": "S11e",
@@ -5310,5 +4732,119 @@
     ],
     "title_hi": "चावल और गन्ने का हिस्सा, 2024-25",
     "takeaway_hi": "2024-25 में भारत में चावल, गन्ना और मोटे अनाज के कुल क्षेत्र का 68.8 प्रतिशत चावल और गन्ने के अंतर्गत है, पिछले वर्ष 68.2 प्रतिशत था। पंजाब में यह 97.3 प्रतिशत है, यानी हर हेक्टेयर मोटे अनाज पर 36 हेक्टेयर चावल और गन्ना। हरियाणा में 73.3 प्रतिशत (2.7 के मुकाबले 1) है। सबसे कम राजस्थान (5.3), सिक्किम (16.8) और हिमाचल प्रदेश (19.8) हैं।"
+  },
+  {
+    "id": "X287",
+    "title": "Sex ratio at birth, SRS 2021-23",
+    "file": "X287_Sex_ratio_at_birth_SRS_2021-23.png",
+    "section": "gender",
+    "source": "ORGI SRS Statistical Report 2023",
+    "year": "2021-23",
+    "quality": "NEW",
+    "takeaway": "India's sex ratio at birth is 917 girls per 1,000 boys for 2021-23, up from 914 the year before and 904 in 2017-19. Chhattisgarh (974) and Kerala (971) are highest, and Uttarakhand (868), Delhi (872) and Haryana (884) lowest, against a typical biological ratio of roughly 952. Rajasthan rose from 879 to 919 between 2017-19 and 2021-23 and Gujarat from 870 to 900, while West Bengal fell from 944 to 931.",
+    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh. This replaces an older map that labelled the measure a proxy for sex-selective abortion.",
+    "tags": [
+      "sex ratio",
+      "SRS",
+      "gender",
+      "births"
+    ],
+    "title_hi": "जन्म के समय लिंगानुपात, SRS 2021-23",
+    "takeaway_hi": "2021-23 में भारत में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 917 लड़कियां है, पिछले वर्ष 914 और 2017-19 में 904 था। छत्तीसगढ़ (974) और केरल (971) सबसे ऊपर और उत्तराखंड (868), दिल्ली (872) और हरियाणा (884) सबसे नीचे हैं। राजस्थान 879 से 919 और गुजरात 870 से 900 हुआ, जबकि पश्चिम बंगाल 944 से 931 पर आ गया।"
+  },
+  {
+    "id": "X288",
+    "title": "DPIIT-recognised startups per lakh people, June 2026",
+    "file": "X288_DPIIT_startups_per_lakh_people_June_2026.png",
+    "section": "economy",
+    "source": "DPIIT via Lok Sabha Q.1446 (28 July 2026)",
+    "year": "30 June 2026",
+    "quality": "NEW",
+    "takeaway": "India had 2,40,092 DPIIT-recognised startups on 30 June 2026, or 17.1 per lakh people. Delhi has 102.1 per lakh, six times the national figure, followed by Chandigarh (59.2), Goa (54.2), Haryana (40.7), Telangana (35.6) and Karnataka (35.2). Sikkim (3.0), Meghalaya (3.1) and Bihar (4.3) have the fewest. In absolute numbers Maharashtra (41,440), Karnataka (24,026) and Uttar Pradesh (23,678) lead.",
+    "policy": "A startup is counted at its registered address, so Delhi's figure reflects where companies register and the National Capital Region's spread across Haryana and Uttar Pradesh. The map does not measure jobs, funding or survival, since recognition is voluntary and is not removed when a business stops trading. The population is NCRB's 2024 projection, a different year from the count. This replaces the earlier map, which used an October 2025 cut-off.",
+    "tags": [
+      "startups",
+      "DPIIT",
+      "enterprise",
+      "economy"
+    ],
+    "title_hi": "प्रति लाख लोगों पर DPIIT-मान्यता प्राप्त स्टार्टअप, जून 2026",
+    "takeaway_hi": "30 जून 2026 को भारत में DPIIT-मान्यता प्राप्त 2,40,092 स्टार्टअप थे, यानी प्रति लाख लोगों पर 17.1। दिल्ली में प्रति लाख 102.1 है, जो राष्ट्रीय आंकड़े का छह गुना है। इसके बाद चंडीगढ़ (59.2), गोवा (54.2), हरियाणा (40.7), तेलंगाना (35.6) और कर्नाटक (35.2) हैं। सिक्किम (3.0), मेघालय (3.1) और बिहार (4.3) में सबसे कम हैं।"
+  },
+  {
+    "id": "X289",
+    "title": "Mean age at effective marriage of females, SRS 2023",
+    "file": "X289_Mean_age_at_effective_marriage_of_females_SRS_2023.png",
+    "section": "gender",
+    "source": "ORGI SRS Statistical Report 2023",
+    "year": "2023",
+    "quality": "NEW",
+    "takeaway": "The mean age at effective marriage of women recorded in India in 2023 is 22.9 years. It is highest in Jammu and Kashmir (26.3 years, which includes Ladakh), Delhi (24.6), Punjab and Himachal Pradesh (24.5) and lowest in West Bengal (21.3), Jharkhand (21.5) and Bihar (21.6). Kerala is at 24.4 and Bihar at 21.6, a gap of 2.8 years. The earlier map put Bihar under 19.",
+    "policy": "This is the mean age at marriage among marriages recorded in the sample in 2023, so it is not the share of women married before 18, and a state with many very early marriages can still show a mean above 21. NFHS-6 reports women aged 20 to 24 married before 18, which is a better measure of child marriage and is mapped separately. Only the 22 larger states are published.",
+    "tags": [
+      "marriage",
+      "SRS",
+      "gender",
+      "child marriage"
+    ],
+    "title_hi": "महिलाओं की प्रभावी विवाह की औसत आयु, SRS 2023",
+    "takeaway_hi": "2023 में दर्ज विवाहों में महिलाओं की प्रभावी विवाह की औसत आयु भारत में 22.9 वर्ष है। यह जम्मू-कश्मीर (26.3, लद्दाख सहित), दिल्ली (24.6), पंजाब और हिमाचल प्रदेश (24.5) में सबसे अधिक और पश्चिम बंगाल (21.3), झारखंड (21.5) और बिहार (21.6) में सबसे कम है। केरल 24.4 और बिहार 21.6 पर हैं, यानी 2.8 वर्ष का अंतर।"
+  },
+  {
+    "id": "X290",
+    "title": "Over-exploited groundwater units, CGWB 2025",
+    "file": "X290_Over-exploited_groundwater_units_CGWB_2025.png",
+    "section": "environment",
+    "source": "CGWB National Compilation 2025",
+    "year": "2025",
+    "quality": "NEW",
+    "takeaway": "The Central Ground Water Board's 2025 assessment categorises 730 of 6,762 units (10.8 per cent) as over-exploited, down from 751 of 6,746 in 2024. Punjab has 111 of 153 units over-exploited (72.5 per cent), Rajasthan 213 of 302 (70.5), Haryana 91 of 143 (63.6), Tamil Nadu 103 of 313 (32.9), Delhi 10 of 34 (29.4) and Karnataka 45 of 237 (19.0). Twenty-one states and territories have none.",
+    "policy": "Over-exploited means yearly extraction exceeds yearly replenishable recharge. A unit is a block, taluk or mandal depending on the state, so units differ in size and a state with a handful of units can swing on one. A state average hides which parts of it are depleted, and the count says nothing about how much water is left. The stage of extraction for each state is on its own map.",
+    "tags": [
+      "groundwater",
+      "CGWB",
+      "water",
+      "environment"
+    ],
+    "title_hi": "अति-दोहित भूजल इकाइयां, CGWB 2025",
+    "takeaway_hi": "केंद्रीय भूजल बोर्ड के 2025 आकलन में 6,762 में से 730 इकाइयां (10.8 प्रतिशत) अति-दोहित हैं, 2024 में 6,746 में से 751 थीं। पंजाब में 153 में से 111 (72.5 प्रतिशत), राजस्थान में 302 में से 213 (70.5), हरियाणा में 143 में से 91 (63.6), तमिलनाडु में 313 में से 103 (32.9), दिल्ली में 34 में से 10 (29.4) और कर्नाटक में 237 में से 45 (19.0) इकाइयां अति-दोहित हैं।"
+  },
+  {
+    "id": "X292",
+    "title": "Annual rainfall by state, 2024",
+    "file": "X292_Annual_rainfall_by_state_2024.png",
+    "section": "environment",
+    "source": "IMD via CGWB National Compilation 2025",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "Goa received 4,907 mm of rain in 2024, the most of any state or territory, followed by Meghalaya (3,446 mm) and Dadra and Nagar Haveli and Daman and Diu (2,997 mm). Ladakh received 79 mm. Eighteen states and territories were below normal, among them Punjab (392 mm against a normal of 566) and Bihar (917 against 1,164), while Rajasthan (710 against 487) and Gujarat (1,114 against 748) were well above. The earlier map's 11,000 mm for Meghalaya cannot be a state average.",
+    "policy": "A state average hides the difference between wet and dry districts, and one calendar year is weather and not climate: the same year left Punjab 31 per cent under its normal and Rajasthan 46 per cent over. The figures are the Central Ground Water Board's tabulation of India Meteorological Department data for its groundwater assessment, so they follow the board's state list.",
+    "tags": [
+      "rainfall",
+      "IMD",
+      "water",
+      "climate"
+    ],
+    "title_hi": "राज्यवार वार्षिक वर्षा, 2024",
+    "takeaway_hi": "2024 में गोवा में 4,907 मिमी वर्षा हुई, जो किसी भी राज्य या केंद्रशासित प्रदेश में सबसे अधिक है। उसके बाद मेघालय (3,446) और दादरा-नगर हवेली और दमन-दीव (2,997) हैं। लद्दाख में 79 मिमी हुई। अठारह राज्य और केंद्रशासित प्रदेश सामान्य से कम रहे, जिनमें पंजाब (392 के मुकाबले सामान्य 566) और बिहार (917 के मुकाबले 1,164) हैं, जबकि राजस्थान (710 के मुकाबले 487) और गुजरात (1,114 के मुकाबले 748) काफी ऊपर रहे।"
+  },
+  {
+    "id": "X293",
+    "title": "Udyam MSME registrations per lakh people, to November 2025",
+    "file": "X293_Udyam_MSME_registrations_per_lakh_people_Nov_2025.png",
+    "section": "economy",
+    "source": "Ministry of MSME via Lok Sabha Q.755 (4 Dec 2025)",
+    "year": "to 30 Nov 2025",
+    "quality": "NEW",
+    "takeaway": "By 30 November 2025, 7.22 crore enterprises had registered on Udyam or Udyam Assist, 5,141 per lakh people. Telangana (9,236), Goa (7,734), Tamil Nadu (7,498), Maharashtra (7,385) and Tripura (6,936) have the most registrations per person, and Meghalaya (1,934), the Dadra and Nagar Haveli and Daman and Diu pair (2,395), Arunachal Pradesh (2,814), Bihar (2,994) and Nagaland (3,083) the fewest. Tamil Nadu has about two and a half times Bihar's rate.",
+    "policy": "This counts registrations at the registered address, not working firms. Registration is free and self-declared, and since January 2023 informal micro enterprises have been added through Udyam Assist, so registration drives move the figure sharply from year to year and it is not comparable with earlier counts. Tripura's high rate, for instance, rests on one year's large batch. A registration says nothing about employment or output.",
+    "tags": [
+      "MSME",
+      "Udyam",
+      "enterprise",
+      "economy"
+    ],
+    "title_hi": "प्रति लाख लोगों पर उद्यम MSME पंजीकरण, नवंबर 2025 तक",
+    "takeaway_hi": "30 नवंबर 2025 तक 7.22 करोड़ उद्यमों ने उद्यम या उद्यम असिस्ट पर पंजीकरण कराया, यानी प्रति लाख लोगों पर 5,141। प्रति व्यक्ति सबसे अधिक पंजीकरण तेलंगाना (9,236), गोवा (7,734), तमिलनाडु (7,498), महाराष्ट्र (7,385) और त्रिपुरा (6,936) में हैं और सबसे कम मेघालय (1,934), दादरा-नगर हवेली और दमन-दीव (2,395), अरुणाचल प्रदेश (2,814), बिहार (2,994) और नागालैंड (3,083) में।"
   }
 ]
