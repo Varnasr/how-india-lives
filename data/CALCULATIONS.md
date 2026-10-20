@@ -180,3 +180,11 @@ Ministry of Rural Development, Lok Sabha Unstarred Question 3687 of 11 August 20
 ## Rural power supply hours (`power_hours_rural`)
 
 Ministry of Power, Rajya Sabha Unstarred Question 3185 of 28 March 2023, Annexure I (`scripts/extract_power_hours.py`; the PDF is pinned): average hours of supply a day on 11 kV feeders as reported by utilities, 2018-19 to 2022-23 (to December 2022). The table leaves cells blank where a state reported nothing, so each number is placed in its column by the position of its right edge from the printed All India row, and five printed values are asserted. 2021-22 is mapped because it is the last full year and 20 states report a rural figure; the unweighted mean of those 20 is 20.49 against the printed all-India 20.53. S02m links here as its newer map.
+
+## Rural tap water supply (`jjm_tap_pct`)
+
+Ministry of Jal Shakti, Lok Sabha Starred Question 62 of 23 July 2026, annexure (Jal Jeevan Mission IMIS, as on 18 July 2026) (`scripts/extract_jjm_tap.py`; the PDF is pinned). The 34 rows add to the printed totals of 19,35.54 lakh rural households and 15,88.96 lakh with tap supply, and each printed per cent lies within the range its lakh figures give once rounding to 0.01 lakh is allowed for. The printed per cent is mapped. It counts connections the states report, not supply that runs or water that is safe. Delhi and Chandigarh have no rural population. S02l links here as its newer map.
+
+## Solid waste generated per person (`cpcb_waste_pc`)
+
+Ministry of Environment, Forest and Climate Change, Lok Sabha Unstarred Question 50 of 1 December 2025, annexure (State Pollution Control Board reports to CPCB for 2023-24) (`scripts/extract_cpcb_msw.py`; the PDF is pinned). The 36 rows add to the printed totals of 1,85,195 tonnes a day generated, 1,79,479 collected and 1,14,110 treated. Grams per person per day = tonnes a day x 1,000,000 / population (NCRB 2024 projection, 36 states and territories). The boards use different methods and some report urban waste only, so the spread reflects reporting as well as waste. S08h links here as its newer map.

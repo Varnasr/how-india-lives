@@ -254,4 +254,8 @@ Dropped because they cannot be built as defined: S02f (night-time light is a com
 
 **Built (4):** S11b as X294 (women's share of MGNREGA persondays, 2024-25), S02e as X295 (households completing 100 days, 2024-25; average days per household is published for India only), X179 as X296 (women SHGs per lakh people, 2026; groups and not members) and S02m as X297 (rural power hours, 2021-22). Sources were read from the Ministry of Rural Development's State Performance Report 2024-25, Lok Sabha Q.3687 and Rajya Sabha Q.3185.
 
-**Eight remain, each with its data note:** S02d, S02l, S08h, S09d, S11d, X175, X197, X199.
+**Also built (2):** S02l as X298 (rural tap water supply, JJM, July 2026) and S08h as X299 (solid waste per person, CPCB 2023-24).
+
+**Dropped (6), no state series found that could be read:** S02d (the tax statistics give no state table), S09d (BPR&D's state table is not on a host reachable here; mha.gov.in answers a bot page), S11d (no current state count of anganwadi centres; the 2023 Poshan Tracker release is older than the map), X175 (state fertiliser use needs a cropped-area denominator the sources do not give together), X197 (airport traffic would need an airport-to-state mapping built by hand) and X199 (PLFS publishes no attainment indicator).
+
+**Nothing remains waiting.**

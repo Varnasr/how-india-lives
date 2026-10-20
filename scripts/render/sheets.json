@@ -1939,5 +1939,48 @@
       "rural",
       "infrastructure"
     ]
+  },
+  {
+    "id": "X298",
+    "indicator": "jjm_tap_pct",
+    "section": "economy",
+    "file": "X298_Rural_households_with_tap_water_supply_July_2026.png",
+    "title": "Rural households with tap water supply, July 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: WATER",
+    "subtitle": "Share of rural households reported with tap water supply under Jal Jeevan Mission, as on 18 July 2026.\nIndia: 82.1 per cent, from 16.7 per cent in August 2019.",
+    "callout_note": "of rural households have tap water supply in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "By 18 July 2026 states reported tap water supply to 15.89 crore of 19.36 crore rural households, 82.1 per cent against 16.7 per cent when the Jal Jeevan Mission began in August 2019. Ten states and territories report 100 per cent, among them Telangana, Punjab, Haryana and Himachal Pradesh. Kerala (55.1), Jharkhand (55.4), West Bengal (56.8) and Rajasthan (59.1) are lowest, followed by Madhya Pradesh (74.9) and Andhra Pradesh (75.5).",
+    "policy": "This counts household connections reported by the states in the Mission's own system, not water that runs or water that is safe. The Ministry's functionality assessments are separate and not in this table. Kerala's low figure is as reported and the answer does not explain it. Delhi and Chandigarh have no rural population and are grey.",
+    "takeaway_hi": "18 जुलाई 2026 तक राज्यों ने 19.36 करोड़ ग्रामीण परिवारों में से 15.89 करोड़ में नल जल आपूर्ति बताई, यानी 82.1 प्रतिशत, जबकि अगस्त 2019 में जल जीवन मिशन की शुरुआत पर यह 16.7 प्रतिशत थी। दस राज्य और केंद्रशासित प्रदेश 100 प्रतिशत बताते हैं। केरल (55.1), झारखंड (55.4), पश्चिम बंगाल (56.8) और राजस्थान (59.1) सबसे नीचे हैं।",
+    "title_hi": "नल जल आपूर्ति वाले ग्रामीण परिवार, जुलाई 2026",
+    "tags": [
+      "Jal Jeevan Mission",
+      "tap water",
+      "drinking water",
+      "rural"
+    ]
+  },
+  {
+    "id": "X299",
+    "indicator": "cpcb_waste_pc",
+    "section": "environment",
+    "file": "X299_Solid_waste_generated_per_person_CPCB_2023-24.png",
+    "title": "Solid waste generated per person, 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ENVIRONMENT: WASTE",
+    "subtitle": "Solid waste reported by State Pollution Control Boards, grams per person per day, 2023-24.\nIndia: 132 grams (1,85,195 tonnes a day).",
+    "callout_note": "grams of solid waste generated per person per day in {state}",
+    "decimals": 0,
+    "takeaway": "State boards reported 1,85,195 tonnes of solid waste a day for 2023-24, about 132 grams for each person. Delhi (518 grams), Chandigarh (462), Puducherry (332), Haryana (315) and Telangana (306) report the most per person, and Assam (34), Ladakh (42), Bihar (46), Himachal Pradesh (48) and Meghalaya (53) the least. Of the waste generated, 61.6 per cent was reported as treated and 21.4 per cent as landfilled.",
+    "policy": "These are the boards' own reports. Some weigh waste at the gate and some estimate, some cover urban waste only, and the denominator here is the whole population, so a low figure for a mostly rural state may reflect what is counted and not how little waste people make. Assam's 34 grams is the lowest, and the answer does not say how the board arrived at it.",
+    "takeaway_hi": "राज्य बोर्डों ने 2023-24 के लिए प्रतिदिन 1,85,195 टन ठोस अपशिष्ट बताया, लगभग 132 ग्राम प्रति व्यक्ति। प्रति व्यक्ति सबसे अधिक दिल्ली (518 ग्राम), चंडीगढ़ (462), पुडुचेरी (332), हरियाणा (315) और तेलंगाना (306) बताते हैं, और सबसे कम असम (34), लद्दाख (42), बिहार (46), हिमाचल प्रदेश (48) और मेघालय (53)।",
+    "title_hi": "प्रति व्यक्ति ठोस अपशिष्ट, 2023-24",
+    "tags": [
+      "waste",
+      "CPCB",
+      "municipal solid waste",
+      "environment"
+    ]
   }
 ]

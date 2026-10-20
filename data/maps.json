@@ -132,25 +132,6 @@
     "takeaway_hi": "पंजाब में प्रति 1,000 हेक्टेयर 100+ ट्रैक्टर हैं; पूर्वी राज्यों में 10 से कम।"
   },
   {
-    "id": "X175",
-    "title": "Fertiliser Consumption per Hectare",
-    "file": "X175_Fertiliser_Consumption_per_Hectare.png",
-    "section": "environment",
-    "source": "CIC",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Punjab and Haryana apply 200+ kg fertiliser per hectare; NE states apply under 30.",
-    "policy": "Excess fertiliser use depletes soil health and pollutes water; under-use leaves yield potential on the table.",
-    "tags": [
-      "fertiliser",
-      "agriculture",
-      "environment"
-    ],
-    "title_hi": "प्रति हेक्टेयर उर्वरक खपत",
-    "takeaway_hi": "पंजाब और हरियाणा प्रति हेक्टेयर 200+ किग्रा उर्वरक डालते हैं; पूर्वोत्तर राज्य 30 से कम।",
-    "data_note": "Not refreshed. The source named on the map (CIC) cannot be right for fertiliser use. The RBI Handbook carries state consumption per hectare to 2021-22 only, and later state tables could not be found."
-  },
-  {
     "id": "X176",
     "title": "Crop Diversification Index",
     "file": "X176_Crop_Diversification_Index.png",
@@ -468,44 +449,6 @@
     ],
     "title_hi": "जनसंख्या में पासपोर्ट धारकों का %",
     "takeaway_hi": "केरल और गोवा में पासपोर्ट धारक जनसंख्या के 15% से अधिक हैं; बिहार में 2% से कम।"
-  },
-  {
-    "id": "X197",
-    "title": "Air Passengers per Lakh Population",
-    "file": "X197_Air_Passengers_per_Lakh_Population.png",
-    "section": "economy",
-    "source": "DGCA",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Air passengers per lakh population in Delhi/Goa is 50x that of Bihar.",
-    "policy": "Aviation is a marker of economic integration; states without air connectivity are locked out of business networks.",
-    "tags": [
-      "air travel",
-      "aviation",
-      "economy"
-    ],
-    "title_hi": "प्रति लाख जनसंख्या हवाई यात्री",
-    "takeaway_hi": "दिल्ली/गोवा में प्रति लाख जनसंख्या हवाई यात्री बिहार की तुलना में 50 गुना हैं।",
-    "data_note": "Not refreshed. Airports Authority of India traffic by airport exists for 2024-25, but passengers are counted where they board, so per-person state figures reward states with hub airports, and the files were not reached."
-  },
-  {
-    "id": "X199",
-    "title": "Degree Attainment Gap Urban vs Rural",
-    "file": "X199_Degree_Attainment_Gap_Urban_vs_Rural.png",
-    "section": "education",
-    "source": "PLFS",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "The urban-rural gap in degree attainment exceeds 30 points in Bihar; in Kerala it's under 10.",
-    "policy": "Education inequality within states (urban vs rural) can exceed inequality between states.",
-    "tags": [
-      "degree gap",
-      "urban rural",
-      "education"
-    ],
-    "title_hi": "शहरी-ग्रामीण डिग्री अंतर",
-    "takeaway_hi": "बिहार में डिग्री प्राप्ति का शहरी-ग्रामीण अंतर 30 अंक से अधिक है; केरल में 10 से कम।",
-    "data_note": "Not refreshed. The PLFS annual report for 2025 may carry state education tables by sector, but the full tables could not be read, and the MoSPI data service holds no education table for PLFS."
   },
   {
     "id": "X200",
@@ -1093,25 +1036,6 @@
     "newer": "plfs_no_contract"
   },
   {
-    "id": "S02d",
-    "title": "Income Tax Filers as % of Population",
-    "file": "S02d_Income_Tax_Filers_as_pct_of_Population.png",
-    "section": "economy",
-    "source": "RBI/MoSPI",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Only 2-3% of Bihar's population files income tax vs 15%+ in Delhi and Goa.",
-    "policy": "The tax base is concentrated in a handful of states; fiscal federalism must account for this structural asymmetry.",
-    "tags": [
-      "tax",
-      "income tax",
-      "economy"
-    ],
-    "title_hi": "जनसंख्या में आयकर दाताओं का %",
-    "takeaway_hi": "बिहार की केवल 2-3% जनसंख्या आयकर भरती है, जबकि दिल्ली और गोवा में 15%+।",
-    "data_note": "Not refreshed. The source named on the map (RBI/MoSPI) could not be traced, and the Income Tax Department's state tables for later assessment years could not be read here. Returns are counted by filing state and many carry no tax, so filers are not taxpayers."
-  },
-  {
     "id": "S02e",
     "title": "MGNREGA Average Days of Work per Household",
     "file": "S02e_MGNREGA_Average_Days_of_Work_per_Household.png",
@@ -1223,7 +1147,7 @@
     ],
     "title_hi": "नल कनेक्शन से पाइप जल वाले परिवार",
     "takeaway_hi": "गोवा और हिमाचल प्रदेश में 90%+ पाइप जल है; झारखंड और असम में यह 20% से कम है।",
-    "data_note": "Not refreshed. The Jal Jeevan Mission dashboard is live and changes daily, and its state table for a fixed date could not be read here. Household totals for Uttar Pradesh and Andhra Pradesh were revised, which changes percentages."
+    "newer": "X298"
   },
   {
     "id": "S02m",
@@ -2454,7 +2378,7 @@
     ],
     "title_hi": "प्रति व्यक्ति नगरपालिका ठोस अपशिष्ट",
     "takeaway_hi": "दिल्ली ग्रामीण भारत की तुलना में प्रति व्यक्ति 3 गुना नगरपालिका ठोस अपशिष्ट पैदा करती है — शहरी उपभोग कचरे को बढ़ाता है।",
-    "data_note": "Not refreshed. The CPCB annual report on solid waste management exists for 2022-23, but its state table could not be read here. Per-capita waste also needs an urban population that is a projection."
+    "newer": "X299"
   },
   {
     "id": "S08i",
@@ -2584,25 +2508,6 @@
     ],
     "title_hi": "आपराधिक मामलों वाले निर्वाचित सांसद",
     "takeaway_hi": "उत्तर प्रदेश और बिहार में 40%+ निर्वाचित सांसदों पर आपराधिक मामले हैं — जो भारत में सबसे अधिक है।"
-  },
-  {
-    "id": "S09d",
-    "title": "Police per Lakh Population",
-    "file": "S09d_Police_per_Lakh_Population.png",
-    "section": "democracy",
-    "source": "BPR&D",
-    "year": "2022",
-    "quality": "NEW",
-    "takeaway": "Delhi has 250+ police per lakh; Bihar has under 80 — India's police are thinnest where crime is densest.",
-    "policy": "Police understaffing means slower response, weaker investigation, and lower conviction rates — a justice deficit.",
-    "tags": [
-      "police",
-      "law enforcement",
-      "democracy"
-    ],
-    "title_hi": "प्रति लाख आबादी पुलिस",
-    "takeaway_hi": "दिल्ली में प्रति लाख 250+ पुलिसकर्मी हैं; बिहार में 80 से भी कम — भारत में पुलिस वहीं सबसे कम है जहां अपराध सबसे घना है।",
-    "data_note": "Not refreshed. The latest Bureau of Police Research and Development tables (1 January 2024) could not be reached, and the takeaway's figures (Delhi over 250, Bihar under 80 per lakh) could not be checked against a published table, so treat this map's figures as unverified."
   },
   {
     "id": "S09e",
@@ -2902,25 +2807,6 @@
     "title_hi": "कुल व्यक्ति-दिवस में महिलाओं का % (मनरेगा)",
     "takeaway_hi": "तमिलनाडु और केरल में महिलाएं मनरेगा के 60%+ व्यक्ति-दिवस बनाती हैं, पर उत्तर प्रदेश में 20% से कम।",
     "newer": "X294"
-  },
-  {
-    "id": "S11d",
-    "title": "Anganwadi Centres per 1000 Children 0-6",
-    "file": "S11d_Anganwadi_Centres_per_1000_Children_0-6.png",
-    "section": "social-protection",
-    "source": "MWCD",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Anganwadi centre density per 1,000 children varies 3x between states.",
-    "policy": "Anganwadis are India's primary early childhood system; density gaps translate directly into nutrition and cognitive gaps.",
-    "tags": [
-      "anganwadi",
-      "ICDS",
-      "children"
-    ],
-    "title_hi": "प्रति 1000 बच्चे (0-6) आंगनवाड़ी केंद्र",
-    "takeaway_hi": "प्रति 1,000 बच्चों पर आंगनवाड़ी केंद्रों का घनत्व राज्यों के बीच 3 गुना भिन्न होता है।",
-    "data_note": "Not refreshed. Poshan Tracker counts of Anganwadi centres exist for 2025, but the only state denominator for children aged 0 to 6 is the 2011 Census or a projection, so a new ratio would mix years."
   },
   {
     "id": "S11e",
@@ -4922,5 +4808,43 @@
     ],
     "title_hi": "ग्रामीण बिजली आपूर्ति, घंटे प्रतिदिन, 2021-22",
     "takeaway_hi": "2021-22 में ग्रामीण फीडरों पर रिपोर्ट करने वाली वितरण कंपनियों ने औसतन 20.5 घंटे प्रतिदिन बिजली दी। आंध्र प्रदेश (23.6 घंटे), गुजरात (23.5), पश्चिम बंगाल (23.5), ओडिशा (23.2) और महाराष्ट्र (23.2) लगभग चौबीसों घंटे पर रहे, और हिमाचल प्रदेश (13.3), उत्तर प्रदेश (16.0), हरियाणा (16.3) और कर्नाटक (17.6) सबसे नीचे। शहरी फीडरों पर औसत 23.8 घंटे था।"
+  },
+  {
+    "id": "X298",
+    "title": "Rural households with tap water supply, July 2026",
+    "file": "X298_Rural_households_with_tap_water_supply_July_2026.png",
+    "section": "economy",
+    "source": "Ministry of Jal Shakti via Lok Sabha Q.62 (23 Jul 2026)",
+    "year": "as on 18 Jul 2026",
+    "quality": "NEW",
+    "takeaway": "By 18 July 2026 states reported tap water supply to 15.89 crore of 19.36 crore rural households, 82.1 per cent against 16.7 per cent when the Jal Jeevan Mission began in August 2019. Ten states and territories report 100 per cent, among them Telangana, Punjab, Haryana and Himachal Pradesh. Kerala (55.1), Jharkhand (55.4), West Bengal (56.8) and Rajasthan (59.1) are lowest, followed by Madhya Pradesh (74.9) and Andhra Pradesh (75.5).",
+    "policy": "This counts household connections reported by the states in the Mission's own system, not water that runs or water that is safe. The Ministry's functionality assessments are separate and not in this table. Kerala's low figure is as reported and the answer does not explain it. Delhi and Chandigarh have no rural population and are grey.",
+    "tags": [
+      "Jal Jeevan Mission",
+      "tap water",
+      "drinking water",
+      "rural"
+    ],
+    "title_hi": "नल जल आपूर्ति वाले ग्रामीण परिवार, जुलाई 2026",
+    "takeaway_hi": "18 जुलाई 2026 तक राज्यों ने 19.36 करोड़ ग्रामीण परिवारों में से 15.89 करोड़ में नल जल आपूर्ति बताई, यानी 82.1 प्रतिशत, जबकि अगस्त 2019 में जल जीवन मिशन की शुरुआत पर यह 16.7 प्रतिशत थी। दस राज्य और केंद्रशासित प्रदेश 100 प्रतिशत बताते हैं। केरल (55.1), झारखंड (55.4), पश्चिम बंगाल (56.8) और राजस्थान (59.1) सबसे नीचे हैं।"
+  },
+  {
+    "id": "X299",
+    "title": "Solid waste generated per person, 2023-24",
+    "file": "X299_Solid_waste_generated_per_person_CPCB_2023-24.png",
+    "section": "environment",
+    "source": "MoEFCC (CPCB) via Lok Sabha Q.50 (1 Dec 2025)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "State boards reported 1,85,195 tonnes of solid waste a day for 2023-24, about 132 grams for each person. Delhi (518 grams), Chandigarh (462), Puducherry (332), Haryana (315) and Telangana (306) report the most per person, and Assam (34), Ladakh (42), Bihar (46), Himachal Pradesh (48) and Meghalaya (53) the least. Of the waste generated, 61.6 per cent was reported as treated and 21.4 per cent as landfilled.",
+    "policy": "These are the boards' own reports. Some weigh waste at the gate and some estimate, some cover urban waste only, and the denominator here is the whole population, so a low figure for a mostly rural state may reflect what is counted and not how little waste people make. Assam's 34 grams is the lowest, and the answer does not say how the board arrived at it.",
+    "tags": [
+      "waste",
+      "CPCB",
+      "municipal solid waste",
+      "environment"
+    ],
+    "title_hi": "प्रति व्यक्ति ठोस अपशिष्ट, 2023-24",
+    "takeaway_hi": "राज्य बोर्डों ने 2023-24 के लिए प्रतिदिन 1,85,195 टन ठोस अपशिष्ट बताया, लगभग 132 ग्राम प्रति व्यक्ति। प्रति व्यक्ति सबसे अधिक दिल्ली (518 ग्राम), चंडीगढ़ (462), पुडुचेरी (332), हरियाणा (315) और तेलंगाना (306) बताते हैं, और सबसे कम असम (34), लद्दाख (42), बिहार (46), हिमाचल प्रदेश (48) और मेघालय (53)।"
   }
 ]
