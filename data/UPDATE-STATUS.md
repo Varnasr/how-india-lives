@@ -201,3 +201,15 @@ Read all 77 generated sheets and ran axe (WCAG 2.1 AA) over the explorer, the ho
 - **Home page banner** still described the 25 NFHS-6 indicators; it now describes the 77 rebuilt maps.
 
 Not found: any serious or critical axe violation, any horizontal overflow, or any explorer error across all 90 indicators. Every number in the sheet text that does not come straight from the data (source counts, definitions, derived ratios) was spot checked against the files. `data/hindi-review.csv` lists the 424 Hindi strings written for the new sheets and indicators for a native reader, with columns for corrections.
+
+## Built from the RBI Handbook, 2026-10-20
+
+Firecrawl read the RBI Handbook of Statistics on Indian States 2024-25 tables (the files sit behind a bot challenge that blocks curl). About 20 credits for these three maps, at about one credit a page.
+
+| old map | new map | table |
+|---|---|---|
+| S08b | X283 | 54 and 56, net irrigated area over net sown area, 2023-24 provisional |
+| S02n | X284 | 152, offices of scheduled commercial banks, March 2025, per lakh people |
+| S08j | X285 | 107, stage of groundwater extraction, CGWB 2024 assessment (a different measure from over-exploited blocks) |
+
+The Handbook has 182 tables, so it is the cheapest route for several other maps on the waiting list; the crop-area maps (S08f, X176) use Tables 67 to 79.
