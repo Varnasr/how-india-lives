@@ -127,7 +127,9 @@
       "economy"
     ],
     "title_hi": "औसत मासिक प्रति व्यक्ति उपभोग व्यय",
-    "takeaway_hi": "दिल्ली में मासिक प्रति व्यक्ति उपभोग व्यय छत्तीसगढ़ की तुलना में 3 गुना है।"
+    "takeaway_hi": "दिल्ली में मासिक प्रति व्यक्ति उपभोग व्यय छत्तीसगढ़ की तुलना में 3 गुना है।",
+    "newer": "X206",
+    "data_note": "Superseded by the rural map (X206) and the urban map (X207): MoSPI publishes household spending 2023-24 for rural and urban India separately, with no combined state series, so this single map cannot be rebuilt. The figures here are for 2022-23."
   },
   {
     "id": "X173",
@@ -346,7 +348,8 @@
       "gender"
     ],
     "title_hi": "लिंग-चयनात्मक गर्भपात प्रॉक्सी, अप्राकृतिक लिंगानुपात",
-    "takeaway_hi": "जिन राज्यों में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 900 लड़कियों से कम है, वहाँ लिंग-चयनात्मक प्रथाओं के प्रमाण दिखते हैं।"
+    "takeaway_hi": "जिन राज्यों में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 900 लड़कियों से कम है, वहाँ लिंग-चयनात्मक प्रथाओं के प्रमाण दिखते हैं।",
+    "data_note": "The latest source is the SRS Statistical Report 2023, sex ratio at birth for 2021-23: India 917, highest Chhattisgarh (974) and Kerala (971), lowest Uttarakhand (868) and Haryana (871). The full state table (Statement 16, printed page 66) could not be read from this environment, so the map has not been rebuilt from it."
   },
   {
     "id": "X185",
@@ -3127,7 +3130,8 @@
       "democracy"
     ],
     "title_hi": "इंटरनेट बंदी संचयी 2012-2024",
-    "takeaway_hi": "2012 से अब तक की कुल इंटरनेट बंदी में अकेले जम्मू-कश्मीर का हिस्सा 60%+ है।"
+    "takeaway_hi": "2012 से अब तक की कुल इंटरनेट बंदी में अकेले जम्मू-कश्मीर का हिस्सा 60%+ है।",
+    "data_note": "The SFLC.in tracker (internetshutdowns.in) answered 502 on 2026-10-20 and no primary state table was found, so this map keeps its earlier figures. SFLC recorded 848 shutdowns in India from 2012 to 2024. Human Rights Watch counted 418 of 690 shutdowns (61 per cent) in Jammu and Kashmir to 2022, and a Business Standard report puts Jammu and Kashmir at 50.8 per cent of shutdowns from 2016 to 2025, a different window and source. These count recorded events, not days of shutdown."
   },
   {
     "id": "S09f",
