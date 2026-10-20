@@ -204,7 +204,7 @@
     ],
     "title_hi": "प्रति लाख महिलाओं पर महिला SHG सदस्यता",
     "takeaway_hi": "दक्षिणी राज्यों में महिला SHG सदस्यता प्रति लाख महिलाओं पर 10,000 से अधिक है; उत्तर में 2,000 से कम।",
-    "data_note": "Not refreshed. A national figure for 2026 is published (10.05 crore households in 92 lakh SHGs), but the state-wise membership table sits on the NRLM dashboard, which could not be reached."
+    "newer": "X296"
   },
   {
     "id": "X180",
@@ -1128,7 +1128,7 @@
     ],
     "title_hi": "मनरेगा — प्रति परिवार औसत कार्य दिवस",
     "takeaway_hi": "तमिलनाडु प्रति परिवार 50+ दिन मनरेगा कार्य देता है; बिहार 30 से कम देता है।",
-    "data_note": "Not refreshed. MGNREGA was replaced by VB-G RAM G from 1 July 2026, and the scheme's MIS for 2025-26 omits Kerala and Maharashtra and could not be read here. The map shows the year it was published for."
+    "newer": "X295"
   },
   {
     "id": "S02g",
@@ -1242,7 +1242,7 @@
     ],
     "title_hi": "औसत दैनिक बिजली आपूर्ति — ग्रामीण घंटे",
     "takeaway_hi": "ग्रामीण पंजाब को रोज़ाना 20+ घंटे बिजली मिलती है; ग्रामीण बिहार को 12 से कम।",
-    "data_note": "Not refreshed. Ministry of Power replies carry state hours of supply for 2023-24 and later, but the state tables could not be read here, and the 2025-26 state figures appear only in a press report."
+    "newer": "X297"
   },
   {
     "id": "S02n",
@@ -2901,7 +2901,7 @@
     ],
     "title_hi": "कुल व्यक्ति-दिवस में महिलाओं का % (मनरेगा)",
     "takeaway_hi": "तमिलनाडु और केरल में महिलाएं मनरेगा के 60%+ व्यक्ति-दिवस बनाती हैं, पर उत्तर प्रदेश में 20% से कम।",
-    "data_note": "Not refreshed. MGNREGA was replaced by VB-G RAM G from 1 July 2026, and the scheme's MIS for 2025-26 omits Kerala and Maharashtra and could not be read here."
+    "newer": "X294"
   },
   {
     "id": "S11d",
@@ -4846,5 +4846,81 @@
     ],
     "title_hi": "प्रति लाख लोगों पर उद्यम MSME पंजीकरण, नवंबर 2025 तक",
     "takeaway_hi": "30 नवंबर 2025 तक 7.22 करोड़ उद्यमों ने उद्यम या उद्यम असिस्ट पर पंजीकरण कराया, यानी प्रति लाख लोगों पर 5,141। प्रति व्यक्ति सबसे अधिक पंजीकरण तेलंगाना (9,236), गोवा (7,734), तमिलनाडु (7,498), महाराष्ट्र (7,385) और त्रिपुरा (6,936) में हैं और सबसे कम मेघालय (1,934), दादरा-नगर हवेली और दमन-दीव (2,395), अरुणाचल प्रदेश (2,814), बिहार (2,994) और नागालैंड (3,083) में।"
+  },
+  {
+    "id": "X294",
+    "title": "Women's share of MGNREGA persondays, 2024-25",
+    "file": "X294_Womens_share_of_MGNREGA_persondays_2024-25.png",
+    "section": "gender",
+    "source": "Ministry of Rural Development, State Performance Report 2024-25",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Women did 58 per cent of the persondays of work under MGNREGA in 2024-25. Kerala (89 per cent), Puducherry (88), Tamil Nadu (86), Goa (76) and Rajasthan (70) are highest, and Jammu and Kashmir (33), Uttar Pradesh (42), Madhya Pradesh (44) and Maharashtra (45) lowest. Jammu and Kashmir is the only state at the Act's one-third floor.",
+    "policy": "A high share can mean women have good access to the work, or that men have better-paid options elsewhere and leave the scheme to women, and the table cannot tell the two apart. West Bengal ran no MGNREGA work in 2024-25 because no Labour Budget was approved, and Lakshadweep recorded none, so both are grey. Shares are printed in whole per cent.",
+    "tags": [
+      "MGNREGA",
+      "women",
+      "employment",
+      "rural"
+    ],
+    "title_hi": "मनरेगा कार्य-दिवसों में महिलाओं का हिस्सा, 2024-25",
+    "takeaway_hi": "2024-25 में मनरेगा के कार्य-दिवसों में 58 प्रतिशत महिलाओं ने किए। सबसे अधिक हिस्सा केरल (89 प्रतिशत), पुडुचेरी (88), तमिलनाडु (86), गोवा (76) और राजस्थान (70) में है और सबसे कम जम्मू-कश्मीर (33), उत्तर प्रदेश (42), मध्य प्रदेश (44) और महाराष्ट्र (45) में। अधिनियम की एक-तिहाई की न्यूनतम सीमा पर केवल जम्मू-कश्मीर है।"
+  },
+  {
+    "id": "X295",
+    "title": "Households completing 100 days of MGNREGA work, 2024-25",
+    "file": "X295_Households_completing_100_days_of_MGNREGA_work_2024-25.png",
+    "section": "economy",
+    "source": "Ministry of Rural Development, State Performance Report 2024-25",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Across India 7 per cent of the households that worked under MGNREGA in 2024-25 completed the 100 days the Act guarantees. Mizoram (75 per cent) and Kerala (38) are far ahead, then Himachal Pradesh and Meghalaya (15 each), Maharashtra (14) and Chhattisgarh (13). Bihar, Assam, Haryana, Jammu and Kashmir and Karnataka are at 1 per cent, and Goa, Manipur, Nagaland, Puducherry and the two island and enclave territories at 0.",
+    "policy": "The Act guarantees up to 100 days to a rural household that asks for work, and the national average was 50.2 days per household that year, so completing 100 days is the top of the range and not a measure of whether the guarantee works. A low share can mean households stopped at fewer days by choice or because work was not given, and the report does not say which. Percentages are printed in whole numbers, so 0 means under half a per cent. West Bengal and Lakshadweep have no work recorded and are grey.",
+    "tags": [
+      "MGNREGA",
+      "employment",
+      "rural",
+      "100 days"
+    ],
+    "title_hi": "मनरेगा में 100 दिन का काम पूरा करने वाले परिवार, 2024-25",
+    "takeaway_hi": "2024-25 में मनरेगा में काम करने वाले परिवारों में से 7 प्रतिशत ने अधिनियम में गारंटीकृत 100 दिन पूरे किए। मिज़ोरम (75 प्रतिशत) और केरल (38) बहुत आगे हैं, फिर हिमाचल प्रदेश और मेघालय (15-15), महाराष्ट्र (14) और छत्तीसगढ़ (13)। बिहार, असम, हरियाणा, जम्मू-कश्मीर और कर्नाटक में 1 प्रतिशत है।"
+  },
+  {
+    "id": "X296",
+    "title": "Women self-help groups per lakh people, 2026",
+    "file": "X296_Women_self-help_groups_per_lakh_people_2026.png",
+    "section": "gender",
+    "source": "Ministry of Rural Development via Lok Sabha Q.3687 (11 Aug 2026)",
+    "year": "to Aug 2026",
+    "quality": "NEW",
+    "takeaway": "DAY-NRLM had set up 92.30 lakh women self-help groups by August 2026, 657 per lakh people. Andhra Pradesh (1,549), Meghalaya (1,414), Tripura (1,309), Odisha (1,182) and West Bengal (1,171) have the most per head, and Dadra and Nagar Haveli and Daman and Diu (131), Punjab (185), Haryana (205) and Goa (218) the fewest. The southern states are not all high: Karnataka has 437 and Tamil Nadu 452.",
+    "policy": "This counts groups and not members, and it is cumulative, so it includes groups that have since stopped meeting. The denominator is the whole population while the Mission works in rural areas, which pulls down heavily urban states and territories. Delhi and Chandigarh are outside the Mission and are grey. Membership by state, which the older map showed, is not in this table.",
+    "tags": [
+      "SHG",
+      "DAY-NRLM",
+      "women",
+      "livelihoods"
+    ],
+    "title_hi": "प्रति लाख लोगों पर महिला स्वयं सहायता समूह, 2026",
+    "takeaway_hi": "अगस्त 2026 तक DAY-NRLM ने 92.30 लाख महिला स्वयं सहायता समूह बनाए, यानी प्रति लाख लोगों पर 657। प्रति व्यक्ति सबसे अधिक आंध्र प्रदेश (1,549), मेघालय (1,414), त्रिपुरा (1,309), ओडिशा (1,182) और पश्चिम बंगाल (1,171) में हैं, और सबसे कम दादरा-नगर हवेली और दमन-दीव (131), पंजाब (185), हरियाणा (205) और गोवा (218) में।"
+  },
+  {
+    "id": "X297",
+    "title": "Rural power supply, hours a day, 2021-22",
+    "file": "X297_Rural_power_supply_hours_a_day_2021-22.png",
+    "section": "economy",
+    "source": "Ministry of Power via Rajya Sabha Q.3185 (28 Mar 2023)",
+    "year": "2021-22",
+    "quality": "NEW",
+    "takeaway": "On rural feeders the reporting utilities supplied power for 20.5 hours a day on average in 2021-22. Andhra Pradesh (23.6 hours), Gujarat (23.5), West Bengal (23.5), Odisha (23.2) and Maharashtra (23.2) were close to round the clock, and Himachal Pradesh (13.3), Uttar Pradesh (16.0), Haryana (16.3) and Karnataka (17.6) lowest. Urban feeders averaged 23.8 hours.",
+    "policy": "The hours are the distribution utilities' own reports to the National Power Portal for feeders and not a household measure, and only 20 states and Puducherry reported a rural figure for the year, so the other states are grey and not zero. Himachal Pradesh's fall from 15.8 hours in 2018-19 to 13.3 is as reported and the answer does not explain it. The latest year, 2022-23, runs only to December 2022 and is not used.",
+    "tags": [
+      "electricity",
+      "power",
+      "rural",
+      "infrastructure"
+    ],
+    "title_hi": "ग्रामीण बिजली आपूर्ति, घंटे प्रतिदिन, 2021-22",
+    "takeaway_hi": "2021-22 में ग्रामीण फीडरों पर रिपोर्ट करने वाली वितरण कंपनियों ने औसतन 20.5 घंटे प्रतिदिन बिजली दी। आंध्र प्रदेश (23.6 घंटे), गुजरात (23.5), पश्चिम बंगाल (23.5), ओडिशा (23.2) और महाराष्ट्र (23.2) लगभग चौबीसों घंटे पर रहे, और हिमाचल प्रदेश (13.3), उत्तर प्रदेश (16.0), हरियाणा (16.3) और कर्नाटक (17.6) सबसे नीचे। शहरी फीडरों पर औसत 23.8 घंटे था।"
   }
 ]

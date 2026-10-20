@@ -1,0 +1,254 @@
+{
+ "source": "Ministry of Rural Development, State Performance Report 2024-25, Annexures I to III",
+ "url": "https://www.dord.gov.in/static/uploads/2025/09/d81193f25cde78b36f36b559ffabbb18.pdf",
+ "sha256": "78b1d4527933ce3a74bdd241191c1b2b4c11813eabe65cdf31ee35132822c20f",
+ "retrieved": "2026-10-20",
+ "year": "2024-25",
+ "persondays_total": 2906505713,
+ "all_india": {
+  "hh_100_days_pct": 7,
+  "sc_pct": 19,
+  "st_pct": 18,
+  "women_pct": 58
+ },
+ "states": {
+  "Andhra Pradesh": {
+   "hh_100_days_pct": 11,
+   "sc_pct": 22,
+   "st_pct": 13,
+   "women_pct": 60,
+   "persondays": 242282712
+  },
+  "Arunachal Pradesh": {
+   "hh_100_days_pct": 6,
+   "sc_pct": 0,
+   "st_pct": 94,
+   "women_pct": 49,
+   "persondays": 20436990
+  },
+  "Assam": {
+   "hh_100_days_pct": 1,
+   "sc_pct": 6,
+   "st_pct": 23,
+   "women_pct": 54,
+   "persondays": 71177500
+  },
+  "Bihar": {
+   "hh_100_days_pct": 1,
+   "sc_pct": 20,
+   "st_pct": 2,
+   "women_pct": 55,
+   "persondays": 250399729
+  },
+  "Chhattisgarh": {
+   "hh_100_days_pct": 13,
+   "sc_pct": 9,
+   "st_pct": 34,
+   "women_pct": 53,
+   "persondays": 132358661
+  },
+  "Goa": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 2,
+   "st_pct": 40,
+   "women_pct": 76,
+   "persondays": 75588
+  },
+  "Gujarat": {
+   "hh_100_days_pct": 2,
+   "sc_pct": 5,
+   "st_pct": 44,
+   "women_pct": 47,
+   "persondays": 43138269
+  },
+  "Haryana": {
+   "hh_100_days_pct": 1,
+   "sc_pct": 50,
+   "st_pct": 0,
+   "women_pct": 63,
+   "persondays": 11792486
+  },
+  "Himachal Pradesh": {
+   "hh_100_days_pct": 15,
+   "sc_pct": 26,
+   "st_pct": 7,
+   "women_pct": 64,
+   "persondays": 39531164
+  },
+  "Jammu and Kashmir": {
+   "hh_100_days_pct": 1,
+   "sc_pct": 3,
+   "st_pct": 12,
+   "women_pct": 33,
+   "persondays": 40940543
+  },
+  "Jharkhand": {
+   "hh_100_days_pct": 4,
+   "sc_pct": 9,
+   "st_pct": 22,
+   "women_pct": 49,
+   "persondays": 100950899
+  },
+  "Karnataka": {
+   "hh_100_days_pct": 1,
+   "sc_pct": 18,
+   "st_pct": 12,
+   "women_pct": 53,
+   "persondays": 131339326
+  },
+  "Kerala": {
+   "hh_100_days_pct": 38,
+   "sc_pct": 18,
+   "st_pct": 8,
+   "women_pct": 89,
+   "persondays": 90753909
+  },
+  "Ladakh": {
+   "hh_100_days_pct": 3,
+   "sc_pct": 0,
+   "st_pct": 100,
+   "women_pct": 64,
+   "persondays": 2219391
+  },
+  "Madhya Pradesh": {
+   "hh_100_days_pct": 2,
+   "sc_pct": 13,
+   "st_pct": 34,
+   "women_pct": 44,
+   "persondays": 189756307
+  },
+  "Maharashtra": {
+   "hh_100_days_pct": 14,
+   "sc_pct": 6,
+   "st_pct": 16,
+   "women_pct": 45,
+   "persondays": 162178756
+  },
+  "Manipur": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 3,
+   "st_pct": 41,
+   "women_pct": 57,
+   "persondays": 24468273
+  },
+  "Meghalaya": {
+   "hh_100_days_pct": 15,
+   "sc_pct": 1,
+   "st_pct": 90,
+   "women_pct": 62,
+   "persondays": 32098921
+  },
+  "Mizoram": {
+   "hh_100_days_pct": 75,
+   "sc_pct": 0,
+   "st_pct": 99,
+   "women_pct": 50,
+   "persondays": 19774902
+  },
+  "Nagaland": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 0,
+   "st_pct": 99,
+   "women_pct": 48,
+   "persondays": 9381490
+  },
+  "Odisha": {
+   "hh_100_days_pct": 9,
+   "sc_pct": 14,
+   "st_pct": 39,
+   "women_pct": 48,
+   "persondays": 119322811
+  },
+  "Punjab": {
+   "hh_100_days_pct": 2,
+   "sc_pct": 72,
+   "st_pct": 0,
+   "women_pct": 69,
+   "persondays": 31401824
+  },
+  "Rajasthan": {
+   "hh_100_days_pct": 9,
+   "sc_pct": 21,
+   "st_pct": 24,
+   "women_pct": 70,
+   "persondays": 316617199
+  },
+  "Sikkim": {
+   "hh_100_days_pct": 7,
+   "sc_pct": 5,
+   "st_pct": 38,
+   "women_pct": 55,
+   "persondays": 3385109
+  },
+  "Tamil Nadu": {
+   "hh_100_days_pct": 2,
+   "sc_pct": 27,
+   "st_pct": 2,
+   "women_pct": 86,
+   "persondays": 306110833
+  },
+  "Telangana": {
+   "hh_100_days_pct": 3,
+   "sc_pct": 21,
+   "st_pct": 21,
+   "women_pct": 63,
+   "persondays": 122287155
+  },
+  "Tripura": {
+   "hh_100_days_pct": 10,
+   "sc_pct": 14,
+   "st_pct": 54,
+   "women_pct": 51,
+   "persondays": 35337221
+  },
+  "Uttar Pradesh": {
+   "hh_100_days_pct": 10,
+   "sc_pct": 29,
+   "st_pct": 1,
+   "women_pct": 42,
+   "persondays": 336523394
+  },
+  "Uttarakhand": {
+   "hh_100_days_pct": 6,
+   "sc_pct": 16,
+   "st_pct": 6,
+   "women_pct": 56,
+   "persondays": 19000432
+  },
+  "West Bengal": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 0,
+   "st_pct": 0,
+   "women_pct": 0,
+   "persondays": 0
+  },
+  "Andaman and Nicobar": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 0,
+   "st_pct": 7,
+   "women_pct": 60,
+   "persondays": 87681
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 0,
+   "st_pct": 97,
+   "women_pct": 50,
+   "persondays": 298564
+  },
+  "Lakshadweep": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 0,
+   "st_pct": 0,
+   "women_pct": 0,
+   "persondays": 0
+  },
+  "Puducherry": {
+   "hh_100_days_pct": 0,
+   "sc_pct": 29,
+   "st_pct": 0,
+   "women_pct": 88,
+   "persondays": 1077674
+  }
+ }
+}

@@ -168,3 +168,15 @@ State-wise rainfall tables in the same CGWB compilation (pages 39 and 40), from 
 ## Udyam MSME registrations per lakh people (`udyam_per_lakh`)
 
 Ministry of MSME, Lok Sabha Unstarred Question 755 of 4 December 2025, Annexure I: registrations on the Udyam Registration Portal and the Udyam Assist Platform (informal micro enterprises) by state and financial year, 1 July 2020 to 30 November 2025 (`scripts/extract_udyam_msme.py`; the PDF is pinned). In each year the state rows add to the printed Total and the six years give 7,22,32,207 registrations. Registrations per lakh = total registrations / population (NCRB 2024 projection). It counts registrations at the registered address, includes informal enterprises added since January 2023, and moves with registration drives, so it is not comparable with the earlier Udyam map. S10a links here as its newer map.
+
+## MGNREGA women's share and households completing 100 days (`mgnrega_women_pct`, `mgnrega_100_days_pct`)
+
+Ministry of Rural Development, State Performance Report 2024-25, Annexures I to III (`scripts/extract_mgnrega_spr.py`; the PDF is pinned). The shares are printed in whole per cent and are mapped as printed. The persondays by state add to the printed total, 29,06,505,713, and the persondays-weighted mean of the state women's shares is 58.08 per cent against the 58.1 the report gives for India, which checks the Annexure II column against Annexure III. The 100-day share is of households that worked: 40,66,631 of 5.78 crore, or 7.0 per cent, the 7 printed for India. West Bengal (no Labour Budget approved) and Lakshadweep show 0 persondays and are left out of both maps, since a printed 0% there means no work and not no women. S11b and S02e link here as their newer maps; S02e showed average days per household, which this report gives only for India (50.21), so the new map shows the 100-day share instead.
+
+## Women self-help groups per lakh people (`nrlm_shg_per_lakh`)
+
+Ministry of Rural Development, Lok Sabha Unstarred Question 3687 of 11 August 2026, Annexure I (`scripts/extract_nrlm_shg.py`; the PDF is pinned): women SHGs set up under DAY-NRLM by state. The 34 rows add to the printed 92,30,743. Groups per lakh = groups / population (NCRB 2024 projection). It counts groups, not members, is cumulative, and divides by the whole population though the Mission works in rural areas. X179 linked here shows membership, which this table does not give.
+
+## Rural power supply hours (`power_hours_rural`)
+
+Ministry of Power, Rajya Sabha Unstarred Question 3185 of 28 March 2023, Annexure I (`scripts/extract_power_hours.py`; the PDF is pinned): average hours of supply a day on 11 kV feeders as reported by utilities, 2018-19 to 2022-23 (to December 2022). The table leaves cells blank where a state reported nothing, so each number is placed in its column by the position of its right edge from the printed All India row, and five printed values are asserted. 2021-22 is mapped because it is the last full year and 20 states report a rural figure; the unweighted mean of those 20 is 20.49 against the printed all-India 20.53. S02m links here as its newer map.
