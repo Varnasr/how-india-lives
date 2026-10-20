@@ -249,3 +249,13 @@ Rice and sugarcane share of rice, sugarcane and coarse-cereal area, 2024-25, fro
 Dropped because they cannot be built as defined: S02f (night-time light is a computed raster aggregate, not a published series), S04p (needs unit-level PLFS microdata that this work does not hold), S08k (PMFBY publishes cumulative applications, with no farmer denominator) and S02o (India Post reports by circle, and circles are not states).
 
 **Twelve maps remain, each kept with a note, each buildable if its source can be reached:** S02d (income tax filers), S02e and S11b (MGNREGA, now VB-G RAM G), S02l (Jal Jeevan Mission tap water), S02m (rural hours of power), S08h (municipal solid waste), S09d (police per lakh), S11d (Anganwadi centres), X175 (fertiliser per hectare), X179 (women's SHG membership), X197 (air passengers) and X199 (degree attainment gap). Plus 28 vintage-labelled maps that wait for new releases.
+
+## Round three (20 October 2026)
+
+**Built (4):** S11b as X294 (women's share of MGNREGA persondays, 2024-25), S02e as X295 (households completing 100 days, 2024-25; average days per household is published for India only), X179 as X296 (women SHGs per lakh people, 2026; groups and not members) and S02m as X297 (rural power hours, 2021-22). Sources were read from the Ministry of Rural Development's State Performance Report 2024-25, Lok Sabha Q.3687 and Rajya Sabha Q.3185.
+
+**Also built (2):** S02l as X298 (rural tap water supply, JJM, July 2026) and S08h as X299 (solid waste per person, CPCB 2023-24).
+
+**Dropped (6), no state series found that could be read:** S02d (the tax statistics give no state table), S09d (BPR&D's state table is not on a host reachable here; mha.gov.in answers a bot page), S11d (no current state count of anganwadi centres; the 2023 Poshan Tracker release is older than the map), X175 (state fertiliser use needs a cropped-area denominator the sources do not give together), X197 (airport traffic would need an airport-to-state mapping built by hand) and X199 (PLFS publishes no attainment indicator).
+
+**Nothing remains waiting.**

@@ -108,7 +108,7 @@ also sets `<html lang>` and fires an `im:langchange` event).
 
 Currently translated:
 - The navigation and the interactive tool's chrome (tabs, labels, headings).
-- **All 100 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
+- **All 106 interactive indicators** (`name_hi`, `desc_hi`, `unit_hi`).
 - **All 259 maps** — every map has `title_hi` + `takeaway_hi`, and every section
   title has a Hindi form. Numbers, ratios and state names are preserved.
 

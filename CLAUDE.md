@@ -196,6 +196,10 @@ X292 (CGWB 2025 over-exploited units and rainfall), X293 (Udyam registrations, L
 or, for a Lok Sabha table, checks the rows against the printed total. **Check `maps.json` for an existing `newer` link before
 building a map from the status list**: S03h had already been rebuilt as X264, and an extractor written without looking duplicated it.
 
+## Rural schemes and power (X294 to X297)
+
+`extract_mgnrega_spr.py` reads the Ministry of Rural Development's State Performance Report 2024-25 (dord.gov.in; curl reaches it) and checks the persondays to the printed total and the weighted women's share to the printed 58.1. `extract_nrlm_shg.py` reads Lok Sabha Q.3687 (a row wraps across two lines, and the total check covers it). `extract_power_hours.py` reads Rajya Sabha Q.3185, a table with blank cells, so numbers are placed by the right edge of their column and five printed values are asserted. West Bengal and Lakshadweep have no MGNREGA work recorded and are left out, because a printed 0% there is not a share. `extract_jjm_tap.py` (LS Starred Q.62) and `extract_cpcb_msw.py` (LS Q.50) give X298 and X299; the JJM table's lakh figures are rounded, so the printed per cent is checked against a rounding range, and the waste table's A&N row wraps and is read by order. mha.gov.in answers curl with a bot-check page, so Home Ministry replies need another route.
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and

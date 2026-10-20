@@ -184,4 +184,35 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/udyam_msme.csv'] = rows_to_csv(
         ['state'] + ['registered_' + y for y in ud['years']] + ['total', 'registrations_per_lakh (mapped)'],
         [[s] + v + [sum(v), r_ud[s]] for s, v in sorted(ud['states'].items())])
+    mg = load('data/mord/mgnrega-2024-25.json')
+    import build_mord_indicators as bm
+    w_mg, h_mg = bm.mgnrega(mg)
+    check_equal('mgnrega_women_pct', w_mg, by['mgnrega_women_pct']['values'])
+    check_equal('mgnrega_100_days_pct', h_mg, by['mgnrega_100_days_pct']['values'])
+    files['calculations/mgnrega_2024_25.csv'] = rows_to_csv(
+        ['state', 'persondays', 'women_pct (mapped)', 'households_100_days_pct (mapped)', 'sc_pct', 'st_pct'],
+        [[s, d['persondays'], d['women_pct'], d['hh_100_days_pct'], d['sc_pct'], d['st_pct']] for s, d in sorted(mg['states'].items()) if s in w_mg])
+    sh = load('data/mord/nrlm-shgs-2026.json')
+    r_sh, _ = bm.shg_rates(sh)
+    check_equal('nrlm_shg_per_lakh', r_sh, by['nrlm_shg_per_lakh']['values'])
+    files['calculations/nrlm_shgs.csv'] = rows_to_csv(
+        ['state', 'women_shgs', 'shgs_per_lakh_people (mapped)'], [[s, n, r_sh[s]] for s, n in sorted(sh['states'].items())])
+    pw = load('data/power/supply-hours-2022.json')
+    import build_power_hours_indicator as bp
+    check_equal('power_hours_rural', bp.hours(pw), by['power_hours_rural']['values'])
+    files['calculations/power_hours.csv'] = rows_to_csv(
+        ['state'] + ['rural_' + y for y in pw['states']['Bihar']] + ['urban_2021-22'],
+        [[s] + [d[y]['rural'] for y in d] + [d['2021-22']['urban']] for s, d in sorted(pw['states'].items())])
+    jj = load('data/jjm/tap-connections-2026-07.json')
+    import build_water_waste_indicators as bw
+    check_equal('jjm_tap_pct', bw.tap(jj), by['jjm_tap_pct']['values'])
+    files['calculations/jjm_tap.csv'] = rows_to_csv(
+        ['state', 'rural_households_lakh', 'households_with_tap_lakh', 'tap_pct (mapped, as printed)'],
+        [[s, d['rural_hh_lakh'], d['tap_hh_lakh'], d['tap_pct']] for s, d in sorted(jj['states'].items())])
+    ws = load('data/cpcb/solid-waste-2023-24.json')
+    w_pc, _ = bw.waste(ws)
+    check_equal('cpcb_waste_pc', w_pc, by['cpcb_waste_pc']['values'])
+    files['calculations/cpcb_waste.csv'] = rows_to_csv(
+        ['state', 'generated_tpd', 'collected_tpd', 'treated_tpd', 'grams_per_person_per_day (mapped)'],
+        [[s, d['generated'], d['collected'], d['treated'], w_pc[s]] for s, d in sorted(ws['states'].items())])
     return files

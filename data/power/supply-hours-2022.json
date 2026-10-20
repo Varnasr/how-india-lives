@@ -1,0 +1,669 @@
+{
+ "source": "Ministry of Power, Rajya Sabha Unstarred Question 3185 (28 March 2023), Annexure I",
+ "url": "https://sansad.in/getFile/annex/259/AU3185.pdf?source=pqars",
+ "sha256": "2e371ba6b8ed38c28b41a3cadc722f26d54112046f64f3af002077f8027e734d",
+ "retrieved": "2026-10-20",
+ "unit": "average hours of supply a day on 11 kV feeders",
+ "all_india": {
+  "2018-19": {
+   "rural": 20.7,
+   "urban": 23.8
+  },
+  "2019-20": {
+   "rural": 20.8,
+   "urban": 23.7
+  },
+  "2020-21": {
+   "rural": 20.45,
+   "urban": 23.76
+  },
+  "2021-22": {
+   "rural": 20.53,
+   "urban": 23.78
+  },
+  "2022-23 (to Dec)": {
+   "rural": 20.55,
+   "urban": 23.71
+  }
+ },
+ "states": {
+  "Andhra Pradesh": {
+   "2018-19": {
+    "rural": 22.12,
+    "urban": 23.97
+   },
+   "2019-20": {
+    "rural": 23.63,
+    "urban": 23.92
+   },
+   "2020-21": {
+    "rural": 23.57,
+    "urban": 23.93
+   },
+   "2021-22": {
+    "rural": 23.58,
+    "urban": 23.89
+   },
+   "2022-23 (to Dec)": {
+    "rural": 23.49,
+    "urban": 23.85
+   }
+  },
+  "Arunachal Pradesh": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 22.78
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 22.73
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Assam": {
+   "2018-19": {
+    "rural": null,
+    "urban": 23.73
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 23.8
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.32
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.67
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 23.65
+   }
+  },
+  "Bihar": {
+   "2018-19": {
+    "rural": 21.22,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 21.85,
+    "urban": 23.13
+   },
+   "2020-21": {
+    "rural": 21.9,
+    "urban": 23.41
+   },
+   "2021-22": {
+    "rural": 20.34,
+    "urban": 23.55
+   },
+   "2022-23 (to Dec)": {
+    "rural": 20.06,
+    "urban": 23.31
+   }
+  },
+  "Chhattisgarh": {
+   "2018-19": {
+    "rural": null,
+    "urban": 23.77
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 23.98
+   },
+   "2020-21": {
+    "rural": 21.33,
+    "urban": 23.87
+   },
+   "2021-22": {
+    "rural": 21.25,
+    "urban": 23.82
+   },
+   "2022-23 (to Dec)": {
+    "rural": 21.55,
+    "urban": 23.81
+   }
+  },
+  "Delhi": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": null
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 24.0
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 24.0
+   }
+  },
+  "Goa": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 22.75
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.75
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.78
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 23.82
+   }
+  },
+  "Gujarat": {
+   "2018-19": {
+    "rural": 23.78,
+    "urban": 23.95
+   },
+   "2019-20": {
+    "rural": 23.12,
+    "urban": 23.95
+   },
+   "2020-21": {
+    "rural": 23.56,
+    "urban": 23.96
+   },
+   "2021-22": {
+    "rural": 23.5,
+    "urban": 23.96
+   },
+   "2022-23 (to Dec)": {
+    "rural": 23.83,
+    "urban": 23.96
+   }
+  },
+  "Haryana": {
+   "2018-19": {
+    "rural": 19.62,
+    "urban": 23.28
+   },
+   "2019-20": {
+    "rural": 19.23,
+    "urban": 23.27
+   },
+   "2020-21": {
+    "rural": 17.12,
+    "urban": 23.62
+   },
+   "2021-22": {
+    "rural": 16.26,
+    "urban": 23.63
+   },
+   "2022-23 (to Dec)": {
+    "rural": 19.38,
+    "urban": 23.62
+   }
+  },
+  "Himachal Pradesh": {
+   "2018-19": {
+    "rural": 15.82,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 15.65,
+    "urban": 23.85
+   },
+   "2020-21": {
+    "rural": 14.27,
+    "urban": 23.87
+   },
+   "2021-22": {
+    "rural": 13.27,
+    "urban": 23.9
+   },
+   "2022-23 (to Dec)": {
+    "rural": 12.97,
+    "urban": null
+   }
+  },
+  "Jammu and Kashmir": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 21.54
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 22.28
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 22.33
+   }
+  },
+  "Karnataka": {
+   "2018-19": {
+    "rural": 17.63,
+    "urban": 23.93
+   },
+   "2019-20": {
+    "rural": 17.22,
+    "urban": 23.83
+   },
+   "2020-21": {
+    "rural": 17.55,
+    "urban": 23.75
+   },
+   "2021-22": {
+    "rural": 17.56,
+    "urban": 23.59
+   },
+   "2022-23 (to Dec)": {
+    "rural": 18.95,
+    "urban": 23.8
+   }
+  },
+  "Kerala": {
+   "2018-19": {
+    "rural": 21.22,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 21.97,
+    "urban": 23.98
+   },
+   "2020-21": {
+    "rural": 21.0,
+    "urban": 23.93
+   },
+   "2021-22": {
+    "rural": 19.62,
+    "urban": 23.93
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 23.94
+   }
+  },
+  "Madhya Pradesh": {
+   "2018-19": {
+    "rural": 23.33,
+    "urban": 23.7
+   },
+   "2019-20": {
+    "rural": 23.03,
+    "urban": 23.85
+   },
+   "2020-21": {
+    "rural": 19.62,
+    "urban": 23.94
+   },
+   "2021-22": {
+    "rural": 19.35,
+    "urban": 23.88
+   },
+   "2022-23 (to Dec)": {
+    "rural": 20.59,
+    "urban": 23.62
+   }
+  },
+  "Maharashtra": {
+   "2018-19": {
+    "rural": null,
+    "urban": 23.95
+   },
+   "2019-20": {
+    "rural": 20.45,
+    "urban": 23.97
+   },
+   "2020-21": {
+    "rural": 20.8,
+    "urban": 23.95
+   },
+   "2021-22": {
+    "rural": 23.17,
+    "urban": 23.99
+   },
+   "2022-23 (to Dec)": {
+    "rural": 23.85,
+    "urban": 23.99
+   }
+  },
+  "Meghalaya": {
+   "2018-19": {
+    "rural": null,
+    "urban": 23.95
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 23.98
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.9
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.93
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 23.91
+   }
+  },
+  "Manipur": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.55
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.65
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Mizoram": {
+   "2018-19": {
+    "rural": null,
+    "urban": 23.73
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 23.67
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.57
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.87
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Nagaland": {
+   "2018-19": {
+    "rural": null,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": null,
+    "urban": 23.5
+   },
+   "2020-21": {
+    "rural": null,
+    "urban": 23.48
+   },
+   "2021-22": {
+    "rural": null,
+    "urban": 23.45
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Odisha": {
+   "2018-19": {
+    "rural": 20.13,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 20.02,
+    "urban": 23.65
+   },
+   "2020-21": {
+    "rural": 21.03,
+    "urban": 23.67
+   },
+   "2021-22": {
+    "rural": 23.22,
+    "urban": 23.65
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Puducherry": {
+   "2018-19": {
+    "rural": 22.1,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 20.45,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": 20.3,
+    "urban": null
+   },
+   "2021-22": {
+    "rural": 20.3,
+    "urban": null
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Punjab": {
+   "2018-19": {
+    "rural": 23.27,
+    "urban": 23.78
+   },
+   "2019-20": {
+    "rural": 23.17,
+    "urban": 23.72
+   },
+   "2020-21": {
+    "rural": 21.33,
+    "urban": 23.5
+   },
+   "2021-22": {
+    "rural": 22.12,
+    "urban": 23.68
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": 23.67
+   }
+  },
+  "Rajasthan": {
+   "2018-19": {
+    "rural": 21.3,
+    "urban": 23.92
+   },
+   "2019-20": {
+    "rural": 21.3,
+    "urban": 23.88
+   },
+   "2020-21": {
+    "rural": 20.58,
+    "urban": 23.91
+   },
+   "2021-22": {
+    "rural": 21.29,
+    "urban": 23.89
+   },
+   "2022-23 (to Dec)": {
+    "rural": 21.53,
+    "urban": 23.86
+   }
+  },
+  "Tamil Nadu": {
+   "2018-19": {
+    "rural": 20.77,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 20.97,
+    "urban": 23.97
+   },
+   "2020-21": {
+    "rural": 21.95,
+    "urban": 23.98
+   },
+   "2021-22": {
+    "rural": 22.15,
+    "urban": 23.98
+   },
+   "2022-23 (to Dec)": {
+    "rural": null,
+    "urban": null
+   }
+  },
+  "Telangana": {
+   "2018-19": {
+    "rural": 22.05,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 22.22,
+    "urban": 23.92
+   },
+   "2020-21": {
+    "rural": 22.0,
+    "urban": 23.92
+   },
+   "2021-22": {
+    "rural": 21.94,
+    "urban": 23.93
+   },
+   "2022-23 (to Dec)": {
+    "rural": 21.72,
+    "urban": 23.87
+   }
+  },
+  "Tripura": {
+   "2018-19": {
+    "rural": 19.68,
+    "urban": null
+   },
+   "2019-20": {
+    "rural": 19.55,
+    "urban": null
+   },
+   "2020-21": {
+    "rural": 19.57,
+    "urban": 23.92
+   },
+   "2021-22": {
+    "rural": 19.93,
+    "urban": 23.9
+   },
+   "2022-23 (to Dec)": {
+    "rural": 19.66,
+    "urban": 23.88
+   }
+  },
+  "Uttar Pradesh": {
+   "2018-19": {
+    "rural": 19.1,
+    "urban": 23.15
+   },
+   "2019-20": {
+    "rural": 17.03,
+    "urban": 23.57
+   },
+   "2020-21": {
+    "rural": 16.28,
+    "urban": 23.47
+   },
+   "2021-22": {
+    "rural": 15.99,
+    "urban": 23.42
+   },
+   "2022-23 (to Dec)": {
+    "rural": 16.03,
+    "urban": 23.56
+   }
+  },
+  "Uttarakhand": {
+   "2018-19": {
+    "rural": 21.4,
+    "urban": 23.47
+   },
+   "2019-20": {
+    "rural": 21.67,
+    "urban": 23.4
+   },
+   "2020-21": {
+    "rural": 21.95,
+    "urban": 23.68
+   },
+   "2021-22": {
+    "rural": 21.57,
+    "urban": 23.62
+   },
+   "2022-23 (to Dec)": {
+    "rural": 21.39,
+    "urban": 23.57
+   }
+  },
+  "West Bengal": {
+   "2018-19": {
+    "rural": 18.18,
+    "urban": 23.97
+   },
+   "2019-20": {
+    "rural": 23.07,
+    "urban": 23.97
+   },
+   "2020-21": {
+    "rural": 22.97,
+    "urban": 23.77
+   },
+   "2021-22": {
+    "rural": 23.48,
+    "urban": 23.82
+   },
+   "2022-23 (to Dec)": {
+    "rural": 23.33,
+    "urban": 23.82
+   }
+  }
+ }
+}

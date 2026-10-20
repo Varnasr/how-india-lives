@@ -1,0 +1,195 @@
+{
+ "source": "Ministry of Environment, Forest and Climate Change, Lok Sabha Unstarred Question 50 (1 December 2025), Annexure (CPCB, 2023-24)",
+ "url": "https://sansad.in/getFile/loksabhaquestions/annex/186/AU50_IQkGYW.pdf?source=pqals",
+ "sha256": "1cad0928216b3879e201f305037f92e376341f8f61e7a02f3326aa54be9a9ed2",
+ "retrieved": "2026-10-20",
+ "year": "2023-24",
+ "unit": "tonnes a day",
+ "india": {
+  "generated": 185195,
+  "collected": 179479,
+  "treated": 114110
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "generated": 77.3,
+   "collected": 77.3,
+   "treated": 72.22
+  },
+  "Andhra Pradesh": {
+   "generated": 6890.0,
+   "collected": 6890.0,
+   "treated": 6890.0
+  },
+  "Arunachal Pradesh": {
+   "generated": 215.02,
+   "collected": 202.0,
+   "treated": 44.49
+  },
+  "Assam": {
+   "generated": 1224.0,
+   "collected": 1131.0,
+   "treated": 726.0
+  },
+  "Bihar": {
+   "generated": 5949.0,
+   "collected": 5949.0,
+   "treated": 1502.94
+  },
+  "Chandigarh": {
+   "generated": 578.0,
+   "collected": 578.0,
+   "treated": 130.0
+  },
+  "Chhattisgarh": {
+   "generated": 2455.0,
+   "collected": 2345.0,
+   "treated": 1904.0
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "generated": 269.02,
+   "collected": 269.02,
+   "treated": 216.49
+  },
+  "Delhi": {
+   "generated": 11342.0,
+   "collected": 11342.0,
+   "treated": 7542.0
+  },
+  "Goa": {
+   "generated": 193.9,
+   "collected": 193.9,
+   "treated": 187.9
+  },
+  "Gujarat": {
+   "generated": 12000.0,
+   "collected": 12000.0,
+   "treated": 7571.832
+  },
+  "Haryana": {
+   "generated": 9662.21,
+   "collected": 7248.72,
+   "treated": 4859.31
+  },
+  "Himachal Pradesh": {
+   "generated": 362.037,
+   "collected": 361.047,
+   "treated": 339.807
+  },
+  "Jammu and Kashmir": {
+   "generated": 1470.3,
+   "collected": 1468.3,
+   "treated": 283.5
+  },
+  "Jharkhand": {
+   "generated": 2258.0,
+   "collected": 2033.0,
+   "treated": 1349.0
+  },
+  "Karnataka": {
+   "generated": 12140.0,
+   "collected": 12123.0,
+   "treated": 7694.0
+  },
+  "Kerala": {
+   "generated": 3011.23,
+   "collected": 2595.225,
+   "treated": 2595.225
+  },
+  "Ladakh": {
+   "generated": 12.454,
+   "collected": 12.454,
+   "treated": 7.254
+  },
+  "Lakshadweep": {
+   "generated": 18.0,
+   "collected": 18.0,
+   "treated": 18.0
+  },
+  "Madhya Pradesh": {
+   "generated": 6853.5,
+   "collected": 6797.0,
+   "treated": 6526.0
+  },
+  "Maharashtra": {
+   "generated": 24299.43,
+   "collected": 23974.73,
+   "treated": 19877.12
+  },
+  "Manipur": {
+   "generated": 290.0,
+   "collected": 197.27,
+   "treated": 230.4
+  },
+  "Meghalaya": {
+   "generated": 179.12,
+   "collected": 150.5,
+   "treated": 65.0
+  },
+  "Mizoram": {
+   "generated": 248.99,
+   "collected": 129.5,
+   "treated": 102.83
+  },
+  "Nagaland": {
+   "generated": 303.865,
+   "collected": 260.028,
+   "treated": 121.62
+  },
+  "Odisha": {
+   "generated": 3622.788,
+   "collected": 3479.528,
+   "treated": 2809.258
+  },
+  "Puducherry": {
+   "generated": 564.0,
+   "collected": 564.0,
+   "treated": 564.0
+  },
+  "Punjab": {
+   "generated": 4860.04,
+   "collected": 4853.6,
+   "treated": 2110.74
+  },
+  "Rajasthan": {
+   "generated": 7909.385,
+   "collected": 7746.633,
+   "treated": 1747.72
+  },
+  "Sikkim": {
+   "generated": 69.68,
+   "collected": 69.68,
+   "treated": 36.57
+  },
+  "Tamil Nadu": {
+   "generated": 17843.455,
+   "collected": 17400.66,
+   "treated": 9213.436
+  },
+  "Telangana": {
+   "generated": 11714.0,
+   "collected": 11714.0,
+   "treated": 9440.0
+  },
+  "Tripura": {
+   "generated": 350.2,
+   "collected": 350.2,
+   "treated": 350.2
+  },
+  "Uttar Pradesh": {
+   "generated": 20114.0,
+   "collected": 20114.0,
+   "treated": 12675.0
+  },
+  "Uttarakhand": {
+   "generated": 1773.4,
+   "collected": 1723.78,
+   "treated": 1006.34
+  },
+  "West Bengal": {
+   "generated": 14072.04,
+   "collected": 13116.77,
+   "treated": 3300.0
+  }
+ }
+}

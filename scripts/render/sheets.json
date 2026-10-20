@@ -1853,5 +1853,134 @@
       "enterprise",
       "economy"
     ]
+  },
+  {
+    "id": "X294",
+    "indicator": "mgnrega_women_pct",
+    "section": "gender",
+    "file": "X294_Womens_share_of_MGNREGA_persondays_2024-25.png",
+    "title": "Women's share of MGNREGA persondays, 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: WORK",
+    "subtitle": "Per cent of persondays worked under MGNREGA that went to women, 2024-25, 32 states and territories.\nIndia: 58 per cent.",
+    "callout_note": "of MGNREGA persondays went to women in {state}",
+    "decimals": 0,
+    "suffix": "%",
+    "takeaway": "Women did 58 per cent of the persondays of work under MGNREGA in 2024-25. Kerala (89 per cent), Puducherry (88), Tamil Nadu (86), Goa (76) and Rajasthan (70) are highest, and Jammu and Kashmir (33), Uttar Pradesh (42), Madhya Pradesh (44) and Maharashtra (45) lowest. Jammu and Kashmir is the only state at the Act's one-third floor.",
+    "policy": "A high share can mean women have good access to the work, or that men have better-paid options elsewhere and leave the scheme to women, and the table cannot tell the two apart. West Bengal ran no MGNREGA work in 2024-25 because no Labour Budget was approved, and Lakshadweep recorded none, so both are grey. Shares are printed in whole per cent.",
+    "takeaway_hi": "2024-25 में मनरेगा के कार्य-दिवसों में 58 प्रतिशत महिलाओं ने किए। सबसे अधिक हिस्सा केरल (89 प्रतिशत), पुडुचेरी (88), तमिलनाडु (86), गोवा (76) और राजस्थान (70) में है और सबसे कम जम्मू-कश्मीर (33), उत्तर प्रदेश (42), मध्य प्रदेश (44) और महाराष्ट्र (45) में। अधिनियम की एक-तिहाई की न्यूनतम सीमा पर केवल जम्मू-कश्मीर है।",
+    "title_hi": "मनरेगा कार्य-दिवसों में महिलाओं का हिस्सा, 2024-25",
+    "tags": [
+      "MGNREGA",
+      "women",
+      "employment",
+      "rural"
+    ]
+  },
+  {
+    "id": "X295",
+    "indicator": "mgnrega_100_days_pct",
+    "section": "economy",
+    "file": "X295_Households_completing_100_days_of_MGNREGA_work_2024-25.png",
+    "title": "Households completing 100 days of MGNREGA work, 2024-25",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: RURAL WORK",
+    "subtitle": "Per cent of households that worked under MGNREGA who completed 100 days, 2024-25, 32 states and territories.\nIndia: 7 per cent (40,66,631 of 5.78 crore households).",
+    "callout_note": "of households that worked completed 100 days in {state}",
+    "decimals": 0,
+    "suffix": "%",
+    "takeaway": "Across India 7 per cent of the households that worked under MGNREGA in 2024-25 completed the 100 days the Act guarantees. Mizoram (75 per cent) and Kerala (38) are far ahead, then Himachal Pradesh and Meghalaya (15 each), Maharashtra (14) and Chhattisgarh (13). Bihar, Assam, Haryana, Jammu and Kashmir and Karnataka are at 1 per cent, and Goa, Manipur, Nagaland, Puducherry and the two island and enclave territories at 0.",
+    "policy": "The Act guarantees up to 100 days to a rural household that asks for work, and the national average was 50.2 days per household that year, so completing 100 days is the top of the range and not a measure of whether the guarantee works. A low share can mean households stopped at fewer days by choice or because work was not given, and the report does not say which. Percentages are printed in whole numbers, so 0 means under half a per cent. West Bengal and Lakshadweep have no work recorded and are grey.",
+    "takeaway_hi": "2024-25 में मनरेगा में काम करने वाले परिवारों में से 7 प्रतिशत ने अधिनियम में गारंटीकृत 100 दिन पूरे किए। मिज़ोरम (75 प्रतिशत) और केरल (38) बहुत आगे हैं, फिर हिमाचल प्रदेश और मेघालय (15-15), महाराष्ट्र (14) और छत्तीसगढ़ (13)। बिहार, असम, हरियाणा, जम्मू-कश्मीर और कर्नाटक में 1 प्रतिशत है।",
+    "title_hi": "मनरेगा में 100 दिन का काम पूरा करने वाले परिवार, 2024-25",
+    "tags": [
+      "MGNREGA",
+      "employment",
+      "rural",
+      "100 days"
+    ]
+  },
+  {
+    "id": "X296",
+    "indicator": "nrlm_shg_per_lakh",
+    "section": "gender",
+    "file": "X296_Women_self-help_groups_per_lakh_people_2026.png",
+    "title": "Women self-help groups per lakh people, 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: LIVELIHOODS",
+    "subtitle": "Women SHGs set up under DAY-NRLM since the Mission began, per lakh people.\nIndia: 657, from 92.30 lakh groups.",
+    "callout_note": "women SHGs per lakh people in {state}",
+    "decimals": 0,
+    "takeaway": "DAY-NRLM had set up 92.30 lakh women self-help groups by August 2026, 657 per lakh people. Andhra Pradesh (1,549), Meghalaya (1,414), Tripura (1,309), Odisha (1,182) and West Bengal (1,171) have the most per head, and Dadra and Nagar Haveli and Daman and Diu (131), Punjab (185), Haryana (205) and Goa (218) the fewest. The southern states are not all high: Karnataka has 437 and Tamil Nadu 452.",
+    "policy": "This counts groups and not members, and it is cumulative, so it includes groups that have since stopped meeting. The denominator is the whole population while the Mission works in rural areas, which pulls down heavily urban states and territories. Delhi and Chandigarh are outside the Mission and are grey. Membership by state, which the older map showed, is not in this table.",
+    "takeaway_hi": "अगस्त 2026 तक DAY-NRLM ने 92.30 लाख महिला स्वयं सहायता समूह बनाए, यानी प्रति लाख लोगों पर 657। प्रति व्यक्ति सबसे अधिक आंध्र प्रदेश (1,549), मेघालय (1,414), त्रिपुरा (1,309), ओडिशा (1,182) और पश्चिम बंगाल (1,171) में हैं, और सबसे कम दादरा-नगर हवेली और दमन-दीव (131), पंजाब (185), हरियाणा (205) और गोवा (218) में।",
+    "title_hi": "प्रति लाख लोगों पर महिला स्वयं सहायता समूह, 2026",
+    "tags": [
+      "SHG",
+      "DAY-NRLM",
+      "women",
+      "livelihoods"
+    ]
+  },
+  {
+    "id": "X297",
+    "indicator": "power_hours_rural",
+    "section": "economy",
+    "file": "X297_Rural_power_supply_hours_a_day_2021-22.png",
+    "title": "Rural power supply, hours a day, 2021-22",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: POWER",
+    "subtitle": "Average hours of supply a day on rural 11 kV feeders, 2021-22, 20 states and territories reporting.\nIndia: 20.5 hours.",
+    "callout_note": "hours a day of rural power supply in {state}",
+    "decimals": 1,
+    "takeaway": "On rural feeders the reporting utilities supplied power for 20.5 hours a day on average in 2021-22. Andhra Pradesh (23.6 hours), Gujarat (23.5), West Bengal (23.5), Odisha (23.2) and Maharashtra (23.2) were close to round the clock, and Himachal Pradesh (13.3), Uttar Pradesh (16.0), Haryana (16.3) and Karnataka (17.6) lowest. Urban feeders averaged 23.8 hours.",
+    "policy": "The hours are the distribution utilities' own reports to the National Power Portal for feeders and not a household measure, and only 20 states and Puducherry reported a rural figure for the year, so the other states are grey and not zero. Himachal Pradesh's fall from 15.8 hours in 2018-19 to 13.3 is as reported and the answer does not explain it. The latest year, 2022-23, runs only to December 2022 and is not used.",
+    "takeaway_hi": "2021-22 में ग्रामीण फीडरों पर रिपोर्ट करने वाली वितरण कंपनियों ने औसतन 20.5 घंटे प्रतिदिन बिजली दी। आंध्र प्रदेश (23.6 घंटे), गुजरात (23.5), पश्चिम बंगाल (23.5), ओडिशा (23.2) और महाराष्ट्र (23.2) लगभग चौबीसों घंटे पर रहे, और हिमाचल प्रदेश (13.3), उत्तर प्रदेश (16.0), हरियाणा (16.3) और कर्नाटक (17.6) सबसे नीचे। शहरी फीडरों पर औसत 23.8 घंटे था।",
+    "title_hi": "ग्रामीण बिजली आपूर्ति, घंटे प्रतिदिन, 2021-22",
+    "tags": [
+      "electricity",
+      "power",
+      "rural",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "X298",
+    "indicator": "jjm_tap_pct",
+    "section": "economy",
+    "file": "X298_Rural_households_with_tap_water_supply_July_2026.png",
+    "title": "Rural households with tap water supply, July 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: WATER",
+    "subtitle": "Share of rural households reported with tap water supply under Jal Jeevan Mission, as on 18 July 2026.\nIndia: 82.1 per cent, from 16.7 per cent in August 2019.",
+    "callout_note": "of rural households have tap water supply in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "By 18 July 2026 states reported tap water supply to 15.89 crore of 19.36 crore rural households, 82.1 per cent against 16.7 per cent when the Jal Jeevan Mission began in August 2019. Ten states and territories report 100 per cent, among them Telangana, Punjab, Haryana and Himachal Pradesh. Kerala (55.1), Jharkhand (55.4), West Bengal (56.8) and Rajasthan (59.1) are lowest, followed by Madhya Pradesh (74.9) and Andhra Pradesh (75.5).",
+    "policy": "This counts household connections reported by the states in the Mission's own system, not water that runs or water that is safe. The Ministry's functionality assessments are separate and not in this table. Kerala's low figure is as reported and the answer does not explain it. Delhi and Chandigarh have no rural population and are grey.",
+    "takeaway_hi": "18 जुलाई 2026 तक राज्यों ने 19.36 करोड़ ग्रामीण परिवारों में से 15.89 करोड़ में नल जल आपूर्ति बताई, यानी 82.1 प्रतिशत, जबकि अगस्त 2019 में जल जीवन मिशन की शुरुआत पर यह 16.7 प्रतिशत थी। दस राज्य और केंद्रशासित प्रदेश 100 प्रतिशत बताते हैं। केरल (55.1), झारखंड (55.4), पश्चिम बंगाल (56.8) और राजस्थान (59.1) सबसे नीचे हैं।",
+    "title_hi": "नल जल आपूर्ति वाले ग्रामीण परिवार, जुलाई 2026",
+    "tags": [
+      "Jal Jeevan Mission",
+      "tap water",
+      "drinking water",
+      "rural"
+    ]
+  },
+  {
+    "id": "X299",
+    "indicator": "cpcb_waste_pc",
+    "section": "environment",
+    "file": "X299_Solid_waste_generated_per_person_CPCB_2023-24.png",
+    "title": "Solid waste generated per person, 2023-24",
+    "eyebrow": "HOW INDIA LIVES  ·  ENVIRONMENT: WASTE",
+    "subtitle": "Solid waste reported by State Pollution Control Boards, grams per person per day, 2023-24.\nIndia: 132 grams (1,85,195 tonnes a day).",
+    "callout_note": "grams of solid waste generated per person per day in {state}",
+    "decimals": 0,
+    "takeaway": "State boards reported 1,85,195 tonnes of solid waste a day for 2023-24, about 132 grams for each person. Delhi (518 grams), Chandigarh (462), Puducherry (332), Haryana (315) and Telangana (306) report the most per person, and Assam (34), Ladakh (42), Bihar (46), Himachal Pradesh (48) and Meghalaya (53) the least. Of the waste generated, 61.6 per cent was reported as treated and 21.4 per cent as landfilled.",
+    "policy": "These are the boards' own reports. Some weigh waste at the gate and some estimate, some cover urban waste only, and the denominator here is the whole population, so a low figure for a mostly rural state may reflect what is counted and not how little waste people make. Assam's 34 grams is the lowest, and the answer does not say how the board arrived at it.",
+    "takeaway_hi": "राज्य बोर्डों ने 2023-24 के लिए प्रतिदिन 1,85,195 टन ठोस अपशिष्ट बताया, लगभग 132 ग्राम प्रति व्यक्ति। प्रति व्यक्ति सबसे अधिक दिल्ली (518 ग्राम), चंडीगढ़ (462), पुडुचेरी (332), हरियाणा (315) और तेलंगाना (306) बताते हैं, और सबसे कम असम (34), लद्दाख (42), बिहार (46), हिमाचल प्रदेश (48) और मेघालय (53)।",
+    "title_hi": "प्रति व्यक्ति ठोस अपशिष्ट, 2023-24",
+    "tags": [
+      "waste",
+      "CPCB",
+      "municipal solid waste",
+      "environment"
+    ]
   }
 ]

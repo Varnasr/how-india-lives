@@ -1,0 +1,184 @@
+{
+ "source": "Ministry of Jal Shakti, Lok Sabha Starred Question 62 (23 July 2026), Annexure",
+ "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AS62_QLiLqk.pdf?source=lsapps",
+ "sha256": "ad2d0cdc259533a8edacfc49731df845f05604c3d992a12c8de3e4ec6145931a",
+ "retrieved": "2026-10-20",
+ "as_on": "18 July 2026",
+ "india": {
+  "rural_hh_lakh": 1935.54,
+  "tap_hh_lakh": 1588.96,
+  "tap_pct": 82.09
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "rural_hh_lakh": 0.62,
+   "tap_hh_lakh": 0.62,
+   "tap_pct": 100.0
+  },
+  "Andhra Pradesh": {
+   "rural_hh_lakh": 95.53,
+   "tap_hh_lakh": 72.11,
+   "tap_pct": 75.48
+  },
+  "Arunachal Pradesh": {
+   "rural_hh_lakh": 2.29,
+   "tap_hh_lakh": 2.29,
+   "tap_pct": 100.0
+  },
+  "Assam": {
+   "rural_hh_lakh": 72.24,
+   "tap_hh_lakh": 59.11,
+   "tap_pct": 81.82
+  },
+  "Bihar": {
+   "rural_hh_lakh": 167.55,
+   "tap_hh_lakh": 160.36,
+   "tap_pct": 95.71
+  },
+  "Chhattisgarh": {
+   "rural_hh_lakh": 49.95,
+   "tap_hh_lakh": 41.76,
+   "tap_pct": 83.6
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "rural_hh_lakh": 0.85,
+   "tap_hh_lakh": 0.85,
+   "tap_pct": 100.0
+  },
+  "Goa": {
+   "rural_hh_lakh": 2.64,
+   "tap_hh_lakh": 2.64,
+   "tap_pct": 100.0
+  },
+  "Gujarat": {
+   "rural_hh_lakh": 91.19,
+   "tap_hh_lakh": 91.18,
+   "tap_pct": 99.99
+  },
+  "Haryana": {
+   "rural_hh_lakh": 30.41,
+   "tap_hh_lakh": 30.41,
+   "tap_pct": 100.0
+  },
+  "Himachal Pradesh": {
+   "rural_hh_lakh": 17.09,
+   "tap_hh_lakh": 17.09,
+   "tap_pct": 100.0
+  },
+  "Jammu and Kashmir": {
+   "rural_hh_lakh": 19.25,
+   "tap_hh_lakh": 15.64,
+   "tap_pct": 81.26
+  },
+  "Jharkhand": {
+   "rural_hh_lakh": 62.52,
+   "tap_hh_lakh": 34.66,
+   "tap_pct": 55.44
+  },
+  "Karnataka": {
+   "rural_hh_lakh": 101.24,
+   "tap_hh_lakh": 89.47,
+   "tap_pct": 88.37
+  },
+  "Kerala": {
+   "rural_hh_lakh": 70.76,
+   "tap_hh_lakh": 39.02,
+   "tap_pct": 55.14
+  },
+  "Ladakh": {
+   "rural_hh_lakh": 0.41,
+   "tap_hh_lakh": 0.4,
+   "tap_pct": 98.19
+  },
+  "Lakshadweep": {
+   "rural_hh_lakh": 0.13,
+   "tap_hh_lakh": 0.12,
+   "tap_pct": 91.45
+  },
+  "Madhya Pradesh": {
+   "rural_hh_lakh": 111.13,
+   "tap_hh_lakh": 83.27,
+   "tap_pct": 74.93
+  },
+  "Maharashtra": {
+   "rural_hh_lakh": 146.77,
+   "tap_hh_lakh": 132.92,
+   "tap_pct": 90.56
+  },
+  "Manipur": {
+   "rural_hh_lakh": 4.52,
+   "tap_hh_lakh": 3.6,
+   "tap_pct": 79.63
+  },
+  "Meghalaya": {
+   "rural_hh_lakh": 6.51,
+   "tap_hh_lakh": 5.47,
+   "tap_pct": 84.06
+  },
+  "Mizoram": {
+   "rural_hh_lakh": 1.33,
+   "tap_hh_lakh": 1.33,
+   "tap_pct": 100.0
+  },
+  "Nagaland": {
+   "rural_hh_lakh": 3.64,
+   "tap_hh_lakh": 3.48,
+   "tap_pct": 95.69
+  },
+  "Odisha": {
+   "rural_hh_lakh": 88.63,
+   "tap_hh_lakh": 68.66,
+   "tap_pct": 77.47
+  },
+  "Puducherry": {
+   "rural_hh_lakh": 1.15,
+   "tap_hh_lakh": 1.15,
+   "tap_pct": 100.0
+  },
+  "Punjab": {
+   "rural_hh_lakh": 34.27,
+   "tap_hh_lakh": 34.27,
+   "tap_pct": 100.0
+  },
+  "Rajasthan": {
+   "rural_hh_lakh": 107.66,
+   "tap_hh_lakh": 63.63,
+   "tap_pct": 59.1
+  },
+  "Sikkim": {
+   "rural_hh_lakh": 1.33,
+   "tap_hh_lakh": 1.22,
+   "tap_pct": 92.09
+  },
+  "Tamil Nadu": {
+   "rural_hh_lakh": 125.26,
+   "tap_hh_lakh": 112.64,
+   "tap_pct": 89.93
+  },
+  "Telangana": {
+   "rural_hh_lakh": 53.98,
+   "tap_hh_lakh": 53.98,
+   "tap_pct": 100.0
+  },
+  "Tripura": {
+   "rural_hh_lakh": 7.51,
+   "tap_hh_lakh": 6.49,
+   "tap_pct": 86.42
+  },
+  "Uttar Pradesh": {
+   "rural_hh_lakh": 267.2,
+   "tap_hh_lakh": 245.15,
+   "tap_pct": 91.75
+  },
+  "Uttarakhand": {
+   "rural_hh_lakh": 14.48,
+   "tap_hh_lakh": 14.2,
+   "tap_pct": 98.06
+  },
+  "West Bengal": {
+   "rural_hh_lakh": 175.51,
+   "tap_hh_lakh": 99.76,
+   "tap_pct": 56.84
+  }
+ }
+}
