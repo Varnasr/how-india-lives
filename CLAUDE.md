@@ -3,7 +3,7 @@
 Shared engineering standard: @.claude/engineering-standards.md. It applies to all work in this repository. This file adds what is specific to the project, and wins where the two disagree.
 
 State-level atlas of India: 205 static choropleths with takeaway and policy
-notes, plus a live interactive choropleth over 90 indicators. Static HTML, no
+notes, plus a live interactive choropleth over 93 indicators. Static HTML, no
 build step for the part that runs, served by Netlify (site `howindialives`,
 built from `main`) at howindialives.impactmojo.in. English and Hindi throughout.
 
@@ -22,11 +22,11 @@ produces no diff, which is what lets CI use it as a staleness gate.
 
 ## Two data files, two completely different jobs
 
-- **`data/maps.json`** is a catalogue of 282 PNGs. It carries no per-state
+- **`data/maps.json`** is a catalogue of 285 PNGs. It carries no per-state
   numbers at all, only metadata and prose. **205 of them were produced outside
   this repository**, from sources this repository does not hold, and cannot be
   regenerated here.
-- **`data/interactive-data.json`** is the numeric layer, 90 indicators keyed by
+- **`data/interactive-data.json`** is the numeric layer, 93 indicators keyed by
   state. `explore.html` renders it as a live SVG choropleth from
   `data/india-states.geojson`, with hover, keyboard navigation and a scatterplot.
 
@@ -183,6 +183,8 @@ each such map says so.
 
 `scripts/extract_srs_mmr.py` and `extract_srs_life_tables.py` hold SRS tables (maternal mortality 2022-24, 19 states; life expectancy 2019-23, 22 states) read from a text extraction because censusindia.gov.in's certificate chain is incomplete and the PDFs cannot be downloaded here; Firecrawl with `parsers: [pdf]` and `pdfOptions.maxPages` reads them. They are checked internally, not pinned by SHA-256. Builders: `build_srs_mmr_indicator.py` (X280, from S03f) and `build_srs_life_indicator.py` (X281, from S03s).
 
+`rbidocs.rbi.org.in` (the RBI Handbook of Statistics on Indian States, one PDF and XLSX per table) answers a bot challenge to curl, but Firecrawl reads the PDFs at about one credit a page. The Handbook's contents (`02CONTENTS...PDF`) lists 182 tables; `extract_rbi_irrigation.py`, `extract_rbi_bank_offices.py` and `extract_rbi_groundwater.py` transcribe Tables 54 and 56, 152 and 107, and the builders `build_rbi_*_indicator.py` make X283 to X285 (linked from S08b, S02n and S08j). Other Handbook tables are untapped: 138 (per capita power), 139 to 142, 148, 16 (doctors), 163 (RRB branches), 89 (fertiliser, 2021-22 only).
+
 ## CSV exports and the calculations behind the maps
 
 `scripts/export_csv.py` writes `data/csv/` (all indicators, one file per indicator, and
@@ -293,7 +295,7 @@ substitutes for each other, and this repository is the argument for that.
   never see it. A check pins that both data files are still in `PRECACHE`, so
   removing one has to be deliberate.
 - **Counts are written in prose in three places**: `scripts/build_map_pages.py`
-  ("All 282 maps" in the page footer), `data/README.md` and `README.md`. All
+  ("All 285 maps" in the page footer), `data/README.md` and `README.md`. All
   three are pinned against the actual lengths. `index.html`, `stories.html`,
   `methodology.html` and `explore.html` carry the number too, in titles, Open
   Graph tags and the JSON-LD block, and nothing pins those.
