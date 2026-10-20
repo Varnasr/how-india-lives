@@ -189,3 +189,15 @@ Each of these now has a generated sheet and an indicator in the explorer, with i
 | X189 | X282 | NFHS-6, improved drinking-water source |
 
 Still open: X184 (sex ratio at birth) needs Table 16 on page 315 of the 363-page SRS 2024 Statistical Report, and censusindia.gov.in cannot be downloaded from here (incomplete certificate chain) and the text extractor reads about 20 pages at a time, so it needs the PDF or the table supplied; S09e (SFLC internet shutdowns, a scrape of a tracker that counts recorded events, not days); X172 (to be retired in favour of X206 and X207, HCES consumption). Everything else on the list above that needs a file nobody has supplied stays as a vintage-labelled map.
+
+## Quality pass, 2026-10-19
+
+Read all 77 generated sheets and ran axe (WCAG 2.1 AA) over the explorer, the home page, the index, the methodology and stories pages and six map pages in both themes at 390x844 and 1280x900. Found and fixed:
+
+- **Every map page stretched the sheet.** The page template gave the image `width="1200" height="900"` and `width:100%` with no `height:auto`, but every sheet is 3052x1725, so on a phone the map was squashed to a fraction of its width. The template now carries the real size and `height:auto`, and each page links to the full-size image.
+- **Leader lines ran through the highest and lowest labels** on every sheet, and a callout could land on top of another state's label (the Rajasthan callout sat on Delhi). The line now stops at the label, and placement scores against where each label really is, including those on leader lines, and keeps leader lines off other labels.
+- **Ranking bars ran under their values.** Bars now stop short of the value column, and the lowest five show a sliver instead of nothing.
+- **Indicators with no good or bad end** (crimes registered, notification rates, shares) were painted green at the top and red at the bottom, which read the top as good news. They now use a neutral slate. This affects 24 sheets.
+- **Home page banner** still described the 25 NFHS-6 indicators; it now describes the 77 rebuilt maps.
+
+Not found: any serious or critical axe violation, any horizontal overflow, or any explorer error across all 90 indicators. Every number in the sheet text that does not come straight from the data (source counts, definitions, derived ratios) was spot checked against the files. `data/hindi-review.csv` lists the 424 Hindi strings written for the new sheets and indicators for a native reader, with columns for corrections.

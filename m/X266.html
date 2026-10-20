@@ -29,7 +29,8 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .crumb{font-size:.78rem;color:var(--mut);margin-bottom:6px}
 .crumb a{color:var(--acc);text-decoration:none}
 h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px 0 14px}
-.mapimg{width:100%;border:1px solid var(--bd);border-radius:14px;background:var(--card);display:block}
+.fullsize{margin:.6rem 0 1.2rem;font-size:.95rem}.fullsize a{color:var(--acc);text-decoration:underline}
+.mapimg{width:100%;height:auto;border:1px solid var(--bd);border-radius:14px;background:var(--card);display:block}
 .takeaway{border-left:3px solid var(--acc);background:var(--sec);padding:14px 18px;border-radius:0 10px 10px 0;margin:20px 0;font-size:1.05rem}
 .policy{background:var(--sec);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;margin:14px 0;color:var(--tx2);font-size:.92rem}
 .meta{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
@@ -48,7 +49,8 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 <div class="wrap">
   <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="Health" href="/index.html#health">Health</a></nav>
   <h1 id="pm-title" data-en="Public hospital beds per lakh people, March 2023">Public hospital beds per lakh people, March 2023</h1>
-  <img class="mapimg" src="/maps/health/X266_Public_hospital_beds_per_lakh_people_2023.png" alt="Choropleth map of India by state: Public hospital beds per lakh people, March 2023. Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off." width="1200" height="900">
+  <img class="mapimg" src="/maps/health/X266_Public_hospital_beds_per_lakh_people_2023.png" alt="Choropleth map of India by state: Public hospital beds per lakh people, March 2023. Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off." width="3052" height="1725">
+  <p class="fullsize"><a href="/maps/health/X266_Public_hospital_beds_per_lakh_people_2023.png">Open the full-size image</a></p>
   <div class="takeaway" id="pm-takeaway" data-en="Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off.">Among states, Himachal Pradesh has 136 public hospital beds per lakh people, Kerala 119 and Tamil Nadu 106, against 22 in Bihar, 29 in Jharkhand and 32 in Uttar Pradesh. Lakshadweep (357), the Andaman and Nicobar Islands (340) and Chandigarh (309) are highest of all. Maharashtra is left off.</div>
   <div class="policy"><strong>Policy implication</strong><br>Maharashtra is grey because the source&#x27;s medical-college column adds to 16,998 beds more than its printed total, exactly Maharashtra&#x27;s entry, and the source does not say which is wrong. The count is public beds only, so it says nothing about private hospitals. Beds are for March 2023 and populations are 2024 projections.</div>
   <div class="meta"><span class="tag">Lok Sabha answers (MoHFW, MoF) 2023-25</span><span class="tag">Health</span><span class="tag">hospital beds</span><span class="tag">health infrastructure</span><span class="tag">health</span></div>

@@ -271,40 +271,78 @@ def render(spec):
     good = spec.get("higherIsBetter")
     top = CALLOUT if good is False else "#2F6B3C"
     bot = "#2F6B3C" if good is False else CALLOUT
+    if good is None:
+        # No normative direction (crimes registered, notification rates, shares):
+        # neither end of the scale is good news, so neither end is green or red.
+        top = bot = "#3B4A5E"
     # Where the annotation goes is not a constant. A fixed offset put the
     # Jharkhand callout on top of the Uttar Pradesh label; the offset that
     # works on one indicator is wrong on the next, because the extreme state
     # moves. Score the candidates against every other label anchor and the
     # canvas edge, and take the emptiest.
-    anchors = [anchor(x, tx)[0] for x in states if x["code"] not in NORTHEAST]
+    # Where each state's label really sits: inside the polygon, or at the end
+    # of its leader line for the small ones. Scoring against polygon centroids
+    # alone put a callout on top of the Delhi label.
+    anchors = []
+    for x in states:
+        if x["code"] in NORTHEAST:
+            continue
+        (ax, ay), _ = anchor(x, tx)
+        ox, oy = OUTSIDE.get(x["code"], (0, 0))
+        anchors.append((ax + ox, ay + oy))
     taken = []
 
-    def place(cx, cy):
-        best, best_score = (-330, -120), -1
+    def gap(rect, pt, hw=62, hh=34):
+        """Distance from a rectangle to a label box centred on pt (0 if they overlap)."""
+        x0, y0, x1, y1 = rect
+        dx = max(x0 - (pt[0] + hw), (pt[0] - hw) - x1, 0)
+        dy = max(y0 - (pt[1] + hh), (pt[1] - hh) - y1, 0)
+        return (dx * dx + dy * dy) ** 0.5
+
+    def seg_gap(p0, p1, pt):
+        """Distance from a label centre to the leader line, so a line does not cut through another label."""
+        (x0, y0), (x1, y1) = p0, p1
+        vx, vy = x1 - x0, y1 - y0
+        t = max(0, min(1, ((pt[0] - x0) * vx + (pt[1] - y0) * vy) / (vx * vx + vy * vy or 1)))
+        return ((pt[0] - x0 - t * vx) ** 2 + (pt[1] - y0 - t * vy) ** 2) ** 0.5 - 40
+
+    def place(cx, cy, wl):
+        best, best_score = None, -1
         for dx, dy in ((-330, -120), (-330, 120), (330, -120), (330, 120),
-                       (-400, 0), (400, 0), (0, -190), (0, 190)):
-            px, py = cx + dx + (95 if dx < 0 else 95), cy + dy
-            if not (120 < px < W - 1250) or not (260 < py < 1450):
+                       (-400, 0), (400, 0), (0, -190), (0, 190),
+                       (-330, 0), (330, 0), (-250, -220), (250, 220)):
+            lx, ly = cx + dx, cy + dy
+            if dx < 0:
+                lx = cx + dx - wl // 2
+            rect = (lx, ly - 26, lx + wl, ly + 14)
+            if rect[0] < 60 or rect[2] > 1560 or rect[1] < 230 or rect[3] > 1450:
                 continue
-            score = min([abs(px - ax) + abs(py - ay) for ax, ay in anchors]
-                        + [abs(px - tx_) + abs(py - ty_) for tx_, ty_ in taken]
+            ex = lx + wl + 14 if dx < 0 else lx - 14
+            score = min([seg_gap((cx, cy), (ex, ly), a) for a in anchors if abs(a[0] - cx) + abs(a[1] - cy) > 70]
+                        + [gap(rect, a) for a in anchors]
+                        + [gap(rect, ((t[0] + t[2]) / 2, (t[1] + t[3]) / 2), (t[2] - t[0]) / 2, 20) for t in taken]
                         + [9999])
             if score > best_score:
-                best, best_score = (dx, dy), score
-        taken.append((cx + best[0] + 95, cy + best[1]))
+                best, best_score = (dx, dy, lx, ly, rect), score
+        if best is None:
+            best = (-330, -120, cx - 330 - wl // 2, cy - 120, (0, 0, 0, 0))
+        taken.append(best[4])
         return best
 
     for s, colour, mark in ((hi_state, top, "▲"), (lo_state, bot, "▼")):
         if s["code"] in NORTHEAST:
             continue
         (cx, cy), _ = anchor(s, tx)
-        dx, dy = place(cx, cy)
-        lx, ly = cx + dx, cy + dy
-        A(f'<line x1="{cx:.0f}" y1="{cy:.0f}" x2="{lx + 190:.0f}" y2="{ly:.0f}" '
+        label = f'{mark} {s["label"]}: {fmt(values[s["name"]], dec)}{spec.get("suffix", "")}'
+        # Bold 30px Inter is about 18px a character; the leader line stops at
+        # the near edge of the label instead of running through it.
+        wl = len(label) * 18
+        dx, dy, lx, ly, _ = place(cx, cy, wl)
+        edge = lx + wl + 14 if dx < 0 else lx - 14
+        A(f'<line x1="{cx:.0f}" y1="{cy:.0f}" x2="{edge:.0f}" y2="{ly:.0f}" '
           f'stroke="{colour}" stroke-width="2"/>')
         A(f'<text x="{lx:.0f}" y="{ly + 10:.0f}" font-size="30" font-weight="700" '
-          f'fill="{colour}">{mark} {s["label"]}: {fmt(values[s["name"]], dec)}'
-          f'{esc(spec.get("suffix", ""))}</text>')
+          f'fill="{colour}">{esc(label)}</text>')
 
     # Callout
     cx0, cy0, cw, ch = 2370, 180, 640, 600
@@ -350,7 +388,7 @@ def render(spec):
     for i, ((v, name), rank) in enumerate(band):
         y = py + 56 + i * 52 + (24 if i >= 5 else 0)
         colour = ramp((v - lo) / span)
-        A(f'<rect x="{px}" y="{y - 24}" width="{pw * (v - lo) / span:.0f}" '
+        A(f'<rect x="{px}" y="{y - 24}" width="{8 + (pw - 170) * (v - lo) / span:.0f}" '
           f'height="34" fill="{colour}" opacity="0.55"/>')
         A(f'<text x="{px + 12}" y="{y}" font-size="26" fill="{INK}">'
           f'{rank}. {esc(SHORT.get(name, name))}</text>')
