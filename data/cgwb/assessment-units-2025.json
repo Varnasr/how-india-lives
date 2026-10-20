@@ -1,0 +1,305 @@
+{
+ "source": "CGWB / Ministry of Jal Shakti, National Compilation on Dynamic Ground Water Resources of India, 2025",
+ "url": "https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/711d8d476bbf498cd90f8038e7371227.pdf",
+ "sha256": "f2453ccf635761707926610e5d96300ae0ab1abf748a860bc3b3a998a32f7b8a",
+ "retrieved": "2026-10-20",
+ "unit": "assessment units (blocks, taluks or mandals)",
+ "india": {
+  "assessed": 6762,
+  "safe": 4946,
+  "semi_critical": 758,
+  "critical": 201,
+  "over_exploited": 730,
+  "saline": 127
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "assessed": 9,
+   "safe": 9,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Andhra Pradesh": {
+   "assessed": 679,
+   "safe": 601,
+   "semi_critical": 24,
+   "critical": 3,
+   "over_exploited": 12,
+   "saline": 39
+  },
+  "Arunachal Pradesh": {
+   "assessed": 42,
+   "safe": 42,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Assam": {
+   "assessed": 245,
+   "safe": 244,
+   "semi_critical": 1,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Bihar": {
+   "assessed": 535,
+   "safe": 471,
+   "semi_critical": 49,
+   "critical": 12,
+   "over_exploited": 3,
+   "saline": 0
+  },
+  "Chandigarh": {
+   "assessed": 1,
+   "safe": 1,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Chhattisgarh": {
+   "assessed": 146,
+   "safe": 120,
+   "semi_critical": 21,
+   "critical": 5,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "assessed": 3,
+   "safe": 3,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Delhi": {
+   "assessed": 34,
+   "safe": 7,
+   "semi_critical": 6,
+   "critical": 11,
+   "over_exploited": 10,
+   "saline": 0
+  },
+  "Goa": {
+   "assessed": 12,
+   "safe": 12,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Gujarat": {
+   "assessed": 252,
+   "safe": 181,
+   "semi_critical": 31,
+   "critical": 3,
+   "over_exploited": 25,
+   "saline": 12
+  },
+  "Haryana": {
+   "assessed": 143,
+   "safe": 31,
+   "semi_critical": 15,
+   "critical": 6,
+   "over_exploited": 91,
+   "saline": 0
+  },
+  "Himachal Pradesh": {
+   "assessed": 26,
+   "safe": 26,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Jammu and Kashmir": {
+   "assessed": 149,
+   "safe": 149,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Jharkhand": {
+   "assessed": 263,
+   "safe": 240,
+   "semi_critical": 12,
+   "critical": 5,
+   "over_exploited": 6,
+   "saline": 0
+  },
+  "Karnataka": {
+   "assessed": 237,
+   "safe": 145,
+   "semi_critical": 36,
+   "critical": 11,
+   "over_exploited": 45,
+   "saline": 0
+  },
+  "Kerala": {
+   "assessed": 152,
+   "safe": 123,
+   "semi_critical": 27,
+   "critical": 2,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Ladakh": {
+   "assessed": 18,
+   "safe": 17,
+   "semi_critical": 1,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Lakshadweep": {
+   "assessed": 5,
+   "safe": 4,
+   "semi_critical": 1,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Madhya Pradesh": {
+   "assessed": 317,
+   "safe": 221,
+   "semi_critical": 64,
+   "critical": 6,
+   "over_exploited": 26,
+   "saline": 0
+  },
+  "Maharashtra": {
+   "assessed": 359,
+   "safe": 306,
+   "semi_critical": 40,
+   "critical": 5,
+   "over_exploited": 7,
+   "saline": 1
+  },
+  "Manipur": {
+   "assessed": 9,
+   "safe": 9,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Meghalaya": {
+   "assessed": 40,
+   "safe": 40,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Mizoram": {
+   "assessed": 26,
+   "safe": 26,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Nagaland": {
+   "assessed": 52,
+   "safe": 52,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Odisha": {
+   "assessed": 314,
+   "safe": 298,
+   "semi_critical": 10,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 6
+  },
+  "Puducherry": {
+   "assessed": 8,
+   "safe": 3,
+   "semi_critical": 3,
+   "critical": 0,
+   "over_exploited": 1,
+   "saline": 1
+  },
+  "Punjab": {
+   "assessed": 153,
+   "safe": 17,
+   "semi_critical": 15,
+   "critical": 10,
+   "over_exploited": 111,
+   "saline": 0
+  },
+  "Rajasthan": {
+   "assessed": 302,
+   "safe": 36,
+   "semi_critical": 27,
+   "critical": 23,
+   "over_exploited": 213,
+   "saline": 3
+  },
+  "Sikkim": {
+   "assessed": 38,
+   "safe": 38,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Tamil Nadu": {
+   "assessed": 313,
+   "safe": 121,
+   "semi_critical": 61,
+   "critical": 23,
+   "over_exploited": 103,
+   "saline": 5
+  },
+  "Telangana": {
+   "assessed": 620,
+   "safe": 473,
+   "semi_critical": 105,
+   "critical": 19,
+   "over_exploited": 23,
+   "saline": 0
+  },
+  "Tripura": {
+   "assessed": 59,
+   "safe": 59,
+   "semi_critical": 0,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "Uttar Pradesh": {
+   "assessed": 836,
+   "safe": 563,
+   "semi_critical": 171,
+   "critical": 48,
+   "over_exploited": 54,
+   "saline": 0
+  },
+  "Uttarakhand": {
+   "assessed": 20,
+   "safe": 16,
+   "semi_critical": 4,
+   "critical": 0,
+   "over_exploited": 0,
+   "saline": 0
+  },
+  "West Bengal": {
+   "assessed": 345,
+   "safe": 242,
+   "semi_critical": 34,
+   "critical": 9,
+   "over_exploited": 0,
+   "saline": 60
+  }
+ }
+}

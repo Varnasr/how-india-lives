@@ -1,0 +1,37 @@
+state,assessed,safe,semi_critical,critical,over_exploited,saline,over_exploited_pct (mapped)
+Andaman and Nicobar,9,9,0,0,0,0,0.0
+Andhra Pradesh,679,601,24,3,12,39,1.8
+Arunachal Pradesh,42,42,0,0,0,0,0.0
+Assam,245,244,1,0,0,0,0.0
+Bihar,535,471,49,12,3,0,0.6
+Chandigarh,1,1,0,0,0,0,0.0
+Chhattisgarh,146,120,21,5,0,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,3,3,0,0,0,0,0.0
+Delhi,34,7,6,11,10,0,29.4
+Goa,12,12,0,0,0,0,0.0
+Gujarat,252,181,31,3,25,12,9.9
+Haryana,143,31,15,6,91,0,63.6
+Himachal Pradesh,26,26,0,0,0,0,0.0
+Jammu and Kashmir,149,149,0,0,0,0,0.0
+Jharkhand,263,240,12,5,6,0,2.3
+Karnataka,237,145,36,11,45,0,19.0
+Kerala,152,123,27,2,0,0,0.0
+Ladakh,18,17,1,0,0,0,0.0
+Lakshadweep,5,4,1,0,0,0,0.0
+Madhya Pradesh,317,221,64,6,26,0,8.2
+Maharashtra,359,306,40,5,7,1,1.9
+Manipur,9,9,0,0,0,0,0.0
+Meghalaya,40,40,0,0,0,0,0.0
+Mizoram,26,26,0,0,0,0,0.0
+Nagaland,52,52,0,0,0,0,0.0
+Odisha,314,298,10,0,0,6,0.0
+Puducherry,8,3,3,0,1,1,12.5
+Punjab,153,17,15,10,111,0,72.5
+Rajasthan,302,36,27,23,213,3,70.5
+Sikkim,38,38,0,0,0,0,0.0
+Tamil Nadu,313,121,61,23,103,5,32.9
+Telangana,620,473,105,19,23,0,3.7
+Tripura,59,59,0,0,0,0,0.0
+Uttar Pradesh,836,563,171,48,54,0,6.5
+Uttarakhand,20,16,4,0,0,0,0.0
+West Bengal,345,242,34,9,0,60,0.0

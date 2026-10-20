@@ -233,3 +233,13 @@ Rice and sugarcane share of rice, sugarcane and coarse-cereal area, 2024-25, fro
 
 - No state series exists: S05g (IAS representation, service-level only), S06i (Pew reports by region), X169 (IFCN lists by country), S02a (household income is not surveyed by state), S05f (official position is that manual scavenging is not reported), S09f (RTI applications by state commission are not compiled), X194 and X195 (no state stock of stations or towers), X203 (no recent state series on distance to a bank).
 - Source untraceable or measure impossible: S01h, S01i, S01k (Multiple Sources; no state series of households eating beef, eggs or fish), S05b, S06c and S07g (Multiple Sources, mixed or unnamed measure), S06j (Dharmaviki/IIT-B source not identifiable), X173 (PLFS has no gig-work code), X177 (the 2015-16 Agriculture Census does not count landless people), X181 (no marital rape series), X198 (income thresholds are not published; HCES gives consumption), S08c and S08d (IMD publishes no state temperature or days-above-40C table), S07e (teacher vacancy exists only for some states, from press reports of PAB minutes), S02i (the only recent state table covers eight states and a different measure, assistance provided).
+
+## The waiting list, worked through, 2026-10-20
+
+**Built (5):** S01f as X289 (SRS 2023 mean age at marriage), S08a as X292 (rainfall 2024), S08j as X290 (over-exploited groundwater units 2025), S10a as X293 (Udyam registrations per lakh) and S10i as X288 (startups per lakh). S03h had already been rebuilt as X264.
+
+**Dropped (5), no supportable measure:** S03g (no official state PM2.5 series; the map's figures have no traceable table), S09i (NSAP publishes ceilings, not coverage of the eligible), S11a (the source named, NHA, does not publish PM-JAY admissions), S11c (coverage against offtake is not a defined measure) and S07j (no state series of mid-day meal coverage against enrolment).
+
+**Kept with a data note (16):** S02d, S02e, S02f, S02l, S02m, S02o, S04p, S08h, S08k, S09d, S11b, S11d, X175, X179, X197 and X199. Each note says why it was not refreshed. In S08k's case the Lok Sabha reply of 10 March 2026 gives only cumulative applications enrolled, not a share of farmers. For S09d the takeaway's figures could not be checked against a published table.
+
+**Not read:** the PM-JAY annexure (a scanned image), the JJM state table, the Anganwadi centres by state, India Post circles and AAI airport traffic.

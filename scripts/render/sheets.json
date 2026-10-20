@@ -1747,5 +1747,111 @@
       "gender",
       "births"
     ]
+  },
+  {
+    "id": "X288",
+    "indicator": "dpiit_startups",
+    "section": "economy",
+    "file": "X288_DPIIT_startups_per_lakh_people_June_2026.png",
+    "title": "DPIIT-recognised startups per lakh people, June 2026",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: ENTERPRISE",
+    "subtitle": "Entities recognised as startups, as on 30 June 2026, per lakh people (2024 projection).\nIndia: 17.1, from 2,40,092 recognised startups.",
+    "callout_note": "recognised startups per lakh people in {state}",
+    "decimals": 1,
+    "takeaway": "India had 2,40,092 DPIIT-recognised startups on 30 June 2026, or 17.1 per lakh people. Delhi has 102.1 per lakh, six times the national figure, followed by Chandigarh (59.2), Goa (54.2), Haryana (40.7), Telangana (35.6) and Karnataka (35.2). Sikkim (3.0), Meghalaya (3.1) and Bihar (4.3) have the fewest. In absolute numbers Maharashtra (41,440), Karnataka (24,026) and Uttar Pradesh (23,678) lead.",
+    "policy": "A startup is counted at its registered address, so Delhi's figure reflects where companies register and the National Capital Region's spread across Haryana and Uttar Pradesh. The map does not measure jobs, funding or survival, since recognition is voluntary and is not removed when a business stops trading. The population is NCRB's 2024 projection, a different year from the count. This replaces the earlier map, which used an October 2025 cut-off.",
+    "takeaway_hi": "30 जून 2026 को भारत में DPIIT-मान्यता प्राप्त 2,40,092 स्टार्टअप थे, यानी प्रति लाख लोगों पर 17.1। दिल्ली में प्रति लाख 102.1 है, जो राष्ट्रीय आंकड़े का छह गुना है। इसके बाद चंडीगढ़ (59.2), गोवा (54.2), हरियाणा (40.7), तेलंगाना (35.6) और कर्नाटक (35.2) हैं। सिक्किम (3.0), मेघालय (3.1) और बिहार (4.3) में सबसे कम हैं।",
+    "title_hi": "प्रति लाख लोगों पर DPIIT-मान्यता प्राप्त स्टार्टअप, जून 2026",
+    "tags": [
+      "startups",
+      "DPIIT",
+      "enterprise",
+      "economy"
+    ]
+  },
+  {
+    "id": "X289",
+    "indicator": "srs_marriage_age",
+    "section": "gender",
+    "file": "X289_Mean_age_at_effective_marriage_of_females_SRS_2023.png",
+    "title": "Mean age at effective marriage of females, SRS 2023",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: MARRIAGE",
+    "subtitle": "Mean age at effective marriage of females recorded in 2023, 22 larger states.\nIndia: 22.9 years.",
+    "callout_note": "years: mean age at effective marriage of females in {state}",
+    "decimals": 1,
+    "takeaway": "The mean age at effective marriage of women recorded in India in 2023 is 22.9 years. It is highest in Jammu and Kashmir (26.3 years, which includes Ladakh), Delhi (24.6), Punjab and Himachal Pradesh (24.5) and lowest in West Bengal (21.3), Jharkhand (21.5) and Bihar (21.6). Kerala is at 24.4 and Bihar at 21.6, a gap of 2.8 years. The earlier map put Bihar under 19.",
+    "policy": "This is the mean age at marriage among marriages recorded in the sample in 2023, so it is not the share of women married before 18, and a state with many very early marriages can still show a mean above 21. NFHS-6 reports women aged 20 to 24 married before 18, which is a better measure of child marriage and is mapped separately. Only the 22 larger states are published.",
+    "takeaway_hi": "2023 में दर्ज विवाहों में महिलाओं की प्रभावी विवाह की औसत आयु भारत में 22.9 वर्ष है। यह जम्मू-कश्मीर (26.3, लद्दाख सहित), दिल्ली (24.6), पंजाब और हिमाचल प्रदेश (24.5) में सबसे अधिक और पश्चिम बंगाल (21.3), झारखंड (21.5) और बिहार (21.6) में सबसे कम है। केरल 24.4 और बिहार 21.6 पर हैं, यानी 2.8 वर्ष का अंतर।",
+    "title_hi": "महिलाओं की प्रभावी विवाह की औसत आयु, SRS 2023",
+    "tags": [
+      "marriage",
+      "SRS",
+      "gender",
+      "child marriage"
+    ]
+  },
+  {
+    "id": "X290",
+    "indicator": "cgwb_oe_share",
+    "section": "environment",
+    "file": "X290_Over-exploited_groundwater_units_CGWB_2025.png",
+    "title": "Over-exploited groundwater units, CGWB 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ENVIRONMENT: GROUNDWATER",
+    "subtitle": "Share of assessed blocks, taluks and mandals categorised over-exploited, 2025.\nIndia: 10.8 per cent (730 of 6,762 units), against 11.1 in 2024.",
+    "callout_note": "of assessed groundwater units are over-exploited in {state}",
+    "decimals": 1,
+    "suffix": "%",
+    "takeaway": "The Central Ground Water Board's 2025 assessment categorises 730 of 6,762 units (10.8 per cent) as over-exploited, down from 751 of 6,746 in 2024. Punjab has 111 of 153 units over-exploited (72.5 per cent), Rajasthan 213 of 302 (70.5), Haryana 91 of 143 (63.6), Tamil Nadu 103 of 313 (32.9), Delhi 10 of 34 (29.4) and Karnataka 45 of 237 (19.0). Twenty-one states and territories have none.",
+    "policy": "Over-exploited means yearly extraction exceeds yearly replenishable recharge. A unit is a block, taluk or mandal depending on the state, so units differ in size and a state with a handful of units can swing on one. A state average hides which parts of it are depleted, and the count says nothing about how much water is left. The stage of extraction for each state is on its own map.",
+    "takeaway_hi": "केंद्रीय भूजल बोर्ड के 2025 आकलन में 6,762 में से 730 इकाइयां (10.8 प्रतिशत) अति-दोहित हैं, 2024 में 6,746 में से 751 थीं। पंजाब में 153 में से 111 (72.5 प्रतिशत), राजस्थान में 302 में से 213 (70.5), हरियाणा में 143 में से 91 (63.6), तमिलनाडु में 313 में से 103 (32.9), दिल्ली में 34 में से 10 (29.4) और कर्नाटक में 237 में से 45 (19.0) इकाइयां अति-दोहित हैं।",
+    "title_hi": "अति-दोहित भूजल इकाइयां, CGWB 2025",
+    "tags": [
+      "groundwater",
+      "CGWB",
+      "water",
+      "environment"
+    ]
+  },
+  {
+    "id": "X292",
+    "indicator": "rain_2024",
+    "section": "environment",
+    "file": "X292_Annual_rainfall_by_state_2024.png",
+    "title": "Annual rainfall by state, 2024",
+    "eyebrow": "HOW INDIA LIVES  ·  ENVIRONMENT: RAINFALL",
+    "subtitle": "Rainfall in calendar year 2024, millimetres, state averages from IMD data.\nGoa 4,907 mm. Ladakh 79 mm. 18 states and UTs ended below their normal.",
+    "callout_note": "mm of rain in {state} in calendar year 2024",
+    "decimals": 0,
+    "takeaway": "Goa received 4,907 mm of rain in 2024, the most of any state or territory, followed by Meghalaya (3,446 mm) and Dadra and Nagar Haveli and Daman and Diu (2,997 mm). Ladakh received 79 mm. Eighteen states and territories were below normal, among them Punjab (392 mm against a normal of 566) and Bihar (917 against 1,164), while Rajasthan (710 against 487) and Gujarat (1,114 against 748) were well above. The earlier map's 11,000 mm for Meghalaya cannot be a state average.",
+    "policy": "A state average hides the difference between wet and dry districts, and one calendar year is weather and not climate: the same year left Punjab 31 per cent under its normal and Rajasthan 46 per cent over. The figures are the Central Ground Water Board's tabulation of India Meteorological Department data for its groundwater assessment, so they follow the board's state list.",
+    "takeaway_hi": "2024 में गोवा में 4,907 मिमी वर्षा हुई, जो किसी भी राज्य या केंद्रशासित प्रदेश में सबसे अधिक है। उसके बाद मेघालय (3,446) और दादरा-नगर हवेली और दमन-दीव (2,997) हैं। लद्दाख में 79 मिमी हुई। अठारह राज्य और केंद्रशासित प्रदेश सामान्य से कम रहे, जिनमें पंजाब (392 के मुकाबले सामान्य 566) और बिहार (917 के मुकाबले 1,164) हैं, जबकि राजस्थान (710 के मुकाबले 487) और गुजरात (1,114 के मुकाबले 748) काफी ऊपर रहे।",
+    "title_hi": "राज्यवार वार्षिक वर्षा, 2024",
+    "tags": [
+      "rainfall",
+      "IMD",
+      "water",
+      "climate"
+    ]
+  },
+  {
+    "id": "X293",
+    "indicator": "udyam_per_lakh",
+    "section": "economy",
+    "file": "X293_Udyam_MSME_registrations_per_lakh_people_Nov_2025.png",
+    "title": "Udyam MSME registrations per lakh people, to November 2025",
+    "eyebrow": "HOW INDIA LIVES  ·  ECONOMY: ENTERPRISE",
+    "subtitle": "Registrations on Udyam and Udyam Assist, July 2020 to 30 November 2025, per lakh people.\nIndia: 5,141, from 7.22 crore registrations.",
+    "callout_note": "Udyam registrations per lakh people in {state}",
+    "decimals": 0,
+    "takeaway": "By 30 November 2025, 7.22 crore enterprises had registered on Udyam or Udyam Assist, 5,141 per lakh people. Telangana (9,236), Goa (7,734), Tamil Nadu (7,498), Maharashtra (7,385) and Tripura (6,936) have the most registrations per person, and Meghalaya (1,934), the Dadra and Nagar Haveli and Daman and Diu pair (2,395), Arunachal Pradesh (2,814), Bihar (2,994) and Nagaland (3,083) the fewest. Tamil Nadu has about two and a half times Bihar's rate.",
+    "policy": "This counts registrations at the registered address, not working firms. Registration is free and self-declared, and since January 2023 informal micro enterprises have been added through Udyam Assist, so registration drives move the figure sharply from year to year and it is not comparable with earlier counts. Tripura's high rate, for instance, rests on one year's large batch. A registration says nothing about employment or output.",
+    "takeaway_hi": "30 नवंबर 2025 तक 7.22 करोड़ उद्यमों ने उद्यम या उद्यम असिस्ट पर पंजीकरण कराया, यानी प्रति लाख लोगों पर 5,141। प्रति व्यक्ति सबसे अधिक पंजीकरण तेलंगाना (9,236), गोवा (7,734), तमिलनाडु (7,498), महाराष्ट्र (7,385) और त्रिपुरा (6,936) में हैं और सबसे कम मेघालय (1,934), दादरा-नगर हवेली और दमन-दीव (2,395), अरुणाचल प्रदेश (2,814), बिहार (2,994) और नागालैंड (3,083) में।",
+    "title_hi": "प्रति लाख लोगों पर उद्यम MSME पंजीकरण, नवंबर 2025 तक",
+    "tags": [
+      "MSME",
+      "Udyam",
+      "enterprise",
+      "economy"
+    ]
   }
 ]
