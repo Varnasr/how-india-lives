@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+"""Write data/rbi/crop-area-2024.json from Tables 67, 69 and 78 of the RBI Handbook of Statistics on Indian States 2024-25.
+
+    python3 scripts/extract_rbi_crop_area.py [--check]
+
+Source: RBI, Handbook of Statistics on Indian States 2024-25 (11 December 2025), Tables 67 (rice), 69 (coarse cereals) and
+78 (sugarcane): area under the crop in thousand hectares, from the Ministry of Agriculture's agricultural statistics. rbidocs.rbi.org.in
+sits behind a bot challenge, so the PDFs were read through Firecrawl on 2026-10-20 and the 2023-24 and 2024-25 columns are
+transcribed below, with no SHA-256 pinned. A dash in the source is a negligible or unreported area. Goa's coarse cereals are a
+dash in all four years, so Goa is left out of the share. Delhi and Sikkim are not listed in the sugarcane table and count as 0 there,
+as does Jharkhand's 2023-24 dash. Checks: for each table and year the state rows sum to the printed ALL INDIA row within 0.5 per
+cent, and every state name is a name in the atlas geometry.
+"""
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from indicator_io import ROOT  # noqa: E402
+
+OUT = os.path.join(ROOT, 'data', 'rbi', 'crop-area-2024.json')
+# Table 67: State-Wise Area Of Foodgrains - Rice, thousand hectares (2023-24, 2024-25)
+RICE = {
+    'ALL INDIA': (47828.3, 51266.6),
+    'Andhra Pradesh': (1920.6, 2077.0),
+    'Arunachal Pradesh': (137.3, 137.7),
+    'Assam': (2295.7, 2202.8),
+    'Bihar': (3110.1, 3242.2),
+    'Chhattisgarh': (3821.6, 3905.3),
+    'Delhi': (5.5, 5.4),
+    'Goa': (32.5, 32.6),
+    'Gujarat': (968.6, 1014.5),
+    'Haryana': (1563.5, 1609.2),
+    'Himachal Pradesh': (69.9, 68.3),
+    'Jammu and Kashmir': (258.2, 258.2),
+    'Jharkhand': (1099.6, 1469.2),
+    'Karnataka': (953.0, 1181.0),
+    'Kerala': (180.3, 176.5),
+    'Madhya Pradesh': (3480.2, 3885.0),
+    'Maharashtra': (1692.9, 1682.2),
+    'Manipur': (170.3, 169.3),
+    'Meghalaya': (107.8, 107.8),
+    'Mizoram': (24.8, 20.7),
+    'Nagaland': (210.4, 197.3),
+    'Odisha': (4071.9, 3833.9),
+    'Puducherry': (19.6, 17.0),
+    'Punjab': (3179.0, 3243.3),
+    'Rajasthan': (267.8, 353.9),
+    'Sikkim': (6.4, 6.4),
+    'Tamil Nadu': (2101.6, 2157.8),
+    'Telangana': (4685.2, 4809.5),
+    'Tripura': (241.8, 224.6),
+    'Uttar Pradesh': (5767.7, 7350.0),
+    'Uttarakhand': (243.4, 216.1),
+    'West Bengal': (5119.4, 5592.0),
+}
+# Table 69: State-Wise Area Of Foodgrains - Coarse Cereals, thousand hectares (2023-24, 2024-25)
+COARSE = {
+    'ALL INDIA': (24937.7, 25754.9),
+    'Andhra Pradesh': (460.8, 498.0),
+    'Arunachal Pradesh': (82.8, 83.2),
+    'Assam': (112.4, 109.0),
+    'Bihar': (972.1, 912.8),
+    'Chhattisgarh': (154.4, 144.8),
+    'Delhi': (4.4, 5.0),
+    'Goa': (None, None),
+    'Gujarat': (989.8, 981.6),
+    'Haryana': (564.2, 612.5),
+    'Himachal Pradesh': (272.8, 281.2),
+    'Jammu and Kashmir': (314.4, 314.7),
+    'Jharkhand': (302.4, 331.5),
+    'Karnataka': (3764.0, 3611.0),
+    'Kerala': (1.5, 0.3),
+    'Madhya Pradesh': (2177.0, 2810.0),
+    'Maharashtra': (3597.8, 3877.6),
+    'Manipur': (23.9, 24.5),
+    'Meghalaya': (22.6, 22.6),
+    'Mizoram': (6.4, 5.0),
+    'Nagaland': (62.6, 62.5),
+    'Odisha': (206.6, 195.3),
+    'Puducherry': (0.1, 0.2),
+    'Punjab': (100.3, 92.1),
+    'Rajasthan': (5964.3, 6364.6),
+    'Sikkim': (31.7, 31.7),
+    'Tamil Nadu': (950.7, 963.5),
+    'Telangana': (604.0, 753.8),
+    'Tripura': (15.8, 15.3),
+    'Uttar Pradesh': (2622.0, 2090.1),
+    'Uttarakhand': (144.8, 137.9),
+    'West Bengal': (399.9, 411.5),
+}
+# Table 78: State-Wise Area Of Non-Foodgrains - Sugarcane, thousand hectares (2023-24, 2024-25)
+SUGARCANE = {
+    'ALL INDIA': (5739.6, 5449.9),
+    'Andhra Pradesh': (27.5, 22.0),
+    'Arunachal Pradesh': (2.2, 2.2),
+    'Assam': (29.2, 29.2),
+    'Bihar': (202.2, 192.6),
+    'Chhattisgarh': (35.7, 33.4),
+    'Goa': (0.5, 0.4),
+    'Gujarat': (202.2, 188.8),
+    'Haryana': (88.2, 71.6),
+    'Himachal Pradesh': (1.4, 1.3),
+    'Jammu and Kashmir': (0.2, 0.2),
+    'Jharkhand': (None, 0.5),
+    'Karnataka': (543.0, 540.0),
+    'Kerala': (0.7, 0.3),
+    'Madhya Pradesh': (115.0, 107.0),
+    'Maharashtra': (1437.0, 1167.0),
+    'Manipur': (5.0, 6.0),
+    'Meghalaya': (0.1, 0.1),
+    'Mizoram': (1.0, 0.8),
+    'Nagaland': (2.6, 2.0),
+    'Odisha': (7.2, 13.3),
+    'Puducherry': (1.2, 0.8),
+    'Punjab': (90.2, 88.7),
+    'Rajasthan': (4.2, 5.8),
+    'Tamil Nadu': (151.7, 130.9),
+    'Telangana': (27.0, 20.6),
+    'Tripura': (0.7, 0.5),
+    'Uttar Pradesh': (2653.0, 2720.4),
+    'Uttarakhand': (94.1, 90.4),
+    'West Bengal': (16.6, 13.2),
+}
+
+
+def main():
+    geo = {f['properties']['name'] for f in json.load(open(os.path.join(ROOT, 'data', 'india-states.geojson')))['features']}
+    for label, T in (('rice', RICE), ('coarse', COARSE), ('sugarcane', SUGARCANE)):
+        assert not (set(T) - {'ALL INDIA'}) - geo, sorted((set(T) - {'ALL INDIA'}) - geo)
+        for i, y in enumerate(('2023-24', '2024-25')):
+            tot = T['ALL INDIA'][i]
+            s = sum((v[i] or 0) for k, v in T.items() if k != 'ALL INDIA')
+            assert abs(s - tot) <= 0.005 * tot, (label, y, s, tot)
+    out = {'source': 'RBI, Handbook of Statistics on Indian States 2024-25, Tables 67, 69 and 78 (area under rice, coarse cereals and sugarcane)',
+           'url': 'https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States', 'retrieved': '2026-10-20',
+           'unit': 'thousand hectares', 'years': ['2023-24', '2024-25'],
+           'rice': {k: list(v) for k, v in RICE.items()}, 'coarse_cereals': {k: list(v) for k, v in COARSE.items()},
+           'sugarcane': {k: list(v) for k, v in SUGARCANE.items()}}
+    if '--check' in sys.argv:
+        assert json.load(open(OUT)) == out, 'stale'
+    else:
+        json.dump(out, open(OUT, 'w'), indent=1, ensure_ascii=False)
+        open(OUT, 'a').write('\n')
+    print(len(RICE) - 1, 'states')
+
+
+main()

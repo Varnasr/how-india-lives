@@ -2907,7 +2907,8 @@
       "environment"
     ],
     "title_hi": "जल-गहन फसलें बनाम बाजरा क्षेत्र अनुपात",
-    "takeaway_hi": "पंजाब और हरियाणा प्रति इकाई बाजरा क्षेत्र की तुलना में 10 गुना अधिक जल-गहन फसलें (चावल, गन्ना) उगाते हैं।"
+    "takeaway_hi": "पंजाब और हरियाणा प्रति इकाई बाजरा क्षेत्र की तुलना में 10 गुना अधिक जल-गहन फसलें (चावल, गन्ना) उगाते हैं।",
+    "newer": "X286"
   },
   {
     "id": "S08g",
@@ -5283,5 +5284,27 @@
     ],
     "title_hi": "भूजल दोहन का स्तर, CGWB 2024",
     "takeaway_hi": "केंद्रीय भूजल बोर्ड के 2024 आकलन के अनुसार भारत अपने वार्षिक निकासी योग्य भूजल का 60.5 प्रतिशत निकालता है, जबकि 2023 में 59.3 प्रतिशत था। पाँच राज्य और क्षेत्र आकलन की पुनर्भरण मात्रा से अधिक निकालते हैं: पंजाब (156.9), राजस्थान (149.9), दादरा-नगर हवेली और दमन-दीव (142.2), हरियाणा (136.0) और दिल्ली (100.8)। अरुणाचल प्रदेश (0.4) में लगभग नहीं के बराबर निकासी है।"
+  },
+  {
+    "id": "X286",
+    "title": "Rice and sugarcane share of rice, sugarcane and coarse cereal area, 2024-25",
+    "file": "X286_Rice_and_sugarcane_share_of_crop_area_2024-25.png",
+    "section": "environment",
+    "source": "Ministry of Agriculture via RBI Handbook 2024-25",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Rice and sugarcane take 68.8 per cent of the area under rice, sugarcane and coarse cereals in India in 2024-25, up from 68.2 per cent the year before. Punjab is at 97.3 per cent, which is 36 hectares of rice and sugarcane for every hectare of coarse cereals. Haryana is at 73.3 per cent, 2.7 to 1, so the old map's ten to one for Punjab and Haryana together does not hold for Haryana. At the other end are Rajasthan (5.3 per cent), Sikkim (16.8) and Himachal Pradesh (19.8).",
+    "policy": "Rice and sugarcane are the two crops that draw most irrigation water, and coarse cereals are the dryland alternative, but this is a share of three crop groups and not a water measure. Kerala (99.8) is high because coconut, rubber and spices are outside these groups, and wheat, pulses, oilseeds and cotton are outside too. Coarse cereals include maize and barley as well as millets. Goa has no coarse-cereal area in the source and is left out.",
+    "tags": [
+      "crops",
+      "rice",
+      "sugarcane",
+      "millets",
+      "water",
+      "RBI",
+      "environment"
+    ],
+    "title_hi": "चावल और गन्ने का हिस्सा, 2024-25",
+    "takeaway_hi": "2024-25 में भारत में चावल, गन्ना और मोटे अनाज के कुल क्षेत्र का 68.8 प्रतिशत चावल और गन्ने के अंतर्गत है, पिछले वर्ष 68.2 प्रतिशत था। पंजाब में यह 97.3 प्रतिशत है, यानी हर हेक्टेयर मोटे अनाज पर 36 हेक्टेयर चावल और गन्ना। हरियाणा में 73.3 प्रतिशत (2.7 के मुकाबले 1) है। सबसे कम राजस्थान (5.3), सिक्किम (16.8) और हिमाचल प्रदेश (19.8) हैं।"
   }
 ]

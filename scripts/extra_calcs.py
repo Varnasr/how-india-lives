@@ -138,4 +138,13 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/cgwb_groundwater.csv'] = rows_to_csv(
         ['state', 'resource_2024_bcm', 'extraction_2024_bcm', 'stage_2024_pct_printed (mapped)', 'stage_2024_recomputed', 'stage_2023_pct'],
         [[s, d['2024']['resource'], d['2024']['extraction'], d['2024']['stage'], round(d['2024']['extraction'] / d['2024']['resource'] * 100, 1), '' if d['2023']['stage'] is None else d['2023']['stage']] for s, d in sorted(gw.items())])
+    cr = load('data/rbi/crop-area-2024.json')
+    import build_rbi_crop_indicator as bc
+    check_equal('rbi_thirsty_share', bc.share(cr, 1), by['rbi_thirsty_share']['values'])
+    sh0, sh1 = bc.share(cr, 0), bc.share(cr, 1)
+    files['calculations/rbi_crop_area.csv'] = rows_to_csv(
+        ['state', 'rice_2024_25_kha', 'sugarcane_2024_25_kha', 'coarse_cereals_2024_25_kha', 'share_rice_sugarcane_2024_25_pct (mapped)', 'rice_and_sugarcane_per_ha_coarse_2024_25', 'share_2023_24_pct'],
+        [[s, cr['rice'][s][1], (cr['sugarcane'].get(s) or [0, 0])[1] or 0, cr['coarse_cereals'][s][1], sh1[s],
+          round((cr['rice'][s][1] + ((cr['sugarcane'].get(s) or [0, 0])[1] or 0)) / cr['coarse_cereals'][s][1], 2), sh0[s]]
+         for s in sorted(sh1)])
     return files

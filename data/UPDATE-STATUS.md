@@ -213,3 +213,7 @@ Firecrawl read the RBI Handbook of Statistics on Indian States 2024-25 tables (t
 | S08j | X285 | 107, stage of groundwater extraction, CGWB 2024 assessment (a different measure from over-exploited blocks) |
 
 The Handbook has 182 tables, so it is the cheapest route for several other maps on the waiting list; the crop-area maps (S08f, X176) use Tables 67 to 79.
+
+## S08f rebuilt as X286 (2026-10-20)
+
+Rice and sugarcane share of rice, sugarcane and coarse-cereal area, 2024-25, from RBI Handbook Tables 67, 69 and 78 (30 states; Goa has no coarse-cereal area). The old "10x for Punjab and Haryana" claim holds for Punjab (36 to 1) and not for Haryana (2.7 to 1). X176 (crop diversification) is not buildable from the Handbook's crop groups.
