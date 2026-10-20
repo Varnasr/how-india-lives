@@ -147,4 +147,9 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
         [[s, cr['rice'][s][1], (cr['sugarcane'].get(s) or [0, 0])[1] or 0, cr['coarse_cereals'][s][1], sh1[s],
           round((cr['rice'][s][1] + ((cr['sugarcane'].get(s) or [0, 0])[1] or 0)) / cr['coarse_cereals'][s][1], 2), sh0[s]]
          for s in sorted(sh1)])
+    sb = load('data/srs/sex-ratio-birth-2021-23.json')
+    check_equal('srs_sex_ratio_birth', {s: d['total'][4] for s, d in sb['states'].items()}, by['srs_sex_ratio_birth']['values'])
+    files['calculations/srs_sex_ratio_birth.csv'] = rows_to_csv(
+        ['state'] + ['total_' + p for p in sb['periods']] + ['rural_2021_23', 'urban_2021_23', 'change_2017_19_to_2021_23 (total)'],
+        [[s] + d['total'] + [d['rural'][4], d['urban'][4], d['total'][4] - d['total'][0]] for s, d in sorted(sb['states'].items())])
     return files

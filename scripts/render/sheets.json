@@ -1726,5 +1726,26 @@
       "RBI",
       "environment"
     ]
+  },
+  {
+    "id": "X287",
+    "indicator": "srs_sex_ratio_birth",
+    "section": "gender",
+    "file": "X287_Sex_ratio_at_birth_SRS_2021-23.png",
+    "title": "Sex ratio at birth, SRS 2021-23",
+    "eyebrow": "HOW INDIA LIVES  ·  GENDER: BIRTHS",
+    "subtitle": "Girls born per 1,000 boys, three-year average 2021-23, 22 larger states.\nIndia: 917, against 914 in 2020-22.",
+    "callout_note": "girls born per 1,000 boys in {state}",
+    "decimals": 0,
+    "takeaway": "India's sex ratio at birth is 917 girls per 1,000 boys for 2021-23, up from 914 the year before and 904 in 2017-19. Chhattisgarh (974) and Kerala (971) are highest, and Uttarakhand (868), Delhi (872) and Haryana (884) lowest, against a typical biological ratio of roughly 952. Rajasthan rose from 879 to 919 between 2017-19 and 2021-23 and Gujarat from 870 to 900, while West Bengal fell from 944 to 931.",
+    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh. This replaces an older map that labelled the measure a proxy for sex-selective abortion.",
+    "takeaway_hi": "2021-23 में भारत में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 917 लड़कियां है, पिछले वर्ष 914 और 2017-19 में 904 था। छत्तीसगढ़ (974) और केरल (971) सबसे ऊपर और उत्तराखंड (868), दिल्ली (872) और हरियाणा (884) सबसे नीचे हैं। राजस्थान 879 से 919 और गुजरात 870 से 900 हुआ, जबकि पश्चिम बंगाल 944 से 931 पर आ गया।",
+    "title_hi": "जन्म के समय लिंगानुपात, SRS 2021-23",
+    "tags": [
+      "sex ratio",
+      "SRS",
+      "gender",
+      "births"
+    ]
   }
 ]
