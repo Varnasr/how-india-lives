@@ -124,6 +124,20 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
 .src{{font-size:.82rem;color:var(--mut);margin-top:10px}}
 .credit{{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}}
 .credit a{{color:var(--acc)}}
+/* Design upgrade, October 2026: the look of impactmojo.in */
+body{{background:radial-gradient(900px 420px at 85% 0,var(--glow-a),transparent 70%),radial-gradient(700px 360px at 0 8%,var(--glow-b),transparent 70%),var(--bg);background-repeat:no-repeat}}
+.crumb a{{display:inline-block;padding:6px 0}}
+h1{{font-size:clamp(1.9rem,7vw,2.8rem);line-height:1.1;letter-spacing:-.3px;margin:8px 0 22px;text-wrap:balance}}
+h1::after{{content:"";display:block;width:56px;height:5px;margin-top:14px;border-radius:3px;background:linear-gradient(90deg,var(--rule-a),var(--rule-b))}}
+.mapimg{{border-radius:18px;box-shadow:0 18px 44px -20px var(--soft-shadow)}}
+.fullsize a{{display:inline-block;padding:8px 0}}
+.takeaway{{border-left:0;background:var(--tile-blue);color:var(--tile-ink);border-radius:18px;padding:20px 22px;font-size:1.05rem;box-shadow:inset 0 -4px 0 rgba(15,23,42,.10)}}
+html[data-theme="dark"] .takeaway{{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}}
+.policy{{border-radius:16px;padding:16px 20px;font-size:.95rem}}
+.tag{{background:var(--chip-bg);border-color:var(--chip-bd);color:var(--chip-ink);padding:5px 12px}}
+.btn{{min-height:46px;display:inline-flex;align-items:center;border-radius:12px;padding:0 20px}}
+.vint{{border-radius:14px;padding:14px 16px;line-height:1.55}}
+@media (max-width:560px){{.takeaway{{font-size:1rem;padding:18px}}.btns .btn{{flex:1 1 100%;justify-content:center}}}}
 </style>
 </head>
 <body>
@@ -135,7 +149,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
   <p class="fullsize"><a href="{img}">Open the full-size image</a></p>
   {takeaway}
   {policy}
-  <div class="meta"><span class="tag">{source} {year}</span><span class="tag">{sect}</span>{tags}</div>
+  <div class="meta"><span class="tag">{srcyear}</span><span class="tag">{sect}</span>{tags}</div>
   <div class="btns">
     <a class="btn" href="/index.html#map/{id}">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
     {interactive_btn}
@@ -156,6 +170,7 @@ h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6p
         img=img_url(m),
         takeaway=('<div class="takeaway" id="pm-takeaway" data-en="%s">%s</div>' % (esc(m['takeaway']), esc(m['takeaway']))) if m.get('takeaway') else '',
         policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
+        srcyear=esc(m.get('source', '') if str(m.get('year', '')) in m.get('source', '') else (m.get('source', '') + ' ' + str(m.get('year', ''))).strip()),
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
         swap_script=swap_script, vintage=esc(vintage(m)[1]),
         data_note=(' <br><strong>Data note.</strong> ' + esc(m['data_note'])) if m.get('data_note') else '',

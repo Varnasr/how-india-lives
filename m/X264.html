@@ -42,6 +42,20 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
 .src{font-size:.82rem;color:var(--mut);margin-top:10px}
 .credit{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}
 .credit a{color:var(--acc)}
+/* Design upgrade, October 2026: the look of impactmojo.in */
+body{background:radial-gradient(900px 420px at 85% 0,var(--glow-a),transparent 70%),radial-gradient(700px 360px at 0 8%,var(--glow-b),transparent 70%),var(--bg);background-repeat:no-repeat}
+.crumb a{display:inline-block;padding:6px 0}
+h1{font-size:clamp(1.9rem,7vw,2.8rem);line-height:1.1;letter-spacing:-.3px;margin:8px 0 22px;text-wrap:balance}
+h1::after{content:"";display:block;width:56px;height:5px;margin-top:14px;border-radius:3px;background:linear-gradient(90deg,var(--rule-a),var(--rule-b))}
+.mapimg{border-radius:18px;box-shadow:0 18px 44px -20px var(--soft-shadow)}
+.fullsize a{display:inline-block;padding:8px 0}
+.takeaway{border-left:0;background:var(--tile-blue);color:var(--tile-ink);border-radius:18px;padding:20px 22px;font-size:1.05rem;box-shadow:inset 0 -4px 0 rgba(15,23,42,.10)}
+html[data-theme="dark"] .takeaway{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}
+.policy{border-radius:16px;padding:16px 20px;font-size:.95rem}
+.tag{background:var(--chip-bg);border-color:var(--chip-bd);color:var(--chip-ink);padding:5px 12px}
+.btn{min-height:46px;display:inline-flex;align-items:center;border-radius:12px;padding:0 20px}
+.vint{border-radius:14px;padding:14px 16px;line-height:1.55}
+@media (max-width:560px){.takeaway{font-size:1rem;padding:18px}.btns .btn{flex:1 1 100%;justify-content:center}}
 </style>
 </head>
 <body>
@@ -53,7 +67,7 @@ h1{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px
   <p class="fullsize"><a href="/maps/health/X264_Government_health_spending_per_person_NHA_2022-23.png">Open the full-size image</a></p>
   <div class="takeaway" id="pm-takeaway" data-en="Government agencies spend Rs 5,913 per person on health in Himachal Pradesh, Rs 3,916 in Jammu and Kashmir and Rs 3,592 in Kerala, against Rs 1,056 in Bihar, Rs 1,419 in Uttar Pradesh and Rs 1,536 in Jharkhand. Only 21 states are covered.">Government agencies spend Rs 5,913 per person on health in Himachal Pradesh, Rs 3,916 in Jammu and Kashmir and Rs 3,592 in Kerala, against Rs 1,056 in Bihar, Rs 1,419 in Uttar Pradesh and Rs 1,536 in Jharkhand. Only 21 states are covered.</div>
   <div class="policy"><strong>Policy implication</strong><br>The figure counts spending by the Union, state and local governments inside the state, so it includes central schemes and is not what the state government alone spends. Three of the four highest are hill states (Himachal Pradesh, Jammu and Kashmir, Uttarakhand). The 21 states are those for which the estimate can be made; small states, union territories and most of the north-east are not covered.</div>
-  <div class="meta"><span class="tag">National Health Accounts 2022-23 2022-23</span><span class="tag">Health</span><span class="tag">NHA</span><span class="tag">health spending</span><span class="tag">health</span></div>
+  <div class="meta"><span class="tag">National Health Accounts 2022-23</span><span class="tag">Health</span><span class="tag">NHA</span><span class="tag">health spending</span><span class="tag">health</span></div>
   <div class="btns">
     <a class="btn" href="/index.html#map/X264">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
     <a class="btn" href="/explore.html#nha_ghe_pc">Explore interactively <span aria-hidden="true">&rarr;</span></a>
