@@ -127,7 +127,9 @@
       "economy"
     ],
     "title_hi": "औसत मासिक प्रति व्यक्ति उपभोग व्यय",
-    "takeaway_hi": "दिल्ली में मासिक प्रति व्यक्ति उपभोग व्यय छत्तीसगढ़ की तुलना में 3 गुना है।"
+    "takeaway_hi": "दिल्ली में मासिक प्रति व्यक्ति उपभोग व्यय छत्तीसगढ़ की तुलना में 3 गुना है।",
+    "newer": "X206",
+    "data_note": "Superseded by the rural map (X206) and the urban map (X207): MoSPI publishes household spending 2023-24 for rural and urban India separately, with no combined state series, so this single map cannot be rebuilt. The figures here are for 2022-23."
   },
   {
     "id": "X173",
@@ -346,7 +348,8 @@
       "gender"
     ],
     "title_hi": "लिंग-चयनात्मक गर्भपात प्रॉक्सी, अप्राकृतिक लिंगानुपात",
-    "takeaway_hi": "जिन राज्यों में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 900 लड़कियों से कम है, वहाँ लिंग-चयनात्मक प्रथाओं के प्रमाण दिखते हैं।"
+    "takeaway_hi": "जिन राज्यों में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 900 लड़कियों से कम है, वहाँ लिंग-चयनात्मक प्रथाओं के प्रमाण दिखते हैं।",
+    "data_note": "The latest source is the SRS Statistical Report 2023, sex ratio at birth for 2021-23: India 917, highest Chhattisgarh (974) and Kerala (971), lowest Uttarakhand (868) and Haryana (871). The full state table (Statement 16, printed page 66) could not be read from this environment, so the map has not been rebuilt from it."
   },
   {
     "id": "X185",
@@ -1500,7 +1503,8 @@
       "economy"
     ],
     "title_hi": "प्रति लाख जनसंख्या बैंक शाखाएँ",
-    "takeaway_hi": "कर्नाटक में प्रति लाख 16+ बैंक शाखाएँ हैं; पूर्वोत्तर राज्यों में 8 से कम।"
+    "takeaway_hi": "कर्नाटक में प्रति लाख 16+ बैंक शाखाएँ हैं; पूर्वोत्तर राज्यों में 8 से कम।",
+    "newer": "X284"
   },
   {
     "id": "S02o",
@@ -2832,7 +2836,8 @@
       "environment"
     ],
     "title_hi": "शुद्ध सिंचित क्षेत्र (शुद्ध बोए गए क्षेत्र का %)",
-    "takeaway_hi": "पंजाब अपने शुद्ध बोए गए क्षेत्र का 98% सिंचित करता है; झारखंड 10% से कम।"
+    "takeaway_hi": "पंजाब अपने शुद्ध बोए गए क्षेत्र का 98% सिंचित करता है; झारखंड 10% से कम।",
+    "newer": "X283"
   },
   {
     "id": "S08c",
@@ -2905,7 +2910,8 @@
       "environment"
     ],
     "title_hi": "जल-गहन फसलें बनाम बाजरा क्षेत्र अनुपात",
-    "takeaway_hi": "पंजाब और हरियाणा प्रति इकाई बाजरा क्षेत्र की तुलना में 10 गुना अधिक जल-गहन फसलें (चावल, गन्ना) उगाते हैं।"
+    "takeaway_hi": "पंजाब और हरियाणा प्रति इकाई बाजरा क्षेत्र की तुलना में 10 गुना अधिक जल-गहन फसलें (चावल, गन्ना) उगाते हैं।",
+    "newer": "X286"
   },
   {
     "id": "S08g",
@@ -2977,7 +2983,8 @@
       "environment"
     ],
     "title_hi": "भूजल अति-दोहित ब्लॉक",
-    "takeaway_hi": "पंजाब और हरियाणा में सबसे अधिक अति-दोहित भूजल ब्लॉक हैं — हरित क्रांति की छिपी हुई कीमत।"
+    "takeaway_hi": "पंजाब और हरियाणा में सबसे अधिक अति-दोहित भूजल ब्लॉक हैं — हरित क्रांति की छिपी हुई कीमत।",
+    "newer": "X285"
   },
   {
     "id": "S08k",
@@ -3123,7 +3130,8 @@
       "democracy"
     ],
     "title_hi": "इंटरनेट बंदी संचयी 2012-2024",
-    "takeaway_hi": "2012 से अब तक की कुल इंटरनेट बंदी में अकेले जम्मू-कश्मीर का हिस्सा 60%+ है।"
+    "takeaway_hi": "2012 से अब तक की कुल इंटरनेट बंदी में अकेले जम्मू-कश्मीर का हिस्सा 60%+ है।",
+    "data_note": "The SFLC.in tracker (internetshutdowns.in) answered 502 on 2026-10-20 and no primary state table was found, so this map keeps its earlier figures. SFLC recorded 848 shutdowns in India from 2012 to 2024. Human Rights Watch counted 418 of 690 shutdowns (61 per cent) in Jammu and Kashmir to 2022, and a Business Standard report puts Jammu and Kashmir at 50.8 per cent of shutdowns from 2016 to 2025, a different window and source. These count recorded events, not days of shutdown."
   },
   {
     "id": "S09f",
@@ -5223,5 +5231,84 @@
     ],
     "title_hi": "बेहतर पेयजल स्रोत वाली आबादी, NFHS-6",
     "takeaway_hi": "NFHS-6 के अनुसार भारत की 96.5 प्रतिशत घरेलू आबादी बेहतर पेयजल स्रोत वाले परिवारों में रहती है, जबकि NFHS-5 में यह 95.9 प्रतिशत थी। नागालैंड (82.7), झारखंड और मेघालय (84.3), लक्षद्वीप (88.4), मध्य प्रदेश (89.0) और हिमाचल प्रदेश (89.5) सबसे नीचे हैं। बेहतर स्रोत का अर्थ सुरक्षित पानी नहीं है।"
+  },
+  {
+    "id": "X283",
+    "title": "Net irrigated area as a share of net sown area, 2023-24",
+    "file": "X283_Net_irrigated_share_of_net_sown_area_RBI_2023-24.png",
+    "section": "environment",
+    "source": "RBI Handbook (Land Use Statistics)",
+    "year": "2023-24",
+    "quality": "NEW",
+    "takeaway": "Provisional figures for 2023-24 put 59.3 per cent of India's net sown area under irrigation, against 56.4 per cent in 2022-23. Puducherry and Punjab are at 100.0 per cent, then Haryana (91.7), Delhi (89.3), Uttar Pradesh (83.4) and Madhya Pradesh (81.5). Mizoram (6.1), Sikkim (15.7), Assam (17.0), Himachal Pradesh and Kerala (21.3 each) and Jharkhand (22.1) are lowest. The old claim that Jharkhand irrigates under 10 per cent does not hold: it is 22.1 here and 19.7 in 2022-23.",
+    "policy": "The provisional year breaks the series in places, so the change since 2022-23 should be read with care: Maharashtra's net irrigated area doubles in one year (up 20 points here), and the net sown area falls sharply in Andhra Pradesh, Manipur and Jharkhand. A share of net sown area says nothing about how reliable the water is, which source it comes from or whether a second crop is irrigated. Ladakh, Chandigarh and the smaller territories are not in the source tables.",
+    "tags": [
+      "irrigation",
+      "agriculture",
+      "RBI",
+      "land use"
+    ],
+    "title_hi": "शुद्ध बोए गए क्षेत्र में सिंचित हिस्सा, 2023-24",
+    "takeaway_hi": "2023-24 के अनंतिम आँकड़ों के अनुसार भारत के शुद्ध बोए गए क्षेत्र का 59.3 प्रतिशत सिंचित है, जबकि 2022-23 में यह 56.4 प्रतिशत था। पुडुचेरी और पंजाब 100.0 प्रतिशत पर हैं, फिर हरियाणा (91.7), दिल्ली (89.3), उत्तर प्रदेश (83.4) और मध्य प्रदेश (81.5)। मिजोरम (6.1), सिक्किम (15.7) और असम (17.0) सबसे नीचे हैं। झारखंड में यह 22.1 प्रतिशत है, 10 प्रतिशत से कम नहीं।"
+  },
+  {
+    "id": "X284",
+    "title": "Bank offices per lakh people, March 2025",
+    "file": "X284_Bank_offices_per_lakh_people_RBI_2025.png",
+    "section": "economy",
+    "source": "RBI Handbook of Statistics on Indian States 2024-25",
+    "year": "Mar 2025",
+    "quality": "NEW",
+    "takeaway": "India had 1,67,806 scheduled commercial bank offices at the end of March 2025, 4,590 more than a year earlier, or 11.9 per lakh people. Goa has 43.4 per lakh, then Chandigarh (36.9), Ladakh (34.3), Sikkim (26.4), Lakshadweep (24.3) and Himachal Pradesh (24.2). Bihar has 6.4, Manipur 8.0, Dadra and Nagar Haveli and Daman and Diu and Uttar Pradesh 8.1, Jharkhand 8.8 and Assam 9.0.",
+    "policy": "Offices are counted where the branch stands, not where customers live, and the population is a 2024 projection against offices at March 2025. Regional rural banks, cooperative banks, post offices and business correspondents are not in the count, and in the hills and the north-east much banking reaches people through them. Small states and territories with few offices swing on a handful of branches, and a branch count says nothing about who has an account or uses it.",
+    "tags": [
+      "banking",
+      "RBI",
+      "financial inclusion",
+      "economy"
+    ],
+    "title_hi": "प्रति लाख लोगों पर बैंक कार्यालय, मार्च 2025",
+    "takeaway_hi": "मार्च 2025 के अंत में भारत में अनुसूचित वाणिज्यिक बैंकों के 1,67,806 कार्यालय थे, एक वर्ष पहले से 4,590 अधिक, यानी प्रति लाख लोगों पर 11.9। गोवा में प्रति लाख 43.4 है, फिर चंडीगढ़ (36.9), लद्दाख (34.3) और सिक्किम (26.4)। बिहार में 6.4, मणिपुर में 8.0 और उत्तर प्रदेश में 8.1 है।"
+  },
+  {
+    "id": "X285",
+    "title": "Stage of groundwater extraction, CGWB 2024",
+    "file": "X285_Stage_of_groundwater_extraction_CGWB_2024.png",
+    "section": "environment",
+    "source": "CGWB via RBI Handbook of Statistics on Indian States",
+    "year": "2024",
+    "quality": "NEW",
+    "takeaway": "The Central Ground Water Board's 2024 assessment has India drawing 60.5 per cent of its annual extractable groundwater, against 59.3 per cent in 2023. Five states and territories draw more than the assessment counts as recharged: Punjab (156.9 per cent), Rajasthan (149.9), Dadra and Nagar Haveli and Daman and Diu (142.2), Haryana (136.0) and Delhi (100.8). Arunachal Pradesh (0.4), the Andamans (2.1), Mizoram (4.0), Meghalaya (4.6) and Nagaland (4.7) draw almost none.",
+    "policy": "A state average hides blocks that are over-exploited inside states that look safe, and aquifers that differ in depth and recharge, so it cannot say where a well will run dry. A stage above 100 per cent is a yearly balance, not a measure of how much water is left. The figures come from the RBI Handbook's reproduction of the board's assessment, and Daman and Diu is counted with Dadra and Nagar Haveli in 2024. The earlier map counted over-exploited blocks, which is a different measure.",
+    "tags": [
+      "groundwater",
+      "CGWB",
+      "water",
+      "environment"
+    ],
+    "title_hi": "भूजल दोहन का स्तर, CGWB 2024",
+    "takeaway_hi": "केंद्रीय भूजल बोर्ड के 2024 आकलन के अनुसार भारत अपने वार्षिक निकासी योग्य भूजल का 60.5 प्रतिशत निकालता है, जबकि 2023 में 59.3 प्रतिशत था। पाँच राज्य और क्षेत्र आकलन की पुनर्भरण मात्रा से अधिक निकालते हैं: पंजाब (156.9), राजस्थान (149.9), दादरा-नगर हवेली और दमन-दीव (142.2), हरियाणा (136.0) और दिल्ली (100.8)। अरुणाचल प्रदेश (0.4) में लगभग नहीं के बराबर निकासी है।"
+  },
+  {
+    "id": "X286",
+    "title": "Rice and sugarcane share of rice, sugarcane and coarse cereal area, 2024-25",
+    "file": "X286_Rice_and_sugarcane_share_of_crop_area_2024-25.png",
+    "section": "environment",
+    "source": "Ministry of Agriculture via RBI Handbook 2024-25",
+    "year": "2024-25",
+    "quality": "NEW",
+    "takeaway": "Rice and sugarcane take 68.8 per cent of the area under rice, sugarcane and coarse cereals in India in 2024-25, up from 68.2 per cent the year before. Punjab is at 97.3 per cent, which is 36 hectares of rice and sugarcane for every hectare of coarse cereals. Haryana is at 73.3 per cent, 2.7 to 1, so the old map's ten to one for Punjab and Haryana together does not hold for Haryana. At the other end are Rajasthan (5.3 per cent), Sikkim (16.8) and Himachal Pradesh (19.8).",
+    "policy": "Rice and sugarcane are the two crops that draw most irrigation water, and coarse cereals are the dryland alternative, but this is a share of three crop groups and not a water measure. Kerala (99.8) is high because coconut, rubber and spices are outside these groups, and wheat, pulses, oilseeds and cotton are outside too. Coarse cereals include maize and barley as well as millets. Goa has no coarse-cereal area in the source and is left out.",
+    "tags": [
+      "crops",
+      "rice",
+      "sugarcane",
+      "millets",
+      "water",
+      "RBI",
+      "environment"
+    ],
+    "title_hi": "चावल और गन्ने का हिस्सा, 2024-25",
+    "takeaway_hi": "2024-25 में भारत में चावल, गन्ना और मोटे अनाज के कुल क्षेत्र का 68.8 प्रतिशत चावल और गन्ने के अंतर्गत है, पिछले वर्ष 68.2 प्रतिशत था। पंजाब में यह 97.3 प्रतिशत है, यानी हर हेक्टेयर मोटे अनाज पर 36 हेक्टेयर चावल और गन्ना। हरियाणा में 73.3 प्रतिशत (2.7 के मुकाबले 1) है। सबसे कम राजस्थान (5.3), सिक्किम (16.8) और हिमाचल प्रदेश (19.8) हैं।"
   }
 ]

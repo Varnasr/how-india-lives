@@ -1,0 +1,452 @@
+{
+ "source": "RBI, Handbook of Statistics on Indian States 2024-25, Table 107 (CGWB National Compilation on Dynamic Ground Water Resources)",
+ "url": "https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States",
+ "retrieved": "2026-10-19",
+ "unit": "billion cubic metres a year; stage in per cent",
+ "india": {
+  "2023": {
+   "resource": 407.21,
+   "extraction": 241.34,
+   "stage": 59.26
+  },
+  "2024": {
+   "resource": 406.194,
+   "extraction": 245.646,
+   "stage": 60.475
+  }
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "2023": {
+    "resource": 0.557,
+    "extraction": 0.008,
+    "stage": 1.37
+   },
+   "2024": {
+    "resource": 0.34,
+    "extraction": 0.01,
+    "stage": 2.08
+   }
+  },
+  "Andhra Pradesh": {
+   "2023": {
+    "resource": 26.45,
+    "extraction": 7.48,
+    "stage": 28.3
+   },
+   "2024": {
+    "resource": 26.41,
+    "extraction": 7.88,
+    "stage": 29.83
+   }
+  },
+  "Arunachal Pradesh": {
+   "2023": {
+    "resource": 4.16,
+    "extraction": 0.02,
+    "stage": 0.42
+   },
+   "2024": {
+    "resource": 3.46,
+    "extraction": 0.01,
+    "stage": 0.39
+   }
+  },
+  "Assam": {
+   "2023": {
+    "resource": 20.93,
+    "extraction": 2.63,
+    "stage": 12.54
+   },
+   "2024": {
+    "resource": 20.89,
+    "extraction": 2.64,
+    "stage": 12.61
+   }
+  },
+  "Bihar": {
+   "2023": {
+    "resource": 30.72,
+    "extraction": 13.75,
+    "stage": 44.76
+   },
+   "2024": {
+    "resource": 30.95,
+    "extraction": 14.1,
+    "stage": 45.54
+   }
+  },
+  "Chandigarh": {
+   "2023": {
+    "resource": 0.048,
+    "extraction": 0.037,
+    "stage": 75.41
+   },
+   "2024": {
+    "resource": 0.05,
+    "extraction": 0.03,
+    "stage": 66.13
+   }
+  },
+  "Chhattisgarh": {
+   "2023": {
+    "resource": 12.18,
+    "extraction": 5.75,
+    "stage": 47.17
+   },
+   "2024": {
+    "resource": 12.93,
+    "extraction": 6.12,
+    "stage": 47.32
+   }
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "2023": {
+    "resource": null,
+    "extraction": null,
+    "stage": null
+   },
+   "2024": {
+    "resource": 0.12,
+    "extraction": 0.16,
+    "stage": 142.17
+   }
+  },
+  "Delhi": {
+   "2023": {
+    "resource": 0.34,
+    "extraction": 0.34,
+    "stage": 99.13
+   },
+   "2024": {
+    "resource": 0.34,
+    "extraction": 0.34,
+    "stage": 100.77
+   }
+  },
+  "Goa": {
+   "2023": {
+    "resource": 0.317,
+    "extraction": 0.068,
+    "stage": 21.37
+   },
+   "2024": {
+    "resource": 0.31,
+    "extraction": 0.07,
+    "stage": 22.91
+   }
+  },
+  "Gujarat": {
+   "2023": {
+    "resource": 25.41,
+    "extraction": 13.13,
+    "stage": 51.68
+   },
+   "2024": {
+    "resource": 25.58,
+    "extraction": 13.86,
+    "stage": 54.21
+   }
+  },
+  "Haryana": {
+   "2023": {
+    "resource": 8.69,
+    "extraction": 11.8,
+    "stage": 135.74
+   },
+   "2024": {
+    "resource": 9.36,
+    "extraction": 12.72,
+    "stage": 135.96
+   }
+  },
+  "Himachal Pradesh": {
+   "2023": {
+    "resource": 1.01,
+    "extraction": 0.35,
+    "stage": 34.95
+   },
+   "2024": {
+    "resource": 1.01,
+    "extraction": 0.36,
+    "stage": 35.48
+   }
+  },
+  "Jammu and Kashmir": {
+   "2023": {
+    "resource": 4.46,
+    "extraction": 1.08,
+    "stage": 24.2
+   },
+   "2024": {
+    "resource": 2.3,
+    "extraction": 0.51,
+    "stage": 22.28
+   }
+  },
+  "Jharkhand": {
+   "2023": {
+    "resource": 5.73,
+    "extraction": 1.8,
+    "stage": 31.38
+   },
+   "2024": {
+    "resource": 5.76,
+    "extraction": 1.81,
+    "stage": 31.43
+   }
+  },
+  "Karnataka": {
+   "2023": {
+    "resource": 17.08,
+    "extraction": 11.32,
+    "stage": 66.26
+   },
+   "2024": {
+    "resource": 16.88,
+    "extraction": 11.55,
+    "stage": 68.44
+   }
+  },
+  "Kerala": {
+   "2023": {
+    "resource": 5.01,
+    "extraction": 2.73,
+    "stage": 54.55
+   },
+   "2024": {
+    "resource": 5.13,
+    "extraction": 2.76,
+    "stage": 53.78
+   }
+  },
+  "Ladakh": {
+   "2023": {
+    "resource": 0.08,
+    "extraction": 0.03,
+    "stage": 37.05
+   },
+   "2024": {
+    "resource": 0.06,
+    "extraction": 0.02,
+    "stage": 30.93
+   }
+  },
+  "Lakshadweep": {
+   "2023": {
+    "resource": 0.005,
+    "extraction": 0.003,
+    "stage": 61.723
+   },
+   "2024": {
+    "resource": 0.01,
+    "extraction": 0.0,
+    "stage": 61.32
+   }
+  },
+  "Madhya Pradesh": {
+   "2023": {
+    "resource": 32.85,
+    "extraction": 19.3,
+    "stage": 58.75
+   },
+   "2024": {
+    "resource": 33.99,
+    "extraction": 19.85,
+    "stage": 58.4
+   }
+  },
+  "Maharashtra": {
+   "2023": {
+    "resource": 30.95,
+    "extraction": 16.66,
+    "stage": 53.83
+   },
+   "2024": {
+    "resource": 31.15,
+    "extraction": 16.5,
+    "stage": 52.99
+   }
+  },
+  "Manipur": {
+   "2023": {
+    "resource": 0.47,
+    "extraction": 0.04,
+    "stage": 7.99
+   },
+   "2024": {
+    "resource": 0.47,
+    "extraction": 0.04,
+    "stage": 8.0
+   }
+  },
+  "Meghalaya": {
+   "2023": {
+    "resource": 1.51,
+    "extraction": 0.07,
+    "stage": 4.58
+   },
+   "2024": {
+    "resource": 1.53,
+    "extraction": 0.07,
+    "stage": 4.6
+   }
+  },
+  "Mizoram": {
+   "2023": {
+    "resource": 0.2,
+    "extraction": 0.01,
+    "stage": 3.7
+   },
+   "2024": {
+    "resource": 0.19,
+    "extraction": 0.01,
+    "stage": 3.95
+   }
+  },
+  "Nagaland": {
+   "2023": {
+    "resource": 0.54,
+    "extraction": 0.02,
+    "stage": 3.76
+   },
+   "2024": {
+    "resource": 0.56,
+    "extraction": 0.03,
+    "stage": 4.72
+   }
+  },
+  "Odisha": {
+   "2023": {
+    "resource": 15.94,
+    "extraction": 7.39,
+    "stage": 46.33
+   },
+   "2024": {
+    "resource": 16.04,
+    "extraction": 7.74,
+    "stage": 48.23
+   }
+  },
+  "Puducherry": {
+   "2023": {
+    "resource": 0.18,
+    "extraction": 0.13,
+    "stage": 70.27
+   },
+   "2024": {
+    "resource": 0.17,
+    "extraction": 0.13,
+    "stage": 75.91
+   }
+  },
+  "Punjab": {
+   "2023": {
+    "resource": 16.98,
+    "extraction": 27.8,
+    "stage": 163.76
+   },
+   "2024": {
+    "resource": 17.63,
+    "extraction": 27.66,
+    "stage": 156.87
+   }
+  },
+  "Rajasthan": {
+   "2023": {
+    "resource": 11.25,
+    "extraction": 16.74,
+    "stage": 148.77
+   },
+   "2024": {
+    "resource": 11.37,
+    "extraction": 17.05,
+    "stage": 149.86
+   }
+  },
+  "Sikkim": {
+   "2023": {
+    "resource": 0.219,
+    "extraction": 0.012,
+    "stage": 5.54
+   },
+   "2024": {
+    "resource": 0.22,
+    "extraction": 0.01,
+    "stage": 5.85
+   }
+  },
+  "Tamil Nadu": {
+   "2023": {
+    "resource": 19.51,
+    "extraction": 14.42,
+    "stage": 73.91
+   },
+   "2024": {
+    "resource": 19.46,
+    "extraction": 14.45,
+    "stage": 74.26
+   }
+  },
+  "Telangana": {
+   "2023": {
+    "resource": 20.92,
+    "extraction": 8.09,
+    "stage": 38.65
+   },
+   "2024": {
+    "resource": 18.44,
+    "extraction": 8.47,
+    "stage": 45.91
+   }
+  },
+  "Tripura": {
+   "2023": {
+    "resource": 1.09,
+    "extraction": 0.11,
+    "stage": 9.92
+   },
+   "2024": {
+    "resource": 1.18,
+    "extraction": 0.11,
+    "stage": 9.48
+   }
+  },
+  "Uttar Pradesh": {
+   "2023": {
+    "resource": 65.57,
+    "extraction": 46.4,
+    "stage": 70.76
+   },
+   "2024": {
+    "resource": 66.38,
+    "extraction": 46.76,
+    "stage": 70.45
+   }
+  },
+  "Uttarakhand": {
+   "2023": {
+    "resource": 1.85,
+    "extraction": 0.95,
+    "stage": 51.69
+   },
+   "2024": {
+    "resource": 1.96,
+    "extraction": 1.05,
+    "stage": 53.54
+   }
+  },
+  "West Bengal": {
+   "2023": {
+    "resource": 23.9,
+    "extraction": 10.71,
+    "stage": 44.81
+   },
+   "2024": {
+    "resource": 23.56,
+    "extraction": 10.75,
+    "stage": 45.63
+   }
+  }
+ }
+}

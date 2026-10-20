@@ -121,4 +121,30 @@ def calcs(by, load, rows_to_csv, fmt, check_equal):
     files['calculations/srs_life_expectancy.csv'] = rows_to_csv(
         ['state', 'total (mapped)', 'male', 'female', 'female_minus_male', 'rural_total', 'urban_total'],
         [[s, d['total'], d['male'], d['female'], fmt(round(d['female'] - d['male'], 1)), d['rural_total'], d['urban_total']] for s, d in sorted(le.items())])
+    ir = load('data/rbi/irrigation-2024.json')
+    import build_rbi_irrigation_indicator as bi
+    check_equal('rbi_irrigated_share', bi.share(ir, '2023-24(p)'), by['rbi_irrigated_share']['values'])
+    files['calculations/rbi_irrigation.csv'] = rows_to_csv(
+        ['state', 'net_sown_2022_23_kha', 'net_irrigated_2022_23_kha', 'share_2022_23_pct', 'net_sown_2023_24p_kha', 'net_irrigated_2023_24p_kha', 'share_2023_24p_pct (mapped)'],
+        [[s, d['net_sown']['2022-23'], d['net_irrigated']['2022-23'], bi.share(ir, '2022-23')[s], d['net_sown']['2023-24(p)'], d['net_irrigated']['2023-24(p)'], bi.share(ir, '2023-24(p)')[s]] for s, d in sorted(ir['states'].items())])
+    bo = load('data/rbi/bank-offices-2025.json')
+    pop = {s: v['population_lakh'] for s, v in load('data/ncrb/crime-in-india-2024-other.json')['states'].items()}
+    check_equal('rbi_bank_offices', {s: round(d['2025'] / pop[s], 2) for s, d in bo['states'].items()}, by['rbi_bank_offices']['values'])
+    files['calculations/rbi_bank_offices.csv'] = rows_to_csv(
+        ['state', 'offices_end_march_2024', 'offices_end_march_2025', 'population_2024_lakh (NCRB projection)', 'offices_per_lakh_2025 (mapped)', 'offices_per_lakh_2024_offices_same_population'],
+        [[s, d['2024'], d['2025'], pop[s], round(d['2025'] / pop[s], 2), round(d['2024'] / pop[s], 2)] for s, d in sorted(bo['states'].items())])
+    gw = load('data/rbi/groundwater-2024.json')['states']
+    check_equal('cgwb_stage', {s: d['2024']['stage'] for s, d in gw.items()}, by['cgwb_stage']['values'])
+    files['calculations/cgwb_groundwater.csv'] = rows_to_csv(
+        ['state', 'resource_2024_bcm', 'extraction_2024_bcm', 'stage_2024_pct_printed (mapped)', 'stage_2024_recomputed', 'stage_2023_pct'],
+        [[s, d['2024']['resource'], d['2024']['extraction'], d['2024']['stage'], round(d['2024']['extraction'] / d['2024']['resource'] * 100, 1), '' if d['2023']['stage'] is None else d['2023']['stage']] for s, d in sorted(gw.items())])
+    cr = load('data/rbi/crop-area-2024.json')
+    import build_rbi_crop_indicator as bc
+    check_equal('rbi_thirsty_share', bc.share(cr, 1), by['rbi_thirsty_share']['values'])
+    sh0, sh1 = bc.share(cr, 0), bc.share(cr, 1)
+    files['calculations/rbi_crop_area.csv'] = rows_to_csv(
+        ['state', 'rice_2024_25_kha', 'sugarcane_2024_25_kha', 'coarse_cereals_2024_25_kha', 'share_rice_sugarcane_2024_25_pct (mapped)', 'rice_and_sugarcane_per_ha_coarse_2024_25', 'share_2023_24_pct'],
+        [[s, cr['rice'][s][1], (cr['sugarcane'].get(s) or [0, 0])[1] or 0, cr['coarse_cereals'][s][1], sh1[s],
+          round((cr['rice'][s][1] + ((cr['sugarcane'].get(s) or [0, 0])[1] or 0)) / cr['coarse_cereals'][s][1], 2), sh0[s]]
+         for s in sorted(sh1)])
     return files

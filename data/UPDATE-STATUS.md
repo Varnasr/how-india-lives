@@ -200,4 +200,27 @@ Read all 77 generated sheets and ran axe (WCAG 2.1 AA) over the explorer, the ho
 - **Indicators with no good or bad end** (crimes registered, notification rates, shares) were painted green at the top and red at the bottom, which read the top as good news. They now use a neutral slate. This affects 24 sheets.
 - **Home page banner** still described the 25 NFHS-6 indicators; it now describes the 77 rebuilt maps.
 
-Not found: any serious or critical axe violation, any horizontal overflow, or any explorer error across all 90 indicators. Every number in the sheet text that does not come straight from the data (source counts, definitions, derived ratios) was spot checked against the files. `data/hindi-review.csv` lists the 424 Hindi strings written for the new sheets and indicators for a native reader, with columns for corrections.
+Not found: any serious or critical axe violation, any horizontal overflow, or any explorer error across all 90 indicators. Every number in the sheet text that does not come straight from the data (source counts, definitions, derived ratios) was spot checked against the files. `data/hindi-review.csv` lists the 424 Hindi strings written for the new sheets and indicators. No native reader review is planned (owner's decision, 2026-10-20), so the Hindi is machine-written and the English governs.
+
+## Built from the RBI Handbook, 2026-10-20
+
+Firecrawl read the RBI Handbook of Statistics on Indian States 2024-25 tables (the files sit behind a bot challenge that blocks curl). About 20 credits for these three maps, at about one credit a page.
+
+| old map | new map | table |
+|---|---|---|
+| S08b | X283 | 54 and 56, net irrigated area over net sown area, 2023-24 provisional |
+| S02n | X284 | 152, offices of scheduled commercial banks, March 2025, per lakh people |
+| S08j | X285 | 107, stage of groundwater extraction, CGWB 2024 assessment (a different measure from over-exploited blocks) |
+
+The Handbook has 182 tables, so it is the cheapest route for several other maps on the waiting list; the crop-area maps (S08f, X176) use Tables 67 to 79.
+
+## S08f rebuilt as X286 (2026-10-20)
+
+Rice and sugarcane share of rice, sugarcane and coarse-cereal area, 2024-25, from RBI Handbook Tables 67, 69 and 78 (30 states; Goa has no coarse-cereal area). The old "10x for Punjab and Haryana" claim holds for Punjab (36 to 1) and not for Haryana (2.7 to 1). X176 (crop diversification) is not buildable from the Handbook's crop groups.
+
+## Closed out, 2026-10-20
+
+- **X172** is superseded by X206 and X207 (it links to X206 as its newer map).
+- **S09e** (SFLC shutdowns): the tracker returned 502 and no primary state table exists, so the map keeps its figures and carries a data note with the sourced headline counts.
+- **X184** (sex ratio at birth): Statement 16 of the SRS 2023 report (2021-23) is at printed page 66, about PDF page 97, and Firecrawl would not return more than about 90 pages per call from this host. A PDF of that page would settle it. The map carries a data note with the published top and bottom states.
+- **Waiting and unclear lists:** not worked through. The MoSPI API has no PLFS education table (X199) and its RBI dataset covers trade and exchange rates, not states. The 21 unclear maps need a decision on what each should show, not more data.

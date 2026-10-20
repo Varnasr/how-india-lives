@@ -1,0 +1,156 @@
+{
+ "source": "RBI, Handbook of Statistics on Indian States 2024-25, Table 152 (Basic Statistical Returns of Scheduled Commercial Banks)",
+ "url": "https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States",
+ "retrieved": "2026-10-19",
+ "unit": "offices at end-March",
+ "india": {
+  "2024": 163216,
+  "2025": 167806
+ },
+ "states": {
+  "Andaman and Nicobar": {
+   "2024": 74,
+   "2025": 76
+  },
+  "Andhra Pradesh": {
+   "2024": 7898,
+   "2025": 8087
+  },
+  "Arunachal Pradesh": {
+   "2024": 206,
+   "2025": 229
+  },
+  "Assam": {
+   "2024": 3190,
+   "2025": 3236
+  },
+  "Bihar": {
+   "2024": 7979,
+   "2025": 8226
+  },
+  "Chandigarh": {
+   "2024": 466,
+   "2025": 461
+  },
+  "Chhattisgarh": {
+   "2024": 3092,
+   "2025": 3187
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+   "2024": 108,
+   "2025": 113
+  },
+  "Delhi": {
+   "2024": 3894,
+   "2025": 3981
+  },
+  "Goa": {
+   "2024": 680,
+   "2025": 690
+  },
+  "Gujarat": {
+   "2024": 9191,
+   "2025": 9513
+  },
+  "Haryana": {
+   "2024": 5515,
+   "2025": 5683
+  },
+  "Himachal Pradesh": {
+   "2024": 1774,
+   "2025": 1819
+  },
+  "Jammu and Kashmir": {
+   "2024": 1933,
+   "2025": 1996
+  },
+  "Jharkhand": {
+   "2024": 3399,
+   "2025": 3518
+  },
+  "Karnataka": {
+   "2024": 11236,
+   "2025": 11395
+  },
+  "Kerala": {
+   "2024": 7130,
+   "2025": 7380
+  },
+  "Ladakh": {
+   "2024": 100,
+   "2025": 103
+  },
+  "Lakshadweep": {
+   "2024": 23,
+   "2025": 17
+  },
+  "Madhya Pradesh": {
+   "2024": 7703,
+   "2025": 7949
+  },
+  "Maharashtra": {
+   "2024": 14410,
+   "2025": 14832
+  },
+  "Manipur": {
+   "2024": 250,
+   "2025": 261
+  },
+  "Meghalaya": {
+   "2024": 388,
+   "2025": 394
+  },
+  "Mizoram": {
+   "2024": 235,
+   "2025": 241
+  },
+  "Nagaland": {
+   "2024": 209,
+   "2025": 231
+  },
+  "Odisha": {
+   "2024": 5712,
+   "2025": 5920
+  },
+  "Puducherry": {
+   "2024": 285,
+   "2025": 288
+  },
+  "Punjab": {
+   "2024": 6784,
+   "2025": 6952
+  },
+  "Rajasthan": {
+   "2024": 8552,
+   "2025": 8786
+  },
+  "Sikkim": {
+   "2024": 176,
+   "2025": 185
+  },
+  "Tamil Nadu": {
+   "2024": 12832,
+   "2025": 13204
+  },
+  "Telangana": {
+   "2024": 6047,
+   "2025": 6269
+  },
+  "Tripura": {
+   "2024": 634,
+   "2025": 646
+  },
+  "Uttar Pradesh": {
+   "2024": 18883,
+   "2025": 19436
+  },
+  "Uttarakhand": {
+   "2024": 2280,
+   "2025": 2343
+  },
+  "West Bengal": {
+   "2024": 9948,
+   "2025": 10159
+  }
+ }
+}
