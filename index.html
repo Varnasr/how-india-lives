@@ -1583,6 +1583,94 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
 }
+
+/* ── DESIGN UPGRADE, OCTOBER 2026: ImpactMojo's look (css/home.css on impactmojo.in) ── */
+.hero {
+    background:
+        radial-gradient(900px 420px at 85% 0%, var(--glow-a) 0%, transparent 70%),
+        radial-gradient(700px 360px at 5% 100%, var(--glow-b) 0%, transparent 70%),
+        var(--primary-bg);
+    border-bottom: 0;
+    padding: 92px 20px 36px;
+}
+.hero::before, .hero::after { display: none; }
+.hero-text h1 {
+    font-family: 'Amaranth', 'Inter', system-ui, sans-serif;
+    font-size: clamp(2.1rem, 8.4vw, 4.3rem);
+    font-weight: 700;
+    line-height: 1.03;
+    letter-spacing: -0.5px;
+    text-wrap: balance;
+    margin-bottom: 16px;
+}
+.hero-text h1 span {
+    background: linear-gradient(transparent 58%, var(--hl) 58%, var(--hl) 92%, transparent 92%);
+    -webkit-background-clip: border-box; background-clip: border-box;
+    -webkit-text-fill-color: currentColor; color: inherit;
+    padding: 0 0.06em; border-radius: 3px;
+    -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.hero-text .subtitle { font-size: clamp(1rem, 2.6vw, 1.15rem); color: var(--text-secondary); max-width: 34em; margin-bottom: 22px; }
+.hero-stats { display: grid; grid-template-columns: repeat(5, auto); justify-content: start; gap: 0.6rem 1.5rem; margin-bottom: 20px; }
+.hero-stat { text-align: left; }
+.hero-stat .number { font-family: 'Amaranth', 'Inter', sans-serif; font-size: clamp(1.45rem, 5.6vw, 1.9rem); line-height: 1.05; }
+.hero-stat .label { font-size: 0.66rem; letter-spacing: 0.06em; }
+.hero .method-link, .hero .surprise-btn {
+    min-height: 46px; padding: 0 20px; border-radius: 12px; font-size: 0.92rem; justify-content: center;
+}
+.hero .method-link { background: var(--accent-color); color: var(--on-accent); box-shadow: 0 8px 20px -8px var(--soft-shadow); }
+.hero .method-link:hover { background: var(--accent-hover); }
+.hero-spotlight-card { border-radius: 18px; box-shadow: 0 18px 44px -18px var(--soft-shadow); }
+@media (max-width: 560px) {
+    .hero { padding: 84px 16px 28px; }
+    .hero-stats { grid-template-columns: repeat(5, 1fr); gap: 0.4rem 0.6rem; }
+    .hero-stat .label { font-size: 0.6rem; letter-spacing: 0.03em; }
+    .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .hero .method-link, .hero .surprise-btn { min-height: 44px; padding: 0 12px; }
+}
+
+/* What is new: a tinted tile with a bottom edge, as on impactmojo.in */
+.newdata-inner {
+    background: var(--tile-blue); border: 0; border-radius: 18px; padding: 20px 22px;
+    box-shadow: inset 0 -4px 0 rgba(15, 23, 42, 0.10);
+}
+html[data-theme="dark"] .newdata-inner { box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.45); }
+.newdata strong, .newdata p { color: var(--tile-ink); }
+.newdata a.go { min-height: 44px; display: inline-flex; align-items: center; border-radius: 12px; }
+
+/* Category tabs and filter pills: larger targets, violet chips */
+.section-nav a { font-size: 0.74rem; padding: 10px 14px; min-height: 40px; display: inline-flex; align-items: center; }
+.question-pill {
+    min-height: 40px; padding: 0 14px; border-radius: 999px;
+    background: var(--chip-bg); border: 1px solid var(--chip-bd); color: var(--chip-ink); font-weight: 500;
+}
+.question-pill:hover { border-color: var(--chip-ink); }
+
+/* Search: the first thing on the page you type into, so it looks like it */
+.filter-bar input {
+    min-height: 52px; padding: 0 18px; border-radius: 14px; font-size: 1rem;
+    border: 2px solid var(--accent-color); box-shadow: 0 10px 28px -12px var(--soft-shadow);
+}
+.filter-bar input:focus { outline: 2px solid var(--accent-color); outline-offset: 2px; }
+
+/* Section headings: Amaranth with the blue-to-violet rule */
+.section-header { border-left: 0; padding-left: 0; margin-bottom: 26px; }
+.section-header h2 { font-family: 'Amaranth', 'Inter', system-ui, sans-serif; font-size: clamp(1.7rem, 5.4vw, 2.1rem); line-height: 1.15; }
+.section-header h2::after {
+    content: ""; display: block; width: 56px; height: 5px; margin-top: 10px; border-radius: 3px;
+    background: linear-gradient(90deg, var(--rule-a), var(--rule-b));
+}
+.section-header p { font-size: 0.98rem; }
+.map-count { background: var(--chip-bg); color: var(--chip-ink); border: 1px solid var(--chip-bd); font-family: 'Inter', sans-serif; }
+
+/* Map cards: rounder, softer, chips for the vintage and source */
+.map-card, .map-card-lead { border-radius: 18px; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 14px 32px -18px var(--soft-shadow); }
+.map-card .card-body { padding: 18px 20px 20px; }
+.map-card h3 { font-size: 1.05rem; font-weight: 700; }
+.map-card .takeaway { font-size: 0.93rem; color: var(--text-secondary); }
+.map-card .tag, .map-card-lead .tag { border-radius: 999px; padding: 4px 10px; font-size: 0.7rem; }
+.tag.newer { border-radius: 999px; }
+@media (prefers-reduced-motion: reduce) { .map-card:hover { transform: none; } }
 </style>
 </head>
 <body>
@@ -1599,7 +1687,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
         <div class="hero-text">
             <h1>How <span>India</span> Lives</h1>
             <p class="subtitle">
-                259 state-level maps revealing how different India's states truly are — on health, wealth, gender, food, faith, work, and everything in between.
+                259 state-level maps showing how differently India's states live: health, wealth, gender, food, faith, work and more.
             </p>
             <div class="hero-stats">
                 <div class="hero-stat" title="Every map covers all 36 states and union territories"><span class="number">259</span><span class="label">Maps</span></div>
@@ -1634,7 +1722,7 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
 <!-- What is new in the data -->
 <aside class="newdata" aria-label="New data">
     <div class="newdata-inner">
-        <p><strong>New: 77 maps rebuilt from current sources.</strong> They draw on NFHS-6 (28 indicators, each with the change since NFHS-5), MoSPI surveys, NCRB 2024, ASER 2024, TRAI, SRS and others, and every figure comes with its calculation in the CSV downloads. Older maps say which census or survey round they use.</p>
+        <p><strong>93 maps are drawn from current sources.</strong> They draw on NFHS-6 (28 indicators, each with the change since NFHS-5), MoSPI surveys, NCRB 2024, ASER 2024, TRAI, SRS and others, and every figure comes with its calculation in the CSV downloads. Older maps say which census or survey round they use.</p>
         <a class="go" href="explore.html#n6_stunting/change">Explore the NFHS-6 change maps</a>
     </div>
 </aside>

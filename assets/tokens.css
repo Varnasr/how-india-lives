@@ -134,3 +134,32 @@ footer p a,
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
+
+/* Surfaces and accents for the October 2026 redesign, taken from impactmojo.in (css/home.css).
+   --chip-ink is ink on --chip-bg; --tile-ink is ink on --tile-blue. Neither is used as a fill. */
+:root {
+  --glow-a:     #E0F2FE;
+  --glow-b:     #EEF2FF;
+  --hl:         #E4DAFF;
+  --rule-a:     #1D4ED8;
+  --rule-b:     #7C3AED;
+  --chip-bg:    #F1ECFF;
+  --chip-bd:    #D9CCFF;
+  --chip-ink:   #5B21B6;
+  --tile-blue:  #EAF1FF;
+  --tile-ink:   #0F172A;
+  --soft-shadow: rgba(3, 105, 161, 0.12);
+}
+html[data-theme="dark"] {
+  --glow-a:     rgba(56, 189, 248, 0.14);
+  --glow-b:     rgba(129, 140, 248, 0.12);
+  --hl:         #3B2A6B;
+  --rule-a:     #60A5FA;
+  --rule-b:     #A78BFA;
+  --chip-bg:    #211A3D;
+  --chip-bd:    #3B2F66;
+  --chip-ink:   #C4B5FD;
+  --tile-blue:  #14213D;
+  --tile-ink:   #F1F5F9;
+  --soft-shadow: rgba(0, 0, 0, 0.35);
+}
