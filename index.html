@@ -1865,15 +1865,11 @@ function altFor(m) {
     return ('Choropleth map of India by state: ' + ((m && m.title) || '') + '.' + t).replace(/"/g, "'");
 }
 
-// WebP is generated into the deploy artifact (see .github/workflows/pages.yml),
-// so it only exists on the production host. A <picture> <source> that 404s does
-// NOT fall back to <img>, so gate the WebP source to the prod domain; everywhere
-// else (local dev, previews) serve the PNG directly.
-const USE_WEBP = /(^|\.)impactmojo\.in$/i.test(location.hostname);
+// Map sheets are served as PNG. A <picture> <source> that 404s does not fall back to <img>,
+// and the .webp copies existed only in the old GitHub Pages artifact, never on Netlify,
+// so a WebP source here leaves every map broken. Add one back only if the build writes the files.
 function pic(src, alt, extra) {
-    const img = `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"${extra ? ' ' + extra : ''}>`;
-    if (!USE_WEBP) return img;
-    return `<picture><source type="image/webp" srcset="${src.replace(/\.png$/i, '.webp')}">${img}</picture>`;
+    return `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"${extra ? ' ' + extra : ''}>`;
 }
 
 const SECTION_ORDER = [
