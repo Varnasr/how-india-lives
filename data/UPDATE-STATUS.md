@@ -243,3 +243,9 @@ Rice and sugarcane share of rice, sugarcane and coarse-cereal area, 2024-25, fro
 **Kept with a data note (16):** S02d, S02e, S02f, S02l, S02m, S02o, S04p, S08h, S08k, S09d, S11b, S11d, X175, X179, X197 and X199. Each note says why it was not refreshed. In S08k's case the Lok Sabha reply of 10 March 2026 gives only cumulative applications enrolled, not a share of farmers. For S09d the takeaway's figures could not be checked against a published table.
 
 **Not read:** the PM-JAY annexure (a scanned image), the JJM state table, the Anganwadi centres by state, India Post circles and AAI airport traffic.
+
+## Four more dropped, and what is left, 2026-10-20
+
+Dropped because they cannot be built as defined: S02f (night-time light is a computed raster aggregate, not a published series), S04p (needs unit-level PLFS microdata that this work does not hold), S08k (PMFBY publishes cumulative applications, with no farmer denominator) and S02o (India Post reports by circle, and circles are not states).
+
+**Twelve maps remain, each kept with a note, each buildable if its source can be reached:** S02d (income tax filers), S02e and S11b (MGNREGA, now VB-G RAM G), S02l (Jal Jeevan Mission tap water), S02m (rural hours of power), S08h (municipal solid waste), S09d (police per lakh), S11d (Anganwadi centres), X175 (fertiliser per hectare), X179 (women's SHG membership), X197 (air passengers) and X199 (degree attainment gap). Plus 28 vintage-labelled maps that wait for new releases.

@@ -1131,25 +1131,6 @@
     "data_note": "Not refreshed. MGNREGA was replaced by VB-G RAM G from 1 July 2026, and the scheme's MIS for 2025-26 omits Kerala and Maharashtra and could not be read here. The map shows the year it was published for."
   },
   {
-    "id": "S02f",
-    "title": "Night-time Light Radiance Economic Activity P",
-    "file": "S02f_Night-time_Light_Radiance_Economic_Activity_P.png",
-    "section": "economy",
-    "source": "NASA VIIRS",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Night-time light intensity in Mumbai is 100x that of rural Bihar — satellite data confirms the development gap.",
-    "policy": "Night-light data is a bias-free proxy for economic activity, useful where GDP estimates are contested.",
-    "tags": [
-      "night light",
-      "satellite",
-      "economic activity"
-    ],
-    "title_hi": "रात्रिकालीन प्रकाश तीव्रता — आर्थिक गतिविधि",
-    "takeaway_hi": "मुंबई में रात्रिकालीन प्रकाश तीव्रता ग्रामीण बिहार की तुलना में 100 गुना है — उपग्रह आँकड़े विकास के अंतर की पुष्टि करते हैं।",
-    "data_note": "Not refreshed. Night-time light radiance by state is a computed aggregate of satellite rasters, not a published series, and results depend on the data version and boundary file, so a new map would not match this one."
-  },
-  {
     "id": "S02g",
     "title": "GSDP Per Capita Rs Lakh",
     "file": "S02g_GSDP_Per_Capita_Rs_Lakh.png",
@@ -1281,25 +1262,6 @@
     "title_hi": "प्रति लाख जनसंख्या बैंक शाखाएँ",
     "takeaway_hi": "कर्नाटक में प्रति लाख 16+ बैंक शाखाएँ हैं; पूर्वोत्तर राज्यों में 8 से कम।",
     "newer": "X284"
-  },
-  {
-    "id": "S02o",
-    "title": "Post Offices per Lakh Population",
-    "file": "S02o_Post_Offices_per_Lakh_Population.png",
-    "section": "economy",
-    "source": "RBI/DoP",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "India's post office network is denser than its bank network, especially in rural areas — a legacy asset.",
-    "policy": "Post offices can deliver last-mile financial services, pensions, and insurance where banks won't open branches.",
-    "tags": [
-      "post offices",
-      "infrastructure",
-      "economy"
-    ],
-    "title_hi": "प्रति लाख जनसंख्या डाकघर",
-    "takeaway_hi": "भारत का डाकघर नेटवर्क उसके बैंक नेटवर्क से सघन है, विशेषकर ग्रामीण इलाकों में — एक विरासती संपत्ति।",
-    "data_note": "Not refreshed. India Post reports by postal circle, and circles do not match states (Maharashtra's circle includes Goa), so a state figure needs an allocation rule that this update did not make."
   },
   {
     "id": "S02p",
@@ -1985,25 +1947,6 @@
     "data_note": "This map draws on NFHS-5 and a second source recorded as NCRB. NFHS-6 does not repeat the survey measure, so the combined figure has not been rebuilt and remains as made in 2019-22."
   },
   {
-    "id": "S04p",
-    "title": "Female Domestic Workers as % of All Workers",
-    "file": "S04p_Female_Domestic_Workers_as_pct_of_All_Workers.png",
-    "section": "gender",
-    "source": "PLFS",
-    "year": "2022-23",
-    "quality": "NEW",
-    "takeaway": "Female domestic workers are concentrated in metros and southern states — an invisible workforce.",
-    "policy": "Domestic workers lack minimum wage protection, social security, and safe working conditions in most states.",
-    "tags": [
-      "domestic workers",
-      "informal labour",
-      "gender"
-    ],
-    "title_hi": "सभी श्रमिकों में महिला घरेलू कामगार %",
-    "takeaway_hi": "महिला घरेलू कामगार महानगरों और दक्षिणी राज्यों में केंद्रित हैं — एक अदृश्य कार्यबल।",
-    "data_note": "Not refreshed. Domestic work is an industry code that needs unit-level PLFS microdata with survey weights, the PLFS annual report does not print it by state and sex, and state samples are thin."
-  },
-  {
     "id": "S05a",
     "title": "SC + ST Population Share",
     "file": "S05a_SC_+_ST_Population_Share.png",
@@ -2549,25 +2492,6 @@
     "title_hi": "भूजल अति-दोहित ब्लॉक",
     "takeaway_hi": "पंजाब और हरियाणा में सबसे अधिक अति-दोहित भूजल ब्लॉक हैं — हरित क्रांति की छिपी हुई कीमत।",
     "newer": "X290"
-  },
-  {
-    "id": "S08k",
-    "title": "PM Fasal Bima Crop Insurance Coverage",
-    "file": "S08k_PM_Fasal_Bima_Crop_Insurance_Coverage.png",
-    "section": "environment",
-    "source": "PMFBY",
-    "year": "2023",
-    "quality": "NEW",
-    "takeaway": "Crop insurance (PMFBY) coverage varies 5x between states — farmer awareness and insurer presence matter.",
-    "policy": "Crop insurance is the primary climate adaptation tool for small farmers; uneven coverage leaves the most vulnerable exposed.",
-    "tags": [
-      "crop insurance",
-      "PMFBY",
-      "agriculture"
-    ],
-    "title_hi": "पीएम फसल बीमा कवरेज",
-    "takeaway_hi": "फसल बीमा (PMFBY) कवरेज राज्यों के बीच 5 गुना तक भिन्न है — किसान जागरूकता और बीमाकर्ता की मौजूदगी मायने रखती है।",
-    "data_note": "Not refreshed as a coverage share. The Lok Sabha reply of 10 March 2026 gives cumulative applications enrolled by state for 2016-17 to 2024-25, which is not a share of farmers, and no state count of farmers was used."
   },
   {
     "id": "S08l",
