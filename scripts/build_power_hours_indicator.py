@@ -16,7 +16,7 @@ def hours(raw):
 def build():
     raw = load('data/power/supply-hours-2022.json')
     return [{
-        'id': 'power_hours_rural', 'theme': 'Infrastructure', 'name': 'Rural Power Supply, Hours a Day', 'unit': 'average hours a day',
+        'id': 'power_hours_rural', 'theme': 'Infrastructure', 'name': 'Rural power supply, hours a day', 'unit': 'average hours a day',
         'source': 'Ministry of Power, Rajya Sabha Unstarred Question 3185 (28 March 2023), Annexure I', 'year': Y,
         'desc': 'Average hours of power supply a day on rural 11 kV feeders in 2021-22, as reported by distribution utilities to the National Power Portal. Only 20 states and Puducherry report a rural figure for the year, and the rest are left grey. The figure is the utility\'s own reporting on feeders, not what a household measures. India: 20.5 hours.',
         'higherIsBetter': True, 'national': raw['all_india'][Y]['rural'], 'values': hours(raw), 'sourceUrl': raw['url'], 'retrieved': raw['retrieved'],

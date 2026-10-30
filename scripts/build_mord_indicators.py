@@ -29,21 +29,21 @@ def build():
     rates, nat = shg_rates(shg)
     common = {'retrieved': m['retrieved']}
     return [{
-        'id': 'mgnrega_women_pct', 'theme': 'Gender', 'name': 'Women\'s Share of MGNREGA Persondays', 'unit': '% of persondays',
+        'id': 'mgnrega_women_pct', 'theme': 'Gender', 'name': 'Women\'s share of MGNREGA persondays', 'unit': '% of persondays',
         'source': 'Ministry of Rural Development, State Performance Report 2024-25, Annexure II', 'year': '2024-25',
         'desc': 'Share of the persondays of work generated under the Mahatma Gandhi NREGA in 2024-25 that went to women, as printed in whole per cent. West Bengal (no Labour Budget was approved, so no work is recorded) and Lakshadweep (no work recorded) are left out. The Act asks that at least one third of the persondays go to women. India: 58%.',
         'higherIsBetter': None, 'national': m['all_india']['women_pct'], 'values': women, 'sourceUrl': SPR, **common,
         'name_hi': 'मनरेगा कार्य-दिवसों में महिलाओं का हिस्सा', 'unit_hi': 'कार्य-दिवसों का %',
         'desc_hi': '2024-25 में महात्मा गांधी नरेगा के अंतर्गत सृजित कार्य-दिवसों में महिलाओं का हिस्सा, पूर्ण प्रतिशत में। पश्चिम बंगाल (कोई श्रम बजट स्वीकृत नहीं हुआ) और लक्षद्वीप (कोई कार्य दर्ज नहीं) शामिल नहीं हैं। अधिनियम के अनुसार कम से कम एक तिहाई कार्य-दिवस महिलाओं को मिलने चाहिए। भारत: 58%।',
     }, {
-        'id': 'mgnrega_100_days_pct', 'theme': 'Economy', 'name': 'Households Completing 100 Days of MGNREGA Work', 'unit': '% of households that worked',
+        'id': 'mgnrega_100_days_pct', 'theme': 'Economy', 'name': 'Households completing 100 days of MGNREGA work', 'unit': '% of households that worked',
         'source': 'Ministry of Rural Development, State Performance Report 2024-25, Annexure I', 'year': '2024-25',
         'desc': 'Per cent of households that completed 100 days of work under the Mahatma Gandhi NREGA in 2024-25, as printed in whole per cent. The base is households that worked: the report counts 40,66,631 such households against 5.78 crore that worked. West Bengal (no Labour Budget was approved) and Lakshadweep (no work recorded) are left out. India: 7%.',
         'higherIsBetter': None, 'national': m['all_india']['hh_100_days_pct'], 'values': hh100, 'sourceUrl': SPR, **common,
         'name_hi': 'मनरेगा में 100 दिन का काम पूरा करने वाले परिवार', 'unit_hi': 'काम करने वाले परिवारों का %',
         'desc_hi': '2024-25 में महात्मा गांधी नरेगा में 100 दिन का काम पूरा करने वाले परिवारों का प्रतिशत, पूर्ण प्रतिशत में। आधार काम करने वाले परिवार हैं (5.78 करोड़ में से 40,66,631)। पश्चिम बंगाल और लक्षद्वीप शामिल नहीं हैं। भारत: 7%।',
     }, {
-        'id': 'nrlm_shg_per_lakh', 'theme': 'Gender', 'name': 'Women Self-Help Groups per Lakh People', 'unit': 'groups per lakh people',
+        'id': 'nrlm_shg_per_lakh', 'theme': 'Gender', 'name': 'Women self-help groups per lakh people', 'unit': 'groups per lakh people',
         'source': 'Ministry of Rural Development, Lok Sabha Unstarred Question 3687 (11 August 2026), Annexure I, with NCRB 2024 population projections', 'year': 'to August 2026',
         'desc': 'Women self-help groups set up under DAY-NRLM since the Mission began, 92.30 lakh in all, divided by the state\'s 2024 population projection as printed by NCRB (lakh people). The count is of groups and not of members, it is cumulative and includes groups that have since stopped meeting, and the denominator is the whole population and not the rural population the Mission works in, so heavily urban states and territories read low. Delhi and Chandigarh are outside the Mission. India: 657.',
         'higherIsBetter': None, 'national': nat, 'values': rates, 'sourceUrl': shg['url'], 'retrieved': shg['retrieved'],

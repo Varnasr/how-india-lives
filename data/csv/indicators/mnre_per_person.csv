@@ -1,38 +1,38 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-mnre_per_person,Installed Renewable Capacity per Person,Andaman and Nicobar,95,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Andhra Pradesh,312,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Arunachal Pradesh,1438,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Assam,31,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Bihar,5,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Chandigarh,63,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Chhattisgarh,83,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Dadra and Nagar Haveli and Daman and Diu,106,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Delhi,25,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Goa,61,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Gujarat,724,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Haryana,106,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Himachal Pradesh,1726,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Jammu and Kashmir,271,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Jharkhand,14,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Karnataka,402,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Kerala,139,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Ladakh,512,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Lakshadweep,132,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Madhya Pradesh,145,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Maharashtra,260,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Manipur,39,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Meghalaya,117,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Mizoram,112,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Nagaland,50,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Odisha,75,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Puducherry,54,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Punjab,112,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Rajasthan,612,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Sikkim,3350,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Tamil Nadu,386,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Telangana,210,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Tripura,14,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Uttar Pradesh,37,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,Uttarakhand,536,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,West Bengal,22,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
-mnre_per_person,Installed Renewable Capacity per Person,India (national figure as published or computed),208,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Andaman and Nicobar,95,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Andhra Pradesh,312,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Arunachal Pradesh,1438,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Assam,31,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Bihar,5,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Chandigarh,63,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Chhattisgarh,83,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Dadra and Nagar Haveli and Daman and Diu,106,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Delhi,25,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Goa,61,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Gujarat,724,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Haryana,106,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Himachal Pradesh,1726,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Jammu and Kashmir,271,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Jharkhand,14,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Karnataka,402,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Kerala,139,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Ladakh,512,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Lakshadweep,132,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Madhya Pradesh,145,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Maharashtra,260,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Manipur,39,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Meghalaya,117,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Mizoram,112,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Nagaland,50,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Odisha,75,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Puducherry,54,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Punjab,112,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Rajasthan,612,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Sikkim,3350,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Tamil Nadu,386,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Telangana,210,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Tripura,14,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Uttar Pradesh,37,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,Uttarakhand,536,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,West Bengal,22,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19
+mnre_per_person,Installed renewable capacity per person,India (national figure as published or computed),208,watts per person,2026,,,,,MNRE (via MoSPI) and NCP population projection,https://mnre.gov.in/,2026-10-19

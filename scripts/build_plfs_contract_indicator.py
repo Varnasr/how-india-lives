@@ -24,7 +24,7 @@ def build(raw):
     a, b = tab('2023-24'), tab('2022-23')
     nat, natp = a.pop('All India'), b.pop('All India')
     return [{
-        'id': 'plfs_no_contract', 'theme': 'Economy', 'name': 'Regular Employees with No Written Contract', 'unit': '% of regular wage and salaried employees',
+        'id': 'plfs_no_contract', 'theme': 'Economy', 'name': 'Regular employees with no written contract', 'unit': '% of regular wage and salaried employees',
         'source': 'PLFS annual (MoSPI)', 'year': '2023-24',
         'desc': 'Share of regular wage and salaried employees who have no written job contract, persons, rural and urban, 2023-24, with 2022-23 beside it. It covers regular employees only, not casual workers or the self-employed.',
         'higherIsBetter': False, 'national': nat, 'values': dict(sorted(a.items())), 'previous': dict(sorted(b.items())), 'previousYear': '2022-23',

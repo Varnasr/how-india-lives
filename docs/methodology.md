@@ -1,20 +1,20 @@
-# Data Sources & Methodology
+# Data sources and methodology
 
-## Primary Data Sources
+## Primary data sources
 
-### NFHS-5 (2019-21) — ~80 maps
+### NFHS-5 (2019-21), about 80 maps
 The National Family Health Survey is India's most comprehensive household survey, covering health, demographics, gender, nutrition, and reproductive health across all states and districts.
 
-### Census of India (2011) — ~45 maps
+### Census of India (2011), about 45 maps
 The decennial census provides the most complete picture of India's population, housing, employment, and social composition. While dated, it remains the only source for many indicators at full geographic resolution.
 
-### PLFS (2022-23) — ~15 maps
+### PLFS (2022-23), about 15 maps
 The Periodic Labour Force Survey by NSSO provides the most current employment and labour statistics, including workforce participation, informality, and sectoral composition.
 
-### NCRB Crime in India (2022) — ~10 maps
+### NCRB Crime in India (2022), about 10 maps
 The National Crime Records Bureau publishes annual crime statistics by state, including crimes against women, SC/ST atrocities, and cybercrime.
 
-### Government Dashboards — ~20 maps
+### Government dashboards, about 20 maps
 Official dashboards for flagship schemes provide near-real-time data:
 - MGNREGA (employment guarantee)
 - Jal Jeevan Mission (tap water)
@@ -22,19 +22,19 @@ Official dashboards for flagship schemes provide near-real-time data:
 - UDISE+ (school education)
 - DPIIT (industrial investment)
 
-### Other Sources — ~35 maps
-- **IMD** — India Meteorological Department (climate)
-- **CGWB** — Central Ground Water Board (groundwater)
-- **FSI** — Forest Survey of India (forest cover)
-- **ECI** — Election Commission of India (voter data)
-- **ADR** — Association for Democratic Reforms (candidate data)
-- **TRAI** — Telecom Regulatory Authority (digital access)
-- **RBI** — Reserve Bank of India (financial data)
-- **NASA VIIRS** — Night light satellite imagery
-- **Pew Research** — Religious composition surveys
-- **NACO** — National AIDS Control Organisation
+### Other sources, about 35 maps
+- **IMD**: India Meteorological Department (climate)
+- **CGWB**: Central Ground Water Board (groundwater)
+- **FSI**: Forest Survey of India (forest cover)
+- **ECI**: Election Commission of India (voter data)
+- **ADR**: Association for Democratic Reforms (candidate data)
+- **TRAI**: Telecom Regulatory Authority (digital access)
+- **RBI**: Reserve Bank of India (financial data)
+- **NASA VIIRS**: Night light satellite imagery
+- **Pew Research**: Religious composition surveys
+- **NACO**: National AIDS Control Organisation
 
-## Quality Flags
+## Quality flags
 
 Each map carries one of three quality flags:
 
@@ -44,7 +44,7 @@ Each map carries one of three quality flags:
 | **NEW** | Recently added to the catalog; data is sound but the map is new |
 | **UNCERTAIN** | Data quality concerns, limited sample, proxy indicators, or dated source |
 
-## Map Rendering Pipeline
+## Map rendering pipeline
 
 1. Data is compiled into a state-level CSV for each indicator
 2. GeoPandas reads Natural Earth 10m shapefiles for India's boundaries

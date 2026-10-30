@@ -18,11 +18,11 @@ URL = 'https://www.mospi.gov.in/periodic-labour-force-survey-plfs'
 
 def build(raw):
     spec = [
-        ('plfs_ur', 'Unemployment Rate', 'of the labour force aged 15 and above',
+        ('plfs_ur', 'Unemployment rate', 'of the labour force aged 15 and above',
          'Share of the labour force aged 15 and above who are without work and looking for it, on usual status (principal plus subsidiary).',
          'बेरोज़गारी दर', '% श्रम बल (15 वर्ष और अधिक)',
          '15 वर्ष और अधिक के श्रम बल का वह हिस्सा जो काम से बाहर है और काम खोज रहा है (सामान्य स्थिति: मुख्य और सहायक)।'),
-        ('plfs_yur', 'Youth Unemployment Rate', 'of the labour force aged 15-29',
+        ('plfs_yur', 'Youth unemployment rate', 'of the labour force aged 15-29',
          'Share of the labour force aged 15-29 who are without work and looking for it, on usual status (principal plus subsidiary).',
          'युवा बेरोज़गारी दर', '% श्रम बल (15-29 वर्ष)',
          '15-29 वर्ष के श्रम बल का वह हिस्सा जो काम से बाहर है और काम खोज रहा है (सामान्य स्थिति: मुख्य और सहायक)।'),

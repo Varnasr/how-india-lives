@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'cpcb_prs_critical', 'theme': 'Environment', 'name': 'Critically Polluted River Stretches', 'unit': 'stretches with BOD above 30 mg/L',
+        'id': 'cpcb_prs_critical', 'theme': 'Environment', 'name': 'Critically polluted river stretches', 'unit': 'stretches with BOD above 30 mg/L',
         'source': 'CPCB, Polluted River Stretches 2025', 'year': '2025',
         'desc': 'Number of river stretches or locations in the most polluted class (Priority I, biochemical oxygen demand above 30 mg/L), from monitoring in 2022 and 2023, published September 2025. A count, not a rate: states differ in river length and in how many locations are monitored. The 32 states and UTs in the CPCB table are shown; the rest had no polluted stretch listed.',
         'higherIsBetter': False, 'national': None, 'values': {s: r['priority_I'] for s, r in S.items()},

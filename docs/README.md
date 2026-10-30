@@ -1,26 +1,26 @@
-# How India Lives — Documentation
+# How India Lives documentation
 
-Welcome to the documentation for **How India Lives** — a storytelling-first visual atlas of 205 state-level choropleth maps and 10 curated stories showcasing India's development diversity.
+Welcome to the documentation for **How India Lives**, a storytelling-first visual atlas of 259 state-level choropleth maps and 10 curated stories about India's development diversity.
 
 **Live site:** [howindialives.impactmojo.in](https://howindialives.impactmojo.in)
 
-## Quick Links
+## Quick links
 
-- [About the Project](about.md)
-- [Data Sources & Methodology](methodology.md)
-- [Map Themes Guide](themes.md)
-- [Visual Stories](stories.md)
-- [Contributing Guide](contributing.md)
+- [About the project](about.md)
+- [Data sources and methodology](methodology.md)
+- [Map themes guide](themes.md)
+- [Visual stories](stories.md)
+- [Contributing guide](contributing.md)
 - [Roadmap](roadmap.md)
 - [FAQ](faq.md)
 
 ## What is this?
 
-India is not one country when it comes to development outcomes. These 205 maps make that diversity visible — one indicator at a time, across all 28 states and 8 union territories.
+On development outcomes, India behaves like several countries. These 259 maps make that diversity visible, one indicator at a time, across all 28 states and 8 union territories.
 
 The project exists because one-size-fits-all policy doesn't work for a country where:
-- Life expectancy varies by **13 years** between states
-- Female labour participation varies by **10x**
+- Life expectancy varies by **more than 10 years** between states (SRS 2019-23)
+- Female labour force participation ranges from **13.1% to 66.7%** (PLFS 2025)
 - Vegetarianism ranges from **5% to 60%**
 
 ## Who is this for?
@@ -39,4 +39,4 @@ The project exists because one-size-fits-all policy doesn't work for a country w
 4. Read the [10 visual stories](https://howindialives.impactmojo.in/stories.html) for curated narratives
 5. Explore a specific state or compare two states side-by-side
 6. Share via WhatsApp, download maps, generate story cards, cite, or embed
-7. Works offline as a PWA — install it for classroom use
+7. Works offline as a PWA, so it can be installed for classroom use

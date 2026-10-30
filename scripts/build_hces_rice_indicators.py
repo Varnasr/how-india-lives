@@ -36,7 +36,7 @@ def build(raw):
         cur, prev = share(t, ('2023-24', sec)), share(t, ('2022-23', sec))
         nat, nat0 = cur.pop('All India'), prev.pop('All India')
         out.append({
-            'id': i, 'theme': 'Economy', 'name': 'Rice Share of Cereal Consumption (%s)' % sec, 'unit': '% of per-capita cereal quantity',
+            'id': i, 'theme': 'Economy', 'name': 'Rice share of cereal consumption (%s)' % sec.lower(), 'unit': '% of per-capita cereal quantity',
             'source': 'MoSPI HCES 2023-24', 'year': '2023-24',
             'desc': 'Rice as a share of all cereals eaten per person per month, in kilograms, %s households, HCES 2023-24 (without imputation). A quantity share, not calories or rupees. The rest is wheat, coarse grains (millets and maize) and other cereals. Rural and urban are separate series because HCES publishes no combined one.' % sec.lower(),
             'higherIsBetter': None, 'national': nat, 'values': cur, 'previous': prev, 'previousYear': '2022-23', 'nationalPrevious': nat0,

@@ -1,36 +1,36 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-forest_change,Change in Forest Cover,Andaman and Nicobar,-4.02,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Andhra Pradesh,-138.66,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Arunachal Pradesh,-91.17,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Assam,-11.76,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Bihar,129.19,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Chandigarh,1.2,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Chhattisgarh,-19.13,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Delhi,-0.08,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Goa,-1.5,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Gujarat,180.07,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Haryana,-13.96,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Himachal Pradesh,54.73,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Jammu and Kashmir,83.55,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Jharkhand,58.81,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Karnataka,147.7,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Kerala,133.42,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Ladakh,7.37,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Lakshadweep,0.16,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Madhya Pradesh,-371.54,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Maharashtra,-54.47,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Manipur,-54.83,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Meghalaya,-30.0,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Mizoram,241.73,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Nagaland,-51.89,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Odisha,151.89,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Punjab,-0.45,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Rajasthan,-83.8,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Sikkim,5.19,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Tamil Nadu,-60.96,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Telangana,-100.42,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Tripura,-95.31,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Uttar Pradesh,118.43,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,Uttarakhand,-22.98,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,West Bengal,50.22,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
-forest_change,Change in Forest Cover,India (national figure as published or computed),156.41,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Andaman and Nicobar,-4.02,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Andhra Pradesh,-138.66,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Arunachal Pradesh,-91.17,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Assam,-11.76,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Bihar,129.19,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Chandigarh,1.2,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Chhattisgarh,-19.13,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Delhi,-0.08,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Goa,-1.5,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Gujarat,180.07,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Haryana,-13.96,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Himachal Pradesh,54.73,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Jammu and Kashmir,83.55,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Jharkhand,58.81,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Karnataka,147.7,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Kerala,133.42,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Ladakh,7.37,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Lakshadweep,0.16,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Madhya Pradesh,-371.54,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Maharashtra,-54.47,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Manipur,-54.83,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Meghalaya,-30.0,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Mizoram,241.73,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Nagaland,-51.89,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Odisha,151.89,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Punjab,-0.45,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Rajasthan,-83.8,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Sikkim,5.19,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Tamil Nadu,-60.96,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Telangana,-100.42,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Tripura,-95.31,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Uttar Pradesh,118.43,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,Uttarakhand,-22.98,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,West Bengal,50.22,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19
+forest_change,Change in forest cover,India (national figure as published or computed),156.41,"sq km, ISFR 2021 to 2023",2021-23,,,,,"Forest Survey of India (ISFR 2023, via MoSPI)",https://fsi.nic.in/forest-report-2023,2026-10-19

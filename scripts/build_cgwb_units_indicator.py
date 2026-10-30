@@ -13,7 +13,7 @@ def share(raw):
 
 def build(raw):
     return [{
-        'id': 'cgwb_oe_share', 'theme': 'Environment', 'name': 'Over-Exploited Groundwater Units', 'unit': '% of assessed blocks, taluks or mandals',
+        'id': 'cgwb_oe_share', 'theme': 'Environment', 'name': 'Over-exploited groundwater units', 'unit': '% of assessed blocks, taluks or mandals',
         'source': 'CGWB, National Compilation on Dynamic Ground Water Resources of India, 2025', 'year': '2025',
         'desc': 'Share of assessment units (blocks, taluks or mandals) categorised over-exploited in the 2025 groundwater assessment, meaning yearly extraction exceeds the yearly replenishable recharge. The unit differs by state, so a state with few large units (Uttarakhand has 20, Delhi 34) can swing sharply on one unit, and a state average hides which parts of it are depleted. India: 730 of 6,762 units, against 751 of 6,746 in 2024. Saline units are counted in the total and are not over-exploited.',
         'higherIsBetter': False, 'national': round(raw['india']['over_exploited'] / raw['india']['assessed'] * 100, 1),

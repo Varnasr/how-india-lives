@@ -27,14 +27,14 @@ def build(raw):
     h = raw['heat_wave_days']['values']
     hv = {s: round(sum(v) / 3, 1) for s, v in h.items() if all(x is not None for x in v)}
     return [
-        {'id': 'forest_change', 'theme': 'Environment', 'name': 'Change in Forest Cover', 'unit': 'sq km, ISFR 2021 to 2023',
+        {'id': 'forest_change', 'theme': 'Environment', 'name': 'Change in forest cover', 'unit': 'sq km, ISFR 2021 to 2023',
          'source': 'Forest Survey of India (ISFR 2023, via MoSPI)', 'year': '2021-23',
          'desc': 'Change in forest cover between the 2021 and 2023 Indian State of Forest Reports. Forest cover is satellite-measured tree canopy over one hectare, so plantations count and a gain is not necessarily natural forest.',
          'higherIsBetter': None, 'national': round(total, 2), 'values': dict(sorted(vals.items())),
          'sourceUrl': 'https://fsi.nic.in/forest-report-2023', 'retrieved': '2026-10-19',
          'name_hi': 'वन आच्छादन में बदलाव', 'unit_hi': 'वर्ग किमी, ISFR 2021 से 2023',
          'desc_hi': 'भारत वन स्थिति रिपोर्ट 2021 और 2023 के बीच वन आच्छादन में बदलाव। वन आच्छादन उपग्रह से मापा गया एक हेक्टेयर से बड़ा वृक्ष-आच्छादन है, इसलिए वृक्षारोपण भी गिने जाते हैं और बढ़त का मतलब हमेशा प्राकृतिक वन नहीं।'},
-        {'id': 'heat_wave_days', 'theme': 'Environment', 'name': 'Heat-Wave Days, 2022-24 Average', 'unit': 'days a summer',
+        {'id': 'heat_wave_days', 'theme': 'Environment', 'name': 'Heat-wave days, 2022-24 average', 'unit': 'days a summer',
          'source': 'IMD (via MoSPI EnviStats)', 'year': '2022-24',
          'desc': 'Average number of heat-wave days reported in the summer season, averaged over 2022, 2023 and 2024. Single years swing widely, so only states reporting all three years are shown.',
          'higherIsBetter': False, 'national': None, 'values': dict(sorted(hv.items())),

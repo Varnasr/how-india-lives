@@ -1,38 +1,38 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-plfs_yur,Youth Unemployment Rate,Andaman and Nicobar,31.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Andhra Pradesh,16.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Arunachal Pradesh,19.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Assam,12.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Bihar,12.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Chandigarh,10.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Chhattisgarh,6.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Dadra and Nagar Haveli and Daman and Diu,4.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Delhi,14.4,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Goa,14.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Gujarat,2.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Haryana,11.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Himachal Pradesh,19.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Jammu and Kashmir,14.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Jharkhand,8.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Karnataka,8.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Kerala,18.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Ladakh,18.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Lakshadweep,26.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Madhya Pradesh,4.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Maharashtra,7.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Manipur,22.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Meghalaya,12.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Mizoram,14.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Nagaland,17.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Odisha,10.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Puducherry,19.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Punjab,17.0,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Rajasthan,12.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Sikkim,10.0,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Tamil Nadu,14.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Telangana,18.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Tripura,11.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Uttar Pradesh,7.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,Uttarakhand,13.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,West Bengal,10.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
-plfs_yur,Youth Unemployment Rate,India (national figure as published or computed),9.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Andaman and Nicobar,31.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Andhra Pradesh,16.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Arunachal Pradesh,19.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Assam,12.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Bihar,12.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Chandigarh,10.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Chhattisgarh,6.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Dadra and Nagar Haveli and Daman and Diu,4.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Delhi,14.4,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Goa,14.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Gujarat,2.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Haryana,11.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Himachal Pradesh,19.8,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Jammu and Kashmir,14.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Jharkhand,8.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Karnataka,8.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Kerala,18.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Ladakh,18.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Lakshadweep,26.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Madhya Pradesh,4.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Maharashtra,7.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Manipur,22.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Meghalaya,12.2,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Mizoram,14.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Nagaland,17.5,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Odisha,10.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Puducherry,19.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Punjab,17.0,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Rajasthan,12.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Sikkim,10.0,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Tamil Nadu,14.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Telangana,18.1,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Tripura,11.3,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Uttar Pradesh,7.7,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,Uttarakhand,13.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,West Bengal,10.6,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19
+plfs_yur,Youth unemployment rate,India (national figure as published or computed),9.9,% of the labour force aged 15-29,2025,,,,,PLFS (MoSPI),https://www.mospi.gov.in/periodic-labour-force-survey-plfs,2026-10-19

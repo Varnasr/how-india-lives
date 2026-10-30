@@ -1,6 +1,6 @@
-# Project Roadmap
+# Project roadmap
 
-## Completed (v3 — March 2026)
+## Completed (v3, March 2026)
 
 ### Redesign (Parts 1-6)
 - [x] Featured rotating map spotlight in hero
@@ -11,18 +11,18 @@
 - [x] Mobile-first responsive polish
 
 ### Features (10 new)
-- [x] Deep links — share any map via `#map/ID`
+- [x] Deep links to share any map via `#map/ID`
 - [x] Keyboard and button navigation in detail modal
 - [x] Search autocomplete with stat/takeaway matching
 - [x] Related maps ("If this surprised you, also see...")
-- [x] State profile view — browse all maps for one state
+- [x] State profile view to browse all maps for one state
 - [x] Compare two states side by side
 - [x] Shareable story cards (Canvas API, 1200x630 PNG)
 - [x] Curated collections / story threads
 - [x] Map of the Week banner
 - [x] Scroll-driven storytelling page (10 stories)
 
-### Additional Features (10 more)
+### Additional features (10 more)
 - [x] Swipe gestures on mobile detail modal
 - [x] Cite this map (formatted citation to clipboard)
 - [x] Print-optimized stylesheet
@@ -42,27 +42,27 @@
 - UI language switcher
 - Community-driven regional language support (Tamil, Bengali, Marathi, Telugu)
 
-### Interactive Maps
+### Interactive maps
 - Hover tooltips showing state-level values
 - Animated or slider-based temporal comparison
 
-### Data Downloads
+### Data downloads
 - CSV/JSON export for each indicator
 - Bulk download option
 - API endpoint for programmatic access
 
 ## Medium-term (v5)
 
-### District-Level Maps
+### District-level maps
 - Move beyond state-level for indicators where district data exists
 - NFHS-5 district factsheets, Census 2011 district tables
 - Requires new shapefiles and rendering pipeline
 
-### Time Series
+### Time series
 - Show how indicators have changed over time
 - NFHS-4 vs NFHS-5, Census 2001 vs 2011
 
-### Community Pipeline
+### Community pipeline
 - Open contribution pipeline for new indicators
 - Automated validation of submitted data
 - Review and approval workflow
@@ -74,15 +74,15 @@
 - Screen reader optimisation
 - High contrast mode
 
-### Classroom Mode
+### Classroom mode
 - Guided walkthroughs for educators
 - Quiz/discussion prompts for each map
 - Lesson plan templates
 
-### Newsletter Backend
+### Newsletter backend
 - Connect to Mailchimp/Buttondown
 - Automated Map of the Week email
 
-## How to Contribute
+## How to contribute
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for how to help with any of these items.

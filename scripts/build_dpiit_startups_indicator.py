@@ -15,7 +15,7 @@ def rates(raw):
 def build(raw):
     v, nat = rates(raw)
     return [{
-        'id': 'dpiit_startups', 'theme': 'Economy', 'name': 'DPIIT-Recognised Startups per Lakh People', 'unit': 'startups per lakh people',
+        'id': 'dpiit_startups', 'theme': 'Economy', 'name': 'DPIIT-recognised startups per lakh people', 'unit': 'startups per lakh people',
         'source': 'DPIIT, Lok Sabha Unstarred Question 1446 (28 July 2026), with NCRB 2024 population projections', 'year': '30 June 2026',
         'desc': 'Entities recognised as startups by the Department for Promotion of Industry and Internal Trade as on 30 June 2026, divided by the state\'s 2024 population projection as printed by NCRB (lakh people). A startup is counted at its registered address, so the figure measures where companies register, which concentrates in Delhi, Karnataka and Maharashtra, and not where their work or jobs are. Recognition is voluntary and does not say the business is still trading.',
         'higherIsBetter': None, 'national': nat, 'values': v,

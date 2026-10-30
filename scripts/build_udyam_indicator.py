@@ -15,7 +15,7 @@ def rates(raw):
 def build(raw):
     v, nat = rates(raw)
     return [{
-        'id': 'udyam_per_lakh', 'theme': 'Economy', 'name': 'Udyam MSME Registrations per Lakh People', 'unit': 'registrations per lakh people',
+        'id': 'udyam_per_lakh', 'theme': 'Economy', 'name': 'Udyam MSME registrations per lakh people', 'unit': 'registrations per lakh people',
         'source': 'Ministry of MSME, Lok Sabha Unstarred Question 755 (4 December 2025), with NCRB 2024 population projections', 'year': 'to 30 Nov 2025',
         'desc': 'Registrations on the Udyam Registration Portal and the Udyam Assist Platform from 1 July 2020 to 30 November 2025, divided by the state\'s 2024 population projection as printed by NCRB (lakh people). Udyam registration is free and self-declared, and since January 2023 informal micro enterprises have been onboarded through Udyam Assist, so the figure counts registrations at the registered address and not working firms, and it moves with registration drives. India: 7.22 crore registrations.',
         'higherIsBetter': None, 'national': nat, 'values': v,

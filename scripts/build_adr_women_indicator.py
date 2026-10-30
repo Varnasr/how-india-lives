@@ -11,7 +11,7 @@ def build(raw):
     S = raw['states']
     seats, women = sum(r['seats_analysed'] for r in S.values()), sum(r['women'] for r in S.values())
     return [{
-        'id': 'adr_women_mlas', 'theme': 'Democracy', 'name': 'Women Among MLAs', 'unit': '% of assembly seats', 'source': 'ADR and National Election Watch (as on 2 Feb 2026)', 'year': '2026',
+        'id': 'adr_women_mlas', 'theme': 'Democracy', 'name': 'Women among MLAs', 'unit': '% of assembly seats', 'source': 'ADR and National Election Watch (as on 2 Feb 2026)', 'year': '2026',
         'desc': 'Women as a share of sitting MLAs in each state assembly as on 2 February 2026, on the results of the last election held there. Assam, Kerala, Puducherry, Tamil Nadu and West Bengal are on their 2021 results. Ladakh has no assembly and is not shown.',
         'higherIsBetter': True, 'national': round(women / seats * 100, 1), 'values': {s: round(r['women'] / r['seats_analysed'] * 100, 1) for s, r in S.items()},
         'sourceUrl': raw['url'], 'retrieved': '2026-10-19',

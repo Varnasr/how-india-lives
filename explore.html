@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRCMEB9TBW"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JRCMEB9TBW');</script>
-<title>Interactive Atlas — How India Lives | ImpactMojo</title>
-<meta name="description" content="Interactive maps of India's states — map, rank and correlate indicators across health, education, gender and the economy. Part of the How India Lives atlas.">
-<meta property="og:title" content="Interactive Atlas — How India Lives">
+<title>Interactive atlas | How India Lives | ImpactMojo</title>
+<meta name="description" content="Interactive maps of India's states. Map, rank and correlate indicators across health, education, gender and the economy. Part of the How India Lives atlas.">
+<meta property="og:title" content="Interactive atlas | How India Lives">
 <meta property="og:description" content="Map, rank and correlate India's development indicators, state by state.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
@@ -26,7 +26,7 @@
   // Page-specific Hindi strings for the shared i18n system (assets/common-header.js).
   window.IM_I18N = {
     'ex.title': { en: "Map, rank and correlate India's states", hi: 'भारत के राज्यों को मानचित्रित, क्रमबद्ध और सहसंबंधित करें' },
-    'ex.lead': { en: 'A growing set of indicators across health, education, gender and the economy — for every state and union territory. Map one, rank them all, or compare two to see how they move together.', hi: 'स्वास्थ्य, शिक्षा, लैंगिक और अर्थव्यवस्था के बढ़ते संकेतक — हर राज्य और केंद्रशासित प्रदेश के लिए। एक को मानचित्रित करें, सबको क्रमबद्ध करें, या दो की तुलना करें।' },
+    'ex.lead': { en: 'A growing set of indicators across health, education, gender and the economy, for every state and union territory. Map one, rank them all, or compare two to see how they move together.', hi: 'स्वास्थ्य, शिक्षा, लैंगिक और अर्थव्यवस्था के बढ़ते संकेतक — हर राज्य और केंद्रशासित प्रदेश के लिए। एक को मानचित्रित करें, सबको क्रमबद्ध करें, या दो की तुलना करें।' },
     'ex.tab.map': { en: 'Map', hi: 'मानचित्र' },
     'ex.tab.ranking': { en: 'Ranking', hi: 'क्रम' },
     'ex.tab.compare': { en: 'Compare', hi: 'तुलना' },
@@ -281,7 +281,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
         <span class="eyebrow">Interactive Atlas</span>
         <h1 data-i18n="ex.title">Map, rank and correlate India's states</h1>
     </div>
-    <p class="lead" data-i18n="ex.lead">A growing set of indicators across health, education, gender and the economy — for every state and
+    <p class="lead" data-i18n="ex.lead">A growing set of indicators across health, education, gender and the economy, for every state and
         union territory. Map one, rank them all, or compare two to see how they move together.</p>
 
     <div class="view-tabs" role="tablist" aria-label="View">
@@ -381,7 +381,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 
     <div class="note" id="data-note"></div>
     <p class="credit">Boundaries: Natural Earth (public domain), simplified for the web. This view complements the
-        atlas of <a href="index.html">259 detailed maps</a> — see the <a href="methodology.html">methodology</a> for
+        atlas of <a href="index.html">259 detailed maps</a>. See the <a href="methodology.html">methodology</a> for
         source notes and limitations.</p>
 </div>
 
@@ -473,7 +473,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
             if(v==null){ path.style.fill=css('--map-empty'); return; }
             path.style.fill=ch?divColor(goodness(ind,v,maxAbs)):colorFor((v-min)/(max-min||1));
         });
-        $('legend-title').textContent=nm(ind)+(ch?' — change':'');
+        $('legend-title').textContent=nm(ind)+(ch?', change':'');
         var avg=$('legend-avg');
         if(ch){
             var flip=ind.higherIsBetter===false;

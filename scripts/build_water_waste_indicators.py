@@ -23,14 +23,14 @@ def build():
     w = load('data/cpcb/solid-waste-2023-24.json')
     wv, wn = waste(w)
     return [{
-        'id': 'jjm_tap_pct', 'theme': 'Infrastructure', 'name': 'Rural Households with Tap Water Supply', 'unit': '% of rural households',
+        'id': 'jjm_tap_pct', 'theme': 'Infrastructure', 'name': 'Rural households with tap water supply', 'unit': '% of rural households',
         'source': 'Ministry of Jal Shakti, Lok Sabha Starred Question 62 (23 July 2026), Annexure (JJM IMIS)', 'year': 'as on 18 Jul 2026',
         'desc': 'Rural households reported by the state as having tap water supply under the Jal Jeevan Mission, as a share of all rural households, as on 18 July 2026. India: 82.09% (15.89 crore of 19.36 crore households), up from 16.72% in August 2019. The count is of connections reported by states in the Mission\'s own monitoring system, not of supply that runs or water that is safe. Delhi and Chandigarh have no rural population.',
         'higherIsBetter': True, 'national': j['india']['tap_pct'], 'values': tap(j), 'sourceUrl': j['url'], 'retrieved': j['retrieved'],
         'name_hi': 'नल जल आपूर्ति वाले ग्रामीण परिवार', 'unit_hi': 'ग्रामीण परिवारों का %',
         'desc_hi': 'जल जीवन मिशन के अंतर्गत राज्यों द्वारा बताए गए नल जल आपूर्ति वाले ग्रामीण परिवार, सभी ग्रामीण परिवारों के हिस्से के रूप में, 18 जुलाई 2026 तक। भारत: 82.09% (अगस्त 2019 में 16.72%)। यह मिशन की निगरानी प्रणाली में राज्यों द्वारा बताए गए कनेक्शनों की गिनती है, चालू या सुरक्षित आपूर्ति की नहीं।',
     }, {
-        'id': 'cpcb_waste_pc', 'theme': 'Environment', 'name': 'Solid Waste Generated per Person', 'unit': 'grams per person per day',
+        'id': 'cpcb_waste_pc', 'theme': 'Environment', 'name': 'Solid waste generated per person', 'unit': 'grams per person per day',
         'source': 'MoEFCC, Lok Sabha Unstarred Question 50 (1 December 2025), Annexure (CPCB, 2023-24), with NCRB 2024 population projections', 'year': '2023-24',
         'desc': 'Solid waste generated in tonnes a day as reported by each State Pollution Control Board or Committee for 2023-24, divided by the state\'s 2024 population projection as printed by NCRB. India: 132 grams a person a day (1,85,195 tonnes a day). The boards report by different methods, some weigh and some estimate, and some report urban waste only, while the denominator is the whole population, so the spread between states reflects reporting as much as waste.',
         'higherIsBetter': None, 'national': wn, 'values': wv, 'sourceUrl': w['url'], 'retrieved': w['retrieved'],

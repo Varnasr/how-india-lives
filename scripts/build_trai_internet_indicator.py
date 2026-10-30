@@ -9,7 +9,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 
 def build(raw):
     return [{
-        'id': 'trai_internet_per100', 'theme': 'Economy', 'name': 'Internet Subscriptions per 100 People',
+        'id': 'trai_internet_per100', 'theme': 'Economy', 'name': 'Internet subscriptions per 100 people',
         'unit': 'subscriptions per 100 population', 'source': 'TRAI, Yearly Performance Indicators 2025-26 (Table 1.43)', 'year': 'Mar 2026',
         'desc': 'Wired and wireless internet subscriptions per 100 people at the end of March 2026, from operators\' returns to TRAI divided by TRAI\'s population projection for 2026. A subscription is not a person: one person can hold several, so Goa, Delhi and Haryana exceed 100, and a low figure is not the same as a share of people online. The operators\' rural and urban split rests on different sources, so only the total is mapped.',
         'higherIsBetter': True, 'national': raw['india_total_per100'],

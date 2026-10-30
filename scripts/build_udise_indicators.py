@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def build(raw):
     return [{
-        'id': 'udise_dropout_sec', 'theme': 'Education', 'name': 'Secondary School Dropout Rate',
+        'id': 'udise_dropout_sec', 'theme': 'Education', 'name': 'Secondary school dropout rate',
         'unit': '% of students in classes 9-10', 'source': 'UDISE+ (MoSPI)', 'year': '2024-25',
         'desc': 'Share of students in secondary school (classes 9-10) who dropped out, all school management types, boys and girls together.',
         'higherIsBetter': False, 'national': None, 'values': dict(sorted(raw['values'].items())),

@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'srs_life_exp', 'theme': 'Health', 'name': 'Life Expectancy at Birth', 'unit': 'years',
+        'id': 'srs_life_exp', 'theme': 'Health', 'name': 'Life expectancy at birth', 'unit': 'years',
         'source': 'ORGI, SRS Abridged Life Tables 2019-23', 'year': '2019-23',
         'desc': 'Expected years of life at birth for both sexes, from the Sample Registration System abridged life tables for 2019-23, a five-year moving average. Only India and the 22 larger states and UTs are published (those with a population of 10 million or more, plus Himachal Pradesh); the rest stay grey. Jammu and Kashmir includes Ladakh. Female life expectancy is higher than male in every state shown.',
         'higherIsBetter': True, 'national': raw['india']['total'],

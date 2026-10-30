@@ -1,38 +1,38 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Andaman and Nicobar,77.2,% of per-capita cereal quantity,2023-24,80.4,2022-23,-3.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Andhra Pradesh,90.3,% of per-capita cereal quantity,2023-24,90.6,2022-23,-0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Arunachal Pradesh,94.8,% of per-capita cereal quantity,2023-24,95.8,2022-23,-1.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Assam,91.7,% of per-capita cereal quantity,2023-24,91.1,2022-23,0.6,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Bihar,51.3,% of per-capita cereal quantity,2023-24,53.1,2022-23,-1.8,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Chandigarh,13.6,% of per-capita cereal quantity,2023-24,12.7,2022-23,0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Chhattisgarh,80.8,% of per-capita cereal quantity,2023-24,79.8,2022-23,1.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Dadra and Nagar Haveli and Daman and Diu,51.7,% of per-capita cereal quantity,2023-24,46.9,2022-23,4.8,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Delhi,26.5,% of per-capita cereal quantity,2023-24,27.8,2022-23,-1.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Goa,74.3,% of per-capita cereal quantity,2023-24,73.2,2022-23,1.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Gujarat,28.3,% of per-capita cereal quantity,2023-24,30.0,2022-23,-1.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Haryana,13.8,% of per-capita cereal quantity,2023-24,17.1,2022-23,-3.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Himachal Pradesh,38.7,% of per-capita cereal quantity,2023-24,40.4,2022-23,-1.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Jammu and Kashmir,65.2,% of per-capita cereal quantity,2023-24,58.5,2022-23,6.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Jharkhand,58.2,% of per-capita cereal quantity,2023-24,57.0,2022-23,1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Karnataka,66.1,% of per-capita cereal quantity,2023-24,68.5,2022-23,-2.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Kerala,86.9,% of per-capita cereal quantity,2023-24,87.3,2022-23,-0.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Ladakh,72.0,% of per-capita cereal quantity,2023-24,63.1,2022-23,8.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Lakshadweep,85.1,% of per-capita cereal quantity,2023-24,86.0,2022-23,-0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Madhya Pradesh,23.6,% of per-capita cereal quantity,2023-24,23.2,2022-23,0.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Maharashtra,41.6,% of per-capita cereal quantity,2023-24,40.5,2022-23,1.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Manipur,99.2,% of per-capita cereal quantity,2023-24,99.5,2022-23,-0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Meghalaya,94.2,% of per-capita cereal quantity,2023-24,95.4,2022-23,-1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Mizoram,99.4,% of per-capita cereal quantity,2023-24,99.4,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Nagaland,97.3,% of per-capita cereal quantity,2023-24,97.4,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Odisha,81.8,% of per-capita cereal quantity,2023-24,81.9,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Puducherry,88.3,% of per-capita cereal quantity,2023-24,88.0,2022-23,0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Punjab,13.6,% of per-capita cereal quantity,2023-24,13.6,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Rajasthan,6.4,% of per-capita cereal quantity,2023-24,5.2,2022-23,1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Sikkim,87.3,% of per-capita cereal quantity,2023-24,85.4,2022-23,1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Tamil Nadu,89.5,% of per-capita cereal quantity,2023-24,89.6,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Telangana,87.0,% of per-capita cereal quantity,2023-24,88.9,2022-23,-1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Tripura,95.4,% of per-capita cereal quantity,2023-24,95.4,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Uttar Pradesh,31.6,% of per-capita cereal quantity,2023-24,33.5,2022-23,-1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),Uttarakhand,41.1,% of per-capita cereal quantity,2023-24,43.7,2022-23,-2.6,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),West Bengal,73.8,% of per-capita cereal quantity,2023-24,74.0,2022-23,-0.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
-hces_rice_u,Rice Share of Cereal Consumption (Urban),India (national figure as published or computed),52.3,% of per-capita cereal quantity,2023-24,53.2,2022-23,-0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Andaman and Nicobar,77.2,% of per-capita cereal quantity,2023-24,80.4,2022-23,-3.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Andhra Pradesh,90.3,% of per-capita cereal quantity,2023-24,90.6,2022-23,-0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Arunachal Pradesh,94.8,% of per-capita cereal quantity,2023-24,95.8,2022-23,-1.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Assam,91.7,% of per-capita cereal quantity,2023-24,91.1,2022-23,0.6,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Bihar,51.3,% of per-capita cereal quantity,2023-24,53.1,2022-23,-1.8,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Chandigarh,13.6,% of per-capita cereal quantity,2023-24,12.7,2022-23,0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Chhattisgarh,80.8,% of per-capita cereal quantity,2023-24,79.8,2022-23,1.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Dadra and Nagar Haveli and Daman and Diu,51.7,% of per-capita cereal quantity,2023-24,46.9,2022-23,4.8,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Delhi,26.5,% of per-capita cereal quantity,2023-24,27.8,2022-23,-1.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Goa,74.3,% of per-capita cereal quantity,2023-24,73.2,2022-23,1.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Gujarat,28.3,% of per-capita cereal quantity,2023-24,30.0,2022-23,-1.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Haryana,13.8,% of per-capita cereal quantity,2023-24,17.1,2022-23,-3.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Himachal Pradesh,38.7,% of per-capita cereal quantity,2023-24,40.4,2022-23,-1.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Jammu and Kashmir,65.2,% of per-capita cereal quantity,2023-24,58.5,2022-23,6.7,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Jharkhand,58.2,% of per-capita cereal quantity,2023-24,57.0,2022-23,1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Karnataka,66.1,% of per-capita cereal quantity,2023-24,68.5,2022-23,-2.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Kerala,86.9,% of per-capita cereal quantity,2023-24,87.3,2022-23,-0.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Ladakh,72.0,% of per-capita cereal quantity,2023-24,63.1,2022-23,8.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Lakshadweep,85.1,% of per-capita cereal quantity,2023-24,86.0,2022-23,-0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Madhya Pradesh,23.6,% of per-capita cereal quantity,2023-24,23.2,2022-23,0.4,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Maharashtra,41.6,% of per-capita cereal quantity,2023-24,40.5,2022-23,1.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Manipur,99.2,% of per-capita cereal quantity,2023-24,99.5,2022-23,-0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Meghalaya,94.2,% of per-capita cereal quantity,2023-24,95.4,2022-23,-1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Mizoram,99.4,% of per-capita cereal quantity,2023-24,99.4,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Nagaland,97.3,% of per-capita cereal quantity,2023-24,97.4,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Odisha,81.8,% of per-capita cereal quantity,2023-24,81.9,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Puducherry,88.3,% of per-capita cereal quantity,2023-24,88.0,2022-23,0.3,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Punjab,13.6,% of per-capita cereal quantity,2023-24,13.6,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Rajasthan,6.4,% of per-capita cereal quantity,2023-24,5.2,2022-23,1.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Sikkim,87.3,% of per-capita cereal quantity,2023-24,85.4,2022-23,1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Tamil Nadu,89.5,% of per-capita cereal quantity,2023-24,89.6,2022-23,-0.1,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Telangana,87.0,% of per-capita cereal quantity,2023-24,88.9,2022-23,-1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Tripura,95.4,% of per-capita cereal quantity,2023-24,95.4,2022-23,0.0,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Uttar Pradesh,31.6,% of per-capita cereal quantity,2023-24,33.5,2022-23,-1.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),Uttarakhand,41.1,% of per-capita cereal quantity,2023-24,43.7,2022-23,-2.6,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),West Bengal,73.8,% of per-capita cereal quantity,2023-24,74.0,2022-23,-0.2,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19
+hces_rice_u,Rice share of cereal consumption (urban),India (national figure as published or computed),52.3,% of per-capita cereal quantity,2023-24,53.2,2022-23,-0.9,,MoSPI HCES 2023-24,https://mospi.gov.in/,2026-10-19

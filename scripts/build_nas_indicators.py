@@ -54,18 +54,18 @@ def build(raw):
     url = 'https://mospi.gov.in/national-accounts-statistics'
     common = dict(theme='Economy', source='MoSPI (National Accounts, state series)', year='2024-25', previousYear='2022-23', sourceUrl=url,
                   retrieved=raw['retrieved'], national=None)
-    out = [dict(common, id='gsdp_pc', name='GSDP per Head', unit='Rs per person, current prices',
+    out = [dict(common, id='gsdp_pc', name='GSDP per head', unit='Rs per person, current prices',
                 desc='Gross state domestic product per head of population, at current prices, 2024-25 (an estimate that states revise), with 2022-23 beside it. A state with a small, rich or enclave economy ranks high without that meaning its residents are better off.',
                 higherIsBetter=True, values={s: round(v) for s, v in sorted(pc['2024-25'].items())},
                 previous={s: round(v) for s, v in sorted(pc['2022-23'].items())},
                 name_hi='प्रति व्यक्ति राज्य सकल घरेलू उत्पाद', unit_hi='रुपये प्रति व्यक्ति, वर्तमान मूल्य',
                 desc_hi='राज्य के सकल घरेलू उत्पाद को जनसंख्या से भाग देने पर प्रति व्यक्ति आँकड़ा, वर्तमान मूल्यों पर, 2024-25 (अनुमान, जिसे राज्य संशोधित करते हैं), 2022-23 के साथ।')]
     for iid, name, hi, parts, desc, dhi in (
-        ('gsva_agri', 'Agriculture Share of State Output', 'राज्य उत्पादन में कृषि का हिस्सा', [AGRI],
+        ('gsva_agri', 'Agriculture share of state output', 'राज्य उत्पादन में कृषि का हिस्सा', [AGRI],
          'Agriculture, livestock, forestry and fishing as a share of gross state value added, at current prices.', 'वर्तमान मूल्यों पर राज्य सकल मूल्य वर्धन में कृषि, पशुपालन, वानिकी और मत्स्य पालन का हिस्सा।'),
-        ('gsva_mfg', 'Manufacturing Share of State Output', 'राज्य उत्पादन में विनिर्माण का हिस्सा', [MFG],
+        ('gsva_mfg', 'Manufacturing share of state output', 'राज्य उत्पादन में विनिर्माण का हिस्सा', [MFG],
          'Manufacturing as a share of gross state value added, at current prices.', 'वर्तमान मूल्यों पर राज्य सकल मूल्य वर्धन में विनिर्माण का हिस्सा।'),
-        ('gsva_services', 'Services Share of State Output', 'राज्य उत्पादन में सेवाओं का हिस्सा', SERV,
+        ('gsva_services', 'Services share of state output', 'राज्य उत्पादन में सेवाओं का हिस्सा', SERV,
          'Services (trade and hotels, transport and communication, finance, real estate and professional services, public administration, other services) as a share of gross state value added, at current prices. Mining, electricity and construction are not counted as services.',
          'वर्तमान मूल्यों पर राज्य सकल मूल्य वर्धन में सेवाओं (व्यापार और होटल, परिवहन और संचार, वित्त, रियल एस्टेट और पेशेवर सेवाएँ, लोक प्रशासन, अन्य सेवाएँ) का हिस्सा। खनन, बिजली और निर्माण सेवाओं में नहीं गिने गए।')):
         def share(y):
