@@ -1534,17 +1534,17 @@
     "file": "S03s_Life_Expectancy_at_Birth.png",
     "section": "health",
     "source": "SRS",
-    "year": "2018-20",
+    "year": "2018-22",
     "quality": "NEW",
-    "takeaway": "Life expectancy in Kerala is 77 years; in Chhattisgarh it's 64, a 13-year gap within one country.",
-    "policy": "The 13-year life expectancy gap between Indian states exceeds the gap between some developed and developing nations.",
+    "takeaway": "Life expectancy at birth in Kerala is 77.3 years and in Chhattisgarh 65.2, a gap of 12 years within one country (SRS abridged life tables, 2018-22).",
+    "policy": "The 12-year life expectancy gap between Indian states exceeds the gap between some developed and developing nations.",
     "tags": [
       "life expectancy",
       "mortality",
       "health"
     ],
     "title_hi": "जन्म के समय जीवन प्रत्याशा",
-    "takeaway_hi": "केरल में जीवन प्रत्याशा 77 वर्ष है; छत्तीसगढ़ में यह 64 है — एक ही देश के भीतर 13 वर्ष का अंतर।",
+    "takeaway_hi": "केरल में जन्म के समय जीवन प्रत्याशा 77.3 वर्ष है और छत्तीसगढ़ में 65.2, एक ही देश के भीतर 12 वर्ष का अंतर (SRS संक्षिप्त जीवन तालिकाएँ, 2018-22)।",
     "newer": "X281"
   },
   {
@@ -1631,7 +1631,7 @@
     "source": "PLFS",
     "year": "2022-23",
     "quality": "NEW",
-    "takeaway": "Female labour force participation in Himachal is 58%; in Bihar it's under 5%, a 10x gap.",
+    "takeaway": "Female labour force participation is 55% in Himachal Pradesh and 6% in Bihar, about nine times lower (PLFS 2022-23).",
     "policy": "India's female LFPR varies more between states than between many countries. There is no single 'Indian' story.",
     "tags": [
       "FLFP",
@@ -1639,7 +1639,7 @@
       "gender"
     ],
     "title_hi": "महिला श्रम बल भागीदारी दर",
-    "takeaway_hi": "हिमाचल में महिला श्रम बल भागीदारी 58% है; बिहार में यह 5% से कम है — 10 गुना अंतर।",
+    "takeaway_hi": "हिमाचल प्रदेश में महिला श्रम बल भागीदारी 55% है और बिहार में 6%, लगभग नौ गुना कम (PLFS 2022-23)।",
     "newer": "flfpr"
   },
   {
@@ -1726,7 +1726,7 @@
     "source": "NFHS-5",
     "year": "2019-21",
     "quality": "NEW",
-    "takeaway": "33% of Indian women have experienced physical violence from a spouse, and rates vary from 10% to 45% by state.",
+    "takeaway": "28% of married women in India report physical violence by their husband, from 8% in Goa to 40% in Bihar (NFHS-5, 2019-21).",
     "policy": "Domestic violence is not uniformly distributed; state-level variation reveals where enforcement and shelters are most needed.",
     "tags": [
       "domestic violence",
@@ -1734,7 +1734,7 @@
       "gender"
     ],
     "title_hi": "घरेलू हिंसा, शारीरिक हिंसा बताने वाली महिलाएँ",
-    "takeaway_hi": "33% भारतीय महिलाओं ने जीवनसाथी से शारीरिक हिंसा का अनुभव किया है — पर यह दर राज्यवार 10% से 45% तक भिन्न है।",
+    "takeaway_hi": "भारत में 28% विवाहित महिलाएँ पति द्वारा शारीरिक हिंसा बताती हैं, गोवा में 8% से बिहार में 40% तक (NFHS-5, 2019-21)।",
     "data_note": "NFHS-6 reports ever-experienced spousal violence overall (see the NFHS-6 map X216) but not this physical-violence measure, so NFHS-5 (2019-21) remains the latest state-level figure for it."
   },
   {
@@ -2180,7 +2180,7 @@
     "source": "Census 2011",
     "year": "2011",
     "quality": "BUILT",
-    "takeaway": "Female literacy in Kerala is 96%; in Rajasthan it's 57%, a 39-point gap.",
+    "takeaway": "Female literacy is 92% in Kerala and 52.7% in Rajasthan, a gap of 39 points (Census 2011).",
     "policy": "Female literacy is the master variable. It predicts fertility, child survival, nutrition, and women's agency better than income.",
     "tags": [
       "female literacy",
@@ -2188,7 +2188,7 @@
       "education"
     ],
     "title_hi": "महिला साक्षरता दर",
-    "takeaway_hi": "केरल में महिला साक्षरता 96% है; राजस्थान में 57% — 39 अंक का अंतर।",
+    "takeaway_hi": "केरल में महिला साक्षरता 92% है और राजस्थान में 52.7%, 39 अंक का अंतर (जनगणना 2011)।",
     "data_note": "The Census of India is taken once a decade. The 2011 Census is the latest to publish state and district tables, and the next census is planned for 2027, so there is no later official count to replace these figures. Shares, ratios and populations will have moved since 2011."
   },
   {

@@ -4,7 +4,7 @@
 
 A storytelling-first visual atlas for understanding why India's states are different — and why it matters for policy. Part of [ImpactMojo](https://impactmojo.in).
 
-> Kerala's life expectancy (77 years) exceeds Chhattisgarh's (64) by 13 years. Bihar's female labour force participation is 10x lower than Himachal Pradesh's. Rajasthan is 60% vegetarian; Bengal is under 5%. India is not one country when it comes to development outcomes.
+> Kerala's life expectancy (77.3 years in the SRS life tables for 2018-22) exceeds Chhattisgarh's (65.2) by 12 years. In PLFS 2022-23, female labour force participation was 6% in Bihar and 55% in Himachal Pradesh. Rajasthan is 60% vegetarian; Bengal is under 5%. India is not one country when it comes to development outcomes.
 
 **Live site:** [howindialives.impactmojo.in](https://howindialives.impactmojo.in)
 
