@@ -4,7 +4,7 @@
     {
       "id": "literacy",
       "theme": "Education",
-      "name": "Literacy Rate",
+      "name": "Literacy rate",
       "unit": "%",
       "source": "Census of India",
       "year": "2011",
@@ -57,7 +57,7 @@
     {
       "id": "femlit",
       "theme": "Gender",
-      "name": "Female Literacy",
+      "name": "Female literacy",
       "unit": "%",
       "source": "Census of India",
       "year": "2011",
@@ -111,7 +111,7 @@
     {
       "id": "lifeexp",
       "theme": "Health",
-      "name": "Life Expectancy",
+      "name": "Life expectancy",
       "unit": "years",
       "source": "SRS (ORGI)",
       "year": "2016–20",
@@ -151,7 +151,7 @@
     {
       "id": "imr",
       "theme": "Health",
-      "name": "Infant Mortality Rate",
+      "name": "Infant mortality rate",
       "unit": "per 1,000 live births",
       "source": "SRS (ORGI)",
       "year": "2020",
@@ -203,7 +203,7 @@
     {
       "id": "tfr",
       "theme": "Reproductive",
-      "name": "Total Fertility Rate",
+      "name": "Total fertility rate",
       "unit": "children per woman",
       "source": "NFHS-5 / DHS",
       "year": "2019–21",
@@ -254,7 +254,7 @@
     {
       "id": "hdi",
       "theme": "Economy",
-      "name": "Human Development Index",
+      "name": "Human development index",
       "unit": "index (0–1)",
       "source": "Global Data Lab (UNDP)",
       "year": "2023",
@@ -305,7 +305,7 @@
     {
       "id": "electricity",
       "theme": "Economy",
-      "name": "Household Electricity",
+      "name": "Household electricity",
       "unit": "% of households",
       "source": "Census of India",
       "year": "2011",
@@ -356,7 +356,7 @@
     {
       "id": "sexratio",
       "theme": "Gender",
-      "name": "Sex Ratio",
+      "name": "Sex ratio",
       "unit": "females per 1,000 males",
       "source": "Census of India",
       "year": "2011",
@@ -410,7 +410,7 @@
     {
       "id": "density",
       "theme": "Demography",
-      "name": "Population Density",
+      "name": "Population density",
       "unit": "persons per km²",
       "source": "Census of India",
       "year": "2011",
@@ -462,7 +462,7 @@
     {
       "id": "urban",
       "theme": "Demography",
-      "name": "Urban Population",
+      "name": "Urban population",
       "unit": "% urban",
       "source": "Census of India",
       "year": "2011",
@@ -516,7 +516,7 @@
     {
       "id": "unemp",
       "theme": "Economy",
-      "name": "Unemployment Rate",
+      "name": "Unemployment rate",
       "unit": "% of labour force",
       "source": "CMIE",
       "year": "2022",
@@ -560,7 +560,7 @@
     {
       "id": "malelit",
       "theme": "Education",
-      "name": "Male Literacy",
+      "name": "Male literacy",
       "unit": "%",
       "source": "Census of India",
       "year": "2011",
@@ -613,7 +613,7 @@
     {
       "id": "growth",
       "theme": "Demography",
-      "name": "Decadal Growth",
+      "name": "Decadal growth",
       "unit": "% (2001–2011)",
       "source": "Census of India",
       "year": "2011",
@@ -667,7 +667,7 @@
     {
       "id": "flfpr",
       "theme": "Gender",
-      "name": "Female Labour Force Participation",
+      "name": "Female labour force participation",
       "unit": "% of women aged 15+",
       "source": "PLFS (MoSPI)",
       "year": "2025",
@@ -722,7 +722,7 @@
     {
       "id": "litgap",
       "theme": "Gender",
-      "name": "Gender Gap in Literacy",
+      "name": "Gender gap in literacy",
       "unit": "percentage points",
       "source": "NSS 75th round (MoSPI)",
       "year": "2017-18",
@@ -763,7 +763,7 @@
     {
       "id": "mpce_r",
       "theme": "Consumption",
-      "name": "Rural Consumption per Person",
+      "name": "Rural consumption per person",
       "unit": "₹ per person per month",
       "source": "HCES 2023-24 (MoSPI)",
       "year": "2023-24",
@@ -818,7 +818,7 @@
     {
       "id": "mpce_u",
       "theme": "Consumption",
-      "name": "Urban Consumption per Person",
+      "name": "Urban consumption per person",
       "unit": "₹ per person per month",
       "source": "HCES 2023-24 (MoSPI)",
       "year": "2023-24",
@@ -873,7 +873,7 @@
     {
       "id": "gini_r",
       "theme": "Consumption",
-      "name": "Rural Consumption Inequality",
+      "name": "Rural consumption inequality",
       "unit": "Gini, 0 to 1",
       "source": "HCES 2023-24 (MoSPI)",
       "year": "2023-24",
@@ -928,7 +928,7 @@
     {
       "id": "gini_u",
       "theme": "Consumption",
-      "name": "Urban Consumption Inequality",
+      "name": "Urban consumption inequality",
       "unit": "Gini, 0 to 1",
       "source": "HCES 2023-24 (MoSPI)",
       "year": "2023-24",
@@ -983,7 +983,7 @@
     {
       "id": "plfs_ur",
       "theme": "Economy",
-      "name": "Unemployment Rate",
+      "name": "Unemployment rate",
       "unit": "% of the labour force aged 15 and above",
       "source": "PLFS (MoSPI)",
       "year": "2025",
@@ -1038,7 +1038,7 @@
     {
       "id": "plfs_yur",
       "theme": "Economy",
-      "name": "Youth Unemployment Rate",
+      "name": "Youth unemployment rate",
       "unit": "% of the labour force aged 15-29",
       "source": "PLFS (MoSPI)",
       "year": "2025",
@@ -1093,7 +1093,7 @@
     {
       "id": "udise_dropout_sec",
       "theme": "Education",
-      "name": "Secondary School Dropout Rate",
+      "name": "Secondary school dropout rate",
       "unit": "% of students in classes 9-10",
       "source": "UDISE+ (MoSPI)",
       "year": "2024-25",
@@ -1147,7 +1147,7 @@
     {
       "id": "ncrb_total",
       "theme": "Gender",
-      "name": "Crimes Against Women Recorded",
+      "name": "Crimes against women recorded",
       "unit": "cases per lakh women",
       "source": "NCRB (Crime in India 2024)",
       "year": "2024",
@@ -1242,7 +1242,7 @@
     {
       "id": "ncrb_rape",
       "theme": "Gender",
-      "name": "Rape Cases Recorded",
+      "name": "Rape cases recorded",
       "unit": "cases per lakh women",
       "source": "NCRB (Crime in India 2024)",
       "year": "2024",
@@ -1337,7 +1337,7 @@
     {
       "id": "ncrb_cruelty",
       "theme": "Gender",
-      "name": "Cruelty by Husband or Relatives Recorded",
+      "name": "Cruelty by husband or relatives recorded",
       "unit": "cases per lakh women",
       "source": "NCRB (Crime in India 2024)",
       "year": "2024",
@@ -1432,7 +1432,7 @@
     {
       "id": "ncrb_dowry_death",
       "theme": "Gender",
-      "name": "Dowry Deaths Recorded",
+      "name": "Dowry deaths recorded",
       "unit": "cases per lakh women",
       "source": "NCRB (Crime in India 2024)",
       "year": "2024",
@@ -1527,7 +1527,7 @@
     {
       "id": "ncrb_acid",
       "theme": "Gender",
-      "name": "Acid Attack Cases Recorded",
+      "name": "Acid attack cases recorded",
       "unit": "cases per crore women",
       "source": "NCRB (Crime in India 2024)",
       "year": "2024",
@@ -1622,7 +1622,7 @@
     {
       "id": "forest_change",
       "theme": "Environment",
-      "name": "Change in Forest Cover",
+      "name": "Change in forest cover",
       "unit": "sq km, ISFR 2021 to 2023",
       "source": "Forest Survey of India (ISFR 2023, via MoSPI)",
       "year": "2021-23",
@@ -1675,7 +1675,7 @@
     {
       "id": "heat_wave_days",
       "theme": "Environment",
-      "name": "Heat-Wave Days, 2022-24 Average",
+      "name": "Heat-wave days, 2022-24 average",
       "unit": "days a summer",
       "source": "IMD (via MoSPI EnviStats)",
       "year": "2022-24",
@@ -1713,7 +1713,7 @@
     {
       "id": "court_pending_per_judge",
       "theme": "Economy",
-      "name": "Pending Cases per Working Judge",
+      "name": "Pending cases per working judge",
       "unit": "cases per working judicial officer",
       "source": "NJDG and Nyaya Vikas (Lok Sabha, March 2026)",
       "year": "2026",
@@ -1767,7 +1767,7 @@
     {
       "id": "court_vacancy_pct",
       "theme": "Economy",
-      "name": "Vacant Judicial Posts",
+      "name": "Vacant judicial posts",
       "unit": "% of sanctioned posts in the subordinate judiciary",
       "source": "Nyaya Vikas (Lok Sabha, March 2026)",
       "year": "2026",
@@ -1828,7 +1828,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "gsdp_pc",
-      "name": "GSDP per Head",
+      "name": "GSDP per head",
       "unit": "Rs per person, current prices",
       "desc": "Gross state domestic product per head of population, at current prices, 2024-25 (an estimate that states revise), with 2022-23 beside it. A state with a small, rich or enclave economy ranks high without that meaning its residents are better off.",
       "higherIsBetter": true,
@@ -1916,7 +1916,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "gsva_agri",
-      "name": "Agriculture Share of State Output",
+      "name": "Agriculture share of state output",
       "unit": "% of gross state value added",
       "desc": "Agriculture, livestock, forestry and fishing as a share of gross state value added, at current prices.",
       "higherIsBetter": null,
@@ -2004,7 +2004,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "gsva_mfg",
-      "name": "Manufacturing Share of State Output",
+      "name": "Manufacturing share of state output",
       "unit": "% of gross state value added",
       "desc": "Manufacturing as a share of gross state value added, at current prices.",
       "higherIsBetter": null,
@@ -2092,7 +2092,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "gsva_services",
-      "name": "Services Share of State Output",
+      "name": "Services share of state output",
       "unit": "% of gross state value added",
       "desc": "Services (trade and hotels, transport and communication, finance, real estate and professional services, public administration, other services) as a share of gross state value added, at current prices. Mining, electricity and construction are not counted as services.",
       "higherIsBetter": null,
@@ -2174,7 +2174,7 @@
     {
       "id": "udise_private_share",
       "theme": "Education",
-      "name": "Private School Enrolment Share",
+      "name": "Private school enrolment share",
       "unit": "% of enrolment, classes 1-12",
       "source": "UDISE+ (MoSPI)",
       "year": "2024-25",
@@ -2269,7 +2269,7 @@
     {
       "id": "plfs_no_contract",
       "theme": "Economy",
-      "name": "Regular Employees with No Written Contract",
+      "name": "Regular employees with no written contract",
       "unit": "% of regular wage and salaried employees",
       "source": "PLFS annual (MoSPI)",
       "year": "2023-24",
@@ -2364,7 +2364,7 @@
     {
       "id": "mnre_per_person",
       "theme": "Environment",
-      "name": "Installed Renewable Capacity per Person",
+      "name": "Installed renewable capacity per person",
       "unit": "watts per person",
       "source": "MNRE (via MoSPI) and NCP population projection",
       "year": "2026",
@@ -2419,7 +2419,7 @@
     {
       "id": "plfs_women_nonagri",
       "theme": "Gender",
-      "name": "Women Workers Outside Agriculture",
+      "name": "Women workers outside agriculture",
       "unit": "% of women workers",
       "source": "PLFS 2025 (MoSPI)",
       "year": "2025",
@@ -2474,7 +2474,7 @@
     {
       "id": "naco_hiv",
       "theme": "Health",
-      "name": "Adult HIV Prevalence",
+      "name": "Adult HIV prevalence",
       "unit": "% of adults aged 15-49",
       "source": "NACO Sankalak 2025 (estimates for 2024)",
       "year": "2024",
@@ -2532,7 +2532,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "nha_ghe_pc",
-      "name": "Government Health Spending per Person",
+      "name": "Government health spending per person",
       "unit": "Rs per person",
       "desc": "Health spending by all government agencies (Union, state and local) in the state, per person, 2022-23. Only 21 states are covered because the survey behind the estimate is too small for the rest.",
       "higherIsBetter": true,
@@ -2572,7 +2572,7 @@
       "retrieved": "2026-10-19",
       "national": null,
       "id": "nha_oope_share",
-      "name": "Out-of-Pocket Share of Health Spending",
+      "name": "Out-of-pocket share of health spending",
       "unit": "% of total health expenditure",
       "desc": "Households' own payments at the point of care as a share of all health spending in the state, 2022-23. It rests on the NSS 75th round (2017-18) for household spending. Only 21 states are covered.",
       "higherIsBetter": false,
@@ -2607,7 +2607,7 @@
     {
       "id": "ls_public_beds",
       "theme": "Health",
-      "name": "Public Hospital Beds per Lakh People",
+      "name": "Public hospital beds per lakh people",
       "unit": "beds per lakh population",
       "source": "Lok Sabha answer 1000 of 25 July 2025 (Health Dynamics of India 2022-23)",
       "year": "2023",
@@ -2661,7 +2661,7 @@
     {
       "id": "pmjay_admissions",
       "theme": "Health",
-      "name": "PM-JAY Hospital Admissions per Lakh People",
+      "name": "PM-JAY hospital admissions per lakh people",
       "unit": "admissions per lakh population",
       "source": "Lok Sabha answer 2518 of 13 Feb 2026 (PM-JAY)",
       "year": "2024-25",
@@ -2749,7 +2749,7 @@
     {
       "id": "mudra_sc_st",
       "theme": "Economy",
-      "name": "Mudra Loans to SC and ST Entrepreneurs",
+      "name": "Mudra loans to SC and ST entrepreneurs",
       "unit": "loans per lakh SC and ST people, three years",
       "source": "Lok Sabha answer 5803 of 30 Mar 2026 (PM Mudra Yojana)",
       "year": "2022-25",
@@ -2802,7 +2802,7 @@
     {
       "id": "ncrb_sc_crimes",
       "theme": "Caste",
-      "name": "Crimes Against Scheduled Castes Recorded",
+      "name": "Crimes against Scheduled Castes recorded",
       "unit": "cases per lakh SC population",
       "source": "NCRB (Crime in India 2024, Volume II)",
       "year": "2024",
@@ -2884,7 +2884,7 @@
     {
       "id": "ncrb_honour",
       "theme": "Gender",
-      "name": "Honour Killings Recorded",
+      "name": "Honour killings recorded",
       "unit": "cases per crore population",
       "source": "NCRB (Crime in India 2024, Volume 1)",
       "year": "2024",
@@ -2939,7 +2939,7 @@
     {
       "id": "ncrb_witchcraft",
       "theme": "Gender",
-      "name": "Murders Linked to Witchcraft Recorded",
+      "name": "Murders linked to witchcraft recorded",
       "unit": "cases per crore population",
       "source": "NCRB (Crime in India 2024, Volume 1)",
       "year": "2024",
@@ -2994,7 +2994,7 @@
     {
       "id": "ncrb_trafficking",
       "theme": "Economy",
-      "name": "Human Trafficking Cases Recorded",
+      "name": "Human trafficking cases recorded",
       "unit": "cases per 10 lakh population",
       "source": "NCRB (Crime in India 2024, Volume III)",
       "year": "2024",
@@ -3106,7 +3106,7 @@
     {
       "id": "ncrb_riots",
       "theme": "Religion",
-      "name": "Communal and Religious Riots Recorded",
+      "name": "Communal and religious riots recorded",
       "unit": "cases per crore population",
       "source": "NCRB (Crime in India 2024, Volume 1)",
       "year": "2024",
@@ -3161,7 +3161,7 @@
     {
       "id": "adr_women_mlas",
       "theme": "Democracy",
-      "name": "Women Among MLAs",
+      "name": "Women among MLAs",
       "unit": "% of assembly seats",
       "source": "ADR and National Election Watch (as on 2 Feb 2026)",
       "year": "2026",
@@ -3211,7 +3211,7 @@
     {
       "id": "cpcb_prs_critical",
       "theme": "Environment",
-      "name": "Critically Polluted River Stretches",
+      "name": "Critically polluted river stretches",
       "unit": "stretches with BOD above 30 mg/L",
       "source": "CPCB, Polluted River Stretches 2025",
       "year": "2025",
@@ -3262,7 +3262,7 @@
     {
       "id": "aser_std5_read",
       "theme": "Education",
-      "name": "Std V Children Who Can Read a Std II Text (Government Schools)",
+      "name": "Std V children who can read a Std II text (government schools)",
       "unit": "% of government-school Std V children (rural)",
       "source": "ASER Centre, ASER (Rural) 2024",
       "year": "2024",
@@ -3339,7 +3339,7 @@
     {
       "id": "aser_oos_6_14",
       "theme": "Education",
-      "name": "Children Aged 6-14 Not in School (Rural)",
+      "name": "Children aged 6-14 not in school (rural)",
       "unit": "% of rural children aged 6-14",
       "source": "ASER Centre, ASER (Rural) 2024",
       "year": "2024",
@@ -3385,7 +3385,7 @@
     {
       "id": "trai_internet_per100",
       "theme": "Economy",
-      "name": "Internet Subscriptions per 100 People",
+      "name": "Internet subscriptions per 100 people",
       "unit": "subscriptions per 100 population",
       "source": "TRAI, Yearly Performance Indicators 2025-26 (Table 1.43)",
       "year": "Mar 2026",
@@ -3440,7 +3440,7 @@
     {
       "id": "tb_notification_rate",
       "theme": "Health",
-      "name": "TB Case Notification Rate",
+      "name": "TB case notification rate",
       "unit": "notified cases per lakh population",
       "source": "Central TB Division, India TB Report 2024",
       "year": "2023",
@@ -3498,7 +3498,7 @@
     {
       "id": "rbi_remit_share",
       "theme": "Economy",
-      "name": "Share of India's Inward Remittances",
+      "name": "Share of India's inward remittances",
       "unit": "% of India's inward remittances",
       "source": "RBI, India's Remittances Survey, sixth round (2023-24)",
       "year": "2023-24",
@@ -3584,7 +3584,7 @@
     {
       "id": "udise_ptr_primary",
       "theme": "Education",
-      "name": "Pupil-Teacher Ratio, Primary Schools",
+      "name": "Pupil-teacher ratio, primary schools",
       "unit": "pupils per teacher (classes 1-5)",
       "source": "UDISE+ via MoSPI",
       "year": "2024-25",
@@ -3679,7 +3679,7 @@
     {
       "id": "hces_rice_r",
       "theme": "Economy",
-      "name": "Rice Share of Cereal Consumption (Rural)",
+      "name": "Rice share of cereal consumption (rural)",
       "unit": "% of per-capita cereal quantity",
       "source": "MoSPI HCES 2023-24",
       "year": "2023-24",
@@ -3774,7 +3774,7 @@
     {
       "id": "hces_rice_u",
       "theme": "Economy",
-      "name": "Rice Share of Cereal Consumption (Urban)",
+      "name": "Rice share of cereal consumption (urban)",
       "unit": "% of per-capita cereal quantity",
       "source": "MoSPI HCES 2023-24",
       "year": "2023-24",
@@ -3869,7 +3869,7 @@
     {
       "id": "srs_mmr",
       "theme": "Health",
-      "name": "Maternal Mortality Ratio",
+      "name": "Maternal mortality ratio",
       "unit": "maternal deaths per 100,000 live births",
       "source": "ORGI, SRS Special Bulletin on Maternal Mortality 2022-24",
       "year": "2022-24",
@@ -3907,7 +3907,7 @@
     {
       "id": "srs_life_exp",
       "theme": "Health",
-      "name": "Life Expectancy at Birth",
+      "name": "Life expectancy at birth",
       "unit": "years",
       "source": "ORGI, SRS Abridged Life Tables 2019-23",
       "year": "2019-23",
@@ -6469,7 +6469,7 @@
     {
       "id": "rbi_irrigated_share",
       "theme": "Environment",
-      "name": "Net Irrigated Area as % of Net Sown Area",
+      "name": "Net irrigated area as % of net sown area",
       "unit": "% of net sown area",
       "source": "RBI Handbook of Statistics on Indian States 2024-25 (Land Use Statistics)",
       "year": "2023-24 (provisional)",
@@ -6554,7 +6554,7 @@
     {
       "id": "rbi_bank_offices",
       "theme": "Economy",
-      "name": "Bank Offices per Lakh People",
+      "name": "Bank offices per lakh people",
       "unit": "offices per lakh population",
       "source": "RBI Handbook of Statistics on Indian States 2024-25 (Table 152)",
       "year": "Mar 2025",
@@ -6649,7 +6649,7 @@
     {
       "id": "cgwb_stage",
       "theme": "Environment",
-      "name": "Stage of Groundwater Extraction",
+      "name": "Stage of groundwater extraction",
       "unit": "% of annual extractable resource",
       "source": "CGWB 2024 assessment, via RBI Handbook of Statistics on Indian States 2024-25 (Table 107)",
       "year": "2024",
@@ -6743,7 +6743,7 @@
     {
       "id": "rbi_thirsty_share",
       "theme": "Environment",
-      "name": "Rice and Sugarcane Share of Rice, Sugarcane and Coarse Cereal Area",
+      "name": "Rice and sugarcane share of rice, sugarcane and coarse cereal area",
       "unit": "% of the three crops' area",
       "source": "Ministry of Agriculture area statistics, via RBI Handbook of Statistics on Indian States 2024-25 (Tables 67, 69, 78)",
       "year": "2024-25",
@@ -6826,7 +6826,7 @@
     {
       "id": "srs_sex_ratio_birth",
       "theme": "Gender",
-      "name": "Sex Ratio at Birth",
+      "name": "Sex ratio at birth",
       "unit": "girls per 1,000 boys",
       "source": "ORGI, SRS Statistical Report 2023 (Table 16)",
       "year": "2021-23",
@@ -6893,7 +6893,7 @@
     {
       "id": "dpiit_startups",
       "theme": "Economy",
-      "name": "DPIIT-Recognised Startups per Lakh People",
+      "name": "DPIIT-recognised startups per lakh people",
       "unit": "startups per lakh people",
       "source": "DPIIT, Lok Sabha Unstarred Question 1446 (28 July 2026), with NCRB 2024 population projections",
       "year": "30 June 2026",
@@ -6948,7 +6948,7 @@
     {
       "id": "srs_marriage_age",
       "theme": "Gender",
-      "name": "Mean Age at Effective Marriage of Females",
+      "name": "Mean age at effective marriage of females",
       "unit": "years",
       "source": "ORGI, SRS Statistical Report 2023 (Statement 13)",
       "year": "2023",
@@ -6989,7 +6989,7 @@
     {
       "id": "cgwb_oe_share",
       "theme": "Environment",
-      "name": "Over-Exploited Groundwater Units",
+      "name": "Over-exploited groundwater units",
       "unit": "% of assessed blocks, taluks or mandals",
       "source": "CGWB, National Compilation on Dynamic Ground Water Resources of India, 2025",
       "year": "2025",
@@ -7046,7 +7046,7 @@
     {
       "id": "rain_2024",
       "theme": "Environment",
-      "name": "Annual Rainfall, 2024",
+      "name": "Annual rainfall, 2024",
       "unit": "mm in calendar year 2024",
       "source": "IMD rainfall as tabulated in the CGWB National Compilation on Dynamic Ground Water Resources of India, 2025",
       "year": "2024",
@@ -7101,7 +7101,7 @@
     {
       "id": "udyam_per_lakh",
       "theme": "Economy",
-      "name": "Udyam MSME Registrations per Lakh People",
+      "name": "Udyam MSME registrations per lakh people",
       "unit": "registrations per lakh people",
       "source": "Ministry of MSME, Lok Sabha Unstarred Question 755 (4 December 2025), with NCRB 2024 population projections",
       "year": "to 30 Nov 2025",
@@ -7156,7 +7156,7 @@
     {
       "id": "power_hours_rural",
       "theme": "Infrastructure",
-      "name": "Rural Power Supply, Hours a Day",
+      "name": "Rural power supply, hours a day",
       "unit": "average hours a day",
       "source": "Ministry of Power, Rajya Sabha Unstarred Question 3185 (28 March 2023), Annexure I",
       "year": "2021-22",
@@ -7195,7 +7195,7 @@
     {
       "id": "mgnrega_women_pct",
       "theme": "Gender",
-      "name": "Women's Share of MGNREGA Persondays",
+      "name": "Women's share of MGNREGA persondays",
       "unit": "% of persondays",
       "source": "Ministry of Rural Development, State Performance Report 2024-25, Annexure II",
       "year": "2024-25",
@@ -7246,7 +7246,7 @@
     {
       "id": "mgnrega_100_days_pct",
       "theme": "Economy",
-      "name": "Households Completing 100 Days of MGNREGA Work",
+      "name": "Households completing 100 days of MGNREGA work",
       "unit": "% of households that worked",
       "source": "Ministry of Rural Development, State Performance Report 2024-25, Annexure I",
       "year": "2024-25",
@@ -7297,7 +7297,7 @@
     {
       "id": "nrlm_shg_per_lakh",
       "theme": "Gender",
-      "name": "Women Self-Help Groups per Lakh People",
+      "name": "Women self-help groups per lakh people",
       "unit": "groups per lakh people",
       "source": "Ministry of Rural Development, Lok Sabha Unstarred Question 3687 (11 August 2026), Annexure I, with NCRB 2024 population projections",
       "year": "to August 2026",
@@ -7350,7 +7350,7 @@
     {
       "id": "jjm_tap_pct",
       "theme": "Infrastructure",
-      "name": "Rural Households with Tap Water Supply",
+      "name": "Rural households with tap water supply",
       "unit": "% of rural households",
       "source": "Ministry of Jal Shakti, Lok Sabha Starred Question 62 (23 July 2026), Annexure (JJM IMIS)",
       "year": "as on 18 Jul 2026",
@@ -7403,7 +7403,7 @@
     {
       "id": "cpcb_waste_pc",
       "theme": "Environment",
-      "name": "Solid Waste Generated per Person",
+      "name": "Solid waste generated per person",
       "unit": "grams per person per day",
       "source": "MoEFCC, Lok Sabha Unstarred Question 50 (1 December 2025), Annexure (CPCB, 2023-24), with NCRB 2024 population projections",
       "year": "2023-24",

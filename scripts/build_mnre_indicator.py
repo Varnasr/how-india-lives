@@ -30,7 +30,7 @@ def build(cap, pop):
         vals[s] = round(v * 10 / lakh)
     nat = round(mw['All India'] * 10 / pop['india']['population_lakh'])
     return [{
-        'id': 'mnre_per_person', 'theme': 'Environment', 'name': 'Installed Renewable Capacity per Person', 'unit': 'watts per person',
+        'id': 'mnre_per_person', 'theme': 'Environment', 'name': 'Installed renewable capacity per person', 'unit': 'watts per person',
         'source': 'MNRE (via MoSPI) and NCP population projection', 'year': '2026',
         'desc': 'Installed renewable power capacity (solar, wind, hydro including large hydro, bio) as of July 2026, in watts per person, using 2024 projected populations. It is capacity, not generation, and large hydro is included in the total.',
         'higherIsBetter': None, 'national': nat, 'values': dict(sorted(vals.items())),

@@ -42,7 +42,7 @@ def build(raw):
             few.append(s)
     nat = round(I['sc_crimes_2024'] / I['sc_population_lakh_2011'], 1)
     out = [{
-        'id': 'ncrb_sc_crimes', 'theme': 'Caste', 'name': 'Crimes Against Scheduled Castes Recorded', 'unit': 'cases per lakh SC population',
+        'id': 'ncrb_sc_crimes', 'theme': 'Caste', 'name': 'Crimes against Scheduled Castes recorded', 'unit': 'cases per lakh SC population',
         'source': 'NCRB (Crime in India 2024, Volume II)', 'year': '2024',
         'desc': 'Crime and atrocity cases against Scheduled Castes registered by the police, per lakh Scheduled Caste population (Census 2011). It counts registrations, not incidence. States and territories with under 1 lakh Scheduled Caste people are left grey.',
         'higherIsBetter': None, 'national': nat, 'values': dict(sorted(sc.items())), 'previous': dict(sorted(scp.items())), 'previousYear': '2023',
@@ -52,10 +52,10 @@ def build(raw):
         'desc_hi': 'पुलिस में दर्ज अनुसूचित जातियों के विरुद्ध अपराध और अत्याचार के मामले, प्रति लाख अनुसूचित जाति आबादी (जनगणना 2011)। यह दर्ज मामलों की गिनती है, घटनाओं की नहीं। जिन राज्यों में अनुसूचित जाति आबादी 1 लाख से कम है, वे ग्रे हैं।',
     }]
     for key, iid, name, desc, nhi, dhi in (
-        ('murder_honour_2024', 'ncrb_honour', 'Honour Killings Recorded',
+        ('murder_honour_2024', 'ncrb_honour', 'Honour killings recorded',
          'Murders registered with honour killing as the recorded motive, per crore population. A zero means none recorded as such, which is not the same as none occurring.',
          'दर्ज ऑनर किलिंग', 'हत्या के वे मामले जिनमें दर्ज उद्देश्य ऑनर किलिंग है, प्रति करोड़ आबादी। शून्य का अर्थ है इस रूप में कोई मामला दर्ज नहीं हुआ, यह नहीं कि कोई घटना हुई ही नहीं।'),
-        ('murder_witchcraft_2024', 'ncrb_witchcraft', 'Murders Linked to Witchcraft Recorded',
+        ('murder_witchcraft_2024', 'ncrb_witchcraft', 'Murders linked to witchcraft recorded',
          'Murders registered with witchcraft as the recorded motive, per crore population. A zero means none recorded as such, which is not the same as none occurring.',
          'डायन-शिकार से जुड़ी दर्ज हत्याएँ', 'हत्या के वे मामले जिनमें दर्ज उद्देश्य डायन/जादू-टोना है, प्रति करोड़ आबादी। शून्य का अर्थ है इस रूप में कोई मामला दर्ज नहीं हुआ, यह नहीं कि कोई घटना हुई ही नहीं।')):
         vals = {}
@@ -78,7 +78,7 @@ def build(raw):
         if r['trafficking_2024'] < 10:
             tfew.append(s)
     out.append({
-        'id': 'ncrb_trafficking', 'theme': 'Economy', 'name': 'Human Trafficking Cases Recorded', 'unit': 'cases per 10 lakh population',
+        'id': 'ncrb_trafficking', 'theme': 'Economy', 'name': 'Human trafficking cases recorded', 'unit': 'cases per 10 lakh population',
         'source': 'NCRB (Crime in India 2024, Volume III)', 'year': '2024',
         'desc': 'Human trafficking cases registered by the police (from their Anti Human Trafficking Units), per 10 lakh population, 2024, with 2023 beside it. It counts registrations, not incidence, and a state with few cases moves a long way on one case.',
         'higherIsBetter': None, 'national': round(I['trafficking_2024'] / I['population_lakh'] * 10, 2), 'values': dict(sorted(tp.items())),
@@ -93,7 +93,7 @@ def build(raw):
             continue
         rv[s] = round(r['communal_riots_2024'] / r['population_lakh'] * 100, 2)
     out.append({
-        'id': 'ncrb_riots', 'theme': 'Religion', 'name': 'Communal and Religious Riots Recorded', 'unit': 'cases per crore population',
+        'id': 'ncrb_riots', 'theme': 'Religion', 'name': 'Communal and religious riots recorded', 'unit': 'cases per crore population',
         'source': 'NCRB (Crime in India 2024, Volume 1)', 'year': '2024',
         'desc': 'Riot cases registered with communal or religious motive (a sub-head of rioting under IPC 147-151 and BNS 189-191), 2024, per crore population. One year only. It counts registrations, and a state with few cases moves a long way on one case.',
         'higherIsBetter': None, 'national': round(I['communal_riots_2024'] / I['population_lakh'] * 100, 2), 'values': dict(sorted(rv.items())), 

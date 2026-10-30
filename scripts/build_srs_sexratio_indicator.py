@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'srs_sex_ratio_birth', 'theme': 'Gender', 'name': 'Sex Ratio at Birth', 'unit': 'girls per 1,000 boys',
+        'id': 'srs_sex_ratio_birth', 'theme': 'Gender', 'name': 'Sex ratio at birth', 'unit': 'girls per 1,000 boys',
         'source': 'ORGI, SRS Statistical Report 2023 (Table 16)', 'year': '2021-23',
         'desc': 'Female births per 1,000 male births, a three-year average from the Sample Registration System for 2021-23, with 2020-22 beside it. A typical biological ratio is about 105 boys for 100 girls, roughly 952 girls per 1,000 boys, so a figure well below that points to sex-selective practices or to girls\' births going unreported, and the data cannot say which. Only India and the 22 larger states are published, and Jammu and Kashmir includes Ladakh. State samples are small, so single-period changes of a few points are within noise.',
         'higherIsBetter': True, 'national': raw['india']['total'][4],

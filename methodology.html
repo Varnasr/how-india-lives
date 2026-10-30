@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRCMEB9TBW"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JRCMEB9TBW');</script>
-<title>Methodology — How India Lives | ImpactMojo</title>
+<title>Methodology | How India Lives | ImpactMojo</title>
 <meta name="description" content="Methodology note for the 259 state-level choropleth maps of India covering demography, health, gender, economy, and more.">
-<meta property="og:title" content="Methodology — How India Lives | ImpactMojo">
+<meta property="og:title" content="Methodology | How India Lives | ImpactMojo">
 <meta property="og:description" content="Data sources, quality flags, and methodology for the 259 state-level maps of India's diversity.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://howindialives.impactmojo.in/methodology.html">
 <meta property="og:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Methodology — How India Lives">
+<meta name="twitter:title" content="Methodology | How India Lives">
 <meta name="twitter:description" content="Data sources, quality flags, and methodology for the 259 state-level maps of India's diversity.">
 <meta name="twitter:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
 <meta name="theme-color" content="#0EA5E9">
@@ -113,13 +113,13 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 
 <main class="content" id="main">
 
-<h1>Map <span>Methodology</span> Note</h1>
+<h1>Map <span>methodology</span> note</h1>
 <p class="lead">How the 259 state-level choropleth maps were built, what data they use, and what they can and cannot tell you.</p>
 
-<h2>What These Maps Are</h2>
+<h2>What these maps are</h2>
 <p>259 state-level choropleth maps of India covering demography, food and culture, economy, health, gender, caste, religion, education, environment, democracy, social protection, and reproductive choices. Each map shows a single indicator across India's <strong>28 states and 8 union territories</strong> (36 units).</p>
 
-<h2>Data Sources</h2>
+<h2>Data sources</h2>
 <p>The maps draw primarily on seven source families:</p>
 
 <table class="source-table">
@@ -137,9 +137,9 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     </tbody>
 </table>
 
-<p><strong>Note on NCRB data:</strong> NCRB data reflects <em>registered cases</em>, not incidence. States with high crime registration rates may have better police responsiveness rather than worse safety. States with low rates may suppress reporting. This caveat is flagged on every NCRB-sourced map.</p>
+<p><strong>Note on NCRB data:</strong> NCRB data counts <em>registered cases</em> and does not measure incidence. States with high crime registration rates may have more responsive police rather than less safety. States with low rates may suppress reporting. This caveat is flagged on every NCRB-sourced map.</p>
 
-<h2>Data Quality Flags</h2>
+<h2>Data quality flags</h2>
 <p>Each map carries one of three flags:</p>
 <p>
     <span class="badge badge-built">BUILT</span> Values taken directly from published official tables. No interpolation.
@@ -148,15 +148,15 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <span class="badge badge-new">NEW</span> Values compiled from published official sources during map preparation. Cross-checked against source publications.
 </p>
 <p>
-    <span class="badge badge-uncertain">UNCERTAIN</span> Values derived from proxy indicators, crowdsourced databases, or methodologically contested sources. <strong>18 maps</strong> carry this flag, including temple density, inter-caste marriage, child labour (post-2011), honour killings, witch-hunting deaths, manual scavenging, and gig workers. Each carries a specific caveat in its source line.
+    <span class="badge badge-uncertain">UNCERTAIN</span> Values derived from proxy indicators, crowdsourced databases, or methodologically contested sources. <strong>7 maps</strong> carry this flag: missing women, temple density, honour killings, witch-hunting deaths, inter-caste marriage, child labour (post-2011) and diabetes prevalence. Each carries a specific caveat in its source line.
 </p>
 
-<h2>How the Maps Were Rendered</h2>
+<h2>How the maps were rendered</h2>
 <p>Maps are rendered programmatically using <strong>Python 3</strong> with <strong>GeoPandas</strong> and <strong>Matplotlib</strong>. The base shapefile is Natural Earth 10m Admin-1 (<code>ne_10m_admin_1_states_provinces.shp</code>), filtered to India.</p>
 <p>The rendering script (<code>maps_v2.py</code>) takes a standardised data dictionary for each map containing the title, unit, source, year, takeaway sentence, shock statistic, highest and lowest state callouts, national average, and a complete state-to-value data dictionary. Given the same input, it produces the same output.</p>
 <p><strong>Northeast India's</strong> eight states plus Sikkim are rendered in a dedicated inset panel overlaying the main map's NE region, since their polygons are too small for readable labels at national scale. Every state receives a two-letter abbreviation and its data value.</p>
 
-<h2>Design Conventions</h2>
+<h2>Design conventions</h2>
 <ul>
     <li>Warm off-white background (<code>#F8F6F1</code>), 16:9 aspect ratio, 200 DPI PNG output</li>
     <li><strong>Amaranth Bold ALL CAPS</strong> for titles; <strong>Inter</strong> (variable weight) for all other text</li>
@@ -166,7 +166,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <li>Source and data year appear bottom left; copyright line bottom right</li>
 </ul>
 
-<h2>Key Limitations</h2>
+<h2>Limitations</h2>
 
 <div class="limitation">
     <h3>Temporal mismatch</h3>
@@ -185,12 +185,12 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <p>For rapidly changing indicators (urbanisation, digital access, employment), Census 2011 is directionally valid but quantitatively outdated. Where newer survey data exists, it is preferred.</p>
 </div>
 <div class="limitation">
-    <h3>Estimates are not fabrications</h3>
-    <p>The 10 UNCERTAIN maps use the best available published data. They carry wider confidence intervals and should be presented with their caveats stated.</p>
+    <h3>Uncertain estimates</h3>
+    <p>The 7 UNCERTAIN maps use the best available published data. They carry wider confidence intervals and should be presented with their caveats stated.</p>
 </div>
 
 <p style="margin-top:32px;padding:20px;background:var(--secondary-bg);border-radius:12px;border:1px solid var(--border-color);">
-    <strong>These maps are pedagogical tools</strong> designed for facilitated discussion. They are not intended as standalone data references. For policy or academic citation, consult the underlying source publications directly.
+    <strong>These maps are pedagogical tools</strong> designed for facilitated discussion. For policy or academic citation, consult the underlying source publications directly.
 </p>
 
 <p style="margin-top:24px;color:var(--text-muted);font-size:0.85rem;font-style:italic;">
@@ -201,10 +201,10 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 </main>
 
 <footer class="site-footer">
-    <p><a href="index.html">&larr; Back to 259 Maps</a></p>
+    <p><a href="index.html">&larr; Back to 259 maps</a></p>
     <p>Data work by <strong>Varna</strong> &middot; Maps rendered with Python 3 + GeoPandas + Matplotlib</p>
-    <p>Part of <a href="https://www.impactmojo.in">ImpactMojo</a> — Free development education for South Asia</p>
-    <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools, not standalone data references.</p>
+    <p>Part of <a href="https://www.impactmojo.in">ImpactMojo</a>, free development education for South Asia</p>
+    <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools. For figures to cite, use the source publications.</p>
 </footer>
 
 <!-- Theme + navigation handled by the shared common header -->

@@ -1,38 +1,38 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-tb_notification_rate,TB Case Notification Rate,Andaman and Nicobar,142.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Andhra Pradesh,167.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Arunachal Pradesh,100.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Assam,142.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Bihar,141.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Chandigarh,556.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Chhattisgarh,129,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Dadra and Nagar Haveli and Daman and Diu,132.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Delhi,507.2,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Goa,132.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Gujarat,199.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Haryana,260.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Himachal Pradesh,202.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Jammu and Kashmir,77.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Jharkhand,148,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Karnataka,110.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Kerala,61.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Ladakh,122.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Lakshadweep,9.0,notified cases per lakh population,2023,,,,yes,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Madhya Pradesh,209,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Maharashtra,175.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Manipur,69.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Meghalaya,126.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Mizoram,172.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Nagaland,204.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Odisha,130.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Puducherry,263.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Punjab,180.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Rajasthan,203.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Sikkim,206.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Tamil Nadu,125.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Telangana,184.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Tripura,83.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Uttar Pradesh,260.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,Uttarakhand,220.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,West Bengal,100.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
-tb_notification_rate,TB Case Notification Rate,India (national figure as published or computed),178.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Andaman and Nicobar,142.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Andhra Pradesh,167.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Arunachal Pradesh,100.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Assam,142.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Bihar,141.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Chandigarh,556.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Chhattisgarh,129,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Dadra and Nagar Haveli and Daman and Diu,132.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Delhi,507.2,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Goa,132.7,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Gujarat,199.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Haryana,260.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Himachal Pradesh,202.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Jammu and Kashmir,77.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Jharkhand,148,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Karnataka,110.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Kerala,61.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Ladakh,122.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Lakshadweep,9.0,notified cases per lakh population,2023,,,,yes,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Madhya Pradesh,209,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Maharashtra,175.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Manipur,69.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Meghalaya,126.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Mizoram,172.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Nagaland,204.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Odisha,130.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Puducherry,263.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Punjab,180.6,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Rajasthan,203.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Sikkim,206.4,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Tamil Nadu,125.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Telangana,184.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Tripura,83.5,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Uttar Pradesh,260.1,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,Uttarakhand,220.9,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,West Bengal,100.3,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19
+tb_notification_rate,TB case notification rate,India (national figure as published or computed),178.8,notified cases per lakh population,2023,,,,,"Central TB Division, India TB Report 2024",https://tbcindia.gov.in/,2026-10-19

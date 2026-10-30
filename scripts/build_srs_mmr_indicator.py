@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'srs_mmr', 'theme': 'Health', 'name': 'Maternal Mortality Ratio', 'unit': 'maternal deaths per 100,000 live births',
+        'id': 'srs_mmr', 'theme': 'Health', 'name': 'Maternal mortality ratio', 'unit': 'maternal deaths per 100,000 live births',
         'source': 'ORGI, SRS Special Bulletin on Maternal Mortality 2022-24', 'year': '2022-24',
         'desc': 'Maternal deaths per 100,000 live births, pooled over 2022 to 2024, from the Sample Registration System. Only 19 states are shown separately; the other states and UTs are pooled by SRS as "Other states" (84) and stay grey here. The estimates rest on few deaths, so the 95 per cent confidence intervals are wide (Kerala 0 to 50, Uttar Pradesh 115 to 192) and differences between neighbouring values are usually within the noise.',
         'higherIsBetter': False, 'national': raw['india']['mmr'],

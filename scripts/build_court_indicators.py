@@ -48,13 +48,13 @@ def build(raw):
     ts = sum(v['sanctioned'] for v in jud.values())
     url = raw['document_url']
     return [
-        {'id': 'court_pending_per_judge', 'theme': 'Economy', 'name': 'Pending Cases per Working Judge',
+        {'id': 'court_pending_per_judge', 'theme': 'Economy', 'name': 'Pending cases per working judge',
          'unit': 'cases per working judicial officer', 'source': 'NJDG and Nyaya Vikas (Lok Sabha, March 2026)', 'year': '2026',
          'desc': 'Cases pending in district and subordinate courts (NJDG, 9 March 2026) divided by working judicial officers in the subordinate judiciary. The two counts come from different sources, so it is a rough guide.',
          'higherIsBetter': False, 'national': round(tp / tw), 'values': dict(sorted(per.items())), 'sourceUrl': url, 'retrieved': '2026-10-19',
          'name_hi': 'प्रति कार्यरत न्यायाधीश लंबित मामले', 'unit_hi': 'मामले प्रति कार्यरत न्यायिक अधिकारी',
          'desc_hi': 'जिला और अधीनस्थ न्यायालयों में लंबित मामले (NJDG, 9 मार्च 2026) को अधीनस्थ न्यायपालिका के कार्यरत न्यायिक अधिकारियों से भाग देकर। दोनों संख्याएँ अलग स्रोतों से हैं, इसलिए यह मोटा अनुमान है।'},
-        {'id': 'court_vacancy_pct', 'theme': 'Economy', 'name': 'Vacant Judicial Posts', 'unit': '% of sanctioned posts in the subordinate judiciary',
+        {'id': 'court_vacancy_pct', 'theme': 'Economy', 'name': 'Vacant judicial posts', 'unit': '% of sanctioned posts in the subordinate judiciary',
          'source': 'Nyaya Vikas (Lok Sabha, March 2026)', 'year': '2026',
          'desc': 'Share of sanctioned judicial posts in the district and subordinate courts that are vacant.',
          'higherIsBetter': False, 'national': round((ts - tw) / ts * 100, 1), 'values': dict(sorted(vac.items())), 'sourceUrl': url, 'retrieved': '2026-10-19',

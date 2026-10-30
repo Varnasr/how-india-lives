@@ -1,23 +1,23 @@
-# Visual Stories
+# Visual stories
 
-How India Lives includes 10 curated visual stories — scroll-driven narratives that thread maps into a bigger picture.
+How India Lives includes 10 curated visual stories, scroll-driven narratives that thread maps into a bigger picture.
 
-## Available Stories
+## Available stories
 
 | # | Story | Maps | Link |
 |---|-------|------|------|
-| 1 | India's North-South Divide | 7 | [Read](https://howindialives.impactmojo.in/stories.html#north-south) |
-| 2 | The Gender Gap: What It Means to Be a Woman | 7 | [Read](https://howindialives.impactmojo.in/stories.html#gender-gap) |
-| 3 | Where Bihar Falls Behind — and Why | 6 | [Read](https://howindialives.impactmojo.in/stories.html#bihar) |
-| 4 | What India Eats: Food as Cultural Geography | 6 | [Read](https://howindialives.impactmojo.in/stories.html#food) |
-| 5 | Does Caste Still Shape Life Outcomes? | 6 | [Read](https://howindialives.impactmojo.in/stories.html#caste) |
-| 6 | India's Climate Map: Heat, Water, Vulnerability | 6 | [Read](https://howindialives.impactmojo.in/stories.html#climate) |
-| 7 | Is India's Democracy Equally Healthy? | 6 | [Read](https://howindialives.impactmojo.in/stories.html#democracy) |
-| 8 | The Digital Divide | 5 | [Read](https://howindialives.impactmojo.in/stories.html#digital) |
-| 9 | Who Gets the Safety Net? | 5 | [Read](https://howindialives.impactmojo.in/stories.html#safety-net) |
-| 10 | How Faith Maps Onto Geography | 5 | [Read](https://howindialives.impactmojo.in/stories.html#religion) |
+| 1 | India's north-south divide | 7 | [Read](https://howindialives.impactmojo.in/stories.html#north-south) |
+| 2 | The gender gap, and what it means to be a woman | 7 | [Read](https://howindialives.impactmojo.in/stories.html#gender-gap) |
+| 3 | Where Bihar falls behind, and why | 6 | [Read](https://howindialives.impactmojo.in/stories.html#bihar) |
+| 4 | What India eats | 6 | [Read](https://howindialives.impactmojo.in/stories.html#food) |
+| 5 | Does caste still shape life outcomes? | 6 | [Read](https://howindialives.impactmojo.in/stories.html#caste) |
+| 6 | India's climate map of heat, water and vulnerability | 6 | [Read](https://howindialives.impactmojo.in/stories.html#climate) |
+| 7 | Is India's democracy equally healthy everywhere? | 6 | [Read](https://howindialives.impactmojo.in/stories.html#democracy) |
+| 8 | The digital divide | 5 | [Read](https://howindialives.impactmojo.in/stories.html#digital) |
+| 9 | Who gets the safety net? | 5 | [Read](https://howindialives.impactmojo.in/stories.html#safety-net) |
+| 10 | How faith maps onto geography | 5 | [Read](https://howindialives.impactmojo.in/stories.html#religion) |
 
-## How Stories Work
+## How stories work
 
 Each story is a scroll-driven narrative on `stories.html`. Maps fade in as you scroll, with editorial text connecting them into a coherent argument.
 
@@ -28,11 +28,11 @@ Each story is a scroll-driven narrative on `stories.html`. Maps fade in as you s
 - Progress bar at top tracks reading position
 - Each story has WhatsApp share and "Back to all stories" navigation
 
-### Contributing a Story
+### Contributing a story
 
 To propose a new story:
 
-1. Pick a theme or angle (e.g. "India's Water Crisis", "The Education Ladder")
+1. Pick a theme or angle (e.g. "India's water crisis", "The education ladder")
 2. Select 5-7 maps from `data/maps.json` that support the narrative
 3. Write the editorial connective text (see existing stories for tone)
 4. Add the HTML to `stories.html` following the existing format
@@ -40,7 +40,7 @@ To propose a new story:
 6. Submit a PR
 
 The editorial voice should be:
-- **Factual but passionate** — data with conviction
-- **Comparative** — "Kerala vs Bihar" style contrasts
-- **Policy-aware** — every insight connects to a "so what"
-- **Accessible** — no jargon, short sentences, bold key facts
+- **Factual but passionate**: data with conviction
+- **Comparative**: "Kerala vs Bihar" style contrasts
+- **Policy-aware**: every insight connects to a "so what"
+- **Accessible**: no jargon, short sentences, bold key facts

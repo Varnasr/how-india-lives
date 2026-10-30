@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     d = raw['std5']
     return [{
-        'id': 'aser_std5_read', 'theme': 'Education', 'name': 'Std V Children Who Can Read a Std II Text (Government Schools)',
+        'id': 'aser_std5_read', 'theme': 'Education', 'name': 'Std V children who can read a Std II text (government schools)',
         'unit': '% of government-school Std V children (rural)', 'source': 'ASER Centre, ASER (Rural) 2024', 'year': '2024',
         'desc': 'Share of Std V children in rural government schools who can read a Std II level text, from the ASER 2024 household survey (provisional report, 28 January 2025). ASER tests children at home in rural districts only, and its state tables cover government schools only. 27 states are published; Delhi, Goa and the smaller territories have no figure. Subtract from 100 for the share who cannot. State samples are small, so single-state swings of a few points are within survey noise.',
         'higherIsBetter': True, 'national': raw['national_govt']['std5']['2024'],

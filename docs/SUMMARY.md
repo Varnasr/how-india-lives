@@ -1,9 +1,9 @@
 # Table of Contents
 
 * [Introduction](README.md)
-* [About the Project](about.md)
-* [Data Sources & Methodology](methodology.md)
-* [Map Themes Guide](themes.md)
+* [About the project](about.md)
+* [Data sources and methodology](methodology.md)
+* [Map themes guide](themes.md)
 * [Contributing](contributing.md)
 * [Roadmap](roadmap.md)
 * [FAQ](faq.md)

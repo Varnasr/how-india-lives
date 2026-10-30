@@ -42,19 +42,19 @@ def build():
         mv[s] = round(loans / base)
     nat_mu = round(mu['national_loans'] / (pop['india']['sc_population_lakh_2011'] + pop['india']['st_population_lakh_2011']))
     return [
-        {'id': 'ls_public_beds', 'theme': 'Health', 'name': 'Public Hospital Beds per Lakh People', 'unit': 'beds per lakh population',
+        {'id': 'ls_public_beds', 'theme': 'Health', 'name': 'Public hospital beds per lakh people', 'unit': 'beds per lakh population',
          'source': 'Lok Sabha answer 1000 of 25 July 2025 (Health Dynamics of India 2022-23)', 'year': '2023', 'national': None,
          'desc': 'Beds in government facilities (primary and community health centres, sub-district and district hospitals, and medical colleges) as on 31 March 2023, per lakh people on 2024 projected populations. It counts public beds only. Maharashtra is left off because the source\'s medical-college column does not add up.',
          'higherIsBetter': True, 'values': dict(sorted(bv.items())), 'sourceUrl': beds['url'], 'retrieved': '2026-10-19',
          'name_hi': 'प्रति लाख आबादी पर सरकारी अस्पताल के बिस्तर', 'unit_hi': 'बिस्तर प्रति लाख आबादी',
          'desc_hi': '31 मार्च 2023 तक सरकारी सुविधाओं (प्राथमिक और सामुदायिक स्वास्थ्य केंद्र, उप-जिला और जिला अस्पताल, और मेडिकल कॉलेज) में बिस्तर, 2024 के अनुमानित जनसंख्या आँकड़ों पर प्रति लाख आबादी। इसमें केवल सरकारी बिस्तर हैं। महाराष्ट्र छोड़ा गया है क्योंकि स्रोत का मेडिकल कॉलेज स्तंभ जुड़ता नहीं।'},
-        {'id': 'pmjay_admissions', 'theme': 'Health', 'name': 'PM-JAY Hospital Admissions per Lakh People', 'unit': 'admissions per lakh population',
+        {'id': 'pmjay_admissions', 'theme': 'Health', 'name': 'PM-JAY hospital admissions per lakh people', 'unit': 'admissions per lakh population',
          'source': 'Lok Sabha answer 2518 of 13 Feb 2026 (PM-JAY)', 'year': '2024-25', 'previousYear': '2022-23', 'national': None,
          'desc': 'Hospital admissions authorised under PM-JAY in FY 2024-25, per lakh people on 2024 projected populations, with FY 2022-23 beside it. Delhi and Odisha joined in April 2025 and West Bengal is not in the scheme, so they are grey.',
          'higherIsBetter': None, 'values': dict(sorted(pv.items())), 'previous': dict(sorted(pp.items())), 'sourceUrl': pm['url'], 'retrieved': '2026-10-19',
          'name_hi': 'प्रति लाख आबादी पर PM-JAY अस्पताल भर्ती', 'unit_hi': 'भर्ती प्रति लाख आबादी',
          'desc_hi': 'वित्त वर्ष 2024-25 में PM-JAY के तहत स्वीकृत अस्पताल भर्ती, 2024 के अनुमानित जनसंख्या आँकड़ों पर प्रति लाख आबादी, वित्त वर्ष 2022-23 के साथ। दिल्ली और ओडिशा अप्रैल 2025 में जुड़े और पश्चिम बंगाल योजना में नहीं है, इसलिए वे ग्रे हैं।'},
-        {'id': 'mudra_sc_st', 'theme': 'Economy', 'name': 'Mudra Loans to SC and ST Entrepreneurs', 'unit': 'loans per lakh SC and ST people, three years',
+        {'id': 'mudra_sc_st', 'theme': 'Economy', 'name': 'Mudra loans to SC and ST entrepreneurs', 'unit': 'loans per lakh SC and ST people, three years',
          'source': 'Lok Sabha answer 5803 of 30 Mar 2026 (PM Mudra Yojana)', 'year': '2022-25', 'national': nat_mu,
          'desc': 'Number of PM Mudra Yojana loans to SC and ST entrepreneurs, April 2022 to March 2025, per lakh Scheduled Caste and Scheduled Tribe people (Census 2011). It counts loans, not borrowers, and SC and ST are reported together. States with under 1 lakh SC and ST people are grey.',
          'higherIsBetter': None, 'values': dict(sorted(mv.items())), 'sourceUrl': mu['url'], 'retrieved': '2026-10-19',

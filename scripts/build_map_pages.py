@@ -19,10 +19,10 @@ from urllib.parse import quote
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://howindialives.impactmojo.in"
 SECTION_TITLES = {
-    'demography': 'Demography', 'food-and-culture': 'Food & Culture', 'economy': 'Economy',
+    'demography': 'Demography', 'food-and-culture': 'Food & culture', 'economy': 'Economy',
     'health': 'Health', 'gender': 'Gender', 'caste': 'Caste', 'religion': 'Religion',
     'education': 'Education', 'environment': 'Environment', 'democracy': 'Democracy',
-    'social-protection': 'Social Protection', 'reproductive-choices': 'Reproductive Choices',
+    'social-protection': 'Social protection', 'reproductive-choices': 'Reproductive choices',
 }
 SECTION_TITLES_HI = {
     'demography': 'जनसांख्यिकी', 'food-and-culture': 'भोजन और संस्कृति', 'economy': 'अर्थव्यवस्था',
@@ -85,11 +85,11 @@ def page(m, interactive_id):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{title} &mdash; How India Lives | ImpactMojo</title>
+<title>{title} | How India Lives | ImpactMojo</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="{title} &mdash; How India Lives">
+<meta property="og:title" content="{title} | How India Lives">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{og_img}">
@@ -157,7 +157,7 @@ html[data-theme="dark"] .takeaway{{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}}
   </div>
   <p class="vint"><strong>Data vintage.</strong> {vintage}{newer}{data_note}</p>
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
-  <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion, not standalone data references. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+  <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion. For figures to cite, use the source publications. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
 <script src="/assets/common-header.js" defer></script>
 <script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
@@ -192,7 +192,7 @@ def vintage(m):
     note = 'The figures are for %s and have not been refreshed since this map was made.' % yr if yr else \
         'The data year is not recorded for this map.'
     if m.get('quality') == 'UNCERTAIN':
-        note += ' It is flagged UNCERTAIN: check the source before quoting a figure.'
+        note += ' It is flagged UNCERTAIN, so check the source before quoting a figure.'
     return ('Data year %s' % yr if yr else 'Data year not recorded', note)
 
 def index_page(maps):
@@ -208,7 +208,7 @@ def index_page(maps):
         blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
     return """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All 259 maps &mdash; How India Lives | ImpactMojo</title>
+<title>All 259 maps | How India Lives | ImpactMojo</title>
 <meta name="description" content="A complete, browsable index of all 259 state-level maps of India across demography, health, gender, economy, education, environment and more.">
 <link rel="canonical" href="{base}/m/index.html">
 <meta name="theme-color" content="#0369A1">

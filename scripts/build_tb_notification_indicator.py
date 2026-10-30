@@ -12,7 +12,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'tb_notification_rate', 'theme': 'Health', 'name': 'TB Case Notification Rate',
+        'id': 'tb_notification_rate', 'theme': 'Health', 'name': 'TB case notification rate',
         'unit': 'notified cases per lakh population', 'source': 'Central TB Division, India TB Report 2024', 'year': '2023',
         'desc': 'TB patients notified (public and private sector) in 2023 per lakh population, India TB Report 2024, Table 1.2. It counts cases the health system found and reported, not cases that exist: a higher rate can mean more TB, better case finding, or both. The report publishes state incidence nowhere (the national modelled incidence is 199 per lakh for 2022), so this is a different measure from incidence. A state or territory is counted where the patient was notified, not where they live.',
         'higherIsBetter': None, 'national': raw['india']['rate'],

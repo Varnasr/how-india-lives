@@ -9,7 +9,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 
 def build(raw):
     return [{
-        'id': 'aser_oos_6_14', 'theme': 'Education', 'name': 'Children Aged 6-14 Not in School (Rural)',
+        'id': 'aser_oos_6_14', 'theme': 'Education', 'name': 'Children aged 6-14 not in school (rural)',
         'unit': '% of rural children aged 6-14', 'source': 'ASER Centre, ASER (Rural) 2024', 'year': '2024',
         'desc': 'Share of rural children aged 6 to 14 who are not enrolled in any school, from the ASER 2024 household survey (provisional report, 28 January 2025). Rural districts only; 27 states have a published figure, and Delhi, Goa, Manipur and the smaller territories do not. Single-state figures rest on modest samples, so differences of a few tenths of a point are within survey noise.',
         'higherIsBetter': False, 'national': raw['india']['6-14']['not_in_school'],

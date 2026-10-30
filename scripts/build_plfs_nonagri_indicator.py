@@ -22,7 +22,7 @@ def build(raw):
     a = {GEO.get(r['state'], r['state']): float(r['value']) for r in raw['rows']}
     nat = round(100 - a.pop('All India'), 1)
     return [{
-        'id': 'plfs_women_nonagri', 'theme': 'Gender', 'name': 'Women Workers Outside Agriculture', 'unit': '% of women workers',
+        'id': 'plfs_women_nonagri', 'theme': 'Gender', 'name': 'Women workers outside agriculture', 'unit': '% of women workers',
         'source': 'PLFS 2025 (MoSPI)', 'year': '2025',
         'desc': 'Share of women workers (usual status, rural and urban) whose work is outside agriculture, forestry and fishing, calendar year 2025. It is 100 minus the agriculture share. PLFS was redesigned for 2025, so earlier rounds are not strictly comparable.',
         'higherIsBetter': None, 'national': nat, 'values': {s: round(100 - v, 1) for s, v in sorted(a.items())},

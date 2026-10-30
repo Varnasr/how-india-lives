@@ -1,36 +1,36 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-udise_dropout_sec,Secondary School Dropout Rate,Andaman and Nicobar,5.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Andhra Pradesh,15.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Arunachal Pradesh,18.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Assam,17.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Chandigarh,2.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Chhattisgarh,15.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Dadra and Nagar Haveli and Daman and Diu,12.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Delhi,7.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Goa,9.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Gujarat,16.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Haryana,6.6,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Himachal Pradesh,6.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Jammu and Kashmir,12.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Jharkhand,3.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Karnataka,18.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Kerala,4.8,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Ladakh,16.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Lakshadweep,4.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Madhya Pradesh,16.8,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Maharashtra,11.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Manipur,9.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Meghalaya,17.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Mizoram,17.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Nagaland,12.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Odisha,15.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Puducherry,5.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Punjab,6.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Rajasthan,7.7,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Sikkim,11.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Tamil Nadu,8.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Telangana,13.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Tripura,11.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Uttar Pradesh,7.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,Uttarakhand,4.6,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
-udise_dropout_sec,Secondary School Dropout Rate,West Bengal,20.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Andaman and Nicobar,5.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Andhra Pradesh,15.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Arunachal Pradesh,18.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Assam,17.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Chandigarh,2.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Chhattisgarh,15.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Dadra and Nagar Haveli and Daman and Diu,12.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Delhi,7.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Goa,9.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Gujarat,16.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Haryana,6.6,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Himachal Pradesh,6.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Jammu and Kashmir,12.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Jharkhand,3.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Karnataka,18.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Kerala,4.8,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Ladakh,16.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Lakshadweep,4.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Madhya Pradesh,16.8,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Maharashtra,11.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Manipur,9.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Meghalaya,17.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Mizoram,17.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Nagaland,12.1,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Odisha,15.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Puducherry,5.9,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Punjab,6.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Rajasthan,7.7,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Sikkim,11.4,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Tamil Nadu,8.5,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Telangana,13.2,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Tripura,11.3,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Uttar Pradesh,7.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,Uttarakhand,4.6,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19
+udise_dropout_sec,Secondary school dropout rate,West Bengal,20.0,% of students in classes 9-10,2024-25,,,,,UDISE+ (MoSPI),https://udiseplus.gov.in/,2026-10-19

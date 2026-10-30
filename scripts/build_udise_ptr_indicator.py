@@ -17,7 +17,7 @@ def build(raw):
             t.setdefault(r['year'], {})[GEO.get(r['state'], r['state'])] = float(r['value'])
     assert len(t['2024-25']) == 36 and len(t['2022-23']) == 36
     return [{
-        'id': 'udise_ptr_primary', 'theme': 'Education', 'name': 'Pupil-Teacher Ratio, Primary Schools',
+        'id': 'udise_ptr_primary', 'theme': 'Education', 'name': 'Pupil-teacher ratio, primary schools',
         'unit': 'pupils per teacher (classes 1-5)', 'source': 'UDISE+ via MoSPI', 'year': '2024-25',
         'desc': 'Pupils per teacher in primary schools (classes 1 to 5), all management types together (government, aided and private), UDISE+ 2024-25, as MoSPI publishes it in whole numbers. The Right to Education Act sets 30 pupils per teacher as the norm at primary level. A state average hides small schools with one teacher and large ones with too few, so it says little about any one school.',
         'higherIsBetter': False, 'national': None,

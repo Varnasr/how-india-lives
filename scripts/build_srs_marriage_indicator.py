@@ -9,7 +9,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 
 def build(raw):
     return [{
-        'id': 'srs_marriage_age', 'theme': 'Gender', 'name': 'Mean Age at Effective Marriage of Females', 'unit': 'years',
+        'id': 'srs_marriage_age', 'theme': 'Gender', 'name': 'Mean age at effective marriage of females', 'unit': 'years',
         'source': 'ORGI, SRS Statistical Report 2023 (Statement 13)', 'year': '2023',
         'desc': 'Mean age at which a marriage took effect for women whose marriage was recorded in the Sample Registration System in 2023. It is the average age at marriage in the sample, not the age at which women in the population first married, and it is not the share married below 18. Only India and the 22 larger states are published, and Jammu and Kashmir includes Ladakh.',
         'higherIsBetter': True, 'national': raw['india']['total'][3],

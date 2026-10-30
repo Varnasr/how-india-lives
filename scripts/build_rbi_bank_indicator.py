@@ -19,7 +19,7 @@ def build(raw):
     prev = {s: round(S[s]['2024'] / pop[s], 2) for s in sorted(S)}
     tot = sum(pop.values())
     return [{
-        'id': 'rbi_bank_offices', 'theme': 'Economy', 'name': 'Bank Offices per Lakh People', 'unit': 'offices per lakh population',
+        'id': 'rbi_bank_offices', 'theme': 'Economy', 'name': 'Bank offices per lakh people', 'unit': 'offices per lakh population',
         'source': 'RBI Handbook of Statistics on Indian States 2024-25 (Table 152)', 'year': 'Mar 2025',
         'desc': 'Offices of scheduled commercial banks at the end of March 2025 per lakh people, using the 2024 population projection NCRB prints, so numerator and denominator are a year apart. Offices are counted where the branch is, not where its customers live, so small and urban states with head offices read high. Regional rural banks, cooperative banks, post offices and business correspondents are not counted, and in the north-east and the hills much banking reaches people through them. Dadra and Nagar Haveli includes Daman and Diu.',
         'higherIsBetter': None, 'national': round(raw['india']['2025'] / tot, 2),

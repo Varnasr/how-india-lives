@@ -12,7 +12,7 @@ def build(raw):
     cur = {s: d['2024']['stage'] for s, d in S.items()}
     prev = {s: d['2023']['stage'] for s, d in S.items() if d['2023']['stage'] is not None}
     return [{
-        'id': 'cgwb_stage', 'theme': 'Environment', 'name': 'Stage of Groundwater Extraction', 'unit': '% of annual extractable resource',
+        'id': 'cgwb_stage', 'theme': 'Environment', 'name': 'Stage of groundwater extraction', 'unit': '% of annual extractable resource',
         'source': 'CGWB 2024 assessment, via RBI Handbook of Statistics on Indian States 2024-25 (Table 107)', 'year': '2024',
         'desc': 'Annual groundwater extraction as a share of the annual extractable resource, from the Central Ground Water Board\'s 2024 assessment as the RBI Handbook prints it. Above 100 per cent more is drawn each year than the assessment counts as recharged. A state average hides block-level over-exploitation and wide differences between aquifers, and Daman and Diu is counted with Dadra and Nagar Haveli in 2024. The 2023 assessment is shown beside it for every state except Dadra and Nagar Haveli and Daman and Diu.',
         'higherIsBetter': False, 'national': round(raw['india']['2024']['stage'], 1),

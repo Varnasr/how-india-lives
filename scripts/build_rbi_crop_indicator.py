@@ -28,7 +28,7 @@ def national(raw, i):
 
 def build(raw):
     return [{
-        'id': 'rbi_thirsty_share', 'theme': 'Environment', 'name': 'Rice and Sugarcane Share of Rice, Sugarcane and Coarse Cereal Area',
+        'id': 'rbi_thirsty_share', 'theme': 'Environment', 'name': 'Rice and sugarcane share of rice, sugarcane and coarse cereal area',
         'unit': '% of the three crops\' area',
         'source': 'Ministry of Agriculture area statistics, via RBI Handbook of Statistics on Indian States 2024-25 (Tables 67, 69, 78)', 'year': '2024-25',
         'desc': 'Area under rice and sugarcane as a share of the combined area under rice, sugarcane and coarse cereals (millets, maize and barley), 2024-25. Rice and sugarcane are the two crops that draw most irrigation water; coarse cereals are the dryland alternative. It compares three crop groups only: plantation crops, fodder, wheat, pulses and oilseeds are outside it, so Kerala\'s high share reflects that coconut and rubber are not counted. Goa has no coarse-cereal area in the source and is left out. Sugarcane area missing from the table (Delhi, Sikkim) counts as zero.',

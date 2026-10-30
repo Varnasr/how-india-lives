@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'rbi_remit_share', 'theme': 'Economy', 'name': "Share of India's Inward Remittances",
+        'id': 'rbi_remit_share', 'theme': 'Economy', 'name': "Share of India's inward remittances",
         'unit': "% of India's inward remittances", 'source': "RBI, India's Remittances Survey, sixth round (2023-24)", 'year': '2023-24',
         'desc': "Each state's and UT's share of the US$ 118.7 billion India received in inward remittances in 2023-24, from the sixth round of RBI's Remittances Survey (RBI Bulletin, March 2025, Table 2). The shares add to 100. It says where remittances land in total, which follows both population and how many people from the state work abroad; it is not remittances per person and not how much a state depends on them. The 2020-21 round's share is shown as the previous value where that round listed the state separately.",
         'higherIsBetter': None, 'national': None,

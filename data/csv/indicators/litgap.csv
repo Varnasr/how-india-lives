@@ -1,24 +1,24 @@
 indicator_id,indicator,state,value,unit,year,previous_value,previous_year,change,small_sample,source,source_url,retrieved
-litgap,Gender Gap in Literacy,Andhra Pradesh,13.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Assam,8.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Bihar,19.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Chhattisgarh,16.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Delhi,11.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Gujarat,14.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Haryana,16.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Himachal Pradesh,12.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Jammu and Kashmir,17.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Jharkhand,18.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Karnataka,12.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Kerala,2.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Madhya Pradesh,15.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Maharashtra,12.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Odisha,13.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Punjab,10.0,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Rajasthan,23.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Tamil Nadu,10.0,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Telangana,15.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Uttar Pradesh,18.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,Uttarakhand,13.6,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,West Bengal,8.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
-litgap,Gender Gap in Literacy,India (national figure as published or computed),14.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Andhra Pradesh,13.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Assam,8.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Bihar,19.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Chhattisgarh,16.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Delhi,11.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Gujarat,14.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Haryana,16.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Himachal Pradesh,12.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Jammu and Kashmir,17.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Jharkhand,18.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Karnataka,12.9,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Kerala,2.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Madhya Pradesh,15.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Maharashtra,12.3,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Odisha,13.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Punjab,10.0,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Rajasthan,23.2,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Tamil Nadu,10.0,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Telangana,15.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Uttar Pradesh,18.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,Uttarakhand,13.6,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,West Bengal,8.7,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22
+litgap,Gender gap in literacy,India (national figure as published or computed),14.4,percentage points,2017-18,,,,,NSS 75th round (MoSPI),https://api.mospi.gov.in/,2026-09-22

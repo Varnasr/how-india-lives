@@ -41,7 +41,7 @@ def build(raw):
     def nat(y):
         return round(sum(d.get('Private Unaided Recognized', 0) for d in t[y].values()) / sum(d['All Management'] for d in t[y].values()) * 100, 1)
     return [{
-        'id': 'udise_private_share', 'theme': 'Education', 'name': 'Private School Enrolment Share', 'unit': '% of enrolment, classes 1-12',
+        'id': 'udise_private_share', 'theme': 'Education', 'name': 'Private school enrolment share', 'unit': '% of enrolment, classes 1-12',
         'source': 'UDISE+ (MoSPI)', 'year': '2024-25',
         'desc': 'Share of students in classes 1-12 enrolled in private unaided recognised schools, 2024-25, with 2022-23 beside it. Government-aided schools are not counted as private here. The national figure is the sum over all states and union territories.',
         'higherIsBetter': None, 'national': nat('2024-25'), 'values': share('2024-25'), 'previous': share('2022-23'), 'previousYear': '2022-23',

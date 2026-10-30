@@ -10,7 +10,7 @@ from indicator_io import load, write_indicators  # noqa: E402
 def build(raw):
     S = raw['states']
     return [{
-        'id': 'rain_2024', 'theme': 'Environment', 'name': 'Annual Rainfall, 2024', 'unit': 'mm in calendar year 2024',
+        'id': 'rain_2024', 'theme': 'Environment', 'name': 'Annual rainfall, 2024', 'unit': 'mm in calendar year 2024',
         'source': 'IMD rainfall as tabulated in the CGWB National Compilation on Dynamic Ground Water Resources of India, 2025', 'year': '2024',
         'desc': 'Rainfall in calendar year 2024 for each state and territory, in millimetres, as the Central Ground Water Board tabulates it from India Meteorological Department data. The state figure is an average over the state, so it hides the difference between wet and dry districts, and one year is weather, not climate: 18 states and territories were below their normal in 2024 and 18 above. Normal rainfall is in the calculation file.',
         'higherIsBetter': None, 'national': None, 'values': {s: d['rain_2024'] for s, d in S.items()},
