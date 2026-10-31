@@ -1339,7 +1339,7 @@
     "decimals": 2,
     "suffix": "",
     "takeaway": "NCRB registered 349 communal or religious riot cases in 2024. Maharashtra had the most (90), then Bihar (80), Jharkhand (45), Odisha (37) and Karnataka (34). Per crore people, Goa is highest at 18.87 from 3 cases, then Jharkhand (11.21) and Odisha (7.93), against 2.48 for India. Sixteen states and territories registered none.",
-    "policy": "The map shows one year. The older map covered 2019 to 2024 cumulatively and could not be rebuilt from the 2024 volume alone. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
+    "policy": "The map shows one year. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
     "takeaway_hi": "NCRB ने 2024 में 349 सांप्रदायिक या धार्मिक दंगे दर्ज किए। सबसे अधिक महाराष्ट्र (90), फिर बिहार (80), झारखंड (45), ओडिशा (37) और कर्नाटक (34)। प्रति करोड़ आबादी पर गोवा 18.87 के साथ सबसे ऊपर है (3 मामले), फिर झारखंड (11.21) और ओडिशा (7.93), जबकि भारत का आँकड़ा 2.48 है। 16 राज्यों और क्षेत्रों में कोई मामला दर्ज नहीं हुआ।",
     "title_hi": "दर्ज सांप्रदायिक और धार्मिक दंगे, NCRB 2024",
     "tags": [
@@ -1738,7 +1738,7 @@
     "callout_note": "girls born per 1,000 boys in {state}",
     "decimals": 0,
     "takeaway": "India's sex ratio at birth is 917 girls per 1,000 boys for 2021-23, up from 914 the year before and 904 in 2017-19. Chhattisgarh (974) and Kerala (971) are highest, and Uttarakhand (868), Delhi (872) and Haryana (884) lowest, against a typical biological ratio of roughly 952. Rajasthan rose from 879 to 919 between 2017-19 and 2021-23 and Gujarat from 870 to 900, while West Bengal fell from 944 to 931.",
-    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh. This replaces an older map that labelled the measure a proxy for sex-selective abortion.",
+    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh.",
     "takeaway_hi": "2021-23 में भारत में जन्म के समय लिंगानुपात प्रति 1,000 लड़कों पर 917 लड़कियां है, पिछले वर्ष 914 और 2017-19 में 904 था। छत्तीसगढ़ (974) और केरल (971) सबसे ऊपर और उत्तराखंड (868), दिल्ली (872) और हरियाणा (884) सबसे नीचे हैं। राजस्थान 879 से 919 और गुजरात 870 से 900 हुआ, जबकि पश्चिम बंगाल 944 से 931 पर आ गया।",
     "title_hi": "जन्म के समय लिंगानुपात, SRS 2021-23",
     "tags": [

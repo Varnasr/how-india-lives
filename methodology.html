@@ -114,7 +114,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 <main class="content" id="main">
 
 <h1>Map <span>methodology</span> note</h1>
-<p class="lead">How the 259 state-level choropleth maps were built, what data they use, and what they can and cannot tell you.</p>
+<p class="lead">What data the 259 state-level choropleth maps use, and what they can and cannot tell you.</p>
 
 <h2>What these maps are</h2>
 <p>259 state-level choropleth maps of India covering demography, food and culture, economy, health, gender, caste, religion, education, environment, democracy, social protection, and reproductive choices. Each map shows a single indicator across India's <strong>28 states and 8 union territories</strong> (36 units).</p>
@@ -145,25 +145,19 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <span class="badge badge-built">BUILT</span> Values taken directly from published official tables. No interpolation.
 </p>
 <p>
-    <span class="badge badge-new">NEW</span> Values compiled from published official sources during map preparation. Cross-checked against source publications.
+    <span class="badge badge-new">NEW</span> Values compiled from published official sources.
 </p>
 <p>
     <span class="badge badge-uncertain">UNCERTAIN</span> Values derived from proxy indicators, crowdsourced databases, or methodologically contested sources. <strong>7 maps</strong> carry this flag: missing women, temple density, honour killings, witch-hunting deaths, inter-caste marriage, child labour (post-2011) and diabetes prevalence. Each carries a specific caveat in its source line.
 </p>
 
-<h2>How the maps were rendered</h2>
-<p>Maps are rendered programmatically using <strong>Python 3</strong> with <strong>GeoPandas</strong> and <strong>Matplotlib</strong>. The base shapefile is Natural Earth 10m Admin-1 (<code>ne_10m_admin_1_states_provinces.shp</code>), filtered to India.</p>
-<p>The rendering script (<code>maps_v2.py</code>) takes a standardised data dictionary for each map containing the title, unit, source, year, takeaway sentence, shock statistic, highest and lowest state callouts, national average, and a complete state-to-value data dictionary. Given the same input, it produces the same output.</p>
-<p><strong>Northeast India's</strong> eight states plus Sikkim are rendered in a dedicated inset panel overlaying the main map's NE region, since their polygons are too small for readable labels at national scale. Every state receives a two-letter abbreviation and its data value.</p>
-
-<h2>Design conventions</h2>
+<h2>How to read a map</h2>
+<p><strong>Northeast India's</strong> eight states plus Sikkim are shown in an inset panel over the main map's north-east, since their polygons are too small for readable labels at national scale. Every state carries a two-letter abbreviation and its data value.</p>
 <ul>
-    <li>Warm off-white background (<code>#F8F6F1</code>), 16:9 aspect ratio, 200 DPI PNG output</li>
-    <li><strong>Amaranth Bold ALL CAPS</strong> for titles; <strong>Inter</strong> (variable weight) for all other text</li>
-    <li>Each of the 12 thematic sections has a dedicated three-stop colour gradient (light to dark)</li>
-    <li>A <strong>red shock-stat box</strong> (top right) highlights the single most audience-confronting number</li>
-    <li>The colourbar (bottom centre) carries an <strong>amber marker</strong> at the national average value</li>
-    <li>Source and data year appear bottom left; copyright line bottom right</li>
+    <li>Each of the 12 thematic sections has its own colour scale, light for low values and dark for high</li>
+    <li>A <strong>red box</strong> at the top right highlights one figure from the map</li>
+    <li>The colourbar at the bottom centre carries an <strong>amber marker</strong> at the national average</li>
+    <li>The source and data year appear at the bottom left</li>
 </ul>
 
 <h2>Limitations</h2>
@@ -193,16 +187,11 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     <strong>These maps are pedagogical tools</strong> designed for facilitated discussion. For policy or academic citation, consult the underlying source publications directly.
 </p>
 
-<p style="margin-top:24px;color:var(--text-muted);font-size:0.85rem;font-style:italic;">
-    Version 2. March 2026. Rendered with maps_v2.py using GeoPandas + Matplotlib.<br>
-    Data work by Varna.
-</p>
-
 </main>
 
 <footer class="site-footer">
     <p><a href="index.html">&larr; Back to 259 maps</a></p>
-    <p>Data work by <strong>Varna</strong> &middot; Maps rendered with Python 3 + GeoPandas + Matplotlib</p>
+    <p>Data work by <strong>Varna</strong></p>
     <p>Part of <a href="https://www.impactmojo.in">ImpactMojo</a>, free development education for South Asia</p>
     <p style="margin-top:12px;font-size:0.72rem;">&copy; 2026 How India Lives. Data sourced from official government publications. Maps are pedagogical tools. For figures to cite, use the source publications.</p>
 </footer>

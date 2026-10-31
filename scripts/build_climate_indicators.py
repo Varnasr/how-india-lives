@@ -60,7 +60,7 @@ def main():
         sys.exit(0 if ok else 1)
     data['indicators'] = [i for i in data['indicators'] if i['id'] not in ids] + new
     if 'EnviStats' not in data['note']:
-        data['note'] += (' The forest-cover change and heat-wave indicators (October 2026) come from MoSPI\'s EnviStats API. In that source the row labelled '
+        data['note'] += (' The forest-cover change and heat-wave indicators come from MoSPI\'s EnviStats API. In that source the row labelled '
                          'Puducherry holds the India total, so Puducherry and the merged Dadra and Nagar Haveli and Daman and Diu are left grey for forest cover. '
                          'Heat-wave days are reported for 24 states and shown for 19 with all three years.')
     json.dump(data, open(path, 'w'), indent=2, ensure_ascii=False)

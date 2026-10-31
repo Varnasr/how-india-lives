@@ -79,7 +79,7 @@ def main():
         sys.exit(0 if ok else 1)
     data['indicators'] = [i for i in data['indicators'] if i['id'] not in ids] + new
     if 'Nyaya Vikas' not in data['note']:
-        data['note'] += (' The court indicators (October 2026) divide NJDG pendency in district and subordinate courts (9 March 2026) by working judicial officers '
+        data['note'] += (' The court indicators divide NJDG pendency in district and subordinate courts (9 March 2026) by working judicial officers '
                          'from the Nyaya Vikas portal, both as printed in Lok Sabha Question 3501. West Bengal and Andaman and Nicobar share one ratio because the judges '
                          'table merges them; Meghalaya\'s pendency row is inconsistent in the source and is left grey.')
     json.dump(data, open(path, 'w'), indent=2, ensure_ascii=False)

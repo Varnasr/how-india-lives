@@ -98,7 +98,7 @@ def main():
         sys.exit(0 if ok else 1)
     data['indicators'] = [i for i in data['indicators'] if i['id'] not in ids] + new
     if 'NCRB' not in data['note']:
-        data['note'] += (' The NCRB indicators (October 2026) are crimes registered with the police in 2024 and 2023, per lakh women, read '
+        data['note'] += (' The NCRB indicators are crimes registered with the police in 2024 and 2023, per lakh women, read '
                          'from Crime in India Volume 1 by Women on Record. They count registrations, not incidence: a higher figure can mean '
                          'more crime, easier reporting, or both, so the maps claim no direction.')
     json.dump(data, open(path, 'w'), indent=2, ensure_ascii=False)
