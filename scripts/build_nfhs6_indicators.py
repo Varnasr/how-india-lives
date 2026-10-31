@@ -176,7 +176,7 @@ def main():
     data['indicators'] = merged
     note = data['note']
     if 'NFHS-6' not in note:
-        data['note'] = note + (' NFHS-6 (2023-24) indicators, added in October 2026, are the state and UT totals printed in the '
+        data['note'] = note + (' NFHS-6 (2023-24) indicators are the state and UT totals printed in the '
                                'IIPS fact sheets of May 2026, each with the NFHS-5 total printed beside it. Manipur has no NFHS-6 '
                                'sheet and a state whose figure was left blank for a small sample is shown grey.')
     json.dump(data, open(path, 'w'), indent=2, ensure_ascii=False)

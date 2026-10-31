@@ -4282,7 +4282,7 @@
     "year": "2024",
     "quality": "NEW",
     "takeaway": "NCRB registered 349 communal or religious riot cases in 2024. Maharashtra had the most (90), then Bihar (80), Jharkhand (45), Odisha (37) and Karnataka (34). Per crore people, Goa is highest at 18.87 from 3 cases, then Jharkhand (11.21) and Odisha (7.93), against 2.48 for India. Sixteen states and territories registered none.",
-    "policy": "The map shows one year. The older map covered 2019 to 2024 cumulatively and could not be rebuilt from the 2024 volume alone. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
+    "policy": "The map shows one year. Numbers are small, so a single case moves a small state to the top. A registration depends on police recording a riot as communal, and a zero is not proof that none occurred. Counts here are cases, and one riot can involve many victims.",
     "tags": [
       "NCRB",
       "riots",
@@ -4628,7 +4628,7 @@
     "year": "2021-23",
     "quality": "NEW",
     "takeaway": "India's sex ratio at birth is 917 girls per 1,000 boys for 2021-23, up from 914 the year before and 904 in 2017-19. Chhattisgarh (974) and Kerala (971) are highest, and Uttarakhand (868), Delhi (872) and Haryana (884) lowest, against a typical biological ratio of roughly 952. Rajasthan rose from 879 to 919 between 2017-19 and 2021-23 and Gujarat from 870 to 900, while West Bengal fell from 944 to 931.",
-    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh. This replaces an older map that labelled the measure a proxy for sex-selective abortion.",
+    "policy": "A low ratio can come from sex-selective abortion or from girls' births going unreported, and the registration data cannot tell the two apart. State samples are small, so a few points of change between periods are within noise. Only the 22 larger states are published, and Jammu and Kashmir includes Ladakh.",
     "tags": [
       "sex ratio",
       "SRS",
