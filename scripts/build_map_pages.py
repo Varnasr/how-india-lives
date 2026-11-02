@@ -138,6 +138,9 @@ html[data-theme="dark"] .takeaway{{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}}
 .btn{{min-height:46px;display:inline-flex;align-items:center;border-radius:12px;padding:0 20px}}
 .vint{{border-radius:14px;padding:14px 16px;line-height:1.55}}
 @media (max-width:560px){{.takeaway{{font-size:1rem;padding:18px}}.btns .btn{{flex:1 1 100%;justify-content:center}}}}
+.site-footer{{text-align:center;padding:24px 20px 40px}}
+.site-footer p{{max-width:820px;margin:0 auto;color:var(--mut);font-size:.82rem}}
+.site-footer a{{color:var(--acc)}}
 </style>
 </head>
 <body>
@@ -159,6 +162,9 @@ html[data-theme="dark"] .takeaway{{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}}
   <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
   <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion. For figures to cite, use the source publications. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
 </div>
+<footer class="site-footer">
+  <p>Need help setting out your story, what sets your work apart, the context, the return on investment and the projections? Pinpoint Ventures can help. Write to <a href="mailto:hello@pinpointventures.in?subject=Enquiry%20from%20howindialives.impactmojo.in">hello@pinpointventures.in</a> or message on <a href="https://wa.me/919871777110?text=Hi%20Pinpoint%20Ventures%2C%20I%20found%20you%20through%20howindialives.impactmojo.in.%20I%27d%20like%20to%20discuss%20a%20research%20or%20advisory%20engagement." target="_blank" rel="noopener">WhatsApp</a>.</p>
+</footer>
 <script src="/assets/common-header.js" defer></script>
 <script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
 {swap_script}
@@ -232,6 +238,9 @@ li{{margin:5px 0;break-inside:avoid}}
 li a{{color:var(--tx2);text-decoration:none;font-size:.9rem}}
 li a:hover{{color:var(--acc)}}
 .vt{{font-size:.72rem;color:var(--mut);white-space:nowrap}}
+.site-footer{{text-align:center;padding:24px 20px 40px}}
+.site-footer p{{max-width:820px;margin:0 auto;color:var(--mut);font-size:.82rem}}
+.site-footer a{{color:var(--acc)}}
 </style></head>
 <body>
 <div id="im-common-header"></div>
@@ -240,6 +249,9 @@ li a:hover{{color:var(--acc)}}
   <p class="lead">Every state-level map in the atlas, by theme. Open the <a href="/index.html" style="color:var(--acc)">interactive gallery</a> to search and filter.</p>
   {blocks}
 </div>
+<footer class="site-footer">
+  <p>Need help setting out your story, what sets your work apart, the context, the return on investment and the projections? Pinpoint Ventures can help. Write to <a href="mailto:hello@pinpointventures.in?subject=Enquiry%20from%20howindialives.impactmojo.in">hello@pinpointventures.in</a> or message on <a href="https://wa.me/919871777110?text=Hi%20Pinpoint%20Ventures%2C%20I%20found%20you%20through%20howindialives.impactmojo.in.%20I%27d%20like%20to%20discuss%20a%20research%20or%20advisory%20engagement." target="_blank" rel="noopener">WhatsApp</a>.</p>
+</footer>
 <script src="/assets/common-header.js" defer></script>
 <script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
 </body></html>
