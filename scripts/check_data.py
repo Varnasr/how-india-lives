@@ -120,6 +120,39 @@ def main():
           bool(want) and pre and tag and pre.group(1) == want and tag.group(1) == want,
           'want %s, preload %s, img %s' % (want, pre and pre.group(1), tag and tag.group(1)))
 
+    # The first map also ships WebP copies (scripts/make_spotlight_images.py).
+    # The preload and the img must offer the same files and sizes, or the browser
+    # downloads one copy for the preload and another for the img.
+    if want:
+        stem = want[:-4]
+        pre_set = re.search(r'<link rel="preload"[^>]*imagesrcset="([^"]+)"[^>]*imagesizes="([^"]+)"', home)
+        img_set = re.search(r'<img id="spotlight-img"[^>]*srcset="([^"]+)"[^>]*sizes="([^"]+)"', home)
+        check('home preload and img offer the same WebP srcset and sizes',
+              bool(pre_set and img_set) and pre_set.groups() == img_set.groups(),
+              'preload %s, img %s' % (pre_set and pre_set.groups(), img_set and img_set.groups()))
+        if img_set:
+            files = re.findall(r'(\S+)\s+(\d+)w', img_set.group(1))
+            ok, msg = bool(files), 'no candidates'
+            for f, w in files:
+                path = os.path.join(ROOT, f)
+                if not (f.startswith(stem + '-') and f.endswith('.webp') and os.path.exists(path)):
+                    ok, msg = False, '%s missing or not named after %s' % (f, stem)
+                    break
+                with open(path, 'rb') as fh:
+                    head = fh.read(12)
+                if head[:4] != b'RIFF' or head[8:12] != b'WEBP':
+                    ok, msg = False, '%s is not a WebP' % f
+                    break
+                try:
+                    from PIL import Image
+                    got = Image.open(path).width
+                except ImportError:
+                    continue
+                if got != int(w):
+                    ok, msg = False, '%s is %dpx wide, srcset says %sw' % (f, got, w)
+                    break
+            check('spotlight WebP copies exist, are WebP and match their widths', ok, msg)
+
     # Three files state the map count in prose. A count that is written down
     # rather than derived goes stale the first time a map is added.
     n_maps = len(maps)
