@@ -87,10 +87,38 @@ def main():
           '%d orphaned: %s' % (len(orphans), orphans[:6]))
 
     sitemap = open(os.path.join(ROOT, 'sitemap.xml'), encoding='utf-8').read()
-    unlisted = [m['id'] for m in maps if m.get('file')
-                and '/m/%s.html' % m['id'] not in sitemap]
-    check('sitemap.xml lists every map page', not unlisted,
-          '%d absent, sitemap is stale: %s' % (len(unlisted), unlisted[:6]))
+    locs = set(re.findall(r'<loc>([^<]+)</loc>', sitemap))
+    unlisted, mismatch = [], []
+    for m in maps:
+        if not m.get('file'):
+            continue
+        page_path = os.path.join(ROOT, 'm', '%s.html' % m['id'])
+        if not os.path.exists(page_path):
+            continue
+        html = open(page_path, encoding='utf-8').read()
+        c = re.search(r'<link rel="canonical" href="([^"]+)"', html)
+        canon = c.group(1) if c else None
+        if canon not in locs:
+            unlisted.append(m['id'])
+        if canon != 'https://howindialives.impactmojo.in/m/%s' % m['id'].lower():
+            mismatch.append(m['id'])
+    check('sitemap.xml lists every map page at its canonical address', not unlisted,
+          '%d absent or different from the page canonical: %s' % (len(unlisted), unlisted[:6]))
+    check('map canonicals use the served (lowercase, no .html) address', not mismatch,
+          '%d wrong, Netlify 301s the other form: %s' % (len(mismatch), mismatch[:6]))
+
+    # The home page names its first spotlight map in the HTML (preload and the
+    # img src) so the largest paint does not wait for maps.json. If the pick or
+    # the file changes and the HTML does not, the preload is a wasted download.
+    home = open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
+    pick = re.search(r"SPOTLIGHT_PICKS\s*=\s*\[\s*'([^']+)'", home)
+    first = next((m for m in maps if pick and m['id'] == pick.group(1)), None)
+    want = 'maps/%s/%s' % (first['section'], first['file']) if first else None
+    pre = re.search(r'<link rel="preload" as="image" href="([^"]+)"', home)
+    tag = re.search(r'<img id="spotlight-img" src="([^"]*)"', home)
+    check('home page preloads and pre-sets the first spotlight map',
+          bool(want) and pre and tag and pre.group(1) == want and tag.group(1) == want,
+          'want %s, preload %s, img %s' % (want, pre and pre.group(1), tag and tag.group(1)))
 
     # Three files state the map count in prose. A count that is written down
     # rather than derived goes stale the first time a map is added.

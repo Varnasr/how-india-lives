@@ -55,6 +55,10 @@
 
 <!-- Common ImpactMojo header (shared across all pages) -->
 <link href="assets/common-header.css" rel="stylesheet">
+<!-- The first spotlight map is the largest paint on the page. It is named in the HTML so the
+     browser starts it at once instead of after data/maps.json has been fetched and parsed.
+     scripts/check_data.py keeps this in step with SPOTLIGHT_PICKS[0]. -->
+<link rel="preload" as="image" href="maps/demography/S00a_Median_Age_by_State.png" fetchpriority="high">
 <script>
   // Apply saved theme before paint to avoid a flash of the wrong theme.
   (function(){var s=localStorage.getItem('im-theme');
@@ -1706,7 +1710,7 @@ html[data-theme="dark"] .newdata-inner { box-shadow: inset 0 -4px 0 rgba(0, 0, 0
         <div class="hero-spotlight" id="hero-spotlight">
             <div class="hero-spotlight-card" onclick="openSpotlightDetail()">
                 <div class="hero-spotlight-img">
-                    <img id="spotlight-img" src="" alt="" loading="eager">
+                    <img id="spotlight-img" src="maps/demography/S00a_Median_Age_by_State.png" alt="" onload="this.classList.add('loaded')" width="3052" height="1725" loading="eager" fetchpriority="high">
                 </div>
                 <div class="hero-spotlight-body">
                     <span class="hero-spotlight-section" id="spotlight-section"></span>
@@ -2035,10 +2039,16 @@ function showSpotlight(idx) {
     const sectionMeta = SECTION_META[m.section];
 
     const img = document.getElementById('spotlight-img');
-    img.classList.remove('loaded');
-    img.src = src;
-    img.alt = altFor(m);
     img.onload = () => img.classList.add('loaded');
+    // The first map is already in the HTML. Setting the same address again would
+    // fade it out and back in, so leave it alone when nothing changes.
+    if (img.getAttribute('src') !== src) {
+        img.classList.remove('loaded');
+        img.src = src;
+    } else if (img.complete && img.naturalWidth) {
+        img.classList.add('loaded');
+    }
+    img.alt = altFor(m);
 
     document.getElementById('spotlight-section').textContent = sectionMeta ? secTitle(m.section) : m.section;
     document.getElementById('spotlight-title').textContent = mTitle(m);

@@ -38,11 +38,17 @@ def img_url(m, absolute=False):
     path = "/maps/%s/%s" % (m['section'], quote(m['file']))
     return (BASE + path) if absolute else path
 
+def served_url(map_id):
+    """The address that answers 200. Netlify pretty URLs 301 /m/X166.html to
+    /m/x166 (lowercase), so the canonical and the sitemap use that form."""
+    return "%s/m/%s" % (BASE, map_id.lower())
+
+
 def page(m, interactive_id):
     title = m['title']
     desc = m.get('takeaway') or ('%s across India\'s states.' % title)
     sect = SECTION_TITLES.get(m['section'], m['section'])
-    canonical = "%s/m/%s.html" % (BASE, m['id'])
+    canonical = served_url(m['id'])
     og_img = img_url(m, absolute=True)
     interactive_btn = ''
     if interactive_id:
@@ -282,7 +288,7 @@ def main():
 
     # sitemap
     urls = ['/', '/explore.html', '/stories.html', '/methodology.html', '/m/index.html']
-    urls += ['/m/%s.html' % m['id'] for m in maps if m.get('file')]
+    urls += ['/m/%s' % m['id'].lower() for m in maps if m.get('file')]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
