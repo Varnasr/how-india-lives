@@ -44,7 +44,32 @@ def served_url(map_id):
     return "%s/m/%s" % (BASE, map_id.lower())
 
 
-def page(m, interactive_id):
+# The look of these pages lives in assets/site.css (the .mp rules), shared with
+# the rest of the site. The template carries structure only, so a change to the
+# design is one stylesheet and no regeneration of 259 files.
+HEAD_COMMON = """<meta name="theme-color" content="#F8F6F1">
+<link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="/assets/tokens.css" rel="stylesheet">
+<link href="/assets/common-header.css" rel="stylesheet">
+<script>(function(){{var s=localStorage.getItem('im-theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}})();</script>"""
+
+FOOT = """<footer class="site-footer">
+  <p>Need help setting out your story, what sets your work apart, the context, the return on investment and the projections? Pinpoint Ventures can help. Write to <a href="mailto:hello@pinpointventures.in?subject=Enquiry%20from%20howindialives.impactmojo.in">hello@pinpointventures.in</a> or message on <a href="https://wa.me/919871777110?text=Hi%20Pinpoint%20Ventures%2C%20I%20found%20you%20through%20howindialives.impactmojo.in.%20I%27d%20like%20to%20discuss%20a%20research%20or%20advisory%20engagement." target="_blank" rel="noopener">WhatsApp</a>.</p>
+</footer>
+<script src="/assets/common-header.js" defer></script>
+<script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="2px" defer></script>"""
+
+
+def pager_link(m, label, cls):
+    if not m:
+        return '<span></span>'
+    return '<a class="%s" href="/m/%s.html"><small>%s</small><b>%s</b></a>' % (cls, esc(m['id']), label, esc(m['title']))
+
+
+def page(m, interactive_id, prev=None, nxt=None):
     title = m['title']
     desc = m.get('takeaway') or ('%s across India\'s states.' % title)
     sect = SECTION_TITLES.get(m['section'], m['section'])
@@ -52,14 +77,14 @@ def page(m, interactive_id):
     og_img = img_url(m, absolute=True)
     interactive_btn = ''
     if interactive_id:
-        interactive_btn = ('<a class="btn" href="/explore.html#%s">Explore interactively '
+        interactive_btn = ('<a class="mp-btn" href="/explore.html#%s">Explore interactively '
                            '<span aria-hidden="true">&rarr;</span></a>' % esc(interactive_id))
     policy = ''
     if m.get('policy'):
-        policy = '<div class="policy"><strong>Policy implication</strong><br>%s</div>' % esc(m['policy'])
+        policy = '<section class="mp-block"><h2>Policy implication</h2><p>%s</p></section>' % esc(m['policy'])
     tags = ''
     if m.get('tags'):
-        tags = ''.join('<span class="tag">%s</span>' % esc(t) for t in m['tags'])
+        tags = '<div><dt>Tags</dt><dd>%s</dd></div>' % ' &middot; '.join(esc(t) for t in m['tags'])
     schema = {
         "@context": "https://schema.org", "@type": "ImageObject",
         "name": title, "caption": desc, "contentUrl": og_img,
@@ -86,7 +111,8 @@ def page(m, interactive_id):
             'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",a);else a();'
             '})();</script>'
         )
-    return """<!DOCTYPE html>
+    srcyear_ = esc(m.get('source', '') if str(m.get('year', '')) in m.get('source', '') else (m.get('source', '') + ' ' + str(m.get('year', ''))).strip())
+    return ("""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -103,92 +129,69 @@ def page(m, interactive_id):
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{og_img}">
-<meta name="theme-color" content="#0369A1">
-<link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link href="/assets/tokens.css" rel="stylesheet">
-<link href="/assets/common-header.css" rel="stylesheet">
-<script>(function(){{var s=localStorage.getItem('im-theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}})();</script>
+""" + HEAD_COMMON + """
 <script type="application/ld+json">{schema}</script>
-<style>
-*{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}}
-.wrap{{max-width:820px;margin:0 auto;padding:84px 20px 60px}}
-.crumb{{font-size:.78rem;color:var(--mut);margin-bottom:6px}}
-.crumb a{{color:var(--acc);text-decoration:none}}
-h1{{font-family:'Amaranth',sans-serif;font-size:clamp(1.5rem,5vw,2rem);margin:6px 0 14px}}
-.fullsize{{margin:.6rem 0 1.2rem;font-size:.95rem}}.fullsize a{{color:var(--acc);text-decoration:underline}}
-.mapimg{{width:100%;height:auto;border:1px solid var(--bd);border-radius:14px;background:var(--card);display:block}}
-.takeaway{{border-left:3px solid var(--acc);background:var(--sec);padding:14px 18px;border-radius:0 10px 10px 0;margin:20px 0;font-size:1.05rem}}
-.policy{{background:var(--sec);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;margin:14px 0;color:var(--tx2);font-size:.92rem}}
-.meta{{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}}
-.tag{{font-size:.74rem;font-weight:600;color:var(--tx2);background:var(--sec);border:1px solid var(--bd);border-radius:999px;padding:3px 11px}}
-.btns{{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 10px}}
-.btn{{font-weight:600;font-size:.9rem;text-decoration:none;padding:11px 18px;border-radius:10px;background:var(--acc);color:var(--on-acc)}}
-.btn.ghost{{background:var(--card);color:var(--tx2);border:1px solid var(--bd)}}
-.vint{{font-size:.9rem;color:var(--tx2);background:var(--sec);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;margin:14px 0}}
-.src{{font-size:.82rem;color:var(--mut);margin-top:10px}}
-.credit{{font-size:.72rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--bd);padding-top:14px}}
-.credit a{{color:var(--acc)}}
-/* Design upgrade, October 2026: the look of impactmojo.in */
-body{{background:radial-gradient(900px 420px at 85% 0,var(--glow-a),transparent 70%),radial-gradient(700px 360px at 0 8%,var(--glow-b),transparent 70%),var(--bg);background-repeat:no-repeat}}
-.crumb a{{display:inline-block;padding:6px 0}}
-h1{{font-size:clamp(1.9rem,7vw,2.8rem);line-height:1.1;letter-spacing:-.3px;margin:8px 0 22px;text-wrap:balance}}
-h1::after{{content:"";display:block;width:56px;height:5px;margin-top:14px;border-radius:3px;background:linear-gradient(90deg,var(--rule-a),var(--rule-b))}}
-.mapimg{{border-radius:18px;box-shadow:0 18px 44px -20px var(--soft-shadow)}}
-.fullsize a{{display:inline-block;padding:8px 0}}
-.takeaway{{border-left:0;background:var(--tile-blue);color:var(--tile-ink);border-radius:18px;padding:20px 22px;font-size:1.05rem;box-shadow:inset 0 -4px 0 rgba(15,23,42,.10)}}
-html[data-theme="dark"] .takeaway{{box-shadow:inset 0 -4px 0 rgba(0,0,0,.45)}}
-.policy{{border-radius:16px;padding:16px 20px;font-size:.95rem}}
-.tag{{background:var(--chip-bg);border-color:var(--chip-bd);color:var(--chip-ink);padding:5px 12px}}
-.btn{{min-height:46px;display:inline-flex;align-items:center;border-radius:12px;padding:0 20px}}
-.vint{{border-radius:14px;padding:14px 16px;line-height:1.55}}
-@media (max-width:560px){{.takeaway{{font-size:1rem;padding:18px}}.btns .btn{{flex:1 1 100%;justify-content:center}}}}
-.site-footer{{text-align:center;padding:24px 20px 40px}}
-.site-footer p{{max-width:820px;margin:0 auto;color:var(--mut);font-size:.82rem}}
-.site-footer a{{color:var(--acc)}}
-</style>
+<style>*{{margin:0;padding:0;box-sizing:border-box}}</style>
+<link href="/assets/site.css" rel="stylesheet">
 </head>
 <body>
 <div id="im-common-header"></div>
-<div class="wrap">
-  <nav class="crumb"><a href="/index.html">Atlas</a> &rsaquo; <a id="pm-section" data-en="{sect}" href="/index.html#{section}">{sect}</a></nav>
+<main class="mp">
+  <nav class="crumb" aria-label="Breadcrumb"><a href="/index.html">Atlas</a> <span aria-hidden="true">/</span> <a id="pm-section" data-en="{sect}" href="/index.html#{section}">{sect}</a></nav>
   <h1 id="pm-title" data-en="{title}">{title}</h1>
-  <img class="mapimg" src="{img}" alt="Choropleth map of India by state: {title}. {desc}" width="3052" height="1725">
-  <p class="fullsize"><a href="{img}">Open the full-size image</a></p>
   {takeaway}
-  {policy}
-  <div class="meta"><span class="tag">{srcyear}</span><span class="tag">{sect}</span>{tags}</div>
-  <div class="btns">
-    <a class="btn" href="/index.html#map/{id}">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
-    {interactive_btn}
-    <a class="btn ghost" href="/m/index.html">All 259 maps</a>
+  <figure class="mp-figure">
+    <a href="{img}"><img src="{img}" alt="Choropleth map of India by state: {title}. {desc}" width="3052" height="1725" fetchpriority="high"></a>
+    <figcaption><span>{srcyear}</span><a href="{img}">Open the full-size image</a></figcaption>
+  </figure>
+  <div class="mp-cols">
+    <div>
+      {policy}
+      <section class="mp-block">
+        <h2>Go further</h2>
+        <div class="mp-actions">
+          <a class="mp-btn primary" href="/index.html#map/{id}">Open in the interactive atlas <span aria-hidden="true">&rarr;</span></a>
+          {interactive_btn}
+          <a class="mp-btn" href="/m/index.html">All 259 maps</a>
+        </div>
+      </section>
+    </div>
+    <section class="mp-block">
+      <h2>About this map</h2>
+      <dl class="mp-facts">
+        <div><dt>Source</dt><dd>{source}{year_paren}</dd></div>
+        <div><dt>Theme</dt><dd>{sect}</dd></div>
+        <div><dt>Data vintage</dt><dd>{vintage}{newer}</dd></div>
+        {data_note}
+        {tags}
+      </dl>
+      <p class="mp-credit src">See the <a href="/methodology.html">methodology</a> for notes and limitations.</p>
+    </section>
   </div>
-  <p class="vint"><strong>Data vintage.</strong> {vintage}{newer}{data_note}</p>
-  <p class="src">Source: {source}{year_paren}. See the <a href="/methodology.html" style="color:var(--acc)">methodology</a> for notes and limitations.</p>
-  <p class="credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion. For figures to cite, use the source publications. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
-</div>
-<footer class="site-footer">
-  <p>Need help setting out your story, what sets your work apart, the context, the return on investment and the projections? Pinpoint Ventures can help. Write to <a href="mailto:hello@pinpointventures.in?subject=Enquiry%20from%20howindialives.impactmojo.in">hello@pinpointventures.in</a> or message on <a href="https://wa.me/919871777110?text=Hi%20Pinpoint%20Ventures%2C%20I%20found%20you%20through%20howindialives.impactmojo.in.%20I%27d%20like%20to%20discuss%20a%20research%20or%20advisory%20engagement." target="_blank" rel="noopener">WhatsApp</a>.</p>
-</footer>
-<script src="/assets/common-header.js" defer></script>
-<script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
+  <nav class="mp-pager" aria-label="More maps">
+    {prev}
+    {next}
+  </nav>
+  <p class="mp-credit">Part of <a href="https://www.impactmojo.in">ImpactMojo</a>. Maps are pedagogical tools for facilitated discussion. For figures to cite, use the source publications. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+</main>
+""" + FOOT + """
 {swap_script}
 </body>
 </html>
-""".format(
+""").format(
         title=esc(title), desc=esc(desc), canonical=canonical, og_img=og_img,
         schema=json.dumps(schema), section=esc(m['section']), sect=esc(sect),
         img=img_url(m),
-        takeaway=('<div class="takeaway" id="pm-takeaway" data-en="%s">%s</div>' % (esc(m['takeaway']), esc(m['takeaway']))) if m.get('takeaway') else '',
-        policy=policy, source=esc(m.get('source', '')), year=esc(m.get('year', '')),
-        srcyear=esc(m.get('source', '') if str(m.get('year', '')) in m.get('source', '') else (m.get('source', '') + ' ' + str(m.get('year', ''))).strip()),
+        takeaway=('<p class="mp-lead" id="pm-takeaway" data-en="%s">%s</p>' % (esc(m['takeaway']), esc(m['takeaway']))) if m.get('takeaway') else '',
+        policy=policy, source=esc(m.get('source', '')), srcyear=srcyear_,
         year_paren=(' (%s)' % esc(m['year'])) if m.get('year') else '', tags=tags,
         swap_script=swap_script, vintage=esc(vintage(m)[1]),
-        data_note=(' <br><strong>Data note.</strong> ' + esc(m['data_note'])) if m.get('data_note') else '',
-        newer=(' <a href="/explore.html#%s" style="color:var(--acc)">See the newer figures for this measure in the interactive atlas.</a>' % m['newer']) if m.get('newer') else '',
+        data_note=('<div><dt>Data note</dt><dd>%s</dd></div>' % esc(m['data_note'])) if m.get('data_note') else '',
+        newer=(' <a href="/explore.html#%s">See the newer figures for this measure in the interactive atlas.</a>' % m['newer']) if m.get('newer') else '',
         id=esc(m['id']), interactive_btn=interactive_btn,
+        prev=pager_link(prev, 'Previous map', 'prev'), next=pager_link(nxt, 'Next map', 'next'),
     )
+
 
 def vintage(m):
     """(short label, sentence) saying how current the data behind a map is."""
@@ -216,52 +219,27 @@ def index_page(maps):
         items = by_sec.get(sec, [])
         if not items:
             continue
-        lis = ''.join('<li><a href="/m/%s.html">%s</a> <span class="vt">%s%s</span></li>' % (esc(m['id']), esc(m['title']), esc(vintage(m)[0]), ', newer figures in atlas' if m.get('newer') else (', latest available' if m.get('data_note') else '')) for m in items)
-        blocks.append('<section id="%s"><h2>%s <small>(%d)</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
-    return """<!DOCTYPE html>
+        lis = ''.join('<li><a href="/m/%s.html"><span class="t">%s</span> <span class="vt">%s%s</span></a></li>' % (esc(m['id']), esc(m['title']), esc(vintage(m)[0]), ', newer figures in atlas' if m.get('newer') else (', latest available' if m.get('data_note') else '')) for m in items)
+        blocks.append('<section id="%s"><h2>%s <small>%d maps</small></h2><ul>%s</ul></section>' % (esc(sec), esc(title), len(items), lis))
+    return ("""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>All 259 maps | How India Lives | ImpactMojo</title>
 <meta name="description" content="A complete, browsable index of all 259 state-level maps of India across demography, health, gender, economy, education, environment and more.">
 <link rel="canonical" href="{base}/m/index.html">
-<meta name="theme-color" content="#0369A1">
-<link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link href="/assets/tokens.css" rel="stylesheet">
-<link href="/assets/common-header.css" rel="stylesheet">
-<script>(function(){{var s=localStorage.getItem('im-theme');if(s==='dark'||(!s&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}})();</script>
-<style>
-*{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}}
-.wrap{{max-width:900px;margin:0 auto;padding:84px 20px 60px}}
-h1{{font-family:'Amaranth',sans-serif;font-size:2rem;margin-bottom:6px}}
-.lead{{color:var(--tx2);margin-bottom:24px}}
-section{{margin:26px 0}}
-h2{{font-size:1.15rem;border-bottom:1px solid var(--bd);padding-bottom:8px;margin-bottom:10px}}
-h2 small{{color:var(--mut);font-weight:500}}
-ul{{list-style:none;columns:2;column-gap:28px}}
-@media(max-width:600px){{ul{{columns:1}}}}
-li{{margin:5px 0;break-inside:avoid}}
-li a{{color:var(--tx2);text-decoration:none;font-size:.9rem}}
-li a:hover{{color:var(--acc)}}
-.vt{{font-size:.72rem;color:var(--mut);white-space:nowrap}}
-.site-footer{{text-align:center;padding:24px 20px 40px}}
-.site-footer p{{max-width:820px;margin:0 auto;color:var(--mut);font-size:.82rem}}
-.site-footer a{{color:var(--acc)}}
-</style></head>
+""" + HEAD_COMMON + """
+<style>*{{margin:0;padding:0;box-sizing:border-box}}</style>
+<link href="/assets/site.css" rel="stylesheet">
+</head>
 <body>
 <div id="im-common-header"></div>
-<div class="wrap">
+<main class="mp mp-index">
   <h1>All 259 maps</h1>
-  <p class="lead">Every state-level map in the atlas, by theme. Open the <a href="/index.html" style="color:var(--acc)">interactive gallery</a> to search and filter.</p>
+  <p class="mp-lead lead">Every state-level map in the atlas, by theme. Open the <a href="/index.html">interactive gallery</a> to search and filter.</p>
   {blocks}
-</div>
-<footer class="site-footer">
-  <p>Need help setting out your story, what sets your work apart, the context, the return on investment and the projections? Pinpoint Ventures can help. Write to <a href="mailto:hello@pinpointventures.in?subject=Enquiry%20from%20howindialives.impactmojo.in">hello@pinpointventures.in</a> or message on <a href="https://wa.me/919871777110?text=Hi%20Pinpoint%20Ventures%2C%20I%20found%20you%20through%20howindialives.impactmojo.in.%20I%27d%20like%20to%20discuss%20a%20research%20or%20advisory%20engagement." target="_blank" rel="noopener">WhatsApp</a>.</p>
-</footer>
-<script src="/assets/common-header.js" defer></script>
-<script src="/assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
+</main>
+""" + FOOT + """
 </body></html>
-""".format(base=BASE, blocks='\n'.join(blocks))
+""").format(base=BASE, blocks='\n'.join(blocks))
 
 def main():
     maps = json.load(open(os.path.join(ROOT, 'data', 'maps.json')))
@@ -277,11 +255,14 @@ def main():
     outdir = os.path.join(ROOT, 'm')
     os.makedirs(outdir, exist_ok=True)
     written = 0
-    for m in maps:
-        if not m.get('file'):
-            continue
+    # Previous and next follow the order of data/maps.json, which is the order
+    # of the atlas and of m/index.html. The first and last pages have one link.
+    filed = [m for m in maps if m.get('file')]
+    for i, m in enumerate(filed):
+        prev = filed[i - 1] if i > 0 else None
+        nxt = filed[i + 1] if i + 1 < len(filed) else None
         with open(os.path.join(outdir, '%s.html' % m['id']), 'w') as f:
-            f.write(page(m, inter.get(m['id'])))
+            f.write(page(m, inter.get(m['id']), prev, nxt))
         written += 1
     with open(os.path.join(outdir, 'index.html'), 'w') as f:
         f.write(index_page([m for m in maps if m.get('file')]))

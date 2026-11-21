@@ -27,46 +27,53 @@
    ========================================================================== */
 
 :root {
-  /* Surfaces */
-  --primary-bg:        #FFFFFF;
-  --secondary-bg:      #F8FAFC;
-  --card-bg:           #FFFFFF;
-  --hover-bg:          #F1F5F9;
-  --border-color:      #E2E8F0;
+  /* Surfaces. Since November 2026 the page is the paper the map sheets are
+     printed on: every PNG under maps/ has a #F8F6F1 ground, so a sheet set on
+     the page has no visible edge and needs no card around it. */
+  --primary-bg:        #F8F6F1;
+  --secondary-bg:      #F1EEE6;
+  --card-bg:           #FDFCFA;
+  --hover-bg:          #E9E5DB;
+  --border-color:      #DDD8CC;   /* hairline; decoration, never the only cue */
 
   /* Ink */
-  --text-primary:      #0F172A;
-  --text-secondary:    #475569;
-  --text-muted:        #5F6B7C;   /* was #94A3B8, 2.34:1 */
+  --text-primary:      #14171A;
+  --text-secondary:    #3D434A;
+  --text-muted:        #595E66;   /* 5.19:1 on --hover-bg, its worst surface */
 
-  /* Accents. Each is used as ink AND as a fill under white text. */
-  --accent-color:      #0369A1;   /* was #0EA5E9, 2.53:1 */
+  /* Accents. Each is used as ink AND as a fill under --on-accent. */
+  --accent-color:      #0A5A8A;
   /* Ink for text painted ON the accent. The accent is dark on a light page and
-     light on a dark one, so it cannot carry one ink: white on the dark-theme
-     #38BDF8 measures 2.14:1, which is every "Open in the interactive atlas"
-     button on all 205 map pages, and the filter pills and map counts on the
-     home page. A token check reads ink-on-surface and cannot see this. */
+     light on a dark one, so it cannot carry one ink: white on a bright
+     dark-theme accent measured 2.14:1 on every primary button until
+     --on-accent existed. A token check that reads ink-on-surface alone cannot
+     see this, which is why scripts/check_design.py measures FILLS too. */
   --on-accent:         #FFFFFF;
-  --accent-hover:      #075985;   /* was #0284C7, 3.74:1 */
-  --secondary-accent:  #4F46E5;   /* was #6366F1, 4.08:1 */
+  --accent-hover:      #084569;
+  --secondary-accent:  #4338CA;
 
   /* Status */
-  --success-color:     #047857;   /* was #10B981, 2.32:1 */
-  --warning-color:     #8F4A06;   /* was #F59E0B, 1.96:1. Dark enough to clear
-                                     AA on its own 12% tint, which #A85607
-                                     missed at 4.46:1. */
-  --danger-color:      #C22525;   /* was #EF4444, 3.44:1 */
+  --success-color:     #04654A;
+  --warning-color:     #854405;
+  --danger-color:      #AE231C;
 
-  /* Not decoration: .hero-text h1 span paints this into text with
-     background-clip, so the stops are ink. The old #0EA5E9 stop measured
-     2.77:1, under even the 3:1 large-text threshold, and no automated check
-     can see a gradient used as a text colour. */
-  --gradient-primary:  linear-gradient(135deg, #0369A1 0%, #4F46E5 100%);
+  /* Depth is drawn with rules, not shadows. The four names stay because page
+     styles still reference them; only overlays (menus, dialogs) get a shadow. */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: 0 24px 60px -24px rgba(20, 23, 26, 0.35);
 
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
-  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+  /* Type, shape and rules for assets/site.css. Inter carries display, text and
+     labels; JetBrains Mono is for code only. */
+  --font-text:    'Inter', system-ui, -apple-system, 'Segoe UI', 'Noto Sans Devanagari', sans-serif;
+  --font-label:   var(--font-text);
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --radius:       2px;
+  --rule:         1px solid var(--border-color);
+  --rule-strong:  2px solid var(--text-primary);
+  --measure:      66ch;
+  --page:         1240px;
 
   /* Short aliases. The generated map pages under m/ use these names; they are
      aliases rather than a second palette so the two cannot drift. */
@@ -83,7 +90,7 @@
   /* Header aliases, consumed by assets/common-header.css. */
   --im-accent:          var(--accent-color);
   --im-accent-hover:    var(--accent-hover);
-  --im-header-bg:       rgba(255, 255, 255, 0.9);
+  --im-header-bg:       var(--primary-bg);
   --im-header-border:   var(--border-color);
   --im-header-text:     var(--text-primary);
   --im-header-muted:    var(--text-secondary);
@@ -92,35 +99,27 @@
 }
 
 html[data-theme="dark"] {
-  --primary-bg:        #0F172A;
-  --secondary-bg:      #1E293B;
-  --card-bg:           #1E293B;
-  --hover-bg:          #334155;
-  --border-color:      #334155;
+  /* A neutral near-black, not navy. The map sheets keep their own paper. */
+  --primary-bg:        #101214;
+  --secondary-bg:      #171A1D;
+  --card-bg:           #1B1F23;
+  --hover-bg:          #2A2F35;
+  --border-color:      #2E343A;
 
-  --text-primary:      #F1F5F9;
-  --text-secondary:    #CBD5E1;
-  --text-muted:        #A6B2C4;   /* was #64748B, 2.18:1 on the card */
+  --text-primary:      #ECEAE4;
+  --text-secondary:    #C6C3BB;
+  --text-muted:        #A6A39B;   /* 5.35:1 on --hover-bg */
 
-  --accent-color:      #38BDF8;
-  --on-accent:         #0F172A;   /* 8.43:1 on the bright dark-theme accent */
-  --accent-hover:      #7DD3FC;   /* was #0EA5E9, 3.74:1 */
-  --secondary-accent:  #A5B4FC;   /* was #818CF8, 3.47:1 */
+  --accent-color:      #6CC4F0;
+  --on-accent:         #0B1220;   /* 9.62:1 on the bright dark-theme accent */
+  --accent-hover:      #9AD7F6;
+  --secondary-accent:  #B4BEFA;
 
-  /* The dark block never redefined these, so it inherited the light values and
-     painted them on a near-black card at 1.89, 1.97 and 1.77 to one. */
-  --success-color:     #34D399;
-  --warning-color:     #FBBF24;
-  --danger-color:      #FCA5A5;
+  --success-color:     #4FD6A5;
+  --warning-color:     #F5BE4B;
+  --danger-color:      #FAA9A2;
 
-  --gradient-primary:  linear-gradient(135deg, #38BDF8 0%, #A5B4FC 100%);
-
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.3);
-  --shadow-xl: 0 20px 25px rgba(0,0,0,0.35);
-
-  --im-header-bg: rgba(15, 23, 42, 0.9);
+  --shadow-xl: 0 24px 60px -24px rgba(0, 0, 0, 0.7);
 }
 
 /* A link sitting inside running text and distinguished from it by colour
@@ -133,33 +132,4 @@ footer p a,
 .src a {
   text-decoration: underline;
   text-underline-offset: 0.18em;
-}
-
-/* Surfaces and accents for the October 2026 redesign, taken from impactmojo.in (css/home.css).
-   --chip-ink is ink on --chip-bg; --tile-ink is ink on --tile-blue. Neither is used as a fill. */
-:root {
-  --glow-a:     #E0F2FE;
-  --glow-b:     #EEF2FF;
-  --hl:         #E4DAFF;
-  --rule-a:     #1D4ED8;
-  --rule-b:     #7C3AED;
-  --chip-bg:    #F1ECFF;
-  --chip-bd:    #D9CCFF;
-  --chip-ink:   #5B21B6;
-  --tile-blue:  #EAF1FF;
-  --tile-ink:   #0F172A;
-  --soft-shadow: rgba(3, 105, 161, 0.12);
-}
-html[data-theme="dark"] {
-  --glow-a:     rgba(56, 189, 248, 0.14);
-  --glow-b:     rgba(129, 140, 248, 0.12);
-  --hl:         #3B2A6B;
-  --rule-a:     #60A5FA;
-  --rule-b:     #A78BFA;
-  --chip-bg:    #211A3D;
-  --chip-bd:    #3B2F66;
-  --chip-ink:   #C4B5FD;
-  --tile-blue:  #14213D;
-  --tile-ink:   #F1F5F9;
-  --soft-shadow: rgba(0, 0, 0, 0.35);
 }

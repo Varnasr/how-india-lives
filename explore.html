@@ -11,13 +11,13 @@
 <meta property="og:description" content="Map, rank and correlate India's development indicators, state by state.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
-<meta name="theme-color" content="#0EA5E9">
+<meta name="theme-color" content="#F8F6F1">
 <link rel="canonical" href="https://howindialives.impactmojo.in/explore.html">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
 <link href="https://www.impactmojo.in/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link href="assets/common-header.css" rel="stylesheet">
 <script>
   (function(){var s=localStorage.getItem('im-theme');
@@ -43,13 +43,14 @@
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-    --map-empty: #E2E8F0; --map-stroke: #FFFFFF; --map-c0: #E0F2FE; --map-c1: #075985;
+    --map-empty: #DDD8CC; --map-stroke: #F8F6F1; --map-c0: #DCEAF3; --map-c1: #0B4A73;
     /* change maps: blue is the better direction, amber the worse; neither is red/green, so colour-blind readers keep the contrast */
-    --map-good: #0369A1; --map-bad: #C2410C; --map-mid: #F1F5F9;
+    --map-good: #0A5A8A; --map-bad: #B8480F; --map-mid: #EFECE4;
 }
 html[data-theme="dark"] {
-    --map-empty: #334155; --map-stroke: #0F172A; --map-c0: #0C4A6E; --map-c1: #7DD3FC;
-    --map-good: #38BDF8; --map-bad: #FB923C; --map-mid: #1E293B;
+    /* The ramp runs light to dark in both themes, so the legend line "Darker = higher" is true in both. */
+    --map-empty: #3A4047; --map-stroke: #101214; --map-c0: #CFE3F0; --map-c1: #17608F;
+    --map-good: #6CC4F0; --map-bad: #F79A52; --map-mid: #23282D;
 }
 html, body { max-width: 100%; overflow-x: hidden; }
 body {
@@ -99,7 +100,7 @@ body {
 }
 .page-head { margin-bottom: 4px; }
 .eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-color); }
-h1 { font-family: 'Amaranth', sans-serif; font-size: clamp(1.5rem, 5vw, 2rem); font-weight: 700; margin: 8px 0 6px; }
+h1 { font-family: var(--font-text); font-size: clamp(1.5rem, 5vw, 2rem); font-weight: 700; margin: 8px 0 6px; }
 .lead { color: var(--text-secondary); max-width: 640px; font-size: 0.95rem; }
 
 /* ── View tabs ── */
@@ -210,14 +211,14 @@ select.im-select:focus { outline: 2px solid var(--accent-color); outline-offset:
 #scatter-svg .dot:hover { opacity: 1; }
 #scatter-svg .trend { stroke: var(--secondary-accent); stroke-width: 2; stroke-dasharray: 5 4; opacity: 0.8; }
 #scatter-svg .axis-title { fill: var(--text-secondary); font-weight: 600; font-size: 12px; }
-.corr-card .big-r { font-family: 'Amaranth', sans-serif; font-size: 2.2rem; font-weight: 700; line-height: 1; }
+.corr-card .big-r { font-family: var(--font-text); font-size: 2.2rem; font-weight: 700; line-height: 1; }
 .corr-card .r-strength { font-weight: 600; margin: 6px 0 10px; }
 .corr-card .r-expl { font-size: 0.82rem; color: var(--text-secondary); }
 .corr-pos { color: var(--success-color); } .corr-neg { color: var(--danger-color); } .corr-none { color: var(--text-muted); }
 
 /* ── State dashboard ── */
 .state-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
-.state-head h2 { font-family: 'Amaranth', sans-serif; font-size: 1.5rem; font-weight: 700; }
+.state-head h2 { font-family: var(--font-text); font-size: 1.5rem; font-weight: 700; }
 .state-head .st-tag { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); background: var(--secondary-bg); border: 1px solid var(--border-color); border-radius: 999px; padding: 2px 10px; }
 .state-dash { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; margin-top: 16px; }
 .dash-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 14px; padding: 14px 16px; text-decoration: none; color: inherit; display: block; transition: border-color .15s, transform .15s; }
@@ -225,7 +226,7 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 .dash-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
 .dash-name { font-weight: 600; font-size: 0.9rem; }
 .dash-name small { display: block; color: var(--text-muted); font-weight: 500; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; }
-.dash-val { font-family: 'Amaranth', sans-serif; font-size: 1.5rem; font-weight: 700; line-height: 1; white-space: nowrap; }
+.dash-val { font-family: var(--font-text); font-size: 1.5rem; font-weight: 700; line-height: 1; white-space: nowrap; }
 .dash-val small { font-size: 0.66rem; color: var(--text-muted); font-family: 'Inter'; }
 .dash-track { position: relative; height: 8px; background: var(--secondary-bg); border-radius: 4px; margin: 14px 0 8px; }
 .dash-track .fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
@@ -274,6 +275,8 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
 .site-footer p { max-width: 820px; margin: 0 auto; color: var(--text-muted); font-size: 0.82rem; }
 .site-footer a { color: var(--accent-color); }
 </style>
+<!-- The shared look. Linked after the page styles on purpose: see the note at the top of the file. -->
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 
@@ -759,6 +762,6 @@ a.dash-card:hover { border-color: var(--accent-color); transform: translateY(-1p
     });
 })();
 </script>
-<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
+<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="2px" defer></script>
 </body>
 </html>

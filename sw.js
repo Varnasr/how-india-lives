@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hil-v58';
+const CACHE_NAME = 'hil-v59';
 const PRECACHE = [
     '/',
     '/index.html',
@@ -8,9 +8,11 @@ const PRECACHE = [
     '/data/maps.json',
     '/data/india-states.geojson',
     '/data/interactive-data.json',
+    '/assets/tokens.css',
+    '/assets/site.css',
     '/assets/common-header.css',
     '/assets/common-header.js',
-    'https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap'
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap'
 ];
 
 self.addEventListener('install', e => {

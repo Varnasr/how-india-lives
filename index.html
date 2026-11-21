@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://howindialives.impactmojo.in">
 <meta property="og:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
-<meta name="theme-color" content="#0EA5E9">
+<meta name="theme-color" content="#F8F6F1">
 <link rel="canonical" href="https://howindialives.impactmojo.in/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How India Lives | 259 maps of India's diversity">
@@ -51,7 +51,7 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <!-- Common ImpactMojo header (shared across all pages) -->
 <link href="assets/common-header.css" rel="stylesheet">
@@ -79,8 +79,7 @@
 html[data-theme="dark"] {
 }
 
-/* Inter for text and card titles, Amaranth for page and section headings, as on impactmojo.in */
-h1, h2 { font-family: 'Amaranth', 'Inter', system-ui, sans-serif; }
+h1, h2 { font-family: var(--font-text); }
 body {
     font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
     background: var(--primary-bg);
@@ -229,12 +228,7 @@ html[data-theme="dark"] .theme-btn:hover { background: rgba(0,0,0,0.1); color: #
     margin-bottom: 12px;
     line-height: 1.15;
 }
-.hero-text h1 span {
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
+.hero-text h1 span { color: inherit; }
 .hero-text .subtitle {
     color: var(--text-secondary);
     font-size: 0.95rem;
@@ -1590,94 +1584,9 @@ html[data-theme="dark"] .about-trigger-btn:hover { background: rgba(0,0,0,0.1); 
     *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
 }
 
-/* ── DESIGN UPGRADE, OCTOBER 2026: ImpactMojo's look (css/home.css on impactmojo.in) ── */
-.hero {
-    background:
-        radial-gradient(900px 420px at 85% 0%, var(--glow-a) 0%, transparent 70%),
-        radial-gradient(700px 360px at 5% 100%, var(--glow-b) 0%, transparent 70%),
-        var(--primary-bg);
-    border-bottom: 0;
-    padding: 92px 20px 36px;
-}
-.hero::before, .hero::after { display: none; }
-.hero-text h1 {
-    font-family: 'Amaranth', 'Inter', system-ui, sans-serif;
-    font-size: clamp(2.1rem, 8.4vw, 4.3rem);
-    font-weight: 700;
-    line-height: 1.03;
-    letter-spacing: -0.5px;
-    text-wrap: balance;
-    margin-bottom: 16px;
-}
-.hero-text h1 span {
-    background: linear-gradient(transparent 58%, var(--hl) 58%, var(--hl) 92%, transparent 92%);
-    -webkit-background-clip: border-box; background-clip: border-box;
-    -webkit-text-fill-color: currentColor; color: inherit;
-    padding: 0 0.06em; border-radius: 3px;
-    -webkit-box-decoration-break: clone; box-decoration-break: clone;
-}
-.hero-text .subtitle { font-size: clamp(1rem, 2.6vw, 1.15rem); color: var(--text-secondary); max-width: 34em; margin-bottom: 22px; }
-.hero-stats { display: grid; grid-template-columns: repeat(5, auto); justify-content: start; gap: 0.6rem 1.5rem; margin-bottom: 20px; }
-.hero-stat { text-align: left; }
-.hero-stat .number { font-family: 'Amaranth', 'Inter', sans-serif; font-size: clamp(1.45rem, 5.6vw, 1.9rem); line-height: 1.05; }
-.hero-stat .label { font-size: 0.66rem; letter-spacing: 0.06em; }
-.hero .method-link, .hero .surprise-btn {
-    min-height: 46px; padding: 0 20px; border-radius: 12px; font-size: 0.92rem; justify-content: center;
-}
-.hero .method-link { background: var(--accent-color); color: var(--on-accent); box-shadow: 0 8px 20px -8px var(--soft-shadow); }
-.hero .method-link:hover { background: var(--accent-hover); }
-.hero-spotlight-card { border-radius: 18px; box-shadow: 0 18px 44px -18px var(--soft-shadow); }
-@media (max-width: 560px) {
-    .hero { padding: 84px 16px 28px; }
-    .hero-stats { grid-template-columns: repeat(5, 1fr); gap: 0.4rem 0.6rem; }
-    .hero-stat .label { font-size: 0.6rem; letter-spacing: 0.03em; }
-    .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .hero .method-link, .hero .surprise-btn { min-height: 44px; padding: 0 12px; }
-}
-
-/* What is new: a tinted tile with a bottom edge, as on impactmojo.in */
-.newdata-inner {
-    background: var(--tile-blue); border: 0; border-radius: 18px; padding: 20px 22px;
-    box-shadow: inset 0 -4px 0 rgba(15, 23, 42, 0.10);
-}
-html[data-theme="dark"] .newdata-inner { box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.45); }
-.newdata strong, .newdata p { color: var(--tile-ink); }
-.newdata a.go { min-height: 44px; display: inline-flex; align-items: center; border-radius: 12px; }
-
-/* Category tabs and filter pills: larger targets, violet chips */
-.section-nav a { font-size: 0.74rem; padding: 10px 14px; min-height: 40px; display: inline-flex; align-items: center; }
-.question-pill {
-    min-height: 40px; padding: 0 14px; border-radius: 999px;
-    background: var(--chip-bg); border: 1px solid var(--chip-bd); color: var(--chip-ink); font-weight: 500;
-}
-.question-pill:hover { border-color: var(--chip-ink); }
-
-/* Search: the first thing on the page you type into, so it looks like it */
-.filter-bar input {
-    min-height: 52px; padding: 0 18px; border-radius: 14px; font-size: 1rem;
-    border: 2px solid var(--accent-color); box-shadow: 0 10px 28px -12px var(--soft-shadow);
-}
-.filter-bar input:focus { outline: 2px solid var(--accent-color); outline-offset: 2px; }
-
-/* Section headings: Amaranth with the blue-to-violet rule */
-.section-header { border-left: 0; padding-left: 0; margin-bottom: 26px; }
-.section-header h2 { font-family: 'Amaranth', 'Inter', system-ui, sans-serif; font-size: clamp(1.7rem, 5.4vw, 2.1rem); line-height: 1.15; }
-.section-header h2::after {
-    content: ""; display: block; width: 56px; height: 5px; margin-top: 10px; border-radius: 3px;
-    background: linear-gradient(90deg, var(--rule-a), var(--rule-b));
-}
-.section-header p { font-size: 0.98rem; }
-.map-count { background: var(--chip-bg); color: var(--chip-ink); border: 1px solid var(--chip-bd); font-family: 'Inter', sans-serif; }
-
-/* Map cards: rounder, softer, chips for the vintage and source */
-.map-card, .map-card-lead { border-radius: 18px; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 14px 32px -18px var(--soft-shadow); }
-.map-card .card-body { padding: 18px 20px 20px; }
-.map-card h3 { font-size: 1.05rem; font-weight: 700; }
-.map-card .takeaway { font-size: 0.93rem; color: var(--text-secondary); }
-.map-card .tag, .map-card-lead .tag { border-radius: 999px; padding: 4px 10px; font-size: 0.7rem; }
-.tag.newer { border-radius: 999px; }
-@media (prefers-reduced-motion: reduce) { .map-card:hover { transform: none; } }
 </style>
+<!-- The shared look. Linked after the page styles on purpose: see the note at the top of the file. -->
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 
@@ -2233,11 +2142,11 @@ function renderAll() {
             <div class="section-layout">
                 ${leadCardHTML(lead)}
                 ${rest.length ? `<div class="map-grid" id="${gridId}">
-                    ${visible.map(cardHTML).join('')}
+                    ${visible.map(m => cardHTML(m)).join('')}
                     ${hidden.map(m => cardHTML(m, true)).join('')}
                 </div>` : ''}
                 ${hidden.length ? `<div class="expand-btn-wrap">
-                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)" aria-label="Show all maps">
+                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)">
                         Show all ${rest.length} maps
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </button>
@@ -2657,7 +2566,7 @@ function renderAllWithStateHighlight(stateName, stateName2) {
                     ${hidden.map(m => cardHTML(m, true)).join('')}
                 </div>` : ''}
                 ${hidden.length ? `<div class="expand-btn-wrap">
-                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)" aria-label="Show all maps">
+                    <button class="expand-btn" onclick="toggleSection('${gridId}', this)">
                         Show all ${rest.length} maps
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </button>
@@ -2691,12 +2600,17 @@ function applyFilters() {
         c.style.display = ok ? '' : 'none';
         if (ok) vis++;
     });
-    // Show/hide section headers based on active question
+    // While a search is typed, a matching card behind "Show all" has to be shown too:
+    // it was counted as a result and stayed display:none, so "2 of 259 maps" could sit
+    // above an empty page. body.filtering lifts the collapse (assets/site.css).
+    document.body.classList.toggle('filtering', !!q);
+    // Show/hide section headers based on active question, and drop a section with no match
     document.querySelectorAll('.section').forEach(s => {
+        const hasMatch = !q || [...s.querySelectorAll('.map-card')].some(c => c.style.display !== 'none');
         if (activeQuestion) {
-            s.style.display = s.id === activeQuestion ? '' : 'none';
+            s.style.display = (s.id === activeQuestion && hasMatch) ? '' : 'none';
         } else {
-            s.style.display = '';
+            s.style.display = hasMatch ? '' : 'none';
         }
     });
     updateCount(vis);
@@ -2920,6 +2834,6 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 <script src="assets/common-header.js" defer></script>
-<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
+<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="2px" defer></script>
 </body>
 </html>
