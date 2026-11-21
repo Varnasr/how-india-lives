@@ -49,7 +49,7 @@ This project arms educators, journalists, students, and policymakers with the vi
 - **Mobile-first responsive** — compact hero, swipe gestures, touch-friendly throughout
 - **PWA / offline support** — service worker caches HTML, JSON, and fonts
 - **Print stylesheet** — clean 2-column layout for classroom printing
-- **Unified ImpactMojo header** — one shared, single-source navigation component (`assets/common-header.*`) rendered identically across every page, matching the parent [impactmojo.in](https://www.impactmojo.in) design system (sky/teal palette, Amaranth + Inter, dark-mode aware)
+- **Unified ImpactMojo header** — one shared, single-source navigation component (`assets/common-header.*`) rendered identically across every page, with the language switch, the theme switch and the reading-font button in the bar at every width
 - **No dependencies** — pure vanilla HTML/CSS/JS, no build process, no frameworks
 - **Newsletter signup** — email capture in footer (ready for Mailchimp/Buttondown integration)
 
@@ -108,7 +108,9 @@ how-india-lives/
 ├── manifest.json         # PWA manifest
 ├── sw.js                 # Service worker for offline support
 ├── assets/
-│   ├── common-header.css # Shared ImpactMojo header styles
+│   ├── tokens.css        # The one palette, plus type and shape tokens
+│   ├── site.css          # The shared look, linked last on every page
+│   ├── common-header.css # Shared header styles
 │   └── common-header.js  # Shared header markup + theme toggle (single source)
 ├── data/
 │   └── maps.json         # Catalog of all 259 maps with metadata

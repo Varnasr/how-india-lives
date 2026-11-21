@@ -100,8 +100,10 @@
 
         return '' +
         '<nav class="im-nav" aria-label="Primary">' +
-            '<a class="im-logo" href="https://www.impactmojo.in" aria-label="ImpactMojo home">' +
-                '<img src="' + LOGO + '" alt="ImpactMojo" width="40" height="40" fetchpriority="high">' +
+            '<a class="im-logo" href="https://www.impactmojo.in">' +
+                // No aria-label: the accessible name has to contain the words on screen, and
+                // "ImpactMojo home" did not contain "How India Lives" (axe, label-content-name-mismatch).
+                '<img src="' + LOGO + '" alt="" width="30" height="30">' +
                 '<span class="im-logo-text">' +
                     '<span class="im-logo-main">How India Lives</span>' +
                     '<span class="im-logo-tagline" data-i18n="logo.tagline">' + IM.t('logo.tagline') + '</span>' +
@@ -121,12 +123,17 @@
                 // Theme + language live inside the menu on mobile (keeps the top bar to logo + burger)
                 '<li class="im-menu-extra">' +
                     '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
-                    '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
+                    '<button class="im-lang" type="button" title="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '</li>' +
             '</ul>' +
-            '<div class="im-actions" data-dyslexia-slot>' +
-                '<button class="im-lang" type="button" aria-label="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
+            '<div class="im-actions" data-dyslexia-slot data-dyslexia-before="#im-burger">' +
+                '<button class="im-lang" type="button" title="Switch language" data-i18n="lang.toggle">' + IM.t('lang.toggle') + '</button>' +
                 '<div class="im-theme" role="group" aria-label="Theme">' + themeBtns + '</div>' +
+                // On a phone the three-way group is in the menu; this one button keeps the theme
+                // switch in the bar. It flips between light and dark.
+                '<button class="im-theme-quick" type="button" aria-label="Switch between light and dark theme">' +
+                    svg('<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18z" fill="currentColor"/>') +
+                '</button>' +
                 '<button class="im-burger" id="im-burger" type="button" aria-label="Toggle menu" aria-expanded="false">' +
                     '<span></span><span></span><span></span>' +
                 '</button>' +
@@ -168,6 +175,12 @@
             });
         });
         markActiveTheme(header);
+        var quick = header.querySelector('.im-theme-quick');
+        if (quick) quick.addEventListener('click', function () {
+            var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+            applyTheme(dark ? 'light' : 'dark');
+            markActiveTheme(header);
+        });
 
         // Dropdowns
         header.querySelectorAll('.im-has-dropdown').forEach(function (dd) {

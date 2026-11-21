@@ -200,6 +200,33 @@ def main():
                                 f"assets/tokens.css.")
                 break
 
+    # The shared look. Every page links it after its own styles, and neither it
+    # nor the header stylesheet writes a colour as a hex literal: a literal is
+    # the one thing the contrast checks above cannot see.
+    for page in pages():
+        if page in EXEMPT_PAGES:
+            continue
+        text = open(os.path.join(ROOT, page), encoding="utf-8").read()
+        checks += 1
+        at = text.find("assets/site.css")
+        if at == -1:
+            failures.append(f"{page}: does not link /assets/site.css")
+        elif at < text.rfind("</style>", 0, text.find("</head>")):
+            failures.append(f"{page}: links assets/site.css before its own <style> block. "
+                            f"It has to come last to win the cascade.")
+    for sheet in ("assets/site.css", "assets/common-header.css"):
+        path = os.path.join(ROOT, sheet)
+        checks += 1
+        if not os.path.exists(path):
+            failures.append(f"{sheet} is missing")
+            continue
+        body = re.sub(r"/\*.*?\*/", "", open(path, encoding="utf-8").read(), flags=re.S)
+        for m in re.finditer(r"#[0-9A-Fa-f]{3,8}\b", body):
+            line = body[:m.start()].count("\n") + 1
+            failures.append(f"{sheet}: hex colour {m.group(0)} near line {line} (comments removed). "
+                            f"Use a token from assets/tokens.css.")
+            break
+
     for page, why in EXEMPT_PAGES.items():
         if page not in pages():
             failures.append(f"stale exemption: {page} ({why}) is not a page any more")

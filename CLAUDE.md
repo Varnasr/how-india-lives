@@ -232,6 +232,65 @@ repository throws:
 
 Four of these were fault-injected against real failures to confirm they bite.
 
+## The look lives in `assets/site.css`, and it is linked last
+
+Since November 2026 every page links three stylesheets in this order:
+`assets/tokens.css` (the palette and the type and shape tokens), its own inline
+`<style>` block (layout and behaviour), then `assets/site.css` (the shared look).
+`site.css` comes last on purpose, so a rule in it wins over a page rule of the
+same weight. `scripts/check_design.py` fails if a page links it before its own
+styles or not at all, and fails on a hex colour in `site.css` or
+`common-header.css`. Both were fault-injected.
+
+What the design is, so nobody undoes it by accident:
+
+- **The page is the paper the map sheets are printed on.** Every PNG under
+  `maps/` has a `#F8F6F1` ground and `--primary-bg` is the same value, so a
+  sheet needs no card, radius or shadow. If the renderer's ground ever changes,
+  change the token with it. The dark theme is a neutral near-black and the
+  sheets keep their own paper on it.
+- **Rules, not boxes.** A 2px ink rule opens a section and a hairline separates
+  items. The four `--shadow-*` tokens are `none` except `--shadow-xl`, which
+  only menus and dialogs use. Corners are 2px.
+- **One type family, Inter.** Amaranth is no longer loaded. Labels are small
+  tracked capitals. JetBrains Mono was tried for labels and dropped the same
+  day, because its dotted zero makes "2011" read as code; it is loaded for
+  `code` and `kbd` only.
+- **No gradient text and no gradient surfaces.** `--gradient-primary` and the
+  glow, chip and tile tokens of October 2026 are gone.
+- **Hindi.** `html:lang(hi)` drops letter-spacing everywhere and raises line
+  height. The site name stays in Latin script and keeps its tracking.
+- **The bar** (`assets/common-header.*`) is 60px tall, and every page and the
+  sticky theme tabs assume that height. The language switch, a theme switch
+  and the reading-font button are in the bar at every width. Below 900px the
+  three-way theme group is in the menu and one button in the bar flips light
+  and dark. Below 420px the logo image is dropped so the row fits 320px.
+- **The map pages carry structure only.** `scripts/build_map_pages.py` writes
+  the markup (`.mp` classes), a previous and next link in `data/maps.json`
+  order, and no page styles. A change to their look is an edit to `site.css`
+  with no regeneration.
+
+Three defects were found while doing it, all of them present before and none
+of them throwing:
+
+- **The ranking bars had no width.** `.rb-fill` is a `<span>`, and `width`
+  does not apply to an inline box. Measured on `main`: 0px. It is a block now.
+- **Two of the three cards under each theme were hidden.** `visible.map(cardHTML)`
+  passed the array index as the `hidden` argument, so cards two and three got
+  `hidden-card`. Each theme showed its lead map and one card.
+- **A search could count results it did not show.** A matching card behind
+  "Show all" stayed `display: none`, so "2 of 259 maps" sat above an empty
+  page. `applyFilters()` sets `body.filtering`, which lifts the collapse, and
+  hides a theme with no match.
+
+Also changed: the interactive map's dark-theme ramp now runs light to dark like
+the light theme's, because the legend says "Darker = higher" in both. The lead
+card of each theme was meant to be a grid and was a stack at every width,
+because `.map-card` (flex) is declared after `.map-card-lead` (grid).
+
+Measured on 21 November 2026 at 390x844: the top of the first map on the home
+page moved from 446px to 231px, and its bottom edge from 646px to 433px.
+
 ## The palette was written eight times and every copy was failing
 
 `assets/tokens.css` owns it now, and `scripts/check_design.py` holds it there.
@@ -287,10 +346,10 @@ A colour written as a literal in a rule, and a colour composited with opacity,
 are invisible to it. Consolidating the tokens left five such cases behind, and
 axe over the pages is what found them:
 
-- **The headline gradient is ink, not decoration.** `.hero-text h1 span` paints
-  `--gradient-primary` into text with `background-clip: text`. Its sky stop was
-  2.77:1, under even the 3:1 large-text threshold, and no automated check reads
-  a gradient used as a text colour.
+- **A gradient painted into text is ink, not decoration.** The home page
+  headline used `background-clip: text` with a sky stop at 2.77:1, and no
+  automated check reads a gradient used as a text colour. The site has no
+  gradient text now; do not bring it back.
 - `explore.html` wrote `#EF4444` and `#10B981` as literals in three rules, and
   those are the ink of the ranking figures a reader came for.
 - `methodology.html`'s three data-quality badges were literal ink on literal

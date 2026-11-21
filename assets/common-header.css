@@ -1,18 +1,19 @@
-/* Palette lives in assets/tokens.css, which every page links before this
-   file. It used to be redeclared here under --im-* names, an eighth copy
-   of the same numbers. */
 /* ==========================================================================
-   ImpactMojo — Common Header
-   Shared, single-source navigation used across every How India Lives page.
-   Matches the parent site (impactmojo.in): light bar, Inter + Amaranth,
-   sky/teal accent, dark-mode aware, mobile hamburger.
+   How India Lives: the one bar on every page.
+
+   assets/common-header.js injects the markup into <div id="im-common-header">.
+   The palette lives in assets/tokens.css, which every page links.
+
+   November 2026: the bar is flat paper with a hairline under it. The language
+   switch, the theme switch and the reading-font button stay in the bar at
+   every width. Before this, a phone showed the logo, the menu button and the
+   font button, and the other two were inside the menu. Measured at 320px:
+   the row fits with the logo image dropped below 420px.
+
+   The bar stays 60px tall. Every page pads its content for that height and
+   the home page's section tabs stick at top: 60px.
    Namespaced .im-* so it never collides with page-level styles.
    ========================================================================== */
-
-:root {
-}
-html[data-theme="dark"] {
-}
 
 .im-header {
     position: fixed;
@@ -20,78 +21,74 @@ html[data-theme="dark"] {
     z-index: 1200;
     height: 60px;
     background: var(--im-header-bg);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--im-header-border);
 }
-/* thin brand accent line along the very top */
-.im-header::before {
-    content: "";
-    position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent), var(--accent-color));
-}
 .im-nav {
-    max-width: 1280px;
+    max-width: calc(var(--page, 1240px) + 48px);
     margin: 0 auto;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
 }
 
-/* ── Logo ── */
+/* ── Wordmark ── */
 .im-logo {
     display: flex;
     align-items: center;
-    gap: 11px;
+    gap: 10px;
     text-decoration: none;
     flex-shrink: 0;
+    min-height: 44px;
 }
 .im-logo img {
-    width: 40px; height: 40px;
-    border-radius: 9px;
+    width: 30px; height: 30px;
+    border-radius: 2px;
     object-fit: contain;
     display: block;
 }
-.im-logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+.im-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .im-logo-main {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: var(--font-text, 'Inter', system-ui, sans-serif);
     font-size: 1.02rem;
     font-weight: 800;
     color: var(--im-header-text);
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
 }
 .im-logo-tagline {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-size: 0.62rem;
-    font-weight: 500;
+    font-family: var(--font-label, sans-serif);
+    font-size: 0.6rem;
+    font-weight: 600;
     color: var(--im-header-muted);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 /* ── Links ── */
 .im-links {
     display: flex;
-    align-items: center;
-    gap: 4px;
+    align-items: stretch;
+    gap: 2px;
     list-style: none;
     margin: 0; padding: 0;
     flex-wrap: nowrap;
+    height: 100%;
 }
-.im-links > li { position: relative; }
+.im-links > li { position: relative; display: flex; align-items: center; }
 .im-links a,
 .im-dropdown-toggle {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-size: 0.86rem;
+    font-family: var(--font-text, 'Inter', system-ui, sans-serif);
+    font-size: 0.88rem;
     font-weight: 500;
     color: var(--im-header-muted);
     text-decoration: none;
     padding: 8px 12px;
-    border-radius: 8px;
-    transition: color .18s, background .18s;
+    border-radius: var(--radius, 2px);
+    transition: color .15s;
     display: inline-flex;
     align-items: center;
     gap: 5px;
@@ -99,130 +96,117 @@ html[data-theme="dark"] {
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    min-height: 40px;
 }
 .im-links a:hover,
 .im-dropdown-toggle:hover,
-.im-links a:focus-visible {
-    color: var(--im-accent);
-    background: var(--im-header-hover-bg);
-}
-.im-links a.im-active {
-    color: var(--im-accent);
-    font-weight: 700;
-}
+.im-links a:focus-visible { color: var(--im-header-text); text-decoration: underline; text-underline-offset: 0.3em; }
+.im-links a.im-active { color: var(--im-header-text); font-weight: 700; }
+/* The current page is marked by a rule that sits on the bar's own hairline. */
 .im-links a.im-active::after {
     content: "";
     position: absolute;
-    left: 12px; right: 12px; bottom: 2px;
+    left: 12px; right: 12px; bottom: -1px;
     height: 2px;
-    background: var(--im-accent);
-    border-radius: 2px;
+    background: var(--im-header-text);
 }
-.im-dropdown-arrow { width: 13px; height: 13px; transition: transform .18s; }
+.im-dropdown-arrow { width: 13px; height: 13px; transition: transform .15s; }
 .im-has-dropdown.im-open .im-dropdown-arrow { transform: rotate(180deg); }
 
 /* ── Dropdown menu ── */
 .im-dropdown {
     position: absolute;
-    top: calc(100% + 6px);
+    top: 100%;
     right: 0;
-    min-width: 210px;
+    min-width: 220px;
     background: var(--im-header-menu-bg);
-    border: 1px solid var(--im-header-border);
-    border-radius: 12px;
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+    border: 1px solid var(--im-header-text);
+    border-radius: var(--radius, 2px);
+    box-shadow: var(--shadow-xl);
     padding: 6px;
     list-style: none;
     margin: 0;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-6px);
-    transition: opacity .18s, transform .18s, visibility .18s;
+    transition: opacity .15s, visibility .15s;
 }
-.im-has-dropdown.im-open .im-dropdown {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
+.im-has-dropdown.im-open .im-dropdown { opacity: 1; visibility: visible; }
 .im-dropdown li a {
     display: block;
     width: 100%;
     padding: 9px 12px;
-    border-radius: 8px;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     color: var(--im-header-text);
 }
-.im-dropdown li a:hover { color: var(--im-accent); }
+.im-dropdown li a:hover { background: var(--im-header-hover-bg); text-decoration: none; }
 .im-dropdown-label {
     display: block;
-    padding: 6px 12px 4px;
+    padding: 8px 12px 6px;
+    font-family: var(--font-label, sans-serif);
     font-size: 0.66rem;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--im-header-muted);
 }
-.im-dropdown .im-ext::after {
-    content: " ↗";
-    font-size: 0.72em;
-    opacity: 0.6;
-}
+.im-dropdown .im-ext::after { content: " \2197"; font-size: 0.8em; }
 
-/* ── Right-side actions ── */
-.im-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.im-menu-extra { display: none; }
+/* ── Right-side controls: language, theme, reading font, menu ── */
+.im-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.im-links > li.im-menu-extra { display: none; }
 
 .im-theme {
     display: flex;
-    gap: 2px;
-    background: var(--im-header-hover-bg);
     border: 1px solid var(--im-header-border);
-    border-radius: 9px;
-    padding: 3px;
+    border-radius: var(--radius, 2px);
 }
-.im-theme-btn {
+.im-theme-btn,
+.im-theme-quick {
     background: transparent;
     border: none;
     color: var(--im-header-muted);
-    padding: 6px;
-    border-radius: 6px;
     cursor: pointer;
-    transition: all .18s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px; height: 30px;
+    width: 36px; height: 36px;
+    border-radius: 0;
 }
-.im-theme-btn:hover { color: var(--im-accent); background: var(--im-header-menu-bg); }
-.im-theme-btn.im-active { background: var(--im-accent); color: var(--on-accent); }
-.im-theme-btn svg { width: 16px; height: 16px; }
+.im-theme-btn + .im-theme-btn { border-left: 1px solid var(--im-header-border); }
+.im-theme-btn:hover, .im-theme-quick:hover { color: var(--im-header-text); background: var(--im-header-hover-bg); }
+.im-theme-btn.im-active { background: var(--im-header-text); color: var(--im-header-bg); }
+.im-theme-btn svg, .im-theme-quick svg { width: 16px; height: 16px; }
+.im-theme-quick { display: none; border: 1px solid var(--im-header-border); border-radius: var(--radius, 2px); }
 
-/* ── Language toggle ── */
 .im-lang {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--im-header-muted);
-    background: var(--im-header-hover-bg);
+    font-family: var(--font-text, 'Inter', system-ui, sans-serif);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--im-header-text);
+    background: transparent;
     border: 1px solid var(--im-header-border);
-    border-radius: 9px;
-    padding: 7px 11px;
+    border-radius: var(--radius, 2px);
+    padding: 0 10px;
+    height: 38px;
+    min-width: 44px;
     cursor: pointer;
-    transition: color .18s, border-color .18s;
-    min-width: 42px;
+    white-space: nowrap;
 }
-.im-lang:hover { color: var(--im-accent); border-color: var(--im-accent); }
+.im-lang:hover { border-color: var(--im-header-text); }
 
-/* ── Hamburger ── */
+/* The reading-font button (assets/dyslexia-font.js) joins this row. */
+.im-actions { --dys-min-size: 38px; --dys-idle-border: var(--im-header-border); --dys-idle-opacity: 1; --dys-radius: 2px; }
+
+/* ── Menu button ── */
 .im-burger {
     display: none;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    width: 40px; height: 40px;
+    width: 38px; height: 38px;
     background: none;
     border: 1px solid var(--im-header-border);
-    border-radius: 9px;
+    border-radius: var(--radius, 2px);
     cursor: pointer;
     padding: 0 9px;
 }
@@ -231,59 +215,64 @@ html[data-theme="dark"] {
     height: 2px;
     width: 100%;
     background: var(--im-header-text);
-    border-radius: 2px;
-    transition: transform .22s, opacity .22s;
+    transition: transform .2s, opacity .2s;
 }
 .im-header.im-menu-open .im-burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .im-header.im-menu-open .im-burger span:nth-child(2) { opacity: 0; }
 .im-header.im-menu-open .im-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ── Mobile ── */
-@media (max-width: 860px) {
+/* ── Narrow screens ── */
+@media (max-width: 900px) {
+    .im-nav { padding: 0 16px; gap: 10px; }
     .im-burger { display: flex; }
     .im-links {
         position: fixed;
         top: 60px; left: 0; right: 0;
+        height: auto;
         flex-direction: column;
         align-items: stretch;
-        gap: 2px;
+        gap: 0;
         background: var(--im-header-menu-bg);
-        border-bottom: 1px solid var(--im-header-border);
-        box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
-        padding: 10px 14px 16px;
+        border-bottom: 2px solid var(--im-header-text);
+        box-shadow: var(--shadow-xl);
+        padding: 6px 16px 16px;
         max-height: calc(100vh - 60px);
         overflow-y: auto;
-        transform: translateY(-12px);
         opacity: 0;
         visibility: hidden;
-        transition: opacity .2s, transform .2s, visibility .2s;
+        transition: opacity .15s, visibility .15s;
     }
-    .im-header.im-menu-open .im-links {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
-    .im-links a, .im-dropdown-toggle { width: 100%; font-size: 0.95rem; padding: 11px 12px; }
+    .im-header.im-menu-open .im-links { opacity: 1; visibility: visible; }
+    .im-links > li { display: block; border-bottom: 1px solid var(--im-header-border); }
+    .im-links a, .im-dropdown-toggle { width: 100%; font-size: 1rem; padding: 13px 0; min-height: 48px; color: var(--im-header-text); }
     .im-links a.im-active::after { display: none; }
     .im-dropdown {
         position: static;
-        opacity: 1; visibility: visible; transform: none;
-        box-shadow: none; border: none;
-        min-width: 0; padding: 0 0 4px 10px;
+        opacity: 1; visibility: visible;
+        box-shadow: none; border: none; background: none;
+        min-width: 0; padding: 0 0 8px 12px;
         display: none;
     }
     .im-has-dropdown.im-open .im-dropdown { display: block; }
     .im-logo-tagline { display: none; }
 
-    /* Declutter the top bar: theme + language move into the menu, leaving logo + burger */
-    .im-actions .im-theme, .im-actions .im-lang { display: none; }
-    .im-menu-extra {
-        display: flex; align-items: center; gap: 14px;
-        margin-top: 8px; padding: 12px; border-top: 1px solid var(--im-header-border);
-    }
-    .im-menu-extra .im-lang { min-width: 52px; }
+    /* The three-way theme group moves into the menu; the one-button switch takes its place. */
+    .im-actions .im-theme { display: none; }
+    .im-theme-quick { display: flex; width: 38px; height: 38px; }
+    .im-links > li.im-menu-extra { display: flex; align-items: center; gap: 12px; padding: 14px 0 0; border-bottom: 0; }
+    .im-menu-extra .im-lang { display: none; }
 }
-@media (max-width: 380px) {
-    .im-logo-main { font-size: 0.95rem; }
-    .im-logo img { width: 34px; height: 34px; }
+@media (max-width: 420px) {
+    .im-nav { padding: 0 12px; gap: 6px; }
+    .im-actions { gap: 5px; }
+    .im-logo img { display: none; }
+    .im-logo-main { font-size: 0.98rem; }
 }
+@media (max-width: 345px) {
+    .im-logo-main { font-size: 0.86rem; }
+    .im-actions { gap: 4px; }
+}
+
+/* Devanagari has no capitals and its conjuncts break under tracking. */
+html:lang(hi) .im-logo-tagline,
+html:lang(hi) .im-dropdown-label { letter-spacing: 0; font-family: var(--font-text, sans-serif); }

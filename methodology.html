@@ -16,13 +16,13 @@
 <meta name="twitter:title" content="Methodology | How India Lives">
 <meta name="twitter:description" content="Data sources, quality flags, and methodology for the 259 state-level maps of India's diversity.">
 <meta name="twitter:image" content="https://www.impactmojo.in/assets/images/ImpactMojo%20Logo.png">
-<meta name="theme-color" content="#0EA5E9">
+<meta name="theme-color" content="#F8F6F1">
 <link rel="canonical" href="https://howindialives.impactmojo.in/methodology.html">
 <link href="https://www.impactmojo.in/assets/images/favicon.png" rel="icon" type="image/png">
 <link href="https://www.impactmojo.in/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link href="assets/common-header.css" rel="stylesheet">
 <script>
   (function(){var s=localStorage.getItem('im-theme');
@@ -34,7 +34,7 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 :root{}
 html[data-theme="dark"]{}
-h1,h2{font-family:'Amaranth','Inter',system-ui,sans-serif;}
+h1,h2{font-family:var(--font-text);}
 body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--primary-bg);color:var(--text-primary);line-height:1.7;}
 
 /* Header */
@@ -64,7 +64,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 /* Content */
 .content{max-width:800px;margin:0 auto;padding:100px 24px 60px;}
 .content h1{font-family:'Inter',sans-serif;font-size:2rem;font-weight:800;margin-bottom:8px;}
-.content h1 span{background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.content h1 span{color:inherit;}
 .content .lead{color:var(--text-secondary);font-size:1.05rem;margin-bottom:36px;}
 .content h2{font-family:'Inter',sans-serif;font-size:1.3rem;font-weight:700;margin:40px 0 12px;padding-top:20px;border-top:1px solid var(--border-color);}
 .content h2:first-of-type{border-top:none;padding-top:0;}
@@ -103,6 +103,8 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
     .source-table th,.source-table td{padding:8px 10px;}
 }
 </style>
+<!-- The shared look. Linked after the page styles on purpose: see the note at the top of the file. -->
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 
@@ -122,6 +124,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 <h2>Data sources</h2>
 <p>The maps draw primarily on seven source families:</p>
 
+<div class="table-scroll" tabindex="0" role="region" aria-label="Data sources table">
 <table class="source-table">
     <thead>
         <tr><th>Source</th><th>Data Year</th><th>Coverage</th><th>~Maps</th></tr>
@@ -136,6 +139,7 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
         <tr><td><strong>Other</strong></td><td>Various</td><td>IMD, CGWB, CPCB, FSI, ECI, ADR, TRAI, RBI, NASA VIIRS, NACO, Pew, CSDS, SFLC.in, IHDS-II, NABARD, Dharmaviki/IIT-B</td><td>~23</td></tr>
     </tbody>
 </table>
+</div>
 
 <p><strong>Note on NCRB data:</strong> NCRB data counts <em>registered cases</em> and does not measure incidence. States with high crime registration rates may have more responsive police rather than less safety. States with low rates may suppress reporting. This caveat is flagged on every NCRB-sourced map.</p>
 
@@ -199,6 +203,6 @@ html[data-theme="dark"] .theme-btn:hover{background:rgba(0,0,0,0.1);color:#0F172
 
 <!-- Theme + navigation handled by the shared common header -->
 <script src="assets/common-header.js" defer></script>
-<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="8px" defer></script>
+<script src="assets/dyslexia-font.js" data-accent="var(--im-accent)" data-radius="2px" defer></script>
 </body>
 </html>
